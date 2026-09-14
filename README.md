@@ -180,10 +180,18 @@ across methods.
 
 MIT — see [LICENSE](LICENSE).
 
-Third-party artifacts keep their original terms: MINE-1 and
-[kg-gen](https://github.com/stair-lab/kg-gen) (MIT),
-[RAKG](https://github.com/KnowledgeXLab/RAKG) (MIT),
-[Re-DocRED](https://github.com/tonytan48/Re-DocRED) and DocRED (MIT),
-SciERC (CC BY 4.0). The upstream RAKG and kg-gen repositories are referenced rather than
-vendored; see [`baselines/rakg/howtouse.md`](baselines/rakg/howtouse.md) and
+Third-party artifacts keep their own terms:
+
+- [kg-gen](https://github.com/stair-lab/kg-gen) — MIT (declared in its `pyproject.toml`)
+- [RAKG](https://github.com/KnowledgeXLab/RAKG) — MIT
+- [Re-DocRED](https://github.com/tonytan48/Re-DocRED) and
+  [DocRED](https://github.com/thunlp/DocRED) — MIT
+- [SciERC](http://nlp.cs.washington.edu/sciIE/) and the MINE-1 benchmark
+  ([essays](https://huggingface.co/datasets/kyssen/kg-gen-evaluation-essays),
+  [answers](https://huggingface.co/datasets/kyssen/kg-gen-evaluation-answers)) — no
+  license is declared at source. They are redistributed here for research
+  reproducibility; check with the original authors before any other use.
+
+The upstream RAKG and kg-gen repositories are referenced rather than vendored; see
+[`baselines/rakg/howtouse.md`](baselines/rakg/howtouse.md) and
 [`baselines/kggen/howtouse.md`](baselines/kggen/howtouse.md).
