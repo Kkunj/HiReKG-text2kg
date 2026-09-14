@@ -43,17 +43,6 @@ an object is a phrase like *"a tubular mouthpart called a proboscis"*, the entit
 inside it stay trapped in a string instead of becoming nodes. The graph fragments into
 disconnected per-subject stars.
 
-**Object resolution** is the fix. It scans every object for entities from the extracted
-set and rewrites the triple so each one becomes a real node:
-
-![Object resolution merges per-subject stars into a connected graph](docs/images/obj_res.png)
-
-Most cases are handled deterministically — the text before the entity is folded into the
-relation, so `(larva, is called, a caterpillar)` becomes `(larva, is called, caterpillar)`.
-When an object mentions several entities at once, the model picks a decomposition
-strategy: **Hub** for parallel lists, **Chain** for sequential connectives, **Nested**
-for appositives. Every rewrite is validated, and reverts to the original if it fails.
-
 ## The pipeline
 
 ```
