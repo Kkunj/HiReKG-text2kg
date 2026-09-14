@@ -1,0 +1,55 @@
+{
+  "doc_id": "doc_66",
+  "facts": [
+    "The paper uses information redundancy in multilingual input.",
+    "The paper uses information redundancy to correct errors in machine translation.",
+    "The paper uses information redundancy to improve the quality of multilingual summaries.",
+    "The paper considers the case of multi-document summarization.",
+    "The input documents are in Arabic.",
+    "The output summary is in English.",
+    "Information that makes it to a summary appears in many different lexical-syntactic forms in the input documents.",
+    "The use of multiple machine translation systems provides yet more redundancy.",
+    "The use of multiple machine translation systems yields different ways to realize information in English.",
+    "The paper demonstrates how errors in the machine translations of the input Arabic documents can be corrected.",
+    "Machine translations of the input Arabic documents contain errors.",
+    "Errors in machine translations are corrected by identifying and generating from redundancy.",
+    "The method focuses on noun phrases.",
+    "The input to the approach is multilingual.",
+    "Information redundancy exists in multilingual input."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11
+  ],
+  "multiple-entity": [
+    8,
+    9,
+    10
+  ],
+  "ambiguous": [
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "information redundancy in multilingual input",
+    "machine translation",
+    "multilingual summaries",
+    "multi-document summarization",
+    "Arabic",
+    "English",
+    "lexical-syntactic forms",
+    "machine translation systems",
+    "machine translations",
+    "Arabic documents"
+  ]
+}

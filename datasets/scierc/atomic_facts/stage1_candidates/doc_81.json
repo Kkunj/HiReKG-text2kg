@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_81",
+  "facts": [
+    {
+      "fact": "The paper presents a novel representation for three-dimensional objects.",
+      "supporting_span": "This paper presents a novel representation for three-dimensional objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The novel representation uses affine-invariant image patches.",
+      "supporting_span": "in terms of affine-invariant image patches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The novel representation uses spatial relationships of affine-invariant image patches.",
+      "supporting_span": "and their spatial relationships",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Multi-view constraints are associated with groups of patches.",
+      "supporting_span": "Multi-view constraints associated with groups of patches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Multi-view constraints associated with groups of patches are combined with a normalized representation of appearance.",
+      "supporting_span": "Multi-view constraints associated with groups of patches are combined with a normalized representation of their appearance",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The combination of multi-view constraints and a normalized representation guides matching.",
+      "supporting_span": "Multi-view constraints associated with groups of patches are combined with a normalized representation of their appearance to guide matching and reconstruction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The combination of multi-view constraints and a normalized representation guides reconstruction.",
+      "supporting_span": "Multi-view constraints associated with groups of patches are combined with a normalized representation of their appearance to guide matching and reconstruction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach allows the acquisition of true three-dimensional affine models from multiple images.",
+      "supporting_span": "allowing the acquisition of true three-dimensional affine and Euclidean models from multiple images",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach allows the acquisition of Euclidean models from multiple images.",
+      "supporting_span": "allowing the acquisition of true three-dimensional affine and Euclidean models from multiple images",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach allows recognition of true three-dimensional affine and Euclidean models in a single photograph.",
+      "supporting_span": "allowing the acquisition of true three-dimensional affine and Euclidean models from multiple images and their recognition in a single photograph",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The single photograph for recognition can be taken from an arbitrary viewpoint.",
+      "supporting_span": "in a single photograph taken from an arbitrary viewpoint",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach does not require a separate segmentation stage.",
+      "supporting_span": "The proposed approach does not require a separate segmentation stage",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach is applicable to cluttered scenes.",
+      "supporting_span": "The proposed approach does not require a separate segmentation stage and is applicable to cluttered scenes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Preliminary modeling results are presented.",
+      "supporting_span": "Preliminary modeling and recognition results are presented",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Preliminary recognition results are presented.",
+      "supporting_span": "Preliminary modeling and recognition results are presented",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "head": "Microsoft Studios",
+    "relation": "product or material produced",
+    "tail": "Microsoft Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Xbox Live Arcade",
+    "relation": "platform",
+    "tail": "Xbox 360",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Xbox Live Arcade",
+    "relation": "platform",
+    "tail": "Xbox One",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "publication date",
+    "tail": "2012",
+    "relation_code": "P577"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "publisher",
+    "tail": "Microsoft Studios",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "developer",
+    "tail": "Tequila Works",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "Microsoft Windows",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "Xbox 360",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "Xbox Live Arcade",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "Windows",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "PlayStation 4",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "platform",
+    "tail": "Xbox One",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Xbox One",
+    "relation": "follows",
+    "tail": "Xbox 360",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Best Debut Game",
+    "relation": "instance of",
+    "tail": "British Academy Games Awards",
+    "relation_code": "P31"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "narrative location",
+    "tail": "Seattle",
+    "relation_code": "P840"
+  },
+  {
+    "head": "Prince of Persia",
+    "relation": "publication date",
+    "tail": "the 1980s",
+    "relation_code": "P577"
+  },
+  {
+    "head": "Deadlight",
+    "relation": "publisher",
+    "tail": "Deep Silver",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Xbox 360",
+    "relation": "followed by",
+    "tail": "Xbox One",
+    "relation_code": "P156"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "Embedded_Visual_Basic",
+  "facts": [
+    {
+      "fact": "Embedded Visual Basic or eVB is an implementation of Microsoft Visual Basic.",
+      "supporting_span": "Embedded Visual Basic or eVB , is an implementation of Microsoft Visual Basic",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Embedded Visual Basic is geared towards generating programmes for embedded systems.",
+      "supporting_span": "is geared towards generating programmes for embedded systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Embedded Visual Basic is generally for use under Windows CE.",
+      "supporting_span": "generally for use under Windows CE",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The tools themselves run on desktop operating systems such as Windows 98, Windows NT, Windows XP and subsequent.",
+      "supporting_span": "The tools themselves run on desktop operating systems such as Windows 98 , Windows NT , Windows XP and subsequent .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The tools are capable of compiling executables for Windows NT Embedded.",
+      "supporting_span": "The tools are also capable of compiling executables for Windows NT Embedded as well .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Embedded Visual Basic is available from Microsoft.",
+      "supporting_span": "Embedded Visual Basic is available from Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Embedded Visual C++ ( eVC++ ) is available from Microsoft.",
+      "supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Embedded Visual J++ ( eVJ++ ) is available from Microsoft.",
+      "supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ ) , which is discussed in the Wikipedia article about Microsoft Visual C++ , and Embedded Visual J++ ( eVJ++ )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "ActiveSync is a centrally important Windows CE-related tool.",
+      "supporting_span": "A centrally important Windows CE - related tool is ActiveSync",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There is not an Embedded Visual InterDev version.",
+      "supporting_span": "There is not an Embedded Visual InterDev version",
+      "span_mismatch": false
+    },
+    {
+      "fact": "MSDN or Visual Source Safe have not been ported to Windows CE.",
+      "supporting_span": "nor have MSDN or Visual Source Safe been ported to Windows CE .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation.",
+      "supporting_span": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Windows Script Host implementation is a non-default install.",
+      "supporting_span": "which is a non - default install",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Version 3 of the embedded Visual Basic, Visual J++, and Visual C++ tools approximate the language and implementation of Visual Basic 6.0, Visual J++ 6.0, and Visual C++ 6.0.",
+      "supporting_span": "Version 3 of the embedded Visual Basic , Visual J++ , and Visual C++ tools approximate the language and implementation of Visual Basic 6.0 , Visual J++ 6.0 , and Visual C++ 6.0 .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "One Basic development tool which can be run on board the Windows CE machines themselves is the third-party NS BASIC.",
+      "supporting_span": "One Basic development tool which can be run on board the Windows CE machines themselves is the third - party NS BASIC",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "head": "computational efficiency",
+    "relation": "evaluate for",
+    "tail": "Stochastic attention-based models"
+  },
+  {
+    "head": "intractable posterior inference",
+    "relation": "conjunction",
+    "tail": "stochastic gradient estimates"
+  },
+  {
+    "head": "Borrowing techniques",
+    "relation": "used for",
+    "tail": "deep generative models"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "stochastic attention networks"
+  },
+  {
+    "head": "stochastic attention networks",
+    "relation": "used for",
+    "tail": "posterior inference"
+  },
+  {
+    "head": "training time",
+    "relation": "evaluate for",
+    "tail": "method"
+  },
+  {
+    "head": "training time",
+    "relation": "feature of",
+    "tail": "stochastic attention networks"
+  },
+  {
+    "head": "image classification",
+    "relation": "evaluate for",
+    "tail": "method"
+  },
+  {
+    "head": "image classification",
+    "relation": "conjunction",
+    "tail": "caption generation"
+  },
+  {
+    "head": "caption generation",
+    "relation": "evaluate for",
+    "tail": "method"
+  }
+]

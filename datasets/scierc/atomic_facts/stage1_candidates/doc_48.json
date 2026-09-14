@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_48",
+  "facts": [
+    {
+      "fact": "Interpreting metaphors is an integral and inescapable process in human understanding of natural language.",
+      "supporting_span": "Interpreting metaphors is an integral and inescapable process in human understanding of natural language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interpreting metaphors is an integral process in human understanding of natural language.",
+      "supporting_span": "Interpreting metaphors is an integral and inescapable process in human understanding of natural language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interpreting metaphors is an inescapable process in human understanding of natural language.",
+      "supporting_span": "Interpreting metaphors is an integral and inescapable process in human understanding of natural language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A method of analyzing metaphors is based on the existence of a small number of generalized metaphor mappings.",
+      "supporting_span": "a method of analyzing metaphors based on the existence of a small number of generalized metaphor mappings .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A small number of generalized metaphor mappings exist.",
+      "supporting_span": "the existence of a small number of generalized metaphor mappings .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each generalized metaphor contains a recognition network.",
+      "supporting_span": "Each generalized metaphor contains a recognition network , a basic mapping , additional transfer mappings , and an implicit intention component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each generalized metaphor contains a basic mapping.",
+      "supporting_span": "Each generalized metaphor contains a recognition network , a basic mapping , additional transfer mappings , and an implicit intention component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each generalized metaphor contains additional transfer mappings.",
+      "supporting_span": "Each generalized metaphor contains a recognition network , a basic mapping , additional transfer mappings , and an implicit intention component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each generalized metaphor contains an implicit intention component.",
+      "supporting_span": "Each generalized metaphor contains a recognition network , a basic mapping , additional transfer mappings , and an implicit intention component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Metaphor interpretation is reduced from a reconstruction to a recognition task.",
+      "supporting_span": "reduces metaphor interpretation from a reconstruction to a recognition task .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Metaphor interpretation is reduced to a recognition task.",
+      "supporting_span": "reduces metaphor interpretation from a reconstruction to a recognition task .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A method of analyzing metaphors is discussed.",
+      "supporting_span": "discusses a method of analyzing metaphors",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Implications towards automating certain aspects of language learning are discussed.",
+      "supporting_span": "Implications towards automating certain aspects of language learning are also discussed .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interpreting metaphors is a process in human understanding of natural language.",
+      "supporting_span": "Interpreting metaphors is an integral and inescapable process in human understanding of natural language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The number of generalized metaphor mappings is small.",
+      "supporting_span": "a small number of generalized metaphor mappings",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,59 @@
+{
+  "doc_id": "doc_70",
+  "facts": [
+    "Terminology structuring has been the subject of much work in the context of terms extracted from corpora.",
+    "A set of terms can be extracted from a corpus.",
+    "Terminology structuring identifies hierarchical relations between terms.",
+    "The present paper focuses on terminology structuring by lexical methods.",
+    "Lexical methods match terms on the basis of their content words.",
+    "Lexical methods take morphological variants into account.",
+    "Experiments are done on a 'flat' list of terms.",
+    "The 'flat' list of terms is obtained from an originally hierarchically-structured terminology.",
+    "The originally hierarchically-structured terminology is the French version of the US National Library of Medicine MeSH thesaurus.",
+    "The study compares the lexically-induced relations with the original MeSH relations.",
+    "A quantitative evaluation of congruence is done through recall and precision metrics.",
+    "A qualitative, human analysis is performed of the 'new' relations not present in the MeSH.",
+    "The analysis shows the limits of the lexical structuring method.",
+    "The analysis reveals some specific structuring choices and naming conventions made by the MeSH designers.",
+    "The analysis emphasizes ontological commitments that can not be left to automatic structuring."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    3,
+    5,
+    8,
+    9
+  ],
+  "ambiguous": [
+    6
+  ],
+  "entities": [
+    "Terminology structuring",
+    "corpus",
+    "hierarchical ( or other types of ) relations",
+    "terminology structuring",
+    "lexical methods",
+    "morphological variants",
+    "hierarchically-structured terminology",
+    "US National Library of Medicine MeSH thesaurus",
+    "lexically-induced relations",
+    "MeSH relations",
+    "recall and precision metrics",
+    "MeSH",
+    "lexical structuring method",
+    "automatic structuring"
+  ]
+}

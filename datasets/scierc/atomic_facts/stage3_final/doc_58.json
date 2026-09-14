@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_58",
+  "facts": [
+    "GLOSSER is designed to support reading and learning to read in a foreign language.",
+    "GLOSSER is designed to support reading in a foreign language.",
+    "GLOSSER is designed to support learning to read in a foreign language.",
+    "There are four language pairs currently supported by GLOSSER.",
+    "English-Bulgarian is supported by GLOSSER.",
+    "English-Estonian is supported by GLOSSER.",
+    "English-Hungarian is supported by GLOSSER.",
+    "French-Dutch is supported by GLOSSER.",
+    "GLOSSER is operational on UNIX platforms.",
+    "GLOSSER is operational on Windows '95 platforms.",
+    "GLOSSER has undergone a pilot user-study.",
+    "A demonstration (in UNIX) for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis (ICALL).",
+    "A demonstration (in UNIX) for Applied Natural Language Processing includes disambiguated morphological analysis.",
+    "A demonstration (in UNIX) for Applied Natural Language Processing includes lemmatized indexing for an aligned bilingual corpus of word examples.",
+    "Lemmatized indexing is for an aligned bilingual corpus of word examples."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    3,
+    8,
+    9
+  ],
+  "multiple-entity": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "GLOSSER",
+    "reading and learning",
+    "English-Bulgarian",
+    "English-Estonian",
+    "English-Hungarian",
+    "French-Dutch",
+    "UNIX and Windows '95 platforms",
+    "user-study",
+    "Applied Natural Language Processing",
+    "intelligent computer-assisted morphological analysis ( ICALL )",
+    "disambiguated morphological analysis",
+    "lemmatized indexing",
+    "aligned bilingual corpus"
+  ]
+}

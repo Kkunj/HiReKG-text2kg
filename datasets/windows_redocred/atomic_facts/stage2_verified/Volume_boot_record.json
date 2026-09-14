@@ -1,0 +1,157 @@
+{
+  "doc_id": "Volume_boot_record",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A volume boot record ( VBR ) is a type of boot sector introduced by the IBM Personal Computer.",
+      "generator_supporting_span": "A volume boot record ( VBR ) ( also known as a volume boot sector , a partition boot record or a partition boot sector ) is a type of boot sector introduced by the IBM Personal Computer .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A volume boot record ( VBR ) ( also known as a volume boot sector , a partition boot record or a partition boot sector ) is a type of boot sector introduced by the IBM Personal Computer .",
+      "verifier_reasoning": "The source text's opening sentence directly states that a volume boot record (VBR) is a type of boot sector and that it was introduced by the IBM Personal Computer.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "A volume boot record ( VBR ) is also known as a volume boot sector.",
+      "generator_supporting_span": "A volume boot record ( VBR ) ( also known as a volume boot sector , a partition boot record or a partition boot sector )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A volume boot record ( VBR ) ( also known as a volume boot sector , a partition boot record or a partition boot sector ) is a type of boot sector introduced by the IBM Personal Computer .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that a volume boot record (VBR) is 'also known as a volume boot sector'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "A volume boot record ( VBR ) may be found on a partitioned data storage device or an unpartitioned device.",
+      "generator_supporting_span": "It may be found on a partitioned data storage device , such as a hard disk , or an unpartitioned device , such as a floppy disk , and contains machine code for bootstrapping programs ( usually , but not necessarily , operating systems ) stored in other parts of the device .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It may be found on a partitioned data storage device , such as a hard disk , or an unpartitioned device , such as a floppy disk , and contains machine code for bootstrapping programs ( usually , but not necessarily , operating systems ) stored in other parts of the device .",
+      "verifier_reasoning": "The source text explicitly states that a volume boot record (VBR) \"may be found on a partitioned data storage device... or an unpartitioned device\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "A volume boot record ( VBR ) contains machine code for bootstrapping programs stored in other parts of the device.",
+      "generator_supporting_span": "and contains machine code for bootstrapping programs ( usually , but not necessarily , operating systems ) stored in other parts of the device .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It may be found on a partitioned data storage device , such as a hard disk , or an unpartitioned device , such as a floppy disk , and contains machine code for bootstrapping programs ( usually , but not necessarily , operating systems ) stored in other parts of the device .",
+      "verifier_reasoning": "The source text explicitly states that a volume boot record (VBR) \"contains machine code for bootstrapping programs... stored in other parts of the device.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "On non-partitioned storage devices, a volume boot record ( VBR ) is the first sector of the device.",
+      "generator_supporting_span": "On non - partitioned storage devices , it is the first sector of the device .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "On non - partitioned storage devices , it is the first sector of the device .",
+      "verifier_reasoning": "The source text explicitly states that on non-partitioned storage devices, the volume boot record (referred to as 'it' in the sentence) is the first sector of the device.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "On partitioned devices, a volume boot record ( VBR ) is the first sector of an individual partition on the device.",
+      "generator_supporting_span": "On partitioned devices , it is the first sector of an individual partition on the device , with the first sector of the entire device being a Master Boot Record ( MBR ) containing the partition table .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "On partitioned devices , it is the first sector of an individual partition on the device , with the first sector of the entire device being a Master Boot Record ( MBR ) containing the partition table .",
+      "verifier_reasoning": "The source text explicitly states the location of a volume boot record on a partitioned device. It says, \"On partitioned devices, it is the first sector of an individual partition on the device,\" where \"it\" refers to the volume boot record mentioned in previous sentences.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The first sector of the entire device is a Master Boot Record ( MBR ) containing the partition table.",
+      "generator_supporting_span": "with the first sector of the entire device being a Master Boot Record ( MBR ) containing the partition table .",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text specifies that the first sector of an entire device is a Master Boot Record (MBR) only on partitioned devices. For non-partitioned devices, the source states that the Volume Boot Record (VBR) is the first sector, making the candidate fact an unsupported generalization.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The code in volume boot records is invoked either directly by the machine's firmware or indirectly by code in the master boot record or a boot manager.",
+      "generator_supporting_span": "The code in volume boot records is invoked either directly by the machine 's firmware or indirectly by code in the master boot record or a boot manager .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The code in volume boot records is invoked either directly by the machine 's firmware or indirectly by code in the master boot record or a boot manager .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact, verbatim match for the candidate fact, explicitly stating how the code in volume boot records is invoked.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Invoking a VBR via a boot manager is known as chain loading.",
+      "generator_supporting_span": "Invoking a VBR via a boot manager is known as chain loading .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Invoking a VBR via a boot manager is known as chain loading .",
+      "verifier_reasoning": "The source text explicitly defines the process of invoking a VBR through a boot manager. The candidate fact is a direct, verbatim quote of this definition from the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Some dual-boot systems, such as NTLDR, take copies of the bootstrap code that individual operating systems install into a single partition's VBR.",
+      "generator_supporting_span": "Some dual - boot systems , such as NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 ) , take copies of the bootstrap code that individual operating systems install into a single partition 's VBR",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Some dual - boot systems , such as NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 ) , take copies of the bootstrap code that individual operating systems install into a single partition 's VBR and store them in disc files",
+      "verifier_reasoning": "The source text explicitly states that some dual-boot systems, using NTLDR as an example, take copies of the bootstrap code that operating systems install into a partition's VBR.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Some dual-boot systems, such as NTLDR, load the relevant VBR content from file after the boot loader has asked the user which operating system to bootstrap.",
+      "generator_supporting_span": "Some dual - boot systems , such as NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 ) , take copies of the bootstrap code that individual operating systems install into a single partition 's VBR and store them in disc files , loading the relevant VBR content from file after the boot loader has asked the user which operating system to bootstrap .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Some dual - boot systems , such as NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 ) , take copies of the bootstrap code that individual operating systems install into a single partition 's VBR and store them in disc files , loading the relevant VBR content from file after the boot loader has asked the user which operating system to bootstrap .",
+      "verifier_reasoning": "The source text directly states that certain dual-boot systems, like NTLDR, perform the action of loading VBR content from a file after prompting the user to choose an operating system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "NTLDR is the boot loader for all releases of Microsoft's Windows NT-derived operating systems up to and including Windows XP and Windows Server 2003.",
+      "generator_supporting_span": "NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "NTLDR ( the boot loader for all releases of Microsoft 's Windows NT - derived operating systems up to and including Windows XP and Windows Server 2003 )",
+      "verifier_reasoning": "The source text explicitly defines NTLDR in a parenthetical clause, stating it is the boot loader for the exact range of operating systems mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "In Windows Vista, Windows Server 2008 and newer versions, NTLDR was replaced.",
+      "generator_supporting_span": "In Windows Vista , Windows Server 2008 and newer versions , NTLDR was replaced ;",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In Windows Vista , Windows Server 2008 and newer versions , NTLDR was replaced ; the boot - loader functionality is instead provided by two new components : WINLOAD.EXE and the Windows Boot Manager .",
+      "verifier_reasoning": "The source text explicitly states that in Windows Vista, Windows Server 2008, and newer versions, the NTLDR boot loader was replaced by two new components.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "In Windows Vista, Windows Server 2008 and newer versions, the boot-loader functionality is instead provided by two new components: WINLOAD.EXE and the Windows Boot Manager.",
+      "generator_supporting_span": "In Windows Vista , Windows Server 2008 and newer versions , NTLDR was replaced ; the boot - loader functionality is instead provided by two new components : WINLOAD.EXE and the Windows Boot Manager .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In Windows Vista , Windows Server 2008 and newer versions , NTLDR was replaced ; the boot - loader functionality is instead provided by two new components : WINLOAD.EXE and the Windows Boot Manager .",
+      "verifier_reasoning": "The source text explicitly states that in Windows Vista, Windows Server 2008, and newer versions, the boot-loader functionality is provided by two new components, which it names as WINLOAD.EXE and the Windows Boot Manager. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "In file systems such as FAT12, FAT16, FAT32, HPFS and NTFS, the VBR also contains a BIOS Parameter Block ( BPB ) that specifies the location and layout of the principal on-disk data structures for the file system.",
+      "generator_supporting_span": "In file systems such as FAT12 ( except for in DOS 1.x ) , FAT16 , FAT32 , HPFS and NTFS , the VBR also contains a BIOS Parameter Block ( BPB ) that specifies the location and layout of the principal on - disk data structures for the file system .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In file systems such as FAT12 ( except for in DOS 1.x ) , FAT16 , FAT32 , HPFS and NTFS , the VBR also contains a BIOS Parameter Block ( BPB ) that specifies the location and layout of the principal on - disk data structures for the file system .",
+      "verifier_reasoning": "The source text explicitly states that in the listed file systems (FAT12, FAT16, FAT32, HPFS, and NTFS), the VBR contains a BIOS Parameter Block (BPB) that serves the exact function described in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

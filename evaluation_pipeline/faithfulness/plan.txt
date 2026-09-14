@@ -1,0 +1,135 @@
+# Faithfulness Evaluation Pipeline for KG Extraction — Implementation Spec
+
+## 1. Goal
+
+Compute a **faithfulness score** for a predicted KG against its source text:
+
+> *What fraction of predicted triples are actually supported by the source text?*
+
+This is the precision counterpart to MINE-style recall. High faithfulness = the extractor isn't hallucinating triples.
+
+**Output:** Per triple → `SUPPORTED` / `CONTRADICTED` / `NOT_STATED`. Aggregated to a faithfulness score per document and per dataset.
+
+---
+
+## 2. Inputs
+
+```
+- source_text: str
+- predicted_triples: List[Tuple[subject, predicate, object]]
+
+```
+
+---
+
+## 3. Step-by-Step Pipeline
+
+### Step 1: Verbalize each triple into a statement
+
+Convert `(subject, predicate, object)` into a self-contained English sentence using an LLM with `temperature=0`.
+
+- Example: `(Einstein, bornIn, Ulm)` → `"Einstein was born in Ulm."`
+- Preserve exact entity names; no pronouns; no paraphrasing of entities.
+- Skip triples with empty/null entities, log them as `MALFORMED`.
+
+### Step 2: Retrieve relevant text context per statement
+
+```
+if word_count(source_text) < 3000:
+    context = source_text
+else:
+    chunks = split into ~300-word paragraph-aligned chunks with 50-word overlap
+    embed chunks (cache per doc_id) using all-MiniLM-L6-v2
+    embed statement
+    context = top-5 chunks by cosine similarity, joined in document order
+```
+
+Cache chunk embeddings per document — don't re-embed for every triple.
+
+### Step 3: LLM judge entailment
+
+For each `(context, statement)` pair, send to an LLM with a pinned model version and `temperature=0`. One statement per call.
+
+The judge must:
+- Use only the text, not world knowledge
+- Quote the supporting span (if any) **before** giving a verdict
+- Return strict JSON:
+
+```json
+{
+  "supporting_span": "<exact quote or null>",
+  "reasoning": "<1-2 sentences>",
+  "verdict": "SUPPORTED" | "CONTRADICTED" | "NOT_STATED"
+}
+```
+
+If JSON parse fails after one retry, log as `JUDGE_ERROR`.
+
+### Step 4: Aggregate
+
+**Per document:**
+```
+faithfulness = n_supported / (n_total - n_malformed - n_judge_errors)
+contradiction_rate = n_contradicted / n_total
+not_stated_rate = n_not_stated / n_total
+```
+
+**Per dataset:** Mean and std of per-document faithfulness (don't micro-average — biases toward larger KGs).
+
+---
+
+## 4. What to Log
+
+**Per triple:**
+```json
+{
+  "doc_id": "...",
+  "triple": ["subject", "predicate", "object"],
+  "statement": "...",
+  "retrieved_chunk_ids": [2, 5, 7],
+  "verdict": "SUPPORTED",
+  "supporting_span": "...",
+  "reasoning": "...",
+  "model_version": "claude-opus-4-5-20250101",
+  "timestamp": "..."
+}
+```
+
+**Per document:** Counts of each verdict class, faithfulness score, contradiction rate.
+
+**Per run:** Config hash (model versions, k, chunk size) so results are traceable.
+
+---
+
+## 5. Project Structure
+
+```
+faithfulness_eval/
+├── config.yaml          # model versions, k, chunk size
+├── prompts/
+│   ├── verbalizer.txt
+│   └── judge.txt
+├── src/
+│   ├── verbalize.py     # Step 1
+│   ├── retrieve.py      # Step 2 (chunk + embed + top-k)
+│   ├── judge.py         # Step 3
+│   ├── aggregate.py     # Step 4
+│   └── pipeline.py      # orchestrator
+├── data/
+│   ├── inputs/          # source texts + predicted KGs ( No need of this, if we are reading from other source ).
+│   └── outputs/         # per-doc audit logs + aggregates
+└── cache/
+    └── embeddings/      # cached chunk embeddings per doc_id
+```
+
+---
+
+## 6. Critical Implementation Notes
+
+1. **Pin model versions exactly** — no floating tags.
+2. **Cache embeddings per document** — embed chunks once, reuse across triples.
+3. **One statement per judge call** — no batching (avoids order effects).
+4. **Reasoning before verdict** in the judge output — forces grounded decisions.
+5. **Track malformed triples and judge errors separately** — don't silently dump them into NOT_STATED.
+6. **Report mean ± std across documents**, not a single aggregate number.
+7. **Idempotency:** if `(doc_id, triple, config_hash)` has a cached result, skip it.

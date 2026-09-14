@@ -1,0 +1,852 @@
+{
+  "metadata": {
+    "timestamp": "20260525_011250",
+    "scan_wall_time_seconds": 9.89,
+    "excluded_experiments": [
+      "kggen-graphs-gpt-4o"
+    ],
+    "token_line_pattern": "\\[(?P<provider>[A-Za-z0-9_\\-]+)\\]\\s+Tokens\\s*[-:]\\s*Input[:\\s]+(?P<inp>\\d+)[,\\s]+Output[:\\s]+(?P<out>\\d+)",
+    "log_file_glob": "*.log (recursive)"
+  },
+  "approaches": {
+    "kggen": {
+      "experiments": {
+        "kggen_mine_qwen3_8b": {
+          "experiment_name": "kggen_mine_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_mine_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 103,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 482,
+          "total_input_tokens": 268804,
+          "total_output_tokens": 1302810,
+          "total_tokens": 1571614,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 482,
+              "input_tokens": 268804,
+              "output_tokens": 1302810,
+              "total_tokens": 1571614
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_mine_qwen3_14b": {
+          "experiment_name": "kggen_mine_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_mine_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 101,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 502,
+          "total_input_tokens": 291389,
+          "total_output_tokens": 985139,
+          "total_tokens": 1276528,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 502,
+              "input_tokens": 291389,
+              "output_tokens": 985139,
+              "total_tokens": 1276528
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_redocred_gpt4o": {
+          "experiment_name": "kggen_redocred_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_redocred_gpt4o",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 38,
+          "total_input_tokens": 18329,
+          "total_output_tokens": 12795,
+          "total_tokens": 31124,
+          "by_provider": {
+            "OpenAI": {
+              "calls": 38,
+              "input_tokens": 18329,
+              "output_tokens": 12795,
+              "total_tokens": 31124
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_redocred_qwen3_14b": {
+          "experiment_name": "kggen_redocred_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_redocred_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 35,
+          "total_input_tokens": 17586,
+          "total_output_tokens": 64720,
+          "total_tokens": 82306,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 35,
+              "input_tokens": 17586,
+              "output_tokens": 64720,
+              "total_tokens": 82306
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_redocred_qwen3_8b": {
+          "experiment_name": "kggen_redocred_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_redocred_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 36,
+          "total_input_tokens": 17345,
+          "total_output_tokens": 93953,
+          "total_tokens": 111298,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 36,
+              "input_tokens": 17345,
+              "output_tokens": 93953,
+              "total_tokens": 111298
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_scierc_gpt4o": {
+          "experiment_name": "kggen_scierc_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_scierc_gpt4o",
+          "status": "ok",
+          "log_files_scanned": 101,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 262,
+          "total_input_tokens": 82641,
+          "total_output_tokens": 58579,
+          "total_tokens": 141220,
+          "by_provider": {
+            "OpenAI": {
+              "calls": 262,
+              "input_tokens": 82641,
+              "output_tokens": 58579,
+              "total_tokens": 141220
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_scierc_qwen3_8b": {
+          "experiment_name": "kggen_scierc_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_scierc_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 104,
+          "log_files_with_token_lines": 101,
+          "llm_calls": 229,
+          "total_input_tokens": 66988,
+          "total_output_tokens": 526583,
+          "total_tokens": 593571,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 229,
+              "input_tokens": 66988,
+              "output_tokens": 526583,
+              "total_tokens": 593571
+            }
+          },
+          "bad_files": []
+        },
+        "kggen_scierc_qwen3_14b": {
+          "experiment_name": "kggen_scierc_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\kggen\\experiments\\kggen_scierc_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 101,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 249,
+          "total_input_tokens": 76631,
+          "total_output_tokens": 379782,
+          "total_tokens": 456413,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 249,
+              "input_tokens": 76631,
+              "output_tokens": 379782,
+              "total_tokens": 456413
+            }
+          },
+          "bad_files": []
+        }
+      },
+      "aggregate": {
+        "experiments_count": 8,
+        "experiments_with_data": 8,
+        "experiments_missing": [],
+        "experiments_no_token_logs": [],
+        "llm_calls": 1833,
+        "total_input_tokens": 839713,
+        "total_output_tokens": 3424361,
+        "total_tokens": 4264074,
+        "by_provider": {
+          "SelfHosted": {
+            "calls": 1533,
+            "input_tokens": 738743,
+            "output_tokens": 3352987,
+            "total_tokens": 4091730
+          },
+          "OpenAI": {
+            "calls": 300,
+            "input_tokens": 100970,
+            "output_tokens": 71374,
+            "total_tokens": 172344
+          }
+        }
+      }
+    },
+    "rakg": {
+      "experiments": {
+        "RAKG_MINE_gpt-4o": {
+          "experiment_name": "RAKG_MINE_gpt-4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\RAKG_MINE_gpt-4o",
+          "status": "no_token_logs",
+          "log_files_scanned": 2,
+          "log_files_with_token_lines": 0,
+          "llm_calls": 0,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "total_tokens": 0,
+          "by_provider": {},
+          "bad_files": []
+        },
+        "rakg_mine_qwen3_8b": {
+          "experiment_name": "rakg_mine_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_mine_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 106,
+          "log_files_with_token_lines": 103,
+          "llm_calls": 26363,
+          "total_input_tokens": 8396677,
+          "total_output_tokens": 12557159,
+          "total_tokens": 20953836,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 26363,
+              "input_tokens": 8396677,
+              "output_tokens": 12557159,
+              "total_tokens": 20953836
+            }
+          },
+          "bad_files": []
+        },
+        "rakg_mine_qwen3_14b": {
+          "experiment_name": "rakg_mine_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_mine_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 104,
+          "log_files_with_token_lines": 102,
+          "llm_calls": 14762,
+          "total_input_tokens": 4781101,
+          "total_output_tokens": 7258715,
+          "total_tokens": 12039816,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 14762,
+              "input_tokens": 4781101,
+              "output_tokens": 7258715,
+              "total_tokens": 12039816
+            }
+          },
+          "bad_files": []
+        },
+        "rakg_redocred_gpt4o": {
+          "experiment_name": "rakg_redocred_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_gpt4o",
+          "status": "no_token_logs",
+          "log_files_scanned": 1,
+          "log_files_with_token_lines": 0,
+          "llm_calls": 0,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "total_tokens": 0,
+          "by_provider": {},
+          "bad_files": []
+        },
+        "rakg_redocred_qwen3_8b": {
+          "experiment_name": "rakg_redocred_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 1213,
+          "total_input_tokens": 418975,
+          "total_output_tokens": 820464,
+          "total_tokens": 1239439,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 1213,
+              "input_tokens": 418975,
+              "output_tokens": 820464,
+              "total_tokens": 1239439
+            }
+          },
+          "bad_files": []
+        },
+        "rakg_redocred_qwen3_14b": {
+          "experiment_name": "rakg_redocred_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 1309,
+          "total_input_tokens": 455237,
+          "total_output_tokens": 719589,
+          "total_tokens": 1174826,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 1309,
+              "input_tokens": 455237,
+              "output_tokens": 719589,
+              "total_tokens": 1174826
+            }
+          },
+          "bad_files": []
+        },
+        "rakg_scierc_gpt4o": {
+          "experiment_name": "rakg_scierc_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_gpt4o",
+          "status": "no_token_logs",
+          "log_files_scanned": 1,
+          "log_files_with_token_lines": 0,
+          "llm_calls": 0,
+          "total_input_tokens": 0,
+          "total_output_tokens": 0,
+          "total_tokens": 0,
+          "by_provider": {},
+          "bad_files": []
+        },
+        "rakg_scierc_qwen3_8b": {
+          "experiment_name": "rakg_scierc_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 103,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 2140,
+          "total_input_tokens": 761449,
+          "total_output_tokens": 2226746,
+          "total_tokens": 2988195,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 2140,
+              "input_tokens": 761449,
+              "output_tokens": 2226746,
+              "total_tokens": 2988195
+            }
+          },
+          "bad_files": []
+        },
+        "rakg_scierc_qwen3_14b": {
+          "experiment_name": "rakg_scierc_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 101,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 1693,
+          "total_input_tokens": 599095,
+          "total_output_tokens": 1348700,
+          "total_tokens": 1947795,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 1693,
+              "input_tokens": 599095,
+              "output_tokens": 1348700,
+              "total_tokens": 1947795
+            }
+          },
+          "bad_files": []
+        }
+      },
+      "aggregate": {
+        "experiments_count": 9,
+        "experiments_with_data": 6,
+        "experiments_missing": [],
+        "experiments_no_token_logs": [
+          "RAKG_MINE_gpt-4o",
+          "rakg_redocred_gpt4o",
+          "rakg_scierc_gpt4o"
+        ],
+        "llm_calls": 47480,
+        "total_input_tokens": 15412534,
+        "total_output_tokens": 24931373,
+        "total_tokens": 40343907,
+        "by_provider": {
+          "SelfHosted": {
+            "calls": 47480,
+            "input_tokens": 15412534,
+            "output_tokens": 24931373,
+            "total_tokens": 40343907
+          }
+        }
+      }
+    },
+    "our_approach": {
+      "experiments": {
+        "MINE_batch_results": {
+          "experiment_name": "MINE_batch_results",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\MINE_batch_results",
+          "status": "ok",
+          "log_files_scanned": 2,
+          "log_files_with_token_lines": 1,
+          "llm_calls": 2717,
+          "total_input_tokens": 1892822,
+          "total_output_tokens": 355584,
+          "total_tokens": 2248406,
+          "by_provider": {
+            "OpenAI": {
+              "calls": 2717,
+              "input_tokens": 1892822,
+              "output_tokens": 355584,
+              "total_tokens": 2248406
+            }
+          },
+          "bad_files": []
+        },
+        "our_mine_qwen3_8b": {
+          "experiment_name": "our_mine_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_mine_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 117,
+          "log_files_with_token_lines": 113,
+          "llm_calls": 3914,
+          "total_input_tokens": 1917137,
+          "total_output_tokens": 7757302,
+          "total_tokens": 9674439,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 3914,
+              "input_tokens": 1917137,
+              "output_tokens": 7757302,
+              "total_tokens": 9674439
+            }
+          },
+          "bad_files": []
+        },
+        "our_mine_qwen3_14b_batch": {
+          "experiment_name": "our_mine_qwen3_14b_batch",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_mine_qwen3_14b_batch",
+          "status": "ok",
+          "log_files_scanned": 101,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 4974,
+          "total_input_tokens": 2834944,
+          "total_output_tokens": 4601800,
+          "total_tokens": 7436744,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 4974,
+              "input_tokens": 2834944,
+              "output_tokens": 4601800,
+              "total_tokens": 7436744
+            }
+          },
+          "bad_files": []
+        },
+        "ours_redocred_gpt4o": {
+          "experiment_name": "ours_redocred_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\ours_redocred_gpt4o",
+          "status": "ok",
+          "log_files_scanned": 1,
+          "log_files_with_token_lines": 1,
+          "llm_calls": 154,
+          "total_input_tokens": 97634,
+          "total_output_tokens": 16897,
+          "total_tokens": 114531,
+          "by_provider": {
+            "OpenAI": {
+              "calls": 154,
+              "input_tokens": 97634,
+              "output_tokens": 16897,
+              "total_tokens": 114531
+            }
+          },
+          "bad_files": []
+        },
+        "our_redocred_qwen3_8b": {
+          "experiment_name": "our_redocred_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_redocred_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 242,
+          "total_input_tokens": 130598,
+          "total_output_tokens": 513077,
+          "total_tokens": 643675,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 242,
+              "input_tokens": 130598,
+              "output_tokens": 513077,
+              "total_tokens": 643675
+            }
+          },
+          "bad_files": []
+        },
+        "our_redocred_qwen3_14b": {
+          "experiment_name": "our_redocred_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_redocred_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 16,
+          "log_files_with_token_lines": 15,
+          "llm_calls": 309,
+          "total_input_tokens": 168126,
+          "total_output_tokens": 304064,
+          "total_tokens": 472190,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 309,
+              "input_tokens": 168126,
+              "output_tokens": 304064,
+              "total_tokens": 472190
+            }
+          },
+          "bad_files": []
+        },
+        "ours_scierc_gpt4o": {
+          "experiment_name": "ours_scierc_gpt4o",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\ours_scierc_gpt4o",
+          "status": "ok",
+          "log_files_scanned": 1,
+          "log_files_with_token_lines": 1,
+          "llm_calls": 412,
+          "total_input_tokens": 243138,
+          "total_output_tokens": 42142,
+          "total_tokens": 285280,
+          "by_provider": {
+            "OpenAI": {
+              "calls": 412,
+              "input_tokens": 243138,
+              "output_tokens": 42142,
+              "total_tokens": 285280
+            }
+          },
+          "bad_files": []
+        },
+        "our_scierc_qwen3_8b": {
+          "experiment_name": "our_scierc_qwen3_8b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_scierc_qwen3_8b",
+          "status": "ok",
+          "log_files_scanned": 104,
+          "log_files_with_token_lines": 100,
+          "llm_calls": 1056,
+          "total_input_tokens": 471847,
+          "total_output_tokens": 1942183,
+          "total_tokens": 2414030,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 1056,
+              "input_tokens": 471847,
+              "output_tokens": 1942183,
+              "total_tokens": 2414030
+            }
+          },
+          "bad_files": []
+        },
+        "our_scierc_qwen3_14b": {
+          "experiment_name": "our_scierc_qwen3_14b",
+          "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\our_approach\\experiments\\our_scierc_qwen3_14b",
+          "status": "ok",
+          "log_files_scanned": 102,
+          "log_files_with_token_lines": 101,
+          "llm_calls": 1386,
+          "total_input_tokens": 681061,
+          "total_output_tokens": 1296300,
+          "total_tokens": 1977361,
+          "by_provider": {
+            "SelfHosted": {
+              "calls": 1386,
+              "input_tokens": 681061,
+              "output_tokens": 1296300,
+              "total_tokens": 1977361
+            }
+          },
+          "bad_files": []
+        }
+      },
+      "aggregate": {
+        "experiments_count": 9,
+        "experiments_with_data": 9,
+        "experiments_missing": [],
+        "experiments_no_token_logs": [],
+        "llm_calls": 15164,
+        "total_input_tokens": 8437307,
+        "total_output_tokens": 16829349,
+        "total_tokens": 25266656,
+        "by_provider": {
+          "OpenAI": {
+            "calls": 3283,
+            "input_tokens": 2233594,
+            "output_tokens": 414623,
+            "total_tokens": 2648217
+          },
+          "SelfHosted": {
+            "calls": 11881,
+            "input_tokens": 6203713,
+            "output_tokens": 16414726,
+            "total_tokens": 22618439
+          }
+        }
+      }
+    }
+  },
+  "grand_total": {
+    "llm_calls": 64477,
+    "total_input_tokens": 24689554,
+    "total_output_tokens": 45185083,
+    "total_tokens": 69874637,
+    "by_provider": {
+      "SelfHosted": {
+        "calls": 60894,
+        "input_tokens": 22354990,
+        "output_tokens": 44699086,
+        "total_tokens": 67054076
+      },
+      "OpenAI": {
+        "calls": 3583,
+        "input_tokens": 2334564,
+        "output_tokens": 485997,
+        "total_tokens": 2820561
+      }
+    }
+  },
+  "averages_by_approach_dataset": {
+    "computed_at": "2026-05-25T01:14:58",
+    "averaging": "doc_weighted (sum(tokens or calls) / sum(docs_total))",
+    "denominator_field": "docs_total (from UIR JSONs)",
+    "excluded_when": "experiments with status != 'ok' in the token scan, or with no matching doc-count entry in the UIR JSON",
+    "slices": {
+      "kggen": {
+        "mine": {
+          "experiments_with_tokens": 2,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "kggen_mine_qwen3_8b",
+            "kggen_mine_qwen3_14b"
+          ],
+          "docs": 198,
+          "llm_calls": 984,
+          "input_tokens": 560193,
+          "output_tokens": 2287949,
+          "total_tokens": 2848142,
+          "avg_calls_per_doc": 4.97,
+          "avg_input_tokens_per_doc": 2829.26,
+          "avg_output_tokens_per_doc": 11555.3,
+          "avg_total_tokens_per_doc": 14384.56
+        },
+        "redocred": {
+          "experiments_with_tokens": 3,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "kggen_redocred_gpt4o",
+            "kggen_redocred_qwen3_14b",
+            "kggen_redocred_qwen3_8b"
+          ],
+          "docs": 45,
+          "llm_calls": 109,
+          "input_tokens": 53260,
+          "output_tokens": 171468,
+          "total_tokens": 224728,
+          "avg_calls_per_doc": 2.42,
+          "avg_input_tokens_per_doc": 1183.56,
+          "avg_output_tokens_per_doc": 3810.4,
+          "avg_total_tokens_per_doc": 4993.96
+        },
+        "scierc": {
+          "experiments_with_tokens": 3,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "kggen_scierc_gpt4o",
+            "kggen_scierc_qwen3_8b",
+            "kggen_scierc_qwen3_14b"
+          ],
+          "docs": 300,
+          "llm_calls": 740,
+          "input_tokens": 226260,
+          "output_tokens": 964944,
+          "total_tokens": 1191204,
+          "avg_calls_per_doc": 2.47,
+          "avg_input_tokens_per_doc": 754.2,
+          "avg_output_tokens_per_doc": 3216.48,
+          "avg_total_tokens_per_doc": 3970.68
+        }
+      },
+      "rakg": {
+        "mine": {
+          "experiments_with_tokens": 2,
+          "experiments_missing_tokens": [
+            "RAKG_MINE_gpt-4o"
+          ],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "rakg_mine_qwen3_8b",
+            "rakg_mine_qwen3_14b"
+          ],
+          "docs": 200,
+          "llm_calls": 41125,
+          "input_tokens": 13177778,
+          "output_tokens": 19815874,
+          "total_tokens": 32993652,
+          "avg_calls_per_doc": 205.62,
+          "avg_input_tokens_per_doc": 65888.89,
+          "avg_output_tokens_per_doc": 99079.37,
+          "avg_total_tokens_per_doc": 164968.26
+        },
+        "redocred": {
+          "experiments_with_tokens": 2,
+          "experiments_missing_tokens": [
+            "rakg_redocred_gpt4o"
+          ],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "rakg_redocred_qwen3_8b",
+            "rakg_redocred_qwen3_14b"
+          ],
+          "docs": 30,
+          "llm_calls": 2522,
+          "input_tokens": 874212,
+          "output_tokens": 1540053,
+          "total_tokens": 2414265,
+          "avg_calls_per_doc": 84.07,
+          "avg_input_tokens_per_doc": 29140.4,
+          "avg_output_tokens_per_doc": 51335.1,
+          "avg_total_tokens_per_doc": 80475.5
+        },
+        "scierc": {
+          "experiments_with_tokens": 2,
+          "experiments_missing_tokens": [
+            "rakg_scierc_gpt4o"
+          ],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "rakg_scierc_qwen3_8b",
+            "rakg_scierc_qwen3_14b"
+          ],
+          "docs": 200,
+          "llm_calls": 3833,
+          "input_tokens": 1360544,
+          "output_tokens": 3575446,
+          "total_tokens": 4935990,
+          "avg_calls_per_doc": 19.16,
+          "avg_input_tokens_per_doc": 6802.72,
+          "avg_output_tokens_per_doc": 17877.23,
+          "avg_total_tokens_per_doc": 24679.95
+        }
+      },
+      "our_approach": {
+        "mine": {
+          "experiments_with_tokens": 3,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "MINE_batch_results",
+            "our_mine_qwen3_8b",
+            "our_mine_qwen3_14b_batch"
+          ],
+          "docs": 300,
+          "llm_calls": 11605,
+          "input_tokens": 6644903,
+          "output_tokens": 12714686,
+          "total_tokens": 19359589,
+          "avg_calls_per_doc": 38.68,
+          "avg_input_tokens_per_doc": 22149.68,
+          "avg_output_tokens_per_doc": 42382.29,
+          "avg_total_tokens_per_doc": 64531.96
+        },
+        "redocred": {
+          "experiments_with_tokens": 3,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "ours_redocred_gpt4o",
+            "our_redocred_qwen3_8b",
+            "our_redocred_qwen3_14b"
+          ],
+          "docs": 45,
+          "llm_calls": 705,
+          "input_tokens": 396358,
+          "output_tokens": 834038,
+          "total_tokens": 1230396,
+          "avg_calls_per_doc": 15.67,
+          "avg_input_tokens_per_doc": 8807.96,
+          "avg_output_tokens_per_doc": 18534.18,
+          "avg_total_tokens_per_doc": 27342.13
+        },
+        "scierc": {
+          "experiments_with_tokens": 3,
+          "experiments_missing_tokens": [],
+          "experiments_missing_docs": [],
+          "experiment_names": [
+            "ours_scierc_gpt4o",
+            "our_scierc_qwen3_8b",
+            "our_scierc_qwen3_14b"
+          ],
+          "docs": 300,
+          "llm_calls": 2854,
+          "input_tokens": 1396046,
+          "output_tokens": 3280625,
+          "total_tokens": 4676671,
+          "avg_calls_per_doc": 9.51,
+          "avg_input_tokens_per_doc": 4653.49,
+          "avg_output_tokens_per_doc": 10935.42,
+          "avg_total_tokens_per_doc": 15588.9
+        }
+      }
+    }
+  },
+  "avg_total_tokens_per_doc": {
+    "kggen": {
+      "mine": 14384.56,
+      "redocred": 4993.96,
+      "scierc": 3970.68
+    },
+    "rakg": {
+      "mine": 164968.26,
+      "redocred": 80475.5,
+      "scierc": 24679.95
+    },
+    "our_approach": {
+      "mine": 64531.96,
+      "redocred": 27342.13,
+      "scierc": 15588.9
+    }
+  },
+  "avg_input_tokens_per_doc": {
+    "kggen": {
+      "mine": 2829.26,
+      "redocred": 1183.56,
+      "scierc": 754.2
+    },
+    "rakg": {
+      "mine": 65888.89,
+      "redocred": 29140.4,
+      "scierc": 6802.72
+    },
+    "our_approach": {
+      "mine": 22149.68,
+      "redocred": 8807.96,
+      "scierc": 4653.49
+    }
+  },
+  "avg_output_tokens_per_doc": {
+    "kggen": {
+      "mine": 11555.3,
+      "redocred": 3810.4,
+      "scierc": 3216.48
+    },
+    "rakg": {
+      "mine": 99079.37,
+      "redocred": 51335.1,
+      "scierc": 17877.23
+    },
+    "our_approach": {
+      "mine": 42382.29,
+      "redocred": 18534.18,
+      "scierc": 10935.42
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_57",
+  "facts": [
+    {
+      "fact": "The paper describes a computational model of word segmentation.",
+      "supporting_span": "This paper describes a computational model of word segmentation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes a computational model.",
+      "supporting_span": "describes a computational model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A computational model of word segmentation is described.",
+      "supporting_span": "describes a computational model of word segmentation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents simulation results on realistic acquisition.",
+      "supporting_span": "presents simulation results on realistic acquisition",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents simulation results.",
+      "supporting_span": "presents simulation results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Simulation results on realistic acquisition are presented.",
+      "supporting_span": "presents simulation results on realistic acquisition",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper explores the capacity of statistical learning mechanisms.",
+      "supporting_span": "we explore the capacity and limitations of statistical learning mechanisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper explores the limitations of statistical learning mechanisms.",
+      "supporting_span": "we explore the capacity and limitations of statistical learning mechanisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper explores the capacity and limitations of statistical learning mechanisms.",
+      "supporting_span": "we explore the capacity and limitations of statistical learning mechanisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Statistical learning mechanisms have recently gained prominence.",
+      "supporting_span": "have recently gained prominence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Statistical learning mechanisms have recently gained prominence in cognitive psychology.",
+      "supporting_span": "have recently gained prominence in cognitive psychology and linguistics",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Statistical learning mechanisms have recently gained prominence in linguistics.",
+      "supporting_span": "have recently gained prominence in cognitive psychology and linguistics",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Statistical learning mechanisms have recently gained prominence in cognitive psychology and linguistics.",
+      "supporting_span": "have recently gained prominence in cognitive psychology and linguistics",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The mechanisms explored are statistical learning mechanisms.",
+      "supporting_span": "we explore the capacity and limitations of statistical learning mechanisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The acquisition addressed by the simulation results is realistic.",
+      "supporting_span": "simulation results on realistic acquisition",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "doc_id": "Zork_Nemesis",
+  "facts": [
+    "Zork Nemesis : The Forbidden Lands is a 1996 graphic adventure game.",
+    "Zork Nemesis : The Forbidden Lands was developed by Zombie LLC.",
+    "Zork Nemesis : The Forbidden Lands was published by Activision.",
+    "Zork Nemesis : The Forbidden Lands is the eleventh game in the Zork series.",
+    "Zork Nemesis : The Forbidden Lands is the first title in the Zork series not to appear under the Infocom label.",
+    "Zork Nemesis : The Forbidden Lands features a darker, less comical story within the Zork setting.",
+    "The story of Zork Nemesis : The Forbidden Lands focuses on players investigating the sudden disappearance of four prominent figures and their children.",
+    "The disappearances in Zork Nemesis : The Forbidden Lands were at the hands of a mysterious being known as the \"Nemesis\".",
+    "The story of Zork Nemesis : The Forbidden Lands includes uncovering a sinister plot during the players' investigations.",
+    "Players in Zork Nemesis : The Forbidden Lands must thwart a sinister plot.",
+    "Zork Nemesis : The Forbidden Lands was released for Windows 95.",
+    "Zork Nemesis : The Forbidden Lands was ported to MS - DOS by Quicksilver Software.",
+    "Zork Nemesis : The Forbidden Lands was ported to Macintosh by Quicksilver Software.",
+    "The MS - DOS version of Zork Nemesis : The Forbidden Lands has been released by GOG on their website.",
+    "GOG made the MS - DOS version of Zork Nemesis : The Forbidden Lands compatible for use with Windows XP, Windows Vista, Windows 7, Windows 8, and Windows 10."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    8,
+    9
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "Zork Nemesis : The Forbidden Lands",
+    "1996",
+    "Zombie LLC",
+    "Activision",
+    "Zork",
+    "Infocom",
+    "four",
+    "Nemesis",
+    "Windows 95",
+    "MS-DOS",
+    "Macintosh",
+    "Quicksilver Software",
+    "MS - DOS",
+    "GOG",
+    "Windows XP",
+    "Windows Vista",
+    "Windows 7",
+    "Windows 8",
+    "Windows 10"
+  ],
+  "ambiguous": []
+}

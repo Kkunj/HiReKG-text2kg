@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_32",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Visual object tracking is considered as a numerical optimization problem.",
+      "generator_supporting_span": "we consider visual object tracking as a numerical optimization problem .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we consider visual object tracking as a numerical optimization problem .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the authors 'consider visual object tracking as a numerical optimization problem', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "During normal tracking conditions when the object is visible from frame to frame, local optimization is used.",
+      "generator_supporting_span": "During normal tracking conditions when the object is visible from frame to frame , local optimization is used",
+      "span_mismatch": false,
+      "verifier_supporting_span": "During normal tracking conditions when the object is visible from frame to frame , local optimization is used to track the local mode of the similarity measure in a parameter space of translation , rotation and scale .",
+      "verifier_reasoning": "The source text explicitly states the exact conditions mentioned in the candidate fact under which local optimization is utilized. The fact is a direct restatement of the first part of the second sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Local optimization is used to track the local mode of the similarity measure.",
+      "generator_supporting_span": "local optimization is used to track the local mode of the similarity measure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "During normal tracking conditions when the object is visible from frame to frame , local optimization is used to track the local mode of the similarity measure in a parameter space of translation , rotation and scale .",
+      "verifier_reasoning": "The source text explicitly states that under normal tracking conditions, local optimization is used for the exact purpose mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The parameter space includes translation, rotation and scale.",
+      "generator_supporting_span": "in a parameter space of translation , rotation and scale .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "local optimization is used to track the local mode of the similarity measure in a parameter space of translation , rotation and scale .",
+      "verifier_reasoning": "The source text explicitly states that local optimization is used to track the local mode of the similarity measure within a parameter space that consists of translation, rotation, and scale.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Local tracking is prone to failure when the object becomes partially or totally occluded.",
+      "generator_supporting_span": "when the object becomes partially or totally occluded , such local tracking is prone to failure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "when the object becomes partially or totally occluded , such local tracking is prone to failure",
+      "verifier_reasoning": "The source text explicitly states that when an object is partially or totally occluded, the local tracking method described is prone to failure.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames.",
+      "generator_supporting_span": "common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that local tracking is prone to failure \"especially when common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames.\" This presents the failure of the Kalman filter as a specific condition that exacerbates tracking failure, not as a general, unqualified truth that applies in all situations.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Object detection is considered as a global optimization problem.",
+      "generator_supporting_span": "we consider object detection as a global optimization problem",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing (ASA)",
+      "verifier_reasoning": "The source text explicitly states that in the context of recovering from tracking failures, the authors 'consider object detection as a global optimization problem'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Object detection is solved via Adaptive Simulated Annealing (ASA).",
+      "generator_supporting_span": "and solve it via Adaptive Simulated Annealing (ASA)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing (ASA)",
+      "verifier_reasoning": "The source text explicitly states that the authors consider object detection as a global optimization problem and then proceed to solve it using Adaptive Simulated Annealing (ASA).",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Adaptive Simulated Annealing (ASA) avoids becoming trapped at local modes.",
+      "generator_supporting_span": "Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes and is much faster than exhaustive search .",
+      "verifier_reasoning": "The source text explicitly describes Adaptive Simulated Annealing (ASA) as 'a method that avoids becoming trapped at local modes' when introducing it as a solution for global optimization.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Adaptive Simulated Annealing (ASA) is much faster than exhaustive search.",
+      "generator_supporting_span": "Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes and is much faster than exhaustive search .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes and is much faster than exhaustive search .",
+      "verifier_reasoning": "The source text explicitly describes Adaptive Simulated Annealing (ASA) as a method that is 'much faster than exhaustive search'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Adaptive Simulated Annealing (ASA) stochastically samples the parameter space.",
+      "generator_supporting_span": "ASA stochastically samples the parameter space",
+      "span_mismatch": false,
+      "verifier_supporting_span": "As a Monte Carlo approach , ASA stochastically samples the parameter space , in contrast to local deterministic search .",
+      "verifier_reasoning": "The source text explicitly describes Adaptive Simulated Annealing (ASA) as a Monte Carlo approach and directly states that it \"stochastically samples the parameter space\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Cluster analysis is applied on the sampled parameter space to redetect the object.",
+      "generator_supporting_span": "We apply cluster analysis on the sampled parameter space to redetect the object",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We apply cluster analysis on the sampled parameter space to redetect the object and renew the local tracker .",
+      "verifier_reasoning": "The source text explicitly states that cluster analysis is applied on the sampled parameter space for the purpose of redetecting the object.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Cluster analysis is applied to renew the local tracker.",
+      "generator_supporting_span": "and renew the local tracker .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We apply cluster analysis on the sampled parameter space to redetect the object and renew the local tracker.",
+      "verifier_reasoning": "The source text explicitly states that cluster analysis is applied for two purposes, one of which is to 'renew the local tracker'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "A numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions.",
+      "generator_supporting_span": "Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions .",
+      "verifier_reasoning": "The source text contains a sentence that is nearly identical to the candidate fact, explicitly stating that the tracker was validated on airborne videos with the specified challenging conditions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "An approach outperforms state-of-the-art trackers on the VIVID benchmark datasets.",
+      "generator_supporting_span": "Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets .",
+      "verifier_reasoning": "The source text explicitly concludes by stating that the described approach performs better than other state-of-the-art trackers when tested on the VIVID benchmark datasets.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

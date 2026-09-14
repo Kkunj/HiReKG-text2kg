@@ -1,0 +1,82 @@
+{
+  "doc_id": "Internet_Explorer_Mobile",
+  "facts": [
+    {
+      "fact": "Internet Explorer Mobile is a discontinued mobile browser.",
+      "supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile was formerly named Pocket Internet Explorer.",
+      "supporting_span": "formerly named Pocket Internet Explorer",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile is commonly abbreviated to IE Mobile.",
+      "supporting_span": "commonly abbreviated to IE Mobile",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile was developed by Microsoft.",
+      "supporting_span": "developed by Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile is based on versions of the Trident layout engine.",
+      "supporting_span": "based on versions of the Trident layout engine",
+      "span_mismatch": false
+    },
+    {
+      "fact": "IE Mobile comes loaded by default with Windows Phone.",
+      "supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "IE Mobile comes loaded by default with Windows CE.",
+      "supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Later versions of Internet Explorer Mobile since Windows Phone 8 are based on the desktop version of Internet Explorer.",
+      "supporting_span": "Later versions of Internet Explorer Mobile ( since Windows Phone 8) are based on the desktop version of Internet Explorer .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Older versions of Internet Explorer Mobile called Pocket Internet Explorer are not based on the same layout engine.",
+      "supporting_span": "Older versions however , called Pocket Internet Explorer ( found on Windows Phone 7 and Windows Mobile ) , are not based on the same layout engine .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Pocket Internet Explorer is found on Windows Phone 7.",
+      "supporting_span": "( found on Windows Phone 7 and Windows Mobile )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Pocket Internet Explorer is found on Windows Mobile.",
+      "supporting_span": "( found on Windows Phone 7 and Windows Mobile )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile 11 is the last version that was supported.",
+      "supporting_span": "Internet Explorer Mobile 11 , the last version that was supported ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile 11 is based on the desktop version of Internet Explorer 11.",
+      "supporting_span": "is based on the desktop version of Internet Explorer 11",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Internet Explorer Mobile 11 came with Windows Phone 8.1.",
+      "supporting_span": "came with Windows Phone 8.1",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Microsoft Edge replaced Internet Explorer Mobile in Windows 10 Mobile.",
+      "supporting_span": "Microsoft Edge replaced Internet Explorer Mobile in Windows 10 Mobile",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

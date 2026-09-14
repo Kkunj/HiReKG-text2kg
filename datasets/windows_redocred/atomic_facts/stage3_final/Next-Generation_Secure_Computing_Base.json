@@ -1,0 +1,69 @@
+{
+  "doc_id": "Next-Generation_Secure_Computing_Base",
+  "facts": [
+    "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was a cancelled software architecture.",
+    "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was designed by Microsoft.",
+    "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) aimed to provide users of the Windows operating system with better privacy, security, and system integrity.",
+    "The primary stated objective with NGSCB was to \" protect software from software . \".",
+    "NGSCB relied on hardware designed by members of the Trusted Computing Group.",
+    "NGSCB used a new kernel called the \" Nexus \".",
+    "Aspects of NGSCB have emerged in Microsoft 's BitLocker full disk encryption feature.",
+    "NGSCB would provide new applications with features such as hardware - based process isolation.",
+    "NGSCB would also facilitate the creation and distribution of digital rights management ( DRM ) policies pertaining the use of information.",
+    "The technology was the subject of much controversy during its development.",
+    "NGSCB was first demonstrated by Microsoft in 2003 at the Windows Hardware Engineering Conference.",
+    "NGSCB underwent a revision in 2004.",
+    "The 2004 revision would enable applications written prior to its development to benefit from its functionality.",
+    "In 2005 , reports stated that Microsoft would scale back its plans so that the company could ship its Windows Vista operating system by its target date of 2006 .",
+    "Development of NGSCB spanned almost a decade before its cancellation."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    7,
+    8,
+    12,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    10,
+    11,
+    13
+  ],
+  "ambiguous": [
+    9
+  ],
+  "entities": [
+    "NGSCB",
+    "Microsoft",
+    "Windows",
+    "Trustworthy Computing initiative",
+    "2002",
+    "Windows Vista",
+    "Trusted Computing Group",
+    "Nexus",
+    "2003",
+    "Windows Hardware Engineering Conference",
+    "2004",
+    "2005",
+    "2006",
+    "Windows Presentation Foundation",
+    "Windows Communication Foundation",
+    "WinFS",
+    ".NET Framework",
+    "BitLocker",
+    "Trusted Platform Module",
+    "Measured Boot",
+    "Windows 8",
+    "Windows 8.1",
+    "Device Guard",
+    "Windows 10"
+  ]
+}

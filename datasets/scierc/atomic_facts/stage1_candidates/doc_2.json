@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_2",
+  "facts": [
+    {
+      "fact": "Recent work has been done on the Lincoln CSR system.",
+      "supporting_span": "recent work on the Lincoln CSR system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "New variations in semiphone modeling have been tested.",
+      "supporting_span": "Some new variations in semiphone modeling have been tested",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The improved duration model is very simple.",
+      "supporting_span": "A very simple improved duration model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The improved duration model has reduced the error rate by about 10%.",
+      "supporting_span": "has reduced the error rate by about 10 %",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The error-rate reduction occurred in triphone systems.",
+      "supporting_span": "in both triphone and semiphone systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The error-rate reduction occurred in semiphone systems.",
+      "supporting_span": "in both triphone and semiphone systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A new training strategy has been tested.",
+      "supporting_span": "A new training strategy has been tested",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new training strategy by itself did not provide useful improvements.",
+      "supporting_span": "A new training strategy has been tested which , by itself , did not provide useful improvements",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new training strategy suggests that improvements can be obtained by a related rapid adaptation technique.",
+      "supporting_span": "suggests that improvements can be obtained by a related rapid adaptation technique",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The recognizer has been modified to use bigram back-off language models.",
+      "supporting_span": "the recognizer has been modified to use bigram back-off language models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system was transferred from the RM task to the ATIS CSR task.",
+      "supporting_span": "The system was then transferred from the RM task to the ATIS CSR task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A limited number of development tests were performed.",
+      "supporting_span": "a limited number of development tests performed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Evaluation test results are presented for both the RM and ATIS CSR tasks.",
+      "supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Evaluation test results are presented for RM.",
+      "supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Evaluation test results are presented for ATIS CSR tasks.",
+      "supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

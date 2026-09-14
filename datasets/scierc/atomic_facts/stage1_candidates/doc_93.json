@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_93",
+  "facts": [
+    {
+      "fact": "Combination methods are an effective way of improving system performance.",
+      "supporting_span": "Combination methods are an effective way of improving system performance .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper examines the benefits of system combination for unsupervised WSD.",
+      "supporting_span": "This paper examines the benefits of system combination for unsupervised WSD .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The study investigates voting-based combination strategies.",
+      "supporting_span": "We investigate several voting - and arbiter-based combination strategies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The study investigates arbiter-based combination strategies.",
+      "supporting_span": "voting - and arbiter-based combination strategies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The combination strategies are investigated over a diverse pool of unsupervised WSD systems.",
+      "supporting_span": "over a diverse pool of unsupervised WSD systems .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The combination methods rely on predominant senses.",
+      "supporting_span": "Our combination methods rely on predominant senses",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The predominant senses are derived automatically.",
+      "supporting_span": "which are derived automatically from raw text .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The predominant senses are derived from raw text.",
+      "supporting_span": "derived automatically from raw text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments use the SemCor data set.",
+      "supporting_span": "Experiments using the SemCor and Senseval-3 data sets",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments use the Senseval-3 data set.",
+      "supporting_span": "Experiments using the SemCor and Senseval-3 data sets",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ensembles yield significantly better results when compared with state-of-the-art.",
+      "supporting_span": "our ensembles yield significantly better results when compared with state-of-the-art .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments demonstrate that the ensembles yield significantly better results.",
+      "supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The combination strategies investigated are voting-based and arbiter-based.",
+      "supporting_span": "voting - and arbiter-based combination strategies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The systems in the pool are unsupervised WSD systems.",
+      "supporting_span": "a diverse pool of unsupervised WSD systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "System combination is for unsupervised WSD.",
+      "supporting_span": "system combination for unsupervised WSD",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

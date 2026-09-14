@@ -1,0 +1,61 @@
+{
+  "doc_id": "JPEG_XR",
+  "facts": [
+    "JPEG XR is a still - image compression standard.",
+    "JPEG XR is a file format for continuous tone photographic images.",
+    "JPEG XR is based on technology originally developed by Microsoft.",
+    "The technology underlying JPEG XR was patented by Microsoft.",
+    "The technology underlying JPEG XR was under the name HD Photo.",
+    "HD Photo was formerly Windows Media Photo.",
+    "JPEG XR supports lossy compression.",
+    "JPEG XR supports lossless compression.",
+    "JPEG XR is the preferred image format for Ecma-388 Open XML Paper Specification documents.",
+    "Support for the JPEG XR format is available in Adobe Flash Player 11.0.",
+    "Support for the JPEG XR format is available in Adobe AIR 3.0.",
+    "Support for the JPEG XR format is available in Sumatra PDF 2.1.",
+    "JPEG XR is JPEG extended range.",
+    "Support for the JPEG XR format is available in Internet Explorer 11.",
+    "As of August 2014, there were still no cameras that shoot photos in the JPEG XR (.JXR) format."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    12
+  ],
+  "multiple-entity": [
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "entities": [
+    "JPEG XR",
+    "Microsoft",
+    "HD Photo",
+    "Ecma-388 Open XML Paper Specification",
+    "Adobe Flash Player 11.0",
+    "Adobe AIR 3.0",
+    "Sumatra PDF 2.1",
+    "Windows Imaging Component",
+    ".NET Framework 3.0",
+    "Windows Vista",
+    "Windows 7",
+    "Windows 8",
+    "Internet Explorer 9",
+    "Internet Explorer 10",
+    "Internet Explorer 11",
+    "Pale Moon 27.2.As",
+    "August 2014"
+  ],
+  "ambiguous": []
+}

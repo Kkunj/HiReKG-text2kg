@@ -1,0 +1,170 @@
+[
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Microsoft Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Greenvale",
+    "relation": "country",
+    "tail": "American",
+    "relation_code": "P17"
+  },
+  {
+    "head": "Washington",
+    "relation": "located in the administrative territorial entity",
+    "tail": "American",
+    "relation_code": "P131"
+  },
+  {
+    "head": "Washington",
+    "relation": "country",
+    "tail": "American",
+    "relation_code": "P17"
+  },
+  {
+    "head": "FBI",
+    "relation": "applies to jurisdiction",
+    "tail": "American",
+    "relation_code": "P1001"
+  },
+  {
+    "head": "FBI",
+    "relation": "country",
+    "tail": "American",
+    "relation_code": "P17"
+  },
+  {
+    "head": "Francis York Morgan",
+    "relation": "employer",
+    "tail": "FBI",
+    "relation_code": "P108"
+  },
+  {
+    "head": "Francis York Morgan",
+    "relation": "developer",
+    "tail": "Access Games",
+    "relation_code": "P178"
+  },
+  {
+    "head": "American",
+    "relation": "contains administrative territorial entity",
+    "tail": "Washington",
+    "relation_code": "P150"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "platform",
+    "tail": "Windows",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "publication date",
+    "tail": "2010",
+    "relation_code": "P577"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "publisher",
+    "tail": "Ignition Entertainment",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "developer",
+    "tail": "Access Games",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "platform",
+    "tail": "PlayStation 3",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "platform",
+    "tail": "Microsoft Windows",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "platform",
+    "tail": "Xbox 360",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Microsoft Windows",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "publisher",
+    "tail": "Rising Star Games",
+    "relation_code": "P123"
+  },
+  {
+    "head": "North America",
+    "relation": "has part",
+    "tail": "American",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Marvelous Entertainment",
+    "relation": "country",
+    "tail": "Japan",
+    "relation_code": "P17"
+  },
+  {
+    "head": "Rainy Woods",
+    "relation": "developer",
+    "tail": "Access Games",
+    "relation_code": "P178"
+  },
+  {
+    "head": "American",
+    "relation": "part of",
+    "tail": "North America",
+    "relation_code": "P361"
+  },
+  {
+    "head": "Deadly Premonition",
+    "relation": "publisher",
+    "tail": "Marvelous Entertainment",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Greenvale",
+    "relation": "located in the administrative territorial entity",
+    "tail": "American",
+    "relation_code": "P131"
+  },
+  {
+    "head": "FBI",
+    "relation": "located in the administrative territorial entity",
+    "tail": "American",
+    "relation_code": "P131"
+  },
+  {
+    "head": "Marvelous Entertainment",
+    "relation": "located in the administrative territorial entity",
+    "tail": "Japan",
+    "relation_code": "P131"
+  }
+]

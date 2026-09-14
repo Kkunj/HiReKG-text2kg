@@ -1,0 +1,1 @@
+We investigate the utility of an algorithm for translation lexicon acquisition (SABLE) , used previously on a very large corpus to acquire general translation lexicons , when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons .

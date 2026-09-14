@@ -1,0 +1,42 @@
+[
+  {
+    "head": "unlexicalized parser",
+    "relation": "used for",
+    "tail": "German"
+  },
+  {
+    "head": "smoothing",
+    "relation": "used for",
+    "tail": "unlexicalized parser"
+  },
+  {
+    "head": "smoothing",
+    "relation": "conjunction",
+    "tail": "suffix analysis"
+  },
+  {
+    "head": "suffix analysis",
+    "relation": "used for",
+    "tail": "unlexicalized parser"
+  },
+  {
+    "head": "labelled bracket F-score",
+    "relation": "evaluate for",
+    "tail": "unlexicalized parser"
+  },
+  {
+    "head": "NEGRA corpus",
+    "relation": "evaluate for",
+    "tail": "unlexicalized parser"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "model"
+  },
+  {
+    "head": "smoothing",
+    "relation": "used for",
+    "tail": "unlexicalized parser"
+  }
+]

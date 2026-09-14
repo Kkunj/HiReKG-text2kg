@@ -1,0 +1,542 @@
+[
+  {
+    "experiment": "KGGEN_kggen_mine_qwen3_14b__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 883,
+      "accuracy_pct": 58.87
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 158,
+      "accuracy_pct": 45.93
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 725,
+      "accuracy_pct": 62.72
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "KGGEN_kggen_mine_qwen3_8b__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1470,
+      "correct": 821,
+      "accuracy_pct": 55.85
+    },
+    "single_entity": {
+      "total": 337,
+      "correct": 156,
+      "accuracy_pct": 46.29
+    },
+    "multi_entity": {
+      "total": 1133,
+      "correct": 665,
+      "accuracy_pct": 58.69
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "KGGEN_MINE_batch_results",
+    "dataset": "mine",
+    "overall": {
+      "total": 1425,
+      "correct": 927,
+      "accuracy_pct": 65.05
+    },
+    "single_entity": {
+      "total": 323,
+      "correct": 192,
+      "accuracy_pct": 59.44
+    },
+    "multi_entity": {
+      "total": 1102,
+      "correct": 735,
+      "accuracy_pct": 66.70
+    },
+    "unmatched_facts": 1380
+  },
+  {
+    "experiment": "kggen_redocred_gpt4o__openai",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 110,
+      "accuracy_pct": 49.33
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 20,
+      "accuracy_pct": 35.71
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 90,
+      "accuracy_pct": 53.89
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "kggen_redocred_qwen3_14b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 104,
+      "accuracy_pct": 46.64
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 28,
+      "accuracy_pct": 50.0
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 76,
+      "accuracy_pct": 45.51
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "kggen_redocred_qwen3_8b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 106,
+      "accuracy_pct": 47.53
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 24,
+      "accuracy_pct": 42.86
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 82,
+      "accuracy_pct": 49.1
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "kggen_scierc_gpt4o__openai",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 982,
+      "accuracy_pct": 66.17
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 362,
+      "accuracy_pct": 62.74
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 620,
+      "accuracy_pct": 68.36
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "kggen_scierc_qwen3_14b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 800,
+      "accuracy_pct": 53.91
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 288,
+      "accuracy_pct": 49.91
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 512,
+      "accuracy_pct": 56.45
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "kggen_scierc_qwen3_8b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 781,
+      "accuracy_pct": 52.63
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 310,
+      "accuracy_pct": 53.73
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 471,
+      "accuracy_pct": 51.93
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "OURS_MINE_batch_results",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 1401,
+      "accuracy_pct": 93.4
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 314,
+      "accuracy_pct": 91.28
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 1087,
+      "accuracy_pct": 94.03
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "OURS_our_mine_qwen3_14b_batch__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 1363,
+      "accuracy_pct": 90.87
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 303,
+      "accuracy_pct": 88.08
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 1060,
+      "accuracy_pct": 91.7
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "OURS_our_mine_qwen3_8b__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 1251,
+      "accuracy_pct": 83.4
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 265,
+      "accuracy_pct": 77.03
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 986,
+      "accuracy_pct": 85.29
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_redocred_gpt4o__openai",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 179,
+      "accuracy_pct": 80.27
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 45,
+      "accuracy_pct": 80.36
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 134,
+      "accuracy_pct": 80.24
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_redocred_qwen3_14b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 178,
+      "accuracy_pct": 79.82
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 46,
+      "accuracy_pct": 82.14
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 132,
+      "accuracy_pct": 79.04
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_redocred_qwen3_8b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 143,
+      "accuracy_pct": 64.13
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 34,
+      "accuracy_pct": 60.71
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 109,
+      "accuracy_pct": 65.27
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_scierc_gpt4o__openai",
+    "dataset": "scierc",
+    "overall": {
+      "total": 774,
+      "correct": 632,
+      "accuracy_pct": 81.65
+    },
+    "single_entity": {
+      "total": 290,
+      "correct": 235,
+      "accuracy_pct": 81.03
+    },
+    "multi_entity": {
+      "total": 484,
+      "correct": 397,
+      "accuracy_pct": 82.02
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_scierc_qwen3_14b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 1169,
+      "accuracy_pct": 78.77
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 444,
+      "accuracy_pct": 76.95
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 725,
+      "accuracy_pct": 79.93
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "ours_scierc_qwen3_8b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 1011,
+      "accuracy_pct": 68.13
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 386,
+      "accuracy_pct": 66.9
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 625,
+      "accuracy_pct": 68.91
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "RAKG_MINE_batch_results",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 1115,
+      "accuracy_pct": 74.33
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 217,
+      "accuracy_pct": 63.08
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 898,
+      "accuracy_pct": 77.68
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "RAKG_rakg_mine_qwen3_14b__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 920,
+      "accuracy_pct": 61.33
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 192,
+      "accuracy_pct": 55.81
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 728,
+      "accuracy_pct": 62.98
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "RAKG_rakg_mine_qwen3_8b__local",
+    "dataset": "mine",
+    "overall": {
+      "total": 1500,
+      "correct": 1107,
+      "accuracy_pct": 73.8
+    },
+    "single_entity": {
+      "total": 344,
+      "correct": 215,
+      "accuracy_pct": 62.5
+    },
+    "multi_entity": {
+      "total": 1156,
+      "correct": 892,
+      "accuracy_pct": 77.16
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_redocred_gpt4o__openai",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 115,
+      "accuracy_pct": 51.57
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 21,
+      "accuracy_pct": 37.5
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 94,
+      "accuracy_pct": 56.29
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_redocred_qwen3_14b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 122,
+      "accuracy_pct": 54.71
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 21,
+      "accuracy_pct": 37.5
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 101,
+      "accuracy_pct": 60.48
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_redocred_qwen3_8b__local",
+    "dataset": "redocred",
+    "overall": {
+      "total": 223,
+      "correct": 123,
+      "accuracy_pct": 55.16
+    },
+    "single_entity": {
+      "total": 56,
+      "correct": 23,
+      "accuracy_pct": 41.07
+    },
+    "multi_entity": {
+      "total": 167,
+      "correct": 100,
+      "accuracy_pct": 59.88
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_scierc_gpt4o__openai",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1396,
+      "correct": 495,
+      "accuracy_pct": 35.46
+    },
+    "single_entity": {
+      "total": 546,
+      "correct": 195,
+      "accuracy_pct": 35.71
+    },
+    "multi_entity": {
+      "total": 850,
+      "correct": 300,
+      "accuracy_pct": 35.29
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_scierc_qwen3_14b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 676,
+      "accuracy_pct": 45.55
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 251,
+      "accuracy_pct": 43.5
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 425,
+      "accuracy_pct": 46.86
+    },
+    "unmatched_facts": 0
+  },
+  {
+    "experiment": "rakg_scierc_qwen3_8b__local",
+    "dataset": "scierc",
+    "overall": {
+      "total": 1484,
+      "correct": 950,
+      "accuracy_pct": 64.02
+    },
+    "single_entity": {
+      "total": 577,
+      "correct": 373,
+      "accuracy_pct": 64.64
+    },
+    "multi_entity": {
+      "total": 907,
+      "correct": 577,
+      "accuracy_pct": 63.62
+    },
+    "unmatched_facts": 0
+  }
+]

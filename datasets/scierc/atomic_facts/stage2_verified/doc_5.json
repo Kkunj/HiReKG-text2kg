@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_5",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper discusses language model adaptation methods.",
+      "generator_supporting_span": "we discuss language model adaptation methods",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus .",
+      "verifier_reasoning": "The source text's first sentence explicitly states the topic of the paper, directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The language model adaptation setting involves a word list and a raw corpus.",
+      "generator_supporting_span": "given a word list and a raw corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper discusses language model adaptation methods in a situation where a word list and a raw corpus are given, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The general method is to segment the raw corpus automatically using a word list.",
+      "generator_supporting_span": "the general method is to segment the raw corpus automatically using a word list",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus .",
+      "verifier_reasoning": "The source text explicitly describes the 'general method' and states that the first step is to 'segment the raw corpus automatically using a word list'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The general method includes correcting the output sentences by hand.",
+      "generator_supporting_span": "correct the output sentences by hand",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus .",
+      "verifier_reasoning": "The source text explicitly describes the steps of the 'general method', one of which is to 'correct the output sentences by hand'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The general method includes building a model from the segmented corpus.",
+      "generator_supporting_span": "build a model from the segmented corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus .",
+      "verifier_reasoning": "The source text explicitly outlines the steps of the 'general method', stating that one of the final steps is to 'build a model from the segmented corpus'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "In the sentence-by-sentence error correction method, the annotator encounters grammatically complicated positions.",
+      "generator_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity .",
+      "verifier_reasoning": "The source text explicitly describes the sentence-by-sentence error correction method and states that in this method, 'the annotator encounters grammatically complicated positions'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Encountering grammatically complicated positions results in a decrease of productivity in the sentence-by-sentence error correction method.",
+      "generator_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity .",
+      "verifier_reasoning": "The source text explicitly states that in the sentence-by-sentence error correction method, an annotator encounters grammatically complicated positions, and directly links this event to a resulting decrease in productivity.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The authors propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit.",
+      "generator_supporting_span": "we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct and verbatim statement of the candidate fact, explicitly outlining the method proposed by the authors.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The proposed approach concentrates on correcting the positions in which the words in the list appear.",
+      "generator_supporting_span": "concentrate on correcting the positions in which the words in the list appear",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit .",
+      "verifier_reasoning": "The source text explicitly states the nature of the proposed method, mentioning that it is designed to \"concentrate on correcting the positions in which the words in the list appear\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The proposed approach takes a word as a correction unit.",
+      "generator_supporting_span": "taking a word as a correction unit",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit .",
+      "verifier_reasoning": "The source text explicitly states that the method proposed in the paper involves \"taking a word as a correction unit.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The proposed approach allows going directly to capturing the statistical behavior of specific words in the application.",
+      "generator_supporting_span": "This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application .",
+      "verifier_reasoning": "The source text explicitly states that the proposed method allows one to \"go directly to capturing the statistical behavior of specific words in the application,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The experiments used a variety of methods for preparing a segmented corpus.",
+      "generator_supporting_span": "In the experiments , we used a variety of methods for preparing a segmented corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies .",
+      "verifier_reasoning": "The source text explicitly states that the experiments involved using a variety of methods to prepare a segmented corpus. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The experiments compared the language models by their speech recognition accuracies.",
+      "generator_supporting_span": "compared the language models by their speech recognition accuracies .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies .",
+      "verifier_reasoning": "The source text explicitly states that the experiments involved comparing language models and that the metric used for this comparison was their speech recognition accuracies.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The results showed the advantages of the proposed method.",
+      "generator_supporting_span": "The results showed the advantages of our method .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The results showed the advantages of our method .",
+      "verifier_reasoning": "The source text explicitly states that experiments were conducted to compare language models. The final sentence directly concludes that the results of these experiments demonstrated the advantages of the method proposed in the paper.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "An annotator is involved in the sentence-by-sentence error correction method.",
+      "generator_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity .",
+      "verifier_reasoning": "The source text explicitly states that within the 'sentence-by-sentence error correction method', it is the 'annotator' who encounters problems, directly confirming their involvement in that specific method.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

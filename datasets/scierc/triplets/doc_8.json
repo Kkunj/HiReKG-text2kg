@@ -1,0 +1,22 @@
+[
+  {
+    "head": "modal language LT",
+    "relation": "used for",
+    "tail": "constraints on trees"
+  },
+  {
+    "head": "extension LT (LF)",
+    "relation": "used for",
+    "tail": "constraints on trees decorated with feature structures"
+  },
+  {
+    "head": "languages",
+    "relation": "used for",
+    "tail": "grammatical frameworks"
+  },
+  {
+    "head": "GPSG",
+    "relation": "used for",
+    "tail": "LT (LF)"
+  }
+]

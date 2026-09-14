@@ -1,0 +1,27 @@
+[
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "learning the time-varying shape of a non-rigid 3D object"
+  },
+  {
+    "head": "Gaussian distribution",
+    "relation": "used for",
+    "tail": "object shape"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "3D shape and motion"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "temporal smoothness in object shape"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "missing data"
+  }
+]

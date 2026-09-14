@@ -1,0 +1,17 @@
+[
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "translation lexicon acquisition (SABLE)"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "general translation lexicons"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "domain-specific translation lexicons"
+  }
+]

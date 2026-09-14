@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_43",
+  "facts": [
+    "The paper studies how to make loss-aware predictions in image segmentation settings where the evaluation function is the Intersection-over-Union (IoU) measure.",
+    "The Intersection-over-Union (IoU) measure is used widely in evaluating image segmentation systems.",
+    "There are two dominant approaches currently.",
+    "One approach approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU).",
+    "Another approach computes exact EIoU but only over a small set of high-quality candidate solutions.",
+    "The authors ask which approach should be favored for two typical image segmentation tasks.",
+    "The study leads to two new methods.",
+    "The two new methods draw ideas from both existing approaches.",
+    "The new methods use the EIoEU approximation paired with high quality candidate solutions.",
+    "Experiments show that the new approaches lead to improved performance on both image segmentation tasks.",
+    "The first dominant approach approximates the Expected-IoU (EIoU) score.",
+    "The second dominant approach is to compute exact EIoU.",
+    "EIoU is an abbreviation of Expected-IoU.",
+    "EIoEU is an abbreviation of Expected-Intersection-over-Expected-Union.",
+    "In the studied settings, the evaluation function is the Intersection-over-Union (IoU) measure."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    3,
+    14
+  ],
+  "ambiguous": [
+    2,
+    6,
+    7
+  ],
+  "entities": [
+    "loss-aware predictions",
+    "loss-aware predictions in image segmentation settings",
+    "image segmentation settings",
+    "evaluation function",
+    "Intersection-over-Union ( IoU ) measure",
+    "image segmentation systems",
+    "Expected-IoU ( EIoU ) score",
+    "Expected-Intersection-over-Expected-Union ( EIoEU )",
+    "EIoU",
+    "image seg-mentation tasks",
+    "EIoEU",
+    "EIoEU approximation",
+    "image segmentation tasks"
+  ]
+}

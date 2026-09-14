@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_47",
+  "facts": [
+    {
+      "fact": "Human action recognition from well-segmented 3D skeleton data has been intensively studied.",
+      "supporting_span": "Human action recognition from well-segmented 3D skeleton data has been intensively studied",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Online action detection is more challenging.",
+      "supporting_span": "Online action detection goes one step further and is more challenging",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Online action detection identifies the action type on the fly from the untrimmed stream.",
+      "supporting_span": "identifies the action type and localizes the action positions on the fly from the untrimmed stream",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Online action detection localizes the action positions on the fly from the untrimmed stream.",
+      "supporting_span": "identifies the action type and localizes the action positions on the fly from the untrimmed stream",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper studies the problem of online action detection from the streaming skeleton data.",
+      "supporting_span": "In this paper , we study the problem of online action detection from the streaming skeleton data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper proposes a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network.",
+      "supporting_span": "We propose a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed network employs a joint classification and regression optimization objective.",
+      "supporting_span": "By employing a joint classification and regression optimization objective",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed network is capable of automatically localizing the start and end points of actions more accurately.",
+      "supporting_span": "this network is capable of automatically localizing the start and end points of actions more accurately",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed model leverages the merits of the deep Long Short-Term Memory (LSTM) subnetwork.",
+      "supporting_span": "by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed model automatically captures the complex long-range temporal dynamics.",
+      "supporting_span": "the proposed model automatically captures the complex long-range temporal dynamics",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed model naturally avoids the typical sliding window design.",
+      "supporting_span": "which naturally avoids the typical sliding window design",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed model ensures high computational efficiency.",
+      "supporting_span": "and thus ensures high computational efficiency",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The subtask of regression optimization provides the ability to forecast the action prior to its occurrence.",
+      "supporting_span": "the subtask of regression optimization provides the ability to forecast the action prior to its occurrence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors build a large streaming video dataset with annotations.",
+      "supporting_span": "we build a large streaming video dataset with annotations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experimental results on the authors' dataset and the public G3D dataset both demonstrate very promising performance of the authors' scheme.",
+      "supporting_span": "Experimental results on our dataset and the public G3D dataset both demonstrate very promising performance of our scheme",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

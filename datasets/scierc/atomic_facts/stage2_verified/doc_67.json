@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_67",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "RAREAS is a system.",
+      "generator_supporting_span": "a system (RAREAS)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes a system (RAREAS) which synthesizes marine weather forecasts directly from formatted weather data .",
+      "verifier_reasoning": "The source text explicitly introduces RAREAS in the first sentence, stating 'This paper describes a system (RAREAS)...', which directly confirms that RAREAS is a system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "RAREAS synthesizes marine weather forecasts directly from formatted weather data.",
+      "generator_supporting_span": "synthesizes marine weather forecasts directly from formatted weather data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes a system (RAREAS) which synthesizes marine weather forecasts directly from formatted weather data .",
+      "verifier_reasoning": "The source text explicitly introduces a system named RAREAS and states that its function is to synthesize marine weather forecasts directly from formatted weather data, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "RAREAS synthesizes marine weather forecasts.",
+      "generator_supporting_span": "synthesizes marine weather forecasts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes a system (RAREAS) which synthesizes marine weather forecasts directly from formatted weather data .",
+      "verifier_reasoning": "The source text explicitly introduces a system named RAREAS and states that its function is to synthesize marine weather forecasts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "RAREAS synthesizes directly from formatted weather data.",
+      "generator_supporting_span": "directly from formatted weather data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes a system (RAREAS) which synthesizes marine weather forecasts directly from formatted weather data .",
+      "verifier_reasoning": "The source text explicitly states that the system RAREAS synthesizes marine weather forecasts directly from formatted weather data, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Synthesis appears feasible in certain natural sublanguages with stereotyped text structure.",
+      "generator_supporting_span": "Such synthesis appears feasible in certain natural sublanguages with stereotyped text structure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Such synthesis appears feasible in certain natural sublanguages with stereotyped text structure .",
+      "verifier_reasoning": "The source text contains a sentence that is an almost exact match for the candidate fact, directly stating that the synthesis is feasible under the specified conditions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Certain natural sublanguages have stereotyped text structure.",
+      "generator_supporting_span": "certain natural sublanguages with stereotyped text structure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Such synthesis appears feasible in certain natural sublanguages with stereotyped text structure .",
+      "verifier_reasoning": "The source text explicitly mentions that the synthesis system is feasible within 'certain natural sublanguages with stereotyped text structure,' which directly states that such sublanguages exist.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "RAREAS draws on several kinds of linguistic knowledge.",
+      "generator_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false,
+      "verifier_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge and mirrors a forecaster 's apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events .",
+      "verifier_reasoning": "The source text explicitly states that RAREAS draws on 'several kinds of linguistic and non-linguistic knowledge', which directly supports the candidate fact that it draws on linguistic knowledge.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "RAREAS draws on several kinds of non-linguistic knowledge.",
+      "generator_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false,
+      "verifier_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "verifier_reasoning": "The source text explicitly states that the RAREAS system uses multiple types of knowledge, specifically mentioning both 'linguistic and non-linguistic knowledge'. Therefore, the claim that it uses non-linguistic knowledge is directly supported.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "RAREAS draws on several kinds of knowledge.",
+      "generator_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false,
+      "verifier_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "verifier_reasoning": "The source text explicitly states that the RAREAS system utilizes 'several kinds of linguistic and non-linguistic knowledge', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "RAREAS mirrors a forecaster's apparent tendency.",
+      "generator_supporting_span": "mirrors a forecaster 's apparent tendency",
+      "span_mismatch": false,
+      "verifier_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge and mirrors a forecaster 's apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events .",
+      "verifier_reasoning": "The source text explicitly states that the RAREAS system mirrors a forecaster's apparent tendency, making the candidate fact a direct statement from the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "A forecaster has an apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events.",
+      "generator_supporting_span": "a forecaster 's apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events",
+      "span_mismatch": false,
+      "verifier_supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge and mirrors a forecaster 's apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events .",
+      "verifier_reasoning": "The source text explicitly states that the RAREAS system mirrors a forecaster's apparent tendency, which is described in the exact same terms as the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The apparent tendency is to ascribe less precise temporal adverbs to more remote meteorological events.",
+      "generator_supporting_span": "apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events",
+      "span_mismatch": false,
+      "verifier_supporting_span": "apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events",
+      "verifier_reasoning": "The source text explicitly describes a forecaster's tendency that the RAREAS system mirrors, using the exact phrasing found in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The approach can easily be adapted.",
+      "generator_supporting_span": "The approach can easily be adapted",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach can easily be adapted to synthesize bilingual or multi-lingual texts .",
+      "verifier_reasoning": "The source text explicitly states that the approach can be easily adapted, providing the specific context of synthesizing bilingual or multi-lingual texts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The approach can be adapted to synthesize bilingual texts.",
+      "generator_supporting_span": "to synthesize bilingual or multi-lingual texts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach can easily be adapted to synthesize bilingual or multi-lingual texts .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the approach can be adapted to synthesize bilingual texts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The approach can be adapted to synthesize multi-lingual texts.",
+      "generator_supporting_span": "to synthesize bilingual or multi-lingual texts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach can easily be adapted to synthesize bilingual or multi-lingual texts .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the approach can be adapted to synthesize multi-lingual texts, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

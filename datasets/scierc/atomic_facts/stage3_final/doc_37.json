@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_37",
+  "facts": [
+    "The paper presents a corpus-based supervised word sense disambiguation system for Dutch.",
+    "The word sense disambiguation system combines statistical classification with linguistic information.",
+    "The paper introduces a lemma-based approach instead of building individual classifiers per ambiguous wordform.",
+    "The lemma-based method clusters all inflected forms of an ambiguous word in one classifier.",
+    "Clustering all inflected forms of an ambiguous word in one classifier augments the training material available to the algorithm.",
+    "Testing the lemma-based model on the Dutch Senseval-2 test data yields a significant increase in accuracy over the wordform model.",
+    "The word sense disambiguation system based on lemmas is smaller.",
+    "The word sense disambiguation system based on lemmas is more robust.",
+    "The word sense disambiguation system is corpus-based.",
+    "The word sense disambiguation system is supervised.",
+    "The word sense disambiguation system is for Dutch.",
+    "The statistical classification in the system uses maximum entropy.",
+    "The word sense disambiguation system uses linguistic information.",
+    "The lemma-based approach is a novel method.",
+    "The lemma-based model was tested on the Dutch Senseval-2 test data."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    10,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    14
+  ],
+  "ambiguous": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "entities": [
+    "corpus-based supervised word sense disambiguation ( WSD ) system",
+    "Dutch",
+    "statistical classification",
+    "maximum entropy",
+    "linguistic information",
+    "classifiers",
+    "ambiguous wordform",
+    "lemma-based approach",
+    "inflected forms",
+    "ambiguous word",
+    "classifier",
+    "lemma-based model",
+    "Dutch Senseval-2 test data",
+    "wordform model",
+    "WSD system based on lemmas"
+  ]
+}

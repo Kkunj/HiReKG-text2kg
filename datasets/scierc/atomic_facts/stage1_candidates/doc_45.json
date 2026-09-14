@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_45",
+  "facts": [
+    {
+      "fact": "A method for error correction of ill-formed input is described.",
+      "supporting_span": "A method for error correction of ill-formed input is described",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A described method acquires dialogue patterns in typical usage.",
+      "supporting_span": "acquires dialogue patterns in typical usage",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A described method uses acquired dialogue patterns to predict new inputs.",
+      "supporting_span": "uses these patterns to predict new inputs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Error correction is done by strongly biasing parsing toward expected meanings.",
+      "supporting_span": "Error correction is done by strongly biasing parsing toward expected meanings",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Clear evidence from the input can show the current sentence is not expected.",
+      "supporting_span": "clear evidence from the input shows the current sentence is not expected",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A dialogue acquisition and tracking algorithm is presented.",
+      "supporting_span": "A dialogue acquisition and tracking algorithm is presented",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A description of the implementation of a dialogue acquisition and tracking algorithm in a voice interactive system is presented.",
+      "supporting_span": "a description of its implementation in a voice interactive system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The implementation of a dialogue acquisition and tracking algorithm is in a voice interactive system.",
+      "supporting_span": "in a voice interactive system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A series of tests are described.",
+      "supporting_span": "A series of tests are described",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The described tests show the power of the error correction methodology.",
+      "supporting_span": "show the power of the error correction methodology",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The power of the error correction methodology is shown when stereotypic dialogue occurs.",
+      "supporting_span": "show the power of the error correction methodology when stereotypic dialogue occurs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stereotypic dialogue occurs.",
+      "supporting_span": "stereotypic dialogue occurs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A described method predicts new inputs.",
+      "supporting_span": "predict new inputs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There is error correction of ill-formed input.",
+      "supporting_span": "error correction of ill-formed input",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Parsing is toward expected meanings.",
+      "supporting_span": "parsing toward expected meanings",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

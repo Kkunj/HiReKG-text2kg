@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_7",
+  "facts": [
+    {
+      "fact": "The paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank.",
+      "supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The results are of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon.",
+      "supporting_span": "the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A Combinatory Categorial Grammar (CCG) lexicon was automatically induced.",
+      "supporting_span": "automatically inducing a Combinatory Categorial Grammar (CCG) lexicon",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Combinatory Categorial Grammar (CCG) lexicon is from a Turkish dependency treebank.",
+      "supporting_span": "from a Turkish dependency treebank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A Turkish dependency treebank exists.",
+      "supporting_span": "a Turkish dependency treebank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Turkish is an agglutinating free word order language.",
+      "supporting_span": "Turkish is an agglutinating free word order language",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Turkish is agglutinating.",
+      "supporting_span": "an agglutinating free word order language",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Turkish has free word order.",
+      "supporting_span": "an agglutinating free word order language",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Turkish is a language.",
+      "supporting_span": "Turkish is an agglutinating free word order language",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories.",
+      "supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Language theories face a challenge.",
+      "supporting_span": "presents a challenge for language theories",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Possible ways to obtain a compact lexicon were explored.",
+      "supporting_span": "We explored possible ways to obtain a compact lexicon",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Possible ways were explored.",
+      "supporting_span": "We explored possible ways",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A compact lexicon is consistent with CCG principles.",
+      "supporting_span": "consistent with CCG principles",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A treebank is an order of magnitude smaller than Penn WSJ.",
+      "supporting_span": "an order of magnitude smaller than Penn WSJ",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

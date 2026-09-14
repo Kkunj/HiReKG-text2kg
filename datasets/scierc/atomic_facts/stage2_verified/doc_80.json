@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_80",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A major axis of research at LIMSI is directed at multilingual, speaker-independent, large vocabulary speech dictation.",
+      "generator_supporting_span": "A major axis of research at LIMSI is directed at multilingual , speaker-independent , large vocabulary speech dictation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A major axis of research at LIMSI is directed at multilingual , speaker-independent , large vocabulary speech dictation .",
+      "verifier_reasoning": "The source text's opening sentence is an exact, verbatim match for the candidate fact, directly stating the research focus at LIMSI.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The paper describes the LIMSI recognizer.",
+      "generator_supporting_span": "In this paper the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test is described ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test is described , and experimental results on the WSJ and BREF corpora under closely matched conditions are reported .",
+      "verifier_reasoning": "The source text explicitly states that the paper describes the LIMSI recognizer. The second sentence directly says, \"In this paper the LIMSI recognizer... is described\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The LIMSI recognizer was evaluated in the ARPA NOV93 CSR test.",
+      "generator_supporting_span": "the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test is described",
+      "verifier_reasoning": "The source text explicitly states that the paper describes \"the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test,\" directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The paper reports experimental results on the WSJ and BREF corpora under closely matched conditions.",
+      "generator_supporting_span": "experimental results on the WSJ and BREF corpora under closely matched conditions are reported .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper the LIMSI recognizer which was evaluated in the ARPA NOV93 CSR test is described , and experimental results on the WSJ and BREF corpora under closely matched conditions are reported .",
+      "verifier_reasoning": "The source text explicitly states that the paper reports on experimental results from the WSJ and BREF corpora and that these were conducted under closely matched conditions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "For both corpora, word recognition experiments were carried out with vocabularies containing up to 20k words.",
+      "generator_supporting_span": "For both corpora word recognition experiments were carried out with vocabularies containing up to 20k words .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "For both corpora word recognition experiments were carried out with vocabularies containing up to 20k words .",
+      "verifier_reasoning": "The source text explicitly states that for both the WSJ and BREF corpora, word recognition experiments were conducted with vocabularies containing up to 20,000 words. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The recognizer makes use of continuous density HMM with Gaussian mixture for acoustic modeling.",
+      "generator_supporting_span": "The recognizer makes use of continuous density HMM with Gaussian mixture for acoustic modeling",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The recognizer makes use of continuous density HMM with Gaussian mixture for acoustic modeling and n-gram statistics estimated on the newspaper texts for language modeling .",
+      "verifier_reasoning": "The source text contains a sentence that directly states the exact information presented in the candidate fact. It explicitly mentions that the recognizer uses continuous density HMM with a Gaussian mixture for acoustic modeling.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The recognizer uses n-gram statistics estimated on the newspaper texts for language modeling.",
+      "generator_supporting_span": "and n-gram statistics estimated on the newspaper texts for language modeling .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The recognizer makes use of continuous density HMM with Gaussian mixture for acoustic modeling and n-gram statistics estimated on the newspaper texts for language modeling .",
+      "verifier_reasoning": "The source text explicitly states that the recognizer uses n-gram statistics for language modeling and that these statistics are estimated on newspaper texts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The recognizer uses a time-synchronous graph-search strategy.",
+      "generator_supporting_span": "The recognizer uses a time-synchronous graph-search strategy",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The recognizer uses a time-synchronous graph-search strategy which is shown to still be viable with a 20k-word vocabulary when used with bigram back-off language models.",
+      "verifier_reasoning": "The source text explicitly lists the components and methods of the recognizer, directly stating that it \"uses a time-synchronous graph-search strategy\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The time-synchronous graph-search strategy is shown to still be viable with a 20k-word vocabulary when used with bigram back-off language models.",
+      "generator_supporting_span": "which is shown to still be viable with a 20k-word vocabulary when used with bigram back-off language models .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The recognizer uses a time-synchronous graph-search strategy which is shown to still be viable with a 20k-word vocabulary when used with bigram back-off language models.",
+      "verifier_reasoning": "The source text explicitly states that the recognizer's time-synchronous graph-search strategy has been shown to be viable under the exact conditions mentioned in the candidate fact. The fact is an almost verbatim extraction from the source.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "A second forward pass makes use of a word graph generated with the bigram.",
+      "generator_supporting_span": "A second forward pass , which makes use of a word graph generated with the bigram ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A second forward pass , which makes use of a word graph generated with the bigram , incorporates a trigram language model .",
+      "verifier_reasoning": "The source text explicitly describes a component of the recognizer as \"A second forward pass , which makes use of a word graph generated with the bigram,\" directly stating the information presented in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The second forward pass incorporates a trigram language model.",
+      "generator_supporting_span": "incorporates a trigram language model .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A second forward pass , which makes use of a word graph generated with the bigram , incorporates a trigram language model .",
+      "verifier_reasoning": "The source text explicitly describes the two-pass process of the recognizer, stating that the first pass uses a bigram model and the second forward pass incorporates a trigram language model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Acoustic modeling uses cepstrum-based features.",
+      "generator_supporting_span": "Acoustic modeling uses cepstrum-based features ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Acoustic modeling uses cepstrum-based features , context-dependent phone models (intra and interword) , phone duration models , and sex-dependent models .",
+      "verifier_reasoning": "The source text explicitly lists the components used for acoustic modeling, and the first item mentioned is 'cepstrum-based features'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Acoustic modeling uses context-dependent phone models (intra and interword).",
+      "generator_supporting_span": "context-dependent phone models (intra and interword) ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Acoustic modeling uses cepstrum-based features , context-dependent phone models (intra and interword) , phone duration models , and sex-dependent models .",
+      "verifier_reasoning": "The source text explicitly lists the components used for acoustic modeling, and this list directly includes 'context-dependent phone models (intra and interword)'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Acoustic modeling uses phone duration models.",
+      "generator_supporting_span": "phone duration models ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Acoustic modeling uses cepstrum-based features , context-dependent phone models (intra and interword) , phone duration models , and sex-dependent models .",
+      "verifier_reasoning": "The source text explicitly lists the components used for acoustic modeling, and 'phone duration models' is directly mentioned as one of them.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Acoustic modeling uses sex-dependent models.",
+      "generator_supporting_span": "and sex-dependent models .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Acoustic modeling uses cepstrum-based features , context-dependent phone models (intra and interword) , phone duration models , and sex-dependent models .",
+      "verifier_reasoning": "The source text explicitly lists the components used for acoustic modeling, and this list directly includes 'sex-dependent models'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

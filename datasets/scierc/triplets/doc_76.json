@@ -1,0 +1,32 @@
+[
+  {
+    "head": "unification-based grammar formalism",
+    "relation": "used for",
+    "tail": "Korean phonological knowledge base system"
+  },
+  {
+    "head": "Korean Phonology Structure Grammar (KPSG)",
+    "relation": "hyponym of",
+    "tail": "unification-based grammar formalism"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "KPSG"
+  },
+  {
+    "head": "KPSG",
+    "relation": "used for",
+    "tail": "phonological system"
+  },
+  {
+    "head": "approach",
+    "relation": "compare",
+    "tail": "approaches"
+  },
+  {
+    "head": "generative phonological approach",
+    "relation": "used for",
+    "tail": "those"
+  }
+]

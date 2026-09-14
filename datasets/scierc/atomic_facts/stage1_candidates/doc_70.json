@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_70",
+  "facts": [
+    {
+      "fact": "Terminology structuring has been the subject of much work in the context of terms extracted from corpora.",
+      "supporting_span": "Terminology structuring has been the subject of much work in the context of terms extracted from corpora",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A set of terms can be extracted from a corpus.",
+      "supporting_span": "or extracted from a corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Terminology structuring identifies hierarchical relations between terms.",
+      "supporting_span": "identifying hierarchical (or other types of) relations between these terms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The present paper focuses on terminology structuring by lexical methods.",
+      "supporting_span": "The present paper focusses on terminology structuring by lexical methods ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexical methods match terms on the basis of their content words.",
+      "supporting_span": "which match terms on the basis on their content words ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexical methods take morphological variants into account.",
+      "supporting_span": "taking morphological variants into account .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments are done on a 'flat' list of terms.",
+      "supporting_span": "Experiments are done on a ` flat ' list of terms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The 'flat' list of terms is obtained from an originally hierarchically-structured terminology.",
+      "supporting_span": "obtained from an originally hierarchically-structured terminology :",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The originally hierarchically-structured terminology is the French version of the US National Library of Medicine MeSH thesaurus.",
+      "supporting_span": "the French version of the US National Library of Medicine MeSH thesaurus .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The study compares the lexically-induced relations with the original MeSH relations.",
+      "supporting_span": "We compare the lexically-induced relations with the original MeSH relations :",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A quantitative evaluation of congruence is done through recall and precision metrics.",
+      "supporting_span": "after a quantitative evaluation of their congruence through recall and precision metrics ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A qualitative, human analysis is performed of the 'new' relations not present in the MeSH.",
+      "supporting_span": "we perform a qualitative , human analysis ofthe ` new ' relations not present in the MeSH .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis shows the limits of the lexical structuring method.",
+      "supporting_span": "This analysis shows , on the one hand , the limits of the lexical structuring method .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis reveals some specific structuring choices and naming conventions made by the MeSH designers.",
+      "supporting_span": "On the other hand , it also reveals some specific structuring choices and naming conventions made by the MeSH designers ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis emphasizes ontological commitments that can not be left to automatic structuring.",
+      "supporting_span": "and emphasizes ontological commitments that can not be left to automatic structuring .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

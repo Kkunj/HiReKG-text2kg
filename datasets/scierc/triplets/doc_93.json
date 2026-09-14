@@ -1,0 +1,32 @@
+[
+  {
+    "head": "system combination",
+    "relation": "used for",
+    "tail": "unsupervised WSD"
+  },
+  {
+    "head": "voting - and arbiter-based combination strategies",
+    "relation": "used for",
+    "tail": "unsupervised WSD systems"
+  },
+  {
+    "head": "predominant senses",
+    "relation": "used for",
+    "tail": "combination methods"
+  },
+  {
+    "head": "raw text",
+    "relation": "used for",
+    "tail": "predominant senses"
+  },
+  {
+    "head": "SemCor and Senseval-3 data sets",
+    "relation": "evaluate for",
+    "tail": "ensembles"
+  },
+  {
+    "head": "SemCor and Senseval-3 data sets",
+    "relation": "evaluate for",
+    "tail": "state-of-the-art"
+  }
+]

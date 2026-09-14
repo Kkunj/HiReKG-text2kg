@@ -1,0 +1,27 @@
+[
+  {
+    "head": "computational model",
+    "relation": "used for",
+    "tail": "word segmentation"
+  },
+  {
+    "head": "computational model",
+    "relation": "used for",
+    "tail": "realistic acquisition"
+  },
+  {
+    "head": "cognitive psychology",
+    "relation": "used for",
+    "tail": "statistical learning mechanisms"
+  },
+  {
+    "head": "cognitive psychology",
+    "relation": "conjunction",
+    "tail": "linguistics"
+  },
+  {
+    "head": "linguistics",
+    "relation": "used for",
+    "tail": "statistical learning mechanisms"
+  }
+]

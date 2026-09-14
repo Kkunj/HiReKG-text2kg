@@ -1,0 +1,82 @@
+{
+  "doc_id": "Next-Generation_Secure_Computing_Base",
+  "facts": [
+    {
+      "fact": "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was a cancelled software architecture.",
+      "supporting_span": "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was a cancelled software architecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was designed by Microsoft.",
+      "supporting_span": "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) was a cancelled software architecture designed by Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Next - Generation Secure Computing Base ( NGSCB ; codenamed Palladium and also known as Trusted Windows ) aimed to provide users of the Windows operating system with better privacy, security, and system integrity.",
+      "supporting_span": "which aimed to provide users of the Windows operating system with better privacy , security , and system integrity .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The primary stated objective with NGSCB was to \" protect software from software . \".",
+      "supporting_span": "The primary stated objective with NGSCB was to \" protect software from software . \"",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB relied on hardware designed by members of the Trusted Computing Group.",
+      "supporting_span": "NGSCB relied on hardware designed by members of the Trusted Computing Group",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB used a new kernel called the \" Nexus \".",
+      "supporting_span": "a new kernel called the \" Nexus \"",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Aspects of NGSCB have emerged in Microsoft 's BitLocker full disk encryption feature.",
+      "supporting_span": "aspects of NGSCB have emerged in Microsoft 's BitLocker full disk encryption feature",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB would provide new applications with features such as hardware - based process isolation.",
+      "supporting_span": "and provide new applications with features such as hardware - based process isolation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB would also facilitate the creation and distribution of digital rights management ( DRM ) policies pertaining the use of information.",
+      "supporting_span": "NGSCB would also facilitate the creation and distribution of digital rights management ( DRM ) policies pertaining the use of information .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The technology was the subject of much controversy during its development.",
+      "supporting_span": "The technology was the subject of much controversy during its development",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB was first demonstrated by Microsoft in 2003 at the Windows Hardware Engineering Conference.",
+      "supporting_span": "NGSCB was first demonstrated by Microsoft in 2003 at the Windows Hardware Engineering Conference",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NGSCB underwent a revision in 2004.",
+      "supporting_span": "before undergoing a revision in 2004",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The 2004 revision would enable applications written prior to its development to benefit from its functionality.",
+      "supporting_span": "that would enable applications written prior to its development to benefit from its functionality",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In 2005 , reports stated that Microsoft would scale back its plans so that the company could ship its Windows Vista operating system by its target date of 2006 .",
+      "supporting_span": "In 2005 , reports stated that Microsoft would scale back its plans so that the company could ship its Windows Vista operating system by its target date of 2006 .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Development of NGSCB spanned almost a decade before its cancellation.",
+      "supporting_span": "Development of NGSCB spanned almost a decade before its cancellation",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

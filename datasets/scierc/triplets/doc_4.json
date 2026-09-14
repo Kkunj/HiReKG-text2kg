@@ -1,0 +1,32 @@
+[
+  {
+    "head": "high-capacity models",
+    "relation": "used for",
+    "tail": "computer vision"
+  },
+  {
+    "head": "large datasets",
+    "relation": "used for",
+    "tail": "high-capacity models"
+  },
+  {
+    "head": "pixel-level labels",
+    "relation": "feature of",
+    "tail": "large datasets"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "pixel-accurate semantic label maps"
+  },
+  {
+    "head": "pixel-accurate semantic label maps",
+    "relation": "used for",
+    "tail": "images"
+  },
+  {
+    "head": "images",
+    "relation": "part of",
+    "tail": "modern computer games"
+  }
+]

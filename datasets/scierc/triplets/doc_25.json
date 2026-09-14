@@ -1,0 +1,107 @@
+[
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "word segmentation system"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "word breaking"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "OOV identification"
+  },
+  {
+    "head": "word breaking",
+    "relation": "conjunction",
+    "tail": "OOV identification"
+  },
+  {
+    "head": "PK-open",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "PK-open",
+    "relation": "conjunction",
+    "tail": "PK-closed"
+  },
+  {
+    "head": "PK-closed",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "PK-closed",
+    "relation": "conjunction",
+    "tail": "AS-open"
+  },
+  {
+    "head": "AS-open",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "AS-open",
+    "relation": "conjunction",
+    "tail": "AS-closed"
+  },
+  {
+    "head": "AS-closed",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "AS-closed",
+    "relation": "conjunction",
+    "tail": "HK-open"
+  },
+  {
+    "head": "HK-open",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "HK-open",
+    "relation": "conjunction",
+    "tail": "HK-closed"
+  },
+  {
+    "head": "HK-closed",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "HK-closed",
+    "relation": "conjunction",
+    "tail": "MSR-open"
+  },
+  {
+    "head": "MSR-open",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "MSR-open",
+    "relation": "conjunction",
+    "tail": "MSR - closed"
+  },
+  {
+    "head": "MSR - closed",
+    "relation": "hyponym of",
+    "tail": "segmentation bakeoff"
+  },
+  {
+    "head": "MSR-open",
+    "relation": "conjunction",
+    "tail": "MSR-close"
+  },
+  {
+    "head": "MSR-close",
+    "relation": "conjunction",
+    "tail": "PK-open"
+  }
+]

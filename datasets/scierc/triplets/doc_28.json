@@ -1,0 +1,77 @@
+[
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "blind estimation of reverberation times"
+  },
+  {
+    "head": "reverberant enclosures",
+    "relation": "feature of",
+    "tail": "blind estimation of reverberation times"
+  },
+  {
+    "head": "statistical model of short-term log-energy sequences",
+    "relation": "used for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "statistical model of short-term log-energy sequences",
+    "relation": "used for",
+    "tail": "echo-free speech"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "robust automatic speech recognition"
+  },
+  {
+    "head": "reverberant environments",
+    "relation": "feature of",
+    "tail": "robust automatic speech recognition"
+  },
+  {
+    "head": "model selection",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "reverberated speech utterance",
+    "relation": "used for",
+    "tail": "reverberation time"
+  },
+  {
+    "head": "estimation",
+    "relation": "used for",
+    "tail": "acoustic model"
+  },
+  {
+    "head": "acoustic model",
+    "relation": "part of",
+    "tail": "models"
+  },
+  {
+    "head": "artificial re-verberant conditions",
+    "relation": "feature of",
+    "tail": "models"
+  },
+  {
+    "head": "Speech recognition",
+    "relation": "evaluate for",
+    "tail": "approach"
+  },
+  {
+    "head": "Speech recognition",
+    "relation": "evaluate for",
+    "tail": "channel normaliza-tion techniques"
+  },
+  {
+    "head": "simulated and real reverberant environments",
+    "relation": "feature of",
+    "tail": "Speech recognition"
+  },
+  {
+    "head": "channel normaliza-tion techniques",
+    "relation": "compare",
+    "tail": "approach"
+  }
+]

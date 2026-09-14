@@ -1,0 +1,27 @@
+[
+  {
+    "head": "phrase-based translation model",
+    "relation": "conjunction",
+    "tail": "decoding algorithm"
+  },
+  {
+    "head": "phrase-based models",
+    "relation": "compare",
+    "tail": "word-based models"
+  },
+  {
+    "head": "heuristic learning of phrase translations",
+    "relation": "hyponym of",
+    "tail": "means"
+  },
+  {
+    "head": "word-based alignments",
+    "relation": "used for",
+    "tail": "heuristic learning of phrase translations"
+  },
+  {
+    "head": "lexical weighting of phrase translations",
+    "relation": "hyponym of",
+    "tail": "means"
+  }
+]

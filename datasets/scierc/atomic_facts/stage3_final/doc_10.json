@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_10",
+  "facts": [
+    "Representing images with layers has many important applications.",
+    "Video compression is an application of representing images with layers.",
+    "Motion analysis is an application of representing images with layers.",
+    "3D scene analysis is an application of representing images with layers.",
+    "An approach to reliably extracting layers from images is presented.",
+    "An approach to reliably extracting layers from images takes advantages of the fact that homographies induced by planar patches in the scene form a low dimensional linear subspace.",
+    "Homographies induced by planar patches in the scene form a low dimensional linear subspace.",
+    "Layers in the input images will be mapped in the subspace.",
+    "The fact that layers in the input images form well-defined clusters is proven.",
+    "Layers in the input images can be reliably identified by a simple mean-shift based clustering algorithm.",
+    "Global optimality is achieved.",
+    "All valid regions are simultaneously taken into account.",
+    "Noise can be effectively reduced by enforcing the subspace constraint.",
+    "Good layer descriptions are shown to be extracted in the experimental results.",
+    "Layers in the input images can be reliably identified."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    14
+  ],
+  "ambiguous": [
+    13
+  ],
+  "entities": [
+    "Representing images with layers",
+    "video compression",
+    "motion analysis",
+    "3D scene analysis",
+    "layers",
+    "images",
+    "homographies",
+    "planar patches",
+    "scene",
+    "low dimensional linear subspace",
+    "Layers",
+    "subspace",
+    "clusters",
+    "mean-shift based clustering algorithm",
+    "Global optimality",
+    "regions",
+    "noise",
+    "subspace constraint"
+  ]
+}

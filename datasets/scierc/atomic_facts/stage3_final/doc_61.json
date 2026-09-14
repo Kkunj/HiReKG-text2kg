@@ -1,0 +1,62 @@
+{
+  "doc_id": "doc_61",
+  "facts": [
+    "The paper asks whether it is possible to use out-of-domain acoustic training data to improve a speech recognizer's performance on a specific, independent application.",
+    "The experiments use Wallstreet Journal (WSJ) data to train a recognizer.",
+    "The trained recognizer is adapted in the Phonebook domain.",
+    "The trained recognizer is evaluated in the Phonebook domain.",
+    "The Wallstreet Journal and Phonebook corpora share US English as a common language.",
+    "The Wallstreet Journal and Phonebook corpora differ in many important respects.",
+    "The Wallstreet Journal and Phonebook corpora differ in microphone versus telephone channel.",
+    "The Wallstreet Journal and Phonebook corpora differ in continuous speech versus isolated words.",
+    "There is a mismatch in speaking rate between the Wallstreet Journal and Phonebook corpora.",
+    "The paper deals with two questions.",
+    "One question asks how much adaptation data from the Phonebook training corpus is necessary to achieve a reasonable recognition performance starting from the WSJ-trained recognizer.",
+    "The adaptation data are taken from the Phonebook training corpus.",
+    "There is a high degree of mismatch.",
+    "A second question asks whether additional out-of-domain training data can improve the recognition performance of a Phonebook-trained baseline acoustic model.",
+    "The paper describes adaptation and normalization techniques used to bridge the mismatch between the two corpora."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    8,
+    12
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    10,
+    11,
+    13,
+    14
+  ],
+  "ambiguous": [
+    4,
+    5,
+    6,
+    9
+  ],
+  "entities": [
+    "out-of-domain acoustic training data",
+    "speech recognizer",
+    "Wallstreet Journal ( WSJ ) data",
+    "recognizer",
+    "Phonebook domain",
+    "common language ( US English )",
+    "microphone vs. telephone channel",
+    "continuous speech",
+    "isolated words",
+    "WSJ-trained recognizer",
+    "adaptation data",
+    "Phonebook training corpus",
+    "recognition",
+    "mismatch",
+    "Phonebook-trained baseline acoustic model",
+    "out-of-domain training data",
+    "adaptation and normalization techniques"
+  ]
+}

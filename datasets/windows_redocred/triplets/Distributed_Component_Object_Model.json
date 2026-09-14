@@ -1,0 +1,476 @@
+[
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows NT",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows 2000",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows XP",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "COM",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Microsoft Exchange 2003",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Network OLE",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2016",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "COM+",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Distributed Computing Environment/Remote Procedure Calls",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "MSRPC",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "COM",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2008",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2008",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2012 R2",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2012 R2",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Microsoft Exchange 2003",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2016",
+    "relation": "follows",
+    "tail": "Windows Server 2012",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Distributed Component Object Model",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Server 2016",
+    "relation": "follows",
+    "tail": "Windows Server 2012 R2",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "follows",
+    "tail": "Windows Server 2008 R2",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "follows",
+    "tail": "Windows 2000",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2012 R2",
+    "relation": "follows",
+    "tail": "Windows Server 2012",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "follows",
+    "tail": "Windows 7",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "followed by",
+    "tail": "Windows 8",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2012 R2",
+    "relation": "follows",
+    "tail": "Windows Server 2008 R2",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows Server 2008",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "followed by",
+    "tail": "Windows Server 2012",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "followed by",
+    "tail": "Windows Server 2012 R2",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "COM+",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "followed by",
+    "tail": "Windows XP",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows Server 2008",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "followed by",
+    "tail": "Windows 10",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "follows",
+    "tail": "Windows 8",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Server 2008",
+    "relation": "followed by",
+    "tail": "Windows Server 2008 R2",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "follows",
+    "tail": "Windows Server 2008",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows 2000",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows XP",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows 8",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows 10",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows 7",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2008",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2008 R2",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2012 R2",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows Server 2012",
+    "relation": "followed by",
+    "tail": "Windows Server 2016",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Server 2012 R2",
+    "relation": "followed by",
+    "tail": "Windows Server 2016",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2012",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows Server 2008 R2",
+    "relation": "followed by",
+    "tail": "Windows Server 2012 R2",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2003",
+    "relation_code": "P527"
+  }
+]

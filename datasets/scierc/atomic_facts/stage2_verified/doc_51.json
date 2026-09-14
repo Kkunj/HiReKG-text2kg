@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_51",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper describes the pronominal anaphora resolution module of Lucy.",
+      "generator_supporting_span": "In this paper , we describe the pronominal anaphora resolution module of Lucy",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we describe the pronominal anaphora resolution module of Lucy , a portable English understanding system .",
+      "verifier_reasoning": "The source text's first sentence explicitly states the topic of the paper, which directly aligns with the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Lucy is a portable English understanding system.",
+      "generator_supporting_span": "Lucy , a portable English understanding system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Lucy , a portable English understanding system",
+      "verifier_reasoning": "The source text introduces a system named Lucy and immediately follows it with an appositive phrase that defines it as 'a portable English understanding system', directly stating the information in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The pronominal anaphora resolution module is part of Lucy.",
+      "generator_supporting_span": "the pronominal anaphora resolution module of Lucy",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we describe the pronominal anaphora resolution module of Lucy , a portable English understanding system",
+      "verifier_reasoning": "The source text explicitly states that the paper describes 'the pronominal anaphora resolution module of Lucy'. The preposition 'of' directly indicates that the module is a part of the Lucy system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The design of the pronominal anaphora resolution module of Lucy was motivated by the observation.",
+      "generator_supporting_span": "The design of this module was motivated by the observation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "verifier_reasoning": "The source text explicitly states that the design of 'this module' (which the preceding sentence identifies as 'the pronominal anaphora resolution module of Lucy') was motivated by an observation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "There exist many theories of anaphora resolution.",
+      "generator_supporting_span": "there exist many theories of anaphora resolution",
+      "span_mismatch": false,
+      "verifier_supporting_span": "although there exist many theories of anaphora resolution, no one of these theories is complete",
+      "verifier_reasoning": "The source text explicitly states that the design of the described module was motivated by the observation that 'there exist many theories of anaphora resolution'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "No theory of anaphora resolution is complete.",
+      "generator_supporting_span": "no one of these theories is complete",
+      "span_mismatch": false,
+      "verifier_supporting_span": "although there exist many theories of anaphora resolution , no one of these theories is complete",
+      "verifier_reasoning": "The source text explicitly states that the design of the described module was motivated by the observation that among the many existing theories of anaphora resolution, none are complete.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "A blackboard-like architecture has been implemented.",
+      "generator_supporting_span": "Thus we have implemented a blackboard-like architecture",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Thus we have implemented a blackboard-like architecture in which individual partial theories can be encoded as separate modules that can interact to propose candidate antecedents and to evaluate each other 's proposals .",
+      "verifier_reasoning": "The source text explicitly states that the authors have implemented the specific type of architecture mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Lucy is a system.",
+      "generator_supporting_span": "Lucy , a portable English understanding system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Lucy , a portable English understanding system",
+      "verifier_reasoning": "The source text explicitly identifies Lucy as 'a portable English understanding system,' which directly states that Lucy is a system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Individual partial theories can be encoded.",
+      "generator_supporting_span": "individual partial theories can be encoded",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Thus we have implemented a blackboard-like architecture in which individual partial theories can be encoded as separate modules that can interact to propose candidate antecedents and to evaluate each other 's proposals .",
+      "verifier_reasoning": "The source text explicitly describes an architecture where it is possible for 'individual partial theories' to be 'encoded as separate modules', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Individual partial theories can be encoded as separate modules.",
+      "generator_supporting_span": "in which individual partial theories can be encoded as separate modules",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we have implemented a blackboard-like architecture in which individual partial theories can be encoded as separate modules",
+      "verifier_reasoning": "The source text explicitly states that the authors have implemented an architecture where individual partial theories can be encoded as separate modules, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Separate modules can interact.",
+      "generator_supporting_span": "that can interact",
+      "span_mismatch": false,
+      "verifier_supporting_span": "individual partial theories can be encoded as separate modules that can interact to propose candidate antecedents and to evaluate each other 's proposals",
+      "verifier_reasoning": "The source text describes an architecture where individual theories are encoded as separate modules, and it explicitly states that these modules can interact with each other.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The separate modules can interact to propose candidate antecedents.",
+      "generator_supporting_span": "that can interact to propose candidate antecedents",
+      "span_mismatch": false,
+      "verifier_supporting_span": "individual partial theories can be encoded as separate modules that can interact to propose candidate antecedents and to evaluate each other 's proposals",
+      "verifier_reasoning": "The source text explicitly states that the system's architecture allows for separate modules which 'can interact to propose candidate antecedents'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Candidate antecedents can be proposed.",
+      "generator_supporting_span": "to propose candidate antecedents",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Thus we have implemented a blackboard-like architecture in which individual partial theories can be encoded as separate modules that can interact to propose candidate antecedents and to evaluate each other 's proposals .",
+      "verifier_reasoning": "The source text explicitly states that the described system architecture allows separate modules to interact for the purpose of proposing candidate antecedents.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The observation that motivated the design of the pronominal anaphora resolution module of Lucy noted that there exist many theories of anaphora resolution.",
+      "generator_supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "verifier_reasoning": "The source text explicitly states that the design of the module was motivated by an observation. The content of that observation is described as 'although there exist many theories of anaphora resolution, no one of these theories is complete,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The observation that motivated the design of the pronominal anaphora resolution module of Lucy stated that no theory of anaphora resolution is complete.",
+      "generator_supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "verifier_reasoning": "The source text explicitly states that the design of the module was motivated by an observation, and then specifies that this observation was that 'no one of these theories is complete'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

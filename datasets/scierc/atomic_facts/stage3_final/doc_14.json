@@ -1,0 +1,65 @@
+{
+  "doc_id": "doc_14",
+  "facts": [
+    "The paper targets generating generic action proposals in unconstrained videos.",
+    "Each action proposal corresponds to a temporal series of spatial bounding boxes.",
+    "A spatio-temporal video tube has a good potential to locate one human action.",
+    "Each action is assumed to be performed by a human with meaningful motion.",
+    "Appearance cues are utilized to measure the actionness of the video tubes.",
+    "Motion cues are utilized to measure the actionness of the video tubes.",
+    "Action proposal generation is formulated as a maximum set coverage problem.",
+    "Greedy search is performed to select a set of action proposals.",
+    "A set of action proposals can maximize the overall actionness score.",
+    "The action proposals do not rely on video segmentation.",
+    "The action proposals can be generated in nearly real-time.",
+    "Experimental results on two challenging datasets validate the superior performance of the action proposals.",
+    "MSRII and UCF 101 are two challenging datasets.",
+    "Experimental results validate competitive results on action detection and search.",
+    "A temporal series of spatial bounding boxes is a spatio-temporal video tube."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    5,
+    10,
+    11,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    12,
+    14
+  ],
+  "ambiguous": [
+    3
+  ],
+  "entities": [
+    "generic action proposals",
+    "unconstrained videos",
+    "action proposal",
+    "temporal series of spatial bounding boxes",
+    "spatio-temporal video tube",
+    "human action",
+    "appearance and motion cues",
+    "ac-tionness",
+    "video tubes",
+    "actionness scores",
+    "action proposal generation",
+    "maximum set coverage problem",
+    "greedy search",
+    "action proposals",
+    "actionness score",
+    "action proposal approaches",
+    "video segmentation",
+    "MSRII",
+    "UCF 101",
+    "action detection and search"
+  ]
+}

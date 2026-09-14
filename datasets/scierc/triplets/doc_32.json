@@ -1,0 +1,92 @@
+[
+  {
+    "head": "numerical optimization problem",
+    "relation": "used for",
+    "tail": "visual object tracking"
+  },
+  {
+    "head": "local optimization",
+    "relation": "used for",
+    "tail": "local mode of the similarity measure"
+  },
+  {
+    "head": "parameter space of translation , rotation and scale",
+    "relation": "used for",
+    "tail": "local mode of the similarity measure"
+  },
+  {
+    "head": "Kalman filter",
+    "relation": "part of",
+    "tail": "prediction techniques"
+  },
+  {
+    "head": "global optimization problem",
+    "relation": "used for",
+    "tail": "object detection"
+  },
+  {
+    "head": "Adaptive Simulated Annealing (ASA)",
+    "relation": "used for",
+    "tail": "it"
+  },
+  {
+    "head": "method",
+    "relation": "compare",
+    "tail": "exhaustive search"
+  },
+  {
+    "head": "ASA",
+    "relation": "hyponym of",
+    "tail": "Monte Carlo approach"
+  },
+  {
+    "head": "ASA",
+    "relation": "compare",
+    "tail": "local deterministic search"
+  },
+  {
+    "head": "cluster analysis",
+    "relation": "used for",
+    "tail": "sampled parameter space"
+  },
+  {
+    "head": "cluster analysis",
+    "relation": "used for",
+    "tail": "local tracker"
+  },
+  {
+    "head": "airborne videos",
+    "relation": "evaluate for",
+    "tail": "numerical hybrid local and global mode-seeking tracker"
+  },
+  {
+    "head": "heavy occlusion",
+    "relation": "feature of",
+    "tail": "airborne videos"
+  },
+  {
+    "head": "heavy occlusion",
+    "relation": "conjunction",
+    "tail": "camera motions"
+  },
+  {
+    "head": "camera motions",
+    "relation": "feature of",
+    "tail": "airborne videos"
+  },
+  {
+    "head": "state-of-the-art trackers",
+    "relation": "compare",
+    "tail": "approach"
+  },
+  {
+    "head": "VIVID benchmark datasets",
+    "relation": "evaluate for",
+    "tail": "approach"
+  },
+  {
+    "head": "VIVID benchmark datasets",
+    "relation": "evaluate for",
+    "tail": "state-of-the-art trackers"
+  }
+]

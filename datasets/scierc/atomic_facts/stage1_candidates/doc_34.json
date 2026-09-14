@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_34",
+  "facts": [
+    {
+      "fact": "A unified variational formulation is proposed.",
+      "supporting_span": "We propose a unified variational formulation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A unified variational formulation is for joint motion estimation and segmentation.",
+      "supporting_span": "for joint motion estimation and segmentation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A unified variational formulation includes explicit occlusion handling.",
+      "supporting_span": "with explicit occlusion handling .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A multi-label representation of the flow field is used.",
+      "supporting_span": "This is done by a multi-label representation of the flow field ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each label corresponds to a parametric representation of the motion.",
+      "supporting_span": "where each label corresponds to a parametric representation of the motion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A convex formulation of the multi-label Potts model is used.",
+      "supporting_span": "We use a convex formulation of the multi-label Potts model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multi-label Potts model includes label costs.",
+      "supporting_span": "with label costs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The asymmetric map-uniqueness criterion can be integrated into a formulation.",
+      "supporting_span": "the asymmetric map-uniqueness criterion can be integrated into our formulation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The asymmetric map-uniqueness criterion is integrated by means of convex constraints.",
+      "supporting_span": "and show that the asymmetric map-uniqueness criterion can be integrated into our formulation by means of convex constraints .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Explicit occlusion handling eliminates errors otherwise created by the regularization.",
+      "supporting_span": "Explicit occlusion handling eliminates errors otherwise created by the regularization .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Occlusions can occur only at object boundaries.",
+      "supporting_span": "As occlusions can occur only at object boundaries ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A large number of objects may be required.",
+      "supporting_span": "a large number of objects may be required .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A fast primal-dual algorithm is used.",
+      "supporting_span": "By using a fast primal-dual algorithm we are able to handle several hundred motion segments .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Several hundred motion segments can be handled.",
+      "supporting_span": "we are able to handle several hundred motion segments .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Results are shown on several classical motion segmentation and optical flow examples.",
+      "supporting_span": "Results are shown on several classical motion segmentation and optical flow examples .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

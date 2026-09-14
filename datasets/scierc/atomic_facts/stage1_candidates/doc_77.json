@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_77",
+  "facts": [
+    {
+      "fact": "Image composition has attracted a growing attention in recent years.",
+      "supporting_span": "Image composition (or mosaicing) has attracted a growing attention in recent years",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Image composition is one of the main elements in video analysis and representation.",
+      "supporting_span": "as one of the main elements in video analysis and representation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper deals with the problem of global alignment.",
+      "supporting_span": "In this paper we deal with the problem of global alignment and super-resolution",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper deals with the problem of super-resolution.",
+      "supporting_span": "In this paper we deal with the problem of global alignment and super-resolution",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The quality of the resulting mosaic is proposed to be evaluated by measuring the amount of blurring.",
+      "supporting_span": "We also propose to evaluate the quality of the resulting mosaic by measuring the amount of blurring",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The amount of blurring is used to evaluate the quality of the resulting mosaic.",
+      "supporting_span": "by measuring the amount of blurring",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global registration is achieved by combining a graph-based technique with a bundle adjustment.",
+      "supporting_span": "Global registration is achieved by combining a graph-based technique -- that exploits the topological structure of the sequence induced by the spatial overlap -- with a bundle adjustment",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A graph-based technique exploits the topological structure of the sequence induced by the spatial overlap.",
+      "supporting_span": "that exploits the topological structure of the sequence induced by the spatial overlap",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bundle adjustment uses only the homographies computed in the previous steps.",
+      "supporting_span": "a bundle adjustment which uses only the homographies computed in the previous steps",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Homographies are computed in the previous steps.",
+      "supporting_span": "homographies computed in the previous steps",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The sequence is induced by the spatial overlap.",
+      "supporting_span": "sequence induced by the spatial overlap",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global registration is achieved.",
+      "supporting_span": "Global registration is achieved",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A graph-based technique is combined with a bundle adjustment for global registration.",
+      "supporting_span": "by combining a graph-based technique -- that exploits the topological structure of the sequence induced by the spatial overlap -- with a bundle adjustment",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mosaicing has attracted a growing attention in recent years.",
+      "supporting_span": "Image composition (or mosaicing) has attracted a growing attention in recent years",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bundle adjustment is used for global registration.",
+      "supporting_span": "Global registration is achieved by combining a graph-based technique -- that exploits the topological structure of the sequence induced by the spatial overlap -- with a bundle adjustment",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

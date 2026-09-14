@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_12",
+  "facts": [
+    {
+      "fact": "The verb forms are often claimed to convey two kinds of information.",
+      "supporting_span": "The verb forms are often claimed to convey two kinds of information",
+      "span_mismatch": false
+    },
+    {
+      "fact": "One kind of information is whether the event described in a sentence is present, past or future.",
+      "supporting_span": "1 . whether the event described in a sentence is present , past or future",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The information whether the event described in a sentence is present, past or future is deictic information.",
+      "supporting_span": "whether the event described in a sentence is present , past or future (= deictic information)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A kind of information is whether the event described in a sentence is presented as completed, going on, just starting or being finished.",
+      "supporting_span": "2 . whether the event described in a sentence is presented as completed , going on , just starting or being finished",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The information whether the event described in a sentence is presented as completed, going on, just starting or being finished is aspectual information.",
+      "supporting_span": "whether the event described in a sentence is presented as completed , going on , just starting or being finished (= aspectual information)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "It will be demonstrated in this paper that one has to add a third component to the analysis of verb form meanings.",
+      "supporting_span": "It will be demonstrated in this paper that one has to add a third component to the analysis of verb form meanings",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The third component to the analysis of verb form meanings is whether or not the verb forms express habituality.",
+      "supporting_span": "one has to add a third component to the analysis of verb form meanings , namely whether or not they express habituality",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework of the analysis is model-theoretic semantics.",
+      "supporting_span": "The framework of the analysis is model-theoretic semantics",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be present.",
+      "supporting_span": "whether the event described in a sentence is present , past or future",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be past.",
+      "supporting_span": "whether the event described in a sentence is present , past or future",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be future.",
+      "supporting_span": "whether the event described in a sentence is present , past or future",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be presented as completed.",
+      "supporting_span": "whether the event described in a sentence is presented as completed , going on , just starting or being finished",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be presented as going on.",
+      "supporting_span": "whether the event described in a sentence is presented as completed , going on , just starting or being finished",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be presented as just starting.",
+      "supporting_span": "whether the event described in a sentence is presented as completed , going on , just starting or being finished",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The event described in a sentence can be presented as being finished.",
+      "supporting_span": "whether the event described in a sentence is presented as completed , going on , just starting or being finished",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

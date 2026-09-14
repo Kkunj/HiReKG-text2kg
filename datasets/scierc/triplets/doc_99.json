@@ -1,0 +1,32 @@
+[
+  {
+    "head": "design of core-selecting payment rules",
+    "relation": "used for",
+    "tail": "domains"
+  },
+  {
+    "head": "core-selecting rules",
+    "relation": "used for",
+    "tail": "IR"
+  },
+  {
+    "head": "computational Bayes-Nash equilibrium analysis",
+    "relation": "used for",
+    "tail": "rules"
+  },
+  {
+    "head": "rules",
+    "relation": "compare",
+    "tail": "core-selecting rules"
+  },
+  {
+    "head": "rate of ex-post IR violations",
+    "relation": "evaluate for",
+    "tail": "rules"
+  },
+  {
+    "head": "rate of ex-post IR violations",
+    "relation": "evaluate for",
+    "tail": "core-selecting rules"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "head": "images",
+    "relation": "used for",
+    "tail": "perception of transparent objects"
+  },
+  {
+    "head": "those",
+    "relation": "compare",
+    "tail": "features"
+  },
+  {
+    "head": "model-based approach",
+    "relation": "used for",
+    "tail": "shapes and the poses of transparent objects"
+  },
+  {
+    "head": "known motion",
+    "relation": "used for",
+    "tail": "shapes and the poses of transparent objects"
+  },
+  {
+    "head": "multiple layers",
+    "relation": "part of",
+    "tail": "they"
+  },
+  {
+    "head": "refractive indices",
+    "relation": "feature of",
+    "tail": "multiple layers"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "real scenes"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "shapes of the objects"
+  },
+  {
+    "head": "transparent objects",
+    "relation": "part of",
+    "tail": "real scenes"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "shapes of the objects"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_84",
+  "facts": [
+    {
+      "fact": "The authors propose to incorporate a priori geometric constraints in a 3-D stereo reconstruction scheme.",
+      "supporting_span": "We propose to incorporate a priori geometric constraints in a 3 -- D stereo reconstruction scheme",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed incorporation of a priori geometric constraints is intended to cope with cases where image information alone is not sufficient to accurately recover 3-D shape.",
+      "supporting_span": "to cope with the many cases where image information alone is not sufficient to accurately recover 3 -- D shape",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Image information alone is not sufficient to accurately recover 3-D shape in many cases.",
+      "supporting_span": "image information alone is not sufficient to accurately recover 3 -- D shape",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is based on the iterative deformation of a 3-D surface mesh.",
+      "supporting_span": "Our approach is based on the iterative deformation of a 3 -- D surface mesh",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach aims to minimize an objective function.",
+      "supporting_span": "to minimize an objective function",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method combines anisotropic meshing with a non-quadratic approach to regularization.",
+      "supporting_span": "combining anisotropic meshing with a non-quadratic approach to regularization",
+      "span_mismatch": false
+    },
+    {
+      "fact": "This combination enables obtaining satisfactory reconstruction results.",
+      "supporting_span": "enables us to obtain satisfactory reconstruction results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The satisfactory reconstruction results are obtained using triangulations with few vertices.",
+      "supporting_span": "using triangulations with few vertices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Structural or numerical constraints can be added locally to the reconstruction process.",
+      "supporting_span": "Structural or numerical constraints can then be added locally to the reconstruction process",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The constraints are added through a constrained optimization scheme.",
+      "supporting_span": "through a constrained optimization scheme",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Structural or numerical constraints improve the reconstruction results.",
+      "supporting_span": "They improve the reconstruction results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Structural or numerical constraints enforce consistency of the reconstruction results with a priori knowledge about object shape.",
+      "supporting_span": "enforce their consistency with a priori knowledge about object shape",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Differential features have strong description properties.",
+      "supporting_span": "The strong description and modeling properties of differential features",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Differential features have strong modeling properties.",
+      "supporting_span": "The strong description and modeling properties of differential features",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Differential features can be efficiently used as constraints for 3-D reconstruction.",
+      "supporting_span": "can be efficiently used as constraints for 3 -- D reconstruction",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

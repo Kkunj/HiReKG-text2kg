@@ -1,0 +1,54 @@
+{
+  "doc_id": "doc_8",
+  "facts": [
+    "The paper introduces the modal language LT.",
+    "LT is for imposing constraints on trees.",
+    "The paper introduces the extension LT (LF).",
+    "LT (LF) is for imposing constraints on trees decorated with feature structures.",
+    "LT is a language.",
+    "LT (LF) is an extension.",
+    "The motivation for introducing LT and LT (LF) is to provide tools for formalising grammatical frameworks perspicuously.",
+    "The leading ideas of GPSG can be captured in LT (LF).",
+    "The paper shows how the leading ideas of GPSG can be captured in LT (LF).",
+    "Constraints are imposed on trees.",
+    "Constraints are imposed on trees decorated with feature structures.",
+    "The role of modal languages is discussed in some detail.",
+    "Constraint formalisms for linguistic theorising are discussed in some detail.",
+    "Constraint formalisms are for linguistic theorising.",
+    "Trees are decorated with feature structures."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    11,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    7,
+    8
+  ],
+  "ambiguous": [
+    4,
+    5,
+    9,
+    10,
+    14
+  ],
+  "entities": [
+    "modal language LT",
+    "constraints on trees",
+    "extension LT ( LF )",
+    "constraints on trees decorated with feature structures",
+    "grammatical frameworks",
+    "GPSG",
+    "LT ( LF )",
+    "modal languages",
+    "constraint formalisms"
+  ]
+}

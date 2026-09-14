@@ -1,0 +1,92 @@
+[
+  {
+    "head": "process model",
+    "relation": "used for",
+    "tail": "hierarchical perceptual sound organization"
+  },
+  {
+    "head": "perceptual sounds",
+    "relation": "part of",
+    "tail": "incoming sound signals"
+  },
+  {
+    "head": "scene analysis problem",
+    "relation": "used for",
+    "tail": "perceptual sound organization"
+  },
+  {
+    "head": "auditory domain",
+    "relation": "feature of",
+    "tail": "scene analysis problem"
+  },
+  {
+    "head": "processing modules",
+    "relation": "part of",
+    "tail": "model"
+  },
+  {
+    "head": "processing modules",
+    "relation": "conjunction",
+    "tail": "hypothesis network"
+  },
+  {
+    "head": "hypothesis network",
+    "relation": "part of",
+    "tail": "model"
+  },
+  {
+    "head": "internal model",
+    "relation": "part of",
+    "tail": "hypothesis network"
+  },
+  {
+    "head": "internal model",
+    "relation": "used for",
+    "tail": "perceptual sounds"
+  },
+  {
+    "head": "music scene analysis system",
+    "relation": "used for",
+    "tail": "acoustic signals of ensemble music"
+  },
+  {
+    "head": "music scene analysis system",
+    "relation": "used for",
+    "tail": "rhythm"
+  },
+  {
+    "head": "music scene analysis system",
+    "relation": "used for",
+    "tail": "chords"
+  },
+  {
+    "head": "music scene analysis system",
+    "relation": "used for",
+    "tail": "source-separated musical notes"
+  },
+  {
+    "head": "rhythm",
+    "relation": "conjunction",
+    "tail": "chords"
+  },
+  {
+    "head": "chords",
+    "relation": "conjunction",
+    "tail": "source-separated musical notes"
+  },
+  {
+    "head": "information integration",
+    "relation": "feature of",
+    "tail": "method"
+  },
+  {
+    "head": "information integration",
+    "relation": "used for",
+    "tail": "internal model"
+  },
+  {
+    "head": "internal model",
+    "relation": "used for",
+    "tail": "hierarchical perceptual sounds"
+  }
+]

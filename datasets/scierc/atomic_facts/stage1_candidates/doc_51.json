@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_51",
+  "facts": [
+    {
+      "fact": "The paper describes the pronominal anaphora resolution module of Lucy.",
+      "supporting_span": "In this paper , we describe the pronominal anaphora resolution module of Lucy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lucy is a portable English understanding system.",
+      "supporting_span": "Lucy , a portable English understanding system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The pronominal anaphora resolution module is part of Lucy.",
+      "supporting_span": "the pronominal anaphora resolution module of Lucy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The design of the pronominal anaphora resolution module of Lucy was motivated by the observation.",
+      "supporting_span": "The design of this module was motivated by the observation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There exist many theories of anaphora resolution.",
+      "supporting_span": "there exist many theories of anaphora resolution",
+      "span_mismatch": false
+    },
+    {
+      "fact": "No theory of anaphora resolution is complete.",
+      "supporting_span": "no one of these theories is complete",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A blackboard-like architecture has been implemented.",
+      "supporting_span": "Thus we have implemented a blackboard-like architecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lucy is a system.",
+      "supporting_span": "Lucy , a portable English understanding system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Individual partial theories can be encoded.",
+      "supporting_span": "individual partial theories can be encoded",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Individual partial theories can be encoded as separate modules.",
+      "supporting_span": "in which individual partial theories can be encoded as separate modules",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Separate modules can interact.",
+      "supporting_span": "that can interact",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The separate modules can interact to propose candidate antecedents.",
+      "supporting_span": "that can interact to propose candidate antecedents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Candidate antecedents can be proposed.",
+      "supporting_span": "to propose candidate antecedents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The observation that motivated the design of the pronominal anaphora resolution module of Lucy noted that there exist many theories of anaphora resolution.",
+      "supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The observation that motivated the design of the pronominal anaphora resolution module of Lucy stated that no theory of anaphora resolution is complete.",
+      "supporting_span": "The design of this module was motivated by the observation that , although there exist many theories of anaphora resolution , no one of these theories is complete .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

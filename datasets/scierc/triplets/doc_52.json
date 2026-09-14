@@ -1,0 +1,32 @@
+[
+  {
+    "head": "adaptive learning procedure",
+    "relation": "used for",
+    "tail": "syntactic ambiguity resolution"
+  },
+  {
+    "head": "insufficient training data",
+    "relation": "conjunction",
+    "tail": "approximation error"
+  },
+  {
+    "head": "statistical approaches",
+    "relation": "used for",
+    "tail": "ambiguities"
+  },
+  {
+    "head": "maximum likelihood method",
+    "relation": "used for",
+    "tail": "statistical approaches"
+  },
+  {
+    "head": "accuracy rate",
+    "relation": "evaluate for",
+    "tail": "syntactic disambiguation"
+  },
+  {
+    "head": "syntactic disambiguation",
+    "relation": "evaluate for",
+    "tail": "approach"
+  }
+]

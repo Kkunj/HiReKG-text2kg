@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_92",
+  "facts": [
+    {
+      "fact": "The paper presents an algorithm.",
+      "supporting_span": "This paper presents an algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm is for learning the time-varying shape of a non-rigid 3D object.",
+      "supporting_span": "for learning the time-varying shape of a non-rigid 3D object",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm uses uncalibrated 2D tracking data.",
+      "supporting_span": "from uncalibrated 2D tracking data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model of shape motion includes a rigid component.",
+      "supporting_span": "We model shape motion as a rigid component",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The rigid component includes rotation and translation.",
+      "supporting_span": "(rotation and translation)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model of shape motion combines a rigid component with a non-rigid deformation.",
+      "supporting_span": "combined with a non-rigid deformation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Reconstruction is ill-posed if arbitrary deformations are allowed.",
+      "supporting_span": "Reconstruction is ill-posed if arbitrary deformations are allowed .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The problem is constrained by assuming that the object shape at each time instant is drawn from a Gaussian distribution.",
+      "supporting_span": "We constrain the problem by assuming that the object shape at each time instant is drawn from a Gaussian distribution .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The object shape at each time instant is drawn from a Gaussian distribution.",
+      "supporting_span": "the object shape at each time instant is drawn from a Gaussian distribution",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm simultaneously estimates 3D shape and motion for each time frame.",
+      "supporting_span": "the algorithm simultaneously estimates 3D shape and motion for each time frame",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm learns the parameters of the Gaussian.",
+      "supporting_span": "learns the parameters of the Gaussian",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm robustly fills-in missing data points.",
+      "supporting_span": "robustly fills-in missing data points",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm is extended to model temporal smoothness in object shape.",
+      "supporting_span": "We then extend the algorithm to model temporal smoothness in object shape",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Modeling temporal smoothness in object shape allows the algorithm to handle severe cases of missing data.",
+      "supporting_span": "thus allowing it to handle severe cases of missing data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The 3D object is non-rigid.",
+      "supporting_span": "a non-rigid 3D object",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "head": "machine translation (MT) evaluation",
+    "relation": "conjunction",
+    "tail": "sentence-level semantic equivalence classification"
+  },
+  {
+    "head": "MT evaluation methods",
+    "relation": "used for",
+    "tail": "classifiers"
+  },
+  {
+    "head": "BLEU",
+    "relation": "hyponym of",
+    "tail": "MT evaluation methods"
+  },
+  {
+    "head": "BLEU",
+    "relation": "conjunction",
+    "tail": "NIST"
+  },
+  {
+    "head": "NIST",
+    "relation": "hyponym of",
+    "tail": "MT evaluation methods"
+  },
+  {
+    "head": "NIST",
+    "relation": "conjunction",
+    "tail": "WER"
+  },
+  {
+    "head": "WER",
+    "relation": "hyponym of",
+    "tail": "MT evaluation methods"
+  },
+  {
+    "head": "WER",
+    "relation": "conjunction",
+    "tail": "PER"
+  },
+  {
+    "head": "PER",
+    "relation": "hyponym of",
+    "tail": "MT evaluation methods"
+  },
+  {
+    "head": "classifiers",
+    "relation": "used for",
+    "tail": "semantic equivalence"
+  },
+  {
+    "head": "classifiers",
+    "relation": "used for",
+    "tail": "entailment"
+  },
+  {
+    "head": "semantic equivalence",
+    "relation": "conjunction",
+    "tail": "entailment"
+  },
+  {
+    "head": "PER",
+    "relation": "used for",
+    "tail": "classification method"
+  },
+  {
+    "head": "PER",
+    "relation": "used for",
+    "tail": "part of speech information"
+  },
+  {
+    "head": "part of speech information",
+    "relation": "used for",
+    "tail": "word matches and non-matches"
+  },
+  {
+    "head": "MT evaluation techniques",
+    "relation": "used for",
+    "tail": "features"
+  },
+  {
+    "head": "MT evaluation techniques",
+    "relation": "used for",
+    "tail": "paraphrase classification"
+  },
+  {
+    "head": "MT evaluation techniques",
+    "relation": "used for",
+    "tail": "entailment"
+  },
+  {
+    "head": "paraphrase classification",
+    "relation": "conjunction",
+    "tail": "entailment"
+  },
+  {
+    "head": "technique",
+    "relation": "compare",
+    "tail": "models"
+  },
+  {
+    "head": "paraphrase classification accuracy",
+    "relation": "evaluate for",
+    "tail": "technique"
+  },
+  {
+    "head": "paraphrase classification accuracy",
+    "relation": "evaluate for",
+    "tail": "models"
+  }
+]

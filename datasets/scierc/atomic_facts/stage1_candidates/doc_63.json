@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_63",
+  "facts": [
+    {
+      "fact": "Conventional HMMs have weak duration constraints.",
+      "supporting_span": "Conventional HMMs have weak duration constraints .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In noisy conditions, the mismatch between corrupted speech signals and models trained on clean speech may cause the decoder to produce word matches with unrealistic durations.",
+      "supporting_span": "In noisy conditions , the mismatch between corrupted speech signals and models trained on clean speech may cause the decoder to produce word matches with unrealistic durations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The mismatch is between corrupted speech signals and models trained on clean speech.",
+      "supporting_span": "the mismatch between corrupted speech signals and models trained on clean speech",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Models are trained on clean speech.",
+      "supporting_span": "models trained on clean speech",
+      "span_mismatch": false
+    },
+    {
+      "fact": "This paper presents a simple way to incorporate word duration constraints.",
+      "supporting_span": "This paper presents a simple way to incorporate word duration constraints",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Word duration constraints can be incorporated by unrolling HMMs.",
+      "supporting_span": "incorporate word duration constraints by unrolling HMMs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Unrolling HMMs forms a lattice.",
+      "supporting_span": "unrolling HMMs to form a lattice",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Word duration probabilities can be applied directly to state transitions.",
+      "supporting_span": "word duration probabilities can be applied directly to state transitions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The expanded HMMs are compatible with conventional Viterbi decoding.",
+      "supporting_span": "The expanded HMMs are compatible with conventional Viterbi decoding .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments on connected-digit recognition show that when using explicit duration constraints the decoder generates word matches with more reasonable durations.",
+      "supporting_span": "Experiments on connected-digit recognition show that when using explicit duration constraints the decoder generates word matches with more reasonable durations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "When using explicit duration constraints, the decoder generates word matches with more reasonable durations.",
+      "supporting_span": "when using explicit duration constraints the decoder generates word matches with more reasonable durations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The decoder generates word matches when using explicit duration constraints.",
+      "supporting_span": "when using explicit duration constraints the decoder generates word matches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Word error rates are significantly reduced.",
+      "supporting_span": "word error rates are significantly reduced",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Word error rates are significantly reduced across a broad range of noise conditions.",
+      "supporting_span": "word error rates are significantly reduced across a broad range of noise conditions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There is a broad range of noise conditions.",
+      "supporting_span": "a broad range of noise conditions",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_25",
+  "facts": [
+    {
+      "fact": "The paper presents a word segmentation system in France Telecom R&D Beijing.",
+      "supporting_span": "This paper presents a word segmentation system in France Telecom R&D Beijing ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word segmentation system uses a unified approach to word breaking.",
+      "supporting_span": "which uses a unified approach to word breaking and OOV identification .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word segmentation system uses a unified approach to OOV identification.",
+      "supporting_span": "which uses a unified approach to word breaking and OOV identification .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The output can be customized to meet different segmentation standards.",
+      "supporting_span": "The output can be customized to meet different segmentation standards",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The output can be customized through the application of an ordered list of transformation.",
+      "supporting_span": "through the application of an ordered list of transformation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in all the tracks of the segmentation bakeoff.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in PK-open.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff -- PK-open , PK-closed , AS-open , AS-closed , HK-open , HK-closed , MSR-open and MSR - closed --",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in PK-closed.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff -- PK-open , PK-closed , AS-open , AS-closed , HK-open , HK-closed , MSR-open and MSR - closed --",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in AS-open.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff -- PK-open , PK-closed , AS-open , AS-closed , HK-open , HK-closed , MSR-open and MSR - closed --",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in AS-closed.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff -- PK-open , PK-closed , AS-open , AS-closed , HK-open , HK-closed , MSR-open and MSR - closed --",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system participated in HK-open.",
+      "supporting_span": "The system participated in all the tracks of the segmentation bakeoff -- PK-open , PK-closed , AS-open , AS-closed , HK-open , HK-closed , MSR-open and MSR - closed --",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system achieved the state-of-the-art performance in MSR-open.",
+      "supporting_span": "and achieved the state-of-the-art performance in MSR-open , MSR-close and PK-open tracks .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system achieved the state-of-the-art performance in MSR-close.",
+      "supporting_span": "and achieved the state-of-the-art performance in MSR-open , MSR-close and PK-open tracks .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system achieved the state-of-the-art performance in PK-open.",
+      "supporting_span": "and achieved the state-of-the-art performance in MSR-open , MSR-close and PK-open tracks .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Analysis of the results shows that each component of the system contributed to the scores.",
+      "supporting_span": "Analysis of the results shows that each component of the system contributed to the scores .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

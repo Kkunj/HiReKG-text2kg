@@ -1,0 +1,62 @@
+[
+  {
+    "head": "Interval Algebra (IA)",
+    "relation": "conjunction",
+    "tail": "Region Connection Calculus (RCC)"
+  },
+  {
+    "head": "Interval Algebra (IA)",
+    "relation": "hyponym of",
+    "tail": "Artificial Intelligence approaches"
+  },
+  {
+    "head": "Region Connection Calculus (RCC)",
+    "relation": "hyponym of",
+    "tail": "Artificial Intelligence approaches"
+  },
+  {
+    "head": "RCC-8",
+    "relation": "hyponym of",
+    "tail": "Region Connection Calculus (RCC)"
+  },
+  {
+    "head": "Artificial Intelligence approaches",
+    "relation": "used for",
+    "tail": "representing and reasoning about qualitative temporal and topological relations"
+  },
+  {
+    "head": "Qualitative Constraint Network (QCN)",
+    "relation": "used for",
+    "tail": "qualitative information"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "QCN"
+  },
+  {
+    "head": "chordal QCNs",
+    "relation": "part of",
+    "tail": "algorithm"
+  },
+  {
+    "head": "chordal QCNs",
+    "relation": "conjunction",
+    "tail": "partial consistency"
+  },
+  {
+    "head": "partial consistency",
+    "relation": "part of",
+    "tail": "algorithm"
+  },
+  {
+    "head": "\u25c6 G-consistency",
+    "relation": "hyponym of",
+    "tail": "partial consistency"
+  },
+  {
+    "head": "QCNs of IA and RCC-8",
+    "relation": "evaluate for",
+    "tail": "approach"
+  }
+]

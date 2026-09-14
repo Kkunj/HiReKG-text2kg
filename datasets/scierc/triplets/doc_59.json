@@ -1,0 +1,42 @@
+[
+  {
+    "head": "user modeling",
+    "relation": "used for",
+    "tail": "cooperative responses"
+  },
+  {
+    "head": "user modeling",
+    "relation": "part of",
+    "tail": "spoken dialogue systems"
+  },
+  {
+    "head": "studies",
+    "relation": "compare",
+    "tail": "user model"
+  },
+  {
+    "head": "decision tree learning",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "real dialogue data",
+    "relation": "used for",
+    "tail": "decision tree learning"
+  },
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "real dialogue data"
+  },
+  {
+    "head": "Dialogue strategies",
+    "relation": "used for",
+    "tail": "Kyoto city bus information system"
+  },
+  {
+    "head": "user modeling",
+    "relation": "used for",
+    "tail": "Dialogue strategies"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_55",
+  "facts": [
+    "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach.",
+    "The goal of naturally sounding dialog systems is within reach.",
+    "Speech recognition has improved.",
+    "Improved speech recognition has brought to light a new problem.",
+    "Dialog systems understand more of what the user tells dialog systems.",
+    "Dialog systems need to be more sophisticated at responding to the user.",
+    "The issue of system response to users has been extensively studied by the natural language generation community.",
+    "The issue of system response to users has been rarely studied in the context of dialog systems.",
+    "Research in generation can be adapted to dialog systems.",
+    "The high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques.",
+    "Hand-crafting knowledge-based generation systems has a high cost.",
+    "Users tell dialog systems information.",
+    "Dialog systems respond to the user.",
+    "A natural language generation community exists.",
+    "Dialog systems are a context for studying system response to users."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    11,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "Automatic Speech Recognition technology",
+    "dialog systems",
+    "speech recognition",
+    "system response",
+    "natural language generation community",
+    "generation",
+    "hand-crafting knowledge-based generation systems",
+    "machine learning techniques"
+  ]
+}

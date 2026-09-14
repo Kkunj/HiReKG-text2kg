@@ -1,0 +1,47 @@
+[
+  {
+    "head": "weakly supervised dependency parser",
+    "relation": "used for",
+    "tail": "speech syntax"
+  },
+  {
+    "head": "hand-crafted rules",
+    "relation": "used for",
+    "tail": "syntactic knowledge"
+  },
+  {
+    "head": "Bayesian inference",
+    "relation": "used for",
+    "tail": "rules"
+  },
+  {
+    "head": "them",
+    "relation": "used for",
+    "tail": "complex tree structures"
+  },
+  {
+    "head": "complex tree structures",
+    "relation": "used for",
+    "tail": "discriminative model 's posterior"
+  },
+  {
+    "head": "unlabeled corpus",
+    "relation": "used for",
+    "tail": "discriminative model 's posterior"
+  },
+  {
+    "head": "posterior",
+    "relation": "used for",
+    "tail": "sparse se-lectional preferences"
+  },
+  {
+    "head": "English and Czech newspaper texts",
+    "relation": "evaluate for",
+    "tail": "model"
+  },
+  {
+    "head": "French broadcast news transcriptions",
+    "relation": "evaluate for",
+    "tail": "model"
+  }
+]

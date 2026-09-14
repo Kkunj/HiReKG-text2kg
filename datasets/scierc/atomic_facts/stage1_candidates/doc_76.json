@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_76",
+  "facts": [
+    {
+      "fact": "This paper describes the framework of a Korean phonological knowledge base system.",
+      "supporting_span": "This paper describes the framework of a Korean phonological knowledge base system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework uses the unification-based grammar formalism.",
+      "supporting_span": "using the unification-based grammar formalism",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The unification-based grammar formalism is Korean Phonology Structure Grammar (KPSG).",
+      "supporting_span": "the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Korean Phonology Structure Grammar is abbreviated as KPSG.",
+      "supporting_span": "Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach of KPSG provides an explicit development model.",
+      "supporting_span": "The approach of KPSG provides an explicit development model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The explicit development model is for constructing a computational phonological system.",
+      "supporting_span": "for constructing a computational phonological system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The computational phonological system is a speech recognition and synthesis system.",
+      "supporting_span": "computational phonological system : speech recognition and synthesis system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach is more describable than other approaches.",
+      "supporting_span": "the proposed approach is more describable than other approaches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Other approaches include those employing a traditional generative phonological approach.",
+      "supporting_span": "such as those employing a traditional generative phonological approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework uses Korean Phonology Structure Grammar (KPSG).",
+      "supporting_span": "using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Korean phonological knowledge base system is Korean.",
+      "supporting_span": "Korean phonological knowledge base system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The phonological system is computational.",
+      "supporting_span": "computational phonological system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The grammar formalism is unification-based.",
+      "supporting_span": "unification-based grammar formalism",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Korean phonological knowledge base system is phonological.",
+      "supporting_span": "phonological knowledge base system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Other approaches employ a traditional generative phonological approach.",
+      "supporting_span": "those employing a traditional generative phonological approach",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_20",
+  "facts": [
+    {
+      "fact": "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification.",
+      "supporting_span": "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper investigates the utility of applying standard MT evaluation methods to building classifiers to predict semantic equivalence and entailment.",
+      "supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "BLEU is a standard MT evaluation method.",
+      "supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NIST is a standard MT evaluation method.",
+      "supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "WER is a standard MT evaluation method.",
+      "supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "PER is a standard MT evaluation method.",
+      "supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Classifiers predict semantic equivalence.",
+      "supporting_span": "to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Classifiers predict entailment.",
+      "supporting_span": "to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces a novel classification method based on PER.",
+      "supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The novel classification method based on PER leverages part of speech information.",
+      "supporting_span": "which leverages part of speech information",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part of speech information is of the words contributing to the word matches in the sentence.",
+      "supporting_span": "of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part of speech information is of the words contributing to the word non-matches in the sentence.",
+      "supporting_span": "of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "MT evaluation techniques are able to produce useful features for paraphrase classification.",
+      "supporting_span": "MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "MT evaluation techniques are able to produce useful features for entailment to a lesser extent.",
+      "supporting_span": "MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The novel classification method based on PER gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments.",
+      "supporting_span": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

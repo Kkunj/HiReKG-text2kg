@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_65",
+  "facts": [
+    {
+      "fact": "Structured-light methods actively generate geometric correspondence data.",
+      "supporting_span": "Structured-light methods actively generate geometric correspondence data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The geometric correspondence data are between projectors and cameras.",
+      "supporting_span": "geometric correspondence data between projectors and cameras",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Structured-light methods facilitate robust 3D reconstruction.",
+      "supporting_span": "in order to facilitate robust 3D reconstruction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents Photogeometric Structured Light.",
+      "supporting_span": "In this paper , we present Photogeometric Structured Light",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Photogeometric Structured Light extends a standard structured light method to include photometric methods.",
+      "supporting_span": "whereby a standard structured light method is extended to include photometric methods",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Photogeometric Structured Light includes photometric methods.",
+      "supporting_span": "is extended to include photometric methods",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Photometric processing increases the amount of recovered surface detail.",
+      "supporting_span": "Photometric processing serves the double purpose of increasing the amount of recovered surface detail",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Photometric processing enables the structured-light setup to be robustly self-calibrated.",
+      "supporting_span": "enabling the structured-light setup to be robustly self-calibrated",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Photometric processing serves a double purpose.",
+      "supporting_span": "Photometric processing serves the double purpose",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Photogeometric Structured Light framework uses a photogeometric optimization.",
+      "supporting_span": "our framework uses a photogeometric optimization",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The photogeometric optimization supports the simultaneous use of multiple cameras and projectors.",
+      "supporting_span": "supports the simultaneous use of multiple cameras and projectors",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The photogeometric optimization yields a single and accurate multi-view 3D model.",
+      "supporting_span": "yields a single and accurate multi-view 3D model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multi-view 3D model best complies with photometric and geometric data.",
+      "supporting_span": "which best complies with photometric and geometric data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multi-view 3D model is single.",
+      "supporting_span": "a single and accurate multi-view 3D model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multi-view 3D model is accurate.",
+      "supporting_span": "a single and accurate multi-view 3D model",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

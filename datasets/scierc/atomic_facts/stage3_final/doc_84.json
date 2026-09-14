@@ -1,0 +1,65 @@
+{
+  "doc_id": "doc_84",
+  "facts": [
+    "The authors propose to incorporate a priori geometric constraints in a 3-D stereo reconstruction scheme.",
+    "The proposed incorporation of a priori geometric constraints is intended to cope with cases where image information alone is not sufficient to accurately recover 3-D shape.",
+    "Image information alone is not sufficient to accurately recover 3-D shape in many cases.",
+    "The approach is based on the iterative deformation of a 3-D surface mesh.",
+    "The approach aims to minimize an objective function.",
+    "The method combines anisotropic meshing with a non-quadratic approach to regularization.",
+    "This combination enables obtaining satisfactory reconstruction results.",
+    "The satisfactory reconstruction results are obtained using triangulations with few vertices.",
+    "Structural or numerical constraints can be added locally to the reconstruction process.",
+    "The constraints are added through a constrained optimization scheme.",
+    "Structural or numerical constraints improve the reconstruction results.",
+    "Structural or numerical constraints enforce consistency of the reconstruction results with a priori knowledge about object shape.",
+    "Differential features have strong description properties.",
+    "Differential features have strong modeling properties.",
+    "Differential features can be efficiently used as constraints for 3-D reconstruction."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    4,
+    6,
+    9,
+    12
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    5,
+    7,
+    8,
+    10,
+    11,
+    13,
+    14
+  ],
+  "ambiguous": [
+    3
+  ],
+  "entities": [
+    "priori geometric constraints",
+    "3 -- D stereo reconstruction scheme",
+    "image information",
+    "3 -- D shape",
+    "iterative deformation of a 3 -- D surface mesh",
+    "objective function",
+    "anisotropic meshing",
+    "non-quadratic approach",
+    "regularization",
+    "reconstruction",
+    "triangulations",
+    "vertices",
+    "Structural or numerical constraints",
+    "reconstruction process",
+    "constrained optimization scheme",
+    "priori knowledge",
+    "object shape",
+    "modeling properties",
+    "differential features",
+    "3 -- D reconstruction"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "doc_12",
+  "facts": [
+    "The verb forms are often claimed to convey two kinds of information.",
+    "One kind of information is whether the event described in a sentence is present, past or future.",
+    "The information whether the event described in a sentence is present, past or future is deictic information.",
+    "A kind of information is whether the event described in a sentence is presented as completed, going on, just starting or being finished.",
+    "The information whether the event described in a sentence is presented as completed, going on, just starting or being finished is aspectual information.",
+    "It will be demonstrated in this paper that one has to add a third component to the analysis of verb form meanings.",
+    "The third component to the analysis of verb form meanings is whether or not the verb forms express habituality.",
+    "The framework of the analysis is model-theoretic semantics.",
+    "The event described in a sentence can be present.",
+    "The event described in a sentence can be past.",
+    "The event described in a sentence can be future.",
+    "The event described in a sentence can be presented as completed.",
+    "The event described in a sentence can be presented as going on.",
+    "The event described in a sentence can be presented as just starting.",
+    "The event described in a sentence can be presented as being finished."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "multiple-entity": [
+    6
+  ],
+  "ambiguous": [
+    1,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "verb forms",
+    "deictic information",
+    "aspectual information",
+    "analysis of verb form meanings",
+    "model-theoretic semantics"
+  ]
+}

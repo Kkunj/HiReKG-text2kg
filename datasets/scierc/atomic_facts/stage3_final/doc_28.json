@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_28",
+  "facts": [
+    "The paper presents a method for blind estimation of reverberation times in reverberant enclosures.",
+    "The proposed algorithm is based on a statistical model.",
+    "The statistical model is of short-term log-energy sequences.",
+    "The statistical model is for echo-free speech.",
+    "The proposed algorithm computes a Maximum Likelihood estimate of the room full-band reverberation time.",
+    "The proposed algorithm takes as input a speech utterance recorded in a reverberant room.",
+    "The estimation method is shown to require little data.",
+    "The estimation method is shown to perform satisfactorily.",
+    "The method has been successfully applied to robust automatic speech recognition in reverberant environments by model selection.",
+    "For the automatic speech recognition application, the reverberation time is first estimated from the reverberated speech utterance to be recognized.",
+    "The estimation is then used to select the best acoustic model.",
+    "The best acoustic model is selected out of a library of models trained in various artificial re-verberant conditions.",
+    "The library of models is trained in various artificial re-verberant conditions.",
+    "Speech recognition experiments in simulated and real reverberant environments show the efficiency of the approach.",
+    "The approach outperforms standard channel normalization techniques."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    4,
+    10,
+    12
+  ],
+  "multiple-entity": [
+    0,
+    8,
+    9,
+    11,
+    13
+  ],
+  "ambiguous": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    14
+  ],
+  "entities": [
+    "blind estimation of reverberation times",
+    "reverberant enclosures",
+    "statistical model of short-term log-energy sequences",
+    "echo-free speech",
+    "Maximum Likelihood estimate of the room full-band reverberation time",
+    "robust automatic speech recognition",
+    "reverberant environments",
+    "model selection",
+    "reverberation time",
+    "reverberated speech utterance",
+    "acoustic model",
+    "artificial re-verberant conditions",
+    "Speech recognition",
+    "simulated and real reverberant environments",
+    "channel normaliza-tion techniques"
+  ]
+}

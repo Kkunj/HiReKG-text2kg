@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_89",
+  "facts": [
+    {
+      "fact": "A new exemplar-based framework is presented.",
+      "supporting_span": "A new exemplar-based framework unifying image completion , texture synthesis and image inpainting is presented in this work .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A new exemplar-based framework unifies image completion, texture synthesis, and image inpainting.",
+      "supporting_span": "A new exemplar-based framework unifying image completion , texture synthesis and image inpainting",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Image completion is posed in the form of a discrete global optimization problem.",
+      "supporting_span": "these tasks are posed in the form of a discrete global optimization problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Texture synthesis is posed in the form of a discrete global optimization problem.",
+      "supporting_span": "these tasks are posed in the form of a discrete global optimization problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Image inpainting is posed in the form of a discrete global optimization problem.",
+      "supporting_span": "these tasks are posed in the form of a discrete global optimization problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The discrete global optimization problem has a well defined objective function.",
+      "supporting_span": "a discrete global optimization problem with a well defined objective function",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A novel optimization scheme called Priority-BP is proposed for solving the discrete global optimization problem.",
+      "supporting_span": "For solving this problem a novel optimization scheme , called Priority-BP , is proposed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Priority-BP carries two very important extensions over standard belief propagation.",
+      "supporting_span": "called Priority-BP , is proposed which carries two very important extensions over standard belief propagation (BP)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Belief propagation is abbreviated as BP.",
+      "supporting_span": "standard belief propagation (BP)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The two extensions are 'priority-based message scheduling' and 'dynamic label pruning'.",
+      "supporting_span": "'' priority-based message scheduling '' and '' dynamic label pruning ''",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Priority-based message scheduling and dynamic label pruning work in cooperation to deal with the intolerable computational cost of BP.",
+      "supporting_span": "These two extensions work in cooperation to deal with the intolerable computational cost of BP",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The computational cost of BP is intolerable.",
+      "supporting_span": "intolerable computational cost of BP",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The intolerable computational cost of BP is caused by the huge number of existing labels.",
+      "supporting_span": "the intolerable computational cost of BP caused by the huge number of existing labels",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Priority-based message scheduling and dynamic label pruning are generic.",
+      "supporting_span": "both extensions are generic",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Priority-based message scheduling and dynamic label pruning can be applied to any MRF energy function.",
+      "supporting_span": "can therefore be applied to any MRF energy function as well",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

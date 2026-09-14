@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_87",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper deals with a recently developed large Czech MWE database.",
+      "generator_supporting_span": "In this paper we deal with a recently developed large Czech MWE database",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we deal with a recently developed large Czech MWE database containing at the moment 160 000 MWEs (treated as lexical units) .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states the topic of the paper, which directly corresponds to the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The Czech MWE database contains at the moment 160 000 MWEs.",
+      "generator_supporting_span": "containing at the moment 160 000 MWEs",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we deal with a recently developed large Czech MWE database containing at the moment 160 000 MWEs (treated as lexical units) .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the Czech MWE database contains 160,000 MWEs at the moment the paper was written.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The MWEs are treated as lexical units.",
+      "generator_supporting_span": "(treated as lexical units)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we deal with a recently developed large Czech MWE database containing at the moment 160 000 MWEs (treated as lexical units) .",
+      "verifier_reasoning": "The source text explicitly states that the database contains 160,000 MWEs, and a parenthetical note immediately following this number clarifies that they are 'treated as lexical units'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The database was compiled from various resources.",
+      "generator_supporting_span": "It was compiled from various resources",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It was compiled from various resources such as encyclopedias and dictionaries , public databases of proper names and toponyms , collocations obtained from Czech WordNet , lists of botanical and zoological terms and others .",
+      "verifier_reasoning": "The source text explicitly states that the database, referred to as 'It' in the second sentence, was compiled from various resources and then provides a list of examples.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The database was compiled from collocations obtained from Czech WordNet.",
+      "generator_supporting_span": "collocations obtained from Czech WordNet",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It was compiled from various resources such as encyclopedias and dictionaries , public databases of proper names and toponyms , collocations obtained from Czech WordNet , lists of botanical and zoological terms and others .",
+      "verifier_reasoning": "The source text explicitly lists the resources used to compile the database. This list directly includes 'collocations obtained from Czech WordNet' as one of the sources.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The authors describe the structure of the database.",
+      "generator_supporting_span": "We describe the structure of the database",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We describe the structure of the database and give basic types of MWEs according to domains they belong to .",
+      "verifier_reasoning": "The source text explicitly states that the authors describe the structure of the database as one of the topics covered in the paper.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The authors give basic types of MWEs according to domains they belong to.",
+      "generator_supporting_span": "give basic types of MWEs according to domains they belong to",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We describe the structure of the database and give basic types of MWEs according to domains they belong to .",
+      "verifier_reasoning": "The source text explicitly states that the authors, referred to as 'We', will 'give basic types of MWEs according to domains they belong to' in the paper being described.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The authors compare the built MWEs database with the corpus data from Czech National Corpus.",
+      "generator_supporting_span": "We compare the built MWEs database with the corpus data from Czech National Corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We compare the built MWEs database with the corpus data from Czech National Corpus (approx . 100 mil . tokens) and present results of this comparison in the paper .",
+      "verifier_reasoning": "The source text explicitly states that the authors compare their MWE database with data from the Czech National Corpus.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "These MWEs have not been obtained from the corpus.",
+      "generator_supporting_span": "These MWEs have not been obtained from the corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These MWEs have not been obtained from the corpus since their frequencies in it are rather low .",
+      "verifier_reasoning": "The source text explicitly states that the MWEs were not sourced from the corpus, providing the reason that their frequencies within the corpus are low.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The frequencies of the MWEs in the corpus are rather low.",
+      "generator_supporting_span": "their frequencies in it are rather low",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These MWEs have not been obtained from the corpus since their frequencies in it are rather low .",
+      "verifier_reasoning": "The source text explicitly states that the MWEs from the database were not sourced from the corpus because their frequencies within that corpus are low.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The authors propose and use a technique exploiting the Word Sketch Engine to obtain a more complete list of MWEs.",
+      "generator_supporting_span": "To obtain a more complete list of MWEs we propose and use a technique exploiting the Word Sketch Engine",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To obtain a more complete list of MWEs we propose and use a technique exploiting the Word Sketch Engine",
+      "verifier_reasoning": "The source text directly states that the authors ('we') propose and use a technique that exploits the Word Sketch Engine with the goal of obtaining a more complete list of MWEs.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The technique allows the authors to work with statistical parameters such as frequency of MWEs and their components.",
+      "generator_supporting_span": "which allows us to work with statistical parameters such as frequency of MWEs and their components",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To obtain a more complete list of MWEs we propose and use a technique exploiting the Word Sketch Engine, which allows us to work with statistical parameters such as frequency of MWEs and their components as well as with the salience for the whole MWEs.",
+      "verifier_reasoning": "The source text explicitly describes a technique and states that it 'allows us to work with statistical parameters such as frequency of MWEs and their components,' which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The authors discuss exploitation of the database for working out a more adequate tagging and lemmatization.",
+      "generator_supporting_span": "We also discuss exploitation of the database for working out a more adequate tagging and lemmatization",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We also discuss exploitation of the database for working out a more adequate tagging and lemmatization .",
+      "verifier_reasoning": "The source text explicitly states that the authors discuss using the database for the purpose of developing a more adequate tagging and lemmatization system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The final goal is to be able to recognize MWEs in corpus text.",
+      "generator_supporting_span": "The final goal is to be able to recognize MWEs in corpus text",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The final goal is to be able to recognize MWEs in corpus text and lemmatize them as complete lexical units , i. e. to make tagging and lemmatization more adequate .",
+      "verifier_reasoning": "The source text explicitly states the project's ultimate aim in its final sentence. The candidate fact is a direct and accurate component of this stated goal.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The final goal is to lemmatize MWEs as complete lexical units.",
+      "generator_supporting_span": "lemmatize them as complete lexical units",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The final goal is to be able to recognize MWEs in corpus text and lemmatize them as complete lexical units , i. e. to make tagging and lemmatization more adequate .",
+      "verifier_reasoning": "The source text explicitly states that the final goal is to be able to recognize MWEs and 'lemmatize them as complete lexical units', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

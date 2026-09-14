@@ -1,0 +1,22 @@
+[
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "error correction"
+  },
+  {
+    "head": "ill-formed input",
+    "relation": "used for",
+    "tail": "error correction"
+  },
+  {
+    "head": "dialogue acquisition and tracking algorithm",
+    "relation": "used for",
+    "tail": "voice interactive system"
+  },
+  {
+    "head": "stereotypic dialogue",
+    "relation": "used for",
+    "tail": "error correction methodology"
+  }
+]

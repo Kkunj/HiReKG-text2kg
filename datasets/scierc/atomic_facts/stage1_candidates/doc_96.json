@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_96",
+  "facts": [
+    {
+      "fact": "The paper presents ONTOSCORE.",
+      "supporting_span": "In this paper we present ONTOSCORE ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "ONTOSCORE is a system.",
+      "supporting_span": "ONTOSCORE , a system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "ONTOSCORE scores sets of concepts.",
+      "supporting_span": "for scoring sets of concepts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The scoring by ONTOSCORE is on the basis of an ontology.",
+      "supporting_span": "on the basis of an ontology",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors apply ONTOSCORE to the task of scoring alternative speech recognition hypotheses.",
+      "supporting_span": "We apply our system to the task of scoring alternative speech recognition hypotheses (SRH)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The alternative speech recognition hypotheses are scored in terms of their semantic coherence.",
+      "supporting_span": "in terms of their semantic coherence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors conducted an annotation experiment.",
+      "supporting_span": "We conducted an annotation experiment",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The annotation experiment showed that human annotators can reliably differentiate between semantically coherent and incoherent speech recognition hypotheses.",
+      "supporting_span": "human annotators can reliably differentiate between semantically coherent and incoherent speech recognition hypotheses",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An evaluation of ONTOSCORE against the annotated data was performed.",
+      "supporting_span": "An evaluation of our system against the annotated data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "ONTOSCORE successfully classifies 73.2% in a German corpus of 2.284 SRHs as either coherent or incoherent.",
+      "supporting_span": "it successfully classifies 73.2 % in a German corpus of 2.284 SRHs as either coherent or incoherent",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The corpus used for evaluation is a German corpus.",
+      "supporting_span": "a German corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The German corpus contains 2.284 SRHs.",
+      "supporting_span": "of 2.284 SRHs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The classification by ONTOSCORE is as either coherent or incoherent.",
+      "supporting_span": "as either coherent or incoherent",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The baseline for the evaluation is 54.55%.",
+      "supporting_span": "baseline of 54.55 %",
+      "span_mismatch": false
+    },
+    {
+      "fact": "SRH stands for speech recognition hypotheses.",
+      "supporting_span": "speech recognition hypotheses (SRH)",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

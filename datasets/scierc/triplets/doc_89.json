@@ -1,0 +1,92 @@
+[
+  {
+    "head": "exemplar-based framework",
+    "relation": "used for",
+    "tail": "image completion"
+  },
+  {
+    "head": "exemplar-based framework",
+    "relation": "used for",
+    "tail": "texture synthesis"
+  },
+  {
+    "head": "exemplar-based framework",
+    "relation": "used for",
+    "tail": "image inpainting"
+  },
+  {
+    "head": "image completion",
+    "relation": "conjunction",
+    "tail": "texture synthesis"
+  },
+  {
+    "head": "texture synthesis",
+    "relation": "conjunction",
+    "tail": "image inpainting"
+  },
+  {
+    "head": "greedy techniques",
+    "relation": "compare",
+    "tail": "tasks"
+  },
+  {
+    "head": "discrete global optimization problem",
+    "relation": "feature of",
+    "tail": "tasks"
+  },
+  {
+    "head": "well defined objective function",
+    "relation": "feature of",
+    "tail": "discrete global optimization problem"
+  },
+  {
+    "head": "optimization scheme",
+    "relation": "used for",
+    "tail": "problem"
+  },
+  {
+    "head": "Priority-BP",
+    "relation": "hyponym of",
+    "tail": "optimization scheme"
+  },
+  {
+    "head": "extensions",
+    "relation": "part of",
+    "tail": "optimization scheme"
+  },
+  {
+    "head": "belief propagation (BP)",
+    "relation": "used for",
+    "tail": "extensions"
+  },
+  {
+    "head": "priority-based message scheduling",
+    "relation": "hyponym of",
+    "tail": "extensions"
+  },
+  {
+    "head": "priority-based message scheduling",
+    "relation": "conjunction",
+    "tail": "dynamic label pruning"
+  },
+  {
+    "head": "dynamic label pruning",
+    "relation": "hyponym of",
+    "tail": "extensions"
+  },
+  {
+    "head": "extensions",
+    "relation": "used for",
+    "tail": "intolerable computational cost of BP"
+  },
+  {
+    "head": "extensions",
+    "relation": "used for",
+    "tail": "MRF energy function"
+  },
+  {
+    "head": "image completion examples",
+    "relation": "used for",
+    "tail": "method"
+  }
+]

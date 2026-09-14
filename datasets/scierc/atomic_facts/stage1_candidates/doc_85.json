@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_85",
+  "facts": [
+    {
+      "fact": "The development of the approach to question answering was motivated by the success of ensemble methods in machine learning and other areas of natural language processing.",
+      "supporting_span": "Motivated by the success of ensemble methods in machine learning and other areas of natural language processing",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A multi-strategy and multi-source approach to question answering was developed.",
+      "supporting_span": "we developed a multi-strategy and multi-source approach to question answering",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach to question answering is based on combining the results from different answering agents.",
+      "supporting_span": "based on combining the results from different answering agents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Different answering agents search for answers in multiple corpora.",
+      "supporting_span": "different answering agents searching for answers in multiple corpora",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The answering agents adopt fundamentally different strategies.",
+      "supporting_span": "The answering agents adopt fundamentally different strategies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An answering agent utilizes primarily knowledge-based mechanisms.",
+      "supporting_span": "one utilizing primarily knowledge-based mechanisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An answering agent adopts statistical techniques.",
+      "supporting_span": "the other adopting statistical techniques",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A multi-level answer resolution algorithm was presented.",
+      "supporting_span": "We present our multi-level answer resolution algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The answer resolution algorithm combines results from the answering agents.",
+      "supporting_span": "combines results from the answering agents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The answer resolution algorithm combines results at the question level.",
+      "supporting_span": "at the question , passage , and/or answer levels",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The answer resolution algorithm combines results at the passage level.",
+      "supporting_span": "at the question , passage , and/or answer levels",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The answer resolution algorithm combines results at the answer level.",
+      "supporting_span": "at the question , passage , and/or answer levels",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments evaluate the effectiveness of the answer resolution algorithm.",
+      "supporting_span": "Experiments evaluating the effectiveness of our answer resolution algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments show a 35.0 % relative improvement over the baseline system in the number of questions correctly answered.",
+      "supporting_span": "show a 35.0 % relative improvement over our baseline system in the number of questions correctly answered",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments show a 32.8 % improvement according to the average precision metric.",
+      "supporting_span": "and a 32.8 % improvement according to the average precision metric",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

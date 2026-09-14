@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_31",
+  "facts": [
+    {
+      "fact": "Syntax-based statistical machine translation aims at applying statistical models to structured data.",
+      "supporting_span": "Syntax-based statistical machine translation (MT) aims at applying statistical models to structured data .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "MT stands for syntax-based statistical machine translation.",
+      "supporting_span": "Syntax-based statistical machine translation (MT)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents a syntax-based statistical machine translation system.",
+      "supporting_span": "In this paper , we present a syntax-based statistical machine translation system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The syntax-based statistical machine translation system is based on a probabilistic synchronous dependency insertion grammar.",
+      "supporting_span": "a syntax-based statistical machine translation system based on a probabilistic synchronous dependency insertion grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees.",
+      "supporting_span": "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces an approach to inducing a grammar from parallel corpora.",
+      "supporting_span": "We first introduce our approach to inducing such a grammar from parallel corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes a graphical model for the machine translation task.",
+      "supporting_span": "we describe the graphical model for the machine translation task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The graphical model can be viewed as a stochastic tree-to-tree transducer.",
+      "supporting_span": "which can also be viewed as a stochastic tree-to-tree transducer .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces a polynomial time decoding algorithm.",
+      "supporting_span": "We introduce a polynomial time decoding algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The outputs of the machine translation system are evaluated using the NIST and Bleu automatic MT evaluation software.",
+      "supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The machine translation system is evaluated using the NIST automatic MT evaluation software.",
+      "supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The machine translation system is evaluated using the Bleu automatic MT evaluation software.",
+      "supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system based on the IBM models.",
+      "supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system in translation speed.",
+      "supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system in quality.",
+      "supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

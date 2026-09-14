@@ -1,0 +1,59 @@
+{
+  "doc_id": "doc_73",
+  "facts": [
+    "A central problem of word sense disambiguation is the lack of manually sense-tagged data required for supervised learning.",
+    "WSD is an abbreviation for word sense disambiguation.",
+    "The paper evaluates an approach to automatically acquire sense-tagged training data.",
+    "The approach acquires sense-tagged training data from English-Chinese parallel corpora.",
+    "The English-Chinese parallel corpora are used for disambiguating the nouns in the SENSEVAL-2 English lexical sample task.",
+    "The method of acquiring sense-tagged data is promising.",
+    "On a subset of the most difficult SENSEVAL-2 nouns, the accuracy difference between the two approaches is 14.0%.",
+    "Two approaches are mentioned.",
+    "The accuracy difference could narrow further to 6.5% if the advantage that manually sense-tagged data have in their sense coverage is disregarded.",
+    "Manually sense-tagged data have an advantage in their sense coverage.",
+    "Supervised learning requires manually sense-tagged data.",
+    "Nouns in the SENSEVAL-2 English lexical sample task are disambiguated.",
+    "The issue of domain dependence is important in evaluating WSD programs.",
+    "The analysis highlights the importance of the issue of domain dependence in evaluating WSD programs.",
+    "The SENSEVAL-2 English lexical sample task contains nouns."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    5
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [
+    1,
+    7
+  ],
+  "entities": [
+    "word sense disambiguation ( WSD )",
+    "manually sense-tagged data",
+    "supervised learning",
+    "sense-tagged training data",
+    "English-Chinese parallel corpora",
+    "nouns",
+    "SENSEVAL-2 English lexical sample task",
+    "acquiring sense-tagged data",
+    "SENSEVAL-2 nouns",
+    "accuracy",
+    "sense coverage",
+    "domain dependence",
+    "evaluating WSD programs",
+    "WSD programs"
+  ]
+}

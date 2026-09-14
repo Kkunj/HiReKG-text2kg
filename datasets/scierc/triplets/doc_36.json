@@ -1,0 +1,32 @@
+[
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "building polarity-tagged corpus"
+  },
+  {
+    "head": "HTML documents",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "HTML documents"
+  },
+  {
+    "head": "layout structures",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "layout structures",
+    "relation": "conjunction",
+    "tail": "linguistic pattern"
+  },
+  {
+    "head": "linguistic pattern",
+    "relation": "used for",
+    "tail": "method"
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_82",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The study attempts to understand visual classification in humans using both psy-chophysical and machine learning techniques.",
+      "generator_supporting_span": "We attempt to understand visual classification in humans using both psy-chophysical and machine learning techniques .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We attempt to understand visual classification in humans using both psy-chophysical and machine learning techniques .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states the goal of the study, which directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Frontal views of human faces were used for a gender classification task.",
+      "generator_supporting_span": "Frontal views of human faces were used for a gender classification task .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Frontal views of human faces were used for a gender classification task .",
+      "verifier_reasoning": "The source text explicitly states the exact information presented in the candidate fact in its second sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Human subjects classified the faces.",
+      "generator_supporting_span": "Human subjects classified the faces",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Human subjects classified the faces and their gender judgment , reaction time and confidence rating were recorded .",
+      "verifier_reasoning": "The source text explicitly states that as part of the described experiment, human subjects were tasked with classifying faces.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The gender judgment of the human subjects was recorded.",
+      "generator_supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Human subjects classified the faces and their gender judgment , reaction time and confidence rating were recorded .",
+      "verifier_reasoning": "The source text explicitly lists the data that was recorded from the human subjects. This list includes their gender judgment.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Reaction time was recorded.",
+      "generator_supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Human subjects classified the faces and their gender judgment , reaction time and confidence rating were recorded .",
+      "verifier_reasoning": "The source text explicitly lists the data points that were recorded from the human subjects during the experiment. 'Reaction time' is one of the items in this list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Confidence rating was recorded.",
+      "generator_supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Human subjects classified the faces and their gender judgment , reaction time and confidence rating were recorded .",
+      "verifier_reasoning": "The source text explicitly lists the data recorded from human subjects during the experiment, and 'confidence rating' is one of the items in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Several hyperplane learning algorithms were used on the same classification task.",
+      "generator_supporting_span": "Several hyperplane learning algorithms were used on the same classification task",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Several hyperplane learning algorithms were used on the same classification task using the Principal Components of the texture and flowfield representation of the faces .",
+      "verifier_reasoning": "The source text explicitly states that multiple hyperplane learning algorithms were applied to the same classification task that the human subjects also performed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The hyperplane learning algorithms used the Principal Components of the texture and flowfield representation of the faces.",
+      "generator_supporting_span": "using the Principal Components of the texture and flowfield representation of the faces .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Several hyperplane learning algorithms were used on the same classification task using the Principal Components of the texture and flowfield representation of the faces .",
+      "verifier_reasoning": "The source text explicitly states that the hyperplane learning algorithms performed their task 'using the Principal Components of the texture and flowfield representation of the faces', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The classification performance of the learning algorithms was estimated.",
+      "generator_supporting_span": "The classification performance of the learning algorithms was estimated",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The classification performance of the learning algorithms was estimated using the face database with the true gender of the faces as labels , and also with the gender estimated by the subjects .",
+      "verifier_reasoning": "The source text explicitly states that the classification performance of the learning algorithms was estimated, and it goes on to describe how this estimation was carried out.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The classification performance was estimated using the face database with the true gender of the faces as labels.",
+      "generator_supporting_span": "using the face database with the true gender of the faces as labels",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The classification performance of the learning algorithms was estimated using the face database with the true gender of the faces as labels , and also with the gender estimated by the subjects .",
+      "verifier_reasoning": "The source text explicitly states that the classification performance of the learning algorithms was estimated using the face database with the true gender of the faces as labels, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The classification performance was also estimated with the gender estimated by the subjects.",
+      "generator_supporting_span": "and also with the gender estimated by the subjects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The classification performance of the learning algorithms was estimated using the face database with the true gender of the faces as labels , and also with the gender estimated by the subjects .",
+      "verifier_reasoning": "The source text explicitly states that the classification performance of the learning algorithms was estimated using two sets of labels: the true gender of the faces, and the gender as estimated by the human subjects.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The study correlated human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms.",
+      "generator_supporting_span": "We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms .",
+      "verifier_reasoning": "The source text explicitly states that the researchers correlated human responses with the distance of stimuli to the separating hyperplane, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The results suggest that human classification can be modeled by some hyperplane algorithms in the feature space used in the study.",
+      "generator_supporting_span": "Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used .",
+      "verifier_reasoning": "The source text explicitly states the conclusion of the study, which is a near-verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "For classification, the brain needs more processing for stimuli close to the separating hyperplane of the learning algorithms than for stimuli further away.",
+      "generator_supporting_span": "We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms . Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used . For classification , the brain needs more processing for stimuli close to that hyperplane than for those further away .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "For classification , the brain needs more processing for stimuli close to that hyperplane than for those further away .",
+      "verifier_reasoning": "The source text makes a direct statement that is nearly identical to the candidate fact, asserting that the brain requires more processing for stimuli that are closer to the separating hyperplane.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The faces had a flowfield representation.",
+      "generator_supporting_span": "flowfield representation of the faces",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Several hyperplane learning algorithms were used on the same classification task using the Principal Components of the texture and flowfield representation of the faces .",
+      "verifier_reasoning": "The source text explicitly states that the learning algorithms used the 'Principal Components of the texture and flowfield representation of the faces', directly confirming that the faces had such a representation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

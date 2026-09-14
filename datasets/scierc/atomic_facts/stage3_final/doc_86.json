@@ -1,0 +1,55 @@
+{
+  "doc_id": "doc_86",
+  "facts": [
+    "The use of a labeled directed graph to represent various types of linguistic structures is advocated.",
+    "A labeled directed graph can represent various types of linguistic structures.",
+    "NLP tasks can be viewed as graph transformations.",
+    "The use of a labeled directed graph enables viewing NLP tasks as graph transformations.",
+    "A general method for learning transformations is presented.",
+    "The transformations are learned from an annotated corpus.",
+    "Experiments are described with applications of the method.",
+    "The method has two applications.",
+    "One application is identification of non-local depenencies.",
+    "Identification of non-local depenencies uses Penn Treebank data.",
+    "Another application is semantic role labeling.",
+    "Semantic role labeling uses Proposition Bank data.",
+    "The method learns graph transformations.",
+    "The linguistic structures are of various types.",
+    "The graph used for representation is directed."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    9,
+    11,
+    12
+  ],
+  "ambiguous": [
+    14
+  ],
+  "entities": [
+    "labeled directed graph",
+    "linguistic structures",
+    "NLP tasks",
+    "graph transformations",
+    "method",
+    "annotated corpus",
+    "identification of non-local depenencies",
+    "Penn Treebank data",
+    "semantic role labeling",
+    "Proposition Bank data"
+  ]
+}

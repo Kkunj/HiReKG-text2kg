@@ -1,0 +1,4848 @@
+{
+  "metadata": {
+    "timestamp": "20260525_004709",
+    "approach": "rakg",
+    "sbert_model": "all-MiniLM-L6-v2",
+    "threshold": 0.8,
+    "batch_size": 256,
+    "experiments_count": 9,
+    "clustering": "connected_components_union_find",
+    "wall_time_seconds": 100.21
+  },
+  "experiments": {
+    "RAKG_MINE_gpt-4o": {
+      "experiment_name": "RAKG_MINE_gpt-4o",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\RAKG_MINE_gpt-4o",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 100,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 100,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.537070878196266,
+        "median_uir_non_trivial": 0.5304018445322793,
+        "std_uir_non_trivial": 0.1207658897480205,
+        "min_uir_non_trivial": 0.2206896551724138,
+        "max_uir_non_trivial": 0.828125,
+        "pooled_total_triples": 15217,
+        "pooled_total_clusters": 7808,
+        "pooled_uir": 0.5131103371229546,
+        "wall_time_seconds": 30.77,
+        "mean_uir_all_docs": 0.537070878196266
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 81,
+          "n_unique_clusters": 49,
+          "uir": 0.6049382716049383,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 112,
+          "n_unique_clusters": 73,
+          "uir": 0.6517857142857143,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 147,
+          "n_unique_clusters": 79,
+          "uir": 0.5374149659863946,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 83,
+          "n_unique_clusters": 52,
+          "uir": 0.6265060240963856,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 236,
+          "n_unique_clusters": 150,
+          "uir": 0.635593220338983,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 244,
+          "n_unique_clusters": 87,
+          "uir": 0.35655737704918034,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 179,
+          "n_unique_clusters": 90,
+          "uir": 0.5027932960893855,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 164,
+          "n_unique_clusters": 108,
+          "uir": 0.6585365853658537,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 136,
+          "n_unique_clusters": 68,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 129,
+          "n_unique_clusters": 66,
+          "uir": 0.5116279069767442,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 187,
+          "n_unique_clusters": 98,
+          "uir": 0.5240641711229946,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 91,
+          "n_unique_clusters": 70,
+          "uir": 0.7692307692307693,
+          "trivial": false
+        },
+        {
+          "doc": "doc_12",
+          "n_triples": 98,
+          "n_unique_clusters": 32,
+          "uir": 0.32653061224489793,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 99,
+          "n_unique_clusters": 53,
+          "uir": 0.5353535353535354,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 129,
+          "n_unique_clusters": 67,
+          "uir": 0.5193798449612403,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 192,
+          "n_unique_clusters": 89,
+          "uir": 0.4635416666666667,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 81,
+          "n_unique_clusters": 55,
+          "uir": 0.6790123456790124,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 165,
+          "n_unique_clusters": 51,
+          "uir": 0.3090909090909091,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 140,
+          "n_unique_clusters": 91,
+          "uir": 0.65,
+          "trivial": false
+        },
+        {
+          "doc": "doc_19",
+          "n_triples": 142,
+          "n_unique_clusters": 80,
+          "uir": 0.5633802816901409,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 167,
+          "n_unique_clusters": 77,
+          "uir": 0.46107784431137727,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 155,
+          "n_unique_clusters": 110,
+          "uir": 0.7096774193548387,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 67,
+          "n_unique_clusters": 53,
+          "uir": 0.7910447761194029,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 130,
+          "n_unique_clusters": 88,
+          "uir": 0.676923076923077,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 231,
+          "n_unique_clusters": 97,
+          "uir": 0.4199134199134199,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 233,
+          "n_unique_clusters": 139,
+          "uir": 0.5965665236051502,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 90,
+          "n_unique_clusters": 58,
+          "uir": 0.6444444444444445,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 102,
+          "n_unique_clusters": 51,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 120,
+          "n_unique_clusters": 65,
+          "uir": 0.5416666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 96,
+          "n_unique_clusters": 42,
+          "uir": 0.4375,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 110,
+          "n_unique_clusters": 62,
+          "uir": 0.5636363636363636,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 194,
+          "n_unique_clusters": 88,
+          "uir": 0.4536082474226804,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 33,
+          "n_unique_clusters": 20,
+          "uir": 0.6060606060606061,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 163,
+          "n_unique_clusters": 99,
+          "uir": 0.6073619631901841,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 183,
+          "n_unique_clusters": 84,
+          "uir": 0.45901639344262296,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 107,
+          "n_unique_clusters": 58,
+          "uir": 0.5420560747663551,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 106,
+          "n_unique_clusters": 48,
+          "uir": 0.4528301886792453,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 237,
+          "n_unique_clusters": 105,
+          "uir": 0.4430379746835443,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 135,
+          "n_unique_clusters": 61,
+          "uir": 0.45185185185185184,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 126,
+          "n_unique_clusters": 73,
+          "uir": 0.5793650793650794,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 145,
+          "n_unique_clusters": 72,
+          "uir": 0.496551724137931,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 164,
+          "n_unique_clusters": 100,
+          "uir": 0.6097560975609756,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 153,
+          "n_unique_clusters": 97,
+          "uir": 0.6339869281045751,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 170,
+          "n_unique_clusters": 109,
+          "uir": 0.6411764705882353,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 229,
+          "n_unique_clusters": 106,
+          "uir": 0.462882096069869,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 72,
+          "n_unique_clusters": 32,
+          "uir": 0.4444444444444444,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 188,
+          "n_unique_clusters": 71,
+          "uir": 0.3776595744680851,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 39,
+          "n_unique_clusters": 28,
+          "uir": 0.717948717948718,
+          "trivial": false
+        },
+        {
+          "doc": "doc_48",
+          "n_triples": 64,
+          "n_unique_clusters": 53,
+          "uir": 0.828125,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 144,
+          "n_unique_clusters": 88,
+          "uir": 0.6111111111111112,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 290,
+          "n_unique_clusters": 64,
+          "uir": 0.2206896551724138,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 121,
+          "n_unique_clusters": 59,
+          "uir": 0.48760330578512395,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 138,
+          "n_unique_clusters": 73,
+          "uir": 0.5289855072463768,
+          "trivial": false
+        },
+        {
+          "doc": "doc_53",
+          "n_triples": 132,
+          "n_unique_clusters": 80,
+          "uir": 0.6060606060606061,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 118,
+          "n_unique_clusters": 58,
+          "uir": 0.4915254237288136,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 104,
+          "n_unique_clusters": 58,
+          "uir": 0.5576923076923077,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 98,
+          "n_unique_clusters": 45,
+          "uir": 0.45918367346938777,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 318,
+          "n_unique_clusters": 168,
+          "uir": 0.5283018867924528,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 170,
+          "n_unique_clusters": 68,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 143,
+          "n_unique_clusters": 65,
+          "uir": 0.45454545454545453,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 192,
+          "n_unique_clusters": 81,
+          "uir": 0.421875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 131,
+          "n_unique_clusters": 67,
+          "uir": 0.5114503816793893,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 220,
+          "n_unique_clusters": 117,
+          "uir": 0.5318181818181819,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 134,
+          "n_unique_clusters": 82,
+          "uir": 0.6119402985074627,
+          "trivial": false
+        },
+        {
+          "doc": "doc_64",
+          "n_triples": 69,
+          "n_unique_clusters": 44,
+          "uir": 0.6376811594202898,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 140,
+          "n_unique_clusters": 83,
+          "uir": 0.5928571428571429,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 166,
+          "n_unique_clusters": 78,
+          "uir": 0.46987951807228917,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 125,
+          "n_unique_clusters": 87,
+          "uir": 0.696,
+          "trivial": false
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 218,
+          "n_unique_clusters": 109,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 147,
+          "n_unique_clusters": 94,
+          "uir": 0.6394557823129252,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 197,
+          "n_unique_clusters": 117,
+          "uir": 0.5939086294416244,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 203,
+          "n_unique_clusters": 92,
+          "uir": 0.45320197044334976,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 109,
+          "n_unique_clusters": 55,
+          "uir": 0.5045871559633027,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 74,
+          "n_unique_clusters": 52,
+          "uir": 0.7027027027027027,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 245,
+          "n_unique_clusters": 136,
+          "uir": 0.5551020408163265,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 72,
+          "n_unique_clusters": 31,
+          "uir": 0.4305555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 95,
+          "n_unique_clusters": 68,
+          "uir": 0.7157894736842105,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 173,
+          "n_unique_clusters": 121,
+          "uir": 0.6994219653179191,
+          "trivial": false
+        },
+        {
+          "doc": "doc_78",
+          "n_triples": 51,
+          "n_unique_clusters": 39,
+          "uir": 0.7647058823529411,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 114,
+          "n_unique_clusters": 51,
+          "uir": 0.4473684210526316,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 224,
+          "n_unique_clusters": 117,
+          "uir": 0.5223214285714286,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 52,
+          "n_unique_clusters": 22,
+          "uir": 0.4230769230769231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 161,
+          "n_unique_clusters": 87,
+          "uir": 0.5403726708074534,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 267,
+          "n_unique_clusters": 62,
+          "uir": 0.23220973782771537,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 143,
+          "n_unique_clusters": 104,
+          "uir": 0.7272727272727273,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 189,
+          "n_unique_clusters": 122,
+          "uir": 0.6455026455026455,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 141,
+          "n_unique_clusters": 68,
+          "uir": 0.48226950354609927,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 180,
+          "n_unique_clusters": 64,
+          "uir": 0.35555555555555557,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 123,
+          "n_unique_clusters": 89,
+          "uir": 0.7235772357723578,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 186,
+          "n_unique_clusters": 79,
+          "uir": 0.42473118279569894,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 129,
+          "n_unique_clusters": 60,
+          "uir": 0.46511627906976744,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 436,
+          "n_unique_clusters": 122,
+          "uir": 0.2798165137614679,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 126,
+          "n_unique_clusters": 71,
+          "uir": 0.5634920634920635,
+          "trivial": false
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 103,
+          "n_unique_clusters": 36,
+          "uir": 0.34951456310679613,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 46,
+          "n_unique_clusters": 25,
+          "uir": 0.5434782608695652,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 184,
+          "n_unique_clusters": 95,
+          "uir": 0.5163043478260869,
+          "trivial": false
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 155,
+          "n_unique_clusters": 98,
+          "uir": 0.632258064516129,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 284,
+          "n_unique_clusters": 159,
+          "uir": 0.5598591549295775,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 289,
+          "n_unique_clusters": 95,
+          "uir": 0.328719723183391,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 304,
+          "n_unique_clusters": 149,
+          "uir": 0.4901315789473684,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_mine_qwen3_8b": {
+      "experiment_name": "rakg_mine_qwen3_8b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_mine_qwen3_8b",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 100,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 100,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.5717323844558949,
+        "median_uir_non_trivial": 0.577154028766932,
+        "std_uir_non_trivial": 0.12363702622621076,
+        "min_uir_non_trivial": 0.2857142857142857,
+        "max_uir_non_trivial": 0.8275862068965517,
+        "pooled_total_triples": 9388,
+        "pooled_total_clusters": 5206,
+        "pooled_uir": 0.5545377077119727,
+        "wall_time_seconds": 25.49,
+        "mean_uir_all_docs": 0.5717323844558949
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 70,
+          "n_unique_clusters": 42,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 81,
+          "n_unique_clusters": 60,
+          "uir": 0.7407407407407407,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 106,
+          "n_unique_clusters": 51,
+          "uir": 0.4811320754716981,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 51,
+          "n_unique_clusters": 34,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 182,
+          "n_unique_clusters": 123,
+          "uir": 0.6758241758241759,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 122,
+          "n_unique_clusters": 36,
+          "uir": 0.29508196721311475,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 69,
+          "n_unique_clusters": 36,
+          "uir": 0.5217391304347826,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 94,
+          "n_unique_clusters": 69,
+          "uir": 0.7340425531914894,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 103,
+          "n_unique_clusters": 43,
+          "uir": 0.4174757281553398,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 64,
+          "n_unique_clusters": 39,
+          "uir": 0.609375,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 90,
+          "n_unique_clusters": 53,
+          "uir": 0.5888888888888889,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 97,
+          "n_unique_clusters": 59,
+          "uir": 0.6082474226804123,
+          "trivial": false
+        },
+        {
+          "doc": "doc_12",
+          "n_triples": 85,
+          "n_unique_clusters": 42,
+          "uir": 0.49411764705882355,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 54,
+          "n_unique_clusters": 22,
+          "uir": 0.4074074074074074,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 88,
+          "n_unique_clusters": 59,
+          "uir": 0.6704545454545454,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 143,
+          "n_unique_clusters": 59,
+          "uir": 0.4125874125874126,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 65,
+          "n_unique_clusters": 49,
+          "uir": 0.7538461538461538,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 110,
+          "n_unique_clusters": 47,
+          "uir": 0.42727272727272725,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 64,
+          "n_unique_clusters": 46,
+          "uir": 0.71875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_19",
+          "n_triples": 117,
+          "n_unique_clusters": 70,
+          "uir": 0.5982905982905983,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 138,
+          "n_unique_clusters": 61,
+          "uir": 0.4420289855072464,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 72,
+          "n_unique_clusters": 55,
+          "uir": 0.7638888888888888,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 64,
+          "n_unique_clusters": 52,
+          "uir": 0.8125,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 85,
+          "n_unique_clusters": 59,
+          "uir": 0.6941176470588235,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 116,
+          "n_unique_clusters": 54,
+          "uir": 0.46551724137931033,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 111,
+          "n_unique_clusters": 85,
+          "uir": 0.7657657657657657,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 77,
+          "n_unique_clusters": 37,
+          "uir": 0.4805194805194805,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 69,
+          "n_unique_clusters": 39,
+          "uir": 0.5652173913043478,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 104,
+          "n_unique_clusters": 44,
+          "uir": 0.4230769230769231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 73,
+          "n_unique_clusters": 37,
+          "uir": 0.5068493150684932,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 68,
+          "n_unique_clusters": 47,
+          "uir": 0.6911764705882353,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 117,
+          "n_unique_clusters": 58,
+          "uir": 0.49572649572649574,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 23,
+          "n_unique_clusters": 12,
+          "uir": 0.5217391304347826,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 105,
+          "n_unique_clusters": 65,
+          "uir": 0.6190476190476191,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 116,
+          "n_unique_clusters": 44,
+          "uir": 0.3793103448275862,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 55,
+          "n_unique_clusters": 38,
+          "uir": 0.6909090909090909,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 60,
+          "n_unique_clusters": 33,
+          "uir": 0.55,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 119,
+          "n_unique_clusters": 62,
+          "uir": 0.5210084033613446,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 100,
+          "n_unique_clusters": 46,
+          "uir": 0.46,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 113,
+          "n_unique_clusters": 54,
+          "uir": 0.4778761061946903,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 81,
+          "n_unique_clusters": 43,
+          "uir": 0.5308641975308642,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 87,
+          "n_unique_clusters": 58,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 84,
+          "n_unique_clusters": 51,
+          "uir": 0.6071428571428571,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 91,
+          "n_unique_clusters": 58,
+          "uir": 0.6373626373626373,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 142,
+          "n_unique_clusters": 103,
+          "uir": 0.7253521126760564,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 70,
+          "n_unique_clusters": 35,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 151,
+          "n_unique_clusters": 59,
+          "uir": 0.39072847682119205,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 32,
+          "n_unique_clusters": 21,
+          "uir": 0.65625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_48",
+          "n_triples": 61,
+          "n_unique_clusters": 34,
+          "uir": 0.5573770491803278,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 80,
+          "n_unique_clusters": 64,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 147,
+          "n_unique_clusters": 42,
+          "uir": 0.2857142857142857,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 84,
+          "n_unique_clusters": 46,
+          "uir": 0.5476190476190477,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 48,
+          "n_unique_clusters": 36,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_53",
+          "n_triples": 77,
+          "n_unique_clusters": 45,
+          "uir": 0.5844155844155844,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 64,
+          "n_unique_clusters": 35,
+          "uir": 0.546875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 66,
+          "n_unique_clusters": 30,
+          "uir": 0.45454545454545453,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 55,
+          "n_unique_clusters": 26,
+          "uir": 0.4727272727272727,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 216,
+          "n_unique_clusters": 128,
+          "uir": 0.5925925925925926,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 93,
+          "n_unique_clusters": 50,
+          "uir": 0.5376344086021505,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 121,
+          "n_unique_clusters": 82,
+          "uir": 0.6776859504132231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 102,
+          "n_unique_clusters": 50,
+          "uir": 0.49019607843137253,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 104,
+          "n_unique_clusters": 53,
+          "uir": 0.5096153846153846,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 73,
+          "n_unique_clusters": 50,
+          "uir": 0.684931506849315,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 93,
+          "n_unique_clusters": 47,
+          "uir": 0.5053763440860215,
+          "trivial": false
+        },
+        {
+          "doc": "doc_64",
+          "n_triples": 42,
+          "n_unique_clusters": 28,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 41,
+          "n_unique_clusters": 28,
+          "uir": 0.6829268292682927,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 93,
+          "n_unique_clusters": 53,
+          "uir": 0.5698924731182796,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 94,
+          "n_unique_clusters": 71,
+          "uir": 0.7553191489361702,
+          "trivial": false
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 114,
+          "n_unique_clusters": 71,
+          "uir": 0.6228070175438597,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 103,
+          "n_unique_clusters": 55,
+          "uir": 0.5339805825242718,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 164,
+          "n_unique_clusters": 98,
+          "uir": 0.5975609756097561,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 145,
+          "n_unique_clusters": 59,
+          "uir": 0.4068965517241379,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 41,
+          "n_unique_clusters": 28,
+          "uir": 0.6829268292682927,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 60,
+          "n_unique_clusters": 37,
+          "uir": 0.6166666666666667,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 176,
+          "n_unique_clusters": 99,
+          "uir": 0.5625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 70,
+          "n_unique_clusters": 30,
+          "uir": 0.42857142857142855,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 77,
+          "n_unique_clusters": 52,
+          "uir": 0.6753246753246753,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 78,
+          "n_unique_clusters": 51,
+          "uir": 0.6538461538461539,
+          "trivial": false
+        },
+        {
+          "doc": "doc_78",
+          "n_triples": 44,
+          "n_unique_clusters": 28,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 52,
+          "n_unique_clusters": 18,
+          "uir": 0.34615384615384615,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 104,
+          "n_unique_clusters": 83,
+          "uir": 0.7980769230769231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 26,
+          "n_unique_clusters": 16,
+          "uir": 0.6153846153846154,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 124,
+          "n_unique_clusters": 57,
+          "uir": 0.4596774193548387,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 94,
+          "n_unique_clusters": 31,
+          "uir": 0.32978723404255317,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 93,
+          "n_unique_clusters": 62,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 136,
+          "n_unique_clusters": 87,
+          "uir": 0.6397058823529411,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 137,
+          "n_unique_clusters": 68,
+          "uir": 0.49635036496350365,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 116,
+          "n_unique_clusters": 48,
+          "uir": 0.41379310344827586,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 64,
+          "n_unique_clusters": 41,
+          "uir": 0.640625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 133,
+          "n_unique_clusters": 67,
+          "uir": 0.5037593984962406,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 92,
+          "n_unique_clusters": 54,
+          "uir": 0.5869565217391305,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 265,
+          "n_unique_clusters": 102,
+          "uir": 0.3849056603773585,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 98,
+          "n_unique_clusters": 48,
+          "uir": 0.4897959183673469,
+          "trivial": false
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 64,
+          "n_unique_clusters": 27,
+          "uir": 0.421875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 30,
+          "n_unique_clusters": 21,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 58,
+          "n_unique_clusters": 48,
+          "uir": 0.8275862068965517,
+          "trivial": false
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 80,
+          "n_unique_clusters": 55,
+          "uir": 0.6875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 120,
+          "n_unique_clusters": 78,
+          "uir": 0.65,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 170,
+          "n_unique_clusters": 68,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 128,
+          "n_unique_clusters": 72,
+          "uir": 0.5625,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_mine_qwen3_14b": {
+      "experiment_name": "rakg_mine_qwen3_14b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_mine_qwen3_14b",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 100,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 100,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.6373811202572469,
+        "median_uir_non_trivial": 0.6666666666666666,
+        "std_uir_non_trivial": 0.13911849483874902,
+        "min_uir_non_trivial": 0.24,
+        "max_uir_non_trivial": 1.0,
+        "pooled_total_triples": 5800,
+        "pooled_total_clusters": 3530,
+        "pooled_uir": 0.6086206896551725,
+        "wall_time_seconds": 17.5,
+        "mean_uir_all_docs": 0.6373811202572469
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 51,
+          "n_unique_clusters": 34,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 39,
+          "n_unique_clusters": 19,
+          "uir": 0.48717948717948717,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 69,
+          "n_unique_clusters": 36,
+          "uir": 0.5217391304347826,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 19,
+          "n_unique_clusters": 15,
+          "uir": 0.7894736842105263,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 92,
+          "n_unique_clusters": 67,
+          "uir": 0.7282608695652174,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 85,
+          "n_unique_clusters": 31,
+          "uir": 0.36470588235294116,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 43,
+          "n_unique_clusters": 29,
+          "uir": 0.6744186046511628,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 50,
+          "n_unique_clusters": 37,
+          "uir": 0.74,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 47,
+          "n_unique_clusters": 31,
+          "uir": 0.6595744680851063,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 46,
+          "n_unique_clusters": 31,
+          "uir": 0.6739130434782609,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 92,
+          "n_unique_clusters": 58,
+          "uir": 0.6304347826086957,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 51,
+          "n_unique_clusters": 35,
+          "uir": 0.6862745098039216,
+          "trivial": false
+        },
+        {
+          "doc": "doc_12",
+          "n_triples": 73,
+          "n_unique_clusters": 34,
+          "uir": 0.4657534246575342,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 21,
+          "n_unique_clusters": 12,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 77,
+          "n_unique_clusters": 49,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 78,
+          "n_unique_clusters": 53,
+          "uir": 0.6794871794871795,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 41,
+          "n_unique_clusters": 34,
+          "uir": 0.8292682926829268,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 54,
+          "n_unique_clusters": 28,
+          "uir": 0.5185185185185185,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 59,
+          "n_unique_clusters": 43,
+          "uir": 0.7288135593220338,
+          "trivial": false
+        },
+        {
+          "doc": "doc_19",
+          "n_triples": 40,
+          "n_unique_clusters": 36,
+          "uir": 0.9,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 74,
+          "n_unique_clusters": 29,
+          "uir": 0.3918918918918919,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 36,
+          "n_unique_clusters": 25,
+          "uir": 0.6944444444444444,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 35,
+          "n_unique_clusters": 28,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 31,
+          "n_unique_clusters": 24,
+          "uir": 0.7741935483870968,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 66,
+          "n_unique_clusters": 42,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 80,
+          "n_unique_clusters": 57,
+          "uir": 0.7125,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 36,
+          "n_unique_clusters": 24,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 74,
+          "n_unique_clusters": 41,
+          "uir": 0.5540540540540541,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 75,
+          "n_unique_clusters": 45,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 66,
+          "n_unique_clusters": 31,
+          "uir": 0.4696969696969697,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 50,
+          "n_unique_clusters": 37,
+          "uir": 0.74,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 76,
+          "n_unique_clusters": 55,
+          "uir": 0.7236842105263158,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 18,
+          "n_unique_clusters": 9,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 68,
+          "n_unique_clusters": 49,
+          "uir": 0.7205882352941176,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 92,
+          "n_unique_clusters": 25,
+          "uir": 0.2717391304347826,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 35,
+          "n_unique_clusters": 20,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 31,
+          "n_unique_clusters": 21,
+          "uir": 0.6774193548387096,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 102,
+          "n_unique_clusters": 54,
+          "uir": 0.5294117647058824,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 61,
+          "n_unique_clusters": 42,
+          "uir": 0.6885245901639344,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 70,
+          "n_unique_clusters": 58,
+          "uir": 0.8285714285714286,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 26,
+          "n_unique_clusters": 19,
+          "uir": 0.7307692307692307,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 49,
+          "n_unique_clusters": 36,
+          "uir": 0.7346938775510204,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 82,
+          "n_unique_clusters": 48,
+          "uir": 0.5853658536585366,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 65,
+          "n_unique_clusters": 39,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 84,
+          "n_unique_clusters": 61,
+          "uir": 0.7261904761904762,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 58,
+          "n_unique_clusters": 26,
+          "uir": 0.4482758620689655,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 56,
+          "n_unique_clusters": 27,
+          "uir": 0.48214285714285715,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 43,
+          "n_unique_clusters": 24,
+          "uir": 0.5581395348837209,
+          "trivial": false
+        },
+        {
+          "doc": "doc_48",
+          "n_triples": 9,
+          "n_unique_clusters": 6,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 25,
+          "n_unique_clusters": 21,
+          "uir": 0.84,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 94,
+          "n_unique_clusters": 25,
+          "uir": 0.26595744680851063,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 26,
+          "n_unique_clusters": 19,
+          "uir": 0.7307692307692307,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 25,
+          "n_unique_clusters": 16,
+          "uir": 0.64,
+          "trivial": false
+        },
+        {
+          "doc": "doc_53",
+          "n_triples": 56,
+          "n_unique_clusters": 39,
+          "uir": 0.6964285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 43,
+          "n_unique_clusters": 27,
+          "uir": 0.627906976744186,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 65,
+          "n_unique_clusters": 37,
+          "uir": 0.5692307692307692,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 39,
+          "n_unique_clusters": 19,
+          "uir": 0.48717948717948717,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 137,
+          "n_unique_clusters": 90,
+          "uir": 0.656934306569343,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 58,
+          "n_unique_clusters": 28,
+          "uir": 0.4827586206896552,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 75,
+          "n_unique_clusters": 43,
+          "uir": 0.5733333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 39,
+          "n_unique_clusters": 26,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 26,
+          "n_unique_clusters": 21,
+          "uir": 0.8076923076923077,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 78,
+          "n_unique_clusters": 45,
+          "uir": 0.5769230769230769,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 95,
+          "n_unique_clusters": 66,
+          "uir": 0.6947368421052632,
+          "trivial": false
+        },
+        {
+          "doc": "doc_64",
+          "n_triples": 34,
+          "n_unique_clusters": 26,
+          "uir": 0.7647058823529411,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 5,
+          "n_unique_clusters": 5,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 84,
+          "n_unique_clusters": 33,
+          "uir": 0.39285714285714285,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 52,
+          "n_unique_clusters": 37,
+          "uir": 0.7115384615384616,
+          "trivial": false
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 78,
+          "n_unique_clusters": 50,
+          "uir": 0.6410256410256411,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 25,
+          "n_unique_clusters": 21,
+          "uir": 0.84,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 83,
+          "n_unique_clusters": 66,
+          "uir": 0.7951807228915663,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 84,
+          "n_unique_clusters": 36,
+          "uir": 0.42857142857142855,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 31,
+          "n_unique_clusters": 21,
+          "uir": 0.6774193548387096,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 26,
+          "n_unique_clusters": 22,
+          "uir": 0.8461538461538461,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 85,
+          "n_unique_clusters": 52,
+          "uir": 0.611764705882353,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 40,
+          "n_unique_clusters": 24,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 48,
+          "n_unique_clusters": 36,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 46,
+          "n_unique_clusters": 33,
+          "uir": 0.717391304347826,
+          "trivial": false
+        },
+        {
+          "doc": "doc_78",
+          "n_triples": 9,
+          "n_unique_clusters": 7,
+          "uir": 0.7777777777777778,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 50,
+          "n_unique_clusters": 12,
+          "uir": 0.24,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 59,
+          "n_unique_clusters": 40,
+          "uir": 0.6779661016949152,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 28,
+          "n_unique_clusters": 18,
+          "uir": 0.6428571428571429,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 90,
+          "n_unique_clusters": 52,
+          "uir": 0.5777777777777777,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 31,
+          "n_unique_clusters": 13,
+          "uir": 0.41935483870967744,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 56,
+          "n_unique_clusters": 42,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 67,
+          "n_unique_clusters": 53,
+          "uir": 0.7910447761194029,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 97,
+          "n_unique_clusters": 54,
+          "uir": 0.5567010309278351,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 63,
+          "n_unique_clusters": 37,
+          "uir": 0.5873015873015873,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 59,
+          "n_unique_clusters": 47,
+          "uir": 0.7966101694915254,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 96,
+          "n_unique_clusters": 59,
+          "uir": 0.6145833333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 21,
+          "n_unique_clusters": 16,
+          "uir": 0.7619047619047619,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 197,
+          "n_unique_clusters": 80,
+          "uir": 0.40609137055837563,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 38,
+          "n_unique_clusters": 29,
+          "uir": 0.7631578947368421,
+          "trivial": false
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 29,
+          "n_unique_clusters": 14,
+          "uir": 0.4827586206896552,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 30,
+          "n_unique_clusters": 20,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 69,
+          "n_unique_clusters": 48,
+          "uir": 0.6956521739130435,
+          "trivial": false
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 28,
+          "n_unique_clusters": 19,
+          "uir": 0.6785714285714286,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 76,
+          "n_unique_clusters": 53,
+          "uir": 0.6973684210526315,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 105,
+          "n_unique_clusters": 48,
+          "uir": 0.45714285714285713,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 125,
+          "n_unique_clusters": 71,
+          "uir": 0.568,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_redocred_gpt4o": {
+      "experiment_name": "rakg_redocred_gpt4o",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_gpt4o",
+      "status": "ok",
+      "docs_total": 15,
+      "docs_processed": 15,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 15,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.4809430223948185,
+        "median_uir_non_trivial": 0.41935483870967744,
+        "std_uir_non_trivial": 0.14866681851237018,
+        "min_uir_non_trivial": 0.2,
+        "max_uir_non_trivial": 0.725,
+        "pooled_total_triples": 691,
+        "pooled_total_clusters": 348,
+        "pooled_uir": 0.5036179450072359,
+        "wall_time_seconds": 1.92,
+        "mean_uir_all_docs": 0.4809430223948185
+      },
+      "per_doc": [
+        {
+          "doc": "Asus_VivoTab",
+          "n_triples": 45,
+          "n_unique_clusters": 9,
+          "uir": 0.2,
+          "trivial": false
+        },
+        {
+          "doc": "Deadlight",
+          "n_triples": 38,
+          "n_unique_clusters": 27,
+          "uir": 0.7105263157894737,
+          "trivial": false
+        },
+        {
+          "doc": "Deadly_Premonition",
+          "n_triples": 30,
+          "n_unique_clusters": 18,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "Distributed_Component_Object_Model",
+          "n_triples": 61,
+          "n_unique_clusters": 32,
+          "uir": 0.5245901639344263,
+          "trivial": false
+        },
+        {
+          "doc": "Embedded_Visual_Basic",
+          "n_triples": 67,
+          "n_unique_clusters": 30,
+          "uir": 0.44776119402985076,
+          "trivial": false
+        },
+        {
+          "doc": "Environmental_subsystem",
+          "n_triples": 54,
+          "n_unique_clusters": 35,
+          "uir": 0.6481481481481481,
+          "trivial": false
+        },
+        {
+          "doc": "Internet_Explorer_Mobile",
+          "n_triples": 31,
+          "n_unique_clusters": 13,
+          "uir": 0.41935483870967744,
+          "trivial": false
+        },
+        {
+          "doc": "JPEG_XR",
+          "n_triples": 41,
+          "n_unique_clusters": 17,
+          "uir": 0.4146341463414634,
+          "trivial": false
+        },
+        {
+          "doc": "Lumia_imaging_apps",
+          "n_triples": 39,
+          "n_unique_clusters": 14,
+          "uir": 0.358974358974359,
+          "trivial": false
+        },
+        {
+          "doc": "Mono_software",
+          "n_triples": 56,
+          "n_unique_clusters": 22,
+          "uir": 0.39285714285714285,
+          "trivial": false
+        },
+        {
+          "doc": "NetWare_Core_Protocol",
+          "n_triples": 25,
+          "n_unique_clusters": 10,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "Next-Generation_Secure_Computing_Base",
+          "n_triples": 80,
+          "n_unique_clusters": 58,
+          "uir": 0.725,
+          "trivial": false
+        },
+        {
+          "doc": "Skylake_microarchitecture",
+          "n_triples": 30,
+          "n_unique_clusters": 11,
+          "uir": 0.36666666666666664,
+          "trivial": false
+        },
+        {
+          "doc": "Volume_boot_record",
+          "n_triples": 63,
+          "n_unique_clusters": 41,
+          "uir": 0.6507936507936508,
+          "trivial": false
+        },
+        {
+          "doc": "Zork_Nemesis",
+          "n_triples": 31,
+          "n_unique_clusters": 11,
+          "uir": 0.3548387096774194,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_redocred_qwen3_8b": {
+      "experiment_name": "rakg_redocred_qwen3_8b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_qwen3_8b",
+      "status": "ok",
+      "docs_total": 15,
+      "docs_processed": 15,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 15,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.49960010929973586,
+        "median_uir_non_trivial": 0.4482758620689655,
+        "std_uir_non_trivial": 0.16446846784447444,
+        "min_uir_non_trivial": 0.3220338983050847,
+        "max_uir_non_trivial": 0.8955223880597015,
+        "pooled_total_triples": 767,
+        "pooled_total_clusters": 404,
+        "pooled_uir": 0.5267275097783573,
+        "wall_time_seconds": 2.1,
+        "mean_uir_all_docs": 0.49960010929973586
+      },
+      "per_doc": [
+        {
+          "doc": "Asus_VivoTab",
+          "n_triples": 27,
+          "n_unique_clusters": 17,
+          "uir": 0.6296296296296297,
+          "trivial": false
+        },
+        {
+          "doc": "Deadlight",
+          "n_triples": 55,
+          "n_unique_clusters": 41,
+          "uir": 0.7454545454545455,
+          "trivial": false
+        },
+        {
+          "doc": "Deadly_Premonition",
+          "n_triples": 36,
+          "n_unique_clusters": 20,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "Distributed_Component_Object_Model",
+          "n_triples": 86,
+          "n_unique_clusters": 45,
+          "uir": 0.5232558139534884,
+          "trivial": false
+        },
+        {
+          "doc": "Embedded_Visual_Basic",
+          "n_triples": 78,
+          "n_unique_clusters": 49,
+          "uir": 0.6282051282051282,
+          "trivial": false
+        },
+        {
+          "doc": "Environmental_subsystem",
+          "n_triples": 75,
+          "n_unique_clusters": 33,
+          "uir": 0.44,
+          "trivial": false
+        },
+        {
+          "doc": "Internet_Explorer_Mobile",
+          "n_triples": 27,
+          "n_unique_clusters": 10,
+          "uir": 0.37037037037037035,
+          "trivial": false
+        },
+        {
+          "doc": "JPEG_XR",
+          "n_triples": 27,
+          "n_unique_clusters": 9,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "Lumia_imaging_apps",
+          "n_triples": 41,
+          "n_unique_clusters": 16,
+          "uir": 0.3902439024390244,
+          "trivial": false
+        },
+        {
+          "doc": "Mono_software",
+          "n_triples": 59,
+          "n_unique_clusters": 19,
+          "uir": 0.3220338983050847,
+          "trivial": false
+        },
+        {
+          "doc": "NetWare_Core_Protocol",
+          "n_triples": 39,
+          "n_unique_clusters": 13,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "Next-Generation_Secure_Computing_Base",
+          "n_triples": 67,
+          "n_unique_clusters": 60,
+          "uir": 0.8955223880597015,
+          "trivial": false
+        },
+        {
+          "doc": "Skylake_microarchitecture",
+          "n_triples": 29,
+          "n_unique_clusters": 13,
+          "uir": 0.4482758620689655,
+          "trivial": false
+        },
+        {
+          "doc": "Volume_boot_record",
+          "n_triples": 88,
+          "n_unique_clusters": 48,
+          "uir": 0.5454545454545454,
+          "trivial": false
+        },
+        {
+          "doc": "Zork_Nemesis",
+          "n_triples": 33,
+          "n_unique_clusters": 11,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_redocred_qwen3_14b": {
+      "experiment_name": "rakg_redocred_qwen3_14b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_redocred_qwen3_14b",
+      "status": "ok",
+      "docs_total": 15,
+      "docs_processed": 15,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 15,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.4931982942675085,
+        "median_uir_non_trivial": 0.4927536231884058,
+        "std_uir_non_trivial": 0.14877765607322446,
+        "min_uir_non_trivial": 0.22727272727272727,
+        "max_uir_non_trivial": 0.7790697674418605,
+        "pooled_total_triples": 707,
+        "pooled_total_clusters": 369,
+        "pooled_uir": 0.521923620933522,
+        "wall_time_seconds": 1.9,
+        "mean_uir_all_docs": 0.4931982942675085
+      },
+      "per_doc": [
+        {
+          "doc": "Asus_VivoTab",
+          "n_triples": 47,
+          "n_unique_clusters": 18,
+          "uir": 0.3829787234042553,
+          "trivial": false
+        },
+        {
+          "doc": "Deadlight",
+          "n_triples": 45,
+          "n_unique_clusters": 34,
+          "uir": 0.7555555555555555,
+          "trivial": false
+        },
+        {
+          "doc": "Deadly_Premonition",
+          "n_triples": 42,
+          "n_unique_clusters": 23,
+          "uir": 0.5476190476190477,
+          "trivial": false
+        },
+        {
+          "doc": "Distributed_Component_Object_Model",
+          "n_triples": 45,
+          "n_unique_clusters": 27,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "Embedded_Visual_Basic",
+          "n_triples": 74,
+          "n_unique_clusters": 38,
+          "uir": 0.5135135135135135,
+          "trivial": false
+        },
+        {
+          "doc": "Environmental_subsystem",
+          "n_triples": 69,
+          "n_unique_clusters": 34,
+          "uir": 0.4927536231884058,
+          "trivial": false
+        },
+        {
+          "doc": "Internet_Explorer_Mobile",
+          "n_triples": 22,
+          "n_unique_clusters": 5,
+          "uir": 0.22727272727272727,
+          "trivial": false
+        },
+        {
+          "doc": "JPEG_XR",
+          "n_triples": 30,
+          "n_unique_clusters": 11,
+          "uir": 0.36666666666666664,
+          "trivial": false
+        },
+        {
+          "doc": "Lumia_imaging_apps",
+          "n_triples": 38,
+          "n_unique_clusters": 11,
+          "uir": 0.2894736842105263,
+          "trivial": false
+        },
+        {
+          "doc": "Mono_software",
+          "n_triples": 56,
+          "n_unique_clusters": 27,
+          "uir": 0.48214285714285715,
+          "trivial": false
+        },
+        {
+          "doc": "NetWare_Core_Protocol",
+          "n_triples": 30,
+          "n_unique_clusters": 11,
+          "uir": 0.36666666666666664,
+          "trivial": false
+        },
+        {
+          "doc": "Next-Generation_Secure_Computing_Base",
+          "n_triples": 86,
+          "n_unique_clusters": 67,
+          "uir": 0.7790697674418605,
+          "trivial": false
+        },
+        {
+          "doc": "Skylake_microarchitecture",
+          "n_triples": 29,
+          "n_unique_clusters": 15,
+          "uir": 0.5172413793103449,
+          "trivial": false
+        },
+        {
+          "doc": "Volume_boot_record",
+          "n_triples": 72,
+          "n_unique_clusters": 35,
+          "uir": 0.4861111111111111,
+          "trivial": false
+        },
+        {
+          "doc": "Zork_Nemesis",
+          "n_triples": 22,
+          "n_unique_clusters": 13,
+          "uir": 0.5909090909090909,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_scierc_gpt4o": {
+      "experiment_name": "rakg_scierc_gpt4o",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_gpt4o",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 94,
+      "docs_skipped": [
+        {
+          "doc": "doc_12",
+          "reason": "no_triples"
+        },
+        {
+          "doc": "doc_19",
+          "reason": "no_triples"
+        },
+        {
+          "doc": "doc_48",
+          "reason": "no_triples"
+        },
+        {
+          "doc": "doc_53",
+          "reason": "no_triples"
+        },
+        {
+          "doc": "doc_64",
+          "reason": "no_triples"
+        },
+        {
+          "doc": "doc_78",
+          "reason": "no_triples"
+        }
+      ],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 92,
+        "docs_trivial_excluded": 2,
+        "mean_uir_non_trivial": 0.7312521552955998,
+        "median_uir_non_trivial": 0.75,
+        "std_uir_non_trivial": 0.22757022265010762,
+        "min_uir_non_trivial": 0.14285714285714285,
+        "max_uir_non_trivial": 1.0,
+        "pooled_total_triples": 996,
+        "pooled_total_clusters": 705,
+        "pooled_uir": 0.7078313253012049,
+        "wall_time_seconds": 4.17,
+        "mean_uir_all_docs": 0.7369701945446295
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 20,
+          "n_unique_clusters": 11,
+          "uir": 0.55,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 12,
+          "n_unique_clusters": 10,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 21,
+          "n_unique_clusters": 12,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 13,
+          "n_unique_clusters": 10,
+          "uir": 0.7692307692307693,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 5,
+          "n_unique_clusters": 5,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 13,
+          "n_unique_clusters": 11,
+          "uir": 0.8461538461538461,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 8,
+          "n_unique_clusters": 2,
+          "uir": 0.25,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 9,
+          "n_unique_clusters": 3,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 13,
+          "n_unique_clusters": 12,
+          "uir": 0.9230769230769231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 35,
+          "n_unique_clusters": 24,
+          "uir": 0.6857142857142857,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 6,
+          "n_unique_clusters": 5,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 19,
+          "n_unique_clusters": 8,
+          "uir": 0.42105263157894735,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 9,
+          "n_unique_clusters": 6,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 13,
+          "n_unique_clusters": 11,
+          "uir": 0.8461538461538461,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 10,
+          "n_unique_clusters": 7,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 5,
+          "n_unique_clusters": 4,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 22,
+          "n_unique_clusters": 19,
+          "uir": 0.8636363636363636,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 8,
+          "n_unique_clusters": 4,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 24,
+          "n_unique_clusters": 13,
+          "uir": 0.5416666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 2,
+          "n_unique_clusters": 1,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 3,
+          "n_unique_clusters": 2,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 24,
+          "n_unique_clusters": 10,
+          "uir": 0.4166666666666667,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 6,
+          "n_unique_clusters": 5,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 11,
+          "n_unique_clusters": 9,
+          "uir": 0.8181818181818182,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 12,
+          "n_unique_clusters": 11,
+          "uir": 0.9166666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 20,
+          "n_unique_clusters": 15,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 11,
+          "n_unique_clusters": 11,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 18,
+          "n_unique_clusters": 9,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 21,
+          "n_unique_clusters": 19,
+          "uir": 0.9047619047619048,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 8,
+          "n_unique_clusters": 4,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 3,
+          "n_unique_clusters": 3,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 7,
+          "n_unique_clusters": 6,
+          "uir": 0.8571428571428571,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 3,
+          "n_unique_clusters": 3,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 5,
+          "n_unique_clusters": 5,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 10,
+          "n_unique_clusters": 5,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 6,
+          "n_unique_clusters": 5,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 5,
+          "n_unique_clusters": 5,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 5,
+          "n_unique_clusters": 1,
+          "uir": 0.2,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 7,
+          "n_unique_clusters": 5,
+          "uir": 0.7142857142857143,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 8,
+          "n_unique_clusters": 6,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 4,
+          "n_unique_clusters": 2,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 8,
+          "n_unique_clusters": 8,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 18,
+          "n_unique_clusters": 12,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 14,
+          "n_unique_clusters": 9,
+          "uir": 0.6428571428571429,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 6,
+          "n_unique_clusters": 4,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 7,
+          "n_unique_clusters": 6,
+          "uir": 0.8571428571428571,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 12,
+          "n_unique_clusters": 11,
+          "uir": 0.9166666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 10,
+          "n_unique_clusters": 5,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 37,
+          "n_unique_clusters": 17,
+          "uir": 0.4594594594594595,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 7,
+          "n_unique_clusters": 4,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 26,
+          "n_unique_clusters": 24,
+          "uir": 0.9230769230769231,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 11,
+          "n_unique_clusters": 3,
+          "uir": 0.2727272727272727,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 3,
+          "n_unique_clusters": 3,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 17,
+          "n_unique_clusters": 11,
+          "uir": 0.6470588235294118,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 11,
+          "n_unique_clusters": 7,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 12,
+          "n_unique_clusters": 11,
+          "uir": 0.9166666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 7,
+          "n_unique_clusters": 1,
+          "uir": 0.14285714285714285,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 1,
+          "n_unique_clusters": 1,
+          "uir": 1.0,
+          "trivial": true
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 5,
+          "n_unique_clusters": 2,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 9,
+          "n_unique_clusters": 9,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 25,
+          "n_unique_clusters": 20,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 9,
+          "n_unique_clusters": 6,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 10,
+          "n_unique_clusters": 7,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 15,
+          "n_unique_clusters": 14,
+          "uir": 0.9333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 10,
+          "n_unique_clusters": 7,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 5,
+          "n_unique_clusters": 3,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 8,
+          "n_unique_clusters": 8,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 15,
+          "n_unique_clusters": 11,
+          "uir": 0.7333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 20,
+          "n_unique_clusters": 17,
+          "uir": 0.85,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 4,
+          "n_unique_clusters": 3,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 15,
+          "n_unique_clusters": 12,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 15,
+          "n_unique_clusters": 5,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 4,
+          "n_unique_clusters": 1,
+          "uir": 0.25,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 11,
+          "n_unique_clusters": 10,
+          "uir": 0.9090909090909091,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 7,
+          "n_unique_clusters": 7,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 10,
+          "n_unique_clusters": 4,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 21,
+          "n_unique_clusters": 15,
+          "uir": 0.7142857142857143,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 11,
+          "n_unique_clusters": 7,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 12,
+          "n_unique_clusters": 9,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 6,
+          "n_unique_clusters": 3,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 1,
+          "n_unique_clusters": 1,
+          "uir": 1.0,
+          "trivial": true
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 4,
+          "n_unique_clusters": 4,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 4,
+          "n_unique_clusters": 4,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 10,
+          "n_unique_clusters": 5,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 8,
+          "n_unique_clusters": 8,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 5,
+          "n_unique_clusters": 3,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 10,
+          "n_unique_clusters": 10,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 12,
+          "n_unique_clusters": 10,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_scierc_qwen3_8b": {
+      "experiment_name": "rakg_scierc_qwen3_8b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_qwen3_8b",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 100,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 100,
+        "docs_trivial_excluded": 0,
+        "mean_uir_non_trivial": 0.6215786539289023,
+        "median_uir_non_trivial": 0.6,
+        "std_uir_non_trivial": 0.16789745635158407,
+        "min_uir_non_trivial": 0.2222222222222222,
+        "max_uir_non_trivial": 1.0,
+        "pooled_total_triples": 2891,
+        "pooled_total_clusters": 1718,
+        "pooled_uir": 0.5942580421999308,
+        "wall_time_seconds": 9.88,
+        "mean_uir_all_docs": 0.6215786539289023
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 55,
+          "n_unique_clusters": 23,
+          "uir": 0.41818181818181815,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 4,
+          "n_unique_clusters": 4,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 30,
+          "n_unique_clusters": 12,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 26,
+          "n_unique_clusters": 15,
+          "uir": 0.5769230769230769,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 12,
+          "n_unique_clusters": 9,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 19,
+          "n_unique_clusters": 18,
+          "uir": 0.9473684210526315,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 48,
+          "n_unique_clusters": 27,
+          "uir": 0.5625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 8,
+          "n_unique_clusters": 4,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 18,
+          "n_unique_clusters": 11,
+          "uir": 0.6111111111111112,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 25,
+          "n_unique_clusters": 21,
+          "uir": 0.84,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 31,
+          "n_unique_clusters": 24,
+          "uir": 0.7741935483870968,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 53,
+          "n_unique_clusters": 28,
+          "uir": 0.5283018867924528,
+          "trivial": false
+        },
+        {
+          "doc": "doc_12",
+          "n_triples": 9,
+          "n_unique_clusters": 7,
+          "uir": 0.7777777777777778,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 41,
+          "n_unique_clusters": 32,
+          "uir": 0.7804878048780488,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 41,
+          "n_unique_clusters": 27,
+          "uir": 0.6585365853658537,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 35,
+          "n_unique_clusters": 19,
+          "uir": 0.5428571428571428,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 31,
+          "n_unique_clusters": 17,
+          "uir": 0.5483870967741935,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 51,
+          "n_unique_clusters": 36,
+          "uir": 0.7058823529411765,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 11,
+          "n_unique_clusters": 6,
+          "uir": 0.5454545454545454,
+          "trivial": false
+        },
+        {
+          "doc": "doc_19",
+          "n_triples": 23,
+          "n_unique_clusters": 17,
+          "uir": 0.7391304347826086,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 29,
+          "n_unique_clusters": 16,
+          "uir": 0.5517241379310345,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 77,
+          "n_unique_clusters": 36,
+          "uir": 0.4675324675324675,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 47,
+          "n_unique_clusters": 27,
+          "uir": 0.574468085106383,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 6,
+          "n_unique_clusters": 4,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 10,
+          "n_unique_clusters": 6,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 19,
+          "n_unique_clusters": 11,
+          "uir": 0.5789473684210527,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 32,
+          "n_unique_clusters": 17,
+          "uir": 0.53125,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 16,
+          "n_unique_clusters": 14,
+          "uir": 0.875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 49,
+          "n_unique_clusters": 15,
+          "uir": 0.30612244897959184,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 24,
+          "n_unique_clusters": 19,
+          "uir": 0.7916666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 68,
+          "n_unique_clusters": 34,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 38,
+          "n_unique_clusters": 19,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 55,
+          "n_unique_clusters": 41,
+          "uir": 0.7454545454545455,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 33,
+          "n_unique_clusters": 17,
+          "uir": 0.5151515151515151,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 55,
+          "n_unique_clusters": 31,
+          "uir": 0.5636363636363636,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 27,
+          "n_unique_clusters": 20,
+          "uir": 0.7407407407407407,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 14,
+          "n_unique_clusters": 8,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 17,
+          "n_unique_clusters": 14,
+          "uir": 0.8235294117647058,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 10,
+          "n_unique_clusters": 7,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 26,
+          "n_unique_clusters": 13,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 23,
+          "n_unique_clusters": 15,
+          "uir": 0.6521739130434783,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 45,
+          "n_unique_clusters": 10,
+          "uir": 0.2222222222222222,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 38,
+          "n_unique_clusters": 21,
+          "uir": 0.5526315789473685,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 21,
+          "n_unique_clusters": 18,
+          "uir": 0.8571428571428571,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 7,
+          "n_unique_clusters": 4,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 20,
+          "n_unique_clusters": 13,
+          "uir": 0.65,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 35,
+          "n_unique_clusters": 19,
+          "uir": 0.5428571428571428,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 55,
+          "n_unique_clusters": 31,
+          "uir": 0.5636363636363636,
+          "trivial": false
+        },
+        {
+          "doc": "doc_48",
+          "n_triples": 16,
+          "n_unique_clusters": 4,
+          "uir": 0.25,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 22,
+          "n_unique_clusters": 10,
+          "uir": 0.45454545454545453,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 57,
+          "n_unique_clusters": 14,
+          "uir": 0.24561403508771928,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 8,
+          "n_unique_clusters": 7,
+          "uir": 0.875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 19,
+          "n_unique_clusters": 17,
+          "uir": 0.8947368421052632,
+          "trivial": false
+        },
+        {
+          "doc": "doc_53",
+          "n_triples": 12,
+          "n_unique_clusters": 7,
+          "uir": 0.5833333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 40,
+          "n_unique_clusters": 24,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 11,
+          "n_unique_clusters": 7,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 34,
+          "n_unique_clusters": 16,
+          "uir": 0.47058823529411764,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 31,
+          "n_unique_clusters": 21,
+          "uir": 0.6774193548387096,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 33,
+          "n_unique_clusters": 16,
+          "uir": 0.48484848484848486,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 9,
+          "n_unique_clusters": 5,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 41,
+          "n_unique_clusters": 28,
+          "uir": 0.6829268292682927,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 37,
+          "n_unique_clusters": 23,
+          "uir": 0.6216216216216216,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 21,
+          "n_unique_clusters": 16,
+          "uir": 0.7619047619047619,
+          "trivial": false
+        },
+        {
+          "doc": "doc_64",
+          "n_triples": 24,
+          "n_unique_clusters": 21,
+          "uir": 0.875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 32,
+          "n_unique_clusters": 9,
+          "uir": 0.28125,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 29,
+          "n_unique_clusters": 20,
+          "uir": 0.6896551724137931,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 8,
+          "n_unique_clusters": 4,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 17,
+          "n_unique_clusters": 14,
+          "uir": 0.8235294117647058,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 16,
+          "n_unique_clusters": 8,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 30,
+          "n_unique_clusters": 19,
+          "uir": 0.6333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 45,
+          "n_unique_clusters": 34,
+          "uir": 0.7555555555555555,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 15,
+          "n_unique_clusters": 9,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 27,
+          "n_unique_clusters": 15,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 42,
+          "n_unique_clusters": 23,
+          "uir": 0.5476190476190477,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 42,
+          "n_unique_clusters": 30,
+          "uir": 0.7142857142857143,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 12,
+          "n_unique_clusters": 3,
+          "uir": 0.25,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 33,
+          "n_unique_clusters": 29,
+          "uir": 0.8787878787878788,
+          "trivial": false
+        },
+        {
+          "doc": "doc_78",
+          "n_triples": 25,
+          "n_unique_clusters": 18,
+          "uir": 0.72,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 30,
+          "n_unique_clusters": 21,
+          "uir": 0.7,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 51,
+          "n_unique_clusters": 34,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 29,
+          "n_unique_clusters": 17,
+          "uir": 0.5862068965517241,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 55,
+          "n_unique_clusters": 30,
+          "uir": 0.5454545454545454,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 31,
+          "n_unique_clusters": 20,
+          "uir": 0.6451612903225806,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 40,
+          "n_unique_clusters": 19,
+          "uir": 0.475,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 25,
+          "n_unique_clusters": 17,
+          "uir": 0.68,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 9,
+          "n_unique_clusters": 9,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 40,
+          "n_unique_clusters": 16,
+          "uir": 0.4,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 22,
+          "n_unique_clusters": 16,
+          "uir": 0.7272727272727273,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 31,
+          "n_unique_clusters": 26,
+          "uir": 0.8387096774193549,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 37,
+          "n_unique_clusters": 27,
+          "uir": 0.7297297297297297,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 29,
+          "n_unique_clusters": 14,
+          "uir": 0.4827586206896552,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 36,
+          "n_unique_clusters": 26,
+          "uir": 0.7222222222222222,
+          "trivial": false
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 24,
+          "n_unique_clusters": 13,
+          "uir": 0.5416666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 22,
+          "n_unique_clusters": 13,
+          "uir": 0.5909090909090909,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 10,
+          "n_unique_clusters": 6,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 15,
+          "n_unique_clusters": 10,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 21,
+          "n_unique_clusters": 5,
+          "uir": 0.23809523809523808,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 41,
+          "n_unique_clusters": 24,
+          "uir": 0.5853658536585366,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 36,
+          "n_unique_clusters": 25,
+          "uir": 0.6944444444444444,
+          "trivial": false
+        }
+      ]
+    },
+    "rakg_scierc_qwen3_14b": {
+      "experiment_name": "rakg_scierc_qwen3_14b",
+      "experiment_dir": "C:\\<PROJECT_ROOT>\\graph_rag\\baselines\\rakg\\experiments\\rakg_scierc_qwen3_14b",
+      "status": "ok",
+      "docs_total": 100,
+      "docs_processed": 100,
+      "docs_skipped": [],
+      "docs_failed": [],
+      "aggregate": {
+        "docs_non_trivial": 99,
+        "docs_trivial_excluded": 1,
+        "mean_uir_non_trivial": 0.7061490655129824,
+        "median_uir_non_trivial": 0.6875,
+        "std_uir_non_trivial": 0.1794800585059187,
+        "min_uir_non_trivial": 0.21052631578947367,
+        "max_uir_non_trivial": 1.0,
+        "pooled_total_triples": 1792,
+        "pooled_total_clusters": 1218,
+        "pooled_uir": 0.6796875,
+        "wall_time_seconds": 6.36,
+        "mean_uir_all_docs": 0.7090875748578526
+      },
+      "per_doc": [
+        {
+          "doc": "doc_0",
+          "n_triples": 33,
+          "n_unique_clusters": 17,
+          "uir": 0.5151515151515151,
+          "trivial": false
+        },
+        {
+          "doc": "doc_1",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_2",
+          "n_triples": 17,
+          "n_unique_clusters": 9,
+          "uir": 0.5294117647058824,
+          "trivial": false
+        },
+        {
+          "doc": "doc_3",
+          "n_triples": 12,
+          "n_unique_clusters": 6,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_4",
+          "n_triples": 5,
+          "n_unique_clusters": 5,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_5",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_6",
+          "n_triples": 27,
+          "n_unique_clusters": 25,
+          "uir": 0.9259259259259259,
+          "trivial": false
+        },
+        {
+          "doc": "doc_7",
+          "n_triples": 7,
+          "n_unique_clusters": 4,
+          "uir": 0.5714285714285714,
+          "trivial": false
+        },
+        {
+          "doc": "doc_8",
+          "n_triples": 12,
+          "n_unique_clusters": 9,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_9",
+          "n_triples": 23,
+          "n_unique_clusters": 18,
+          "uir": 0.782608695652174,
+          "trivial": false
+        },
+        {
+          "doc": "doc_10",
+          "n_triples": 21,
+          "n_unique_clusters": 16,
+          "uir": 0.7619047619047619,
+          "trivial": false
+        },
+        {
+          "doc": "doc_11",
+          "n_triples": 54,
+          "n_unique_clusters": 33,
+          "uir": 0.6111111111111112,
+          "trivial": false
+        },
+        {
+          "doc": "doc_12",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_13",
+          "n_triples": 16,
+          "n_unique_clusters": 14,
+          "uir": 0.875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_14",
+          "n_triples": 22,
+          "n_unique_clusters": 13,
+          "uir": 0.5909090909090909,
+          "trivial": false
+        },
+        {
+          "doc": "doc_15",
+          "n_triples": 18,
+          "n_unique_clusters": 11,
+          "uir": 0.6111111111111112,
+          "trivial": false
+        },
+        {
+          "doc": "doc_16",
+          "n_triples": 30,
+          "n_unique_clusters": 18,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_17",
+          "n_triples": 27,
+          "n_unique_clusters": 21,
+          "uir": 0.7777777777777778,
+          "trivial": false
+        },
+        {
+          "doc": "doc_18",
+          "n_triples": 4,
+          "n_unique_clusters": 4,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_19",
+          "n_triples": 15,
+          "n_unique_clusters": 9,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_20",
+          "n_triples": 35,
+          "n_unique_clusters": 27,
+          "uir": 0.7714285714285715,
+          "trivial": false
+        },
+        {
+          "doc": "doc_21",
+          "n_triples": 43,
+          "n_unique_clusters": 32,
+          "uir": 0.7441860465116279,
+          "trivial": false
+        },
+        {
+          "doc": "doc_22",
+          "n_triples": 26,
+          "n_unique_clusters": 22,
+          "uir": 0.8461538461538461,
+          "trivial": false
+        },
+        {
+          "doc": "doc_23",
+          "n_triples": 2,
+          "n_unique_clusters": 1,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_24",
+          "n_triples": 2,
+          "n_unique_clusters": 2,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_25",
+          "n_triples": 30,
+          "n_unique_clusters": 11,
+          "uir": 0.36666666666666664,
+          "trivial": false
+        },
+        {
+          "doc": "doc_26",
+          "n_triples": 17,
+          "n_unique_clusters": 11,
+          "uir": 0.6470588235294118,
+          "trivial": false
+        },
+        {
+          "doc": "doc_27",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_28",
+          "n_triples": 16,
+          "n_unique_clusters": 11,
+          "uir": 0.6875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_29",
+          "n_triples": 15,
+          "n_unique_clusters": 11,
+          "uir": 0.7333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_30",
+          "n_triples": 47,
+          "n_unique_clusters": 30,
+          "uir": 0.6382978723404256,
+          "trivial": false
+        },
+        {
+          "doc": "doc_31",
+          "n_triples": 12,
+          "n_unique_clusters": 9,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_32",
+          "n_triples": 26,
+          "n_unique_clusters": 21,
+          "uir": 0.8076923076923077,
+          "trivial": false
+        },
+        {
+          "doc": "doc_33",
+          "n_triples": 22,
+          "n_unique_clusters": 14,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_34",
+          "n_triples": 45,
+          "n_unique_clusters": 28,
+          "uir": 0.6222222222222222,
+          "trivial": false
+        },
+        {
+          "doc": "doc_35",
+          "n_triples": 11,
+          "n_unique_clusters": 10,
+          "uir": 0.9090909090909091,
+          "trivial": false
+        },
+        {
+          "doc": "doc_36",
+          "n_triples": 9,
+          "n_unique_clusters": 5,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_37",
+          "n_triples": 21,
+          "n_unique_clusters": 15,
+          "uir": 0.7142857142857143,
+          "trivial": false
+        },
+        {
+          "doc": "doc_38",
+          "n_triples": 12,
+          "n_unique_clusters": 10,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_39",
+          "n_triples": 8,
+          "n_unique_clusters": 6,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_40",
+          "n_triples": 15,
+          "n_unique_clusters": 5,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_41",
+          "n_triples": 22,
+          "n_unique_clusters": 13,
+          "uir": 0.5909090909090909,
+          "trivial": false
+        },
+        {
+          "doc": "doc_42",
+          "n_triples": 25,
+          "n_unique_clusters": 14,
+          "uir": 0.56,
+          "trivial": false
+        },
+        {
+          "doc": "doc_43",
+          "n_triples": 10,
+          "n_unique_clusters": 9,
+          "uir": 0.9,
+          "trivial": false
+        },
+        {
+          "doc": "doc_44",
+          "n_triples": 2,
+          "n_unique_clusters": 1,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_45",
+          "n_triples": 9,
+          "n_unique_clusters": 4,
+          "uir": 0.4444444444444444,
+          "trivial": false
+        },
+        {
+          "doc": "doc_46",
+          "n_triples": 31,
+          "n_unique_clusters": 25,
+          "uir": 0.8064516129032258,
+          "trivial": false
+        },
+        {
+          "doc": "doc_47",
+          "n_triples": 25,
+          "n_unique_clusters": 17,
+          "uir": 0.68,
+          "trivial": false
+        },
+        {
+          "doc": "doc_48",
+          "n_triples": 4,
+          "n_unique_clusters": 4,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_49",
+          "n_triples": 3,
+          "n_unique_clusters": 3,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_50",
+          "n_triples": 20,
+          "n_unique_clusters": 9,
+          "uir": 0.45,
+          "trivial": false
+        },
+        {
+          "doc": "doc_51",
+          "n_triples": 5,
+          "n_unique_clusters": 3,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_52",
+          "n_triples": 10,
+          "n_unique_clusters": 9,
+          "uir": 0.9,
+          "trivial": false
+        },
+        {
+          "doc": "doc_53",
+          "n_triples": 8,
+          "n_unique_clusters": 8,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_54",
+          "n_triples": 14,
+          "n_unique_clusters": 13,
+          "uir": 0.9285714285714286,
+          "trivial": false
+        },
+        {
+          "doc": "doc_55",
+          "n_triples": 8,
+          "n_unique_clusters": 4,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_56",
+          "n_triples": 23,
+          "n_unique_clusters": 13,
+          "uir": 0.5652173913043478,
+          "trivial": false
+        },
+        {
+          "doc": "doc_57",
+          "n_triples": 7,
+          "n_unique_clusters": 7,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_58",
+          "n_triples": 17,
+          "n_unique_clusters": 10,
+          "uir": 0.5882352941176471,
+          "trivial": false
+        },
+        {
+          "doc": "doc_59",
+          "n_triples": 16,
+          "n_unique_clusters": 10,
+          "uir": 0.625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_60",
+          "n_triples": 18,
+          "n_unique_clusters": 10,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_61",
+          "n_triples": 31,
+          "n_unique_clusters": 20,
+          "uir": 0.6451612903225806,
+          "trivial": false
+        },
+        {
+          "doc": "doc_62",
+          "n_triples": 23,
+          "n_unique_clusters": 14,
+          "uir": 0.6086956521739131,
+          "trivial": false
+        },
+        {
+          "doc": "doc_63",
+          "n_triples": 18,
+          "n_unique_clusters": 15,
+          "uir": 0.8333333333333334,
+          "trivial": false
+        },
+        {
+          "doc": "doc_64",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_65",
+          "n_triples": 19,
+          "n_unique_clusters": 4,
+          "uir": 0.21052631578947367,
+          "trivial": false
+        },
+        {
+          "doc": "doc_66",
+          "n_triples": 6,
+          "n_unique_clusters": 6,
+          "uir": 1.0,
+          "trivial": false
+        },
+        {
+          "doc": "doc_67",
+          "n_triples": 9,
+          "n_unique_clusters": 5,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_68",
+          "n_triples": 14,
+          "n_unique_clusters": 9,
+          "uir": 0.6428571428571429,
+          "trivial": false
+        },
+        {
+          "doc": "doc_69",
+          "n_triples": 9,
+          "n_unique_clusters": 3,
+          "uir": 0.3333333333333333,
+          "trivial": false
+        },
+        {
+          "doc": "doc_70",
+          "n_triples": 9,
+          "n_unique_clusters": 7,
+          "uir": 0.7777777777777778,
+          "trivial": false
+        },
+        {
+          "doc": "doc_71",
+          "n_triples": 31,
+          "n_unique_clusters": 21,
+          "uir": 0.6774193548387096,
+          "trivial": false
+        },
+        {
+          "doc": "doc_72",
+          "n_triples": 16,
+          "n_unique_clusters": 9,
+          "uir": 0.5625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_73",
+          "n_triples": 16,
+          "n_unique_clusters": 11,
+          "uir": 0.6875,
+          "trivial": false
+        },
+        {
+          "doc": "doc_74",
+          "n_triples": 25,
+          "n_unique_clusters": 17,
+          "uir": 0.68,
+          "trivial": false
+        },
+        {
+          "doc": "doc_75",
+          "n_triples": 51,
+          "n_unique_clusters": 31,
+          "uir": 0.6078431372549019,
+          "trivial": false
+        },
+        {
+          "doc": "doc_76",
+          "n_triples": 6,
+          "n_unique_clusters": 3,
+          "uir": 0.5,
+          "trivial": false
+        },
+        {
+          "doc": "doc_77",
+          "n_triples": 21,
+          "n_unique_clusters": 17,
+          "uir": 0.8095238095238095,
+          "trivial": false
+        },
+        {
+          "doc": "doc_78",
+          "n_triples": 11,
+          "n_unique_clusters": 7,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_79",
+          "n_triples": 26,
+          "n_unique_clusters": 22,
+          "uir": 0.8461538461538461,
+          "trivial": false
+        },
+        {
+          "doc": "doc_80",
+          "n_triples": 19,
+          "n_unique_clusters": 11,
+          "uir": 0.5789473684210527,
+          "trivial": false
+        },
+        {
+          "doc": "doc_81",
+          "n_triples": 8,
+          "n_unique_clusters": 5,
+          "uir": 0.625,
+          "trivial": false
+        },
+        {
+          "doc": "doc_82",
+          "n_triples": 47,
+          "n_unique_clusters": 33,
+          "uir": 0.7021276595744681,
+          "trivial": false
+        },
+        {
+          "doc": "doc_83",
+          "n_triples": 12,
+          "n_unique_clusters": 11,
+          "uir": 0.9166666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_84",
+          "n_triples": 36,
+          "n_unique_clusters": 17,
+          "uir": 0.4722222222222222,
+          "trivial": false
+        },
+        {
+          "doc": "doc_85",
+          "n_triples": 9,
+          "n_unique_clusters": 5,
+          "uir": 0.5555555555555556,
+          "trivial": false
+        },
+        {
+          "doc": "doc_86",
+          "n_triples": 10,
+          "n_unique_clusters": 8,
+          "uir": 0.8,
+          "trivial": false
+        },
+        {
+          "doc": "doc_87",
+          "n_triples": 39,
+          "n_unique_clusters": 28,
+          "uir": 0.717948717948718,
+          "trivial": false
+        },
+        {
+          "doc": "doc_88",
+          "n_triples": 15,
+          "n_unique_clusters": 13,
+          "uir": 0.8666666666666667,
+          "trivial": false
+        },
+        {
+          "doc": "doc_89",
+          "n_triples": 24,
+          "n_unique_clusters": 16,
+          "uir": 0.6666666666666666,
+          "trivial": false
+        },
+        {
+          "doc": "doc_90",
+          "n_triples": 25,
+          "n_unique_clusters": 15,
+          "uir": 0.6,
+          "trivial": false
+        },
+        {
+          "doc": "doc_91",
+          "n_triples": 11,
+          "n_unique_clusters": 7,
+          "uir": 0.6363636363636364,
+          "trivial": false
+        },
+        {
+          "doc": "doc_92",
+          "n_triples": 23,
+          "n_unique_clusters": 21,
+          "uir": 0.9130434782608695,
+          "trivial": false
+        },
+        {
+          "doc": "doc_93",
+          "n_triples": 13,
+          "n_unique_clusters": 9,
+          "uir": 0.6923076923076923,
+          "trivial": false
+        },
+        {
+          "doc": "doc_94",
+          "n_triples": 24,
+          "n_unique_clusters": 18,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_95",
+          "n_triples": 1,
+          "n_unique_clusters": 1,
+          "uir": 1.0,
+          "trivial": true
+        },
+        {
+          "doc": "doc_96",
+          "n_triples": 8,
+          "n_unique_clusters": 6,
+          "uir": 0.75,
+          "trivial": false
+        },
+        {
+          "doc": "doc_97",
+          "n_triples": 9,
+          "n_unique_clusters": 4,
+          "uir": 0.4444444444444444,
+          "trivial": false
+        },
+        {
+          "doc": "doc_98",
+          "n_triples": 28,
+          "n_unique_clusters": 24,
+          "uir": 0.8571428571428571,
+          "trivial": false
+        },
+        {
+          "doc": "doc_99",
+          "n_triples": 34,
+          "n_unique_clusters": 24,
+          "uir": 0.7058823529411765,
+          "trivial": false
+        }
+      ]
+    }
+  },
+  "approach_aggregate": {
+    "overall": {
+      "experiments_count": 9,
+      "experiment_names": [
+        "RAKG_MINE_gpt-4o",
+        "rakg_mine_qwen3_8b",
+        "rakg_mine_qwen3_14b",
+        "rakg_redocred_gpt4o",
+        "rakg_redocred_qwen3_8b",
+        "rakg_redocred_qwen3_14b",
+        "rakg_scierc_gpt4o",
+        "rakg_scierc_qwen3_8b",
+        "rakg_scierc_qwen3_14b"
+      ],
+      "experiment_mean_uir": 0.5865450759565506,
+      "doc_weighted_mean_uir": 0.6232160159974126,
+      "pooled_uir": 0.5570341708279956,
+      "total_docs": 639,
+      "total_triples": 38249,
+      "total_clusters": 21306
+    },
+    "by_dataset": {
+      "mine": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "RAKG_MINE_gpt-4o",
+          "rakg_mine_qwen3_8b",
+          "rakg_mine_qwen3_14b"
+        ],
+        "experiment_mean_uir": 0.5820614609698026,
+        "doc_weighted_mean_uir": 0.5820614609698026,
+        "pooled_uir": 0.5441210327248808,
+        "total_docs": 300,
+        "total_triples": 30405,
+        "total_clusters": 16544
+      },
+      "redocred": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "rakg_redocred_gpt4o",
+          "rakg_redocred_qwen3_8b",
+          "rakg_redocred_qwen3_14b"
+        ],
+        "experiment_mean_uir": 0.4912471419873543,
+        "doc_weighted_mean_uir": 0.49124714198735425,
+        "pooled_uir": 0.517782909930716,
+        "total_docs": 45,
+        "total_triples": 2165,
+        "total_clusters": 1121
+      },
+      "scierc": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "rakg_scierc_gpt4o",
+          "rakg_scierc_qwen3_8b",
+          "rakg_scierc_qwen3_14b"
+        ],
+        "experiment_mean_uir": 0.6863266249124949,
+        "doc_weighted_mean_uir": 0.685409777353656,
+        "pooled_uir": 0.6411340024652228,
+        "total_docs": 294,
+        "total_triples": 5679,
+        "total_clusters": 3641
+      }
+    },
+    "by_model": {
+      "gpt4o": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "RAKG_MINE_gpt-4o",
+          "rakg_redocred_gpt4o",
+          "rakg_scierc_gpt4o"
+        ],
+        "experiment_mean_uir": 0.5830886852955613,
+        "doc_weighted_mean_uir": 0.6203776830303122,
+        "pooled_uir": 0.5241954566966398,
+        "total_docs": 209,
+        "total_triples": 16904,
+        "total_clusters": 8861
+      },
+      "qwen3_8b": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "rakg_mine_qwen3_8b",
+          "rakg_redocred_qwen3_8b",
+          "rakg_scierc_qwen3_8b"
+        ],
+        "experiment_mean_uir": 0.5643037158948444,
+        "doc_weighted_mean_uir": 0.5898842115254687,
+        "pooled_uir": 0.5617047370841637,
+        "total_docs": 215,
+        "total_triples": 13046,
+        "total_clusters": 7328
+      },
+      "qwen3_14b": {
+        "experiments_count": 3,
+        "experiment_names": [
+          "rakg_mine_qwen3_14b",
+          "rakg_redocred_qwen3_14b",
+          "rakg_scierc_qwen3_14b"
+        ],
+        "experiment_mean_uir": 0.612242826679246,
+        "doc_weighted_mean_uir": 0.6593069441443514,
+        "pooled_uir": 0.616580310880829,
+        "total_docs": 215,
+        "total_triples": 8299,
+        "total_clusters": 5117
+      }
+    },
+    "computed_at": "2026-05-25T01:04:20"
+  }
+}

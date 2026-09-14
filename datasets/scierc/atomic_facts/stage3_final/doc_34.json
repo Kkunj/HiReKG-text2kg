@@ -1,0 +1,62 @@
+{
+  "doc_id": "doc_34",
+  "facts": [
+    "A unified variational formulation is proposed.",
+    "A unified variational formulation is for joint motion estimation and segmentation.",
+    "A unified variational formulation includes explicit occlusion handling.",
+    "A multi-label representation of the flow field is used.",
+    "Each label corresponds to a parametric representation of the motion.",
+    "A convex formulation of the multi-label Potts model is used.",
+    "The multi-label Potts model includes label costs.",
+    "The asymmetric map-uniqueness criterion can be integrated into a formulation.",
+    "The asymmetric map-uniqueness criterion is integrated by means of convex constraints.",
+    "Explicit occlusion handling eliminates errors otherwise created by the regularization.",
+    "Occlusions can occur only at object boundaries.",
+    "A large number of objects may be required.",
+    "A fast primal-dual algorithm is used.",
+    "Several hundred motion segments can be handled.",
+    "Results are shown on several classical motion segmentation and optical flow examples."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    3,
+    4,
+    6,
+    7,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    5,
+    8,
+    9,
+    10,
+    14
+  ],
+  "ambiguous": [
+    11
+  ],
+  "entities": [
+    "unified variational formulation",
+    "joint motion estimation and segmentation",
+    "explicit occlusion handling",
+    "multi-label representation of the flow field",
+    "parametric representation of the motion",
+    "convex formulation",
+    "multi-label Potts model",
+    "asymmetric map-uniqueness criterion",
+    "convex constraints",
+    "Explicit occlusion handling",
+    "regularization",
+    "occlusions",
+    "object boundaries",
+    "primal-dual algorithm",
+    "motion segments",
+    "classical motion segmentation",
+    "optical flow"
+  ]
+}

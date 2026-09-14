@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_10",
+  "facts": [
+    {
+      "fact": "Representing images with layers has many important applications.",
+      "supporting_span": "Representing images with layers has many important applications , such as video compression , motion analysis , and 3D scene analysis .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Video compression is an application of representing images with layers.",
+      "supporting_span": "Representing images with layers has many important applications , such as video compression , motion analysis , and 3D scene analysis .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Motion analysis is an application of representing images with layers.",
+      "supporting_span": "Representing images with layers has many important applications , such as video compression , motion analysis , and 3D scene analysis .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "3D scene analysis is an application of representing images with layers.",
+      "supporting_span": "Representing images with layers has many important applications , such as video compression , motion analysis , and 3D scene analysis .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An approach to reliably extracting layers from images is presented.",
+      "supporting_span": "presents an approach to reliably extracting layers from images",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An approach to reliably extracting layers from images takes advantages of the fact that homographies induced by planar patches in the scene form a low dimensional linear subspace.",
+      "supporting_span": "by taking advantages of the fact that homographies induced by planar patches in the scene form a low dimensional linear subspace",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Homographies induced by planar patches in the scene form a low dimensional linear subspace.",
+      "supporting_span": "homographies induced by planar patches in the scene form a low dimensional linear subspace",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Layers in the input images will be mapped in the subspace.",
+      "supporting_span": "Layers in the input images will be mapped in the subspace",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The fact that layers in the input images form well-defined clusters is proven.",
+      "supporting_span": "it is proven that they form well-defined clusters",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Layers in the input images can be reliably identified by a simple mean-shift based clustering algorithm.",
+      "supporting_span": "can be reliably identified by a simple mean-shift based clustering algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global optimality is achieved.",
+      "supporting_span": "Global optimality is achieved",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All valid regions are simultaneously taken into account.",
+      "supporting_span": "all valid regions are simultaneously taken into account",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Noise can be effectively reduced by enforcing the subspace constraint.",
+      "supporting_span": "noise can be effectively reduced by enforcing the subspace constraint",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Good layer descriptions are shown to be extracted in the experimental results.",
+      "supporting_span": "Good layer descriptions are shown to be extracted in the experimental results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Layers in the input images can be reliably identified.",
+      "supporting_span": "can be reliably identified",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

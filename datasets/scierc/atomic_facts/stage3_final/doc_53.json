@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_53",
+  "facts": [
+    "A dialogue system is described.",
+    "The dialogue system works with its interlocutor.",
+    "The dialogue system works to identify objects.",
+    "The contributions include a concise, modular architecture with reversible processes of understanding and generation.",
+    "The contributions include a concise architecture.",
+    "The contributions include a modular architecture.",
+    "The contributions include an architecture with reversible processes of understanding.",
+    "The contributions include an architecture with reversible processes of generation.",
+    "The contributions include an information-state model of reference.",
+    "The contributions include flexible links between semantics and collaborative problem solving.",
+    "An information-state model of reference is one of the contributions.",
+    "Processes of understanding are reversible.",
+    "Processes of generation are reversible.",
+    "The links are flexible.",
+    "The links are between semantics and collaborative problem solving."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    3,
+    9,
+    14
+  ],
+  "ambiguous": [
+    4,
+    5,
+    13
+  ],
+  "entities": [
+    "dialogue system",
+    "concise , modular architecture",
+    "understanding",
+    "generation",
+    "information-state model of reference",
+    "semantics",
+    "collaborative problem solving"
+  ]
+}

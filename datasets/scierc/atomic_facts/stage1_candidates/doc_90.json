@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_90",
+  "facts": [
+    {
+      "fact": "The proposed approach associates objects across multiple PTZ cameras.",
+      "supporting_span": "We propose a novel approach to associate objects across multiple PTZ cameras",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach can be used to perform camera handoff in wide-area surveillance scenarios.",
+      "supporting_span": "that can be used to perform camera handoff in wide-area surveillance scenarios",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches relied on geometric information for establishing correspondences between static cameras.",
+      "supporting_span": "previous approaches relied on geometric , appearance , or correlation-based information for establishing correspondences between static cameras",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches relied on correlation-based information for establishing correspondences between static cameras.",
+      "supporting_span": "previous approaches relied on geometric , appearance , or correlation-based information for establishing correspondences between static cameras",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches have well-known limitations.",
+      "supporting_span": "they each have well-known limitations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches are not extendable to wide-area settings with PTZ cameras.",
+      "supporting_span": "are not extendable to wide-area settings with PTZ cameras",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the proposed approach, the slave camera only passively follows the target.",
+      "supporting_span": "the slave camera only passively follows the target",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The slave camera bootstraps itself from its own incoming imagery.",
+      "supporting_span": "and bootstraps itself from its own incoming imagery",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach circumvents the problems faced by previous approaches.",
+      "supporting_span": "thus effectively circumventing the problems faced by previous approaches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach avoids the need to perform any model transfer.",
+      "supporting_span": "and avoiding the need to perform any model transfer",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A novel Multiple Instance Learning (MIL) formulation for the problem is proposed.",
+      "supporting_span": "we also propose a novel Multiple Instance Learning (MIL) formulation for the problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Multiple Instance Learning formulation is based on the logistic softmax function of covariance-based region features.",
+      "supporting_span": "based on the logistic softmax function of covariance-based region features",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Multiple Instance Learning formulation is within a MAP estimation framework.",
+      "supporting_span": "within a MAP estimation framework",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is demonstrated with multiple PTZ camera sequences in typical outdoor surveillance settings.",
+      "supporting_span": "We demonstrate our approach with multiple PTZ camera sequences in typical outdoor surveillance settings",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is compared with state-of-the-art approaches.",
+      "supporting_span": "and show a comparison with state-of-the-art approaches",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

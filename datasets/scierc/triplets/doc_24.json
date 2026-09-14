@@ -1,0 +1,12 @@
+[
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "Interactive Machine Translation"
+  },
+  {
+    "head": "paraphrasing",
+    "relation": "used for",
+    "tail": "interactive disambiguation scheme"
+  }
+]

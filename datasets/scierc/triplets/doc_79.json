@@ -1,0 +1,47 @@
+[
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "discovering parallel sentences"
+  },
+  {
+    "head": "comparable , non-parallel corpora",
+    "relation": "used for",
+    "tail": "discovering parallel sentences"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "parallel data"
+  },
+  {
+    "head": "parallel data",
+    "relation": "part of",
+    "tail": "Chinese , Arabic , and English non-parallel newspaper corpora"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "statistical machine translation system"
+  },
+  {
+    "head": "parallel corpus",
+    "relation": "used for",
+    "tail": "MT system"
+  },
+  {
+    "head": "parallel corpus",
+    "relation": "conjunction",
+    "tail": "non-parallel corpus"
+  },
+  {
+    "head": "non-parallel corpus",
+    "relation": "used for",
+    "tail": "MT system"
+  },
+  {
+    "head": "scarce resources",
+    "relation": "used for",
+    "tail": "method"
+  }
+]

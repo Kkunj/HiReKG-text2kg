@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_82",
+  "facts": [
+    {
+      "fact": "The study attempts to understand visual classification in humans using both psy-chophysical and machine learning techniques.",
+      "supporting_span": "We attempt to understand visual classification in humans using both psy-chophysical and machine learning techniques .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Frontal views of human faces were used for a gender classification task.",
+      "supporting_span": "Frontal views of human faces were used for a gender classification task .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Human subjects classified the faces.",
+      "supporting_span": "Human subjects classified the faces",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The gender judgment of the human subjects was recorded.",
+      "supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Reaction time was recorded.",
+      "supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Confidence rating was recorded.",
+      "supporting_span": "their gender judgment , reaction time and confidence rating were recorded .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Several hyperplane learning algorithms were used on the same classification task.",
+      "supporting_span": "Several hyperplane learning algorithms were used on the same classification task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The hyperplane learning algorithms used the Principal Components of the texture and flowfield representation of the faces.",
+      "supporting_span": "using the Principal Components of the texture and flowfield representation of the faces .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The classification performance of the learning algorithms was estimated.",
+      "supporting_span": "The classification performance of the learning algorithms was estimated",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The classification performance was estimated using the face database with the true gender of the faces as labels.",
+      "supporting_span": "using the face database with the true gender of the faces as labels",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The classification performance was also estimated with the gender estimated by the subjects.",
+      "supporting_span": "and also with the gender estimated by the subjects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The study correlated human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms.",
+      "supporting_span": "We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The results suggest that human classification can be modeled by some hyperplane algorithms in the feature space used in the study.",
+      "supporting_span": "Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "For classification, the brain needs more processing for stimuli close to the separating hyperplane of the learning algorithms than for stimuli further away.",
+      "supporting_span": "We then correlated the human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms . Our results suggest that human classification can be modeled by some hyperplane algorithms in the feature space we used . For classification , the brain needs more processing for stimuli close to that hyperplane than for those further away .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The faces had a flowfield representation.",
+      "supporting_span": "flowfield representation of the faces",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

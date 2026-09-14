@@ -1,0 +1,54 @@
+{
+  "doc_id": "doc_45",
+  "facts": [
+    "A method for error correction of ill-formed input is described.",
+    "A described method acquires dialogue patterns in typical usage.",
+    "A described method uses acquired dialogue patterns to predict new inputs.",
+    "Error correction is done by strongly biasing parsing toward expected meanings.",
+    "Clear evidence from the input can show the current sentence is not expected.",
+    "A dialogue acquisition and tracking algorithm is presented.",
+    "A description of the implementation of a dialogue acquisition and tracking algorithm in a voice interactive system is presented.",
+    "The implementation of a dialogue acquisition and tracking algorithm is in a voice interactive system.",
+    "A series of tests are described.",
+    "The described tests show the power of the error correction methodology.",
+    "The power of the error correction methodology is shown when stereotypic dialogue occurs.",
+    "Stereotypic dialogue occurs.",
+    "A described method predicts new inputs.",
+    "There is error correction of ill-formed input.",
+    "Parsing is toward expected meanings."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    5,
+    9,
+    11,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    6,
+    7,
+    10,
+    13
+  ],
+  "ambiguous": [
+    4,
+    8,
+    12
+  ],
+  "entities": [
+    "error correction",
+    "ill-formed input",
+    "dialogue patterns",
+    "Error correction",
+    "parsing",
+    "dialogue acquisition and tracking algorithm",
+    "voice interactive system",
+    "error correction methodology",
+    "stereotypic dialogue"
+  ]
+}

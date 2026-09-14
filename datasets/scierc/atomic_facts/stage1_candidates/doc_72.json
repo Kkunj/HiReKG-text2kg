@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_72",
+  "facts": [
+    {
+      "fact": "Convolutional neural networks are computationally expensive.",
+      "supporting_span": "convolutional neural networks are computationally expensive",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Convolutional neural networks must examine all image locations.",
+      "supporting_span": "they must examine all image locations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Convolutional neural networks are successful.",
+      "supporting_span": "their success",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stochastic attention-based models have been shown to improve computational efficiency at test time.",
+      "supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stochastic attention-based models remain difficult to train.",
+      "supporting_span": "they remain difficult to train",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stochastic attention-based models are difficult to train because of intractable posterior inference.",
+      "supporting_span": "because of intractable posterior inference",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stochastic attention-based models are difficult to train because of high variance in the stochastic gradient estimates.",
+      "supporting_span": "high variance in the stochastic gradient estimates",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Techniques from the literature on training deep generative models are borrowed.",
+      "supporting_span": "Borrowing techniques from the literature on training deep generative models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model is presented.",
+      "supporting_span": "we present the Wake-Sleep Recurrent Attention Model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model is a method for training stochastic attention networks.",
+      "supporting_span": "the Wake-Sleep Recurrent Attention Model , a method for training stochastic attention networks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model improves posterior inference.",
+      "supporting_span": "which improves posterior inference",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model reduces the variability in the stochastic gradients.",
+      "supporting_span": "which reduces the variability in the stochastic gradients",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks.",
+      "supporting_span": "our method can greatly speed up the training time for stochastic attention networks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of image classification.",
+      "supporting_span": "our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of caption generation.",
+      "supporting_span": "our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

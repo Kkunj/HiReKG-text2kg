@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_67",
+  "facts": [
+    {
+      "fact": "RAREAS is a system.",
+      "supporting_span": "a system (RAREAS)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS synthesizes marine weather forecasts directly from formatted weather data.",
+      "supporting_span": "synthesizes marine weather forecasts directly from formatted weather data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS synthesizes marine weather forecasts.",
+      "supporting_span": "synthesizes marine weather forecasts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS synthesizes directly from formatted weather data.",
+      "supporting_span": "directly from formatted weather data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Synthesis appears feasible in certain natural sublanguages with stereotyped text structure.",
+      "supporting_span": "Such synthesis appears feasible in certain natural sublanguages with stereotyped text structure",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Certain natural sublanguages have stereotyped text structure.",
+      "supporting_span": "certain natural sublanguages with stereotyped text structure",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS draws on several kinds of linguistic knowledge.",
+      "supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS draws on several kinds of non-linguistic knowledge.",
+      "supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS draws on several kinds of knowledge.",
+      "supporting_span": "RAREAS draws on several kinds of linguistic and non-linguistic knowledge",
+      "span_mismatch": false
+    },
+    {
+      "fact": "RAREAS mirrors a forecaster's apparent tendency.",
+      "supporting_span": "mirrors a forecaster 's apparent tendency",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A forecaster has an apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events.",
+      "supporting_span": "a forecaster 's apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The apparent tendency is to ascribe less precise temporal adverbs to more remote meteorological events.",
+      "supporting_span": "apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach can easily be adapted.",
+      "supporting_span": "The approach can easily be adapted",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach can be adapted to synthesize bilingual texts.",
+      "supporting_span": "to synthesize bilingual or multi-lingual texts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach can be adapted to synthesize multi-lingual texts.",
+      "supporting_span": "to synthesize bilingual or multi-lingual texts",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

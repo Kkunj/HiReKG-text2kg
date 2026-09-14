@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_39",
+  "facts": [
+    "An operable definition of focus is presented.",
+    "The presented definition of focus is argued to be of a cognito-pragmatic nature.",
+    "The determination of focus in discourse is explored.",
+    "The determination of focus is explored in a formalized manner.",
+    "A file card model of discourse model and knowledge store is introduced.",
+    "The file card model enables the decomposition of the determination process as a programmable algorithm (FDA).",
+    "The file card model enables the formal representation of the determination process as a programmable algorithm (FDA).",
+    "FDA is a programmable algorithm.",
+    "Interdisciplinary evidence from social psychology is cited.",
+    "Interdisciplinary evidence from cognitive psychology is cited.",
+    "The prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems is briefly discussed.",
+    "The prospect of the integration of focus via FDA into concept-to-speech systems is briefly discussed.",
+    "Concept-to-speech systems are speech synthesis systems.",
+    "Focus via FDA is a discourse-level construct.",
+    "Interdisciplinary evidence from social and cognitive psychology is cited."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    4,
+    14
+  ],
+  "multiple-entity": [
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13
+  ],
+  "ambiguous": [
+    0,
+    3,
+    8,
+    9
+  ],
+  "entities": [
+    "cognito-pragmatic nature",
+    "discourse",
+    "a file card model of discourse model and knowledge store",
+    "discourse model",
+    "knowledge store",
+    "determination process",
+    "programmable algorithm",
+    "FDA",
+    "social and cognitive psychology",
+    "discourse-level construct",
+    "speech synthesis systems",
+    "concept-to-speech systems"
+  ]
+}

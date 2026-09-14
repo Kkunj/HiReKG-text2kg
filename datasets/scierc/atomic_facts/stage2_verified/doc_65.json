@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_65",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Structured-light methods actively generate geometric correspondence data.",
+      "generator_supporting_span": "Structured-light methods actively generate geometric correspondence data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Structured-light methods actively generate geometric correspondence data between projectors and cameras in order to facilitate robust 3D reconstruction .",
+      "verifier_reasoning": "The source text's first sentence directly states that structured-light methods actively generate geometric correspondence data, which verbatim supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The geometric correspondence data are between projectors and cameras.",
+      "generator_supporting_span": "geometric correspondence data between projectors and cameras",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Structured-light methods actively generate geometric correspondence data between projectors and cameras in order to facilitate robust 3D reconstruction .",
+      "verifier_reasoning": "The source text explicitly states that structured-light methods generate 'geometric correspondence data between projectors and cameras', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Structured-light methods facilitate robust 3D reconstruction.",
+      "generator_supporting_span": "in order to facilitate robust 3D reconstruction",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Structured-light methods actively generate geometric correspondence data between projectors and cameras in order to facilitate robust 3D reconstruction .",
+      "verifier_reasoning": "The source text explicitly states that structured-light methods perform an action 'in order to facilitate robust 3D reconstruction', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The paper presents Photogeometric Structured Light.",
+      "generator_supporting_span": "In this paper , we present Photogeometric Structured Light",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present Photogeometric Structured Light whereby a standard structured light method is extended to include photometric methods .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents Photogeometric Structured Light.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Photogeometric Structured Light extends a standard structured light method to include photometric methods.",
+      "generator_supporting_span": "whereby a standard structured light method is extended to include photometric methods",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present Photogeometric Structured Light whereby a standard structured light method is extended to include photometric methods .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents Photogeometric Structured Light, which is defined as a standard structured light method that has been extended to include photometric methods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Photogeometric Structured Light includes photometric methods.",
+      "generator_supporting_span": "is extended to include photometric methods",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present Photogeometric Structured Light whereby a standard structured light method is extended to include photometric methods .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents Photogeometric Structured Light, which is described as a standard structured light method that has been \"extended to include photometric methods.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Photometric processing increases the amount of recovered surface detail.",
+      "generator_supporting_span": "Photometric processing serves the double purpose of increasing the amount of recovered surface detail",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Photometric processing serves the double purpose of increasing the amount of recovered surface detail and of enabling the structured-light setup to be robustly self-calibrated .",
+      "verifier_reasoning": "The source text explicitly states that one of the two purposes of photometric processing is 'increasing the amount of recovered surface detail', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Photometric processing enables the structured-light setup to be robustly self-calibrated.",
+      "generator_supporting_span": "enabling the structured-light setup to be robustly self-calibrated",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Photometric processing serves the double purpose of increasing the amount of recovered surface detail and of enabling the structured-light setup to be robustly self-calibrated .",
+      "verifier_reasoning": "The source text explicitly states that one of the two purposes of photometric processing is to enable the structured-light setup to be robustly self-calibrated.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Photometric processing serves a double purpose.",
+      "generator_supporting_span": "Photometric processing serves the double purpose",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Photometric processing serves the double purpose of increasing the amount of recovered surface detail and of enabling the structured-light setup to be robustly self-calibrated .",
+      "verifier_reasoning": "The source text explicitly states that photometric processing serves a double purpose, and then proceeds to list what those two purposes are.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The Photogeometric Structured Light framework uses a photogeometric optimization.",
+      "generator_supporting_span": "our framework uses a photogeometric optimization",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Further , our framework uses a photogeometric optimization that supports the simultaneous use of multiple cameras and projectors and yields a single and accurate multi-view 3D model which best complies with photometric and geometric data .",
+      "verifier_reasoning": "The source text first introduces the 'Photogeometric Structured Light' framework. It then explicitly states that 'our framework uses a photogeometric optimization', directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The photogeometric optimization supports the simultaneous use of multiple cameras and projectors.",
+      "generator_supporting_span": "supports the simultaneous use of multiple cameras and projectors",
+      "span_mismatch": false,
+      "verifier_supporting_span": "our framework uses a photogeometric optimization that supports the simultaneous use of multiple cameras and projectors",
+      "verifier_reasoning": "The source text explicitly states that the framework's photogeometric optimization supports the simultaneous use of multiple cameras and projectors.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The photogeometric optimization yields a single and accurate multi-view 3D model.",
+      "generator_supporting_span": "yields a single and accurate multi-view 3D model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "our framework uses a photogeometric optimization that supports the simultaneous use of multiple cameras and projectors and yields a single and accurate multi-view 3D model",
+      "verifier_reasoning": "The source text explicitly states that the framework's photogeometric optimization \"yields a single and accurate multi-view 3D model\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The multi-view 3D model best complies with photometric and geometric data.",
+      "generator_supporting_span": "which best complies with photometric and geometric data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "our framework uses a photogeometric optimization that supports the simultaneous use of multiple cameras and projectors and yields a single and accurate multi-view 3D model which best complies with photometric and geometric data .",
+      "verifier_reasoning": "The source text explicitly states that the framework yields a multi-view 3D model that 'best complies with photometric and geometric data', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The multi-view 3D model is single.",
+      "generator_supporting_span": "a single and accurate multi-view 3D model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "yields a single and accurate multi-view 3D model which best complies with photometric and geometric data",
+      "verifier_reasoning": "The source text explicitly states that the framework's photogeometric optimization yields 'a single and accurate multi-view 3D model', directly supporting the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The multi-view 3D model is accurate.",
+      "generator_supporting_span": "a single and accurate multi-view 3D model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "our framework uses a photogeometric optimization that supports the simultaneous use of multiple cameras and projectors and yields a single and accurate multi-view 3D model",
+      "verifier_reasoning": "The source text explicitly states that the framework described yields a model which is described as accurate.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "head": "GLOSSER",
+    "relation": "used for",
+    "tail": "reading and learning"
+  },
+  {
+    "head": "language pairs",
+    "relation": "used for",
+    "tail": "GLOSSER"
+  },
+  {
+    "head": "English-Bulgarian",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "English-Bulgarian",
+    "relation": "conjunction",
+    "tail": "English-Estonian"
+  },
+  {
+    "head": "English-Estonian",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "English-Estonian",
+    "relation": "conjunction",
+    "tail": "English-Hungarian"
+  },
+  {
+    "head": "English-Hungarian",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "English-Hungarian",
+    "relation": "conjunction",
+    "tail": "French-Dutch"
+  },
+  {
+    "head": "French-Dutch",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "components",
+    "relation": "used for",
+    "tail": "intelligent computer-assisted morphological analysis (ICALL)"
+  },
+  {
+    "head": "disambiguated morphological analysis",
+    "relation": "hyponym of",
+    "tail": "components"
+  },
+  {
+    "head": "disambiguated morphological analysis",
+    "relation": "conjunction",
+    "tail": "lemmatized indexing"
+  },
+  {
+    "head": "disambiguated morphological analysis",
+    "relation": "used for",
+    "tail": "aligned bilingual corpus"
+  },
+  {
+    "head": "lemmatized indexing",
+    "relation": "hyponym of",
+    "tail": "components"
+  },
+  {
+    "head": "lemmatized indexing",
+    "relation": "used for",
+    "tail": "aligned bilingual corpus"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "doc_id": "doc_46",
+  "facts": [
+    "A model for an analog programmable array processor (APAP) is bio-inspired.",
+    "A bio-inspired model for an analog programmable array processor (APAP) is based on studies on the vertebrate retina.",
+    "A bio-inspired model for an analog programmable array processor (APAP) has permitted the realization of complex programmable spatio-temporal dynamics in VLSI.",
+    "A bio-inspired model for an analog programmable array processor (APAP) mimics the way in which images are processed in the visual pathway.",
+    "A bio-inspired model for an analog programmable array processor (APAP) renders a feasible alternative for the implementation of early vision applications in standard technologies.",
+    "A prototype chip has been designed.",
+    "A prototype chip was fabricated in a 0.5 µm standard CMOS process.",
+    "Images are processed in the visual pathway.",
+    "Computing power per area is amongst the highest reported for a single chip.",
+    "The paper presents design challenges.",
+    "The paper presents trade-offs.",
+    "The paper presents some experimental results.",
+    "The model is for an analog programmable array processor (APAP).",
+    "The array processor (APAP) is programmable."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    5,
+    8,
+    12
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "ambiguous": [
+    0,
+    9,
+    10,
+    11,
+    13
+  ],
+  "entities": [
+    "bio-inspired model",
+    "analog programmable array processor ( APAP )",
+    "vertebrate retina",
+    "complex programmable spatio-temporal dynamics",
+    "VLSI",
+    "images",
+    "visual pathway",
+    "vision applications",
+    "prototype chip",
+    "CMOS process",
+    "Computing power per area",
+    "power consumption"
+  ]
+}

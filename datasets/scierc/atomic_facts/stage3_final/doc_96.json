@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_96",
+  "facts": [
+    "The paper presents ONTOSCORE.",
+    "ONTOSCORE is a system.",
+    "ONTOSCORE scores sets of concepts.",
+    "The scoring by ONTOSCORE is on the basis of an ontology.",
+    "The authors apply ONTOSCORE to the task of scoring alternative speech recognition hypotheses.",
+    "The alternative speech recognition hypotheses are scored in terms of their semantic coherence.",
+    "The authors conducted an annotation experiment.",
+    "The annotation experiment showed that human annotators can reliably differentiate between semantically coherent and incoherent speech recognition hypotheses.",
+    "An evaluation of ONTOSCORE against the annotated data was performed.",
+    "ONTOSCORE successfully classifies 73.2% in a German corpus of 2.284 SRHs as either coherent or incoherent.",
+    "The corpus used for evaluation is a German corpus.",
+    "The German corpus contains 2.284 SRHs.",
+    "The classification by ONTOSCORE is as either coherent or incoherent.",
+    "The baseline for the evaluation is 54.55%.",
+    "SRH stands for speech recognition hypotheses."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    7,
+    8,
+    10,
+    12,
+    14
+  ],
+  "multiple-entity": [
+    3,
+    4,
+    5,
+    9,
+    11
+  ],
+  "ambiguous": [
+    6,
+    13
+  ],
+  "entities": [
+    "ONTOSCORE",
+    "ontology",
+    "speech recognition hypotheses ( SRH )",
+    "semantic coherence",
+    "speech recognition hypotheses",
+    "German corpus",
+    "SRHs"
+  ]
+}

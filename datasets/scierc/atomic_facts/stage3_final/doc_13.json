@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_13",
+  "facts": [
+    "The study proposes a knowledge-independent method for aligning terms.",
+    "The method extracts translations.",
+    "Translations are extracted from a small, domain-specific corpus.",
+    "The corpus consists of parallel English and Chinese court judgments from Hong Kong.",
+    "The study uses a sentence-aligned corpus.",
+    "Translation equivalences are suggested by analysing the frequency profiles of parallel concordances.",
+    "The method overcomes the limitations of conventional statistical methods.",
+    "Conventional statistical methods require large corpora to be effective.",
+    "The method overcomes the limitations of lexical approaches.",
+    "Lexical approaches depend on existing bilingual dictionaries.",
+    "Pilot testing was conducted on a parallel corpus of about 113K Chinese words and 120K English words.",
+    "Pilot testing gives an encouraging 85 % precision.",
+    "Pilot testing gives 45 % recall.",
+    "Future work includes fine-tuning the algorithm upon the analysis of the errors.",
+    "Future work includes acquiring a translation lexicon for legal terminology by filtering out general terms."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    5,
+    7,
+    9,
+    14
+  ],
+  "ambiguous": [
+    1,
+    13
+  ],
+  "entities": [
+    "knowledge-independent method",
+    "small , domain-specific corpus",
+    "parallel English and Chinese court judgments",
+    "sentence-aligned corpus",
+    "translation equivalences",
+    "parallel concordances",
+    "statistical methods",
+    "large corpora",
+    "lexical approaches",
+    "bilingual dictionaries",
+    "parallel corpus",
+    "precision",
+    "recall",
+    "translation lexicon",
+    "legal terminology"
+  ]
+}

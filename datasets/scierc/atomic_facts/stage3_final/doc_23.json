@@ -1,0 +1,47 @@
+{
+  "doc_id": "doc_23",
+  "facts": [
+    "SABLE is an algorithm for translation lexicon acquisition.",
+    "The utility of an algorithm for translation lexicon acquisition is investigated.",
+    "The algorithm for translation lexicon acquisition is named SABLE.",
+    "SABLE was used previously on a very large corpus.",
+    "SABLE was used previously to acquire general translation lexicons.",
+    "The purpose of the previous use was to acquire general translation lexicons.",
+    "A very large corpus was used previously.",
+    "SABLE is applied to a much smaller corpus.",
+    "SABLE is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons.",
+    "The purpose of the application is to produce candidates for domain-specific translation lexicons.",
+    "Candidates for domain-specific translation lexicons are produced.",
+    "Domain-specific translation lexicons are considered as a target.",
+    "The investigation examines the utility when an algorithm is applied to a much smaller corpus.",
+    "Translation lexicon acquisition is the task addressed by SABLE.",
+    "A much smaller corpus is involved in producing candidates for domain-specific translation lexicons."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    14
+  ],
+  "multiple-entity": [],
+  "ambiguous": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    12,
+    13
+  ],
+  "entities": [
+    "translation lexicon acquisition ( SABLE )",
+    "general translation lexicons",
+    "domain-specific translation lexicons"
+  ]
+}

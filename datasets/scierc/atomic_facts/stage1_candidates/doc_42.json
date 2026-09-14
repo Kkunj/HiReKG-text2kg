@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_42",
+  "facts": [
+    {
+      "fact": "Automatic image annotation is a newly developed technique.",
+      "supporting_span": "Automatic image annotation is a newly developed and promising technique",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic image annotation is a promising technique.",
+      "supporting_span": "Automatic image annotation is a newly developed and promising technique",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic image annotation provides semantic image retrieval via text descriptions.",
+      "supporting_span": "to provide semantic image retrieval via text descriptions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The image contents are labeled with a pre-defined set of keywords.",
+      "supporting_span": "automatically labeling the image contents with a pre-defined set of keywords",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The pre-defined set of keywords is exploited to represent the image semantics.",
+      "supporting_span": "which are exploited to represent the image semantics .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A Maximum Entropy Model-based approach to automatic image annotation is proposed.",
+      "supporting_span": "A Maximum Entropy Model-based approach to the task of automatic image annotation is proposed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the training phase, a basic visual vocabulary is generated at first.",
+      "supporting_span": "In the phase of training , a basic visual vocabulary consisting of blob-tokens to describe the image content is generated at first ;",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The basic visual vocabulary consists of blob-tokens.",
+      "supporting_span": "a basic visual vocabulary consisting of blob-tokens",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical relationship between the blob-tokens and keywords is modeled by a Maximum Entropy Model.",
+      "supporting_span": "then the statistical relationship is modeled between the blob-tokens and keywords by a Maximum Entropy Model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Maximum Entropy Model is constructed from the training set of labeled images.",
+      "supporting_span": "constructed from the training set of labeled images .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the annotation phase, for an unlabeled image, the most likely associated keywords are predicted.",
+      "supporting_span": "In the phase of annotation , for an unlabeled image , the most likely associated keywords are predicted",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The prediction of associated keywords is made in terms of the blob-token set extracted from the given image.",
+      "supporting_span": "in terms of the blob-token set extracted from the given image .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments were carried out on a medium-sized image collection with about 5000 images from Corel Photo CDs.",
+      "supporting_span": "We carried out experiments on a medium-sized image collection with about 5000 images from Corel Photo CDs .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The annotation performance of the Maximum Entropy Model-based approach outperforms some traditional annotation methods by about 8% in mean precision.",
+      "supporting_span": "the annotation performance of this method outperforms some traditional annotation methods by about 8 % in mean precision",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experimental results show a potential of the Maximum Entropy Model in the task of automatic image annotation.",
+      "supporting_span": "showing a potential of the Maximum Entropy Model in the task of automatic image annotation .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "head": "tag contexts",
+    "relation": "used for",
+    "tail": "part-of-speech tagger"
+  },
+  {
+    "head": "dependency network representation",
+    "relation": "used for",
+    "tail": "tag contexts"
+  },
+  {
+    "head": "lexical features",
+    "relation": "used for",
+    "tail": "part-of-speech tagger"
+  },
+  {
+    "head": "priors in conditional loglinear models",
+    "relation": "used for",
+    "tail": "part-of-speech tagger"
+  },
+  {
+    "head": "fine-grained modeling of unknown word features",
+    "relation": "used for",
+    "tail": "part-of-speech tagger"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "tagger"
+  },
+  {
+    "head": "Penn Treebank WSJ",
+    "relation": "evaluate for",
+    "tail": "tagger"
+  },
+  {
+    "head": "error",
+    "relation": "evaluate for",
+    "tail": "tagger"
+  }
+]

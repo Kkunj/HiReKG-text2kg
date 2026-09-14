@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_42",
+  "facts": [
+    "Automatic image annotation is a newly developed technique.",
+    "Automatic image annotation is a promising technique.",
+    "Automatic image annotation provides semantic image retrieval via text descriptions.",
+    "The image contents are labeled with a pre-defined set of keywords.",
+    "The pre-defined set of keywords is exploited to represent the image semantics.",
+    "A Maximum Entropy Model-based approach to automatic image annotation is proposed.",
+    "In the training phase, a basic visual vocabulary is generated at first.",
+    "The basic visual vocabulary consists of blob-tokens.",
+    "The statistical relationship between the blob-tokens and keywords is modeled by a Maximum Entropy Model.",
+    "The Maximum Entropy Model is constructed from the training set of labeled images.",
+    "In the annotation phase, for an unlabeled image, the most likely associated keywords are predicted.",
+    "The prediction of associated keywords is made in terms of the blob-token set extracted from the given image.",
+    "Experiments were carried out on a medium-sized image collection with about 5000 images from Corel Photo CDs.",
+    "The annotation performance of the Maximum Entropy Model-based approach outperforms some traditional annotation methods by about 8% in mean precision.",
+    "The experimental results show a potential of the Maximum Entropy Model in the task of automatic image annotation."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    3
+  ],
+  "multiple-entity": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "Automatic image annotation",
+    "semantic image retrieval",
+    "text descriptions",
+    "automatically labeling the image contents",
+    "keywords",
+    "image semantics",
+    "Maximum Entropy Model-based approach",
+    "automatic image annotation",
+    "training",
+    "visual vocabulary",
+    "blob-tokens",
+    "image content",
+    "Maximum Entropy Model",
+    "annotation",
+    "blob-token set",
+    "medium-sized image collection",
+    "Corel Photo CDs",
+    "annotation methods",
+    "mean precision"
+  ]
+}

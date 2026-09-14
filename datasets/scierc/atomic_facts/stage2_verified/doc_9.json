@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_9",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The work proposes a new research direction.",
+      "generator_supporting_span": "This work proposes a new research direction",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This work proposes a new research direction to address the lack of structures in traditional n-gram models .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the work proposes a new research direction, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The new research direction addresses the lack of structures in traditional n-gram models.",
+      "generator_supporting_span": "to address the lack of structures in traditional n-gram models",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This work proposes a new research direction to address the lack of structures in traditional n-gram models .",
+      "verifier_reasoning": "The source text's first sentence explicitly states that the work's purpose is to propose a new research direction to address the lack of structures in traditional n-gram models, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The work is based on a weakly supervised dependency parser.",
+      "generator_supporting_span": "It is based on a weakly supervised dependency parser",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is based on a weakly supervised dependency parser that can model speech syntax without relying on any annotated training corpus .",
+      "verifier_reasoning": "The source text introduces \"This work\" in the first sentence. The second sentence begins with \"It is based on a weakly supervised dependency parser,\" where \"It\" refers back to \"This work,\" directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The weakly supervised dependency parser can model speech syntax.",
+      "generator_supporting_span": "that can model speech syntax",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is based on a weakly supervised dependency parser that can model speech syntax without relying on any annotated training corpus .",
+      "verifier_reasoning": "The source text explicitly states that the research is based on a weakly supervised dependency parser which has the capability to model speech syntax.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The weakly supervised dependency parser does not rely on any annotated training corpus.",
+      "generator_supporting_span": "without relying on any annotated training corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is based on a weakly supervised dependency parser that can model speech syntax without relying on any annotated training corpus .",
+      "verifier_reasoning": "The source text explicitly states that the research is based on a weakly supervised dependency parser that operates 'without relying on any annotated training corpus'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Labeled data is replaced by a few hand-crafted rules.",
+      "generator_supporting_span": "Labeled data is replaced by a few hand-crafted rules",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Labeled data is replaced by a few hand-crafted rules that encode basic syntactic knowledge .",
+      "verifier_reasoning": "The source text contains a sentence that is a near-verbatim match for the candidate fact, explicitly stating that labeled data is replaced by hand-crafted rules.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The hand-crafted rules encode basic syntactic knowledge.",
+      "generator_supporting_span": "that encode basic syntactic knowledge",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Labeled data is replaced by a few hand-crafted rules that encode basic syntactic knowledge .",
+      "verifier_reasoning": "The source text explicitly states that labeled data is substituted with 'a few hand-crafted rules that encode basic syntactic knowledge', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Bayesian inference samples the rules.",
+      "generator_supporting_span": "Bayesian inference then samples the rules",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus .",
+      "verifier_reasoning": "The source text explicitly states that \"Bayesian inference then samples the rules\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Bayesian inference combines the rules to create complex tree structures.",
+      "generator_supporting_span": "combining them to create complex tree structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus .",
+      "verifier_reasoning": "The source text explicitly states that Bayesian inference samples, disambiguates, and combines the rules, and that this process results in the creation of complex tree structures.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The complex tree structures maximize a discriminative model's posterior.",
+      "generator_supporting_span": "that maximize a discriminative model 's posterior",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus .",
+      "verifier_reasoning": "The source text explicitly states that the described method creates 'complex tree structures that maximize a discriminative model's posterior', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The posterior is on a target unlabeled corpus.",
+      "generator_supporting_span": "on a target unlabeled corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus .",
+      "verifier_reasoning": "The source text explicitly states that the goal is to maximize a discriminative model's posterior on a target unlabeled corpus, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The posterior encodes sparse selectional preferences between a head word and its dependents.",
+      "generator_supporting_span": "This posterior encodes sparse se-lectional preferences between a head word and its dependents",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This posterior encodes sparse se-lectional preferences between a head word and its dependents .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct and verbatim match for the candidate fact, explicitly stating what the posterior encodes.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The model is evaluated on English newspaper texts.",
+      "generator_supporting_span": "The model is evaluated on English and Czech newspaper texts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The model is evaluated on English and Czech newspaper texts , and is then validated on French broadcast news transcriptions .",
+      "verifier_reasoning": "The source text explicitly states that the model was evaluated on newspaper texts from two languages, one of which is English.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The model is evaluated on Czech newspaper texts.",
+      "generator_supporting_span": "The model is evaluated on English and Czech newspaper texts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The model is evaluated on English and Czech newspaper texts , and is then validated on French broadcast news transcriptions .",
+      "verifier_reasoning": "The source text explicitly lists the datasets on which the model was evaluated, and this list includes \"Czech newspaper texts\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The model is validated on French broadcast news transcriptions.",
+      "generator_supporting_span": "and is then validated on French broadcast news transcriptions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The model is evaluated on English and Czech newspaper texts , and is then validated on French broadcast news transcriptions .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the model was validated on French broadcast news transcriptions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

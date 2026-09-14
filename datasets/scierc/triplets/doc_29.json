@@ -1,0 +1,62 @@
+[
+  {
+    "head": "object category detection datasets",
+    "relation": "used for",
+    "tail": "per-object 3D reconstructions"
+  },
+  {
+    "head": "ground truth figure-ground segmentations",
+    "relation": "used for",
+    "tail": "per-object 3D reconstructions"
+  },
+  {
+    "head": "ground truth figure-ground segmentations",
+    "relation": "conjunction",
+    "tail": "keypoint annotations"
+  },
+  {
+    "head": "keypoint annotations",
+    "relation": "used for",
+    "tail": "per-object 3D reconstructions"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "camera viewpoint"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "object shapes"
+  },
+  {
+    "head": "rigid structure-from-motion",
+    "relation": "used for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "visual hull proposals",
+    "relation": "used for",
+    "tail": "object shapes"
+  },
+  {
+    "head": "loose within-class shape similarity assumptions",
+    "relation": "used for",
+    "tail": "visual hull proposals"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "per-object 3D reconstructions"
+  },
+  {
+    "head": "object-category detection datasets",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "PASCAL VOC",
+    "relation": "hyponym of",
+    "tail": "object-category detection datasets"
+  }
+]

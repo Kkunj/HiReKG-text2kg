@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_38",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The formalism of Category Cooccurrence Restrictions (CCRs) is summarized.",
+      "generator_supporting_span": "summarizes the formalism of Category Cooccurrence Restrictions (CCRs)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper summarizes the formalism of Category Cooccurrence Restrictions (CCRs)",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper 'summarizes the formalism of Category Cooccurrence Restrictions (CCRs)', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Two parsing algorithms interpret Category Cooccurrence Restrictions (CCRs).",
+      "generator_supporting_span": "describes two parsing algorithms that interpret it",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper summarizes the formalism of Category Cooccurrence Restrictions (CCRs) and describes two parsing algorithms that interpret it .",
+      "verifier_reasoning": "The source text explicitly states that the paper describes two parsing algorithms and that these algorithms interpret the formalism of Category Cooccurrence Restrictions (CCRs), which is what the pronoun 'it' refers to in the sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Category Cooccurrence Restrictions are abbreviated \"CCRs\".",
+      "generator_supporting_span": "Category Cooccurrence Restrictions (CCRs)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper summarizes the formalism of Category Cooccurrence Restrictions (CCRs)",
+      "verifier_reasoning": "The source text introduces the full phrase \"Category Cooccurrence Restrictions\" and immediately follows it with \"(CCRs)\" in parentheses, which is the standard convention for defining an abbreviation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Category Cooccurrence Restrictions (CCRs) are Boolean conditions.",
+      "generator_supporting_span": "CCRs are Boolean conditions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "CCRs are Boolean conditions on the cooccurrence of categories in local trees which allow the statement of generalizations which can not be captured in other current syntax formalisms .",
+      "verifier_reasoning": "The source text explicitly defines Category Cooccurrence Restrictions (CCRs) in the second sentence, stating directly that they are Boolean conditions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Category Cooccurrence Restrictions (CCRs) are conditions on the cooccurrence of categories.",
+      "generator_supporting_span": "conditions on the cooccurrence of categories",
+      "span_mismatch": false,
+      "verifier_supporting_span": "CCRs are Boolean conditions on the cooccurrence of categories in local trees which allow the statement of generalizations which can not be captured in other current syntax formalisms .",
+      "verifier_reasoning": "The source text explicitly defines Category Cooccurrence Restrictions (CCRs), stating that they are 'Boolean conditions on the cooccurrence of categories'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The cooccurrence of categories is in local trees.",
+      "generator_supporting_span": "cooccurrence of categories in local trees",
+      "span_mismatch": false,
+      "verifier_supporting_span": "CCRs are Boolean conditions on the cooccurrence of categories in local trees which allow the statement of generalizations which can not be captured in other current syntax formalisms .",
+      "verifier_reasoning": "The source text defines Category Cooccurrence Restrictions (CCRs) as \"Boolean conditions on the cooccurrence of categories in local trees,\" which directly states that the cooccurrence of these categories occurs within local trees.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Category Cooccurrence Restrictions (CCRs) allow the statement of generalizations.",
+      "generator_supporting_span": "which allow the statement of generalizations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "CCRs are Boolean conditions on the cooccurrence of categories in local trees which allow the statement of generalizations which can not be captured in other current syntax formalisms .",
+      "verifier_reasoning": "The source text explicitly states that CCRs are conditions \"which allow the statement of generalizations\", directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Generalizations can not be captured in other current syntax formalisms.",
+      "generator_supporting_span": "can not be captured in other current syntax formalisms",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that Category Cooccurrence Restrictions (CCRs) allow for the statement of specific generalizations 'which can not be captured in other current syntax formalisms'. This does not mean that no generalizations at all can be captured by other formalisms, only that a specific type cannot be.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The use of Category Cooccurrence Restrictions (CCRs) leads to syntactic descriptions.",
+      "generator_supporting_span": "The use of CCRs leads to syntactic descriptions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The use of CCRs leads to syntactic descriptions formulated entirely with restrictive statements .",
+      "verifier_reasoning": "The source text explicitly states that the use of CCRs leads to syntactic descriptions, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Syntactic descriptions are formulated entirely with restrictive statements.",
+      "generator_supporting_span": "syntactic descriptions formulated entirely with restrictive statements",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The use of CCRs leads to syntactic descriptions formulated entirely with restrictive statements .",
+      "verifier_reasoning": "The source text states that the use of a specific formalism, CCRs, leads to syntactic descriptions being formulated entirely with restrictive statements. The candidate fact is presented as a general statement, but within the context of the source text which is describing this formalism, the fact is supported.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Conventional algorithms are for the analysis of context free languages.",
+      "generator_supporting_span": "conventional algorithms for the analysis of context free languages",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism .",
+      "verifier_reasoning": "The source text explicitly mentions 'conventional algorithms for the analysis of context free languages', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Conventional algorithms can be adapted to the CCR formalism.",
+      "generator_supporting_span": "can be adapted to the CCR formalism",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism .",
+      "verifier_reasoning": "The source text explicitly states that the paper demonstrates how conventional algorithms for analyzing context-free languages can be adapted to the CCR formalism.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism.",
+      "generator_supporting_span": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact, verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Special attention is given to the part of the parser.",
+      "generator_supporting_span": "Special attention is given to the part of the parser",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Special attention is given to the part of the parser that checks the fulfillment of logical well-formedness conditions on trees .",
+      "verifier_reasoning": "The source text explicitly states that special attention is given to a specific part of the parser. This directly supports the candidate fact, which is a more general but still accurate statement based on the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The part of the parser checks the fulfillment of logical well-formedness conditions on trees.",
+      "generator_supporting_span": "the part of the parser that checks the fulfillment of logical well-formedness conditions on trees",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Special attention is given to the part of the parser that checks the fulfillment of logical well-formedness conditions on trees .",
+      "verifier_reasoning": "The source text explicitly states that a part of the parser performs the function described in the candidate fact, mentioning that special attention is given to it.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

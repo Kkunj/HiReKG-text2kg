@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_83",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper provides an overview of the research conducted at LIMSI.",
+      "generator_supporting_span": "The paper provides an overview of the research conducted at LIMSI",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing , but also in the related areas of Human-Machine Communication",
+      "verifier_reasoning": "The source text's opening sentence explicitly states that the paper provides an overview of research conducted at LIMSI. The candidate fact is a direct and accurate summary of this initial clause.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The research conducted at LIMSI is in the field of speech processing.",
+      "generator_supporting_span": "the research conducted at LIMSI in the field of speech processing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing",
+      "verifier_reasoning": "The source text explicitly states that the paper overviews research conducted at LIMSI, and lists \"the field of speech processing\" as one of those areas.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The paper provides an overview in the related areas of Human-Machine Communication.",
+      "generator_supporting_span": "but also in the related areas of Human-Machine Communication",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing , but also in the related areas of Human-Machine Communication",
+      "verifier_reasoning": "The source text explicitly states that the paper provides an overview of research in speech processing and 'also in the related areas of Human-Machine Communication', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The related areas include Natural Language Processing.",
+      "generator_supporting_span": "including Natural Language Processing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "in the related areas of Human-Machine Communication , including Natural Language Processing",
+      "verifier_reasoning": "The source text explicitly lists the research areas covered, stating that they include 'the related areas of Human-Machine Communication , including Natural Language Processing'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The related areas include Non Verbal and Multimodal Communication.",
+      "generator_supporting_span": "Non Verbal and Multimodal Communication",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing , but also in the related areas of Human-Machine Communication , including Natural Language Processing , Non Verbal and Multimodal Communication .",
+      "verifier_reasoning": "The source text explicitly lists 'Non Verbal and Multimodal Communication' as one of the 'related areas of Human-Machine Communication' that the paper covers.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The commercial applications of some of the research projects are presented.",
+      "generator_supporting_span": "Also presented are the commercial applications of some of the research projects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Also presented are the commercial applications of some of the research projects .",
+      "verifier_reasoning": "The source text explicitly states that the commercial applications of some research projects are presented in the paper, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Some of the research projects have commercial applications.",
+      "generator_supporting_span": "the commercial applications of some of the research projects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Also presented are the commercial applications of some of the research projects .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents 'the commercial applications of some of the research projects,' which directly confirms that some of these projects have commercial applications.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "When applicable, the discussion is placed in the framework of international collaborations.",
+      "generator_supporting_span": "When applicable , the discussion is placed in the framework of international collaborations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "When applicable , the discussion is placed in the framework of international collaborations .",
+      "verifier_reasoning": "The candidate fact is a direct, verbatim quote from the last sentence of the source text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing.",
+      "generator_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing",
+      "verifier_reasoning": "The source text explicitly states that the paper provides an overview of research at LIMSI in the field of speech processing. The candidate fact is a direct quote from the source text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "International collaborations provide a framework for the discussion.",
+      "generator_supporting_span": "the discussion is placed in the framework of international collaborations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "When applicable , the discussion is placed in the framework of international collaborations .",
+      "verifier_reasoning": "The source text explicitly states that when it is applicable, the discussion is placed within the framework of international collaborations. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The paper presents commercial applications in addition to the overview.",
+      "generator_supporting_span": "Also presented are the commercial applications",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI... Also presented are the commercial applications of some of the research projects .",
+      "verifier_reasoning": "The source text first states that the paper provides an overview of research. It then explicitly states that commercial applications are \"Also presented\", confirming they are included in addition to the overview.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Natural Language Processing is included in Human-Machine Communication.",
+      "generator_supporting_span": "the related areas of Human-Machine Communication , including Natural Language Processing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the related areas of Human-Machine Communication , including Natural Language Processing",
+      "verifier_reasoning": "The source text explicitly lists 'Natural Language Processing' as one of the areas included within the broader field of 'Human-Machine Communication'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Non Verbal and Multimodal Communication are included in Human-Machine Communication.",
+      "generator_supporting_span": "the related areas of Human-Machine Communication , including Natural Language Processing , Non Verbal and Multimodal Communication",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the related areas of Human-Machine Communication , including Natural Language Processing , Non Verbal and Multimodal Communication .",
+      "verifier_reasoning": "The source text explicitly lists 'Non Verbal and Multimodal Communication' as an area included within the broader field of 'Human-Machine Communication'. The use of the word 'including' directly establishes this relationship.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The paper addresses Human-Machine Communication.",
+      "generator_supporting_span": "the related areas of Human-Machine Communication",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing , but also in the related areas of Human-Machine Communication , including Natural Language Processing , Non Verbal and Multimodal Communication .",
+      "verifier_reasoning": "The source text explicitly states that the paper provides an overview of research in several fields, including 'the related areas of Human-Machine Communication'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The paper addresses speech processing.",
+      "generator_supporting_span": "the field of speech processing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper provides an overview of the research conducted at LIMSI in the field of speech processing",
+      "verifier_reasoning": "The source text explicitly states that the paper provides an overview of research in \"the field of speech processing,\" which directly confirms that the paper addresses this topic.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

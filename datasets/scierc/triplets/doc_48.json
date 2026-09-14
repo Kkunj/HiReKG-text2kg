@@ -1,0 +1,62 @@
+[
+  {
+    "head": "Interpreting metaphors",
+    "relation": "hyponym of",
+    "tail": "human understanding of natural language"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "analyzing metaphors"
+  },
+  {
+    "head": "generalized metaphor mappings",
+    "relation": "used for",
+    "tail": "analyzing metaphors"
+  },
+  {
+    "head": "recognition network",
+    "relation": "part of",
+    "tail": "generalized metaphor"
+  },
+  {
+    "head": "recognition network",
+    "relation": "conjunction",
+    "tail": "basic mapping"
+  },
+  {
+    "head": "basic mapping",
+    "relation": "part of",
+    "tail": "generalized metaphor"
+  },
+  {
+    "head": "transfer mappings",
+    "relation": "part of",
+    "tail": "generalized metaphor"
+  },
+  {
+    "head": "transfer mappings",
+    "relation": "conjunction",
+    "tail": "basic mapping"
+  },
+  {
+    "head": "transfer mappings",
+    "relation": "conjunction",
+    "tail": "implicit intention component"
+  },
+  {
+    "head": "implicit intention component",
+    "relation": "part of",
+    "tail": "generalized metaphor"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "metaphor interpretation"
+  },
+  {
+    "head": "recognition task",
+    "relation": "used for",
+    "tail": "metaphor interpretation"
+  }
+]

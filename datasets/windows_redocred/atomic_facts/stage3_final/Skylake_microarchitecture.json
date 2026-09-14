@@ -1,0 +1,62 @@
+{
+  "doc_id": "Skylake_microarchitecture",
+  "facts": [
+    "Skylake is the codename used by Intel for a processor microarchitecture.",
+    "Skylake was launched in August 2015.",
+    "Skylake succeeded the Broadwell microarchitecture.",
+    "Skylake is a microarchitecture redesign.",
+    "Skylake uses the same 14 nm manufacturing process technology as its predecessor.",
+    "Skylake serves as a \"tock\" in Intel's \"tick-tock\" manufacturing and design model.",
+    "According to Intel, the Skylake redesign brings greater CPU and GPU performance.",
+    "According to Intel, the Skylake redesign brings reduced power consumption.",
+    "Skylake CPUs share microarchitecture with Kaby Lake CPUs.",
+    "Skylake CPUs share microarchitecture with Cannon Lake CPUs.",
+    "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft.",
+    "Enthusiast-created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms.",
+    "Some processors based on the Skylake microarchitecture are marketed as \"6th-generation Core\".",
+    "On October 8, 2018, Intel announced new 9th gen Core X 98xx/99xx series CPUs.",
+    "The Core i9-9980XE Extreme Edition led the launch."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    11,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13
+  ],
+  "entities": [
+    "Skylake",
+    "Intel",
+    "August 2015",
+    "Broadwell",
+    "14   nm",
+    "CPU",
+    "GPU",
+    "Kaby Lake",
+    "Coffee Lake",
+    "Cannon Lake CPUs",
+    "Windows",
+    "Windows 10",
+    "Microsoft",
+    "Windows 8.1",
+    "6th - generation Core",
+    "October 8, 2018",
+    "9th gen Core X 98xx/99xx series CPUs",
+    "Core i9 - 9980XE Extreme Edition"
+  ],
+  "ambiguous": []
+}

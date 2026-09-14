@@ -1,0 +1,53 @@
+{
+"avg_total_tokens_per_doc": {
+    "kggen": {
+      "mine": 21550,
+      "redocred": 9120,
+      "scierc": 5970.68
+    },
+    "rakg": {
+      "mine": 164968.26,
+      "redocred": 80475.5,
+      "scierc": 24679.95
+    },
+    "our_approach": {
+      "mine": 64531.96,
+      "redocred": 27342.13,
+      "scierc": 15588.9
+    }
+  },
+  "avg_input_tokens_per_doc": {
+    "kggen": {
+      "mine": 4829.26,
+      "redocred": 1183.56,
+      "scierc": 1754.2
+    },
+    "rakg": {
+      "mine": 65888.89,
+      "redocred": 29140.4,
+      "scierc": 6802.72
+    },
+    "our_approach": {
+      "mine": 22149.68,
+      "redocred": 8807.96,
+      "scierc": 4653.49
+    }
+  },
+  "avg_output_tokens_per_doc": {
+    "kggen": {
+      "mine": 16720.74,
+      "redocred": 3810.4,
+      "scierc": 3216.48
+    },
+    "rakg": {
+      "mine": 99079.37,
+      "redocred": 51335.1,
+      "scierc": 17877.23
+    },
+    "our_approach": {
+      "mine": 42382.29,
+      "redocred": 18534.18,
+      "scierc": 10935.42
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "doc_id": "Environmental_subsystem",
+  "facts": [
+    "Environmental subsystems are central components of operating systems of the Windows NT type.",
+    "Environmental subsystems allow the operating system to run software developed for the platform in question.",
+    "Windows NT 4.0 has four environmental subsystems.",
+    "The environmental subsystems in Windows NT 4.0 include Win32, DOS or Win16, OS/2, and POSIX.",
+    "POSIX is a Unix standard.",
+    "The environmental subsystems are one part of the strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing.",
+    "The strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing includes four Hardware Abstraction layers.",
+    "The strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing includes a driver for the HPFS, the standard for OS/2.",
+    "Since Windows 2000, the FAT32 file system first introduced with Windows 95 has also been present.",
+    "HPFS was deprecated and then omitted in later systems.",
+    "A third-party driver for FAT32 can be used on the earlier NT operating systems.",
+    "Windows NT as of version 4.0 had a default of four file systems, NTFS, HPFS, FAT12, and FAT16.",
+    "Installations of Windows NT with a driver allowing access to FAT32 are very common.",
+    "Tools allowing access to Unix file systems are also in existence.",
+    "Interoperability with Novell Netware is generally implemented at the applications and systems programming level rather than at the kernel and data link layer and therefore further from the physical hardware."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    9,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "ambiguous": [
+    1
+  ],
+  "entities": [
+    "Windows NT",
+    "four",
+    "Win32",
+    "DOS",
+    "Win16",
+    "OS/2",
+    "POSIX",
+    "Unix",
+    "Dynamic Link Library",
+    "Microsoft",
+    "Hardware Abstraction",
+    "one",
+    "Intel",
+    "three",
+    "RISC",
+    "DEC Alpha",
+    "PowerPC",
+    "Mips",
+    "HPFS",
+    "Windows 2000",
+    "FAT32",
+    "Windows 95",
+    "NT operating systems",
+    "4.0",
+    "NTFS",
+    "FAT12",
+    "FAT16",
+    "Novell Netware"
+  ]
+}

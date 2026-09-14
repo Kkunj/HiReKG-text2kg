@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_35",
+  "facts": [
+    {
+      "fact": "Language resource quality is crucial in NLP.",
+      "supporting_span": "Language resource quality is crucial in NLP .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Many resources used are derived from data.",
+      "supporting_span": "Many of the resources used are derived from data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Many resources used are derived from data created by human beings.",
+      "supporting_span": "Many of the resources used are derived from data created by human beings",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Data used for resources are created out of an NLP context.",
+      "supporting_span": "data created by human beings out of an NLP context",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The derivation of resources especially regards MT and reference translations.",
+      "supporting_span": "especially regarding MT and reference translations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic evaluations need high-quality data.",
+      "supporting_span": "automatic evaluations need high-quality data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "High-quality data allow the comparison of both automatic and human translations.",
+      "supporting_span": "high-quality data that allow the comparison of both automatic and human translations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The comparison includes automatic translations.",
+      "supporting_span": "the comparison of both automatic and human translations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The comparison includes human translations.",
+      "supporting_span": "the comparison of both automatic and human translations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Validation of resources is widely recommended.",
+      "supporting_span": "The validation of these resources is widely recommended",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Validation of resources is recommended before use.",
+      "supporting_span": "The validation of these resources is widely recommended before being used .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes the impact of using different-quality references on evaluation.",
+      "supporting_span": "This paper describes the impact of using different-quality references on evaluation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "References can have different quality.",
+      "supporting_span": "different-quality references",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Similar scores are obtained in many cases regardless of the quality.",
+      "supporting_span": "similar scores are obtained in many cases regardless of the quality .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The limitations of the automatic metrics used within MT are discussed.",
+      "supporting_span": "the limitations of the automatic metrics used within MT are also discussed in this regard .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

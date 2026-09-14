@@ -1,0 +1,82 @@
+{
+  "doc_id": "JPEG_XR",
+  "facts": [
+    {
+      "fact": "JPEG XR is a still - image compression standard.",
+      "supporting_span": "JPEG XR ( JPEG extended range ) is a still - image compression standard",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR is a file format for continuous tone photographic images.",
+      "supporting_span": "is a still - image compression standard and file format for continuous tone photographic images",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR is based on technology originally developed by Microsoft.",
+      "supporting_span": "based on technology originally developed and patented by Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The technology underlying JPEG XR was patented by Microsoft.",
+      "supporting_span": "technology originally developed and patented by Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The technology underlying JPEG XR was under the name HD Photo.",
+      "supporting_span": "under the name HD Photo ( formerly Windows Media Photo )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "HD Photo was formerly Windows Media Photo.",
+      "supporting_span": "HD Photo ( formerly Windows Media Photo )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR supports lossy compression.",
+      "supporting_span": "supports both lossy and lossless compression",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR supports lossless compression.",
+      "supporting_span": "supports both lossy and lossless compression",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR is the preferred image format for Ecma-388 Open XML Paper Specification documents.",
+      "supporting_span": "is the preferred image format for Ecma-388 Open XML Paper Specification documents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for the JPEG XR format is available in Adobe Flash Player 11.0.",
+      "supporting_span": "Support for the format is available in Adobe Flash Player 11.0 ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for the JPEG XR format is available in Adobe AIR 3.0.",
+      "supporting_span": "Support for the format is available in Adobe Flash Player 11.0 , Adobe AIR 3.0 ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for the JPEG XR format is available in Sumatra PDF 2.1.",
+      "supporting_span": "Support for the format is available in Adobe Flash Player 11.0 , Adobe AIR 3.0 , Sumatra PDF 2.1 ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "JPEG XR is JPEG extended range.",
+      "supporting_span": "JPEG XR ( JPEG extended range )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for the JPEG XR format is available in Internet Explorer 11.",
+      "supporting_span": "Support for the format is available in Adobe Flash Player 11.0 , Adobe AIR 3.0 , Sumatra PDF 2.1 , Windows Imaging Component , .NET Framework 3.0 , Windows Vista , Windows 7 , Windows 8 , Internet Explorer 9 , Internet Explorer 10 , Internet Explorer 11 ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "As of August 2014, there were still no cameras that shoot photos in the JPEG XR (.JXR) format.",
+      "supporting_span": "As of August 2014 , there were still no cameras that shoot photos in the JPEG XR ( .JXR ) format .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

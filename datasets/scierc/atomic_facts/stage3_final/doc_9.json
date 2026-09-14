@@ -1,0 +1,62 @@
+{
+  "doc_id": "doc_9",
+  "facts": [
+    "The work proposes a new research direction.",
+    "The new research direction addresses the lack of structures in traditional n-gram models.",
+    "The work is based on a weakly supervised dependency parser.",
+    "The weakly supervised dependency parser can model speech syntax.",
+    "The weakly supervised dependency parser does not rely on any annotated training corpus.",
+    "Labeled data is replaced by a few hand-crafted rules.",
+    "The hand-crafted rules encode basic syntactic knowledge.",
+    "Bayesian inference samples the rules.",
+    "Bayesian inference combines the rules to create complex tree structures.",
+    "The complex tree structures maximize a discriminative model's posterior.",
+    "The posterior is on a target unlabeled corpus.",
+    "The posterior encodes sparse selectional preferences between a head word and its dependents.",
+    "The model is evaluated on English newspaper texts.",
+    "The model is evaluated on Czech newspaper texts.",
+    "The model is validated on French broadcast news transcriptions."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    10,
+    14
+  ],
+  "multiple-entity": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ambiguous": [
+    0,
+    11,
+    12,
+    13
+  ],
+  "entities": [
+    "lack of structures",
+    "lack of structures in traditional n-gram models",
+    "n-gram models",
+    "weakly supervised dependency parser",
+    "speech syntax",
+    "annotated training corpus",
+    "Labeled data",
+    "hand-crafted rules",
+    "syntactic knowledge",
+    "Bayesian inference",
+    "rules",
+    "complex tree structures",
+    "discriminative model 's posterior",
+    "unlabeled corpus",
+    "sparse se-lectional preferences",
+    "English and Czech newspaper texts",
+    "French broadcast news transcriptions"
+  ]
+}

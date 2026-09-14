@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_27",
+  "facts": [
+    "The article is devoted to the problem of quantifying noun groups in German.",
+    "The results of corpus-based investigations are described.",
+    "A thorough description of the phenomena is provided.",
+    "Some examples are given.",
+    "The examples underline the necessity of integrating some kind of information other than grammar sensu stricto into the treebank.",
+    "A more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on stochastic parsers trained on the tree-bank.",
+    "A more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on grammars induced from the treebank.",
+    "A more sophisticated and fine-grained annotation in the tree-bank would make the treebank more valuable as a source of data for theoretical linguistic investigations.",
+    "Stochastic parsers are trained on the tree-bank.",
+    "Grammars are induced from the treebank.",
+    "The treebank is a source of data for theoretical linguistic investigations.",
+    "The information gained from corpus research are realized in the framework of SILVA.",
+    "The analyses that are proposed are realized in the framework of SILVA.",
+    "SILVA is a parsing and extraction tool for German text corpora.",
+    "SILVA is for German text corpora."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14
+  ],
+  "ambiguous": [
+    1,
+    2,
+    3
+  ],
+  "entities": [
+    "quantifying noun groups in German",
+    "German",
+    "grammar sensu stricto",
+    "treebank",
+    "fine-grained annotation",
+    "tree-bank",
+    "stochastic parsers",
+    "grammars",
+    "theoretical linguistic investigations",
+    "SILVA",
+    "parsing and extraction tool",
+    "German text corpora"
+  ]
+}

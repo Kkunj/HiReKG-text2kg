@@ -1,0 +1,47 @@
+[
+  {
+    "head": "broad semantic classes",
+    "relation": "conjunction",
+    "tail": "LCS meaning components"
+  },
+  {
+    "head": "acquisition program - LEXICALL -",
+    "relation": "used for",
+    "tail": "LCS representations"
+  },
+  {
+    "head": "verb classification",
+    "relation": "used for",
+    "tail": "acquisition program - LEXICALL -"
+  },
+  {
+    "head": "verb classification",
+    "relation": "conjunction",
+    "tail": "thematic grid tagging"
+  },
+  {
+    "head": "thematic grid tagging",
+    "relation": "used for",
+    "tail": "acquisition program - LEXICALL -"
+  },
+  {
+    "head": "representations",
+    "relation": "used for",
+    "tail": "English , Arabic and Spanish lexicons"
+  },
+  {
+    "head": "lexicons",
+    "relation": "used for",
+    "tail": "operational foreign language tutoring"
+  },
+  {
+    "head": "lexicons",
+    "relation": "used for",
+    "tail": "machine translation"
+  },
+  {
+    "head": "operational foreign language tutoring",
+    "relation": "conjunction",
+    "tail": "machine translation"
+  }
+]

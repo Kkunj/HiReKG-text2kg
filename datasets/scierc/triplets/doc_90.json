@@ -1,0 +1,37 @@
+[
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "camera handoff in wide-area surveillance scenarios"
+  },
+  {
+    "head": "geometric , appearance , or correlation-based information",
+    "relation": "used for",
+    "tail": "approaches"
+  },
+  {
+    "head": "logistic softmax function of covariance-based region features",
+    "relation": "used for",
+    "tail": "Multiple Instance Learning (MIL) formulation"
+  },
+  {
+    "head": "MAP estimation framework",
+    "relation": "used for",
+    "tail": "Multiple Instance Learning (MIL) formulation"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "outdoor surveillance settings"
+  },
+  {
+    "head": "approach",
+    "relation": "compare",
+    "tail": "state-of-the-art approaches"
+  },
+  {
+    "head": "multiple PTZ camera sequences",
+    "relation": "used for",
+    "tail": "approach"
+  }
+]

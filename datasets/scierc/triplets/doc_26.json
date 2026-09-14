@@ -1,0 +1,77 @@
+[
+  {
+    "head": "Learned confidence measures",
+    "relation": "used for",
+    "tail": "outlier removal"
+  },
+  {
+    "head": "Learned confidence measures",
+    "relation": "used for",
+    "tail": "quality improvement"
+  },
+  {
+    "head": "outlier removal",
+    "relation": "conjunction",
+    "tail": "quality improvement"
+  },
+  {
+    "head": "outlier removal",
+    "relation": "part of",
+    "tail": "stereo vision"
+  },
+  {
+    "head": "quality improvement",
+    "relation": "part of",
+    "tail": "stereo vision"
+  },
+  {
+    "head": "manual interaction",
+    "relation": "used for",
+    "tail": "task"
+  },
+  {
+    "head": "manual interaction",
+    "relation": "conjunction",
+    "tail": "active sensing devices"
+  },
+  {
+    "head": "active sensing devices",
+    "relation": "used for",
+    "tail": "task"
+  },
+  {
+    "head": "active sensing devices",
+    "relation": "conjunction",
+    "tail": "synthetic scenes"
+  },
+  {
+    "head": "synthetic scenes",
+    "relation": "used for",
+    "tail": "task"
+  },
+  {
+    "head": "view points",
+    "relation": "used for",
+    "tail": "approach"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "learned confidence measures"
+  },
+  {
+    "head": "KITTI2012 dataset",
+    "relation": "evaluate for",
+    "tail": "learned confidence measures"
+  },
+  {
+    "head": "automatically generated training data",
+    "relation": "used for",
+    "tail": "them"
+  },
+  {
+    "head": "laser ground truth data",
+    "relation": "compare",
+    "tail": "automatically generated training data"
+  }
+]

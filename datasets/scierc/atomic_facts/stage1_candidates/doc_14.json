@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_14",
+  "facts": [
+    {
+      "fact": "The paper targets generating generic action proposals in unconstrained videos.",
+      "supporting_span": "In this paper we target at generating generic action proposals in unconstrained videos .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each action proposal corresponds to a temporal series of spatial bounding boxes.",
+      "supporting_span": "Each action proposal corresponds to a temporal series of spatial bounding boxes ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A spatio-temporal video tube has a good potential to locate one human action.",
+      "supporting_span": "which has a good potential to locate one human action .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each action is assumed to be performed by a human with meaningful motion.",
+      "supporting_span": "Assuming each action is performed by a human with meaningful motion ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Appearance cues are utilized to measure the actionness of the video tubes.",
+      "supporting_span": "both appearance and motion cues are utilized to measure the ac-tionness of the video tubes .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Motion cues are utilized to measure the actionness of the video tubes.",
+      "supporting_span": "both appearance and motion cues are utilized to measure the ac-tionness of the video tubes .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Action proposal generation is formulated as a maximum set coverage problem.",
+      "supporting_span": "our action proposal generation is formulated as a maximum set coverage problem ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Greedy search is performed to select a set of action proposals.",
+      "supporting_span": "greedy search is performed to select a set of action proposals",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A set of action proposals can maximize the overall actionness score.",
+      "supporting_span": "that can maximize the overall actionness score .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The action proposals do not rely on video segmentation.",
+      "supporting_span": "our action proposals do not rely on video segmentation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The action proposals can be generated in nearly real-time.",
+      "supporting_span": "can be generated in nearly real-time .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experimental results on two challenging datasets validate the superior performance of the action proposals.",
+      "supporting_span": "Experimental results on two challenging datasets , MSRII and UCF 101 , validate the superior performance of our action proposals",
+      "span_mismatch": false
+    },
+    {
+      "fact": "MSRII and UCF 101 are two challenging datasets.",
+      "supporting_span": "two challenging datasets , MSRII and UCF 101 ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experimental results validate competitive results on action detection and search.",
+      "supporting_span": "Experimental results on two challenging datasets , MSRII and UCF 101 , validate the superior performance of our action proposals as well as competitive results on action detection and search .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A temporal series of spatial bounding boxes is a spatio-temporal video tube.",
+      "supporting_span": "a temporal series of spatial bounding boxes , i.e. , a spatio-temporal video tube ,",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

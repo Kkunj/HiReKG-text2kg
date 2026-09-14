@@ -1,0 +1,64 @@
+{
+  "doc_id": "doc_98",
+  "facts": [
+    "A recognition scheme is presented.",
+    "The recognition scheme scales efficiently to a large number of objects.",
+    "The efficiency and quality is exhibited in a live demonstration.",
+    "A live demonstration recognizes CD-covers from a database of 40000 images of popular music CD's.",
+    "The recognition scheme builds upon popular techniques of indexing descriptors extracted from local regions.",
+    "The recognition scheme is robust to background clutter and occlusion.",
+    "The local region descriptors are hierarchically quantized in a vocabulary tree.",
+    "The vocabulary tree allows a larger and more discriminatory vocabulary to be used efficiently.",
+    "Using a larger and more discriminatory vocabulary leads to a dramatic improvement in retrieval quality.",
+    "The most significant property of the recognition scheme is that the tree directly defines the quantization.",
+    "The quantization and the indexing are fully integrated.",
+    "The quantization and the indexing are essentially one and the same.",
+    "The recognition quality is evaluated through retrieval on a database with ground truth.",
+    "The evaluation shows the power of the vocabulary tree approach.",
+    "The evaluation goes as high as 1 million images."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    7,
+    8,
+    13
+  ],
+  "multiple-entity": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ambiguous": [
+    14
+  ],
+  "entities": [
+    "recognition scheme",
+    "efficiency",
+    "quality",
+    "CD-covers",
+    "images of popular music CD 's",
+    "indexing descriptors",
+    "local regions",
+    "background clutter",
+    "occlusion",
+    "local region descriptors",
+    "vocabulary tree",
+    "retrieval quality",
+    "tree",
+    "quantization",
+    "indexing",
+    "recognition quality",
+    "retrieval",
+    "database with ground truth",
+    "vocabulary tree approach"
+  ]
+}

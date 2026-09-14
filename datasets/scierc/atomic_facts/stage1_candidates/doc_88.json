@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_88",
+  "facts": [
+    {
+      "fact": "Automatic evaluation metrics for Machine Translation (MT) systems are now well established.",
+      "supporting_span": "Automatic evaluation metrics for Machine Translation (MT) systems , such as BLEU or NIST , are now well established .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "BLEU is an automatic evaluation metric for Machine Translation (MT) systems.",
+      "supporting_span": "Automatic evaluation metrics for Machine Translation (MT) systems , such as BLEU or NIST , are now well established .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NIST is an automatic evaluation metric for Machine Translation (MT) systems.",
+      "supporting_span": "Automatic evaluation metrics for Machine Translation (MT) systems , such as BLEU or NIST , are now well established .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic evaluation metrics for Machine Translation (MT) systems are scarcely used for the assessment of language pairs like English-Chinese.",
+      "supporting_span": "Yet , they are scarcely used for the assessment of language pairs like English-Chinese or English-Japanese , because of the word segmentation problem .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic evaluation metrics for Machine Translation (MT) systems are scarcely used for the assessment of language pairs like English-Japanese.",
+      "supporting_span": "Yet , they are scarcely used for the assessment of language pairs like English-Chinese or English-Japanese , because of the word segmentation problem .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Automatic evaluation metrics for Machine Translation (MT) systems are scarcely used because of the word segmentation problem.",
+      "supporting_span": "Yet , they are scarcely used for the assessment of language pairs like English-Chinese or English-Japanese , because of the word segmentation problem .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "This study establishes the equivalence between the standard use of BLEU in word n-grams and BLEU's application at the character level.",
+      "supporting_span": "This study establishes the equivalence between the standard use of BLEU in word n-grams and its application at the character level .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The standard use of BLEU is in word n-grams.",
+      "supporting_span": "the standard use of BLEU in word n-grams",
+      "span_mismatch": false
+    },
+    {
+      "fact": "BLEU has an application at the character level.",
+      "supporting_span": "its application at the character level",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of BLEU at the character level eliminates the word segmentation problem.",
+      "supporting_span": "The use of BLEU at the character level eliminates the word segmentation problem :",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of BLEU at the character level makes it possible to directly compare commercial systems outputting unsegmented texts with statistical MT systems.",
+      "supporting_span": "it makes it possible to directly compare commercial systems outputting unsegmented texts with , for instance , statistical MT systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Commercial systems output unsegmented texts.",
+      "supporting_span": "commercial systems outputting unsegmented texts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Statistical MT systems usually segment their outputs.",
+      "supporting_span": "statistical MT systems which usually segment their outputs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English-Chinese is a language pair.",
+      "supporting_span": "language pairs like English-Chinese",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English-Japanese is a language pair.",
+      "supporting_span": "language pairs like English-Chinese or English-Japanese",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

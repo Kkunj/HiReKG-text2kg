@@ -1,0 +1,540 @@
+{
+  "total_triples_processed": 26,
+  "statistics": {
+    "clean_triples": 6,
+    "repaired_triples": 18,
+    "failed_repairs": 2
+  },
+  "resolution_details": [
+    {
+      "chunk_id": 1,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "convertible devices",
+        "relation": "run",
+        "object": "windows"
+      },
+      "after": [
+        {
+          "subject": "convertible devices",
+          "relation": "run",
+          "object": "windows"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "vivotab rt",
+        "relation": "is part of",
+        "object": "the family"
+      },
+      "after": [
+        {
+          "subject": "vivotab rt",
+          "relation": "is part of",
+          "object": "the family"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "vivotab rt lte",
+        "relation": "is part of",
+        "object": "the family"
+      },
+      "after": [
+        {
+          "subject": "vivotab rt lte",
+          "relation": "is part of",
+          "object": "the family"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "vivotab smart",
+        "relation": "is part of",
+        "object": "the family"
+      },
+      "after": [
+        {
+          "subject": "vivotab smart",
+          "relation": "is part of",
+          "object": "the family"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "vivotab note 8",
+        "relation": "is part of",
+        "object": "the family"
+      },
+      "after": [
+        {
+          "subject": "vivotab note 8",
+          "relation": "is part of",
+          "object": "the family"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "multiple_entities",
+      "matched_entities": [
+        "hybrid tablet computers",
+        "microsoft windows"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "is a series of",
+        "object": "microsoft windows hybrid tablet computers"
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "is a series of",
+          "object": "hybrid tablet computers"
+        },
+        {
+          "subject": "hybrid tablet computers",
+          "relation": "running",
+          "object": "microsoft windows"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "asus"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "is designed by",
+        "object": "asus"
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "is designed by",
+          "object": "asus"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "failed",
+      "repair_method": "multiple_entities",
+      "matched_entities": [
+        "hybrid tablet computers",
+        "microsoft windows"
+      ],
+      "before": {
+        "subject": "asus",
+        "relation": "designs",
+        "object": "microsoft windows hybrid tablet computers"
+      },
+      "after": [
+        {
+          "subject": "asus",
+          "relation": "designs",
+          "object": "microsoft windows hybrid tablet computers"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "asus"
+      ],
+      "before": {
+        "subject": "hybrid tablet computers",
+        "relation": "are designed by",
+        "object": "asus"
+      },
+      "after": [
+        {
+          "subject": "hybrid tablet computers",
+          "relation": "are designed by",
+          "object": "asus"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "vivo series"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "is a sub-series of",
+        "object": "the vivo series"
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "is a sub-series of",
+          "object": "vivo series"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "asus"
+      ],
+      "before": {
+        "subject": "vivo series",
+        "relation": "is created by",
+        "object": "asus"
+      },
+      "after": [
+        {
+          "subject": "vivo series",
+          "relation": "is created by",
+          "object": "asus"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "latin"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "derives name from",
+        "object": "the latin word \" to live \""
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "derives name from word `` to live ``",
+          "object": "latin"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "microsoft surface"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "is a primary competitor to",
+        "object": "the microsoft surface"
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "is a primary competitor to",
+          "object": "microsoft surface"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "microsoft surface"
+      ],
+      "before": {
+        "subject": "transformer series",
+        "relation": "is a primary competitor to",
+        "object": "the microsoft surface"
+      },
+      "after": [
+        {
+          "subject": "transformer series",
+          "relation": "is a primary competitor to",
+          "object": "microsoft surface"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "convertible devices"
+      ],
+      "before": {
+        "subject": "transformer series",
+        "relation": "consists of",
+        "object": "convertible devices running windows"
+      },
+      "after": [
+        {
+          "subject": "transformer series",
+          "relation": "consists of running windows",
+          "object": "convertible devices"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "repaired",
+      "repair_method": "multiple_entities",
+      "matched_entities": [
+        "transformer series",
+        "vivotab",
+        "asus"
+      ],
+      "before": {
+        "subject": "microsoft surface",
+        "relation": "competes with",
+        "object": "vivotab and asus's transformer series"
+      },
+      "after": [
+        {
+          "subject": "microsoft surface",
+          "relation": "competes with",
+          "object": "vivotab"
+        },
+        {
+          "subject": "microsoft surface",
+          "relation": "competes with",
+          "object": "transformer series"
+        },
+        {
+          "subject": "transformer series",
+          "relation": "produced by",
+          "object": "asus"
+        }
+      ]
+    },
+    {
+      "chunk_id": 1,
+      "status": "failed",
+      "repair_method": "multiple_entities",
+      "matched_entities": [
+        "vivotab rt lte",
+        "vivotab note 8",
+        "vivotab smart",
+        "vivotab rt"
+      ],
+      "before": {
+        "subject": "vivotab",
+        "relation": "includes",
+        "object": "vivotab rt , vivotab rt 3 g , vivotab rt lte , vivotab smart , and later on the vivotab note 8"
+      },
+      "after": [
+        {
+          "subject": "vivotab",
+          "relation": "includes",
+          "object": "vivotab rt , vivotab rt 3 g , vivotab rt lte , vivotab smart , and later on the vivotab note 8"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "clean",
+      "repair_method": null,
+      "matched_entities": [],
+      "before": {
+        "subject": "tablets",
+        "relation": "advertise",
+        "object": "ultra - portability"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "advertise",
+          "object": "ultra - portability"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "windows 8"
+      ],
+      "before": {
+        "subject": "tablets",
+        "relation": "come with",
+        "object": "windows 8"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "come with",
+          "object": "windows 8"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "windows 8.1"
+      ],
+      "before": {
+        "subject": "note 8",
+        "relation": "comes with",
+        "object": "windows 8.1"
+      },
+      "after": [
+        {
+          "subject": "note 8",
+          "relation": "comes with",
+          "object": "windows 8.1"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "asus webstorage"
+      ],
+      "before": {
+        "subject": "tablets",
+        "relation": "include",
+        "object": "a 3-year subscription to asus webstorage"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "include a 3-year subscription to",
+          "object": "asus webstorage"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "high definition screens"
+      ],
+      "before": {
+        "subject": "tablets",
+        "relation": "have",
+        "object": "high definition screens"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "have",
+          "object": "high definition screens"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "extended battery life"
+      ],
+      "before": {
+        "subject": "tablets",
+        "relation": "advertise",
+        "object": "extended battery life"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "advertise",
+          "object": "extended battery life"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "detachable tablets"
+      ],
+      "before": {
+        "subject": "tablets",
+        "relation": "have the ability to be",
+        "object": "detachable tablets"
+      },
+      "after": [
+        {
+          "subject": "tablets",
+          "relation": "have the ability to be",
+          "object": "detachable tablets"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "32 gb"
+      ],
+      "before": {
+        "subject": "vivotab rt",
+        "relation": "has an msrp of",
+        "object": "$ 599 usd for the 32 gb model"
+      },
+      "after": [
+        {
+          "subject": "vivotab rt",
+          "relation": "has an msrp of $ 599 usd for model",
+          "object": "32 gb"
+        }
+      ]
+    },
+    {
+      "chunk_id": 2,
+      "status": "repaired",
+      "repair_method": "single_entity",
+      "matched_entities": [
+        "64 gb"
+      ],
+      "before": {
+        "subject": "vivotab rt",
+        "relation": "has an msrp of",
+        "object": "$ 699 for the 64 gb model"
+      },
+      "after": [
+        {
+          "subject": "vivotab rt",
+          "relation": "has an msrp of $ 699 for model",
+          "object": "64 gb"
+        }
+      ]
+    }
+  ]
+}

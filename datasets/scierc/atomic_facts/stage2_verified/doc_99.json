@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_99",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Some auction domains have uncertainty regarding the final availability of the goods being auctioned off.",
+      "generator_supporting_span": "In some auction domains , there is uncertainty regarding the final availability of the goods being auctioned off .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In some auction domains , there is uncertainty regarding the final availability of the goods being auctioned off .",
+      "verifier_reasoning": "The first sentence of the source text is a verbatim match for the candidate fact, directly stating that some auction domains have uncertainty about the final availability of goods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "A government may auction off spectrum from its public safety network.",
+      "generator_supporting_span": "a government may auction off spectrum from its public safety network",
+      "span_mismatch": false,
+      "verifier_supporting_span": "For example , a government may auction off spectrum from its public safety network , but it may need this spectrum back in times of emergency .",
+      "verifier_reasoning": "The source text explicitly uses the scenario of a government auctioning off spectrum from its public safety network as an example of an auction domain with uncertainty.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Spectrum may be needed back in times of emergency.",
+      "generator_supporting_span": "may need this spectrum back in times of emergency",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a government may auction off spectrum from its public safety network, but it may need this spectrum back in times of emergency",
+      "verifier_reasoning": "The source text provides an example of an auction domain with uncertainty, explicitly stating that a government might auction off spectrum but could require it back during emergencies.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, standard combinatorial auctions perform poorly.",
+      "generator_supporting_span": "In such a domain , standard combinatorial auctions perform poorly",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In such a domain , standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR) , even in expectation , and to very low efficiency .",
+      "verifier_reasoning": "The source text first introduces auction domains with uncertainty about the final availability of goods. It then explicitly states that in 'such a domain,' standard combinatorial auctions perform poorly.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Standard combinatorial auctions lead to violations of individual rationality (IR) even in expectation.",
+      "generator_supporting_span": "they lead to violations of individual rationality (IR) , even in expectation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In such a domain , standard combinatorial auctions perform poorly because they lead to violations of individual rationality (IR) , even in expectation , and to very low efficiency .",
+      "verifier_reasoning": "The source text explicitly states that in the domains being discussed, standard combinatorial auctions lead to violations of individual rationality (IR), even in expectation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Standard combinatorial auctions lead to very low efficiency.",
+      "generator_supporting_span": "very low efficiency",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text specifies that standard combinatorial auctions lead to very low efficiency only 'in such a domain,' which refers to auction domains with uncertainty about the final availability of goods. The candidate fact makes a general, unqualified statement that is broader than what the text supports.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The paper studies the design of core-selecting payment rules for auction domains with uncertainty regarding the final availability of the goods being auctioned off.",
+      "generator_supporting_span": "In this paper , we study the design of core-selecting payment rules for such domains .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In some auction domains , there is uncertainty regarding the final availability of the goods being auctioned off . ... In this paper , we study the design of core-selecting payment rules for such domains .",
+      "verifier_reasoning": "The source text first defines a type of auction domain as one with \"uncertainty regarding the final availability of the goods being auctioned off.\" It then explicitly states, \"In this paper, we study the design of core-selecting payment rules for such domains,\" directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, there does not exist a payment rule guaranteed to be ex-post core-selecting.",
+      "generator_supporting_span": "Surprisingly , we show that in this new domain , there does not exist a payment rule with is guaranteed to be ex-post core-selecting .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Surprisingly , we show that in this new domain , there does not exist a payment rule with is guaranteed to be ex-post core-selecting .",
+      "verifier_reasoning": "The source text first defines the domain in question as one where there is uncertainty regarding the final availability of goods. It then explicitly states that in this domain, no payment rule is guaranteed to be ex-post core-selecting.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Execution-contingent rules can reduce violations of individual rationality (IR).",
+      "generator_supporting_span": "by designing rules that are '' execution-contingent , '' i.e. , by charging payments that are conditioned on the realization of the availability of the goods , we can reduce IR violations .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "However, we show that by designing rules that are '' execution-contingent , '' i.e. , by charging payments that are conditioned on the realization of the availability of the goods , we can reduce IR violations .",
+      "verifier_reasoning": "The source text explicitly states that by designing rules that are 'execution-contingent', it is possible to 'reduce IR violations'. The candidate fact is a direct restatement of this claim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Execution-contingent rules charge payments that are conditioned on the realization of the availability of the goods.",
+      "generator_supporting_span": "by charging payments that are conditioned on the realization of the availability of the goods",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we show that by designing rules that are '' execution-contingent , '' i.e. , by charging payments that are conditioned on the realization of the availability of the goods , we can reduce IR violations .",
+      "verifier_reasoning": "The source text explicitly defines 'execution-contingent' rules, stating that they work 'by charging payments that are conditioned on the realization of the availability of the goods,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The paper designs two core-selecting rules that always satisfy IR in expectation.",
+      "generator_supporting_span": "We design two core-selecting rules that always satisfy IR in expectation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We design two core-selecting rules that always satisfy IR in expectation .",
+      "verifier_reasoning": "The source text explicitly states that the authors of the paper have designed two core-selecting rules. It further specifies that these rules consistently satisfy Individual Rationality (IR) in expectation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The paper performs a computational Bayes-Nash equilibrium analysis to study the performance of the rules.",
+      "generator_supporting_span": "To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis .",
+      "verifier_reasoning": "The source text explicitly states that the authors perform a computational Bayes-Nash equilibrium analysis for the purpose of studying the performance of their rules.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have better incentives than standard core-selecting rules.",
+      "generator_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "verifier_reasoning": "The source text explicitly states that a computational Bayes-Nash equilibrium analysis was performed. The text concludes that, in equilibrium, the new rules designed in the paper have better incentives than the standard core-selecting rules.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have higher efficiency than standard core-selecting rules.",
+      "generator_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "verifier_reasoning": "The source text explicitly states the results of a computational Bayes-Nash equilibrium analysis. This analysis showed that the new rules designed in the paper have higher efficiency than standard core-selecting rules when in equilibrium.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have a lower rate of ex-post IR violations than standard core-selecting rules.",
+      "generator_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "verifier_reasoning": "The source text explicitly states that the new rules discussed in the paper, when in equilibrium, have a lower rate of ex-post IR violations compared to standard core-selecting rules.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_0",
+  "facts": [
+    "A novel statistical singing voice conversion (SVC) technique with direct waveform modification based on the spectrum differential is presented.",
+    "The singing voice conversion technique can convert voice timbre of a source singer into that of a target singer.",
+    "The singing voice conversion technique does not use a vocoder to generate converted singing voice waveforms.",
+    "SVC makes it possible to convert singing voice characteristics of an arbitrary source singer into those of an arbitrary target singer.",
+    "Speech quality of the converted singing voice is significantly degraded compared to that of a natural singing voice.",
+    "The speech quality degradation is due to various factors, such as analysis and modeling errors in the vocoder-based framework.",
+    "A statistical conversion process is proposed to alleviate degradation.",
+    "The statistical conversion process directly modifies the signal in the waveform domain.",
+    "The statistical conversion process estimates the difference in the spectra of the source and target singers' singing voices.",
+    "The differential spectral feature is directly estimated using a differential Gaussian mixture model (GMM).",
+    "The differential Gaussian mixture model (GMM) is analytically derived from the traditional GMM used as a conversion model in the conventional SVC.",
+    "The traditional GMM is used as a conversion model in the conventional SVC.",
+    "Experimental results demonstrate that the proposed method makes it possible to significantly improve speech quality in the converted singing voice.",
+    "The proposed method preserves the conversion accuracy of singer identity compared to the conventional SVC.",
+    "The differential spectral feature is directly estimated."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    6,
+    7,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "ambiguous": [],
+  "entities": [
+    "statistical singing voice conversion ( SVC ) technique",
+    "direct waveform modification",
+    "spectrum differential",
+    "voice timbre",
+    "vocoder",
+    "converted singing voice waveforms",
+    "SVC",
+    "singing voice characteristics",
+    "speech quality",
+    "converted singing voice",
+    "natural singing voice",
+    "vocoder-based framework",
+    "statistical conversion process",
+    "spectra",
+    "differential spectral feature",
+    "differential Gaussian mixture model ( GMM )",
+    "GMM",
+    "conversion model",
+    "conversion accuracy of singer identity"
+  ]
+}

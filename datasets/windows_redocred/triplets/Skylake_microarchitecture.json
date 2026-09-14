@@ -1,0 +1,194 @@
+[
+  {
+    "head": "Windows 10",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Kaby Lake",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Cannon Lake CPUs",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Coffee Lake",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Skylake CPUs",
+    "relation": "follows",
+    "tail": "Broadwell",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Broadwell",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Core i9 - 9980XE Extreme Edition",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Cannon Lake CPUs",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Skylake CPUs",
+    "relation": "publication date",
+    "tail": "August 2015",
+    "relation_code": "P577"
+  },
+  {
+    "head": "Skylake CPUs",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Broadwell",
+    "relation": "followed by",
+    "tail": "Skylake CPUs",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Coffee Lake",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Kaby Lake",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Broadwell",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Skylake CPUs",
+    "relation": "inception",
+    "tail": "August 2015",
+    "relation_code": "P571"
+  },
+  {
+    "head": "9th gen Core X 98xx/99xx series CPUs",
+    "relation": "series",
+    "tail": "Intel",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Core i9 - 9980XE Extreme Edition",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "6th - generation Core",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "series",
+    "tail": "Windows",
+    "relation_code": "P179"
+  },
+  {
+    "head": "GPU",
+    "relation": "manufacturer",
+    "tail": "Intel",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "series",
+    "tail": "Windows",
+    "relation_code": "P179"
+  },
+  {
+    "head": "GPU",
+    "relation": "developer",
+    "tail": "Intel",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Intel",
+    "relation": "has part",
+    "tail": "9th gen Core X 98xx/99xx series CPUs",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows",
+    "relation": "has part",
+    "tail": "Windows 8.1",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows",
+    "relation": "has part",
+    "tail": "Windows 10",
+    "relation_code": "P527"
+  }
+]

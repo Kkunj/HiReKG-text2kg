@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_93",
+  "facts": [
+    "Combination methods are an effective way of improving system performance.",
+    "The paper examines the benefits of system combination for unsupervised WSD.",
+    "The study investigates voting-based combination strategies.",
+    "The study investigates arbiter-based combination strategies.",
+    "The combination strategies are investigated over a diverse pool of unsupervised WSD systems.",
+    "The combination methods rely on predominant senses.",
+    "The predominant senses are derived automatically.",
+    "The predominant senses are derived from raw text.",
+    "The experiments use the SemCor data set.",
+    "The experiments use the Senseval-3 data set.",
+    "The ensembles yield significantly better results when compared with state-of-the-art.",
+    "The experiments demonstrate that the ensembles yield significantly better results.",
+    "The combination strategies investigated are voting-based and arbiter-based.",
+    "The systems in the pool are unsupervised WSD systems."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    0,
+    4,
+    6,
+    13
+  ],
+  "multiple-entity": [
+    1,
+    5,
+    7
+  ],
+  "ambiguous": [
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "entities": [
+    "Combination methods",
+    "system combination",
+    "unsupervised WSD",
+    "voting - and arbiter-based combination strategies",
+    "unsupervised WSD systems",
+    "combination methods",
+    "predominant senses",
+    "raw text",
+    "SemCor and Senseval-3 data sets"
+  ]
+}

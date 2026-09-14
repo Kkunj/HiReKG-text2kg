@@ -1,0 +1,51 @@
+{
+  "doc_id": "doc_67",
+  "facts": [
+    "RAREAS is a system.",
+    "RAREAS synthesizes marine weather forecasts directly from formatted weather data.",
+    "RAREAS synthesizes marine weather forecasts.",
+    "RAREAS synthesizes directly from formatted weather data.",
+    "Synthesis appears feasible in certain natural sublanguages with stereotyped text structure.",
+    "Certain natural sublanguages have stereotyped text structure.",
+    "RAREAS draws on several kinds of linguistic knowledge.",
+    "RAREAS draws on several kinds of non-linguistic knowledge.",
+    "RAREAS draws on several kinds of knowledge.",
+    "RAREAS mirrors a forecaster's apparent tendency.",
+    "A forecaster has an apparent tendency to ascribe less precise temporal adverbs to more remote meteorological events.",
+    "The apparent tendency is to ascribe less precise temporal adverbs to more remote meteorological events.",
+    "The approach can easily be adapted.",
+    "The approach can be adapted to synthesize bilingual texts.",
+    "The approach can be adapted to synthesize multi-lingual texts."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3
+  ],
+  "ambiguous": [
+    5,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "RAREAS",
+    "marine weather forecasts",
+    "formatted weather data",
+    "natural sublanguages with stereotyped text structure",
+    "linguistic and non-linguistic knowledge",
+    "bilingual or multi-lingual texts"
+  ]
+}

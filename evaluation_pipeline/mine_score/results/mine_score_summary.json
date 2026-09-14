@@ -1,0 +1,279 @@
+{
+  "metric": "MINE accuracy (%) per document; mean / std / median / min / max / n",
+  "axes": {
+    "datasets": [
+      "mine",
+      "redocred",
+      "scierc"
+    ],
+    "approaches": [
+      "kggen",
+      "rakg",
+      "our_approach"
+    ],
+    "models": [
+      "gpt4o",
+      "qwen3_14b",
+      "qwen3_8b"
+    ]
+  },
+  "labels": {
+    "datasets": {
+      "mine": "MINE",
+      "redocred": "ReDocRED",
+      "scierc": "SciERC"
+    },
+    "approaches": {
+      "kggen": "KGgen",
+      "rakg": "RAKG",
+      "our_approach": "Ours"
+    },
+    "models": {
+      "gpt4o": "GPT-4o",
+      "qwen3_14b": "Qwen3-14B",
+      "qwen3_8b": "Qwen3-8B"
+    }
+  },
+  "results": {
+    "mine": {
+      "kggen": {
+        "gpt4o": {
+          "mean": 65.8781,
+          "std": 18.8272,
+          "median": 66.67,
+          "min": 13.33,
+          "max": 100.0,
+          "n": 93
+        },
+        "qwen3_14b": {
+          "mean": 58.8661,
+          "std": 21.931,
+          "median": 60.0,
+          "min": 13.33,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 54.7334,
+          "std": 22.0769,
+          "median": 53.33,
+          "min": 0.0,
+          "max": 100.0,
+          "n": 100
+        }
+      },
+      "rakg": {
+        "gpt4o": {
+          "mean": 74.3332,
+          "std": 16.3675,
+          "median": 73.33,
+          "min": 13.33,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_14b": {
+          "mean": 61.3333,
+          "std": 17.7639,
+          "median": 60.0,
+          "min": 13.33,
+          "max": 93.33,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 73.8003,
+          "std": 15.1218,
+          "median": 73.33,
+          "min": 33.33,
+          "max": 100.0,
+          "n": 100
+        }
+      },
+      "our_approach": {
+        "gpt4o": {
+          "mean": 93.3991,
+          "std": 7.5125,
+          "median": 93.33,
+          "min": 66.67,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_14b": {
+          "mean": 90.8663,
+          "std": 9.1723,
+          "median": 93.33,
+          "min": 53.33,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 83.4,
+          "std": 11.1748,
+          "median": 86.67,
+          "min": 53.33,
+          "max": 100.0,
+          "n": 100
+        }
+      }
+    },
+    "redocred": {
+      "kggen": {
+        "gpt4o": {
+          "mean": 49.2067,
+          "std": 22.1932,
+          "median": 46.67,
+          "min": 13.33,
+          "max": 86.67,
+          "n": 15
+        },
+        "qwen3_14b": {
+          "mean": 46.698,
+          "std": 23.8682,
+          "median": 46.67,
+          "min": 13.33,
+          "max": 93.33,
+          "n": 15
+        },
+        "qwen3_8b": {
+          "mean": 47.3647,
+          "std": 16.6524,
+          "median": 40.0,
+          "min": 28.57,
+          "max": 86.67,
+          "n": 15
+        }
+      },
+      "rakg": {
+        "gpt4o": {
+          "mean": 51.4287,
+          "std": 15.3989,
+          "median": 46.67,
+          "min": 28.57,
+          "max": 80.0,
+          "n": 15
+        },
+        "qwen3_14b": {
+          "mean": 54.794,
+          "std": 13.2177,
+          "median": 53.33,
+          "min": 26.67,
+          "max": 80.0,
+          "n": 15
+        },
+        "qwen3_8b": {
+          "mean": 55.1447,
+          "std": 14.612,
+          "median": 53.33,
+          "min": 26.67,
+          "max": 86.67,
+          "n": 15
+        }
+      },
+      "our_approach": {
+        "gpt4o": {
+          "mean": 80.1907,
+          "std": 13.8328,
+          "median": 80.0,
+          "min": 46.67,
+          "max": 100.0,
+          "n": 15
+        },
+        "qwen3_14b": {
+          "mean": 79.81,
+          "std": 10.3407,
+          "median": 80.0,
+          "min": 53.33,
+          "max": 100.0,
+          "n": 15
+        },
+        "qwen3_8b": {
+          "mean": 64.1593,
+          "std": 17.7284,
+          "median": 60.0,
+          "min": 33.33,
+          "max": 100.0,
+          "n": 15
+        }
+      }
+    },
+    "scierc": {
+      "kggen": {
+        "gpt4o": {
+          "mean": 66.2296,
+          "std": 18.182,
+          "median": 66.67,
+          "min": 0.0,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_14b": {
+          "mean": 53.8101,
+          "std": 20.343,
+          "median": 53.33,
+          "min": 7.14,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 52.5244,
+          "std": 18.6344,
+          "median": 53.33,
+          "min": 6.67,
+          "max": 93.33,
+          "n": 100
+        }
+      },
+      "rakg": {
+        "gpt4o": {
+          "mean": 33.3384,
+          "std": 20.3803,
+          "median": 33.33,
+          "min": 0.0,
+          "max": 86.67,
+          "n": 100
+        },
+        "qwen3_14b": {
+          "mean": 45.5801,
+          "std": 18.846,
+          "median": 46.67,
+          "min": 0.0,
+          "max": 85.71,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 63.9748,
+          "std": 18.6356,
+          "median": 65.48,
+          "min": 0.0,
+          "max": 100.0,
+          "n": 100
+        }
+      },
+      "our_approach": {
+        "gpt4o": {
+          "mean": 80.1505,
+          "std": 13.9359,
+          "median": 80.0,
+          "min": 30.77,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_14b": {
+          "mean": 78.7413,
+          "std": 15.9743,
+          "median": 80.0,
+          "min": 33.33,
+          "max": 100.0,
+          "n": 100
+        },
+        "qwen3_8b": {
+          "mean": 68.0972,
+          "std": 17.4341,
+          "median": 73.33,
+          "min": 26.67,
+          "max": 100.0,
+          "n": 100
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "doc_id": "doc_35",
+  "facts": [
+    "Language resource quality is crucial in NLP.",
+    "Many resources used are derived from data.",
+    "Many resources used are derived from data created by human beings.",
+    "The derivation of resources especially regards MT and reference translations.",
+    "Automatic evaluations need high-quality data.",
+    "High-quality data allow the comparison of both automatic and human translations.",
+    "The comparison includes automatic translations.",
+    "The comparison includes human translations.",
+    "Validation of resources is widely recommended.",
+    "Validation of resources is recommended before use.",
+    "The paper describes the impact of using different-quality references on evaluation.",
+    "References can have different quality.",
+    "Similar scores are obtained in many cases regardless of the quality.",
+    "The limitations of the automatic metrics used within MT are discussed."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    5,
+    10
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    4,
+    13
+  ],
+  "ambiguous": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12
+  ],
+  "entities": [
+    "Language resource quality",
+    "NLP",
+    "MT",
+    "reference translations",
+    "automatic evaluations",
+    "high-quality data",
+    "different-quality references",
+    "automatic metrics"
+  ]
+}

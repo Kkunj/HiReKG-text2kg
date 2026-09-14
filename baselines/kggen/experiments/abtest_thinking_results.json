@@ -1,0 +1,321 @@
+{
+  "think_on": [
+    {
+      "arm": "think_on",
+      "run_idx": 0,
+      "wall_s": 72.9,
+      "error": null,
+      "entities": 27,
+      "triples": 47,
+      "unique_triples": 47,
+      "n_llm_calls": 3,
+      "truncated_calls": 0,
+      "total_completion_tokens": 11657,
+      "calls": [
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 280,
+          "completion_tokens": 706,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2389,
+          "stripped_len": 614,
+          "latency_s": 5.16
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 450,
+          "completion_tokens": 9747,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 32008,
+          "stripped_len": 5193,
+          "latency_s": 59.42
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 1204,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 5502,
+          "stripped_len": 27,
+          "latency_s": 8.33
+        }
+      ]
+    },
+    {
+      "arm": "think_on",
+      "run_idx": 1,
+      "wall_s": 73.4,
+      "error": null,
+      "entities": 27,
+      "triples": 47,
+      "unique_triples": 47,
+      "n_llm_calls": 3,
+      "truncated_calls": 0,
+      "total_completion_tokens": 11657,
+      "calls": [
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 280,
+          "completion_tokens": 706,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2389,
+          "stripped_len": 614,
+          "latency_s": 5.41
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 450,
+          "completion_tokens": 9747,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 32008,
+          "stripped_len": 5193,
+          "latency_s": 59.51
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 1204,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 5502,
+          "stripped_len": 27,
+          "latency_s": 8.41
+        }
+      ]
+    },
+    {
+      "arm": "think_on",
+      "run_idx": 2,
+      "wall_s": 73.3,
+      "error": null,
+      "entities": 27,
+      "triples": 47,
+      "unique_triples": 47,
+      "n_llm_calls": 3,
+      "truncated_calls": 0,
+      "total_completion_tokens": 11657,
+      "calls": [
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 280,
+          "completion_tokens": 706,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2389,
+          "stripped_len": 614,
+          "latency_s": 5.35
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 450,
+          "completion_tokens": 9747,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 32008,
+          "stripped_len": 5193,
+          "latency_s": 59.99
+        },
+        {
+          "disable_thinking": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 1204,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 5502,
+          "stripped_len": 27,
+          "latency_s": 7.98
+        }
+      ]
+    }
+  ],
+  "think_off": [
+    {
+      "arm": "think_off",
+      "run_idx": 0,
+      "wall_s": 96.7,
+      "error": null,
+      "entities": 28,
+      "triples": 16,
+      "unique_triples": 16,
+      "n_llm_calls": 4,
+      "truncated_calls": 1,
+      "total_completion_tokens": 15243,
+      "calls": [
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 284,
+          "completion_tokens": 1875,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 6355,
+          "stripped_len": 640,
+          "latency_s": 12.43
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 458,
+          "completion_tokens": 10000,
+          "finish_reason": "length",
+          "has_think_open": false,
+          "has_think_close": false,
+          "raw_len": 37931,
+          "stripped_len": 37931,
+          "latency_s": 61.0
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 916,
+          "completion_tokens": 2737,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 10436,
+          "stripped_len": 1806,
+          "latency_s": 18.18
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 631,
+          "completion_tokens": 631,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2266,
+          "stripped_len": 671,
+          "latency_s": 5.02
+        }
+      ]
+    },
+    {
+      "arm": "think_off",
+      "run_idx": 1,
+      "wall_s": 97.7,
+      "error": null,
+      "entities": 28,
+      "triples": 16,
+      "unique_triples": 16,
+      "n_llm_calls": 4,
+      "truncated_calls": 1,
+      "total_completion_tokens": 15243,
+      "calls": [
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 284,
+          "completion_tokens": 1875,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 6355,
+          "stripped_len": 640,
+          "latency_s": 12.09
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 458,
+          "completion_tokens": 10000,
+          "finish_reason": "length",
+          "has_think_open": false,
+          "has_think_close": false,
+          "raw_len": 37931,
+          "stripped_len": 37931,
+          "latency_s": 62.54
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 916,
+          "completion_tokens": 2737,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 10436,
+          "stripped_len": 1806,
+          "latency_s": 17.94
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 631,
+          "completion_tokens": 631,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2266,
+          "stripped_len": 671,
+          "latency_s": 5.13
+        }
+      ]
+    },
+    {
+      "arm": "think_off",
+      "run_idx": 2,
+      "wall_s": 95.5,
+      "error": null,
+      "entities": 28,
+      "triples": 16,
+      "unique_triples": 16,
+      "n_llm_calls": 4,
+      "truncated_calls": 1,
+      "total_completion_tokens": 15243,
+      "calls": [
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 284,
+          "completion_tokens": 1875,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 6355,
+          "stripped_len": 640,
+          "latency_s": 12.04
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 458,
+          "completion_tokens": 10000,
+          "finish_reason": "length",
+          "has_think_open": false,
+          "has_think_close": false,
+          "raw_len": 37931,
+          "stripped_len": 37931,
+          "latency_s": 61.17
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 916,
+          "completion_tokens": 2737,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 10436,
+          "stripped_len": 1806,
+          "latency_s": 17.34
+        },
+        {
+          "disable_thinking": true,
+          "prompt_tokens": 631,
+          "completion_tokens": 631,
+          "finish_reason": "stop",
+          "has_think_open": false,
+          "has_think_close": true,
+          "raw_len": 2266,
+          "stripped_len": 671,
+          "latency_s": 4.94
+        }
+      ]
+    }
+  ]
+}

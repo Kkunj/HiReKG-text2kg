@@ -1,0 +1,157 @@
+{
+  "doc_id": "Deadly_Premonition",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Deadly Premonition is a survival horror video game.",
+      "generator_supporting_span": "Deadly Premonition is a survival horror video game",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadly Premonition is a survival horror video game developed by Access Games for Xbox 360 , PlayStation 3 and Microsoft Windows .",
+      "verifier_reasoning": "The first sentence of the source text explicitly identifies the game by stating, \"Deadly Premonition is a survival horror video game\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Deadly Premonition was developed by Access Games.",
+      "generator_supporting_span": "developed by Access Games",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadly Premonition is a survival horror video game developed by Access Games for Xbox 360 , PlayStation 3 and Microsoft Windows .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the video game \"Deadly Premonition\" was developed by Access Games.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Deadly Premonition is set in the fictional, rural American town of Greenvale, Washington.",
+      "generator_supporting_span": "Set in the fictional , rural American town of Greenvale , Washington ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Set in the fictional , rural American town of Greenvale , Washington , the story follows FBI Special Agent Francis York Morgan as he investigates the murder of an eighteen - year - old woman",
+      "verifier_reasoning": "The source text explicitly states that the story of the game is \"Set in the fictional , rural American town of Greenvale , Washington\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The story of Deadly Premonition follows FBI Special Agent Francis York Morgan.",
+      "generator_supporting_span": "the story follows FBI Special Agent Francis York Morgan",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the story follows FBI Special Agent Francis York Morgan as he investigates the murder of an eighteen - year - old woman",
+      "verifier_reasoning": "The source text explicitly states that the story of the game follows the character FBI Special Agent Francis York Morgan.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The story of Deadly Premonition involves investigating the murder of an eighteen-year-old woman.",
+      "generator_supporting_span": "as he investigates the murder of an eighteen - year - old woman",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the story follows FBI Special Agent Francis York Morgan as he investigates the murder of an eighteen - year - old woman",
+      "verifier_reasoning": "The source text explicitly describes the plot of the game, stating that the story involves an FBI agent investigating the murder of an eighteen-year-old woman.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Deadly Premonition was originally released in 2010 for Xbox 360 and PlayStation 3.",
+      "generator_supporting_span": "Deadly Premonition was originally released in 2010 for Xbox 360 and PlayStation 3",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadly Premonition was originally released in 2010 for Xbox 360 and PlayStation 3",
+      "verifier_reasoning": "The source text explicitly states the original release year and the platforms for the game, which directly matches the information presented in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The Xbox 360 version of Deadly Premonition was published by Ignition Entertainment in North America.",
+      "generator_supporting_span": "the Xbox 360 version was published by Ignition Entertainment in North America",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the Xbox 360 version was published by Ignition Entertainment in North America",
+      "verifier_reasoning": "The source text explicitly states that for the game's 2010 release, the Xbox 360 version was published in North America by Ignition Entertainment.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Marvelous Entertainment released the PlayStation 3 version of Deadly Premonition exclusively in Japan.",
+      "generator_supporting_span": "Marvelous Entertainment released the PlayStation 3 version exclusively in Japan .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Marvelous Entertainment released the PlayStation 3 version exclusively in Japan.",
+      "verifier_reasoning": "The source text explicitly states that Marvelous Entertainment was the publisher for the PlayStation 3 version of the game and that this release was exclusive to Japan.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "A director's cut edition of Deadly Premonition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013.",
+      "generator_supporting_span": "A director 's cut edition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013 .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A director 's cut edition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013 .",
+      "verifier_reasoning": "The source text explicitly states that a director's cut edition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013, confirming every detail of the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Deadly Premonition is a reboot of Access Games' earlier video game Rainy Woods.",
+      "generator_supporting_span": "Deadly Premonition is a reboot of Access Games ' earlier video game Rainy Woods .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadly Premonition is a reboot of Access Games ' earlier video game Rainy Woods .",
+      "verifier_reasoning": "The source text explicitly states that the video game Deadly Premonition is a reboot of another video game by the same developer, Access Games, called Rainy Woods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Rainy Woods was cancelled soon after its debut at the 2007 convention Tokyo Game Show due to technical issues.",
+      "generator_supporting_span": "Rainy Woods was cancelled soon after its debut at the 2007 convention Tokyo Game Show due to technical issues .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In production since 2004 , Rainy Woods was cancelled soon after its debut at the 2007 convention Tokyo Game Show due to technical issues .",
+      "verifier_reasoning": "The source text explicitly states that the game Rainy Woods was cancelled for technical reasons shortly after it was shown at the 2007 Tokyo Game Show.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Upon its release, Deadly Premonition received wildly varying critical reviews.",
+      "generator_supporting_span": "Upon its release , Deadly Premonition received wildly varying critical reviews",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Upon its release , Deadly Premonition received wildly varying critical reviews , eventually holding the Guinness World Record for the most critically polarizing survival horror game .",
+      "verifier_reasoning": "The source text explicitly states that \"Upon its release , Deadly Premonition received wildly varying critical reviews\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Deadly Premonition eventually held the Guinness World Record for the most critically polarizing survival horror game.",
+      "generator_supporting_span": "eventually holding the Guinness World Record for the most critically polarizing survival horror game .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Upon its release , Deadly Premonition received wildly varying critical reviews , eventually holding the Guinness World Record for the most critically polarizing survival horror game .",
+      "verifier_reasoning": "The source text explicitly states that after receiving varied critical reviews, the game eventually held the Guinness World Record for being the most critically polarizing survival horror game.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Deadly Premonition has since garnered a cult following.",
+      "generator_supporting_span": "It has since garnered a cult following",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It has since garnered a cult following and has been cited as an example of games as art .",
+      "verifier_reasoning": "The source text explicitly states that the game, referred to as 'It' in the final sentence, has garnered a cult following.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Deadly Premonition has been cited as an example of games as art.",
+      "generator_supporting_span": "has been cited as an example of games as art .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It has since garnered a cult following and has been cited as an example of games as art .",
+      "verifier_reasoning": "The source text's final sentence explicitly states that the game, referred to as 'It', has been cited as an example of games as art.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

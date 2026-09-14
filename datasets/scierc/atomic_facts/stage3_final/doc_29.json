@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_29",
+  "facts": [
+    "The paper addresses the problem of populating object category detection datasets with dense, per-object 3D reconstructions.",
+    "The dense, per-object 3D reconstructions are bootstrapped from class labels.",
+    "The dense, per-object 3D reconstructions are bootstrapped from ground truth figure-ground segmentations.",
+    "The dense, per-object 3D reconstructions are bootstrapped from a small set of keypoint annotations.",
+    "The proposed algorithm first estimates camera viewpoint using rigid structure-from-motion.",
+    "The proposed algorithm reconstructs object shapes by optimizing over visual hull proposals.",
+    "The optimization over visual hull proposals is guided by loose within-class shape similarity assumptions.",
+    "The visual hull sampling process attempts to intersect an object's projection cone with the cones of minimal subsets of other similar objects.",
+    "The similar objects considered by the visual hull sampling process are among those pictured from certain vantage points.",
+    "The method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets, PASCAL VOC.",
+    "PASCAL VOC is one of the most challenging existing object-category detection datasets.",
+    "The results may re-stimulate once popular geometry-oriented model-based recognition approaches.",
+    "Camera viewpoint is estimated using rigid structure-from-motion.",
+    "The proposed algorithm estimates camera viewpoint.",
+    "The visual hull sampling process attempts to intersect an object's projection cone."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    8,
+    11,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "object category detection datasets",
+    "per-object 3D reconstructions",
+    "ground truth figure-ground segmentations",
+    "keypoint annotations",
+    "camera viewpoint",
+    "rigid structure-from-motion",
+    "object shapes",
+    "visual hull proposals",
+    "loose within-class shape similarity assumptions",
+    "visual hull sampling process",
+    "projection cone",
+    "object-category detection datasets",
+    "PASCAL VOC",
+    "geometry-oriented model-based recognition approaches"
+  ]
+}

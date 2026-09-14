@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_47",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Human action recognition from well-segmented 3D skeleton data has been intensively studied.",
+      "generator_supporting_span": "Human action recognition from well-segmented 3D skeleton data has been intensively studied",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Human action recognition from well-segmented 3D skeleton data has been intensively studied and attracting an increasing attention .",
+      "verifier_reasoning": "The source text's opening sentence directly states the candidate fact verbatim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Online action detection is more challenging.",
+      "generator_supporting_span": "Online action detection goes one step further and is more challenging",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Online action detection goes one step further and is more challenging , which identifies the action type and localizes the action positions on the fly from the untrimmed stream .",
+      "verifier_reasoning": "The source text explicitly states that online action detection is more challenging than human action recognition from well-segmented data.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Online action detection identifies the action type on the fly from the untrimmed stream.",
+      "generator_supporting_span": "identifies the action type and localizes the action positions on the fly from the untrimmed stream",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Online action detection goes one step further and is more challenging , which identifies the action type and localizes the action positions on the fly from the untrimmed stream .",
+      "verifier_reasoning": "The source text explicitly defines online action detection, stating that it 'identifies the action type... on the fly from the untrimmed stream,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Online action detection localizes the action positions on the fly from the untrimmed stream.",
+      "generator_supporting_span": "identifies the action type and localizes the action positions on the fly from the untrimmed stream",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Online action detection goes one step further and is more challenging , which identifies the action type and localizes the action positions on the fly from the untrimmed stream .",
+      "verifier_reasoning": "The source text provides a definition of online action detection, explicitly stating that it 'localizes the action positions on the fly from the untrimmed stream.' This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The paper studies the problem of online action detection from the streaming skeleton data.",
+      "generator_supporting_span": "In this paper , we study the problem of online action detection from the streaming skeleton data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we study the problem of online action detection from the streaming skeleton data .",
+      "verifier_reasoning": "The source text explicitly states the topic of the paper, which directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The paper proposes a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network.",
+      "generator_supporting_span": "We propose a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We propose a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network to better explore the action type and temporal localiza-tion information .",
+      "verifier_reasoning": "The source text explicitly states that the paper proposes the exact neural network model mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The proposed network employs a joint classification and regression optimization objective.",
+      "generator_supporting_span": "By employing a joint classification and regression optimization objective",
+      "span_mismatch": false,
+      "verifier_supporting_span": "By employing a joint classification and regression optimization objective , this network is capable of automatically localizing the start and end points of actions more accurately .",
+      "verifier_reasoning": "The source text explicitly states that the proposed network uses a joint classification and regression optimization objective.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The proposed network is capable of automatically localizing the start and end points of actions more accurately.",
+      "generator_supporting_span": "this network is capable of automatically localizing the start and end points of actions more accurately",
+      "span_mismatch": false,
+      "verifier_supporting_span": "By employing a joint classification and regression optimization objective , this network is capable of automatically localizing the start and end points of actions more accurately .",
+      "verifier_reasoning": "The source text explicitly states that the proposed network is capable of more accurately and automatically localizing the start and end points of actions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The proposed model leverages the merits of the deep Long Short-Term Memory (LSTM) subnetwork.",
+      "generator_supporting_span": "by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Specifically, by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork, the proposed model automatically captures the complex long-range temporal dynamics, which naturally avoids the typical sliding window design and thus ensures high computational efficiency.",
+      "verifier_reasoning": "The source text explicitly states that the proposed model works \"by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The proposed model automatically captures the complex long-range temporal dynamics.",
+      "generator_supporting_span": "the proposed model automatically captures the complex long-range temporal dynamics",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Specifically , by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork , the proposed model automatically captures the complex long-range temporal dynamics , which naturally avoids the typical sliding window design and thus ensures high computational efficiency .",
+      "verifier_reasoning": "The source text explicitly states that the proposed model, by using a deep Long Short-Term Memory (LSTM) subnetwork, automatically captures the complex long-range temporal dynamics.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The proposed model naturally avoids the typical sliding window design.",
+      "generator_supporting_span": "which naturally avoids the typical sliding window design",
+      "span_mismatch": false,
+      "verifier_supporting_span": "by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork , the proposed model automatically captures the complex long-range temporal dynamics , which naturally avoids the typical sliding window design and thus ensures high computational efficiency",
+      "verifier_reasoning": "The source text explicitly states that the proposed model, by using a deep Long Short-Term Memory (LSTM) subnetwork, is able to naturally avoid the typical sliding window design.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The proposed model ensures high computational efficiency.",
+      "generator_supporting_span": "and thus ensures high computational efficiency",
+      "span_mismatch": false,
+      "verifier_supporting_span": "by leveraging the merits of the deep Long Short-Term Memory (LSTM) subnetwork , the proposed model automatically captures the complex long-range temporal dynamics , which naturally avoids the typical sliding window design and thus ensures high computational efficiency .",
+      "verifier_reasoning": "The source text explicitly states that the proposed model avoids the typical sliding window design, which as a result \"ensures high computational efficiency.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The subtask of regression optimization provides the ability to forecast the action prior to its occurrence.",
+      "generator_supporting_span": "the subtask of regression optimization provides the ability to forecast the action prior to its occurrence",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , the subtask of regression optimization provides the ability to forecast the action prior to its occurrence .",
+      "verifier_reasoning": "The source text makes this exact statement verbatim, explicitly linking the regression optimization subtask to the ability to forecast an action before it happens.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The authors build a large streaming video dataset with annotations.",
+      "generator_supporting_span": "we build a large streaming video dataset with annotations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To evaluate our proposed model , we build a large streaming video dataset with annotations .",
+      "verifier_reasoning": "The source text explicitly states that the authors created a dataset for evaluation purposes, mentioning 'we build a large streaming video dataset with annotations'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Experimental results on the authors' dataset and the public G3D dataset both demonstrate very promising performance of the authors' scheme.",
+      "generator_supporting_span": "Experimental results on our dataset and the public G3D dataset both demonstrate very promising performance of our scheme",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experimental results on our dataset and the public G3D dataset both demonstrate very promising performance of our scheme .",
+      "verifier_reasoning": "The source text explicitly states that the experimental results on both the authors' own dataset ('our dataset') and the public G3D dataset showed 'very promising performance' for their proposed method ('our scheme'). This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

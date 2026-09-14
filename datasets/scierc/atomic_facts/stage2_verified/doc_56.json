@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_56",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Machine reading is a relatively new field.",
+      "generator_supporting_span": "Machine reading is a relatively new field",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Machine reading is a relatively new field that features computer programs designed to read flowing text and extract fact assertions expressed by the narrative content .",
+      "verifier_reasoning": "The source text's opening sentence directly states that \"Machine reading is a relatively new field,\" which verbatimly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The computer programs are designed to read flowing text.",
+      "generator_supporting_span": "designed to read flowing text",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Machine reading is a relatively new field that features computer programs designed to read flowing text and extract fact assertions expressed by the narrative content .",
+      "verifier_reasoning": "The source text explicitly states that the field of machine reading features \"computer programs designed to read flowing text,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The computer programs extract fact assertions expressed by the narrative content.",
+      "generator_supporting_span": "extract fact assertions expressed by the narrative content",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Machine reading is a relatively new field that features computer programs designed to read flowing text and extract fact assertions expressed by the narrative content .",
+      "verifier_reasoning": "The source text explicitly defines machine reading as a field involving computer programs whose purpose is to 'extract fact assertions expressed by the narrative content,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Machine reading involves two core technologies: natural language processing (NLP) and information extraction (IE).",
+      "generator_supporting_span": "This task involves two core technologies : natural language processing (NLP) and information extraction (IE) .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This task involves two core technologies : natural language processing (NLP) and information extraction (IE) .",
+      "verifier_reasoning": "The source text defines machine reading in the first sentence. The second sentence directly states that 'This task' (referring to machine reading) involves two core technologies and explicitly names them as natural language processing (NLP) and information extraction (IE).",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "A machine reading system has been developed within a cognitive architecture.",
+      "generator_supporting_span": "a machine reading system that we have developed within a cognitive architecture .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we describe a machine reading system that we have developed within a cognitive architecture .",
+      "verifier_reasoning": "The source text explicitly states that the authors have developed a machine reading system and that this development occurred within a cognitive architecture.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The framework integrates several levels of knowledge for a particular domain.",
+      "generator_supporting_span": "we have integrated into the framework several levels of knowledge for a particular domain",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how we have integrated into the framework several levels of knowledge for a particular domain, ideas from cognitive semantics and construction grammar, plus tools from prior NLP and IE research .",
+      "verifier_reasoning": "The source text explicitly states that the authors have integrated 'several levels of knowledge for a particular domain' into the framework they developed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The framework integrates ideas from cognitive semantics.",
+      "generator_supporting_span": "ideas from cognitive semantics and construction grammar",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how we have integrated into the framework several levels of knowledge for a particular domain , ideas from cognitive semantics and construction grammar , plus tools from prior NLP and IE research .",
+      "verifier_reasoning": "The source text explicitly states that the developers have integrated 'ideas from cognitive semantics' into the framework they developed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The framework integrates ideas from construction grammar.",
+      "generator_supporting_span": "ideas from cognitive semantics and construction grammar",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how we have integrated into the framework several levels of knowledge for a particular domain , ideas from cognitive semantics and construction grammar , plus tools from prior NLP and IE research .",
+      "verifier_reasoning": "The source text explicitly lists the components integrated into the system's framework, which include 'ideas from cognitive semantics and construction grammar'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The framework integrates tools from prior NLP and IE research.",
+      "generator_supporting_span": "plus tools from prior NLP and IE research",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how we have integrated into the framework several levels of knowledge for a particular domain , ideas from cognitive semantics and construction grammar , plus tools from prior NLP and IE research .",
+      "verifier_reasoning": "The source text explicitly states that the authors have integrated several components into their framework, and the list of components includes 'tools from prior NLP and IE research'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The system is capable of reading complex and fairly idiosyncratic texts in the family history domain.",
+      "generator_supporting_span": "capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The result is a system that is capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain .",
+      "verifier_reasoning": "The source text explicitly states that the system resulting from the described work has the capability to read and interpret complex and idiosyncratic texts within the family history domain, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The system is capable of interpreting complex and fairly idiosyncratic texts in the family history domain.",
+      "generator_supporting_span": "capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The result is a system that is capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain .",
+      "verifier_reasoning": "The source text explicitly states that the system resulting from the described work is capable of interpreting complex and idiosyncratic texts specifically within the family history domain.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The paper describes the architecture of the system.",
+      "generator_supporting_span": "We describe the architecture and performance of the system .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We describe the architecture and performance of the system .",
+      "verifier_reasoning": "The source text explicitly states that the paper being discussed describes the architecture of the machine reading system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The paper describes the performance of the system.",
+      "generator_supporting_span": "We describe the architecture and performance of the system .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We describe the architecture and performance of the system .",
+      "verifier_reasoning": "The source text explicitly states that the paper will describe the system's architecture and performance. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The paper presents results from several evaluations.",
+      "generator_supporting_span": "After presenting the results from several evaluations that we have carried out",
+      "span_mismatch": false,
+      "verifier_supporting_span": "After presenting the results from several evaluations that we have carried out , we summarize possible future directions .",
+      "verifier_reasoning": "The source text outlines the structure of the paper being described, and the final sentence explicitly states that the authors will present results from several evaluations they have conducted.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The paper summarizes possible future directions.",
+      "generator_supporting_span": "we summarize possible future directions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "After presenting the results from several evaluations that we have carried out , we summarize possible future directions .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the authors will summarize possible future directions, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

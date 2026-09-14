@@ -1,0 +1,59 @@
+{
+  "doc_id": "doc_21",
+  "facts": [
+    "The paper explores a new theory of discourse structure.",
+    "The theory stresses the role of purpose and processing in discourse.",
+    "Discourse structure is composed of three separate but interrelated components.",
+    "The structure of the sequence of utterances is called the linguistic structure.",
+    "A structure of purposes is called the intentional structure.",
+    "The state of focus of attention is called the attentional state.",
+    "The linguistic structure consists of segments of the discourse.",
+    "The intentional structure captures the discourse-relevant purposes.",
+    "The intentional structure captures relationships among linguistic segments.",
+    "The attentional state is an abstraction of the focus of attention of the participants.",
+    "The attentional state is dynamic.",
+    "The attentional state records the objects, properties, and relations that are salient at each point of the discourse.",
+    "The distinction among the linguistic structure, the intentional structure, and the attentional state is essential to provide an adequate explanation of cue phrases, referring expressions, and interruptions.",
+    "This theory provides a framework for describing the processing of utterances in a discourse.",
+    "Discourse processing requires recognizing how the utterances of the discourse aggregate into segments."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    13
+  ],
+  "multiple-entity": [
+    6,
+    7,
+    11,
+    12,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "theory of discourse structure",
+    "discourse",
+    "discourse structure",
+    "linguistic structure",
+    "intentional structure",
+    "attentional state",
+    "discourse-relevant purposes",
+    "discourse phenomena",
+    "cue phrases",
+    "referring expressions",
+    "interruptions",
+    "theory of attention , intention , and aggregation of utterances",
+    "discourses",
+    "Discourse processing",
+    "recognition tasks"
+  ]
+}

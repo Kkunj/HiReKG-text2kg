@@ -1,0 +1,117 @@
+[
+  {
+    "head": "ARPA NOV93 CSR test",
+    "relation": "evaluate for",
+    "tail": "LIMSI recognizer"
+  },
+  {
+    "head": "WSJ and BREF corpora",
+    "relation": "evaluate for",
+    "tail": "LIMSI recognizer"
+  },
+  {
+    "head": "corpora",
+    "relation": "evaluate for",
+    "tail": "word recognition"
+  },
+  {
+    "head": "continuous density HMM",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "continuous density HMM",
+    "relation": "conjunction",
+    "tail": "Gaussian mixture"
+  },
+  {
+    "head": "continuous density HMM",
+    "relation": "used for",
+    "tail": "acoustic modeling"
+  },
+  {
+    "head": "continuous density HMM",
+    "relation": "conjunction",
+    "tail": "n-gram statistics"
+  },
+  {
+    "head": "Gaussian mixture",
+    "relation": "used for",
+    "tail": "acoustic modeling"
+  },
+  {
+    "head": "n-gram statistics",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "n-gram statistics",
+    "relation": "used for",
+    "tail": "language modeling"
+  },
+  {
+    "head": "newspaper texts",
+    "relation": "evaluate for",
+    "tail": "n-gram statistics"
+  },
+  {
+    "head": "time-synchronous graph-search strategy",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "bigram back-off language models",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "bigram back-off language models",
+    "relation": "conjunction",
+    "tail": "time-synchronous graph-search strategy"
+  },
+  {
+    "head": "bigram",
+    "relation": "used for",
+    "tail": "word graph"
+  },
+  {
+    "head": "trigram language model",
+    "relation": "conjunction",
+    "tail": "word graph"
+  },
+  {
+    "head": "cepstrum-based features",
+    "relation": "used for",
+    "tail": "Acoustic modeling"
+  },
+  {
+    "head": "cepstrum-based features",
+    "relation": "conjunction",
+    "tail": "context-dependent phone models (intra and interword)"
+  },
+  {
+    "head": "context-dependent phone models (intra and interword)",
+    "relation": "used for",
+    "tail": "Acoustic modeling"
+  },
+  {
+    "head": "context-dependent phone models (intra and interword)",
+    "relation": "conjunction",
+    "tail": "phone duration models"
+  },
+  {
+    "head": "phone duration models",
+    "relation": "used for",
+    "tail": "Acoustic modeling"
+  },
+  {
+    "head": "phone duration models",
+    "relation": "conjunction",
+    "tail": "sex-dependent models"
+  },
+  {
+    "head": "sex-dependent models",
+    "relation": "used for",
+    "tail": "Acoustic modeling"
+  }
+]

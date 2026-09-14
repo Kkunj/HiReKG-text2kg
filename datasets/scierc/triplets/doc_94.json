@@ -1,0 +1,42 @@
+[
+  {
+    "head": "machine learning techniques",
+    "relation": "used for",
+    "tail": "comma checker"
+  },
+  {
+    "head": "comma checker",
+    "relation": "part of",
+    "tail": "grammar checker"
+  },
+  {
+    "head": "grammar checker",
+    "relation": "used for",
+    "tail": "Basque"
+  },
+  {
+    "head": "precision",
+    "relation": "evaluate for",
+    "tail": "system"
+  },
+  {
+    "head": "recall",
+    "relation": "evaluate for",
+    "tail": "system"
+  },
+  {
+    "head": "It",
+    "relation": "used for",
+    "tail": "placing commas"
+  },
+  {
+    "head": "precision",
+    "relation": "evaluate for",
+    "tail": "It"
+  },
+  {
+    "head": "recall",
+    "relation": "evaluate for",
+    "tail": "It"
+  }
+]

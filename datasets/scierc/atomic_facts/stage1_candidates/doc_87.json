@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_87",
+  "facts": [
+    {
+      "fact": "The paper deals with a recently developed large Czech MWE database.",
+      "supporting_span": "In this paper we deal with a recently developed large Czech MWE database",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Czech MWE database contains at the moment 160 000 MWEs.",
+      "supporting_span": "containing at the moment 160 000 MWEs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The MWEs are treated as lexical units.",
+      "supporting_span": "(treated as lexical units)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The database was compiled from various resources.",
+      "supporting_span": "It was compiled from various resources",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The database was compiled from collocations obtained from Czech WordNet.",
+      "supporting_span": "collocations obtained from Czech WordNet",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors describe the structure of the database.",
+      "supporting_span": "We describe the structure of the database",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors give basic types of MWEs according to domains they belong to.",
+      "supporting_span": "give basic types of MWEs according to domains they belong to",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors compare the built MWEs database with the corpus data from Czech National Corpus.",
+      "supporting_span": "We compare the built MWEs database with the corpus data from Czech National Corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "These MWEs have not been obtained from the corpus.",
+      "supporting_span": "These MWEs have not been obtained from the corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The frequencies of the MWEs in the corpus are rather low.",
+      "supporting_span": "their frequencies in it are rather low",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors propose and use a technique exploiting the Word Sketch Engine to obtain a more complete list of MWEs.",
+      "supporting_span": "To obtain a more complete list of MWEs we propose and use a technique exploiting the Word Sketch Engine",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The technique allows the authors to work with statistical parameters such as frequency of MWEs and their components.",
+      "supporting_span": "which allows us to work with statistical parameters such as frequency of MWEs and their components",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors discuss exploitation of the database for working out a more adequate tagging and lemmatization.",
+      "supporting_span": "We also discuss exploitation of the database for working out a more adequate tagging and lemmatization",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The final goal is to be able to recognize MWEs in corpus text.",
+      "supporting_span": "The final goal is to be able to recognize MWEs in corpus text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The final goal is to lemmatize MWEs as complete lexical units.",
+      "supporting_span": "lemmatize them as complete lexical units",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

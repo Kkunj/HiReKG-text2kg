@@ -1,0 +1,134 @@
+[
+  {
+    "head": "Windows 7",
+    "relation": "followed by",
+    "tail": "Windows 8",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "follows",
+    "tail": "Windows 7",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "publication date",
+    "tail": "1996",
+    "relation_code": "P577"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "Windows 95",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "Windows 10",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "developer",
+    "tail": "Zombie LLC",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "publisher",
+    "tail": "Activision",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "series",
+    "tail": "Zork",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "MS-DOS",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "Macintosh",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "Windows XP",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork",
+    "relation": "publisher",
+    "tail": "Infocom",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Infocom",
+    "relation": "product or material produced",
+    "tail": "Zork",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "follows",
+    "tail": "Windows XP",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "follows",
+    "tail": "Windows 8",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "followed by",
+    "tail": "Windows Vista",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "followed by",
+    "tail": "Windows 7",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Zork Nemesis : The Forbidden Lands",
+    "relation": "platform",
+    "tail": "MS - DOS",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Zork",
+    "relation": "developer",
+    "tail": "Zombie LLC",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "follows",
+    "tail": "Windows Vista",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Zork",
+    "relation": "has part",
+    "tail": "Zork Nemesis : The Forbidden Lands",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "followed by",
+    "tail": "Windows 10",
+    "relation_code": "P156"
+  }
+]

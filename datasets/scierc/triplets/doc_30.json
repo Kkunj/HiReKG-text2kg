@@ -1,0 +1,87 @@
+[
+  {
+    "head": "optimal alignment of non-rigid surfaces",
+    "relation": "used for",
+    "tail": "temporally consistent representation"
+  },
+  {
+    "head": "multi-view video observations",
+    "relation": "used for",
+    "tail": "optimal alignment of non-rigid surfaces"
+  },
+  {
+    "head": "frame-to-frame alignment",
+    "relation": "used for",
+    "tail": "non-rigid surface tracking"
+  },
+  {
+    "head": "dissimilarity measure",
+    "relation": "used for",
+    "tail": "non-sequential tracking approaches"
+  },
+  {
+    "head": "robustness",
+    "relation": "feature of",
+    "tail": "non-rigid deformations"
+  },
+  {
+    "head": "Optimisation of the tree",
+    "relation": "used for",
+    "tail": "non-sequential tracking"
+  },
+  {
+    "head": "temporal consistency",
+    "relation": "evaluate for",
+    "tail": "Optimisation of the tree"
+  },
+  {
+    "head": "cluster tree",
+    "relation": "used for",
+    "tail": "sequential tracking in local segments"
+  },
+  {
+    "head": "cluster tree",
+    "relation": "used for",
+    "tail": "global non-sequential traversal"
+  },
+  {
+    "head": "face",
+    "relation": "hyponym of",
+    "tail": "non-rigid surfaces"
+  },
+  {
+    "head": "face",
+    "relation": "conjunction",
+    "tail": "cloth"
+  },
+  {
+    "head": "cloth",
+    "relation": "hyponym of",
+    "tail": "non-rigid surfaces"
+  },
+  {
+    "head": "cloth",
+    "relation": "conjunction",
+    "tail": "people"
+  },
+  {
+    "head": "people",
+    "relation": "hyponym of",
+    "tail": "non-rigid surfaces"
+  },
+  {
+    "head": "cluster tree",
+    "relation": "compare",
+    "tail": "sequential and non-sequential tracking approaches"
+  },
+  {
+    "head": "temporal consistency",
+    "relation": "evaluate for",
+    "tail": "cluster tree"
+  },
+  {
+    "head": "synthetic facial performance",
+    "relation": "evaluate for",
+    "tail": "cluster tree"
+  }
+]

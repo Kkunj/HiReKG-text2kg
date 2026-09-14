@@ -1,0 +1,473 @@
+{
+  "answers_file": "datasets/MINE/answers.json",
+  "model": "en_core_web_sm",
+  "n_facts": 1500,
+  "ner": {
+    "method": "spaCy NER (named entities only)",
+    "total": 1500,
+    "agreement": 0.768,
+    "cohen_kappa": 0.32149987521836776,
+    "confusion_matrix": {
+      "single-entity": {
+        "single-entity": 154,
+        "multiple-entity": 190
+      },
+      "multiple-entity": {
+        "single-entity": 158,
+        "multiple-entity": 998
+      }
+    },
+    "per_class": {
+      "single-entity": {
+        "precision": 0.4935897435897436,
+        "recall": 0.4476744186046512,
+        "tp": 154,
+        "fp": 158,
+        "fn": 190
+      },
+      "multiple-entity": {
+        "precision": 0.8400673400673401,
+        "recall": 0.8633217993079585,
+        "tp": 998,
+        "fp": 190,
+        "fn": 158
+      }
+    },
+    "gpt5_counts": {
+      "multiple-entity": 1156,
+      "single-entity": 344
+    },
+    "spacy_counts": {
+      "multiple-entity": 1188,
+      "single-entity": 312
+    }
+  },
+  "chunks": {
+    "method": "spaCy noun-chunk heads (broad entities)",
+    "total": 1500,
+    "agreement": 0.752,
+    "cohen_kappa": -0.0143536494917326,
+    "confusion_matrix": {
+      "single-entity": {
+        "single-entity": 7,
+        "multiple-entity": 337
+      },
+      "multiple-entity": {
+        "single-entity": 35,
+        "multiple-entity": 1121
+      }
+    },
+    "per_class": {
+      "single-entity": {
+        "precision": 0.16666666666666666,
+        "recall": 0.020348837209302327,
+        "tp": 7,
+        "fp": 35,
+        "fn": 337
+      },
+      "multiple-entity": {
+        "precision": 0.7688614540466392,
+        "recall": 0.9697231833910035,
+        "tp": 1121,
+        "fp": 337,
+        "fn": 35
+      }
+    },
+    "gpt5_counts": {
+      "multiple-entity": 1156,
+      "single-entity": 344
+    },
+    "spacy_counts": {
+      "multiple-entity": 1458,
+      "single-entity": 42
+    }
+  },
+  "sample_disagreements_chunks": [
+    {
+      "row_idx": 0,
+      "ans_idx": 9,
+      "text": "The caterpillar attaches itself to a leaf or stem and forms a chrysalis.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "caterpillar"
+      ],
+      "chunk_entities": [
+        "leaf",
+        "stem",
+        "chrysalis"
+      ]
+    },
+    {
+      "row_idx": 0,
+      "ans_idx": 10,
+      "text": "Inside the chrysalis, the caterpillar undergoes metamorphosis.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "single-entity",
+      "ner_entities": [
+        "caterpillar"
+      ],
+      "chunk_entities": [
+        "chrysali"
+      ]
+    },
+    {
+      "row_idx": 0,
+      "ans_idx": 11,
+      "text": "During metamorphosis, the caterpillar's body undergoes significant changes.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "caterpillar"
+      ],
+      "chunk_entities": [
+        "metamorphosis",
+        "body",
+        "change"
+      ]
+    },
+    {
+      "row_idx": 1,
+      "ans_idx": 9,
+      "text": "One famous urban legend is that of the 'Hook Man'.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "one",
+        "hook man'"
+      ],
+      "chunk_entities": [
+        "legend",
+        "man"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 0,
+      "text": "AI has rapidly advanced in recent years.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai",
+        "recent years"
+      ],
+      "chunk_entities": [
+        "ai",
+        "year"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 1,
+      "text": "AI has revolutionized various industries and aspects of daily lives.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai",
+        "daily"
+      ],
+      "chunk_entities": [
+        "ai",
+        "industry",
+        "aspect",
+        "life"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 2,
+      "text": "Ethical dilemmas need to be addressed in the development and deployment of AI technologies.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "dilemma",
+        "development",
+        "deployment",
+        "technology"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 4,
+      "text": "Privacy is a key ethical dilemma in AI development.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "privacy",
+        "dilemma",
+        "development"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 8,
+      "text": "Biased data can lead to discriminatory outcomes in AI systems.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "datum",
+        "outcome",
+        "system"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 10,
+      "text": "Accountability is an ethical dilemma in AI development.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "accountability",
+        "dilemma",
+        "development"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 11,
+      "text": "Establishing clear lines of accountability is crucial as AI systems become more autonomous.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "line",
+        "accountability",
+        "system"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 12,
+      "text": "Transparency is a significant ethical dilemma in AI development.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "transparency",
+        "dilemma",
+        "development"
+      ]
+    },
+    {
+      "row_idx": 2,
+      "ans_idx": 13,
+      "text": "Lack of transparency can lead to distrust in AI systems.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "ai"
+      ],
+      "chunk_entities": [
+        "lack",
+        "transparency",
+        "system"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 0,
+      "text": "Dinosaurs captivate human imagination for centuries.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "centuries"
+      ],
+      "chunk_entities": [
+        "dinosaur",
+        "imagination",
+        "century"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 1,
+      "text": "Dinosaurs roamed the Earth millions of years ago.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [],
+      "chunk_entities": [
+        "dinosaur",
+        "million",
+        "year"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 3,
+      "text": "Tyrannosaurus rex was a towering dinosaur.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [],
+      "chunk_entities": [
+        "rex",
+        "dinosaur"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 4,
+      "text": "Brachiosaurus was a colossal dinosaur.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [],
+      "chunk_entities": [
+        "brachiosaurus",
+        "dinosaur"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 9,
+      "text": "Dinosaurs lived in the Mesozoic era.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "dinosaurs",
+        "the mesozoic era"
+      ],
+      "chunk_entities": [
+        "dinosaur",
+        "era"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 10,
+      "text": "The Mesozoic era was known as the Age of Dinosaurs.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [],
+      "chunk_entities": [
+        "era",
+        "age",
+        "dinosaurs"
+      ]
+    },
+    {
+      "row_idx": 3,
+      "ans_idx": 12,
+      "text": "The extinction of dinosaurs is surrounded by mystery.",
+      "gpt5_collapsed": "single-entity",
+      "spacy_ner_label": "multiple-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [],
+      "chunk_entities": [
+        "extinction",
+        "dinosaur",
+        "mystery"
+      ]
+    },
+    {
+      "row_idx": 4,
+      "ans_idx": 0,
+      "text": "Video games have evolved since the mid-20th century.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "the mid-20th century"
+      ],
+      "chunk_entities": [
+        "game",
+        "century"
+      ]
+    },
+    {
+      "row_idx": 4,
+      "ans_idx": 1,
+      "text": "Pong and Space Invaders were simple, pixelated games.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "pong and space invaders"
+      ],
+      "chunk_entities": [
+        "invaders",
+        "game"
+      ]
+    },
+    {
+      "row_idx": 4,
+      "ans_idx": 2,
+      "text": "Red Dead Redemption and Fortnite offer lifelike worlds.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "fortnite"
+      ],
+      "chunk_entities": [
+        "redemption",
+        "fortnite",
+        "world"
+      ]
+    },
+    {
+      "row_idx": 4,
+      "ans_idx": 5,
+      "text": "Arcade gaming rose in the 1970s.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "the 1970s"
+      ],
+      "chunk_entities": [
+        "gaming",
+        "1970"
+      ]
+    },
+    {
+      "row_idx": 4,
+      "ans_idx": 9,
+      "text": "Doom and Quake pushed boundaries in the 1990s.",
+      "gpt5_collapsed": "multiple-entity",
+      "spacy_ner_label": "single-entity",
+      "spacy_chunk_label": "multiple-entity",
+      "ner_entities": [
+        "the 1990s"
+      ],
+      "chunk_entities": [
+        "doom",
+        "quake",
+        "boundary"
+      ]
+    }
+  ]
+}

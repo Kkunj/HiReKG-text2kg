@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Microsoft Windows",
+    "relation": "follows",
+    "tail": "MS - DOS",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Novell eDirectory",
+    "relation": "developer",
+    "tail": "Novell, Inc.",
+    "relation_code": "P178"
+  },
+  {
+    "head": "MS - DOS",
+    "relation": "followed by",
+    "tail": "Microsoft Windows",
+    "relation_code": "P156"
+  },
+  {
+    "head": "NetWare Core Protocol",
+    "relation": "developer",
+    "tail": "Novell, Inc.",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Novell NetWare",
+    "relation": "developer",
+    "tail": "Novell, Inc.",
+    "relation_code": "P178"
+  }
+]

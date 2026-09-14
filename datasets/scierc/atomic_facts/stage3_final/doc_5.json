@@ -1,0 +1,53 @@
+{
+  "doc_id": "doc_5",
+  "facts": [
+    "The paper discusses language model adaptation methods.",
+    "The language model adaptation setting involves a word list and a raw corpus.",
+    "The general method is to segment the raw corpus automatically using a word list.",
+    "The general method includes correcting the output sentences by hand.",
+    "The general method includes building a model from the segmented corpus.",
+    "In the sentence-by-sentence error correction method, the annotator encounters grammatically complicated positions.",
+    "Encountering grammatically complicated positions results in a decrease of productivity in the sentence-by-sentence error correction method.",
+    "The authors propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit.",
+    "The proposed approach concentrates on correcting the positions in which the words in the list appear.",
+    "The proposed approach takes a word as a correction unit.",
+    "The proposed approach allows going directly to capturing the statistical behavior of specific words in the application.",
+    "The experiments used a variety of methods for preparing a segmented corpus.",
+    "The experiments compared the language models by their speech recognition accuracies.",
+    "The results showed the advantages of the proposed method.",
+    "An annotator is involved in the sentence-by-sentence error correction method."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    4,
+    5,
+    6,
+    11,
+    14
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    12
+  ],
+  "ambiguous": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    13
+  ],
+  "entities": [
+    "language model adaptation methods",
+    "word list",
+    "raw corpus",
+    "segmented corpus",
+    "sentence-by-sentence error correction method",
+    "preparing a segmented corpus",
+    "language models",
+    "speech recognition accuracies"
+  ]
+}

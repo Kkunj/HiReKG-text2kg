@@ -1,0 +1,11 @@
+{
+  "generator_model": "gpt-5",
+  "generator_temperature": 1.0,
+  "generator_reasoning_effort": "high",
+  "verifier_model": "gemini-2.5-pro",
+  "verifier_temperature": 0,
+  "target_facts_per_doc": 15,
+  "config_hash": "5ad19997a6a8",
+  "git_commit": "unknown",
+  "timestamp": "2026-05-07T06:34:27.248693+00:00"
+}

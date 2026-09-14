@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_3",
+  "facts": [
+    "Pan-tilt-zoom (PTZ) cameras have the capacity to simultaneously cover a panoramic area.",
+    "Pan-tilt-zoom (PTZ) cameras have the capacity to maintain high resolution imagery.",
+    "Researches in automated surveillance systems with multiple PTZ cameras have become increasingly important.",
+    "Most existing algorithms require the prior knowledge of intrinsic parameters of the PTZ camera to infer the relative positioning and orientation among multiple PTZ cameras.",
+    "A novel mapping algorithm is proposed.",
+    "The novel mapping algorithm derives the relative positioning between two PTZ cameras.",
+    "The novel mapping algorithm derives the relative orientation between two PTZ cameras.",
+    "The novel mapping algorithm is based on a unified polynomial model.",
+    "Dependence on the knowledge of intrinsic parameters of PTZ camera is reduced.",
+    "Dependence on relative positions is reduced.",
+    "Experimental results demonstrate that the proposed algorithm presents substantially reduced computational complexity, as compared with the work of Chen and Wang.",
+    "Experimental results demonstrate that the proposed algorithm presents improved flexibility, as compared with the work of Chen and Wang.",
+    "The proposed algorithm has slightly decreased pixel accuracy.",
+    "The slightly decreased pixel accuracy can be compensated by consistent labeling approaches.",
+    "The compensation of slightly decreased pixel accuracy occurs without added cost for the application of automated surveillance systems along with changing configurations and a larger number of PTZ cameras."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "pan-tilt-zoom ( PTZ ) cameras",
+    "panoramic area",
+    "high resolution imagery",
+    "automated surveillance systems",
+    "PTZ cameras",
+    "prior knowledge of intrinsic parameters of the PTZ camera",
+    "relative positioning",
+    "orientation",
+    "mapping algorithm",
+    "unified polynomial model",
+    "PTZ camera",
+    "relative positions",
+    "computational complexity",
+    "flexibility",
+    "pixel accuracy",
+    "consistent labeling approaches"
+  ]
+}

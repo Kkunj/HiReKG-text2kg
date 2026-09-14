@@ -1,0 +1,52 @@
+[
+  {
+    "head": "corpus-based supervised word sense disambiguation (WSD) system",
+    "relation": "used for",
+    "tail": "Dutch"
+  },
+  {
+    "head": "statistical classification",
+    "relation": "part of",
+    "tail": "corpus-based supervised word sense disambiguation (WSD) system"
+  },
+  {
+    "head": "maximum entropy",
+    "relation": "part of",
+    "tail": "corpus-based supervised word sense disambiguation (WSD) system"
+  },
+  {
+    "head": "linguistic information",
+    "relation": "part of",
+    "tail": "corpus-based supervised word sense disambiguation (WSD) system"
+  },
+  {
+    "head": "linguistic information",
+    "relation": "conjunction",
+    "tail": "maximum entropy"
+  },
+  {
+    "head": "classifiers",
+    "relation": "compare",
+    "tail": "lemma-based approach"
+  },
+  {
+    "head": "ambiguous wordform",
+    "relation": "used for",
+    "tail": "classifiers"
+  },
+  {
+    "head": "inflected forms",
+    "relation": "feature of",
+    "tail": "ambiguous word"
+  },
+  {
+    "head": "lemma-based model",
+    "relation": "compare",
+    "tail": "wordform model"
+  },
+  {
+    "head": "Dutch Senseval-2 test data",
+    "relation": "evaluate for",
+    "tail": "lemma-based model"
+  }
+]

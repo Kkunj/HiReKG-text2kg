@@ -1,0 +1,107 @@
+[
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "novel view generation"
+  },
+  {
+    "head": "novel view generation",
+    "relation": "used for",
+    "tail": "one-to-one teleconferencing applications"
+  },
+  {
+    "head": "cameras",
+    "relation": "used for",
+    "tail": "video streams"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "eye contact"
+  },
+  {
+    "head": "virtual camera",
+    "relation": "used for",
+    "tail": "images"
+  },
+  {
+    "head": "arbitrary position",
+    "relation": "feature of",
+    "tail": "virtual camera"
+  },
+  {
+    "head": "technique",
+    "relation": "used for",
+    "tail": "novel-view generation"
+  },
+  {
+    "head": "dynamic-programming , stereo algorithm",
+    "relation": "used for",
+    "tail": "technique"
+  },
+  {
+    "head": "three-plane graph",
+    "relation": "used for",
+    "tail": "dense-stereo dynamic-programming"
+  },
+  {
+    "head": "dense-stereo dynamic-programming",
+    "relation": "used for",
+    "tail": "occlusion labeling"
+  },
+  {
+    "head": "compact geometric derivation",
+    "relation": "used for",
+    "tail": "novel-view synthesis"
+  },
+  {
+    "head": "direct projection of the minimum-cost surface",
+    "relation": "used for",
+    "tail": "compact geometric derivation"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "temporal maintenance of a background model"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "rendering of occlusions"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "temporal artefacts (flicker)"
+  },
+  {
+    "head": "cost aggregation algorithm",
+    "relation": "conjunction",
+    "tail": "algorithm"
+  },
+  {
+    "head": "cost aggregation algorithm",
+    "relation": "used for",
+    "tail": "three-dimensional matching cost space"
+  },
+  {
+    "head": "robustness",
+    "relation": "evaluate for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "spatial and temporal artefacts"
+  },
+  {
+    "head": "spatial and temporal artefacts",
+    "relation": "used for",
+    "tail": "long stereo video streams"
+  },
+  {
+    "head": "translating virtual camera",
+    "relation": "used for",
+    "tail": "synthesis"
+  }
+]

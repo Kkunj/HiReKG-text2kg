@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_86",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The use of a labeled directed graph to represent various types of linguistic structures is advocated.",
+      "generator_supporting_span": "argue in favor of the the use of labeled directed graph to represent various types of linguistic structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We argue in favor of the the use of labeled directed graph to represent various types of linguistic structures",
+      "verifier_reasoning": "The source text explicitly states that the authors \"argue in favor of\" using labeled directed graphs for linguistic structures. The phrase \"argue in favor of\" is synonymous with the term \"advocated\" used in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "A labeled directed graph can represent various types of linguistic structures.",
+      "generator_supporting_span": "the use of labeled directed graph to represent various types of linguistic structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the use of labeled directed graph to represent various types of linguistic structures",
+      "verifier_reasoning": "The source text explicitly states that the authors \"argue in favor of the the use of labeled directed graph to represent various types of linguistic structures,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "NLP tasks can be viewed as graph transformations.",
+      "generator_supporting_span": "view NLP tasks as graph transformations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "illustrate how this allows one to view NLP tasks as graph transformations",
+      "verifier_reasoning": "The source text explicitly states that the authors' approach with labeled directed graphs \"allows one to view NLP tasks as graph transformations.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The use of a labeled directed graph enables viewing NLP tasks as graph transformations.",
+      "generator_supporting_span": "illustrate how this allows one to view NLP tasks as graph transformations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We argue in favor of the the use of labeled directed graph to represent various types of linguistic structures , and illustrate how this allows one to view NLP tasks as graph transformations .",
+      "verifier_reasoning": "The source text explicitly states that the authors will illustrate how 'this allows one to view NLP tasks as graph transformations,' where 'this' refers to 'the use of labeled directed graph.' This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "A general method for learning transformations is presented.",
+      "generator_supporting_span": "present a general method for learning such transformations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a general method for learning such transformations from an annotated corpus",
+      "verifier_reasoning": "The source text explicitly states that the authors 'present a general method for learning such transformations', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The transformations are learned from an annotated corpus.",
+      "generator_supporting_span": "from an annotated corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a general method for learning such transformations from an annotated corpus",
+      "verifier_reasoning": "The source text explicitly states that the authors present a method for 'learning such transformations from an annotated corpus', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Experiments are described with applications of the method.",
+      "generator_supporting_span": "describe experiments with two applications of the method",
+      "span_mismatch": false,
+      "verifier_supporting_span": "describe experiments with two applications of the method",
+      "verifier_reasoning": "The source text explicitly states that the authors 'describe experiments with two applications of the method', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The method has two applications.",
+      "generator_supporting_span": "two applications of the method",
+      "span_mismatch": false,
+      "verifier_supporting_span": "describe experiments with two applications of the method : identification of non-local depenencies (using Penn Treebank data) and semantic role labeling (using Proposition Bank data)",
+      "verifier_reasoning": "The source text explicitly states that the authors describe experiments with 'two applications of the method' and then proceeds to list them.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "One application is identification of non-local depenencies.",
+      "generator_supporting_span": "identification of non-local depenencies",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a general method for learning such transformations from an annotated corpus and describe experiments with two applications of the method : identification of non-local depenencies (using Penn Treebank data) and semantic role labeling (using Proposition Bank data) .",
+      "verifier_reasoning": "The source text explicitly lists two applications of the described method, one of which is the 'identification of non-local depenencies'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Identification of non-local depenencies uses Penn Treebank data.",
+      "generator_supporting_span": "identification of non-local depenencies (using Penn Treebank data)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "identification of non-local depenencies (using Penn Treebank data)",
+      "verifier_reasoning": "The source text describes experiments with two applications of a method, explicitly stating that the application for 'identification of non-local depenencies' uses 'Penn Treebank data'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Another application is semantic role labeling.",
+      "generator_supporting_span": "semantic role labeling",
+      "span_mismatch": false,
+      "verifier_supporting_span": "describe experiments with two applications of the method : identification of non-local depenencies (using Penn Treebank data) and semantic role labeling (using Proposition Bank data)",
+      "verifier_reasoning": "The source text explicitly lists two applications of the described method. The first is 'identification of non-local depenencies' and the second is 'semantic role labeling', which supports the fact that semantic role labeling is another application.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Semantic role labeling uses Proposition Bank data.",
+      "generator_supporting_span": "semantic role labeling (using Proposition Bank data)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "describe experiments with two applications of the method : identification of non-local depenencies (using Penn Treebank data) and semantic role labeling (using Proposition Bank data)",
+      "verifier_reasoning": "The source text explicitly lists two applications of the described method, stating that the semantic role labeling application used Proposition Bank data.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The method learns graph transformations.",
+      "generator_supporting_span": "learning such transformations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a general method for learning such transformations from an annotated corpus",
+      "verifier_reasoning": "The source text explicitly states that the authors present a method for a specific purpose, which is 'learning such transformations'. The preceding sentence clarifies that these are 'graph transformations'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The linguistic structures are of various types.",
+      "generator_supporting_span": "various types of linguistic structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "various types of linguistic structures",
+      "verifier_reasoning": "The source text explicitly mentions the use of labeled directed graphs to represent \"various types of linguistic structures,\" which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The graph used for representation is directed.",
+      "generator_supporting_span": "labeled directed graph",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the use of labeled directed graph to represent various types of linguistic structures",
+      "verifier_reasoning": "The source text explicitly states that the authors argue in favor of using a 'labeled directed graph' for representation, which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

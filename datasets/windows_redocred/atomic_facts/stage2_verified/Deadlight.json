@@ -1,0 +1,157 @@
+{
+  "doc_id": "Deadlight",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Deadlight is a 2012 sidescrolling cinematic platforming survival horror video game.",
+      "generator_supporting_span": "Deadlight is a 2012 sidescrolling cinematic platforming survival horror video game",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadlight is a 2012 sidescrolling cinematic platforming survival horror video game developed by Tequila Works and published by Microsoft Studios for Xbox 360 and Microsoft Windows .",
+      "verifier_reasoning": "The first sentence of the source text explicitly describes the game Deadlight using the exact same genre descriptors and year as stated in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Deadlight was developed by Tequila Works.",
+      "generator_supporting_span": "developed by Tequila Works",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadlight is a 2012 sidescrolling cinematic platforming survival horror video game developed by Tequila Works and published by Microsoft Studios for Xbox 360 and Microsoft Windows .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the video game Deadlight was developed by Tequila Works.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Deadlight was published by Microsoft Studios for Xbox 360 and Microsoft Windows.",
+      "generator_supporting_span": "published by Microsoft Studios for Xbox 360 and Microsoft Windows",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadlight is a 2012 sidescrolling cinematic platforming survival horror video game developed by Tequila Works and published by Microsoft Studios for Xbox 360 and Microsoft Windows .",
+      "verifier_reasoning": "The source text explicitly states that the video game Deadlight was published by Microsoft Studios for the Xbox 360 and Microsoft Windows platforms.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Deadlight was released for Xbox 360 in August via Xbox Live Arcade.",
+      "generator_supporting_span": "It was released for Xbox 360 in August via Xbox Live Arcade ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It was released for Xbox 360 in August via Xbox Live Arcade , and for Windows in October via Steam .",
+      "verifier_reasoning": "The source text explicitly states that the game was released for the Xbox 360 in August and that this release was via Xbox Live Arcade, directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Deadlight was released for Windows in October via Steam.",
+      "generator_supporting_span": "and for Windows in October via Steam",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It was released for Xbox 360 in August via Xbox Live Arcade , and for Windows in October via Steam .",
+      "verifier_reasoning": "The source text explicitly states the release details for the original version of the game, mentioning that it was released for Windows in October via the Steam platform.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "In 2016, a Director's Cut version of Deadlight was released for Windows, PlayStation 4 and Xbox One.",
+      "generator_supporting_span": "In 2016 , a Director 's Cut version of the game was released for Windows , PlayStation 4 and Xbox One",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In 2016 , a Director 's Cut version of the game was released for Windows , PlayStation 4 and Xbox One , published by Deep Silver .",
+      "verifier_reasoning": "The source text explicitly states that a Director's Cut version of the game was released in 2016 and lists the exact platforms mentioned in the candidate fact: Windows, PlayStation 4, and Xbox One.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The Director's Cut version of Deadlight was published by Deep Silver.",
+      "generator_supporting_span": "published by Deep Silver",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In 2016 , a Director 's Cut version of the game was released for Windows , PlayStation 4 and Xbox One , published by Deep Silver .",
+      "verifier_reasoning": "The source text explicitly states that a Director's Cut version of the game was released in 2016. The same sentence identifies the publisher of this specific version as Deep Silver.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Deadlight is intended as a throwback and homage to classic sidescrolling cinematic platformers of the 1980s and early 1990s, such as Prince of Persia, Another World and Flashback.",
+      "generator_supporting_span": "The game is intended as a throwback and homage to classic sidescrolling cinematic platformers of the 1980s and early 1990s , such as Prince of Persia , Another World and Flashback",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The game is intended as a throwback and homage to classic sidescrolling cinematic platformers of the 1980s and early 1990s , such as Prince of Persia , Another World and Flashback .",
+      "verifier_reasoning": "The source text contains a sentence that is a verbatim match for the candidate fact, explicitly stating the game's intention as a throwback and homage to specific classic games from the 1980s and 1990s.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Deadlight is set in Seattle in 1986.",
+      "generator_supporting_span": "Set in Seattle in 1986",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Set in Seattle in 1986, the game tells the story of Randall Wayne, a former park ranger who sets out to find his family in the aftermath of a zombie apocalypse.",
+      "verifier_reasoning": "The source text explicitly states the location and year in which the game is set.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Deadlight tells the story of Randall Wayne, a former park ranger, and Randall Wayne's search for Randall Wayne's family in the aftermath of a zombie apocalypse.",
+      "generator_supporting_span": "the game tells the story of Randall Wayne , a former park ranger who sets out to find his family in the aftermath of a zombie apocalypse",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the game tells the story of Randall Wayne , a former park ranger who sets out to find his family in the aftermath of a zombie apocalypse .",
+      "verifier_reasoning": "The source text explicitly states that the game's plot follows Randall Wayne, a former park ranger, as he searches for his family after a zombie apocalypse. This directly confirms all elements of the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Randall Wayne must attempt to traverse Seattle to get to the \"safe zone\".",
+      "generator_supporting_span": "Wayne must attempt to traverse Seattle to get to the \" safe zone \" ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Wayne must attempt to traverse Seattle to get to the \" safe zone \", where he believes his family will be waiting .",
+      "verifier_reasoning": "The source text explicitly states that the character, Randall Wayne, must attempt to travel across Seattle to reach a location referred to as the \"safe zone\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Randall Wayne is separated from a group Randall Wayne has joined.",
+      "generator_supporting_span": "Separated from the group with whom he has joined",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Separated from the group with whom he has joined, Wayne must attempt to traverse Seattle to get to the \"safe zone\"",
+      "verifier_reasoning": "The source text explicitly states that the protagonist, Randall Wayne, is separated from a group he had joined as he tries to traverse Seattle.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Randall Wayne must avoid both zombie hordes and a group of vigilantes known as the \"New Law\".",
+      "generator_supporting_span": "he must avoid both zombie hordes , and a group of vigilantes known as the \" New Law \" ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "On the way however, he must avoid both zombie hordes, and a group of vigilantes known as the \"New Law\", who have established themselves as the de facto authority in Seattle.",
+      "verifier_reasoning": "The source text explicitly states that the protagonist, Randall Wayne (referred to as \"he\"), must avoid two specific threats on his journey. These threats are identified as \"zombie hordes\" and \"a group of vigilantes known as the 'New Law'\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The \"New Law\" have established themselves as the de facto authority in Seattle.",
+      "generator_supporting_span": "who have established themselves as the de facto authority in Seattle",
+      "span_mismatch": false,
+      "verifier_supporting_span": "On the way however, he must avoid both zombie hordes, and a group of vigilantes known as the \"New Law\", who have established themselves as the de facto authority in Seattle.",
+      "verifier_reasoning": "The source text explicitly mentions a group of vigilantes called the \"New Law\" and states that they have established themselves as the de facto authority in Seattle.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Deadlight received mixed reviews.",
+      "generator_supporting_span": "Deadlight received mixed reviews",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Deadlight received mixed reviews, with critics praising the graphics and atmosphere, but criticizing the game 's brevity and linearity .",
+      "verifier_reasoning": "The source text explicitly states that the game's reception was mixed, using the exact phrase \"Deadlight received mixed reviews\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

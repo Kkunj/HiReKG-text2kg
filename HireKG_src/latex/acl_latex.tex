@@ -1,0 +1,741 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[review]{acl}
+ \usepackage{multirow}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+\newcommand{\todoplace}[1]{\textbf{\textcolor{red}{#1}}}
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+\usepackage{booktabs}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{HiReKG: High-Recall Knowledge Graph Extraction from Plain Text with Language Models}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+% \author{First Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   \texttt{email@domain} \\\And
+%   Second Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   \texttt{email@domain} \\}
+
+%\author{
+%  \textbf{First Author\textsuperscript{1}},
+%  \textbf{Second Author\textsuperscript{1,2}},
+%  \textbf{Third T. Author\textsuperscript{1}},
+%  \textbf{Fourth Author\textsuperscript{1}},
+%\\
+%  \textbf{Fifth Author\textsuperscript{1,2}},
+%  \textbf{Sixth Author\textsuperscript{1}},
+%  \textbf{Seventh Author\textsuperscript{1}},
+%  \textbf{Eighth Author \textsuperscript{1,2,3,4}},
+%\\
+%  \textbf{Ninth Author\textsuperscript{1}},
+%  \textbf{Tenth Author\textsuperscript{1}},
+%  \textbf{Eleventh E. Author\textsuperscript{1,2,3,4,5}},
+%  \textbf{Twelfth Author\textsuperscript{1}},
+%\\
+%  \textbf{Thirteenth Author\textsuperscript{3}},
+%  \textbf{Fourteenth F. Author\textsuperscript{2,4}},
+%  \textbf{Fifteenth Author\textsuperscript{1}},
+%  \textbf{Sixteenth Author\textsuperscript{1}},
+%\\
+%  \textbf{Seventeenth S. Author\textsuperscript{4,5}},
+%  \textbf{Eighteenth Author\textsuperscript{3,4}},
+%  \textbf{Nineteenth N. Author\textsuperscript{2,5}},
+%  \textbf{Twentieth Author\textsuperscript{1}}
+%\\
+%\\
+%  \textsuperscript{1}Affiliation 1,
+%  \textsuperscript{2}Affiliation 2,
+%  \textsuperscript{3}Affiliation 3,
+%  \textsuperscript{4}Affiliation 4,
+%  \textsuperscript{5}Affiliation 5
+%\\
+%  \small{
+%    \textbf{Correspondence:} \href{mailto:email@domain}{email@domain}
+%  }
+%}
+
+\begin{document}
+\maketitle 
+\begin{abstract}
+    Knowledge graphs (KGs) represent information as an interlinked network of entities, capturing the relational context that remains implicit in unstructured text. Most existing LLM-based text to KG converters follow an \emph{entity-first} pipeline: entities are extracted upfront, and relations are derived only between them. This design favors precision but systematically misses facts about a single entity, capping recall. We propose \textbf{HiReKG}, a high-recall extraction framework that reduces reliance on upfront entity extraction and introduces an object resolution module to keep the resulting triples cohesive. We evaluate HiReKG across three diverse datasets spanning general, scientific, and technical domains, using three LLM backbones. HiReKG improves recall over the strongest baseline by 18 percentage points on average (up to 29), with a precision trade-off of 2--9 points (5.7 on average), and recovers the single-entity facts that entity-first pipelines structurally miss.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Knowledge graphs (KGs) provide a structured representation of entities and the relations between them, enabling explicit multi-hop traversal that unstructured text alone does not support. Integrating KGs into retrieval-augmented generation and recommendation systems has been shown to substantially improve their ability to consolidate scattered context from source data \citep{llm-kg-emnlp-survey, recommendation_kg, text_summarization_kg}. These benefits have motivated a long line of work on automatic text-to-KG extraction, from classical OpenIE \citep{openie} to recent LLM-based approaches \citep{kg-llm-survey-arxiv}, all aimed at converting unstructured text into structured graphs that can be used by downstream NLP tasks.
+
+
+
+Several LLM-based methods have been proposed for text-to-KG extraction, including KGGen \citep{kggen}, RAKG \citep{rakg}, GraphRAG \citep{graphrag_microsoft}, PiVe  \citep{pive}, and iText2KG \citep{itext2kg}. Despite differences in their specific designs, all of these methods share a common pattern: entities are first extracted from the source text, and relations are then derived only between pairs of those extracted entities. We refer to this shared pattern as the \emph{entity-first} pipeline. 
+
+
+The \emph{entity-first} design favors precision because every relation is grounded against an explicit entity set, but it carries a structural consequence. Any entity missed in the first stage is lost entirely, since no relation involving it can be recovered later. Equally, any fact in source text that describes a single entity in isolation, without a second entity to pair with, falls outside the relation-extraction step by construction. Together, these two failure modes produce a systematic coverage gap, particularly on facts that involve a single entity. To address this gap, we propose \textbf{HiReKG}, a high-recall text-to-KG extraction framework that reduces reliance on upfront entity extraction, allowing the LLM to surface facts about each entity directly from the source text, including those that do not pair with a second entity. However, removing the entity-pair constraint can leave the graph disconnected and repetitive, with the same entity scattered across multiple unlinked mentions. HiReKG resolves this with an object resolution module that restores connectivity by linking these mentions into shared graph nodes.
+
+
+
+\begin{figure*}[t!]
+  \centering
+  \includegraphics[width=\textwidth]{images/flow.pdf}
+  \caption{Comparison of the entity-first paradigm (top) and proposed \textbf{HiReKG} (bottom).}
+  \label{fig:pipeline}
+\end{figure*}
+
+The main contributions of this paper are as follows:
+\begin{itemize}
+    \item \textbf{HiReKG}, a high-recall text-to-KG extraction framework that, unlike the dominant entity-first paradigm, recovers single-entity facts while preserving competitive precision.
+    \item A single-entity vs.\ multi-entity decomposition showing that entity-first baselines systematically under-recover single-entity facts, a gap that HiReKG largely closes.
+\end{itemize}
+
+
+
+
+\section{HiReKG}
+\label{sec:method}
+HiReKG extracts a knowledge graph from plain text in three stages: subject extraction, property extraction, and object resolution, followed by the refinement stage of \citet{kggen}. The source document is first split into chunks, and each stage runs over all chunks before the next begins. Figure~\ref{fig:pipeline} contrasts HiReKG with the entity-first paradigm: subject extraction mirrors the entity-extraction step of prior pipelines, but HiReKG then decouples property extraction from the entity-pair anchor and adds an object resolution step that restores graph connectivity before refinement. A full end-to-end run on a sample paragraph is provided in Appendix~\ref{app:walkthrough}.
+
+\subsection{Subject Extraction}
+\label{sec:method-subject}
+Following prior LLM-based extractors \citep{kggen, rakg}, we prompt an LLM on each chunk to identify the set of entities mentioned in the source document. Each entity in this set serves as a \emph{subject} around which information is later organized.
+
+
+\subsection{Property Extraction}
+\label{sec:method-property}
+For each chunk, the LLM is prompted to gather all information about the set of subjects identified in Section~\ref{sec:method-subject}. The output is a set of \emph{triples} \texttt{(subject, relation, object)}, where the subject is one of the extracted entities, the relation is a free-form predicate, and the object is a natural-language phrase describing a property, attribute, or related entity. Crucially, and unlike entity-first methods, the object is not constrained to be another extracted entity: it may be a date, a quantity, a descriptive clause, or a phrase that itself references one or more entities.
+
+This relaxation is what lets HiReKG recover single-entity facts. A statement such as ``The Eiffel Tower is 330 metres tall'' yields the triple \texttt{(Eiffel Tower, height, 330 metres)} keyed on a single subject, with no second entity required. 
+
+The trade-off is structural. When an object is a phrase that references other entities, those entities remain trapped inside the object string rather than appearing as proper graph nodes; for instance, ``Marie Curie won the Nobel Prize in Physics and the Nobel Prize in Chemistry'' is extracted as a single triple whose object embeds two prize entities that should each be a node in their own right. As a result, the graph initially fragments into per-subject \emph{stars}, as shown in the left pane of Figure~\ref{fig:object-resolution}. Object resolution repairs this fragmentation.
+
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.75\columnwidth]{images/obj_res.pdf}
+  \caption{Object resolution links per-subject triples (left) by merging coreferent objects into shared nodes (right).}
+  \label{fig:object-resolution}
+\end{figure}
+
+
+
+
+\subsection{Object Resolution}
+\label{sec:method-resolution}
+Object resolution rewrites raw triples so that any extracted entity appearing inside an object string becomes a proper object (Figure~\ref{fig:object-resolution}). For each raw triple, the object is normalized (lowercased, lemmatized, with determiners stripped) and matched against the extracted entity set using word-boundary string matching; triples with no match are forwarded unchanged. Triples with one embedded entity can be split apart by a fixed rule, while triples with multiple embedded entities can be split in several different ways and need the LLM to choose. We therefore use two repair procedures.
+\paragraph{Single embedded entity.} The object is tokenized and decomposed into a \emph{prefix} (text before the entity), the entity span, and a \emph{suffix} (text after the entity). In the common case, only a prefix is present: the prefix is folded into the relation and the entity becomes the new object, producing $(s, r', e)$ where $r'$ is the relation with the prefix appended. This deterministic path handles the majority of single-entity cases without an LLM call. When a suffix is present, an LLM rewrites the triple so that the entity becomes the object and any remaining content is folded into the relation.
+\paragraph{Multiple embedded entities.} The LLM is prompted with the original triple, the list of detected entities, and a structured analysis of each entity's surrounding context. It selects one of three decomposition strategies and emits a set of triples in which every embedded entity appears as a proper object. \textsc{Hub} handles parallel lists, such as the two-Nobel-Prize triple from Section~\ref{sec:method-property}; \textsc{Chain} handles sequential connectives; and \textsc{Nested} handles hierarchical phrasing.
+
+All LLM-rewritten triples are validated for entity coverage and field completeness, reverting to the original on failure. By promoting embedded entities to graph nodes, object resolution converts the per-subject \emph{stars} of Section~\ref{sec:method-property} into a connected graph without imposing the entity-first constraint at extraction time. Worked examples for each pattern (single-entity, \textsc{Hub}, \textsc{Chain}, \textsc{Nested}) appear in Appendix~\ref{app:obj-res-examples}.
+
+
+
+\section{Experiments}
+\label{sec:experiments}
+
+
+\begin{table*}[t!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{ll|cccc|cccc|cccc}
+\toprule
+& & \multicolumn{4}{c|}{\textbf{MINE-1}} & \multicolumn{4}{c|}{\textbf{SciERC}} & \multicolumn{4}{c}{\textbf{Re-DocRED}} \\
+\textbf{LLM} & \textbf{Method} & Single & Multi & Gap & Overall & Single & Multi & Gap & Overall & Single & Multi & Gap & Overall \\
+\midrule
+\multirow{3}{*}{GPT-4o} 
+& KGGen      & 59.44 & 66.07 & $-6.63$ & 65.05 & 62.74 & 68.36 & $-5.62$  & 66.17 & 35.71 & 53.89 & $-18.18$ & 49.33 \\
+& RAKG       & 63.08 & 77.68 & $-14.60$ & 74.33 & 35.71 & 35.29 & $+0.42$  & 35.46 & 37.50 & 56.29 & $-18.79$ & 51.57 \\
+& \textbf{HiReKG} & \textbf{91.28} & \textbf{94.03} & $-2.75$  & \textbf{93.40} & \textbf{81.03} & \textbf{82.02} & $-0.99$  & \textbf{81.65} & \textbf{80.36} & \textbf{80.24} & $+0.12$  & \textbf{80.27} \\
+\midrule
+\multirow{3}{*}{Qwen3-14B} 
+& KGGen      & 45.93 & 62.72 & $-16.79$ & 58.87 & 49.91 & 56.45 & $-6.54$  & 53.91 & 50.00 & 45.51 & $+4.49$  & 46.64 \\
+& RAKG       & 55.81 & 62.98 & $-7.17$  & 61.33 & 43.50 & 46.86 & $-3.36$  & 45.55 & 37.50 & 60.48 & $-22.98$ & 54.71 \\
+& \textbf{HiReKG} & \textbf{88.08} & \textbf{91.70} & $-3.62$  & \textbf{90.87} & \textbf{76.95} & \textbf{79.93} & $-2.98$  & \textbf{78.77} & \textbf{82.14} & \textbf{79.04} & $+3.10$  & \textbf{79.82} \\
+\midrule
+\multirow{3}{*}{Qwen3-8B} 
+& KGGen      & 46.29 & 58.69 & $-12.40$ & 55.85 & 53.73 & 51.93 & $+1.80$  & 52.63 & 42.86 & 49.10 & $-6.24$  & 47.53 \\
+& RAKG       & 62.50 & 77.16 & $-14.66$ & 73.80 & 64.64 & 63.62 & $+1.02$  & 64.02 & 41.07 & 59.88 & $-18.81$ & 55.16 \\
+& \textbf{HiReKG} & \textbf{77.03} & \textbf{85.29} & $-8.26$  & \textbf{83.40} & \textbf{66.90} & \textbf{68.91} & $-2.01$  & \textbf{68.13} & \textbf{60.71} & \textbf{65.27} & $-4.56$  & \textbf{64.13} \\
+\bottomrule
+\end{tabular}
+\caption{MINE Score (recall, \%) decomposed by entity count. \textbf{Single}/\textbf{Multi}: facts mentioning one or multiple entities. \textbf{Gap} = Single $-$ Multi. \textbf{Overall}: full-dataset score. \textbf{Bold} marks the best per cell.}
+\label{tab:recall}
+\end{table*}
+
+
+
+
+\begin{table}[t!]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{ll|ccc}
+\toprule
+\textbf{LLM} & \textbf{Method} & \textbf{MINE-1} & \textbf{SciERC} & \textbf{Re-DocRED} \\
+\midrule
+\multirow{3}{*}{GPT-4o} 
+& KGGen           & \textbf{90.23} & \textbf{83.44} & \textbf{85.05} \\
+& RAKG            & 57.38          & 61.11          & 64.01 \\
+& \textbf{HiReKG} & 81.06          & 78.77          & 77.46 \\
+\midrule
+\multirow{3}{*}{Qwen3-14B} 
+& KGGen           & \textbf{93.96} & \textbf{93.73} & \textbf{95.70} \\
+& RAKG            & 81.38          & 78.01          & 76.24 \\
+& \textbf{HiReKG} & 90.29          & 87.17          & 91.82 \\
+\midrule
+\multirow{3}{*}{Qwen3-8B} 
+& KGGen           & \textbf{91.83} & \textbf{90.38} & \textbf{94.74} \\
+& RAKG            & 80.90          & 73.99          & 73.79 \\
+& \textbf{HiReKG} & 89.72          & 83.12          & 88.12 \\
+\bottomrule
+\end{tabular}
+\caption{Faithfulness Score (precision, \%). KGGen leads precision in every cell; HiReKG trails by 2--9 pp while delivering the largest recall gains (Table~\ref{tab:recall}). \textbf{Bold} marks the best per cell.}
+% \label{tab:faith}
+\label{tab:faith}
+\end{table}
+
+
+
+
+\subsection{Datasets}
+\label{sec:datasets}
+We evaluate on three datasets spanning distinct text styles. \textbf{MINE-1} \citep{kggen} provides 100 LLM-generated documents paired with manually verified atomic facts that serve as a recall ground truth. \textbf{SciERC} \citep{scierc} contains 100 scientific abstracts    annotated with entities and relations, representing dense technical prose. \textbf{Re-DocRED} \citep{redocred} is a cleaned version of DocRED \citep{docred} built from Wikipedia documents; we use the 15-document subset introduced by \citet{lkd-kgc}. All three datasets have been used in recent text-to-KG work \citep{graphjudge, rakg}, enabling direct comparison with prior results.
+
+
+
+\subsection{Baselines and Metrics}
+\label{sec:baselines}
+\paragraph{Baselines.} We compare HiReKG against \textbf{KGGen} \citep{kggen} and \textbf{RAKG} \citep{rakg}, the two strongest representatives of the entity-first paradigm.
+\paragraph{Metrics.} We report recall and precision via two LLM-as-judge metrics. \textbf{MINE Score} \citep{kggen} (recall) is the ratio of ground truth atomic facts that can be inferred from the extracted graph. \textbf{Faithfulness Score} (precision), adapted from RAG evaluation \citep{ragas}, measures the fraction of extracted triples supported by the source text. As a supporting measure, the deterministic \textbf{Unique Information Ratio (UIR)} captures redundancy as the fraction of non-overlapping triples; UIR results are reported in Appendix~\ref{app:uir}. Full prompts and configurations of all metrics are in Appendix~\ref{app:metrics}.
+\paragraph{Models.} We run each method with three LLM backbones: \textbf{GPT-4o} \citep{gpt4o}, \textbf{Qwen3-14B} \citep{qwen3_14b}, and \textbf{Qwen3-8B} \citep{qwen3_8b}, spanning one flagship closed model and two open-weight models of different scales. Exact versions and hyperparameters are listed in Appendix~\ref{app:hardware}.
+
+
+
+\subsection{Single-Entity Decomposition Results}
+\label{sec:single-entity}
+Our central hypothesis is that entity-first pipelines structurally under-recover facts that describe a single entity in isolation. To test this directly, we classify each atomic fact in the ground truth as \emph{single-entity} (mentioning one of the document's entities) or \emph{multi-entity} (connecting two or more), and report the MINE Score on each subset.\footnote{Classification uses ground-truth entity annotations on SciERC and Re-DocRED, and GPT-5~\citep{gpt5} on MINE-1 with a spaCy NER sanity check (76.8\% agreement); see Appendix~\ref{app:datasets}.}
+
+Table~\ref{tab:recall} reports the decomposition, and the pattern is consistent with the hypothesis. KGGen and RAKG show a systematic single-entity deficit: their single-entity score is lower than their multi-entity score in 14 of 18 configurations, with average gaps of $-7.4$ pp and $-11.0$ pp respectively. The deficit is sharpest on Re-DocRED, where both baselines collapse to single-entity scores of $35.7\%$ and $37.5\%$ with GPT-4o while remaining above $53\%$ on multi-entity facts. HiReKG, in contrast, is near-symmetric (average gap $-2.4$ pp), and its absolute single-entity score exceeds the strongest baseline by $+24.1$ pp on average (up to $+42.9$ pp), with the largest gains precisely where the baselines collapse. The recall advantage is therefore not a generic uplift: it is concentrated on the class of facts the entity-first design undercaptures.
+
+
+
+\subsection{MINE and Faithfulness Scores}
+\label{sec:main-results}
+Tables~\ref{tab:recall} and~\ref{tab:faith} report overall recall and precision across the nine LLM--dataset configurations. HiReKG improves recall over the strongest baseline in every configuration, by $+4.1$ to $+29.5$ pp absolute ($+6.4\%$ to $+55.7\%$ relative). The gain is largest on MINE-1 and Re-DocRED with the mid-scale Qwen3-14B, and remains substantial on GPT-4o where the baselines are already at their strongest. RAKG and KGGen alternate as the stronger baseline depending on dataset and model, but HiReKG outperforms both in every cell.
+
+On Faithfulness, KGGen retains the highest score in every configuration, consistent with its strict entity-pair anchoring. HiReKG trails KGGen by $2.1$ to $9.2$ pp, with the gap narrowing on the open-weight models ($2.1$ to $7.3$ pp). HiReKG substantially outperforms RAKG, whose Faithfulness falls as low as $57.4\%$ on MINE-1 with GPT-4o. HiReKG's precision therefore sits between the two baselines while recovering the bulk of KGGen's recall gap, a net improvement for downstream tasks that value coverage.
+
+
+
+\subsection{Redundancy and Cost}
+\label{sec:cost-redundancy}
+We further measure graph redundancy via UIR and inference cost in total tokens per document. HiReKG achieves the highest overall UIR ($0.71$ vs.\ $0.68$ for KGGen and $0.59$ for RAKG), producing graphs that are less redundant per triple, a property that matters for downstream tasks~\citep{redundanyinkg}. The cost overhead is bounded: HiReKG uses roughly $3\times$ the tokens of KGGen but less than half of RAKG. The additional tokens connect the scattered triples from property extraction, driving HiReKG's recall and UIR gains. Detailed breakdowns are in Appendices~\ref{app:uir},~\ref{app:cost}, and~\ref{app:obj-res}.
+
+\section{Conclusion}
+\label{sec:conclusion}
+We presented HiReKG, a text-to-KG extraction framework that decouples property extraction from entity-pair anchoring and restores graph connectivity through a dedicated object resolution module. Across nine LLM--dataset configurations, HiReKG achieves the highest recall in every cell while keeping precision within a narrow margin of the strongest entity-first baseline. A single-entity decomposition closes the loop: the systematic deficit on facts that describe a single entity in isolation, long latent in entity-first pipelines, is empirically identified and substantially recovered by HiReKG. The result demonstrates that the coverage ceiling of current text-to-KG systems is not intrinsic to the task but is an artifact of design choices that can be relaxed without sacrificing graph quality.
+
+
+
+\section{Limitations}
+
+\paragraph{Downstream evaluation.} We evaluate HiReKG on intrinsic KG-quality metrics (recall, precision, redundancy) rather than on downstream tasks such as graph-based retrieval-augmented generation. A fair downstream comparison would require choosing retrieval methods per domain, which is a separate study in itself.
+
+\paragraph{No multi-seed variance.} The scores in Tables~\ref{tab:recall} and~\ref{tab:faith} are single-run point estimates; multi-seed confidence intervals were not feasible under our compute and API budget. We instead report per-document standard deviations in Appendix~\ref{app:variance}, which capture LLM-judge variability across documents within each configuration.
+
+\paragraph{Single-document scope.} HiReKG produces one KG per input document. Multi-document KG construction is a harder, distinct problem that requires cross-document entity linking and conflict resolution between sources, and is outside the scope of this work.
+
+\paragraph{Potential risks.}
+HiReKG outputs are LLM-generated and may contain hallucinated triples; Faithfulness quantifies but does not eliminate this. MINE and Faithfulness also rely on LLM judges and inherit their biases. Downstream systems should verify triples against the source text before treating the graph as authoritative.
+
+
+\bibliography{custom}
+
+% =====================================================================
+% PREAMBLE ADDITIONS (one-time)
+% =====================================================================
+% No tcolorbox needed any more.
+% Add to your preamble (or remove if unused elsewhere):
+%   \usepackage{xcolor}     % only if not already loaded for other reasons
+%
+% Custom stage-block style: bold rule, bold heading, indented content.
+% Survives greyscale printing because nothing depends on colour fill.
+
+\appendix
+
+\newcommand{\stageblock}[2]{%
+  \par\vspace{0.5\baselineskip}%
+  \noindent\rule{\linewidth}{0.6pt}\par
+  \noindent\textbf{#1}\par
+  \vspace{0.15\baselineskip}%
+  \begingroup
+    \footnotesize
+    \setlength{\parskip}{0pt}%
+    \setlength{\leftskip}{0.5em}%
+    #2
+  \endgroup
+  \par\vspace{0.25\baselineskip}%
+}
+
+% Compact sub-group label inside a stage block.
+\newcommand{\substage}[1]{\par\vspace{0.15\baselineskip}\noindent\emph{#1}\par}
+
+% =====================================================================
+\section{End-to-End Walkthrough}
+\label{app:walkthrough}
+
+To make the pipeline concrete, we trace HiReKG end-to-end on a single source paragraph. The blocks below show, in order, the source paragraph, subject extraction (Section~\ref{sec:method-subject}), the raw \texttt{(subject, relation, object)} triples produced by property extraction (Section~\ref{sec:method-property}), the detection step that classifies each triple by how its object relates to the extracted entity set, the triples after object resolution (Section~\ref{sec:method-resolution}), and the final canonical triples after refinement. We omit some triples (marked \texttt{\dots}) for space; the full trace is available with the code release.
+
+\stageblock{Source paragraph (2 chunks)}{%
+A butterfly's life cycle has four stages: egg, larva, pupa, and adult. Female butterflies lay eggs on host plants, usually on the underside of leaves. After hatching, the larva, called a caterpillar, feeds on leaves and grows rapidly, shedding its skin through a process known as molting. The caterpillar then attaches to a stem and forms a chrysalis, inside which it undergoes metamorphosis into a butterfly.\par
+The adult butterfly feeds on nectar through a tubular mouthpart called a proboscis, and pollinates flowers by transferring pollen between them. Adult butterflies typically live a few days to several weeks. Females then lay eggs on host plants, beginning the cycle again.%
+}
+
+\stageblock{Stage 1 --- Subject Extraction (25 subjects)}{%
+\texttt{butterfly}, \texttt{life cycle}, \texttt{egg}, \texttt{larva}, \texttt{pupa}, \texttt{adult}, \texttt{female butterflies}, \texttt{host plants}, \texttt{leaves}, \texttt{caterpillar}, \texttt{skin}, \texttt{molting}, \texttt{stem}, \texttt{chrysalis}, \texttt{metamorphosis}, \texttt{adult butterfly}, \texttt{nectar}, \texttt{tubular mouthpart}, \texttt{proboscis}, \texttt{flowers}, \texttt{pollen}, \texttt{females}, \texttt{cycle}, \dots%
+}
+
+\stageblock{Stage 2 --- Property Extraction (raw triples, 20 total)}{%
+\texttt{(life cycle, has, four stages: egg, larva, pupa, and adult)}\par
+\texttt{(female butterflies, lay, eggs on host plants)}\par
+\texttt{(female butterflies, lay eggs on, the underside of leaves)}\par
+\texttt{(larva, is called, a caterpillar)}\par
+\texttt{(larva, grows, rapidly)}\par
+\texttt{(larva, sheds, its skin)}\par
+\texttt{(caterpillar, undergoes, metamorphosis into a butterfly)}\par
+\texttt{(adult butterfly, feeds on, nectar)}\par
+\texttt{(adult butterfly, feeds through, a tubular mouthpart called a proboscis)}\par
+\texttt{(adult butterfly, live, a few days to several weeks)}\par
+\dots%
+}
+
+\stageblock{Stage 3 --- Detection (route each triple by entity count in object)}
+
+The object string is normalized and matched against the extracted entity set. In the displayed triples, \texttt{[prefix]} marks the text before a matched entity, \texttt{\{suffix\}} marks the text after, and \texttt{\guillemotleft entity\guillemotright} marks a matched entity span.{%
+
+
+\textbf{\substage{Clean (no embedded entity, forwarded as-is)}}
+\texttt{(larva, grows, rapidly)}\par
+\texttt{(adult butterfly, live, a few days to several weeks)}
+
+textbf{\substage{Single embedded entity (deterministic prefix/suffix split)}}
+\texttt{(larva, is called, [a] \guillemotleft caterpillar\guillemotright)}\par
+\texttt{(larva, sheds, [its] \guillemotleft skin\guillemotright)}\par
+\texttt{(caterpillar, forms, [a] \guillemotleft chrysalis\guillemotright)}\par
+\texttt{(female butterflies, lay eggs on, [the underside of] \guillemotleft leaves\guillemotright)}\par
+\texttt{(adult butterfly, transfers, \guillemotleft pollen\guillemotright\ \{between them\})}
+
+\textbf{\substage{Multiple embedded entities (LLM-chosen strategy)}}
+\texttt{(life cycle, has, four stages: \guillemotleft egg\guillemotright, \guillemotleft larva\guillemotright, \guillemotleft pupa\guillemotright, and \guillemotleft adult\guillemotright)}\par
+\texttt{(female butterflies, lay, \guillemotleft eggs\guillemotright\ on \guillemotleft host plants\guillemotright)}\par
+\texttt{(adult butterfly, feeds through, a \guillemotleft tubular mouthpart\guillemotright\ called a \guillemotleft proboscis\guillemotright)}\par
+\texttt{(caterpillar, undergoes, \guillemotleft metamorphosis\guillemotright\ into a \guillemotleft butterfly\guillemotright)}\par
+\dots%
+}
+
+\stageblock{Stage 4 --- Object Resolution (28 triples, grouped by strategy)}{%
+\textbf{\substage{Clean (forwarded unchanged)}}
+\texttt{(larva, grows, rapidly)}\par
+\texttt{(adult butterfly, live, a few days to several weeks)}
+
+\textbf{\substage{Single-entity --- prefix folded into relation}}
+\texttt{(female butterflies, lay eggs on the underside of, leaves)}\par
+\texttt{(larva, is called, caterpillar)}\par
+\texttt{(larva, sheds its, skin)}\par
+\texttt{(caterpillar, attaches to, stem)}\par
+\texttt{(caterpillar, forms, chrysalis)}
+
+\textbf{\substage{Multi-entity --- \textsc{Hub} (parallel list of objects)}}
+\texttt{(life cycle, has stage, egg)}\par
+\texttt{(life cycle, has stage, larva)}\par
+\texttt{(life cycle, has stage, pupa)}\par
+\texttt{(life cycle, has stage, adult)}
+
+\textbf{\substage{Multi-entity --- \textsc{Chain} (sequential connectives)}}
+\texttt{(female butterflies, lay, eggs)}\par
+\texttt{(eggs, laid on, host plants)}\par
+\texttt{(caterpillar, undergoes, metamorphosis)}\par
+\texttt{(metamorphosis, into, butterfly)}
+
+\textbf{\substage{Multi-entity --- \textsc{Nested} (appositive / definitional)}}
+\texttt{(adult butterfly, feeds through a, tubular mouthpart)}\par
+\texttt{(tubular mouthpart, called a, proboscis)}\par
+\dots%
+}
+
+\stageblock{Stage 5 --- Refinement (canonicalization, 24 entities)}
+
+Refinement canonicalizes surface variants in the entity set. On this trace, the plural form \texttt{eggs} is folded into the singular \texttt{egg}, and the redundant second occurrence of \texttt{host plants} is removed, reducing the entity set from 25 to 24. Triples referencing the dropped surface forms are rewritten against the canonical entity, yielding the final knowledge graph.%
+
+
+
+A brief commentary on what each stage contributes. Subject extraction recovers the entities that anchor the document. Property extraction lifts the entity-pair constraint, allowing free-form objects: this is what preserves single-entity facts such as \texttt{(larva, grows, rapidly)} and \texttt{(adult butterfly, live, a few days to several weeks)}, which entity-first pipelines drop by construction. The detection step then partitions raw triples into a clean set, a single-embedded-entity set that the prefix/suffix rule resolves deterministically, and a multi-embedded-entity set routed to the LLM for \textsc{Hub}, \textsc{Chain}, or \textsc{Nested} decomposition. Object resolution applies these branches: a single raw triple about the four life-cycle stages becomes four \texttt{has stage} edges, and the appositive \texttt{a tubular mouthpart called a proboscis} becomes a two-hop chain. Refinement performs surface-form deduplication without changing semantics.
+
+
+\section{Object Resolution: Worked Examples}
+\label{app:obj-res-examples}
+
+Table~\ref{tab:obj-res-examples} shows one worked example for each of the five resolution patterns introduced in Section~\ref{sec:method-resolution}. The first four rows are drawn from the end-to-end walkthrough in Appendix~\ref{app:walkthrough}; the \textsc{Nested} row uses a constructed example, since the butterfly paragraph does not contain an appositive in the object position.
+
+\begin{table*}[t!]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{0.13\linewidth} | p{0.27\linewidth} | p{0.13\linewidth} | p{0.34\linewidth}}
+\toprule
+\textbf{Pattern} & \textbf{Raw triple (Stage 2 output)} & \textbf{Embedded entities} & \textbf{Resolved triples (Stage 4 output)} \\
+\midrule
+Clean & \texttt{(larva, grows, rapidly)} & \emph{none} & \texttt{(larva, grows, rapidly)} \\
+\midrule
+Single-entity \newline (prefix) & \texttt{(female butterflies, lay eggs on, the underside of leaves)} & \texttt{leaves} & \texttt{(female butterflies, lay eggs on the underside of, leaves)} \\
+\midrule
+Single-entity \newline (suffix) & \texttt{(adult butterfly, transfers, pollen between them)} & \texttt{pollen} & \texttt{(adult butterfly, transfers among themselves, pollen)} \\
+\midrule
+\textsc{Hub} & \texttt{(life cycle, has, four stages: egg, larva, pupa, and adult)} & \texttt{egg}, \texttt{larva}, \texttt{pupa}, \texttt{adult} & \texttt{(life cycle, has stage, egg)} \newline \texttt{(life cycle, has stage, larva)} \newline \texttt{(life cycle, has stage, pupa)} \newline \texttt{(life cycle, has stage, adult)} \\
+\midrule
+\textsc{Chain} & \texttt{(female butterflies, lay, eggs on host plants)} & \texttt{eggs}, \texttt{host plants} & \texttt{(female butterflies, lay, eggs)} \newline \texttt{(eggs, laid on, host plants)} \\
+\midrule
+\textsc{Nested}\textsuperscript{$\ddagger$} & \texttt{(treaty, signed in, Paris, the capital of France)} & \texttt{Paris}, \texttt{France} & \texttt{(treaty, signed in, Paris)} \newline \texttt{(Paris, capital of, France)} \\
+\bottomrule
+\end{tabular}
+\caption{Worked examples for the five object-resolution patterns. The first four rows come from the butterfly walkthrough (Appendix~\ref{app:walkthrough}); the \textsc{Nested} row is constructed. \textsuperscript{$\ddagger$}~Constructed example; the butterfly paragraph does not contain an appositive in the object position.}
+\label{tab:obj-res-examples}
+\end{table*}
+
+
+\section{Evaluation Prompts and Judge Configuration}
+\label{app:metrics}
+
+Both MINE Score and Faithfulness Score are LLM-as-judge metrics. This appendix provides the verbatim prompts and the judge configuration used in all reported experiments.
+
+\paragraph{Judge models.} To avoid same-model bias between extractor and judge, the judge is matched by tier: \textbf{GPT-5}~\citep{gpt5} judges all knowledge graphs extracted by GPT-4o, and \textbf{Qwen3-32B}~\citep{qwen3_32b_fp8} judges all knowledge graphs extracted by Qwen3-14B and Qwen3-8B. The judge model is held fixed across HiReKG and both baselines within each tier, so the comparison is symmetric. Both judges are queried at high reasoning effort, with structured JSON output, and outputs that fail to parse as valid JSON are counted as judge errors and excluded from the denominator (see scoring formulas below).
+
+\paragraph{MINE Score (recall).} For each ground-truth atomic fact, top-$k{=}8$ KG nodes are retrieved by cosine similarity over \texttt{all-MiniLM-L6-v2} embeddings of the fact against each node name. Each retrieved node is expanded by a two-hop traversal over outgoing and incoming edges, and every traversed edge $(s, r, o)$ is serialized as the sentence \texttt{"$s$ $r$ $o$."} (or \texttt{"$o$ $r$ $s$."} for incoming edges). The resulting sentences are joined with single spaces into a flat context blob. We use the canonical retrieval routine from \texttt{kg-gen}~\citep{kggen} unchanged across all methods. The judge is then prompted with the context blob and the atomic fact:
+
+\stageblock{MINE Score judge prompt (system + user)}{%
+\textit{System:} You are an evaluator. Determine whether the provided context contains the information stated in the given correct answer. Think step-by-step internally, then respond with valid JSON of the form \texttt{\{"reasoning": "<brief reasoning>", "evaluation": 0 | 1\}}. Rules: \texttt{evaluation = 1} if the context contains (supports) the correct answer, \texttt{0} otherwise. Evaluate on information content, not exact wording; paraphrases are fine. If the context is empty or irrelevant, return \texttt{0}. Output ONLY the JSON object, no code fences, no extra keys.\par
+\textit{User:} \texttt{Context:\textbackslash n---\textbackslash n\{context\}\textbackslash n---\textbackslash n\textbackslash nCorrect answer:\textbackslash n---\textbackslash n\{correct\_answer\}\textbackslash n---\textbackslash n\textbackslash nDoes the context contain the information stated in the correct answer? Respond with JSON.}%
+}
+
+\noindent The per-document MINE Score is the fraction of facts judged \texttt{evaluation = 1}, averaged across documents.
+
+\paragraph{Faithfulness Score (precision).} For each predicted triple $(s, r, o)$, a verbalization LLM converts the triple into a single self-contained English sentence (the \emph{statement}) using the prompt below. The same retrieval embedder \texttt{all-MiniLM-L6-v2} is then used to retrieve the top-$k{=}5$ most similar chunks of the source document as context. The judge receives the context and the statement and emits a \texttt{SUPPORTED}/\texttt{NOT\_SUPPORTED} verdict with a required verbatim supporting span:
+
+\stageblock{Faithfulness Score verbalization prompt}{%
+You convert a structured knowledge-graph triple (subject, predicate, object) into ONE self-contained English sentence that asserts the same fact.\par
+\smallskip
+\textit{Strict rules:} Produce exactly ONE declarative sentence with no preamble. Preserve the subject and object strings verbatim; do not paraphrase, expand, abbreviate, change capitalization, or substitute synonyms. The predicate may be lightly inflected (tense, articles, auxiliary verbs) only as needed to form a grammatical sentence. Do not introduce information not present in the triple. Do not use pronouns; refer to the subject and object by their exact strings. Output only the sentence.\par
+\smallskip
+\textit{Input:} \texttt{subject: \{subject\}; predicate: \{predicate\}; object: \{object\}}.%
+}
+
+\stageblock{Faithfulness Score judge prompt}{%
+You are an entailment judge for knowledge-graph faithfulness evaluation. Given a SOURCE TEXT and a STATEMENT (verbalized from a predicted KG triple), decide whether the source text SUPPORTS the statement.\par
+\smallskip
+\textit{Verdicts:} \texttt{SUPPORTED} if the source text explicitly entails the statement (paraphrases count, but the same proposition must be expressible from the source's wording). \texttt{NOT\_SUPPORTED} if the source either contradicts the statement or is simply silent on it.\par
+\smallskip
+\textit{Strict rules:} Use ONLY the source text; ignore world knowledge and prior beliefs. Before deciding, attempt to identify a verbatim span from the source. If a span supports or contradicts the statement, copy it exactly; if the source is silent, set \texttt{supporting\_span} to \texttt{null}. The \texttt{reasoning} field (1--2 sentences) must explicitly relate the cited span (or its absence) to the statement. Output a single strict JSON object with keys \texttt{supporting\_span}, \texttt{reasoning}, \texttt{verdict} in that order. No code fences, no extra keys.%
+}
+
+\noindent The verbalizer runs on GPT-5-mini (closed tier) or Qwen3-32B (open tier) at low reasoning effort. The per-document Faithfulness Score is
+\[
+\text{Faithfulness} = \frac{n_{\text{supported}}}{n_{\text{total}} - n_{\text{malformed}} - n_{\text{judge\_errors}}},
+\]
+where $n_{\text{malformed}}$ counts triples whose verbalization failed schema validation and $n_{\text{judge\_errors}}$ counts judge outputs that failed JSON parsing. The dataset score is the mean of per-document scores.
+
+% \section{Implementation Details}
+% \label{app:implementation}
+
+% This appendix records the implementation details required to reproduce the results in the main paper. Section~\ref{app:models} lists the language models and inference settings, Section~\ref{app:chunking} describes the chunking and preprocessing used by each method, Section~\ref{app:thresholds} reports the thresholds used in \textbf{HiReKG} and in the evaluation pipelines, Section~\ref{app:baselines} describes the baseline implementations, Section~\ref{app:hardware} reports the serving stack and hardware, and Section~\ref{app:prompts} lists every prompt used in the system.
+
+
+\section{Models and Hyperparameters}
+\label{app:hardware}
+
+All extraction and judging calls use the same model snapshots across HiReKG, KGGen, and RAKG, so observed differences reflect pipeline design rather than the choice of LLM. The extractors are \texttt{gpt-4o-2024-08-06} (matching the snapshot in \citealp{kggen}) and the FP8-quantized open-source models \texttt{Qwen/Qwen3-14B-FP8} and \texttt{Qwen/Qwen3-8B-FP8}. The judge is \texttt{gpt-5-2025-08-07} for the GPT-4o runs and \texttt{Qwen/Qwen3-32B-FP8} for the Qwen3 runs; the latter is held distinct from both Qwen3 extractors to avoid same-model bias.
+
+\paragraph{Decoding and chunking.} Table~\ref{tab:hparams} summarizes per-method decoding and chunking. Top-$p$ and seed are left unset; streaming is disabled so responses return as complete JSON. Chunking is part of each published pipeline and is not normalized across methods.
+
+\begin{table}[t!]
+\centering
+\small
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Setting} & \textbf{HiReKG} & \textbf{KGGen} & \textbf{RAKG} \\
+\midrule
+Temperature       & 0.0 / 0.2 & 0.0 & 0.0 \\
+Max output tokens & 13{,}000  & 10{,}000 & 13{,}000 \\
+Max retries       & 3         & 3        & 3 \\
+\midrule
+Chunk unit        & sentences & characters & sentences \\
+Chunk size        & 3--4 sent.\textsuperscript{$\dagger$} & 3000 chars & 1 sent. \\
+Sentencizer       & \texttt{en\_core\_web\_sm} & --- & native \\
+\bottomrule
+\end{tabular}
+\caption{Decoding and chunking configuration. \textsuperscript{$\dagger$}~HiReKG uses 3 sentences per chunk in OpenAI Batch mode (temperature 0.0) and 4 sentences per chunk in non-batched mode (temperature 0.2).}
+\label{tab:hparams}
+\end{table}
+
+\paragraph{Pipeline thresholds.} Every numerical threshold used inside HiReKG and the evaluation pipelines is listed below.
+
+\smallskip
+\noindent\textit{HiReKG internals.} Entity refinement mode \texttt{llm} (batch) with \texttt{WordNetLemmatizer} normalization. Semantic linking uses \texttt{BAAI/bge-m3} embeddings with \texttt{cluster\_distance\_threshold}$=0.99$ and \texttt{min\_cluster\_size}$=2$.
+
+\smallskip
+\noindent\textit{Evaluation pipelines.} \textbf{MINE Score} retrieves the top-$k{=}8$ KG nodes by \texttt{all-MiniLM-L6-v2} cosine similarity and expands to a 2-hop subgraph (defaults from \citealp{kggen}). \textbf{Faithfulness Score} retrieves the top-$k{=}5$ most similar source chunks for each verbalized triple, also using \texttt{all-MiniLM-L6-v2}. \textbf{UIR} embeds verbalized triples with \texttt{all-MiniLM-L6-v2} and clusters by pairwise BERTScore.
+
+\smallskip
+\noindent\textit{Baselines.} KGGen deduplication uses \texttt{semhash\_threshold}$=0.95$. RAKG retrieval uses \texttt{BAAI/bge-m3} embeddings with \texttt{similarity\_threshold}$=0.60$ and \texttt{retrieval\_top\_k}$=5$.
+
+\subsection{Baseline Implementations}
+\label{app:baselines}
+
+We use the official open-source implementations of both baselines without modification to their core logic. 
+
+\subsection{Serving Stack and Hardware}
+\label{app:serving_stack}
+
+The two Qwen3 models are served locally with \texttt{vLLM} using FP8 quantization. The GPT-4o and GPT-5 calls are issued through the OpenAI API; GPT-4o extraction calls additionally use the OpenAI Batch API for cost efficiency on the larger Qwen-comparable runs. Experiments are distributed across two servers: one with a single NVIDIA A100 80GB GPU and one with a single NVIDIA H100 80GB GPU. Different datasets are run on whichever server is free at the time, so the assignment of dataset to GPU type is not informative; the extraction LLMs themselves are deterministic enough at temperature $0.0$--$0.2$ that the GPU model does not materially affect the reported scores.
+
+
+\section{Unique Information Ratio}
+\label{app:uir}
+
+\paragraph{Metric.} The Unique Information Ratio (UIR) measures redundancy among predicted triples. Each triple $(s, r, o)$ is verbalized into a short sentence and embedded with \texttt{all-MiniLM-L6-v2}; pairs whose embedding similarity exceeds a threshold are clustered together, so that paraphrased triples expressing the same fact collapse into a single cluster. UIR is defined as
+\[
+\mathrm{UIR} = \frac{n_{\text{clusters}}}{n_{\text{triples}}},
+\]
+where higher values indicate that every triple contributes a distinct fact and lower values indicate redundancy. A graph in which every triple is unique has $\mathrm{UIR}=1.0$; a graph whose triples collapse into half as many distinct facts has $\mathrm{UIR}=0.5$.
+
+\paragraph{Per-dataset results.} Table~\ref{tab:uir} reports UIR for each method on each dataset, averaged across the three extractor LLMs (GPT-4o, Qwen3-14B, Qwen3-8B).
+
+
+\begin{table*}[t!]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{l|rrr|rrr|rrr}
+\toprule
+& \multicolumn{3}{c|}{\textbf{MINE-1}} & \multicolumn{3}{c|}{\textbf{SciERC}} & \multicolumn{3}{c}{\textbf{Re-DocRED}} \\
+\textbf{LLM} & Rep.\ \% & Fail \% & Yield \% & Rep.\ \% & Fail \% & Yield \% & Rep.\ \% & Fail \% & Yield \% \\
+\midrule
+GPT-4o    & 72.0 &  1.5 & $+$37.8 & 57.3 &  0.3 & $+$17.5 & 73.8 &  0.4 & $+$38.5 \\
+Qwen3-14B & 63.9 & 13.4 & $+$13.3 & 68.7 & 11.7 & $+$14.5 & 74.4 &  9.5 & $+$9.1  \\
+Qwen3-8B  & 64.9 &  2.4 & $+$11.1 & 68.8 &  2.2 & $+$13.2 & 66.9 &  2.4 & $+$12.2 \\
+\bottomrule
+\end{tabular}
+\caption{Object resolution statistics across nine LLM--dataset configurations. Aggregated across configurations (triple-weighted), the module repairs $67.0\%$ of raw triples, fails on $5.6\%$, and increases the final triple count by $+20.4\%$.}
+\label{tab:obj-res-stats}
+\end{table*}
+
+
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{l|ccc|c}
+\toprule
+\textbf{Method} & \textbf{MINE-1} & \textbf{SciERC} & \textbf{Re-DocRED} & \textbf{Overall} \\
+\midrule
+KGGen           & \textbf{0.69} & 0.80          & 0.54          & 0.68 \\
+RAKG            & 0.58          & 0.69          & 0.49          & 0.59 \\
+\textbf{HiReKG} & 0.65          & \textbf{0.83} & \textbf{0.65} & \textbf{0.71} \\
+\bottomrule
+\end{tabular}
+\caption{Unique Information Ratio (UIR), averaged across GPT-4o, Qwen3-14B, and Qwen3-8B for each (method, dataset) pair. \textbf{Bold} marks the best per column.}
+\label{tab:uir}
+\end{table}
+
+
+
+\paragraph{Discussion.} HiReKG achieves the highest overall UIR ($0.71$), ahead of KGGen ($0.68$) and RAKG ($0.59$). The advantage is largest on Re-DocRED ($+10.9$ pp over KGGen), where the longer Wikipedia-style documents give entity-first methods more opportunities to emit paraphrased triples, and on SciERC ($+2.9$ pp over KGGen). KGGen edges HiReKG on MINE-1 ($0.69$ vs.\ $0.65$, a $3.7$ pp gap), reflecting KGGen's strict entity-pair anchoring on a dataset where the short LLM-generated documents naturally yield fewer redundant triples to begin with. RAKG trails on every dataset, consistent with its much higher absolute triple counts (38{,}249 raw triples across all configurations, against $25{,}925$ for HiReKG and $16{,}379$ for KGGen) inflating the denominator faster than the cluster count.
+
+
+\section{Inference Cost}
+\label{app:cost}
+
+Table~\ref{tab:cost} reports the average per-document token cost of each method, averaged across the three extractor LLMs (GPT-4o, Qwen3-14B, Qwen3-8B). Counts are total tokens billed to the inference API, decomposed into input and output.
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{ll|rrr}
+\toprule
+\textbf{Method} & \textbf{Tokens} & \textbf{MINE-1} & \textbf{SciERC} & \textbf{Re-DocRED} \\
+\midrule
+\multirow{3}{*}{KGGen}
+  & Input  &   4{,}829 &   2{,}107 &   2{,}161 \\
+  & Output &  16{,}721 &   3{,}864 &   6{,}959 \\
+  & Total  &  21{,}550 &   5{,}971 &   9{,}120 \\
+\midrule
+\multirow{3}{*}{RAKG}
+  & Input  &  65{,}889 &   6{,}803 &  29{,}140 \\
+  & Output &  99{,}079 &  17{,}877 &  51{,}336 \\
+  & Total  & 164{,}968 &  24{,}680 &  80{,}476 \\
+\midrule
+\multirow{3}{*}{\textbf{HiReKG}}
+  & Input  &  22{,}150 &   4{,}653 &   8{,}808 \\
+  & Output &  42{,}382 &  10{,}936 &  18{,}534 \\
+  & Total  &  64{,}532 &  15{,}589 &  27{,}342 \\
+\bottomrule
+\end{tabular}
+\caption{Average tokens per document, averaged across the three extractor LLMs. Input/output split exposes which methods are retrieval-heavy (input) versus generation-heavy (output).}
+\label{tab:cost}
+\end{table}
+
+
+
+HiReKG sits between the two baselines on every dataset. Averaging across datasets, HiReKG uses $2.9\times$ the tokens of KGGen ($35.8$k vs.\ $12.2$k per document) but only $0.40\times$ the tokens of RAKG ($35.8$k vs.\ $90.0$k). The per-dataset ratio against KGGen is stable ($2.6$--$3.0\times$), confirming that the cost overhead is constant across text styles rather than concentrated on any one dataset. Against RAKG the gap is widest on Re-DocRED, where HiReKG uses $0.34\times$ the tokens; this is the dataset where RAKG's per-document retrieval cost is highest. Output tokens dominate the cost of all three methods ($62$--$75\%$ of the total), so the differences in total cost track the differences in generation volume rather than retrieval volume. The output tokens also include the tokens used for thinking.
+
+\section{Object Resolution Statistics}
+\label{app:obj-res}
+
+Table~\ref{tab:obj-res-stats} reports the operational statistics of the object resolution module across all nine LLM--dataset configurations. \textbf{Rep.\ \%} is the fraction of raw extractor triples that the module rewrites; \textbf{Fail \%} is the fraction whose rewrite fails validation and reverts to the original; \textbf{Yield \%} is the net change in triple count after resolution. The remainder of triples in each cell pass through unchanged.
+
+
+
+The repair rate is tightly bounded across configurations ($57.3$--$74.4\%$), showing that object resolution fires at a stable rate independent of dataset or extractor scale. The clean rate (fraction of triples forwarded unchanged) ranges from $16.1\%$ to $42.4\%$, confirming that the module is adaptive: well-formed triples are forwarded as-is rather than rewritten. Yield is largest where GPT-4o produces dense compound objects that the module decomposes ($+38.5\%$ on Re-DocRED, $+37.8\%$ on MINE-1) and smallest where Qwen3-14B's higher fail rate ($9.5$--$13.4\%$) reverts more triples to their unprocessed form ($+9.1\%$ on Re-DocRED). The elevated Qwen3-14B fail rate is concentrated entirely in this configuration and does not appear in 8B scale; we attribute it to occasional JSON-schema deviations in the mid-scale model's output, which the validation layer correctly catches before downstream stages.
+
+
+\section{Single/Multi-Entity Classification}
+\label{app:datasets}
+
+The single-entity decomposition reported in Section~\ref{sec:single-entity} requires classifying every atomic fact in the recall ground truth as \emph{single-entity} (mentioning exactly one of the document's entities) or \emph{multi-entity} (mentioning two or more). The classifier differs by dataset because the available annotations differ.
+
+\paragraph{SciERC and Re-DocRED.} Both datasets provide gold-annotated entity sets for each document. We apply deterministic string matching: each annotated entity is searched in the fact text with case-insensitive, whitespace-normalized, word-boundary-aware regex matching. Overlapping matches are deduplicated by retaining only the longest non-overlapping span, so that ``Microsoft Windows'' is not double-counted as ``Microsoft'' plus ``Windows''. A fact with one matched entity is labeled single-entity, with two or more matched entities multi-entity, and with zero matched entities ambiguous (the latter folded into multi-entity for analysis, matching the strictest possible single-entity definition).
+
+\paragraph{MINE-1.} MINE-1 atomic facts do not come with annotated entity sets, so deterministic matching is not available. We classify each fact with GPT-5~\citep{gpt5} using a zero-shot prompt that asks the model to count the entities mentioned in the fact and emit one of \texttt{single-entity}, \texttt{multiple-entity}, or \texttt{ambiguous}. The prompt instructs GPT-5 to treat both proper nouns (e.g., ``Marie Curie'') and common-noun entities (e.g., ``butterfly'', ``chrysalis'') as entities, since MINE-1's LLM-generated explanatory prose contains few proper nouns. Ambiguous facts are again folded into multi-entity for analysis.
+
+\paragraph{Validation against spaCy NER.} We validated the GPT-5 labels against spaCy NER (\texttt{en\_core\_web\_sm}), applying the same count-based classification rule to spaCy's entity spans. Across $1{,}500$ MINE-1 facts, GPT-5 and spaCy agreed on $76.8\%$ of labels (Cohen's $\kappa = 0.32$). The disagreement is asymmetric and concentrated where expected: spaCy systematically under-recognizes common-noun entities that off-the-shelf NER models are not trained to tag (``butterfly'', ``caterpillar'', ``chrysalis''), but agrees strongly with GPT-5 on facts containing proper nouns ($P{=}0.84$, $R{=}0.86$ on multi-entity facts). Our analysis uses the GPT-5 labels because they more accurately reflect MINE-1's actual entity structure; the residual disagreement on common-noun-heavy facts is the expected behavior of off-the-shelf NER rather than a labeling error.
+
+\paragraph{Fact distribution.} Table~\ref{tab:fact-distribution} reports the resulting single-entity and multi-entity counts per dataset (ambiguous facts folded into multi-entity per the convention above). SciERC is the most balanced of the three; MINE-1 and Re-DocRED are similarly skewed toward multi-entity, with single-entity facts forming roughly a quarter of each dataset. Re-DocRED's smaller absolute count ($56$ single-entity facts) reflects its 15-document scope and is sufficient for the per-cell averages reported in Section~\ref{sec:single-entity}.
+
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{ll|c|c|c}
+\toprule
+\textbf{LLM} & \textbf{Method} & \textbf{MINE-1} & \textbf{SciERC} & \textbf{Re-DocRED} \\
+\midrule
+\multirow{3}{*}{GPT-4o}
+  & KGGen           & $65.88 \pm 18.83$ & $66.23 \pm 18.18$ & $49.21 \pm 22.19$ \\
+  & RAKG            & $74.33 \pm 16.37$ & $33.34 \pm 20.38$ & $51.43 \pm 15.40$ \\
+  & \textbf{HiReKG} & $\mathbf{93.40 \pm \phantom{0}7.51}$ & $\mathbf{80.15 \pm 13.94}$ & $\mathbf{80.19 \pm 13.83}$ \\
+\midrule
+\multirow{3}{*}{Qwen3-14B}
+  & KGGen           & $58.87 \pm 21.93$ & $53.81 \pm 20.34$ & $46.70 \pm 23.87$ \\
+  & RAKG            & $61.33 \pm 17.76$ & $45.58 \pm 18.85$ & $54.79 \pm 13.22$ \\
+  & \textbf{HiReKG} & $\mathbf{90.87 \pm \phantom{0}9.17}$ & $\mathbf{78.74 \pm 15.97}$ & $\mathbf{79.81 \pm 10.34}$ \\
+\midrule
+\multirow{3}{*}{Qwen3-8B}
+  & KGGen           & $54.73 \pm 22.08$ & $52.52 \pm 18.63$ & $47.36 \pm 16.65$ \\
+  & RAKG            & $73.80 \pm 15.12$ & $63.97 \pm 18.64$ & $55.14 \pm 14.61$ \\
+  & \textbf{HiReKG} & $\mathbf{83.40 \pm 11.17}$ & $\mathbf{68.10 \pm 17.43}$ & $\mathbf{64.16 \pm 17.73}$ \\
+\bottomrule
+\end{tabular}
+\caption{MINE Score (\%) reported as mean $\pm$ standard deviation across documents within each (method, dataset, LLM) configuration.}
+\label{tab:variance}
+\end{table*}
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{l|rrr}
+\toprule
+\textbf{Dataset} & \textbf{Single} & \textbf{Multi} & \textbf{Total} \\
+\midrule
+MINE-1    & 344 (22.9\%) & 1{,}156 (77.1\%) & 1{,}500 \\
+SciERC    & 577 (38.9\%) &   907  (61.1\%)  & 1{,}484 \\
+Re-DocRED &  56 (25.1\%) &   167  (74.9\%)  & 223 \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of atomic facts across single-entity and multi-entity classes per dataset, after folding the small ambiguous bucket into multi-entity (Section~\ref{sec:single-entity}).}
+\label{tab:fact-distribution}
+\end{table}
+
+% \FloatBarrier
+% \section{Per-Document Variance}
+\section{Per-Document Variance}
+\label{app:variance}
+
+
+
+Table~\ref{tab:variance} reports the per-document mean and standard deviation of MINE Score for each method, dataset, and extractor LLM. Each value is computed across the documents in the dataset's evaluation split, after running the full extraction and judging pipeline once per document.
+
+
+\paragraph{Variance reduction.} Beyond the recall gains reported in the main paper, HiReKG also exhibits consistently lower per-document variance than either baseline. Averaged across the nine configurations, HiReKG's standard deviation is $13.0$, compared with $16.7$ for RAKG and $20.3$ for KGGen. The reduction is largest on MINE-1 with GPT-4o ($-8.9$ std relative to the strongest baseline) and holds in 8 of 9 configurations; the single exception is Re-DocRED with Qwen3-8B ($+3.1$ std), which is also the only configuration where HiReKG's mean score does not exceed the strongest baseline by a wide margin. Lower variance means HiReKG's recall advantage is distributed across documents rather than driven by a small number of high-scoring outliers, which makes the headline gains in Section~\ref{sec:main-results} more reliable as a per-document expectation.
+
+\paragraph{What is and is not measured.} The standard deviations above capture variation \emph{across documents} within a single run of each pipeline. They do not capture variation \emph{across LLM rollouts} on the same document, which would require multi-seed runs that were not feasible under our compute budget. We note this as a limitation.
+
+
+\section{Artifacts and Licenses}
+\label{app:licenses}
+MINE-1, KGGen \citep{kggen}, Re-DocRED \citep{redocred}, DocRED \citep{docred}, RAKG \citep{rakg}, and spaCy are released under the MIT License. SciERC \citep{scierc} is released under CC BY 4.0. Qwen3-14B and Qwen3-8B \citep{qwen3_14b, qwen3_8b} are released under Apache 2.0; GPT-4o \citep{gpt4o} is accessed via the OpenAI API. All use is consistent with the respective licenses and intended for research. HiReKG is released under the MIT License.
+
+
+\end{document}

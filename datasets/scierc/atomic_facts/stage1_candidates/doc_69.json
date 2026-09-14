@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_69",
+  "facts": [
+    {
+      "fact": "The paper investigates some computational problems.",
+      "supporting_span": "This paper investigates some computational problems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper investigates computational problems associated with probabilistic translation models.",
+      "supporting_span": "This paper investigates some computational problems associated with probabilistic translation models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Probabilistic translation models have recently been adopted in the literature on machine translation.",
+      "supporting_span": "probabilistic translation models that have recently been adopted in the literature on machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The literature is on machine translation.",
+      "supporting_span": "the literature on machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Probabilistic translation models can be viewed as pairs of probabilistic context-free grammars.",
+      "supporting_span": "These models can be viewed as pairs of probabilistic context-free grammars",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The probabilistic context-free grammars are working in a synchronous way.",
+      "supporting_span": "working in a ` synchronous ' way",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Two hardness results for the class NP are reported.",
+      "supporting_span": "Two hardness results for the class NP are reported",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The hardness results are for the class NP.",
+      "supporting_span": "hardness results for the class NP",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An exponential time lower-bound for certain classes of algorithms is reported.",
+      "supporting_span": "an exponential time lower-bound for certain classes of algorithms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Certain classes of algorithms are currently used in the literature.",
+      "supporting_span": "certain classes of algorithms that are currently used in the literature",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An exponential time lower-bound for certain classes of algorithms that are currently used in the literature is reported.",
+      "supporting_span": "an exponential time lower-bound for certain classes of algorithms that are currently used in the literature",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Probabilistic context-free grammars occur in pairs.",
+      "supporting_span": "pairs of probabilistic context-free grammars",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The lower-bound is exponential time.",
+      "supporting_span": "exponential time lower-bound",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The term 'synchronous' describes the way the grammars work.",
+      "supporting_span": "working in a ` synchronous ' way",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Two hardness results for the class NP are reported along with an exponential time lower-bound for certain classes of algorithms that are currently used in the literature.",
+      "supporting_span": "Two hardness results for the class NP are reported , along with an exponential time lower-bound for certain classes of algorithms that are currently used in the literature",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "head": "visual cues",
+    "relation": "feature of",
+    "tail": "Video"
+  },
+  {
+    "head": "motion",
+    "relation": "hyponym of",
+    "tail": "visual cues"
+  },
+  {
+    "head": "motion",
+    "relation": "conjunction",
+    "tail": "appearance"
+  },
+  {
+    "head": "appearance",
+    "relation": "hyponym of",
+    "tail": "visual cues"
+  },
+  {
+    "head": "intermediate-level video representation",
+    "relation": "used for",
+    "tail": "recognition"
+  },
+  {
+    "head": "long-range motion cues",
+    "relation": "used for",
+    "tail": "spatio-temporal video segmentation algorithm"
+  },
+  {
+    "head": "clusters of point tracks",
+    "relation": "used for",
+    "tail": "long-range motion cues"
+  },
+  {
+    "head": "occlusion reasoning",
+    "relation": "part of",
+    "tail": "track clustering cost function"
+  },
+  {
+    "head": "depth ordering constraints",
+    "relation": "feature of",
+    "tail": "occlusion reasoning"
+  },
+  {
+    "head": "motion similarity",
+    "relation": "part of",
+    "tail": "track clustering cost function"
+  },
+  {
+    "head": "video sequences of office scenes",
+    "relation": "evaluate for",
+    "tail": "approach"
+  }
+]

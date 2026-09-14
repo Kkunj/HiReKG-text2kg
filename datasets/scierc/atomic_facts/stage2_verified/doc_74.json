@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_74",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A novel approach is presented for automatically acquiring English topic signatures.",
+      "generator_supporting_span": "We present a novel approach for automatically acquiring English topic signatures .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a novel approach for automatically acquiring English topic signatures .",
+      "verifier_reasoning": "The source text's first sentence directly states that the authors are presenting a new method for automatically acquiring English topic signatures. The candidate fact is a direct, passive-voice restatement of this sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "A topic signature is a set of words that tend to co-occur with a particular concept or word sense.",
+      "generator_supporting_span": "Given a particular concept , or word sense , a topic signature is a set of words that tend to co-occur with it .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Given a particular concept , or word sense , a topic signature is a set of words that tend to co-occur with it .",
+      "verifier_reasoning": "The source text provides a direct definition of a topic signature in the second sentence. This definition is a near-verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Topic signatures can be useful in a number of Natural Language Processing applications.",
+      "generator_supporting_span": "Topic signatures can be useful in a number of Natural Language Processing (NLP) applications , such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Topic signatures can be useful in a number of Natural Language Processing (NLP) applications , such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "verifier_reasoning": "The source text explicitly states that topic signatures are useful for Natural Language Processing applications and provides specific examples.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Topic signatures can be useful in Word Sense Disambiguation.",
+      "generator_supporting_span": "such as Word Sense Disambiguation (WSD)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Topic signatures can be useful in a number of Natural Language Processing (NLP) applications , such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "verifier_reasoning": "The source text explicitly lists Word Sense Disambiguation (WSD) as an example of a Natural Language Processing application in which topic signatures can be useful.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Topic signatures can be useful in Text Summarisation.",
+      "generator_supporting_span": "such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Topic signatures can be useful in a number of Natural Language Processing (NLP) applications , such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "verifier_reasoning": "The source text explicitly states that topic signatures can be useful in several NLP applications, and then lists Text Summarisation as one of those applications.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "A method takes advantage of the different way in which word senses are lexicalised in English and Chinese.",
+      "generator_supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese , and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "verifier_reasoning": "The source text explicitly states that the described method leverages the different ways word senses are lexicalised in English and Chinese.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Word senses are lexicalised in a different way in English and Chinese.",
+      "generator_supporting_span": "the different way in which word senses are lexicalised in English and Chinese",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese",
+      "verifier_reasoning": "The source text explicitly states that the described method utilizes 'the different way in which word senses are lexicalised in English and Chinese', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "A method exploits the large amount of Chinese text available in corpora.",
+      "generator_supporting_span": "and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese , and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "verifier_reasoning": "The source text explicitly states that the described method \"exploits the large amount of Chinese text available in corpora and on the Web\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "A method exploits the large amount of Chinese text available on the Web.",
+      "generator_supporting_span": "and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese , and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "verifier_reasoning": "The source text explicitly states that the method being presented 'exploits the large amount of Chinese text available in corpora and on the Web.' This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Topic signatures were evaluated on a WSD task.",
+      "generator_supporting_span": "We evaluated the topic signatures on a WSD task ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We evaluated the topic signatures on a WSD task , where we trained a second-order vector cooccurrence algorithm on standard WSD datasets , with promising results .",
+      "verifier_reasoning": "The source text explicitly states in the final sentence that the authors evaluated the topic signatures on a Word Sense Disambiguation (WSD) task.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "A second-order vector cooccurrence algorithm was trained.",
+      "generator_supporting_span": "we trained a second-order vector cooccurrence algorithm",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we trained a second-order vector cooccurrence algorithm on standard WSD datasets",
+      "verifier_reasoning": "The source text explicitly states that the authors trained a specific algorithm as part of their evaluation process for a Word Sense Disambiguation (WSD) task.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "A second-order vector cooccurrence algorithm was trained on standard WSD datasets.",
+      "generator_supporting_span": "on standard WSD datasets ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we trained a second-order vector cooccurrence algorithm on standard WSD datasets",
+      "verifier_reasoning": "The source text explicitly states that as part of the evaluation, the authors trained the specified algorithm on the mentioned datasets.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The WSD task evaluation yielded promising results.",
+      "generator_supporting_span": "with promising results .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We evaluated the topic signatures on a WSD task , where we trained a second-order vector cooccurrence algorithm on standard WSD datasets , with promising results .",
+      "verifier_reasoning": "The source text explicitly states that the topic signatures were evaluated on a Word Sense Disambiguation (WSD) task and that this evaluation concluded 'with promising results', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "NLP stands for Natural Language Processing.",
+      "generator_supporting_span": "Natural Language Processing (NLP)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Natural Language Processing (NLP)",
+      "verifier_reasoning": "The source text explicitly defines the acronym NLP by placing it in parentheses immediately following the full phrase 'Natural Language Processing'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "WSD stands for Word Sense Disambiguation.",
+      "generator_supporting_span": "Word Sense Disambiguation (WSD)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Word Sense Disambiguation (WSD)",
+      "verifier_reasoning": "The source text explicitly defines the acronym WSD by placing it in parentheses immediately after the full phrase 'Word Sense Disambiguation' in a list of applications.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

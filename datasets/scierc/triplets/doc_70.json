@@ -1,0 +1,22 @@
+[
+  {
+    "head": "lexical methods",
+    "relation": "used for",
+    "tail": "terminology structuring"
+  },
+  {
+    "head": "US National Library of Medicine MeSH thesaurus",
+    "relation": "hyponym of",
+    "tail": "hierarchically-structured terminology"
+  },
+  {
+    "head": "lexically-induced relations",
+    "relation": "compare",
+    "tail": "MeSH relations"
+  },
+  {
+    "head": "recall and precision metrics",
+    "relation": "evaluate for",
+    "tail": "MeSH relations"
+  }
+]

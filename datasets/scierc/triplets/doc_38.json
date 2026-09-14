@@ -1,0 +1,27 @@
+[
+  {
+    "head": "parsing algorithms",
+    "relation": "used for",
+    "tail": "it"
+  },
+  {
+    "head": "restrictive statements",
+    "relation": "feature of",
+    "tail": "syntactic descriptions"
+  },
+  {
+    "head": "algorithms",
+    "relation": "used for",
+    "tail": "CCR formalism"
+  },
+  {
+    "head": "context free languages",
+    "relation": "used for",
+    "tail": "algorithms"
+  },
+  {
+    "head": "logical well-formedness conditions",
+    "relation": "feature of",
+    "tail": "trees"
+  }
+]

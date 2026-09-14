@@ -1,0 +1,17 @@
+[
+  {
+    "head": "information redundancy in multilingual input",
+    "relation": "used for",
+    "tail": "machine translation"
+  },
+  {
+    "head": "information redundancy in multilingual input",
+    "relation": "used for",
+    "tail": "multilingual summaries"
+  },
+  {
+    "head": "Arabic documents",
+    "relation": "used for",
+    "tail": "machine translations"
+  }
+]

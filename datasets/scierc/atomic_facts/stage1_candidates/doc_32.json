@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_32",
+  "facts": [
+    {
+      "fact": "Visual object tracking is considered as a numerical optimization problem.",
+      "supporting_span": "we consider visual object tracking as a numerical optimization problem .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "During normal tracking conditions when the object is visible from frame to frame, local optimization is used.",
+      "supporting_span": "During normal tracking conditions when the object is visible from frame to frame , local optimization is used",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Local optimization is used to track the local mode of the similarity measure.",
+      "supporting_span": "local optimization is used to track the local mode of the similarity measure",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The parameter space includes translation, rotation and scale.",
+      "supporting_span": "in a parameter space of translation , rotation and scale .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Local tracking is prone to failure when the object becomes partially or totally occluded.",
+      "supporting_span": "when the object becomes partially or totally occluded , such local tracking is prone to failure",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames.",
+      "supporting_span": "common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Object detection is considered as a global optimization problem.",
+      "supporting_span": "we consider object detection as a global optimization problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Object detection is solved via Adaptive Simulated Annealing (ASA).",
+      "supporting_span": "and solve it via Adaptive Simulated Annealing (ASA)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Adaptive Simulated Annealing (ASA) avoids becoming trapped at local modes.",
+      "supporting_span": "Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Adaptive Simulated Annealing (ASA) is much faster than exhaustive search.",
+      "supporting_span": "Adaptive Simulated Annealing (ASA) , a method that avoids becoming trapped at local modes and is much faster than exhaustive search .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Adaptive Simulated Annealing (ASA) stochastically samples the parameter space.",
+      "supporting_span": "ASA stochastically samples the parameter space",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Cluster analysis is applied on the sampled parameter space to redetect the object.",
+      "supporting_span": "We apply cluster analysis on the sampled parameter space to redetect the object",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Cluster analysis is applied to renew the local tracker.",
+      "supporting_span": "and renew the local tracker .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions.",
+      "supporting_span": "Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An approach outperforms state-of-the-art trackers on the VIVID benchmark datasets.",
+      "supporting_span": "Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

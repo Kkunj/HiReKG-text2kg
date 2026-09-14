@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_35",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Language resource quality is crucial in NLP.",
+      "generator_supporting_span": "Language resource quality is crucial in NLP .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Language resource quality is crucial in NLP .",
+      "verifier_reasoning": "The source text begins with the exact sentence presented in the candidate fact, making it a direct and explicit statement.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Many resources used are derived from data.",
+      "generator_supporting_span": "Many of the resources used are derived from data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Many of the resources used are derived from data created by human beings out of an NLP context",
+      "verifier_reasoning": "The source text explicitly states that many resources are derived from data, providing the specific example of data created by human beings.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Many resources used are derived from data created by human beings.",
+      "generator_supporting_span": "Many of the resources used are derived from data created by human beings",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Many of the resources used are derived from data created by human beings out of an NLP context",
+      "verifier_reasoning": "The source text directly states that many of the resources used are derived from data that has been created by human beings.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Data used for resources are created out of an NLP context.",
+      "generator_supporting_span": "data created by human beings out of an NLP context",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that 'Many of the resources used are derived from data created by human beings out of an NLP context'. The candidate fact makes a general statement, omitting the qualifier 'Many', which makes it an unsupported overgeneralization.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The derivation of resources especially regards MT and reference translations.",
+      "generator_supporting_span": "especially regarding MT and reference translations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Many of the resources used are derived from data created by human beings out of an NLP context , especially regarding MT and reference translations .",
+      "verifier_reasoning": "The source text explicitly states that many resources are derived from human-created data, and then specifies that this is 'especially regarding MT and reference translations,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Automatic evaluations need high-quality data.",
+      "generator_supporting_span": "automatic evaluations need high-quality data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Indeed , automatic evaluations need high-quality data that allow the comparison of both automatic and human translations .",
+      "verifier_reasoning": "The source text explicitly states that 'automatic evaluations need high-quality data', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "High-quality data allow the comparison of both automatic and human translations.",
+      "generator_supporting_span": "high-quality data that allow the comparison of both automatic and human translations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Indeed , automatic evaluations need high-quality data that allow the comparison of both automatic and human translations .",
+      "verifier_reasoning": "The source text explicitly states that automatic evaluations require high-quality data, and that this data is what allows for the comparison of automatic and human translations.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The comparison includes automatic translations.",
+      "generator_supporting_span": "the comparison of both automatic and human translations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the comparison of both automatic and human translations",
+      "verifier_reasoning": "The source text explicitly states that high-quality data is needed to allow for \"the comparison of both automatic and human translations,\" which directly confirms that automatic translations are part of the comparison.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The comparison includes human translations.",
+      "generator_supporting_span": "the comparison of both automatic and human translations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the comparison of both automatic and human translations",
+      "verifier_reasoning": "The source text explicitly states that automatic evaluations require high-quality data to enable 'the comparison of both automatic and human translations.' This directly confirms that human translations are included in the comparison.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Validation of resources is widely recommended.",
+      "generator_supporting_span": "The validation of these resources is widely recommended",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The validation of these resources is widely recommended before being used .",
+      "verifier_reasoning": "The source text explicitly states that validating resources is a widely recommended practice before they are put to use.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Validation of resources is recommended before use.",
+      "generator_supporting_span": "The validation of these resources is widely recommended before being used .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The validation of these resources is widely recommended before being used .",
+      "verifier_reasoning": "The source text explicitly states that validating resources is a widely recommended practice before they are put into use.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The paper describes the impact of using different-quality references on evaluation.",
+      "generator_supporting_span": "This paper describes the impact of using different-quality references on evaluation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the impact of using different-quality references on evaluation .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact match for the candidate fact, explicitly stating the paper's topic.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "References can have different quality.",
+      "generator_supporting_span": "different-quality references",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the impact of using different-quality references on evaluation .",
+      "verifier_reasoning": "The source text explicitly states that the paper under discussion describes the impact of using 'different-quality references', which directly confirms that references can have varying levels of quality.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Similar scores are obtained in many cases regardless of the quality.",
+      "generator_supporting_span": "similar scores are obtained in many cases regardless of the quality .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Surprisingly enough , similar scores are obtained in many cases regardless of the quality .",
+      "verifier_reasoning": "The source text makes this exact statement, asserting that similar scores are often achieved irrespective of the quality of the references used for evaluation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The limitations of the automatic metrics used within MT are discussed.",
+      "generator_supporting_span": "the limitations of the automatic metrics used within MT are also discussed in this regard .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Thus , the limitations of the automatic metrics used within MT are also discussed in this regard .",
+      "verifier_reasoning": "The source text explicitly states that the paper discusses certain topics. The final sentence directly confirms that the limitations of automatic metrics used within Machine Translation (MT) are among the topics discussed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

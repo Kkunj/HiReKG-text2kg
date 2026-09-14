@@ -1,0 +1,52 @@
+[
+  {
+    "head": "verbal and nonverbal means",
+    "relation": "used for",
+    "tail": "grounding"
+  },
+  {
+    "head": "design",
+    "relation": "used for",
+    "tail": "embodied conversational agents"
+  },
+  {
+    "head": "common ground",
+    "relation": "used for",
+    "tail": "human-computer interaction"
+  },
+  {
+    "head": "eye gaze",
+    "relation": "conjunction",
+    "tail": "head nods"
+  },
+  {
+    "head": "eye gaze",
+    "relation": "part of",
+    "tail": "direction-giving task"
+  },
+  {
+    "head": "head nods",
+    "relation": "conjunction",
+    "tail": "attentional focus"
+  },
+  {
+    "head": "head nods",
+    "relation": "part of",
+    "tail": "direction-giving task"
+  },
+  {
+    "head": "attentional focus",
+    "relation": "part of",
+    "tail": "direction-giving task"
+  },
+  {
+    "head": "verbal and nonverbal grounding acts",
+    "relation": "used for",
+    "tail": "ECA"
+  },
+  {
+    "head": "verbal and nonverbal grounding acts",
+    "relation": "used for",
+    "tail": "dialogue state"
+  }
+]

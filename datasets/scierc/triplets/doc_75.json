@@ -1,0 +1,157 @@
+[
+  {
+    "head": "Probabilistic models",
+    "relation": "used for",
+    "tail": "modeling and recognition of human motion"
+  },
+  {
+    "head": "triangulated graph",
+    "relation": "used for",
+    "tail": "human motion model"
+  },
+  {
+    "head": "positions",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "positions",
+    "relation": "conjunction",
+    "tail": "velocities"
+  },
+  {
+    "head": "velocities",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "heuristic approach",
+    "relation": "used for",
+    "tail": "translation invariance"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "them",
+    "relation": "used for",
+    "tail": "human motion recognition"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "learning and detection phases"
+  },
+  {
+    "head": "positions",
+    "relation": "hyponym of",
+    "tail": "cues"
+  },
+  {
+    "head": "positions",
+    "relation": "conjunction",
+    "tail": "velocities"
+  },
+  {
+    "head": "velocities",
+    "relation": "hyponym of",
+    "tail": "cues"
+  },
+  {
+    "head": "velocities",
+    "relation": "conjunction",
+    "tail": "appearance"
+  },
+  {
+    "head": "appearance",
+    "relation": "hyponym of",
+    "tail": "cues"
+  },
+  {
+    "head": "global variables",
+    "relation": "used for",
+    "tail": "model"
+  },
+  {
+    "head": "global variables",
+    "relation": "used for",
+    "tail": "global properties"
+  },
+  {
+    "head": "translation",
+    "relation": "hyponym of",
+    "tail": "global properties"
+  },
+  {
+    "head": "translation",
+    "relation": "conjunction",
+    "tail": "scale"
+  },
+  {
+    "head": "scale",
+    "relation": "hyponym of",
+    "tail": "global properties"
+  },
+  {
+    "head": "scale",
+    "relation": "conjunction",
+    "tail": "viewpoint"
+  },
+  {
+    "head": "viewpoint",
+    "relation": "hyponym of",
+    "tail": "global properties"
+  },
+  {
+    "head": "unsupervised manner",
+    "relation": "used for",
+    "tail": "model"
+  },
+  {
+    "head": "un-labelled data",
+    "relation": "used for",
+    "tail": "unsupervised manner"
+  },
+  {
+    "head": "global variables",
+    "relation": "used for",
+    "tail": "hybrid proba-bilistic model"
+  },
+  {
+    "head": "translation",
+    "relation": "hyponym of",
+    "tail": "global variables"
+  },
+  {
+    "head": "relative positions",
+    "relation": "hyponym of",
+    "tail": "local variables"
+  },
+  {
+    "head": "relative positions",
+    "relation": "conjunction",
+    "tail": "appearances of body parts"
+  },
+  {
+    "head": "appearances of body parts",
+    "relation": "hyponym of",
+    "tail": "local variables"
+  },
+  {
+    "head": "faster convergence",
+    "relation": "feature of",
+    "tail": "learning phase"
+  },
+  {
+    "head": "faster convergence",
+    "relation": "conjunction",
+    "tail": "robustness"
+  },
+  {
+    "head": "robustness",
+    "relation": "conjunction",
+    "tail": "recognition rate"
+  }
+]

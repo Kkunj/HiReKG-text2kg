@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_0",
+  "facts": [
+    {
+      "fact": "A novel statistical singing voice conversion (SVC) technique with direct waveform modification based on the spectrum differential is presented.",
+      "supporting_span": "This paper presents a novel statistical singing voice conversion (SVC) technique with direct waveform modification based on the spectrum differential",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The singing voice conversion technique can convert voice timbre of a source singer into that of a target singer.",
+      "supporting_span": "that can convert voice timbre of a source singer into that of a target singer",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The singing voice conversion technique does not use a vocoder to generate converted singing voice waveforms.",
+      "supporting_span": "without using a vocoder to generate converted singing voice waveforms .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "SVC makes it possible to convert singing voice characteristics of an arbitrary source singer into those of an arbitrary target singer.",
+      "supporting_span": "SVC makes it possible to convert singing voice characteristics of an arbitrary source singer into those of an arbitrary target singer .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Speech quality of the converted singing voice is significantly degraded compared to that of a natural singing voice.",
+      "supporting_span": "speech quality of the converted singing voice is significantly degraded compared to that of a natural singing voice",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The speech quality degradation is due to various factors, such as analysis and modeling errors in the vocoder-based framework.",
+      "supporting_span": "due to various factors , such as analysis and modeling errors in the vocoder-based framework .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A statistical conversion process is proposed to alleviate degradation.",
+      "supporting_span": "To alleviate this degradation , we propose a statistical conversion process",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical conversion process directly modifies the signal in the waveform domain.",
+      "supporting_span": "that directly modifies the signal in the waveform domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical conversion process estimates the difference in the spectra of the source and target singers' singing voices.",
+      "supporting_span": "by estimating the difference in the spectra of the source and target singers ' singing voices .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The differential spectral feature is directly estimated using a differential Gaussian mixture model (GMM).",
+      "supporting_span": "The differential spectral feature is directly estimated using a differential Gaussian mixture model (GMM)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The differential Gaussian mixture model (GMM) is analytically derived from the traditional GMM used as a conversion model in the conventional SVC.",
+      "supporting_span": "that is analytically derived from the traditional GMM used as a conversion model in the conventional SVC .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The traditional GMM is used as a conversion model in the conventional SVC.",
+      "supporting_span": "the traditional GMM used as a conversion model in the conventional SVC",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experimental results demonstrate that the proposed method makes it possible to significantly improve speech quality in the converted singing voice.",
+      "supporting_span": "The experimental results demonstrate that the proposed method makes it possible to significantly improve speech quality in the converted singing voice",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed method preserves the conversion accuracy of singer identity compared to the conventional SVC.",
+      "supporting_span": "while preserving the conversion accuracy of singer identity compared to the conventional SVC .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The differential spectral feature is directly estimated.",
+      "supporting_span": "The differential spectral feature is directly estimated",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

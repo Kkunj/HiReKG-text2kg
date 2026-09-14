@@ -1,0 +1,54 @@
+{
+  "doc_id": "doc_19",
+  "facts": [
+    "A new phrase-based translation model is proposed.",
+    "A decoding algorithm is proposed.",
+    "A new phrase-based translation model and decoding algorithm enables evaluation of several previously proposed phrase-based translation models.",
+    "A new phrase-based translation model and decoding algorithm enables comparison of several previously proposed phrase-based translation models.",
+    "A framework is used to carry out a large number of experiments.",
+    "The experiments are carried out to understand better and explain why phrase-based models outperform word-based models.",
+    "Phrase-based models outperform word-based models.",
+    "The empirical results hold for all examined language pairs.",
+    "The empirical results suggest that the highest levels of performance can be obtained through relatively simple means.",
+    "Heuristic learning of phrase translations from word-based alignments is a means to obtain the highest levels of performance.",
+    "Lexical weighting of phrase translations is a means to obtain the highest levels of performance.",
+    "Learning phrases longer than three words does not have a strong impact on performance.",
+    "Learning phrases from high-accuracy word-level alignment models does not have a strong impact on performance.",
+    "Learning only syntactically motivated phrases degrades system performance.",
+    "The highest levels of performance can be obtained through heuristic learning of phrase translations from word-based alignments and lexical weighting of phrase translations."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    10,
+    12
+  ],
+  "multiple-entity": [
+    2,
+    3,
+    5,
+    6,
+    9,
+    14
+  ],
+  "ambiguous": [
+    4,
+    7,
+    8,
+    11,
+    13
+  ],
+  "entities": [
+    "phrase-based translation model",
+    "decoding algorithm",
+    "phrase-based translation models",
+    "phrase-based models",
+    "word-based models",
+    "heuristic learning of phrase translations",
+    "word-based alignments",
+    "lexical weighting of phrase translations",
+    "high-accuracy word-level alignment models"
+  ]
+}

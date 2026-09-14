@@ -1,0 +1,157 @@
+{
+  "doc_id": "NetWare_Core_Protocol",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The NetWare Core Protocol (NCP) is a network protocol.",
+      "generator_supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol used in some products from Novell , Inc.",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the NetWare Core Protocol (NCP) is a network protocol.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The NetWare Core Protocol is used in some products from Novell, Inc.",
+      "generator_supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol used in some products from Novell , Inc.",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol used in some products from Novell , Inc.",
+      "verifier_reasoning": "The source text opens by explicitly stating that the NetWare Core Protocol (NCP) is a network protocol used in some products from Novell, Inc. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The NetWare Core Protocol is usually associated with the client-server operating system Novell NetWare.",
+      "generator_supporting_span": "It is usually associated with the client - server operating system Novell NetWare",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is usually associated with the client - server operating system Novell NetWare which originally supported primarily MS - DOS client stations",
+      "verifier_reasoning": "The source text explicitly states that the NetWare Core Protocol, referred to as \"It\" in the second sentence, is usually associated with the client-server operating system Novell NetWare.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Novell NetWare originally supported primarily MS-DOS client stations.",
+      "generator_supporting_span": "which originally supported primarily MS - DOS client stations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is usually associated with the client - server operating system Novell NetWare which originally supported primarily MS - DOS client stations",
+      "verifier_reasoning": "The source text explicitly states that the Novell NetWare operating system 'originally supported primarily MS - DOS client stations', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Support for Microsoft Windows was added to Novell NetWare.",
+      "generator_supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is usually associated with the client - server operating system Novell NetWare which originally supported primarily MS - DOS client stations , but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "verifier_reasoning": "The source text explicitly states that Novell NetWare originally supported MS-DOS, and then lists Microsoft Windows as one of the platforms for which support was later added.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Support for the classic Mac OS was added to Novell NetWare.",
+      "generator_supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is usually associated with the client - server operating system Novell NetWare which originally supported primarily MS - DOS client stations , but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "verifier_reasoning": "The source text explicitly states that Novell NetWare originally supported MS-DOS, but later added support for other platforms, and it includes 'the classic Mac OS' in that list of added platforms.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Support for Linux was added to Novell NetWare.",
+      "generator_supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It is usually associated with the client - server operating system Novell NetWare which originally supported primarily MS - DOS client stations , but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "verifier_reasoning": "The source text explicitly states that Novell NetWare originally supported MS-DOS, but later added support for a list of other platforms, which includes Linux.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Support for Windows NT was added to Novell NetWare.",
+      "generator_supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "verifier_reasoning": "The source text explicitly states that Novell NetWare later added support for several other platforms. The list of these platforms directly includes \"Windows NT\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Support for various flavors of Unix was added to Novell NetWare.",
+      "generator_supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "verifier_reasoning": "The source text explicitly states that Novell NetWare later added support for several platforms, and the provided list of these platforms includes 'various flavors of Unix'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The NetWare Core Protocol is used to access remote command execution.",
+      "generator_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "verifier_reasoning": "The source text explicitly lists several network service functions that the NetWare Core Protocol (NCP) is used to access. 'Remote command execution' is directly mentioned in this list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The NetWare Core Protocol is used to access clock synchronization.",
+      "generator_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "verifier_reasoning": "The source text explicitly lists several network service functions that the NetWare Core Protocol (NCP) is used for, and 'clock synchronization' is included in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The NetWare Core Protocol is used to access messaging.",
+      "generator_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "verifier_reasoning": "The source text explicitly lists the network service functions that the NetWare Core Protocol (NCP) is used to access, and this list includes 'messaging'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The NetWare Core Protocol originally took advantage of an easy network configuration of the IPX/SPX protocol stack.",
+      "generator_supporting_span": "It originally took advantage of an easy network configuration and a little memory footprint of the IPX / SPX protocol stack .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It originally took advantage of an easy network configuration and a little memory footprint of the IPX / SPX protocol stack .",
+      "verifier_reasoning": "The source text explicitly states that the NetWare Core Protocol, referred to as \"It\", originally took advantage of the easy network configuration of the IPX/SPX protocol stack.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Since mid-1990s the TCP/IP implementation is available.",
+      "generator_supporting_span": "Since mid-1990s the TCP / IP implementation is available .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Since mid-1990s the TCP / IP implementation is available .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact, verbatim match for the candidate fact, directly stating when the TCP/IP implementation became available.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree.",
+      "generator_supporting_span": "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree .",
+      "verifier_reasoning": "The source text explicitly states the exact information presented in the candidate fact, identifying Novell eDirectory as a user of NCP for data synchronization between servers.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

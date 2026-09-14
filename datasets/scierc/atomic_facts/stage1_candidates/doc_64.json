@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_64",
+  "facts": [
+    {
+      "fact": "The perception of transparent objects from images is a very hard problem in vision.",
+      "supporting_span": "The perception of transparent objects from images is known to be a very hard problem in vision .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Given a single image, detecting the presence of transparent objects in the scene is difficult.",
+      "supporting_span": "Given a single image , it is difficult to even detect the presence of transparent objects in the scene .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper explores what can be said about transparent objects by a moving observer.",
+      "supporting_span": "In this paper , we explore what can be said about transparent objects by a moving observer .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Features that are imaged through a transparent object behave differently from features that are rigidly attached to the scene.",
+      "supporting_span": "We show how features that are imaged through a transparent object behave differently from those that are rigidly attached to the scene .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents a novel model-based approach.",
+      "supporting_span": "We present a novel model-based approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach recovers the shapes of transparent objects from known motion.",
+      "supporting_span": "to recover the shapes and the poses of transparent objects from known motion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach recovers the poses of transparent objects from known motion.",
+      "supporting_span": "to recover the shapes and the poses of transparent objects from known motion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach uses known motion.",
+      "supporting_span": "from known motion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The objects can be complex.",
+      "supporting_span": "The objects can be complex",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The objects may be composed of multiple layers.",
+      "supporting_span": "they may be composed of multiple layers",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multiple layers may have different refractive indices.",
+      "supporting_span": "with different refractive indices .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Numerous simulations have been conducted.",
+      "supporting_span": "We have conducted numerous simulations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The simulations were to verify the practical feasibility of the algorithm.",
+      "supporting_span": "to verify the practical feasibility of our algorithm .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The algorithm has been applied to real scenes that include transparent objects.",
+      "supporting_span": "We have applied it to real scenes that include transparent objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The shapes of the objects were recovered with high accuracy.",
+      "supporting_span": "recovered the shapes of the objects with high accuracy .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

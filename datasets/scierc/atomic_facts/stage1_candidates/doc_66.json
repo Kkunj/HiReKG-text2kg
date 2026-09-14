@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_66",
+  "facts": [
+    {
+      "fact": "The paper uses information redundancy in multilingual input.",
+      "supporting_span": "we use the information redundancy in multilingual input",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper uses information redundancy to correct errors in machine translation.",
+      "supporting_span": "to correct errors in machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper uses information redundancy to improve the quality of multilingual summaries.",
+      "supporting_span": "and thus improve the quality of multilingual summaries",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper considers the case of multi-document summarization.",
+      "supporting_span": "We consider the case of multi-document summarization",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The input documents are in Arabic.",
+      "supporting_span": "the input documents are in Arabic",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The output summary is in English.",
+      "supporting_span": "the output summary is in English",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Information that makes it to a summary appears in many different lexical-syntactic forms in the input documents.",
+      "supporting_span": "information that makes it to a summary appears in many different lexical-syntactic forms in the input documents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of multiple machine translation systems provides yet more redundancy.",
+      "supporting_span": "the use of multiple machine translation systems provides yet more redundancy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of multiple machine translation systems yields different ways to realize information in English.",
+      "supporting_span": "yielding different ways to realize that information in English",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper demonstrates how errors in the machine translations of the input Arabic documents can be corrected.",
+      "supporting_span": "We demonstrate how errors in the machine translations of the input Arabic documents can be corrected",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Machine translations of the input Arabic documents contain errors.",
+      "supporting_span": "errors in the machine translations of the input Arabic documents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Errors in machine translations are corrected by identifying and generating from redundancy.",
+      "supporting_span": "by identifying and generating from such redundancy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method focuses on noun phrases.",
+      "supporting_span": "focusing on noun phrases",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The input to the approach is multilingual.",
+      "supporting_span": "multilingual input",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Information redundancy exists in multilingual input.",
+      "supporting_span": "the information redundancy in multilingual input",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_74",
+  "facts": [
+    {
+      "fact": "A novel approach is presented for automatically acquiring English topic signatures.",
+      "supporting_span": "We present a novel approach for automatically acquiring English topic signatures .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A topic signature is a set of words that tend to co-occur with a particular concept or word sense.",
+      "supporting_span": "Given a particular concept , or word sense , a topic signature is a set of words that tend to co-occur with it .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Topic signatures can be useful in a number of Natural Language Processing applications.",
+      "supporting_span": "Topic signatures can be useful in a number of Natural Language Processing (NLP) applications , such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Topic signatures can be useful in Word Sense Disambiguation.",
+      "supporting_span": "such as Word Sense Disambiguation (WSD)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Topic signatures can be useful in Text Summarisation.",
+      "supporting_span": "such as Word Sense Disambiguation (WSD) and Text Summarisation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A method takes advantage of the different way in which word senses are lexicalised in English and Chinese.",
+      "supporting_span": "Our method takes advantage of the different way in which word senses are lexicalised in English and Chinese ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Word senses are lexicalised in a different way in English and Chinese.",
+      "supporting_span": "the different way in which word senses are lexicalised in English and Chinese",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A method exploits the large amount of Chinese text available in corpora.",
+      "supporting_span": "and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A method exploits the large amount of Chinese text available on the Web.",
+      "supporting_span": "and also exploits the large amount of Chinese text available in corpora and on the Web .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Topic signatures were evaluated on a WSD task.",
+      "supporting_span": "We evaluated the topic signatures on a WSD task ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A second-order vector cooccurrence algorithm was trained.",
+      "supporting_span": "we trained a second-order vector cooccurrence algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A second-order vector cooccurrence algorithm was trained on standard WSD datasets.",
+      "supporting_span": "on standard WSD datasets ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The WSD task evaluation yielded promising results.",
+      "supporting_span": "with promising results .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NLP stands for Natural Language Processing.",
+      "supporting_span": "Natural Language Processing (NLP)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "WSD stands for Word Sense Disambiguation.",
+      "supporting_span": "Word Sense Disambiguation (WSD)",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

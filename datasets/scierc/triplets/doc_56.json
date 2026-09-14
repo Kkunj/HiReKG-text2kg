@@ -1,0 +1,52 @@
+[
+  {
+    "head": "computer programs",
+    "relation": "used for",
+    "tail": "flowing text"
+  },
+  {
+    "head": "computer programs",
+    "relation": "used for",
+    "tail": "fact assertions"
+  },
+  {
+    "head": "fact assertions",
+    "relation": "feature of",
+    "tail": "narrative content"
+  },
+  {
+    "head": "natural language processing (NLP)",
+    "relation": "part of",
+    "tail": "task"
+  },
+  {
+    "head": "information extraction (IE)",
+    "relation": "part of",
+    "tail": "task"
+  },
+  {
+    "head": "cognitive architecture",
+    "relation": "feature of",
+    "tail": "machine reading system"
+  },
+  {
+    "head": "cognitive semantics",
+    "relation": "conjunction",
+    "tail": "construction grammar"
+  },
+  {
+    "head": "prior NLP",
+    "relation": "conjunction",
+    "tail": "IE research"
+  },
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "idiosyncratic texts"
+  },
+  {
+    "head": "family history domain",
+    "relation": "feature of",
+    "tail": "idiosyncratic texts"
+  }
+]

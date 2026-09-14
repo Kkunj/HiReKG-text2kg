@@ -1,0 +1,42 @@
+[
+  {
+    "head": "intensity of the observed facial displays",
+    "relation": "conjunction",
+    "tail": "temporal evolution"
+  },
+  {
+    "head": "ordinal man-ifold",
+    "relation": "used for",
+    "tail": "intrinsic topology of multidimensional continuous facial"
+  },
+  {
+    "head": "topology",
+    "relation": "part of",
+    "tail": "Hidden Conditional Ordinal Random Field (H-CORF) framework"
+  },
+  {
+    "head": "Hidden Conditional Ordinal Random Field (H-CORF) framework",
+    "relation": "used for",
+    "tail": "dynamic ordinal regression"
+  },
+  {
+    "head": "model",
+    "relation": "used for",
+    "tail": "simultaneous dynamic recognition"
+  },
+  {
+    "head": "model",
+    "relation": "used for",
+    "tail": "intensity estimation of facial expressions"
+  },
+  {
+    "head": "simultaneous dynamic recognition",
+    "relation": "conjunction",
+    "tail": "intensity estimation of facial expressions"
+  },
+  {
+    "head": "spontaneous facial affect data",
+    "relation": "evaluate for",
+    "tail": "the proposed method"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "doc_id": "doc_48",
+  "facts": [
+    "Interpreting metaphors is an integral and inescapable process in human understanding of natural language.",
+    "Interpreting metaphors is an integral process in human understanding of natural language.",
+    "Interpreting metaphors is an inescapable process in human understanding of natural language.",
+    "A method of analyzing metaphors is based on the existence of a small number of generalized metaphor mappings.",
+    "A small number of generalized metaphor mappings exist.",
+    "Each generalized metaphor contains a recognition network.",
+    "Each generalized metaphor contains a basic mapping.",
+    "Each generalized metaphor contains additional transfer mappings.",
+    "Each generalized metaphor contains an implicit intention component.",
+    "A method of analyzing metaphors is discussed.",
+    "Implications towards automating certain aspects of language learning are discussed.",
+    "Interpreting metaphors is a process in human understanding of natural language.",
+    "The number of generalized metaphor mappings is small."
+  ],
+  "n_candidates": 15,
+  "n_kept": 13,
+  "single-entity": [
+    4,
+    9,
+    10,
+    12
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "ambiguous": [],
+  "entities": [
+    "Interpreting metaphors",
+    "human understanding of natural language",
+    "analyzing metaphors",
+    "generalized metaphor mappings",
+    "generalized metaphor",
+    "recognition network",
+    "basic mapping",
+    "transfer mappings",
+    "implicit intention component",
+    "metaphor interpretation",
+    "reconstruction",
+    "recognition task",
+    "language learning"
+  ]
+}

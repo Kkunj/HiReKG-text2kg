@@ -1,0 +1,62 @@
+[
+  {
+    "head": "approaches",
+    "relation": "used for",
+    "tail": "monocular nonrigid 3D reconstruction"
+  },
+  {
+    "head": "Template-based methods",
+    "relation": "hyponym of",
+    "tail": "approaches"
+  },
+  {
+    "head": "Template-based methods",
+    "relation": "conjunction",
+    "tail": "Non-rigid Structure from Motion techniques"
+  },
+  {
+    "head": "Non-rigid Structure from Motion techniques",
+    "relation": "hyponym of",
+    "tail": "approaches"
+  },
+  {
+    "head": "ones",
+    "relation": "used for",
+    "tail": "poorly-textured surfaces"
+  },
+  {
+    "head": "3D shape model",
+    "relation": "used for",
+    "tail": "they"
+  },
+  {
+    "head": "template-free approach",
+    "relation": "used for",
+    "tail": "poorly-textured , deformable surface"
+  },
+  {
+    "head": "surface isometry",
+    "relation": "used for",
+    "tail": "3D reconstruction"
+  },
+  {
+    "head": "joint problem of non-rigid image registration and depth estimation",
+    "relation": "used for",
+    "tail": "3D reconstruction"
+  },
+  {
+    "head": "approach",
+    "relation": "compare",
+    "tail": "state-of-the-art techniques"
+  },
+  {
+    "head": "3D reconstructions",
+    "relation": "evaluate for",
+    "tail": "approach"
+  },
+  {
+    "head": "3D reconstructions",
+    "relation": "evaluate for",
+    "tail": "state-of-the-art techniques"
+  }
+]

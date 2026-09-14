@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_89",
+  "facts": [
+    "A new exemplar-based framework is presented.",
+    "A new exemplar-based framework unifies image completion, texture synthesis, and image inpainting.",
+    "Image completion is posed in the form of a discrete global optimization problem.",
+    "Texture synthesis is posed in the form of a discrete global optimization problem.",
+    "Image inpainting is posed in the form of a discrete global optimization problem.",
+    "The discrete global optimization problem has a well defined objective function.",
+    "A novel optimization scheme called Priority-BP is proposed for solving the discrete global optimization problem.",
+    "Priority-BP carries two very important extensions over standard belief propagation.",
+    "Belief propagation is abbreviated as BP.",
+    "The two extensions are 'priority-based message scheduling' and 'dynamic label pruning'.",
+    "Priority-based message scheduling and dynamic label pruning work in cooperation to deal with the intolerable computational cost of BP.",
+    "The computational cost of BP is intolerable.",
+    "The intolerable computational cost of BP is caused by the huge number of existing labels.",
+    "Priority-based message scheduling and dynamic label pruning are generic.",
+    "Priority-based message scheduling and dynamic label pruning can be applied to any MRF energy function."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    7,
+    8,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "exemplar-based framework",
+    "image completion",
+    "texture synthesis",
+    "image inpainting",
+    "greedy techniques",
+    "discrete global optimization problem",
+    "well defined objective function",
+    "optimization scheme",
+    "Priority-BP",
+    "belief propagation ( BP )",
+    "priority-based message scheduling",
+    "dynamic label pruning",
+    "intolerable computational cost of BP",
+    "BP",
+    "MRF energy function",
+    "image completion examples"
+  ]
+}

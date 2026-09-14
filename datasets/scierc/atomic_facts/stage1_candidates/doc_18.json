@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_18",
+  "facts": [
+    {
+      "fact": "Video provides rich visual cues such as motion and appearance.",
+      "supporting_span": "Video provides not only rich visual cues such as motion and appearance ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Video provides long-range temporal interactions among objects.",
+      "supporting_span": "but also much less explored long-range temporal interactions among objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors aim to capture long-range temporal interactions among objects.",
+      "supporting_span": "We aim to capture such interactions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors aim to construct a powerful intermediate-level video representation for subsequent recognition.",
+      "supporting_span": "to construct a powerful intermediate-level video representation for subsequent recognition",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors seek to obtain spatio-temporal over-segmentation of a video into regions that respect object boundaries.",
+      "supporting_span": "we seek to obtain spatio-temporal over-segmentation of a video into regions that respect object boundaries",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors seek to associate object pixels over many video frames.",
+      "supporting_span": "associate object pix-els over many video frames",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions of the paper are twofold.",
+      "supporting_span": "The contributions of this paper are twofold",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors develop an efficient spatio-temporal video segmentation algorithm.",
+      "supporting_span": "First , we develop an efficient spatio-temporal video segmentation algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The spatio-temporal video segmentation algorithm incorporates long-range motion cues from the past frames.",
+      "supporting_span": "which naturally incorporates long-range motion cues from the past and future frames",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The spatio-temporal video segmentation algorithm incorporates long-range motion cues from the future frames.",
+      "supporting_span": "which naturally incorporates long-range motion cues from the past and future frames",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The long-range motion cues are in the form of clusters of point tracks with coherent motion.",
+      "supporting_span": "in the form of clusters of point tracks with coherent motion",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors devise a new track clustering cost function.",
+      "supporting_span": "Second , we devise a new track clustering cost function",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The track clustering cost function includes occlusion reasoning in the form of depth ordering constraints.",
+      "supporting_span": "that includes occlusion reasoning , in the form of depth ordering constraints",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The track clustering cost function includes motion similarity along the tracks.",
+      "supporting_span": "as well as motion similarity along the tracks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors evaluate the proposed approach on a challenging set of video sequences of office scenes from feature length movies.",
+      "supporting_span": "We evaluate the proposed approach on a challenging set of video sequences of office scenes from feature length movies",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

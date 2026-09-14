@@ -1,0 +1,37 @@
+[
+  {
+    "head": "Language resource quality",
+    "relation": "feature of",
+    "tail": "NLP"
+  },
+  {
+    "head": "MT",
+    "relation": "hyponym of",
+    "tail": "NLP"
+  },
+  {
+    "head": "MT",
+    "relation": "conjunction",
+    "tail": "reference translations"
+  },
+  {
+    "head": "reference translations",
+    "relation": "hyponym of",
+    "tail": "NLP"
+  },
+  {
+    "head": "high-quality data",
+    "relation": "evaluate for",
+    "tail": "automatic evaluations"
+  },
+  {
+    "head": "different-quality references",
+    "relation": "used for",
+    "tail": "evaluation"
+  },
+  {
+    "head": "automatic metrics",
+    "relation": "evaluate for",
+    "tail": "MT"
+  }
+]

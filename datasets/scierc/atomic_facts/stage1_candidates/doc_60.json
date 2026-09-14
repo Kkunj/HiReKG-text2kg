@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_60",
+  "facts": [
+    {
+      "fact": "The paper presents the first application of the head-driven statistical parsing model of Collins (1999).",
+      "supporting_span": "We present the first application of the head-driven statistical parsing model of Collins (1999)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The head-driven statistical parsing model of Collins (1999) is applied as a simultaneous language model and parser.",
+      "supporting_span": "We present the first application of the head-driven statistical parsing model of Collins (1999) as a simultaneous language model and parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The application is for large-vocabulary speech recognition.",
+      "supporting_span": "for large-vocabulary speech recognition",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is adapted to an online left to right chart-parser.",
+      "supporting_span": "The model is adapted to an online left to right chart-parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The chart-parser is for word lattices.",
+      "supporting_span": "for word lattices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model integrates acoustic probabilities.",
+      "supporting_span": "integrating acoustic , n-gram , and parser probabilities",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model integrates n-gram probabilities.",
+      "supporting_span": "integrating acoustic , n-gram , and parser probabilities",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model integrates parser probabilities.",
+      "supporting_span": "integrating acoustic , n-gram , and parser probabilities",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The parser uses structural and lexical dependencies.",
+      "supporting_span": "The parser uses structural and lexical dependencies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Structural and lexical dependencies are not considered by n-gram models.",
+      "supporting_span": "structural and lexical dependencies not considered by n-gram models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The parser conditions recognition on more linguistically-grounded relationships.",
+      "supporting_span": "conditioning recognition on more linguistically-grounded relationships",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments are on the Wall Street Journal treebank.",
+      "supporting_span": "Experiments on the Wall Street Journal treebank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments are on lattice corpora.",
+      "supporting_span": "Experiments on the Wall Street Journal treebank and lattice corpora",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments show word error rates competitive with the standard n-gram language model.",
+      "supporting_span": "show word error rates competitive with the standard n-gram language model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments extract additional structural information useful for speech understanding.",
+      "supporting_span": "extracting additional structural information useful for speech understanding",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

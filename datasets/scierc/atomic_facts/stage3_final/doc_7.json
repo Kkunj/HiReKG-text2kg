@@ -1,0 +1,50 @@
+{
+  "doc_id": "doc_7",
+  "facts": [
+    "The paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank.",
+    "The results are of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon.",
+    "A Combinatory Categorial Grammar (CCG) lexicon was automatically induced.",
+    "The Combinatory Categorial Grammar (CCG) lexicon is from a Turkish dependency treebank.",
+    "A Turkish dependency treebank exists.",
+    "Turkish is an agglutinating free word order language.",
+    "Turkish is agglutinating.",
+    "Turkish has free word order.",
+    "Turkish is a language.",
+    "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories.",
+    "Language theories face a challenge.",
+    "Possible ways to obtain a compact lexicon were explored.",
+    "Possible ways were explored."
+  ],
+  "n_candidates": 15,
+  "n_kept": 13,
+  "single-entity": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    5,
+    9
+  ],
+  "ambiguous": [
+    12
+  ],
+  "entities": [
+    "automatically inducing a Combinatory Categorial Grammar ( CCG ) lexicon",
+    "Combinatory Categorial Grammar ( CCG ) lexicon",
+    "Turkish dependency treebank",
+    "Turkish",
+    "agglutinating free word order language",
+    "language theories",
+    "compact lexicon",
+    "CCG principles",
+    "Penn WSJ"
+  ]
+}
