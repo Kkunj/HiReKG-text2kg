@@ -1,0 +1,59 @@
+{
+  "doc_id": "doc_87",
+  "facts": [
+    "The paper deals with a recently developed large Czech MWE database.",
+    "The Czech MWE database contains at the moment 160 000 MWEs.",
+    "The MWEs are treated as lexical units.",
+    "The database was compiled from various resources.",
+    "The database was compiled from collocations obtained from Czech WordNet.",
+    "The authors describe the structure of the database.",
+    "The authors give basic types of MWEs according to domains they belong to.",
+    "The authors compare the built MWEs database with the corpus data from Czech National Corpus.",
+    "These MWEs have not been obtained from the corpus.",
+    "The frequencies of the MWEs in the corpus are rather low.",
+    "The authors propose and use a technique exploiting the Word Sketch Engine to obtain a more complete list of MWEs.",
+    "The technique allows the authors to work with statistical parameters such as frequency of MWEs and their components.",
+    "The authors discuss exploitation of the database for working out a more adequate tagging and lemmatization.",
+    "The final goal is to be able to recognize MWEs in corpus text.",
+    "The final goal is to lemmatize MWEs as complete lexical units."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    9,
+    13
+  ],
+  "multiple-entity": [
+    2,
+    7,
+    10,
+    11,
+    12,
+    14
+  ],
+  "ambiguous": [
+    3,
+    5
+  ],
+  "entities": [
+    "large Czech MWE database",
+    "MWEs",
+    "lexical units",
+    "encyclopedias",
+    "dictionaries",
+    "public databases of proper names and toponyms",
+    "Czech WordNet",
+    "lists of botanical and zoological terms",
+    "MWEs database",
+    "Czech National Corpus",
+    "Word Sketch Engine",
+    "statistical parameters",
+    "tagging",
+    "lemmatization"
+  ]
+}

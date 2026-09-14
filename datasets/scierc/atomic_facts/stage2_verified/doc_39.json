@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_39",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "An operable definition of focus is presented.",
+      "generator_supporting_span": "We present an operable definition of focus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present an operable definition of focus which is argued to be of a cognito-pragmatic nature and explore how it is determined in discourse in a formalized manner .",
+      "verifier_reasoning": "The source text opens by explicitly stating, 'We present an operable definition of focus,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The presented definition of focus is argued to be of a cognito-pragmatic nature.",
+      "generator_supporting_span": "an operable definition of focus which is argued to be of a cognito-pragmatic nature",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present an operable definition of focus which is argued to be of a cognito-pragmatic nature",
+      "verifier_reasoning": "The source text explicitly states that the authors present a definition of focus that 'is argued to be of a cognito-pragmatic nature', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The determination of focus in discourse is explored.",
+      "generator_supporting_span": "explore how it is determined in discourse",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present an operable definition of focus which is argued to be of a cognito-pragmatic nature and explore how it is determined in discourse in a formalized manner .",
+      "verifier_reasoning": "The source text explicitly states that the authors \"explore how it is determined in discourse\", where the pronoun \"it\" refers to \"focus\" from the preceding clause. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The determination of focus is explored in a formalized manner.",
+      "generator_supporting_span": "explore how it is determined in discourse in a formalized manner",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present an operable definition of focus which is argued to be of a cognito-pragmatic nature and explore how it is determined in discourse in a formalized manner .",
+      "verifier_reasoning": "The source text explicitly states that the authors \"explore how it is determined in discourse in a formalized manner,\" where \"it\" refers to the concept of focus introduced in the same sentence. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "A file card model of discourse model and knowledge store is introduced.",
+      "generator_supporting_span": "a file card model of discourse model and knowledge store is introduced",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a file card model of discourse model and knowledge store is introduced enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA) .",
+      "verifier_reasoning": "The source text explicitly states that 'a file card model of discourse model and knowledge store is introduced' for the purpose of exploring how focus is determined in discourse.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The file card model enables the decomposition of the determination process as a programmable algorithm (FDA).",
+      "generator_supporting_span": "enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a file card model of discourse model and knowledge store is introduced enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA)",
+      "verifier_reasoning": "The source text explicitly states that a file card model is introduced for the purpose of enabling the decomposition of the determination process into a programmable algorithm (FDA). This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The file card model enables the formal representation of the determination process as a programmable algorithm (FDA).",
+      "generator_supporting_span": "enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "For this purpose , a file card model of discourse model and knowledge store is introduced enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA) .",
+      "verifier_reasoning": "The source text explicitly states that a file card model is introduced for the purpose of enabling the formal representation of the determination process as a programmable algorithm, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "FDA is a programmable algorithm.",
+      "generator_supporting_span": "a programmable algorithm (FDA)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a programmable algorithm (FDA)",
+      "verifier_reasoning": "The source text explicitly describes the formal representation of a determination process 'as a programmable algorithm (FDA)', directly defining FDA as a programmable algorithm.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Interdisciplinary evidence from social psychology is cited.",
+      "generator_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "verifier_reasoning": "The source text explicitly states that evidence from both social and cognitive psychology is cited, which directly supports the claim that evidence from social psychology is included.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Interdisciplinary evidence from cognitive psychology is cited.",
+      "generator_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "verifier_reasoning": "The source text explicitly states that evidence from both social and cognitive psychology is cited, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems is briefly discussed.",
+      "generator_supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed .",
+      "verifier_reasoning": "The source text explicitly states that the prospect of integrating focus via FDA into speech synthesis systems is briefly discussed. The candidate fact is a near-verbatim restatement of this information from the source.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The prospect of the integration of focus via FDA into concept-to-speech systems is briefly discussed.",
+      "generator_supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed .",
+      "verifier_reasoning": "The source text explicitly states that the prospect of integrating focus via FDA into concept-to-speech systems is briefly discussed, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Concept-to-speech systems are speech synthesis systems.",
+      "generator_supporting_span": "into speech synthesis systems , in particular , concept-to-speech systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "speech synthesis systems , in particular , concept-to-speech systems",
+      "verifier_reasoning": "The source text discusses integrating a construct into speech synthesis systems, and then uses the phrase 'in particular' to specify concept-to-speech systems. This phrasing explicitly identifies concept-to-speech systems as a specific type of speech synthesis system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Focus via FDA is a discourse-level construct.",
+      "generator_supporting_span": "focus via FDA as a discourse-level construct",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the integration of focus via FDA as a discourse-level construct into speech synthesis systems",
+      "verifier_reasoning": "The source text explicitly describes the prospect of integrating \"focus via FDA as a discourse-level construct\" into other systems, directly identifying it as such.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Interdisciplinary evidence from social and cognitive psychology is cited.",
+      "generator_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "verifier_reasoning": "The source text contains a sentence that is an exact match for the candidate fact, directly stating that evidence from social and cognitive psychology is cited.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

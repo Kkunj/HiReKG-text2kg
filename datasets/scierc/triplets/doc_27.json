@@ -1,0 +1,32 @@
+[
+  {
+    "head": "fine-grained annotation",
+    "relation": "used for",
+    "tail": "stochastic parsers"
+  },
+  {
+    "head": "tree-bank",
+    "relation": "used for",
+    "tail": "stochastic parsers"
+  },
+  {
+    "head": "treebank",
+    "relation": "used for",
+    "tail": "grammars"
+  },
+  {
+    "head": "treebank",
+    "relation": "used for",
+    "tail": "theoretical linguistic investigations"
+  },
+  {
+    "head": "SILVA",
+    "relation": "hyponym of",
+    "tail": "parsing and extraction tool"
+  },
+  {
+    "head": "German text corpora",
+    "relation": "used for",
+    "tail": "SILVA"
+  }
+]

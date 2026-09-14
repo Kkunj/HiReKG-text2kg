@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_60",
+  "facts": [
+    "The paper presents the first application of the head-driven statistical parsing model of Collins (1999).",
+    "The head-driven statistical parsing model of Collins (1999) is applied as a simultaneous language model and parser.",
+    "The application is for large-vocabulary speech recognition.",
+    "The model is adapted to an online left to right chart-parser.",
+    "The chart-parser is for word lattices.",
+    "The model integrates acoustic probabilities.",
+    "The model integrates n-gram probabilities.",
+    "The model integrates parser probabilities.",
+    "The parser uses structural and lexical dependencies.",
+    "Structural and lexical dependencies are not considered by n-gram models.",
+    "The parser conditions recognition on more linguistically-grounded relationships.",
+    "Experiments are on the Wall Street Journal treebank.",
+    "Experiments are on lattice corpora.",
+    "Experiments show word error rates competitive with the standard n-gram language model.",
+    "The experiments extract additional structural information useful for speech understanding."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    2,
+    3,
+    7,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    1,
+    4,
+    8,
+    9,
+    13,
+    14
+  ],
+  "ambiguous": [
+    5,
+    6
+  ],
+  "entities": [
+    "head-driven statistical parsing model",
+    "simultaneous language model",
+    "parser",
+    "large-vocabulary speech recognition",
+    "online left to right chart-parser",
+    "word lattices",
+    "acoustic , n-gram , and parser probabilities",
+    "structural and lexical dependencies",
+    "n-gram models",
+    "Wall Street Journal treebank",
+    "lattice corpora",
+    "word error rates",
+    "n-gram language model",
+    "structural information",
+    "speech understanding"
+  ]
+}

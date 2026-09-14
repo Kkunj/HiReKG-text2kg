@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_79",
+  "facts": [
+    {
+      "fact": "A novel method is presented for discovering parallel sentences in comparable, non-parallel corpora.",
+      "supporting_span": "We present a novel method for discovering parallel sentences in comparable , non-parallel corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A maximum entropy classifier is trained.",
+      "supporting_span": "We train a maximum entropy classifier",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The maximum entropy classifier is given a pair of sentences.",
+      "supporting_span": "given a pair of sentences",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The maximum entropy classifier can reliably determine whether the sentences are translations of each other.",
+      "supporting_span": "can reliably determine whether or not they are translations of each other .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Parallel data is extracted from non-parallel newspaper corpora.",
+      "supporting_span": "we extract parallel data from large Chinese , Arabic , and English non-parallel newspaper corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Parallel data is extracted from large Chinese non-parallel newspaper corpora.",
+      "supporting_span": "from large Chinese , Arabic , and English non-parallel newspaper corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Parallel data is extracted from large Arabic non-parallel newspaper corpora.",
+      "supporting_span": "from large Chinese , Arabic , and English non-parallel newspaper corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Parallel data is extracted from large English non-parallel newspaper corpora.",
+      "supporting_span": "from large Chinese , Arabic , and English non-parallel newspaper corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The quality of the extracted data is evaluated by showing improved performance of a state-of-the-art statistical machine translation system.",
+      "supporting_span": "We evaluate the quality of the extracted data by showing that it improves the performance of a state-of-the-art statistical machine translation system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The extracted data improves the performance of a state-of-the-art statistical machine translation system.",
+      "supporting_span": "it improves the performance of a state-of-the-art statistical machine translation system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A good-quality MT system can be built from scratch.",
+      "supporting_span": "a good-quality MT system can be built from scratch",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The good-quality MT system is built by starting with a very small parallel corpus of 100,000 words.",
+      "supporting_span": "by starting with a very small parallel corpus (100,000 words)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The good-quality MT system is built by exploiting a large non-parallel corpus.",
+      "supporting_span": "and exploiting a large non-parallel corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Chinese, Arabic, and English non-parallel newspaper corpora are large.",
+      "supporting_span": "large Chinese , Arabic , and English non-parallel newspaper corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method can be applied with great benefit to language pairs for which only scarce resources are available.",
+      "supporting_span": "Thus , our method can be applied with great benefit to language pairs for which only scarce resources are available .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

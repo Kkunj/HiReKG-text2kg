@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_8",
+  "facts": [
+    {
+      "fact": "The paper introduces the modal language LT.",
+      "supporting_span": "In this paper we introduce a modal language LT",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LT is for imposing constraints on trees.",
+      "supporting_span": "a modal language LT for imposing constraints on trees",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces the extension LT (LF).",
+      "supporting_span": "an extension LT (LF)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LT (LF) is for imposing constraints on trees decorated with feature structures.",
+      "supporting_span": "an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LT is a language.",
+      "supporting_span": "a modal language LT",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LT (LF) is an extension.",
+      "supporting_span": "an extension LT (LF)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The motivation for introducing LT and LT (LF) is to provide tools for formalising grammatical frameworks perspicuously.",
+      "supporting_span": "The motivation for introducing these languages is to provide tools for formalising grammatical frameworks perspicuously",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The leading ideas of GPSG can be captured in LT (LF).",
+      "supporting_span": "the leading ideas of GPSG can be captured in LT (LF)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper shows how the leading ideas of GPSG can be captured in LT (LF).",
+      "supporting_span": "the paper illustrates this by showing how the leading ideas of GPSG can be captured in LT (LF)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Constraints are imposed on trees.",
+      "supporting_span": "imposing constraints on trees",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Constraints are imposed on trees decorated with feature structures.",
+      "supporting_span": "imposing constraints on trees decorated with feature structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The role of modal languages is discussed in some detail.",
+      "supporting_span": "the role of modal languages and in particular , what we have called as constraint formalisms for linguistic theorising is discussed in some detail",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Constraint formalisms for linguistic theorising are discussed in some detail.",
+      "supporting_span": "what we have called as constraint formalisms for linguistic theorising is discussed in some detail",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Constraint formalisms are for linguistic theorising.",
+      "supporting_span": "constraint formalisms for linguistic theorising",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Trees are decorated with feature structures.",
+      "supporting_span": "trees decorated with feature structures",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_93",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Combination methods are an effective way of improving system performance.",
+      "generator_supporting_span": "Combination methods are an effective way of improving system performance .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Combination methods are an effective way of improving system performance .",
+      "verifier_reasoning": "The source text begins with the exact sentence presented in the candidate fact, making it directly supported.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The paper examines the benefits of system combination for unsupervised WSD.",
+      "generator_supporting_span": "This paper examines the benefits of system combination for unsupervised WSD .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper examines the benefits of system combination for unsupervised WSD .",
+      "verifier_reasoning": "The source text explicitly states the purpose of the paper in the second sentence, which directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The study investigates voting-based combination strategies.",
+      "generator_supporting_span": "We investigate several voting - and arbiter-based combination strategies",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems .",
+      "verifier_reasoning": "The source text explicitly states that the paper, which is the study in question, investigates several types of combination strategies, including those that are voting-based.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The study investigates arbiter-based combination strategies.",
+      "generator_supporting_span": "voting - and arbiter-based combination strategies",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems .",
+      "verifier_reasoning": "The source text explicitly states that the authors investigate several types of combination strategies, and lists \"arbiter-based combination strategies\" as one of them.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The combination strategies are investigated over a diverse pool of unsupervised WSD systems.",
+      "generator_supporting_span": "over a diverse pool of unsupervised WSD systems .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems .",
+      "verifier_reasoning": "The source text explicitly states that the authors investigate several combination strategies, and specifies that this investigation is conducted over a diverse pool of unsupervised WSD systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The combination methods rely on predominant senses.",
+      "generator_supporting_span": "Our combination methods rely on predominant senses",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our combination methods rely on predominant senses which are derived automatically from raw text .",
+      "verifier_reasoning": "The source text explicitly states that the combination methods discussed in the paper rely on predominant senses.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The predominant senses are derived automatically.",
+      "generator_supporting_span": "which are derived automatically from raw text .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our combination methods rely on predominant senses which are derived automatically from raw text .",
+      "verifier_reasoning": "The source text explicitly states that the combination methods use predominant senses and that these senses are 'derived automatically from raw text'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The predominant senses are derived from raw text.",
+      "generator_supporting_span": "derived automatically from raw text",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our combination methods rely on predominant senses which are derived automatically from raw text .",
+      "verifier_reasoning": "The source text explicitly states that the combination methods use predominant senses, and then specifies that these senses 'are derived automatically from raw text'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The experiments use the SemCor data set.",
+      "generator_supporting_span": "Experiments using the SemCor and Senseval-3 data sets",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art .",
+      "verifier_reasoning": "The source text explicitly lists the data sets used for the experiments, and SemCor is one of the two mentioned.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The experiments use the Senseval-3 data set.",
+      "generator_supporting_span": "Experiments using the SemCor and Senseval-3 data sets",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art .",
+      "verifier_reasoning": "The source text explicitly lists the data sets used for the experiments, and Senseval-3 is one of them.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The ensembles yield significantly better results when compared with state-of-the-art.",
+      "generator_supporting_span": "our ensembles yield significantly better results when compared with state-of-the-art .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art .",
+      "verifier_reasoning": "The source text explicitly states that experiments demonstrated the ensembles produced significantly better results when compared to the state-of-the-art.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The experiments demonstrate that the ensembles yield significantly better results.",
+      "generator_supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art .",
+      "verifier_reasoning": "The source text explicitly states that experiments demonstrated the ensembles' results were 'significantly better' when compared to the state-of-the-art, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The combination strategies investigated are voting-based and arbiter-based.",
+      "generator_supporting_span": "voting - and arbiter-based combination strategies",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems .",
+      "verifier_reasoning": "The source text explicitly states that the paper investigates several combination strategies and identifies them as being \"voting - and arbiter-based\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The systems in the pool are unsupervised WSD systems.",
+      "generator_supporting_span": "a diverse pool of unsupervised WSD systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems .",
+      "verifier_reasoning": "The source text explicitly states that the combination strategies are investigated over 'a diverse pool of unsupervised WSD systems', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "System combination is for unsupervised WSD.",
+      "generator_supporting_span": "system combination for unsupervised WSD",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that the paper examines the benefits of system combination for unsupervised WSD, indicating this is one application. However, it does not make the absolute claim that system combination is exclusively for unsupervised WSD, and the first sentence suggests a broader purpose of improving general system performance.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    }
+  ]
+}

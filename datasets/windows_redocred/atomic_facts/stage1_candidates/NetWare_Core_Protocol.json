@@ -1,0 +1,82 @@
+{
+  "doc_id": "NetWare_Core_Protocol",
+  "facts": [
+    {
+      "fact": "The NetWare Core Protocol (NCP) is a network protocol.",
+      "supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol is used in some products from Novell, Inc.",
+      "supporting_span": "The NetWare Core Protocol ( NCP ) is a network protocol used in some products from Novell , Inc.",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol is usually associated with the client-server operating system Novell NetWare.",
+      "supporting_span": "It is usually associated with the client - server operating system Novell NetWare",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Novell NetWare originally supported primarily MS-DOS client stations.",
+      "supporting_span": "which originally supported primarily MS - DOS client stations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for Microsoft Windows was added to Novell NetWare.",
+      "supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for the classic Mac OS was added to Novell NetWare.",
+      "supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for Linux was added to Novell NetWare.",
+      "supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for Windows NT was added to Novell NetWare.",
+      "supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Support for various flavors of Unix was added to Novell NetWare.",
+      "supporting_span": "but later support for other platforms such as Microsoft Windows , the classic Mac OS , Linux , Windows NT , Mac OS X , and various flavors of Unix was added .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol is used to access remote command execution.",
+      "supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol is used to access clock synchronization.",
+      "supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol is used to access messaging.",
+      "supporting_span": "The NCP is used to access file , print , directory , clock synchronization , messaging , remote command execution and other network service functions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The NetWare Core Protocol originally took advantage of an easy network configuration of the IPX/SPX protocol stack.",
+      "supporting_span": "It originally took advantage of an easy network configuration and a little memory footprint of the IPX / SPX protocol stack .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Since mid-1990s the TCP/IP implementation is available.",
+      "supporting_span": "Since mid-1990s the TCP / IP implementation is available .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree.",
+      "supporting_span": "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

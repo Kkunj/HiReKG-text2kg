@@ -1,0 +1,61 @@
+{
+  "doc_id": "doc_20",
+  "facts": [
+    "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification.",
+    "The paper investigates the utility of applying standard MT evaluation methods to building classifiers to predict semantic equivalence and entailment.",
+    "BLEU is a standard MT evaluation method.",
+    "NIST is a standard MT evaluation method.",
+    "WER is a standard MT evaluation method.",
+    "PER is a standard MT evaluation method.",
+    "Classifiers predict semantic equivalence.",
+    "Classifiers predict entailment.",
+    "The paper introduces a novel classification method based on PER.",
+    "The novel classification method based on PER leverages part of speech information.",
+    "The part of speech information is of the words contributing to the word matches in the sentence.",
+    "The part of speech information is of the words contributing to the word non-matches in the sentence.",
+    "MT evaluation techniques are able to produce useful features for paraphrase classification.",
+    "MT evaluation techniques are able to produce useful features for entailment to a lesser extent.",
+    "The novel classification method based on PER gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "machine translation ( MT ) evaluation",
+    "sentence-level semantic equivalence classification",
+    "MT evaluation methods",
+    "BLEU",
+    "NIST",
+    "WER",
+    "PER",
+    "classifiers",
+    "semantic equivalence",
+    "entailment",
+    "classification method",
+    "part of speech information",
+    "word matches and non-matches",
+    "MT evaluation techniques",
+    "features",
+    "paraphrase classification",
+    "paraphrase classification accuracy"
+  ]
+}

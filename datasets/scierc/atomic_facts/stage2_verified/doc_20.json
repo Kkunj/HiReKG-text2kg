@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_20",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification.",
+      "generator_supporting_span": "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The task of machine translation (MT) evaluation is closely related to the task of sentence-level semantic equivalence classification .",
+      "verifier_reasoning": "The candidate fact is a direct, verbatim quote of the first sentence of the source text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The paper investigates the utility of applying standard MT evaluation methods to building classifiers to predict semantic equivalence and entailment.",
+      "generator_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text contains a sentence that is nearly identical to the candidate fact, explicitly stating that the paper investigates the application of MT evaluation methods for building classifiers to predict semantic equivalence and entailment.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "BLEU is a standard MT evaluation method.",
+      "generator_supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly lists several methods as examples of 'standard MT evaluation methods' in a parenthetical list, and BLEU is the first item mentioned in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "NIST is a standard MT evaluation method.",
+      "generator_supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly lists NIST within a parenthetical that follows the phrase 'standard MT evaluation methods', directly stating that NIST is one of these methods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "WER is a standard MT evaluation method.",
+      "generator_supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly lists several \"standard MT evaluation methods\" in a parenthetical, and WER is included in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "PER is a standard MT evaluation method.",
+      "generator_supporting_span": "standard MT evaluation methods (BLEU , NIST , WER and PER)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly lists PER within a parenthetical that follows the phrase 'standard MT evaluation methods', directly identifying it as such.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Classifiers predict semantic equivalence.",
+      "generator_supporting_span": "to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly states that the paper investigates building classifiers for the purpose of predicting semantic equivalence, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Classifiers predict entailment.",
+      "generator_supporting_span": "to building classifiers to predict semantic equivalence and entailment .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper investigates the utility of applying standard MT evaluation methods (BLEU , NIST , WER and PER) to building classifiers to predict semantic equivalence and entailment .",
+      "verifier_reasoning": "The source text explicitly states that the paper investigates building classifiers for the purpose of predicting semantic equivalence and entailment.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The paper introduces a novel classification method based on PER.",
+      "generator_supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "verifier_reasoning": "The source text explicitly states, 'We also introduce a novel classification method based on PER...'. This directly supports the candidate fact that the paper introduces such a method.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The novel classification method based on PER leverages part of speech information.",
+      "generator_supporting_span": "which leverages part of speech information",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "verifier_reasoning": "The source text explicitly introduces a new classification method and states that it is based on PER and leverages part of speech information, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The part of speech information is of the words contributing to the word matches in the sentence.",
+      "generator_supporting_span": "of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "verifier_reasoning": "The source text states that the classification method uses part of speech information from words contributing to both word matches and non-matches. This directly supports the claim that the information is from words contributing to word matches.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The part of speech information is of the words contributing to the word non-matches in the sentence.",
+      "generator_supporting_span": "of the words contributing to the word matches and non-matches in the sentence .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence .",
+      "verifier_reasoning": "The source text explicitly states that the classification method uses part of speech information for words contributing to both \"matches and non-matches\". Therefore, the claim that the information is used for non-matches is directly supported by the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "MT evaluation techniques are able to produce useful features for paraphrase classification.",
+      "generator_supporting_span": "MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "verifier_reasoning": "The source text explicitly states that the results of the study show that MT evaluation techniques can produce useful features for paraphrase classification.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "MT evaluation techniques are able to produce useful features for entailment to a lesser extent.",
+      "generator_supporting_span": "MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment .",
+      "verifier_reasoning": "The source text explicitly states that the study's results show MT evaluation techniques can produce useful features for paraphrase classification and, to a lesser extent, for entailment. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The novel classification method based on PER gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments.",
+      "generator_supporting_span": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments .",
+      "verifier_reasoning": "The source text explicitly states that the novel technique, which the text identifies as being based on PER, provides a 'substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

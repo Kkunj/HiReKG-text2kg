@@ -1,0 +1,61 @@
+{
+  "doc_id": "doc_63",
+  "facts": [
+    "Conventional HMMs have weak duration constraints.",
+    "In noisy conditions, the mismatch between corrupted speech signals and models trained on clean speech may cause the decoder to produce word matches with unrealistic durations.",
+    "The mismatch is between corrupted speech signals and models trained on clean speech.",
+    "Models are trained on clean speech.",
+    "This paper presents a simple way to incorporate word duration constraints.",
+    "Word duration constraints can be incorporated by unrolling HMMs.",
+    "Unrolling HMMs forms a lattice.",
+    "Word duration probabilities can be applied directly to state transitions.",
+    "The expanded HMMs are compatible with conventional Viterbi decoding.",
+    "Experiments on connected-digit recognition show that when using explicit duration constraints the decoder generates word matches with more reasonable durations.",
+    "When using explicit duration constraints, the decoder generates word matches with more reasonable durations.",
+    "The decoder generates word matches when using explicit duration constraints.",
+    "Word error rates are significantly reduced.",
+    "Word error rates are significantly reduced across a broad range of noise conditions.",
+    "There is a broad range of noise conditions."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    4,
+    12,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13
+  ],
+  "ambiguous": [],
+  "entities": [
+    "HMMs",
+    "weak duration constraints",
+    "corrupted speech signals",
+    "clean speech",
+    "decoder",
+    "word matches",
+    "unrealistic durations",
+    "word duration constraints",
+    "unrolling HMMs",
+    "lattice",
+    "word duration probabilities",
+    "state transitions",
+    "Viterbi decoding",
+    "connected-digit recognition",
+    "duration constraints",
+    "word error rates",
+    "noise conditions"
+  ]
+}

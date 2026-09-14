@@ -1,0 +1,37 @@
+[
+  {
+    "head": "Centering Theory",
+    "relation": "used for",
+    "tail": "entity-based representation of discourse"
+  },
+  {
+    "head": "raw text",
+    "relation": "used for",
+    "tail": "entity-based representation of discourse"
+  },
+  {
+    "head": "ranking learning problem",
+    "relation": "used for",
+    "tail": "coherence assessment"
+  },
+  {
+    "head": "discourse representation",
+    "relation": "used for",
+    "tail": "ranking function"
+  },
+  {
+    "head": "induced model",
+    "relation": "compare",
+    "tail": "coherence model"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "induced model"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "coherence model"
+  }
+]

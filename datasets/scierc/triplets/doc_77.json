@@ -1,0 +1,47 @@
+[
+  {
+    "head": "Image composition (or mosaicing)",
+    "relation": "part of",
+    "tail": "video analysis and representation"
+  },
+  {
+    "head": "global alignment",
+    "relation": "conjunction",
+    "tail": "super-resolution"
+  },
+  {
+    "head": "amount of blurring",
+    "relation": "evaluate for",
+    "tail": "mosaic"
+  },
+  {
+    "head": "graph-based technique",
+    "relation": "used for",
+    "tail": "Global registration"
+  },
+  {
+    "head": "graph-based technique",
+    "relation": "used for",
+    "tail": "topological structure"
+  },
+  {
+    "head": "graph-based technique",
+    "relation": "conjunction",
+    "tail": "bundle adjustment"
+  },
+  {
+    "head": "bundle adjustment",
+    "relation": "used for",
+    "tail": "Global registration"
+  },
+  {
+    "head": "homographies",
+    "relation": "used for",
+    "tail": "bundle adjustment"
+  },
+  {
+    "head": "approach",
+    "relation": "compare",
+    "tail": "techniques"
+  }
+]

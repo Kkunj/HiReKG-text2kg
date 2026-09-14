@@ -1,0 +1,57 @@
+[
+  {
+    "head": "psy-chophysical and machine learning techniques",
+    "relation": "used for",
+    "tail": "visual classification"
+  },
+  {
+    "head": "Frontal views of human faces",
+    "relation": "used for",
+    "tail": "gender classification task"
+  },
+  {
+    "head": "hyperplane learning algorithms",
+    "relation": "used for",
+    "tail": "classification task"
+  },
+  {
+    "head": "Principal Components of the texture",
+    "relation": "used for",
+    "tail": "hyperplane learning algorithms"
+  },
+  {
+    "head": "flowfield representation of the faces",
+    "relation": "used for",
+    "tail": "hyperplane learning algorithms"
+  },
+  {
+    "head": "flowfield representation of the faces",
+    "relation": "conjunction",
+    "tail": "Principal Components of the texture"
+  },
+  {
+    "head": "learning algorithms",
+    "relation": "used for",
+    "tail": "classification"
+  },
+  {
+    "head": "face database",
+    "relation": "evaluate for",
+    "tail": "learning algorithms"
+  },
+  {
+    "head": "hyperplane algorithms",
+    "relation": "used for",
+    "tail": "human classification"
+  },
+  {
+    "head": "feature space",
+    "relation": "feature of",
+    "tail": "hyperplane algorithms"
+  },
+  {
+    "head": "hyperplane",
+    "relation": "compare",
+    "tail": "those"
+  }
+]

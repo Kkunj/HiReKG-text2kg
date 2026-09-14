@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_1",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper presents an unlexicalized parser for German.",
+      "generator_supporting_span": "we present an unlexicalized parser for German",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present an unlexicalized parser for German",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the paper presents an unlexicalized parser for the German language.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The unlexicalized parser employs smoothing.",
+      "generator_supporting_span": "employs smoothing",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present an unlexicalized parser for German which employs smoothing and suffix analysis",
+      "verifier_reasoning": "The source text explicitly states that the paper presents an unlexicalized parser that 'employs smoothing and suffix analysis', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The unlexicalized parser employs suffix analysis.",
+      "generator_supporting_span": "employs smoothing and suffix analysis",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present an unlexicalized parser for German which employs smoothing and suffix analysis",
+      "verifier_reasoning": "The source text explicitly states that the unlexicalized parser for German 'employs smoothing and suffix analysis', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The unlexicalized parser achieves a labelled bracket F-score of 76.2.",
+      "generator_supporting_span": "to achieve a labelled bracket F-score of 76.2",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present an unlexicalized parser for German which employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2",
+      "verifier_reasoning": "The source text explicitly states that the unlexicalized parser presented in the paper achieves a labelled bracket F-score of 76.2.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The labelled bracket F-score of 76.2 is higher than previously reported results on the NEGRA corpus.",
+      "generator_supporting_span": "higher than previously reported results on the NEGRA corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a labelled bracket F-score of 76.2 , higher than previously reported results on the NEGRA corpus",
+      "verifier_reasoning": "The source text explicitly states that the parser achieved a labelled bracket F-score of 76.2, and directly follows this by stating it is 'higher than previously reported results on the NEGRA corpus'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The model has high accuracy.",
+      "generator_supporting_span": "the high accuracy of the model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In addition to the high accuracy of the model , the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results .",
+      "verifier_reasoning": "The source text explicitly mentions 'the high accuracy of the model' when describing its characteristics, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The use of smoothing in an unlexicalized parser allows better examination of the interplay between smoothing and parsing results.",
+      "generator_supporting_span": "the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results .",
+      "verifier_reasoning": "The source text explicitly states that a benefit of using smoothing in the described parser is that it allows for a better examination of the interplay between smoothing and parsing results. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "There is an interplay between smoothing and parsing results.",
+      "generator_supporting_span": "the interplay between smoothing and parsing results",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results .",
+      "verifier_reasoning": "The source text explicitly states that the parser allows the authors to examine 'the interplay between smoothing and parsing results', which directly confirms that such an interplay exists.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The parser is unlexicalized.",
+      "generator_supporting_span": "an unlexicalized parser",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present an unlexicalized parser for German",
+      "verifier_reasoning": "The source text explicitly states that the paper presents 'an unlexicalized parser for German', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The parser is for German.",
+      "generator_supporting_span": "parser for German",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present an unlexicalized parser for German",
+      "verifier_reasoning": "The source text explicitly states that the paper presents \"an unlexicalized parser for German,\" which directly confirms the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Smoothing and suffix analysis are employed to achieve a labelled bracket F-score of 76.2.",
+      "generator_supporting_span": "employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2",
+      "span_mismatch": false,
+      "verifier_supporting_span": "employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2",
+      "verifier_reasoning": "The source text explicitly states that the parser for German \"employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Previously reported results were on the NEGRA corpus.",
+      "generator_supporting_span": "previously reported results on the NEGRA corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "previously reported results on the NEGRA corpus",
+      "verifier_reasoning": "The source text explicitly states that the new parser's F-score is higher than \"previously reported results on the NEGRA corpus,\" directly linking the previous results to that specific corpus.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Smoothing is used in an unlexicalized parser.",
+      "generator_supporting_span": "the use of smoothing in an unlexicalized parser",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results",
+      "verifier_reasoning": "The source text explicitly mentions \"the use of smoothing in an unlexicalized parser\", which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The F-score mentioned is a labelled bracket F-score.",
+      "generator_supporting_span": "a labelled bracket F-score",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a labelled bracket F-score of 76.2",
+      "verifier_reasoning": "The source text explicitly states that the parser achieved 'a labelled bracket F-score of 76.2', directly confirming the type of F-score being discussed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "NEGRA is a corpus.",
+      "generator_supporting_span": "the NEGRA corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "previously reported results on the NEGRA corpus",
+      "verifier_reasoning": "The source text explicitly refers to \"the NEGRA corpus,\" which directly states that NEGRA is a corpus.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

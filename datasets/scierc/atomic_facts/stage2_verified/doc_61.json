@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_61",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper asks whether it is possible to use out-of-domain acoustic training data to improve a speech recognizer's performance on a specific, independent application.",
+      "generator_supporting_span": "Is it possible to use out-of-domain acoustic training data to improve a speech recognizer 's performance on a speciic , independent application ?",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Is it possible to use out-of-domain acoustic training data to improve a speech recognizer 's performance on a speciic , independent application ?",
+      "verifier_reasoning": "The source text opens by posing the exact question that the candidate fact claims the paper is asking. This provides direct and verbatim support for the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The experiments use Wallstreet Journal (WSJ) data to train a recognizer.",
+      "generator_supporting_span": "we use Wallstreet Journal (WSJ) data to train a recognizer",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In our experiments , we use Wallstreet Journal (WSJ) data to train a recognizer , which is adapted and evaluated in the Phonebook domain .",
+      "verifier_reasoning": "The source text explicitly states that the experiments involved using Wallstreet Journal (WSJ) data for the purpose of training a recognizer.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The trained recognizer is adapted in the Phonebook domain.",
+      "generator_supporting_span": "adapted and evaluated in the Phonebook domain",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In our experiments , we use Wallstreet Journal (WSJ) data to train a recognizer , which is adapted and evaluated in the Phonebook domain .",
+      "verifier_reasoning": "The source text explicitly states that the recognizer, which was trained using Wallstreet Journal data, is subsequently adapted and evaluated within the Phonebook domain.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The trained recognizer is evaluated in the Phonebook domain.",
+      "generator_supporting_span": "adapted and evaluated in the Phonebook domain",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In our experiments , we use Wallstreet Journal (WSJ) data to train a recognizer , which is adapted and evaluated in the Phonebook domain .",
+      "verifier_reasoning": "The source text explicitly states that the recognizer trained on Wallstreet Journal data is subsequently 'adapted and evaluated in the Phonebook domain'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The Wallstreet Journal and Phonebook corpora share US English as a common language.",
+      "generator_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects",
+      "verifier_reasoning": "The source text explicitly states that the two corpora being discussed, Wallstreet Journal (WSJ) and Phonebook, share a common language, which it identifies as US English.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The Wallstreet Journal and Phonebook corpora differ in many important respects.",
+      "generator_supporting_span": "the two corpora diier in many important respects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects : microphone vs. telephone channel , continuous speech vs. isolated words , mismatch i n s p e a k i n g r a t e .",
+      "verifier_reasoning": "The source text first identifies the two corpora being discussed as the Wallstreet Journal (WSJ) and Phonebook data. It then explicitly states that 'the two corpora diier in many important respects' and lists several of those differences.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The Wallstreet Journal and Phonebook corpora differ in microphone versus telephone channel.",
+      "generator_supporting_span": "microphone vs. telephone channel",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects : microphone vs. telephone channel , continuous speech vs. isolated words , mismatch i n s p e a k i n g r a t e .",
+      "verifier_reasoning": "The source text explicitly lists the ways in which the Wallstreet Journal and Phonebook corpora differ, and one of the listed differences is 'microphone vs. telephone channel'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The Wallstreet Journal and Phonebook corpora differ in continuous speech versus isolated words.",
+      "generator_supporting_span": "continuous speech vs. isolated words",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects : microphone vs. telephone channel , continuous speech vs. isolated words , mismatch i n s p e a k i n g r a t e .",
+      "verifier_reasoning": "The source text explicitly lists several ways in which the two corpora differ, and one of the listed differences is 'continuous speech vs. isolated words'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "There is a mismatch in speaking rate between the Wallstreet Journal and Phonebook corpora.",
+      "generator_supporting_span": "mismatch i n s p e a k i n g r a t e",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Apart from their common language (US English) , the two corpora diier in many important respects : microphone vs. telephone channel , continuous speech vs. isolated words , mismatch i n s p e a k i n g r a t e .",
+      "verifier_reasoning": "The source text explicitly lists the differences between the two corpora (Wallstreet Journal and Phonebook), and one of the items in this list is a 'mismatch in speaking rate'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The paper deals with two questions.",
+      "generator_supporting_span": "This paper deals with two questions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper deals with two questions .",
+      "verifier_reasoning": "The source text explicitly states the number of questions the paper will address, directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "One question asks how much adaptation data from the Phonebook training corpus is necessary to achieve a reasonable recognition performance starting from the WSJ-trained recognizer.",
+      "generator_supporting_span": "First , starting from the WSJ-trained recognizer , how much adaptation data (taken from the Phonebook training corpus) is necessary to achieve a reasonable recognition performance in spite of the high degree of mismatch ?",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper deals with two questions . First , starting from the WSJ-trained recognizer , how much adaptation data (taken from the Phonebook training corpus) is necessary to achieve a reasonable recognition performance in spite of the high degree of mismatch ?",
+      "verifier_reasoning": "The source text explicitly states two questions that the paper addresses. The candidate fact is a direct and accurate restatement of the first question listed in the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The adaptation data are taken from the Phonebook training corpus.",
+      "generator_supporting_span": "(taken from the Phonebook training corpus)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "how much adaptation data (taken from the Phonebook training corpus) is necessary to achieve a reasonable recognition performance",
+      "verifier_reasoning": "The source text poses a question about the quantity of adaptation data needed and, in a parenthetical clause, explicitly states that this data is 'taken from the Phonebook training corpus'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "There is a high degree of mismatch.",
+      "generator_supporting_span": "the high degree of mismatch",
+      "span_mismatch": false,
+      "verifier_supporting_span": "how much adaptation data (taken from the Phonebook training corpus) is necessary to achieve a reasonable recognition performance in spite of the high degree of mismatch ?",
+      "verifier_reasoning": "The source text poses a question about achieving a reasonable recognition performance 'in spite of the high degree of mismatch', which directly confirms the existence of this mismatch.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "A second question asks whether additional out-of-domain training data can improve the recognition performance of a Phonebook-trained baseline acoustic model.",
+      "generator_supporting_span": "Second , is it possible to improve the recognition performance of a Phonebook-trained baseline acoustic model by using additional out-of-domain training data ?",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Second , is it possible to improve the recognition performance of a Phonebook-trained baseline acoustic model by using additional out-of-domain training data ?",
+      "verifier_reasoning": "The source text explicitly states that the paper deals with two questions. The candidate fact is a direct restatement of the second question listed in the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The paper describes adaptation and normalization techniques used to bridge the mismatch between the two corpora.",
+      "generator_supporting_span": "The paper describes the adaptation and normalization techniques used to bridge the mismatch b e-tween the two corpora .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The paper describes the adaptation and normalization techniques used to bridge the mismatch b e-tween the two corpora .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the paper describes the very techniques mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_17",
+  "facts": [
+    {
+      "fact": "The paper introduces KAZE features, a novel multiscale 2D feature detection and description algorithm in nonlinear scale spaces.",
+      "supporting_span": "we introduce KAZE features , a novel multiscale 2D feature detection and description algorithm in nonlinear scale spaces .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches detect and describe features at different scale levels by building or approximating the Gaussian scale space of an image.",
+      "supporting_span": "Previous approaches detect and describe features at different scale levels by building or approximating the Gaussian scale space of an image .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Gaussian blurring does not respect the natural boundaries of objects.",
+      "supporting_span": "Gaussian blurring does not respect the natural boundaries of objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Gaussian blurring smoothes to the same degree both details and noise.",
+      "supporting_span": "smoothes to the same degree both details and noise",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Gaussian blurring reduces localization accuracy and distinctiveness.",
+      "supporting_span": "reducing localization accuracy and distinctiveness .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "2D features are detected and described in a nonlinear scale space by means of nonlinear diffusion filtering.",
+      "supporting_span": "we detect and describe 2D features in a nonlinear scale space by means of nonlinear diffusion filtering .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Blurring can be made locally adaptive to the image data.",
+      "supporting_span": "we can make blurring locally adaptive to the image data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Locally adaptive blurring reduces noise.",
+      "supporting_span": "reducing noise",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Locally adaptive blurring retains object boundaries.",
+      "supporting_span": "retaining object boundaries",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Locally adaptive blurring obtains superior localization accuracy and distinctiviness.",
+      "supporting_span": "obtaining superior localization accuracy and distinctiviness .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The nonlinear scale space is built using efficient Additive Operator Splitting (AOS) techniques and variable con-ductance diffusion.",
+      "supporting_span": "The nonlinear scale space is built using efficient Additive Operator Splitting (AOS) techniques and variable con-ductance diffusion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An extensive evaluation on benchmark datasets is presented.",
+      "supporting_span": "We present an extensive evaluation on benchmark datasets",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A practical matching application on deformable surfaces is presented.",
+      "supporting_span": "a practical matching application on deformable surfaces .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "KAZE features are somewhat more expensive to compute than SURF due to the construction of the nonlinear scale space.",
+      "supporting_span": "our features are somewhat more expensive to compute than SURF due to the construction of the nonlinear scale space",
+      "span_mismatch": false
+    },
+    {
+      "fact": "KAZE features are comparable to SIFT.",
+      "supporting_span": "comparable to SIFT",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

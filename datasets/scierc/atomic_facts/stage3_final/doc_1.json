@@ -1,0 +1,53 @@
+{
+  "doc_id": "doc_1",
+  "facts": [
+    "The paper presents an unlexicalized parser for German.",
+    "The unlexicalized parser employs smoothing.",
+    "The unlexicalized parser employs suffix analysis.",
+    "The unlexicalized parser achieves a labelled bracket F-score of 76.2.",
+    "The labelled bracket F-score of 76.2 is higher than previously reported results on the NEGRA corpus.",
+    "The model has high accuracy.",
+    "The use of smoothing in an unlexicalized parser allows better examination of the interplay between smoothing and parsing results.",
+    "There is an interplay between smoothing and parsing results.",
+    "The parser is unlexicalized.",
+    "The parser is for German.",
+    "Smoothing and suffix analysis are employed to achieve a labelled bracket F-score of 76.2.",
+    "Previously reported results were on the NEGRA corpus.",
+    "Smoothing is used in an unlexicalized parser.",
+    "The F-score mentioned is a labelled bracket F-score.",
+    "NEGRA is a corpus."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    5,
+    9,
+    11,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    10,
+    12
+  ],
+  "ambiguous": [
+    8,
+    14
+  ],
+  "entities": [
+    "unlexicalized parser",
+    "German",
+    "smoothing",
+    "suffix analysis",
+    "labelled bracket F-score",
+    "NEGRA corpus",
+    "accuracy",
+    "parsing"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_3",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Pan-tilt-zoom (PTZ) cameras have the capacity to simultaneously cover a panoramic area.",
+      "generator_supporting_span": "Due to the capacity of pan-tilt-zoom (PTZ) cameras to simultaneously cover a panoramic area",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Due to the capacity of pan-tilt-zoom (PTZ) cameras to simultaneously cover a panoramic area and maintain high resolution imagery , researches in automated surveillance systems with multiple PTZ cameras have become increasingly important .",
+      "verifier_reasoning": "The source text opens by stating that the capacity of PTZ cameras to cover a panoramic area is a reason why research into them has become important, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Pan-tilt-zoom (PTZ) cameras have the capacity to maintain high resolution imagery.",
+      "generator_supporting_span": "Due to the capacity of pan-tilt-zoom (PTZ) cameras to simultaneously cover a panoramic area and maintain high resolution imagery",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Due to the capacity of pan-tilt-zoom (PTZ) cameras to simultaneously cover a panoramic area and maintain high resolution imagery , researches in automated surveillance systems with multiple PTZ cameras have become increasingly important .",
+      "verifier_reasoning": "The source text explicitly states that one of the capacities of pan-tilt-zoom (PTZ) cameras is to 'maintain high resolution imagery'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Researches in automated surveillance systems with multiple PTZ cameras have become increasingly important.",
+      "generator_supporting_span": "researches in automated surveillance systems with multiple PTZ cameras have become increasingly important",
+      "span_mismatch": false,
+      "verifier_supporting_span": "researches in automated surveillance systems with multiple PTZ cameras have become increasingly important .",
+      "verifier_reasoning": "The source text explicitly states that research in automated surveillance systems using multiple PTZ cameras has become increasingly important, matching the candidate fact verbatim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Most existing algorithms require the prior knowledge of intrinsic parameters of the PTZ camera to infer the relative positioning and orientation among multiple PTZ cameras.",
+      "generator_supporting_span": "Most existing algorithms require the prior knowledge of intrinsic parameters of the PTZ camera to infer the relative positioning and orientation among multiple PTZ cameras",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Most existing algorithms require the prior knowledge of intrinsic parameters of the PTZ camera to infer the relative positioning and orientation among multiple PTZ cameras .",
+      "verifier_reasoning": "The source text directly states the candidate fact verbatim in the second sentence, confirming what most existing algorithms require for PTZ camera positioning.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "A novel mapping algorithm is proposed.",
+      "generator_supporting_span": "we propose a novel mapping algorithm",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To overcome this limitation , we propose a novel mapping algorithm that derives the relative positioning and orientation between two PTZ cameras based on a unified polynomial model .",
+      "verifier_reasoning": "The source text explicitly states that the authors are proposing a new algorithm to address a limitation found in existing methods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The novel mapping algorithm derives the relative positioning between two PTZ cameras.",
+      "generator_supporting_span": "derives the relative positioning and orientation between two PTZ cameras",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To overcome this limitation , we propose a novel mapping algorithm that derives the relative positioning and orientation between two PTZ cameras based on a unified polynomial model .",
+      "verifier_reasoning": "The source text explicitly states that the authors propose a novel mapping algorithm that \"derives the relative positioning and orientation between two PTZ cameras\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The novel mapping algorithm derives the relative orientation between two PTZ cameras.",
+      "generator_supporting_span": "derives the relative positioning and orientation between two PTZ cameras",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To overcome this limitation , we propose a novel mapping algorithm that derives the relative positioning and orientation between two PTZ cameras based on a unified polynomial model .",
+      "verifier_reasoning": "The source text explicitly states that the proposed novel mapping algorithm \"derives the relative positioning and orientation between two PTZ cameras\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The novel mapping algorithm is based on a unified polynomial model.",
+      "generator_supporting_span": "based on a unified polynomial model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To overcome this limitation , we propose a novel mapping algorithm that derives the relative positioning and orientation between two PTZ cameras based on a unified polynomial model .",
+      "verifier_reasoning": "The source text explicitly states that the proposed novel mapping algorithm is based on a unified polynomial model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Dependence on the knowledge of intrinsic parameters of PTZ camera is reduced.",
+      "generator_supporting_span": "reduces the dependence on the knowledge of intrinsic parameters of PTZ camera and relative positions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This reduces the dependence on the knowledge of intrinsic parameters of PTZ camera and relative positions .",
+      "verifier_reasoning": "The source text introduces a novel mapping algorithm and explicitly states that this algorithm reduces the reliance on knowing the intrinsic parameters of the PTZ camera.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Dependence on relative positions is reduced.",
+      "generator_supporting_span": "reduces the dependence on the knowledge of intrinsic parameters of PTZ camera and relative positions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This reduces the dependence on the knowledge of intrinsic parameters of PTZ camera and relative positions .",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm 'reduces the dependence on the knowledge of intrinsic parameters of PTZ camera and relative positions', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Experimental results demonstrate that the proposed algorithm presents substantially reduced computational complexity, as compared with the work of Chen and Wang.",
+      "generator_supporting_span": "Experimental results demonstrate that our proposed algorithm presents substantially reduced computational complexity and improved flexibility at the cost of slightly decreased pixel accuracy , as compared with the work of Chen and Wang .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experimental results demonstrate that our proposed algorithm presents substantially reduced computational complexity and improved flexibility at the cost of slightly decreased pixel accuracy , as compared with the work of Chen and Wang .",
+      "verifier_reasoning": "The source text explicitly states that experimental results demonstrated the proposed algorithm's substantially reduced computational complexity when compared with the work of Chen and Wang.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Experimental results demonstrate that the proposed algorithm presents improved flexibility, as compared with the work of Chen and Wang.",
+      "generator_supporting_span": "Experimental results demonstrate that our proposed algorithm presents substantially reduced computational complexity and improved flexibility at the cost of slightly decreased pixel accuracy , as compared with the work of Chen and Wang .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experimental results demonstrate that our proposed algorithm presents substantially reduced computational complexity and improved flexibility at the cost of slightly decreased pixel accuracy , as compared with the work of Chen and Wang .",
+      "verifier_reasoning": "The source text explicitly states that experimental results demonstrate the proposed algorithm has 'improved flexibility' when compared to the work of Chen and Wang.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The proposed algorithm has slightly decreased pixel accuracy.",
+      "generator_supporting_span": "slightly decreased pixel accuracy",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experimental results demonstrate that our proposed algorithm presents substantially reduced computational complexity and improved flexibility at the cost of slightly decreased pixel accuracy, as compared with the work of Chen and Wang.",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm's benefits come 'at the cost of slightly decreased pixel accuracy' when compared to the work of Chen and Wang.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The slightly decreased pixel accuracy can be compensated by consistent labeling approaches.",
+      "generator_supporting_span": "This slightly decreased pixel accuracy can be compensated by consistent labeling approaches",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This slightly decreased pixel accuracy can be compensated by consistent labeling approaches without added cost for the application of automated surveillance systems along with changing configurations and a larger number of PTZ cameras .",
+      "verifier_reasoning": "The source text explicitly states that the slightly decreased pixel accuracy mentioned can be addressed using consistent labeling approaches.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The compensation of slightly decreased pixel accuracy occurs without added cost for the application of automated surveillance systems along with changing configurations and a larger number of PTZ cameras.",
+      "generator_supporting_span": "without added cost for the application of automated surveillance systems along with changing configurations and a larger number of PTZ cameras",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This slightly decreased pixel accuracy can be compensated by consistent labeling approaches without added cost for the application of automated surveillance systems along with changing configurations and a larger number of PTZ cameras .",
+      "verifier_reasoning": "The source text explicitly states that the compensation for the decreased pixel accuracy can be achieved 'without added cost' for the specific applications mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Intersection-over-Union (IoU) measure",
+    "relation": "hyponym of",
+    "tail": "evaluation function"
+  },
+  {
+    "head": "Intersection-over-Union (IoU) measure",
+    "relation": "evaluate for",
+    "tail": "image segmentation systems"
+  },
+  {
+    "head": "first",
+    "relation": "hyponym of",
+    "tail": "dominant approaches"
+  },
+  {
+    "head": "second approach",
+    "relation": "hyponym of",
+    "tail": "dominant approaches"
+  },
+  {
+    "head": "EIoEU approximation",
+    "relation": "used for",
+    "tail": "methods"
+  },
+  {
+    "head": "image segmentation tasks",
+    "relation": "evaluate for",
+    "tail": "approaches"
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_37",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper presents a corpus-based supervised word sense disambiguation system for Dutch.",
+      "generator_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch",
+      "verifier_reasoning": "The source text's opening sentence directly states that the paper presents a system with all the attributes mentioned in the candidate fact: it is a corpus-based, supervised, word sense disambiguation system for Dutch.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The word sense disambiguation system combines statistical classification with linguistic information.",
+      "generator_supporting_span": "which combines statistical classification (maximum entropy) with linguistic information",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch which combines statistical classification (maximum entropy) with linguistic information .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a word sense disambiguation (WSD) system that \"combines statistical classification (maximum entropy) with linguistic information.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The paper introduces a lemma-based approach instead of building individual classifiers per ambiguous wordform.",
+      "generator_supporting_span": "Instead of building individual classifiers per ambiguous wordform , we introduce a lemma-based approach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Instead of building individual classifiers per ambiguous wordform , we introduce a lemma-based approach .",
+      "verifier_reasoning": "The source text explicitly states that the paper introduces a lemma-based approach as an alternative to building individual classifiers for each ambiguous wordform.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The lemma-based method clusters all inflected forms of an ambiguous word in one classifier.",
+      "generator_supporting_span": "it clusters all inflected forms of an ambiguous word in one classifier",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The advantage of this novel method is that it clusters all inflected forms of an ambiguous word in one classifier , therefore augmenting the training material available to the algorithm .",
+      "verifier_reasoning": "The source text explicitly describes the advantage of the lemma-based approach, stating that 'it clusters all inflected forms of an ambiguous word in one classifier'. This directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Clustering all inflected forms of an ambiguous word in one classifier augments the training material available to the algorithm.",
+      "generator_supporting_span": "therefore augmenting the training material available to the algorithm",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The advantage of this novel method is that it clusters all inflected forms of an ambiguous word in one classifier , therefore augmenting the training material available to the algorithm .",
+      "verifier_reasoning": "The source text explicitly states that an advantage of the described method is that it clusters inflected forms of a word, and that this action results in augmenting the available training material.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Testing the lemma-based model on the Dutch Senseval-2 test data yields a significant increase in accuracy over the wordform model.",
+      "generator_supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data , we achieve a significant increase in accuracy over the wordform model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data , we achieve a significant increase in accuracy over the wordform model .",
+      "verifier_reasoning": "The source text explicitly states that testing the lemma-based model on the Dutch Senseval-2 test data resulted in a significant increase in accuracy when compared to the wordform model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The word sense disambiguation system based on lemmas is smaller.",
+      "generator_supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "verifier_reasoning": "The source text explicitly states that the word sense disambiguation (WSD) system based on lemmas is smaller and more robust, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The word sense disambiguation system based on lemmas is more robust.",
+      "generator_supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "verifier_reasoning": "The source text explicitly lists the advantages of the lemma-based approach for the word sense disambiguation (WSD) system. The final sentence directly states that this system is 'more robust,' which perfectly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The word sense disambiguation system is corpus-based.",
+      "generator_supporting_span": "corpus-based supervised word sense disambiguation (WSD) system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper presents a 'corpus-based supervised word sense disambiguation (WSD) system', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The word sense disambiguation system is supervised.",
+      "generator_supporting_span": "corpus-based supervised word sense disambiguation (WSD) system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch",
+      "verifier_reasoning": "The first sentence of the source text explicitly describes the system being presented as a \"supervised word sense disambiguation (WSD) system,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The word sense disambiguation system is for Dutch.",
+      "generator_supporting_span": "system for Dutch",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch which combines statistical classification (maximum entropy) with linguistic information .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a \"word sense disambiguation (WSD) system for Dutch\", directly confirming the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The statistical classification in the system uses maximum entropy.",
+      "generator_supporting_span": "statistical classification (maximum entropy)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "combines statistical classification (maximum entropy) with linguistic information",
+      "verifier_reasoning": "The source text explicitly states that the described system for Dutch combines 'statistical classification (maximum entropy) with linguistic information', directly confirming the method used for statistical classification.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The word sense disambiguation system uses linguistic information.",
+      "generator_supporting_span": "with linguistic information",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch which combines statistical classification (maximum entropy) with linguistic information .",
+      "verifier_reasoning": "The source text explicitly states that the described word sense disambiguation (WSD) system combines statistical classification with linguistic information, directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The lemma-based approach is a novel method.",
+      "generator_supporting_span": "this novel method",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Instead of building individual classifiers per ambiguous wordform , we introduce a lemma-based approach . The advantage of this novel method is that it clusters all inflected forms of an ambiguous word in one classifier...",
+      "verifier_reasoning": "The source text introduces the 'lemma-based approach' and in the very next sentence refers to it as 'this novel method', thereby explicitly stating that the approach is novel.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The lemma-based model was tested on the Dutch Senseval-2 test data.",
+      "generator_supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data , we achieve a significant increase in accuracy over the wordform model .",
+      "verifier_reasoning": "The source text explicitly states that the lemma-based model was tested on the Dutch Senseval-2 test data.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

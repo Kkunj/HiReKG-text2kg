@@ -1,0 +1,82 @@
+[
+  {
+    "head": "encyclopedias",
+    "relation": "used for",
+    "tail": "It"
+  },
+  {
+    "head": "encyclopedias",
+    "relation": "conjunction",
+    "tail": "dictionaries"
+  },
+  {
+    "head": "dictionaries",
+    "relation": "used for",
+    "tail": "It"
+  },
+  {
+    "head": "public databases of proper names and toponyms",
+    "relation": "used for",
+    "tail": "It"
+  },
+  {
+    "head": "collocations",
+    "relation": "used for",
+    "tail": "It"
+  },
+  {
+    "head": "lists of botanical and zoological terms",
+    "relation": "used for",
+    "tail": "It"
+  },
+  {
+    "head": "lists of botanical and zoological terms",
+    "relation": "conjunction",
+    "tail": "collocations"
+  },
+  {
+    "head": "Czech National Corpus",
+    "relation": "used for",
+    "tail": "MWEs database"
+  },
+  {
+    "head": "technique",
+    "relation": "used for",
+    "tail": "Word Sketch Engine"
+  },
+  {
+    "head": "statistical parameters",
+    "relation": "feature of",
+    "tail": "Word Sketch Engine"
+  },
+  {
+    "head": "database",
+    "relation": "used for",
+    "tail": "tagging"
+  },
+  {
+    "head": "database",
+    "relation": "used for",
+    "tail": "lemmatization"
+  },
+  {
+    "head": "tagging",
+    "relation": "conjunction",
+    "tail": "lemmatization"
+  },
+  {
+    "head": "MWEs",
+    "relation": "used for",
+    "tail": "tagging"
+  },
+  {
+    "head": "MWEs",
+    "relation": "used for",
+    "tail": "lemmatization"
+  },
+  {
+    "head": "tagging",
+    "relation": "conjunction",
+    "tail": "lemmatization"
+  }
+]

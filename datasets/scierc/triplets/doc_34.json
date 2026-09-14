@@ -1,0 +1,32 @@
+[
+  {
+    "head": "unified variational formulation",
+    "relation": "used for",
+    "tail": "joint motion estimation and segmentation"
+  },
+  {
+    "head": "explicit occlusion handling",
+    "relation": "used for",
+    "tail": "unified variational formulation"
+  },
+  {
+    "head": "convex formulation",
+    "relation": "used for",
+    "tail": "multi-label Potts model"
+  },
+  {
+    "head": "asymmetric map-uniqueness criterion",
+    "relation": "part of",
+    "tail": "formulation"
+  },
+  {
+    "head": "convex constraints",
+    "relation": "used for",
+    "tail": "formulation"
+  },
+  {
+    "head": "primal-dual algorithm",
+    "relation": "used for",
+    "tail": "motion segments"
+  }
+]

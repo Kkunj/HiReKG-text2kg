@@ -1,0 +1,49 @@
+{
+  "doc_id": "doc_83",
+  "facts": [
+    "The paper provides an overview of the research conducted at LIMSI.",
+    "The research conducted at LIMSI is in the field of speech processing.",
+    "The paper provides an overview in the related areas of Human-Machine Communication.",
+    "The related areas include Natural Language Processing.",
+    "The related areas include Non Verbal and Multimodal Communication.",
+    "The commercial applications of some of the research projects are presented.",
+    "Some of the research projects have commercial applications.",
+    "When applicable, the discussion is placed in the framework of international collaborations.",
+    "The paper provides an overview of the research conducted at LIMSI in the field of speech processing.",
+    "International collaborations provide a framework for the discussion.",
+    "The paper presents commercial applications in addition to the overview.",
+    "Natural Language Processing is included in Human-Machine Communication.",
+    "Non Verbal and Multimodal Communication are included in Human-Machine Communication.",
+    "The paper addresses Human-Machine Communication.",
+    "The paper addresses speech processing."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    11,
+    12
+  ],
+  "ambiguous": [
+    0,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "entities": [
+    "speech processing",
+    "Human-Machine Communication",
+    "Natural Language Processing",
+    "Non Verbal and Multimodal Communication"
+  ]
+}

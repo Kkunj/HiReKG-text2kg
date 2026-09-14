@@ -1,0 +1,82 @@
+{
+  "doc_id": "Asus_VivoTab",
+  "facts": [
+    {
+      "fact": "VivoTab is a series of Microsoft Windows hybrid tablet computers.",
+      "supporting_span": "VivoTab is a series of Microsoft Windows hybrid tablet computers",
+      "span_mismatch": false
+    },
+    {
+      "fact": "VivoTab is designed by Asus.",
+      "supporting_span": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "VivoTab is a sub - series of the Vivo series by Asus.",
+      "supporting_span": "It is a sub - series of the Vivo series by Asus .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The name is derived from the Latin word \" to live \".",
+      "supporting_span": "The name is derived from the Latin word \" to live \"",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Asus's Transformer series of convertible devices runs Windows.",
+      "supporting_span": "Asus 's Transformer series of convertible devices running Windows",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The name, along with Asus's Transformer series of convertible devices running Windows, is a primary competitor to the Microsoft Surface.",
+      "supporting_span": "The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The VivoTab family is made up of the VivoTab, VivoTab RT, VivoTab RT 3 G, VivoTab RT LTE, VivoTab Smart, and later on the VivoTab Note 8.",
+      "supporting_span": "The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All of the tablets come with Windows 8.",
+      "supporting_span": "All of the tablets come with Windows 8",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The VivoTab Note 8 comes with Windows 8.1.",
+      "supporting_span": "( or Windows 8.1 on the Note 8)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All of the tablets come with a 3-year subscription to Asus WebStorage.",
+      "supporting_span": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All of the tablets have high definition screens.",
+      "supporting_span": "They have high definition screens",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All of the tablets advertise ultra - portability.",
+      "supporting_span": "advertise ultra - portability",
+      "span_mismatch": false
+    },
+    {
+      "fact": "All of the tablets advertise extended battery life.",
+      "supporting_span": "extended battery life",
+      "span_mismatch": false
+    },
+    {
+      "fact": "VivoTab RT has an MSRP of $ 599 USD ( 32 GB ).",
+      "supporting_span": "VivoTab RT has an MSRP of $ 599 USD ( 32 GB )",
+      "span_mismatch": false
+    },
+    {
+      "fact": "VivoTab RT has an MSRP of $ 699 ( 64 GB ).",
+      "supporting_span": "VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

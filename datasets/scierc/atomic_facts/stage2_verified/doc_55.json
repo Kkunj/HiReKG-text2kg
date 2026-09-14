@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_55",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach.",
+      "generator_supporting_span": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach .",
+      "verifier_reasoning": "The candidate fact is a direct, verbatim quote of the first sentence of the source text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The goal of naturally sounding dialog systems is within reach.",
+      "generator_supporting_span": "have put the goal of naturally sounding dialog systems within reach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach .",
+      "verifier_reasoning": "The source text explicitly states that recent advances in a specific technology have placed the goal of naturally sounding dialog systems within reach.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Speech recognition has improved.",
+      "generator_supporting_span": "the improved speech recognition",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach . However , the improved speech recognition has brought to light a new problem",
+      "verifier_reasoning": "The source text explicitly mentions both \"Recent advances in Automatic Speech Recognition technology\" and \"the improved speech recognition,\" directly stating that the technology has improved.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Improved speech recognition has brought to light a new problem.",
+      "generator_supporting_span": "the improved speech recognition has brought to light a new problem",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the improved speech recognition has brought to light a new problem",
+      "verifier_reasoning": "The source text explicitly states that 'the improved speech recognition has brought to light a new problem', which is a direct and verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Dialog systems understand more of what the user tells dialog systems.",
+      "generator_supporting_span": "dialog systems understand more of what the user tells them",
+      "span_mismatch": false,
+      "verifier_supporting_span": "as dialog systems understand more of what the user tells them",
+      "verifier_reasoning": "The source text explicitly states that improved speech recognition has created a new problem that arises 'as dialog systems understand more of what the user tells them', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Dialog systems need to be more sophisticated at responding to the user.",
+      "generator_supporting_span": "they need to be more sophisticated at responding to the user",
+      "span_mismatch": false,
+      "verifier_supporting_span": "as dialog systems understand more of what the user tells them , they need to be more sophisticated at responding to the user .",
+      "verifier_reasoning": "The source text explicitly states that improved speech recognition has led to a new problem where dialog systems need to improve their responses as their understanding increases.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The issue of system response to users has been extensively studied by the natural language generation community.",
+      "generator_supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community",
+      "verifier_reasoning": "The source text explicitly states that the issue of system response to users has been extensively studied by the natural language generation community. The candidate fact is a direct quote from the source.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The issue of system response to users has been rarely studied in the context of dialog systems.",
+      "generator_supporting_span": "though rarely in the context of dialog systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community, though rarely in the context of dialog systems.",
+      "verifier_reasoning": "The source text explicitly states that the issue of system response to users has been studied, but qualifies this by adding that it has been 'rarely in the context of dialog systems', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Research in generation can be adapted to dialog systems.",
+      "generator_supporting_span": "research in generation can be adapted to dialog systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how research in generation can be adapted to dialog systems",
+      "verifier_reasoning": "The source text explicitly states that the authors will demonstrate how research from the field of generation can be applied to dialog systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques.",
+      "generator_supporting_span": "the high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques",
+      "span_mismatch": false,
+      "verifier_supporting_span": "how the high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques .",
+      "verifier_reasoning": "The source text explicitly states that the authors will show how the high cost of these systems can be overcome by using machine learning, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Hand-crafting knowledge-based generation systems has a high cost.",
+      "generator_supporting_span": "the high cost of hand-crafting knowledge-based generation systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques",
+      "verifier_reasoning": "The source text explicitly mentions 'the high cost of hand-crafting knowledge-based generation systems', directly stating that this process is costly.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Users tell dialog systems information.",
+      "generator_supporting_span": "what the user tells them",
+      "span_mismatch": false,
+      "verifier_supporting_span": "as dialog systems understand more of what the user tells them",
+      "verifier_reasoning": "The source text explicitly mentions that dialog systems are improving their ability to understand 'what the user tells them,' which directly supports the fact that users tell information to these systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Dialog systems respond to the user.",
+      "generator_supporting_span": "responding to the user",
+      "span_mismatch": false,
+      "verifier_supporting_span": "as dialog systems understand more of what the user tells them , they need to be more sophisticated at responding to the user",
+      "verifier_reasoning": "The source text explicitly states that as dialog systems improve their understanding, they need to become more sophisticated at 'responding to the user.' This directly confirms that responding to the user is a function performed by dialog systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "A natural language generation community exists.",
+      "generator_supporting_span": "the natural language generation community",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community, though rarely in the context of dialog systems.",
+      "verifier_reasoning": "The source text explicitly mentions that an issue has been studied by 'the natural language generation community', which directly confirms the existence of such a community.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Dialog systems are a context for studying system response to users.",
+      "generator_supporting_span": "in the context of dialog systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community , though rarely in the context of dialog systems .",
+      "verifier_reasoning": "The source text explicitly states that the study of system response to users has occurred, albeit 'rarely,' within 'the context of dialog systems,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

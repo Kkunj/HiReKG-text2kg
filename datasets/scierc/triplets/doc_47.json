@@ -1,0 +1,72 @@
+[
+  {
+    "head": "well-segmented 3D skeleton data",
+    "relation": "used for",
+    "tail": "Human action recognition"
+  },
+  {
+    "head": "Online action detection",
+    "relation": "used for",
+    "tail": "action type"
+  },
+  {
+    "head": "Online action detection",
+    "relation": "used for",
+    "tail": "action positions"
+  },
+  {
+    "head": "action type",
+    "relation": "conjunction",
+    "tail": "action positions"
+  },
+  {
+    "head": "untrimmed stream",
+    "relation": "used for",
+    "tail": "Online action detection"
+  },
+  {
+    "head": "streaming skeleton data",
+    "relation": "used for",
+    "tail": "online action detection"
+  },
+  {
+    "head": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+    "relation": "used for",
+    "tail": "action type"
+  },
+  {
+    "head": "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+    "relation": "used for",
+    "tail": "temporal localiza-tion information"
+  },
+  {
+    "head": "action type",
+    "relation": "conjunction",
+    "tail": "temporal localiza-tion information"
+  },
+  {
+    "head": "joint classification and regression optimization objective",
+    "relation": "used for",
+    "tail": "network"
+  },
+  {
+    "head": "deep Long Short-Term Memory (LSTM) subnetwork",
+    "relation": "used for",
+    "tail": "model"
+  },
+  {
+    "head": "long-range temporal dynamics",
+    "relation": "feature of",
+    "tail": "model"
+  },
+  {
+    "head": "streaming video dataset",
+    "relation": "evaluate for",
+    "tail": "model"
+  },
+  {
+    "head": "dataset",
+    "relation": "conjunction",
+    "tail": "G3D dataset"
+  }
+]

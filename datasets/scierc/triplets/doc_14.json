@@ -1,0 +1,72 @@
+[
+  {
+    "head": "unconstrained videos",
+    "relation": "used for",
+    "tail": "generic action proposals"
+  },
+  {
+    "head": "spatio-temporal video tube",
+    "relation": "hyponym of",
+    "tail": "temporal series of spatial bounding boxes"
+  },
+  {
+    "head": "spatio-temporal video tube",
+    "relation": "used for",
+    "tail": "human action"
+  },
+  {
+    "head": "appearance and motion cues",
+    "relation": "used for",
+    "tail": "ac-tionness"
+  },
+  {
+    "head": "ac-tionness",
+    "relation": "evaluate for",
+    "tail": "video tubes"
+  },
+  {
+    "head": "maximum set coverage problem",
+    "relation": "used for",
+    "tail": "action proposal generation"
+  },
+  {
+    "head": "greedy search",
+    "relation": "used for",
+    "tail": "action proposals"
+  },
+  {
+    "head": "actionness score",
+    "relation": "evaluate for",
+    "tail": "action proposals"
+  },
+  {
+    "head": "action proposal approaches",
+    "relation": "compare",
+    "tail": "action proposals"
+  },
+  {
+    "head": "datasets",
+    "relation": "evaluate for",
+    "tail": "action proposals"
+  },
+  {
+    "head": "MSRII",
+    "relation": "hyponym of",
+    "tail": "datasets"
+  },
+  {
+    "head": "MSRII",
+    "relation": "conjunction",
+    "tail": "UCF 101"
+  },
+  {
+    "head": "UCF 101",
+    "relation": "hyponym of",
+    "tail": "datasets"
+  },
+  {
+    "head": "action detection and search",
+    "relation": "evaluate for",
+    "tail": "action proposals"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_44",
+  "facts": [
+    {
+      "fact": "This paper shows that identifying the source language of medium-length speeches in the EUROPARL corpus is very often possible.",
+      "supporting_span": "This paper shows that it is very often possible to identify the source language of medium-length speeches in the EUROPARL corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Identifying the source language of medium-length speeches in the EUROPARL corpus is based on frequency counts of word n-grams.",
+      "supporting_span": "on the basis of frequency counts of word n-grams",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The identification accuracy is 87.2% to 96.7%.",
+      "supporting_span": "87.2 % -96.7 % accuracy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The identification accuracy depends on the classification method.",
+      "supporting_span": "depending on classification method",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper examines in detail which positive markers are most powerful.",
+      "supporting_span": "The paper also examines in detail which positive markers are most powerful",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper identifies a number of linguistic aspects.",
+      "supporting_span": "identifies a number of linguistic aspects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper identifies culture-related aspects.",
+      "supporting_span": "as well as culture - and domain-related ones",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper identifies domain-related aspects.",
+      "supporting_span": "as well as culture - and domain-related ones",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There are medium-length speeches in the EUROPARL corpus.",
+      "supporting_span": "medium-length speeches in the EUROPARL corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The target of identification is the source language.",
+      "supporting_span": "identify the source language",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method uses word n-grams.",
+      "supporting_span": "word n-grams",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method uses frequency counts.",
+      "supporting_span": "frequency counts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The corpus referenced is EUROPARL.",
+      "supporting_span": "EUROPARL corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Positive markers are evaluated for their power.",
+      "supporting_span": "which positive markers are most powerful",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A classification method is involved.",
+      "supporting_span": "classification method",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

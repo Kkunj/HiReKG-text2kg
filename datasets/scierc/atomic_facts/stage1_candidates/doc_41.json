@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_41",
+  "facts": [
+    {
+      "fact": "We investigate the verbal and nonverbal means for grounding.",
+      "supporting_span": "We investigate the verbal and nonverbal means for grounding",
+      "span_mismatch": false
+    },
+    {
+      "fact": "We propose a design for embodied conversational agents.",
+      "supporting_span": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The design for embodied conversational agents relies on both kinds of signals to establish common ground in human-computer interaction.",
+      "supporting_span": "that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "We analyzed eye gaze.",
+      "supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "We analyzed head nods.",
+      "supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "We analyzed attentional focus.",
+      "supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis was conducted in the context of a direction-giving task.",
+      "supporting_span": "in the context of a direction-giving task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded.",
+      "supporting_span": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The overall pattern reflected a monitoring of lack of negative feedback.",
+      "supporting_span": "the overall pattern reflected a monitoring of lack of negative feedback",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Based on these results, we present an ECA.",
+      "supporting_span": "Based on these results , we present an ECA",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ECA uses verbal and nonverbal grounding acts to update dialogue state.",
+      "supporting_span": "that uses verbal and nonverbal grounding acts to update dialogue state",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ECA uses verbal grounding acts.",
+      "supporting_span": "uses verbal and nonverbal grounding acts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ECA uses nonverbal grounding acts.",
+      "supporting_span": "uses verbal and nonverbal grounding acts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ECA updates dialogue state.",
+      "supporting_span": "to update dialogue state",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The design for embodied conversational agents aims to establish common ground.",
+      "supporting_span": "to establish common ground",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

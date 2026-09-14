@@ -1,0 +1,77 @@
+[
+  {
+    "head": "KAZE features",
+    "relation": "hyponym of",
+    "tail": "multiscale 2D feature detection and description algorithm"
+  },
+  {
+    "head": "nonlinear scale spaces",
+    "relation": "feature of",
+    "tail": "multiscale 2D feature detection and description algorithm"
+  },
+  {
+    "head": "nonlinear scale space",
+    "relation": "feature of",
+    "tail": "2D features"
+  },
+  {
+    "head": "nonlinear diffusion filtering",
+    "relation": "used for",
+    "tail": "2D features"
+  },
+  {
+    "head": "Additive Operator Splitting (AOS) techniques",
+    "relation": "used for",
+    "tail": "nonlinear scale space"
+  },
+  {
+    "head": "Additive Operator Splitting (AOS) techniques",
+    "relation": "conjunction",
+    "tail": "variable con-ductance diffusion"
+  },
+  {
+    "head": "variable con-ductance diffusion",
+    "relation": "used for",
+    "tail": "nonlinear scale space"
+  },
+  {
+    "head": "features",
+    "relation": "compare",
+    "tail": "SURF"
+  },
+  {
+    "head": "features",
+    "relation": "compare",
+    "tail": "SIFT"
+  },
+  {
+    "head": "results",
+    "relation": "compare",
+    "tail": "state-of-the-art methods"
+  },
+  {
+    "head": "detection",
+    "relation": "evaluate for",
+    "tail": "results"
+  },
+  {
+    "head": "detection",
+    "relation": "conjunction",
+    "tail": "description"
+  },
+  {
+    "head": "detection",
+    "relation": "evaluate for",
+    "tail": "state-of-the-art methods"
+  },
+  {
+    "head": "description",
+    "relation": "evaluate for",
+    "tail": "results"
+  },
+  {
+    "head": "description",
+    "relation": "evaluate for",
+    "tail": "state-of-the-art methods"
+  }
+]

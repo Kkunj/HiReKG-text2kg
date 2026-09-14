@@ -1,0 +1,47 @@
+[
+  {
+    "head": "task",
+    "relation": "used for",
+    "tail": "morphologically rich languages"
+  },
+  {
+    "head": "factored language models",
+    "relation": "used for",
+    "tail": "approaches"
+  },
+  {
+    "head": "morphological or syntactic features",
+    "relation": "hyponym of",
+    "tail": "conditioning variables"
+  },
+  {
+    "head": "entirely data-driven model selection procedure",
+    "relation": "compare",
+    "tail": "knowledge-based and random selection procedures"
+  },
+  {
+    "head": "genetic search",
+    "relation": "used for",
+    "tail": "entirely data-driven model selection procedure"
+  },
+  {
+    "head": "knowledge-based and random selection procedures",
+    "relation": "used for",
+    "tail": "language modeling tasks"
+  },
+  {
+    "head": "Arabic",
+    "relation": "hyponym of",
+    "tail": "language modeling tasks"
+  },
+  {
+    "head": "Arabic",
+    "relation": "conjunction",
+    "tail": "Turkish"
+  },
+  {
+    "head": "Turkish",
+    "relation": "hyponym of",
+    "tail": "language modeling tasks"
+  }
+]

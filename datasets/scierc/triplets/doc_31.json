@@ -1,0 +1,77 @@
+[
+  {
+    "head": "statistical models",
+    "relation": "used for",
+    "tail": "Syntax-based statistical machine translation (MT)"
+  },
+  {
+    "head": "structured data",
+    "relation": "used for",
+    "tail": "statistical models"
+  },
+  {
+    "head": "probabilistic synchronous dependency insertion grammar",
+    "relation": "used for",
+    "tail": "syntax-based statistical machine translation system"
+  },
+  {
+    "head": "Synchronous dependency insertion grammars",
+    "relation": "hyponym of",
+    "tail": "synchronous grammars"
+  },
+  {
+    "head": "dependency trees",
+    "relation": "feature of",
+    "tail": "Synchronous dependency insertion grammars"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "grammar"
+  },
+  {
+    "head": "parallel corpora",
+    "relation": "used for",
+    "tail": "grammar"
+  },
+  {
+    "head": "graphical model",
+    "relation": "used for",
+    "tail": "machine translation task"
+  },
+  {
+    "head": "stochastic tree-to-tree transducer",
+    "relation": "used for",
+    "tail": "graphical model"
+  },
+  {
+    "head": "polynomial time decoding algorithm",
+    "relation": "used for",
+    "tail": "model"
+  },
+  {
+    "head": "NIST and Bleu automatic MT evaluation software",
+    "relation": "used for",
+    "tail": "MT system"
+  },
+  {
+    "head": "system",
+    "relation": "compare",
+    "tail": "baseline system"
+  },
+  {
+    "head": "IBM models",
+    "relation": "used for",
+    "tail": "baseline system"
+  },
+  {
+    "head": "translation speed and quality",
+    "relation": "evaluate for",
+    "tail": "system"
+  },
+  {
+    "head": "translation speed and quality",
+    "relation": "evaluate for",
+    "tail": "baseline system"
+  }
+]

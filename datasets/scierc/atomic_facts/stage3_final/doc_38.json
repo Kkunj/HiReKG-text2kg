@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_38",
+  "facts": [
+    "The formalism of Category Cooccurrence Restrictions (CCRs) is summarized.",
+    "Two parsing algorithms interpret Category Cooccurrence Restrictions (CCRs).",
+    "Category Cooccurrence Restrictions are abbreviated \"CCRs\".",
+    "Category Cooccurrence Restrictions (CCRs) are Boolean conditions.",
+    "Category Cooccurrence Restrictions (CCRs) are conditions on the cooccurrence of categories.",
+    "The cooccurrence of categories is in local trees.",
+    "Category Cooccurrence Restrictions (CCRs) allow the statement of generalizations.",
+    "The use of Category Cooccurrence Restrictions (CCRs) leads to syntactic descriptions.",
+    "Syntactic descriptions are formulated entirely with restrictive statements.",
+    "Conventional algorithms are for the analysis of context free languages.",
+    "Conventional algorithms can be adapted to the CCR formalism.",
+    "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism.",
+    "Special attention is given to the part of the parser.",
+    "The part of the parser checks the fulfillment of logical well-formedness conditions on trees."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    0,
+    2,
+    4,
+    5,
+    9,
+    10,
+    12
+  ],
+  "multiple-entity": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    11,
+    13
+  ],
+  "ambiguous": [],
+  "entities": [
+    "formalism of Category Cooccurrence Restrictions ( CCRs )",
+    "Category Cooccurrence Restrictions ( CCRs )",
+    "parsing algorithms",
+    "CCRs",
+    "Boolean conditions",
+    "local trees",
+    "statement of generalizations",
+    "syntax formalisms",
+    "syntactic descriptions",
+    "restrictive statements",
+    "context free languages",
+    "CCR formalism",
+    "parser",
+    "logical well-formedness conditions",
+    "trees"
+  ]
+}

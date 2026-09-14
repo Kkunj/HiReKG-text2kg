@@ -1,0 +1,37 @@
+# --- Credentials: never commit these ---
+.env
+.env.*
+!.env.example
+**/.env
+*.pem
+*.key
+
+# --- Virtualenvs ---
+.venv/
+venv/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Run artefacts ---
+# Note: sample_pipeline.log and evaluation_pipeline/structural/*_uir.log are
+# committed deliberately as reference run logs, so *.log is NOT ignored here.
+# Add specific paths below if a pipeline starts writing throwaway logs.
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+
+# --- Per-document experiment outputs (published as GitHub Release assets) ---
+# 381 MB of raw KGs and per-triple judge outputs. Aggregated results -- the
+# numbers reported in the paper -- stay in-tree as the summary/CSV/PNG files
+# alongside these directories. See "Experiment outputs" in the README.
+our_approach/experiments/*/
+baselines/kggen/experiments/*/
+baselines/rakg/experiments/*/
+evaluation_pipeline/mine_score/results/*/
+evaluation_pipeline/faithfulness/results/*/
+evaluation_pipeline/faithfulness/qwen_32b_results/*/

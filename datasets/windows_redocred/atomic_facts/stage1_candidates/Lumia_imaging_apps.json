@@ -1,0 +1,82 @@
+{
+  "doc_id": "Lumia_imaging_apps",
+  "facts": [
+    {
+      "fact": "Lumia imaging apps are imaging applications by Microsoft Mobile and formerly by Nokia.",
+      "supporting_span": "Lumia imaging apps are imaging applications by Microsoft Mobile and formerly by Nokia",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia imaging apps are for Lumia devices.",
+      "supporting_span": "for Lumia devices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia imaging apps are built on the technology of Scalado.",
+      "supporting_span": "built on the technology of Scalado",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia Panorama was developed earlier by Nokia.",
+      "supporting_span": "Lumia Panorama which was developed earlier by Nokia",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia Panorama was originally for Symbian devices.",
+      "supporting_span": "Lumia Panorama which was developed earlier by Nokia originally for Symbian and MeeGo devices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia Panorama was originally for MeeGo devices.",
+      "supporting_span": "Lumia Panorama which was developed earlier by Nokia originally for Symbian and MeeGo devices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Lumia imaging applications were notably all branded with \"Nokia\" in front of their names.",
+      "supporting_span": "The Lumia imaging applications were notably all branded with \" Nokia \" in front of their names",
+      "span_mismatch": false
+    },
+    {
+      "fact": "After Microsoft acquired Nokia's devices and services business, the Nokia branding was superseded with \"Lumia\".",
+      "supporting_span": "after Microsoft acquired Nokia 's devices and services business the Nokia branding was superseded with \" Lumia \" ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Updates often included nothing but name changes.",
+      "supporting_span": "often updates included nothing but name changes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "For the Lumia Camera, updates included a new wide range of feature additions.",
+      "supporting_span": "but for the Lumia Camera this included a new wide range of feature additions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Most of the imaging applications are developed by the Microsoft Lund division.",
+      "supporting_span": "Most of the imaging applications are developed by the Microsoft Lund division",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Some Lumia imaging applications stopped working in October 2015.",
+      "supporting_span": "some of these applications stopped working in October 2015",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia imaging features were integrated into the Windows Camera.",
+      "supporting_span": "the integration of Lumia imaging features into the Windows Camera",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lumia imaging features were integrated into Microsoft Photos applications.",
+      "supporting_span": "the integration of Lumia imaging features into the Windows Camera and Microsoft Photos applications",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Microsoft acquired Nokia's devices and services business.",
+      "supporting_span": "Microsoft acquired Nokia 's devices and services business",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_72",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Convolutional neural networks are computationally expensive.",
+      "generator_supporting_span": "convolutional neural networks are computationally expensive",
+      "span_mismatch": false,
+      "verifier_supporting_span": "convolutional neural networks are computationally expensive because they must examine all image locations",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that convolutional neural networks are computationally expensive.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Convolutional neural networks must examine all image locations.",
+      "generator_supporting_span": "they must examine all image locations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "convolutional neural networks are computationally expensive because they must examine all image locations .",
+      "verifier_reasoning": "The source text explicitly states that convolutional neural networks are computationally expensive for the reason that 'they must examine all image locations,' directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Convolutional neural networks are successful.",
+      "generator_supporting_span": "their success",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Despite their success , convolutional neural networks are computationally expensive",
+      "verifier_reasoning": "The source text opens by explicitly mentioning the success of convolutional neural networks before discussing their computational expense.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Stochastic attention-based models have been shown to improve computational efficiency at test time.",
+      "generator_supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time",
+      "verifier_reasoning": "The source text explicitly states that stochastic attention-based models have been demonstrated to improve computational efficiency during the testing phase.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Stochastic attention-based models remain difficult to train.",
+      "generator_supporting_span": "they remain difficult to train",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time , but they remain difficult to train because of intractable posterior inference and high variance in the stochastic gradient estimates .",
+      "verifier_reasoning": "The source text explicitly states that stochastic attention-based models 'remain difficult to train', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Stochastic attention-based models are difficult to train because of intractable posterior inference.",
+      "generator_supporting_span": "because of intractable posterior inference",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time , but they remain difficult to train because of intractable posterior inference and high variance in the stochastic gradient estimates .",
+      "verifier_reasoning": "The source text explicitly states that stochastic attention-based models are difficult to train and lists 'intractable posterior inference' as one of the reasons for this difficulty.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Stochastic attention-based models are difficult to train because of high variance in the stochastic gradient estimates.",
+      "generator_supporting_span": "high variance in the stochastic gradient estimates",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Stochastic attention-based models have been shown to improve computational efficiency at test time , but they remain difficult to train because of intractable posterior inference and high variance in the stochastic gradient estimates .",
+      "verifier_reasoning": "The source text explicitly states that stochastic attention-based models are difficult to train and lists 'high variance in the stochastic gradient estimates' as one of the two reasons.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Techniques from the literature on training deep generative models are borrowed.",
+      "generator_supporting_span": "Borrowing techniques from the literature on training deep generative models",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Borrowing techniques from the literature on training deep generative models , we present the Wake-Sleep Recurrent Attention Model, a method for training stochastic attention networks which improves posterior inference and which reduces the variability in the stochastic gradients .",
+      "verifier_reasoning": "The source text explicitly states that the authors are 'Borrowing techniques from the literature on training deep generative models' to present their new model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The Wake-Sleep Recurrent Attention Model is presented.",
+      "generator_supporting_span": "we present the Wake-Sleep Recurrent Attention Model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Borrowing techniques from the literature on training deep generative models , we present the Wake-Sleep Recurrent Attention Model , a method for training stochastic attention networks which improves posterior inference and which reduces the variability in the stochastic gradients .",
+      "verifier_reasoning": "The source text explicitly states that the authors are presenting a new model, and they name it the Wake-Sleep Recurrent Attention Model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The Wake-Sleep Recurrent Attention Model is a method for training stochastic attention networks.",
+      "generator_supporting_span": "the Wake-Sleep Recurrent Attention Model , a method for training stochastic attention networks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present the Wake-Sleep Recurrent Attention Model , a method for training stochastic attention networks",
+      "verifier_reasoning": "The source text explicitly introduces the Wake-Sleep Recurrent Attention Model and directly defines it as 'a method for training stochastic attention networks'. This is a direct statement that fully supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The Wake-Sleep Recurrent Attention Model improves posterior inference.",
+      "generator_supporting_span": "which improves posterior inference",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present the Wake-Sleep Recurrent Attention Model, a method for training stochastic attention networks which improves posterior inference and which reduces the variability in the stochastic gradients",
+      "verifier_reasoning": "The source text explicitly introduces the Wake-Sleep Recurrent Attention Model and describes it as a method that \"improves posterior inference\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The Wake-Sleep Recurrent Attention Model reduces the variability in the stochastic gradients.",
+      "generator_supporting_span": "which reduces the variability in the stochastic gradients",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present the Wake-Sleep Recurrent Attention Model , a method for training stochastic attention networks which improves posterior inference and which reduces the variability in the stochastic gradients .",
+      "verifier_reasoning": "The source text introduces the Wake-Sleep Recurrent Attention Model and explicitly states that it is a method that 'reduces the variability in the stochastic gradients'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks.",
+      "generator_supporting_span": "our method can greatly speed up the training time for stochastic attention networks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we present the Wake-Sleep Recurrent Attention Model, a method for training stochastic attention networks... We show that our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation .",
+      "verifier_reasoning": "The source text first introduces the \"Wake-Sleep Recurrent Attention Model\" and then explicitly states that this method is shown to \"greatly speed up the training time for stochastic attention networks.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of image classification.",
+      "generator_supporting_span": "our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation .",
+      "verifier_reasoning": "The source text explicitly states that 'our method', which is identified in the preceding sentence as the Wake-Sleep Recurrent Attention Model, can greatly speed up training time for stochastic attention networks in the domain of image classification.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of caption generation.",
+      "generator_supporting_span": "our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that our method can greatly speed up the training time for stochastic attention networks in the domains of image classification and caption generation .",
+      "verifier_reasoning": "The source text explicitly states that the presented method, the Wake-Sleep Recurrent Attention Model, can significantly speed up the training time for stochastic attention networks, and it specifically lists caption generation as one of the domains where this is shown.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

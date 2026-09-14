@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_5",
+  "facts": [
+    {
+      "fact": "The paper discusses language model adaptation methods.",
+      "supporting_span": "we discuss language model adaptation methods",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The language model adaptation setting involves a word list and a raw corpus.",
+      "supporting_span": "given a word list and a raw corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The general method is to segment the raw corpus automatically using a word list.",
+      "supporting_span": "the general method is to segment the raw corpus automatically using a word list",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The general method includes correcting the output sentences by hand.",
+      "supporting_span": "correct the output sentences by hand",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The general method includes building a model from the segmented corpus.",
+      "supporting_span": "build a model from the segmented corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the sentence-by-sentence error correction method, the annotator encounters grammatically complicated positions.",
+      "supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Encountering grammatically complicated positions results in a decrease of productivity in the sentence-by-sentence error correction method.",
+      "supporting_span": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit.",
+      "supporting_span": "we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach concentrates on correcting the positions in which the words in the list appear.",
+      "supporting_span": "concentrate on correcting the positions in which the words in the list appear",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach takes a word as a correction unit.",
+      "supporting_span": "taking a word as a correction unit",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed approach allows going directly to capturing the statistical behavior of specific words in the application.",
+      "supporting_span": "This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments used a variety of methods for preparing a segmented corpus.",
+      "supporting_span": "In the experiments , we used a variety of methods for preparing a segmented corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments compared the language models by their speech recognition accuracies.",
+      "supporting_span": "compared the language models by their speech recognition accuracies .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The results showed the advantages of the proposed method.",
+      "supporting_span": "The results showed the advantages of our method .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An annotator is involved in the sentence-by-sentence error correction method.",
+      "supporting_span": "In this sentence-by-sentence error correction method , however , the annotator",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

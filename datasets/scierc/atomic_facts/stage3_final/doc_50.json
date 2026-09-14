@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_50",
+  "facts": [
+    "A process model for hierarchical perceptual sound organization is proposed.",
+    "The process model recognizes perceptual sounds included in incoming sound signals.",
+    "Perceptual sound organization is considered as a scene analysis problem in the auditory domain.",
+    "The model consists of multiple processing modules.",
+    "The model consists of a hypothesis network for quantitative integration of multiple sources of information.",
+    "When input information for each processing module is available, the module rises to process it.",
+    "Output information is asynchronously written to the hypothesis network.",
+    "On the hypothesis network, individual information is integrated.",
+    "On the hypothesis network, an optimal internal model of perceptual sounds is automatically constructed.",
+    "A music scene analysis system has been developed based on the model.",
+    "The music scene analysis system is for acoustic signals of ensemble music.",
+    "The music scene analysis system recognizes rhythm.",
+    "The music scene analysis system recognizes chords.",
+    "The music scene analysis system recognizes source-separated musical notes.",
+    "Experimental results show that a method has permitted autonomous, stable and effective information integration to construct the internal model of hierarchical perceptual sounds."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    5,
+    6,
+    7
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "process model",
+    "hierarchical perceptual sound organization",
+    "perceptual sounds",
+    "incoming sound signals",
+    "perceptual sound organization",
+    "scene analysis problem",
+    "auditory domain",
+    "processing modules",
+    "hypothesis network",
+    "processing module",
+    "internal model",
+    "model",
+    "music scene analysis system",
+    "acoustic signals of ensemble music",
+    "rhythm",
+    "chords",
+    "source-separated musical notes",
+    "information integration",
+    "hierarchical perceptual sounds"
+  ]
+}

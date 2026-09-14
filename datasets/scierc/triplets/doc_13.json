@@ -1,0 +1,47 @@
+[
+  {
+    "head": "parallel English and Chinese court judgments",
+    "relation": "part of",
+    "tail": "small , domain-specific corpus"
+  },
+  {
+    "head": "sentence-aligned corpus",
+    "relation": "used for",
+    "tail": "translation equivalences"
+  },
+  {
+    "head": "frequency profiles",
+    "relation": "part of",
+    "tail": "parallel concordances"
+  },
+  {
+    "head": "method",
+    "relation": "compare",
+    "tail": "statistical methods"
+  },
+  {
+    "head": "method",
+    "relation": "compare",
+    "tail": "lexical approaches"
+  },
+  {
+    "head": "large corpora",
+    "relation": "used for",
+    "tail": "statistical methods"
+  },
+  {
+    "head": "bilingual dictionaries",
+    "relation": "used for",
+    "tail": "lexical approaches"
+  },
+  {
+    "head": "precision",
+    "relation": "conjunction",
+    "tail": "recall"
+  },
+  {
+    "head": "translation lexicon",
+    "relation": "used for",
+    "tail": "legal terminology"
+  }
+]

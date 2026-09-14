@@ -1,0 +1,32 @@
+# Atomic Fact Generation Pipeline — Configuration
+# Pin exact model versions here. Update when switching snapshots.
+
+generator:
+  model: "gpt-5"
+  model_version: "gpt-5"            # update to dated snapshot, e.g. gpt-5-2026-05-06
+  temperature: 1.0                          # required for GPT-5 family
+  reasoning_effort: "high"
+  max_output_tokens: 16000
+  max_workers: 8
+
+verifier:
+  model: "gemini-2.5-pro"
+  model_version: "gemini-2.5-pro"   # update to dated snapshot
+  temperature: 0
+  top_p: 1
+  max_output_tokens: 4096
+  max_workers: 8
+
+pipeline:
+  target_facts_per_doc: 15
+  max_retries: 3
+  retry_backoff_base: 2               # seconds; actual wait = base ^ attempt
+
+paths:
+  inputs: "data/inputs"
+  stage1_candidates: "data/outputs/stage1_candidates"
+  stage2_verified: "data/outputs/stage2_verified"
+  stage3_final: "data/outputs/stage3_final"
+  stage3_audit: "data/outputs/stage3_audit"
+  dataset_stats: "data/outputs/dataset_stats.json"
+  run_config: "data/outputs/run_config.json"

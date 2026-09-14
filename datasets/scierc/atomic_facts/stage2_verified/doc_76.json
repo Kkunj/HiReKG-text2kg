@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_76",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "This paper describes the framework of a Korean phonological knowledge base system.",
+      "generator_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG) .",
+      "verifier_reasoning": "The source text's opening sentence explicitly states that the paper describes the framework of a Korean phonological knowledge base system, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The framework uses the unification-based grammar formalism.",
+      "generator_supporting_span": "using the unification-based grammar formalism",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG) .",
+      "verifier_reasoning": "The source text explicitly states that the paper describes a framework that is 'using the unification-based grammar formalism'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The unification-based grammar formalism is Korean Phonology Structure Grammar (KPSG).",
+      "generator_supporting_span": "the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that the described system uses 'the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG)'. This indicates that KPSG is an instance or specific example of a unification-based grammar formalism, not that the entire concept of 'unification-based grammar formalism' is identical to KPSG.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Korean Phonology Structure Grammar is abbreviated as KPSG.",
+      "generator_supporting_span": "Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Korean Phonology Structure Grammar (KPSG)",
+      "verifier_reasoning": "The source text introduces the full name 'Korean Phonology Structure Grammar' and immediately follows it with the abbreviation '(KPSG)' in parentheses, which is the standard convention for defining an acronym.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The approach of KPSG provides an explicit development model.",
+      "generator_supporting_span": "The approach of KPSG provides an explicit development model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach of KPSG provides an explicit development model for constructing a computational phonological system : speech recognition and synthesis system .",
+      "verifier_reasoning": "The source text explicitly states that \"The approach of KPSG provides an explicit development model\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The explicit development model is for constructing a computational phonological system.",
+      "generator_supporting_span": "for constructing a computational phonological system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach of KPSG provides an explicit development model for constructing a computational phonological system",
+      "verifier_reasoning": "The source text explicitly states that the KPSG approach provides an 'explicit development model for constructing a computational phonological system', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The computational phonological system is a speech recognition and synthesis system.",
+      "generator_supporting_span": "computational phonological system : speech recognition and synthesis system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach of KPSG provides an explicit development model for constructing a computational phonological system : speech recognition and synthesis system .",
+      "verifier_reasoning": "The source text explicitly states that the KPSG approach is a model for constructing a 'computational phonological system', and then uses a colon to specify that this system is a 'speech recognition and synthesis system'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The proposed approach is more describable than other approaches.",
+      "generator_supporting_span": "the proposed approach is more describable than other approaches",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the proposed approach is more describable than other approaches such as those employing a traditional generative phonological approach .",
+      "verifier_reasoning": "The source text explicitly states that the authors show their proposed approach is more describable than other approaches.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Other approaches include those employing a traditional generative phonological approach.",
+      "generator_supporting_span": "such as those employing a traditional generative phonological approach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the proposed approach is more describable than other approaches such as those employing a traditional generative phonological approach .",
+      "verifier_reasoning": "The source text explicitly compares the proposed approach to 'other approaches' and then provides 'those employing a traditional generative phonological approach' as an example of such an approach.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The framework uses Korean Phonology Structure Grammar (KPSG).",
+      "generator_supporting_span": "using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG) .",
+      "verifier_reasoning": "The source text explicitly states that the paper describes a framework that uses the 'Korean Phonology Structure Grammar (KPSG)'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The Korean phonological knowledge base system is Korean.",
+      "generator_supporting_span": "Korean phonological knowledge base system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system using the unification-based grammar formalism : Korean Phonology Structure Grammar (KPSG) .",
+      "verifier_reasoning": "The source text explicitly names the system being described as a \"Korean phonological knowledge base system,\" directly stating that the system is Korean.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The phonological system is computational.",
+      "generator_supporting_span": "computational phonological system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The approach of KPSG provides an explicit development model for constructing a computational phonological system",
+      "verifier_reasoning": "The source text explicitly states that the KPSG approach is a model for constructing a 'computational phonological system', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The grammar formalism is unification-based.",
+      "generator_supporting_span": "unification-based grammar formalism",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system using the unification-based grammar formalism",
+      "verifier_reasoning": "The source text explicitly states that the system described in the paper uses a 'unification-based grammar formalism'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The Korean phonological knowledge base system is phonological.",
+      "generator_supporting_span": "phonological knowledge base system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper describes the framework of a Korean phonological knowledge base system",
+      "verifier_reasoning": "The source text explicitly describes the system being discussed as a \"Korean phonological knowledge base system,\" directly stating that the system is phonological.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Other approaches employ a traditional generative phonological approach.",
+      "generator_supporting_span": "those employing a traditional generative phonological approach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "other approaches such as those employing a traditional generative phonological approach",
+      "verifier_reasoning": "The source text explicitly compares the proposed approach to \"other approaches\" and provides an example of these other approaches, stating they are \"such as those employing a traditional generative phonological approach.\" This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

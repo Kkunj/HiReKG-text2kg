@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_94",
+  "facts": [
+    {
+      "fact": "The research used machine learning techniques.",
+      "supporting_span": "research using machine learning techniques",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The research involved building a comma checker.",
+      "supporting_span": "to build a comma checker",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The comma checker is to be integrated in a grammar checker for Basque.",
+      "supporting_span": "to be integrated in a grammar checker for Basque",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system was trained with a little corpus of 100,000 words.",
+      "supporting_span": "trained with a little corpus of 100,000 words",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the task of not placing commas, the system achieved a precision of 96%.",
+      "supporting_span": "the system guesses correctly not placing commas with a precision of 96 % and a recall of 98 %",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the task of not placing commas, the system achieved a recall of 98%.",
+      "supporting_span": "the system guesses correctly not placing commas with a precision of 96 % and a recall of 98 %",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the task of placing commas, the system achieved a precision of 70%.",
+      "supporting_span": "It also gets a precision of 70 % and a recall of 49 % in the task of placing commas .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In the task of placing commas, the system achieved a recall of 49%.",
+      "supporting_span": "It also gets a precision of 70 % and a recall of 49 % in the task of placing commas .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "These results can be improved using a bigger and a more homogeneous corpus to train.",
+      "supporting_span": "these results can be improved using a bigger and a more homogeneous corpus to train",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bigger and more homogeneous corpus is a bigger corpus written by one unique author.",
+      "supporting_span": "that is , a bigger corpus written by one unique author .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes the research.",
+      "supporting_span": "In this paper , we describe the research",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There were several experiments.",
+      "supporting_span": "After several experiments",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The grammar checker is for Basque.",
+      "supporting_span": "a grammar checker for Basque",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system guesses correctly not placing commas.",
+      "supporting_span": "the system guesses correctly not placing commas",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The training corpus contained 100,000 words.",
+      "supporting_span": "100,000 words",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

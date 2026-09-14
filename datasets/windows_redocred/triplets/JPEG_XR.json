@@ -1,0 +1,146 @@
+[
+  {
+    "head": "Windows 7",
+    "relation": "followed by",
+    "tail": "Windows 8",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "follows",
+    "tail": "Windows 7",
+    "relation_code": "P155"
+  },
+  {
+    "head": "JPEG extended range",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "HD Photo",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer 9",
+    "relation": "followed by",
+    "tail": "Internet Explorer 10",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer 10",
+    "relation": "followed by",
+    "tail": "Internet Explorer 11",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "follows",
+    "tail": "Internet Explorer 9",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "follows",
+    "tail": "Internet Explorer 10",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Internet Explorer 10",
+    "relation": "follows",
+    "tail": "Internet Explorer 9",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "HD Photo",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer 10",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": ".NET Framework 3.0",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Imaging Component",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "followed by",
+    "tail": "Windows 7",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer 9",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 7",
+    "relation": "follows",
+    "tail": "Windows Vista",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Internet Explorer 9",
+    "relation": "followed by",
+    "tail": "Internet Explorer 11",
+    "relation_code": "P156"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_44",
+  "facts": [
+    "This paper shows that identifying the source language of medium-length speeches in the EUROPARL corpus is very often possible.",
+    "Identifying the source language of medium-length speeches in the EUROPARL corpus is based on frequency counts of word n-grams.",
+    "The identification accuracy is 87.2% to 96.7%.",
+    "The identification accuracy depends on the classification method.",
+    "The paper examines in detail which positive markers are most powerful.",
+    "The paper identifies a number of linguistic aspects.",
+    "The paper identifies culture-related aspects.",
+    "The paper identifies domain-related aspects.",
+    "There are medium-length speeches in the EUROPARL corpus.",
+    "The target of identification is the source language.",
+    "The method uses word n-grams.",
+    "The method uses frequency counts.",
+    "The corpus referenced is EUROPARL.",
+    "Positive markers are evaluated for their power.",
+    "A classification method is involved."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    4,
+    10,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    3,
+    8
+  ],
+  "ambiguous": [
+    5,
+    6,
+    7,
+    9,
+    11,
+    12
+  ],
+  "entities": [
+    "medium-length speeches",
+    "EUROPARL corpus",
+    "frequency counts of word n-grams",
+    "word n-grams",
+    "accuracy",
+    "classification method",
+    "positive markers"
+  ]
+}

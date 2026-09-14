@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_13",
+  "facts": [
+    {
+      "fact": "The study proposes a knowledge-independent method for aligning terms.",
+      "supporting_span": "we propose a knowledge-independent method for aligning terms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method extracts translations.",
+      "supporting_span": "thus extracting translations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Translations are extracted from a small, domain-specific corpus.",
+      "supporting_span": "extracting translations from a small , domain-specific corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The corpus consists of parallel English and Chinese court judgments from Hong Kong.",
+      "supporting_span": "consisting of parallel English and Chinese court judgments from Hong Kong",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The study uses a sentence-aligned corpus.",
+      "supporting_span": "With a sentence-aligned corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Translation equivalences are suggested by analysing the frequency profiles of parallel concordances.",
+      "supporting_span": "translation equivalences are suggested by analysing the frequency profiles of parallel concordances",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method overcomes the limitations of conventional statistical methods.",
+      "supporting_span": "The method overcomes the limitations of conventional statistical methods",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Conventional statistical methods require large corpora to be effective.",
+      "supporting_span": "conventional statistical methods which require large corpora to be effective",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method overcomes the limitations of lexical approaches.",
+      "supporting_span": "The method overcomes the limitations of conventional statistical methods which require large corpora to be effective , and lexical approaches which depend on existing bilingual dictionaries .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexical approaches depend on existing bilingual dictionaries.",
+      "supporting_span": "lexical approaches which depend on existing bilingual dictionaries",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Pilot testing was conducted on a parallel corpus of about 113K Chinese words and 120K English words.",
+      "supporting_span": "Pilot testing on a parallel corpus of about 113K Chinese words and 120K English words",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Pilot testing gives an encouraging 85 % precision.",
+      "supporting_span": "gives an encouraging 85 % precision",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Pilot testing gives 45 % recall.",
+      "supporting_span": "45 % recall",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Future work includes fine-tuning the algorithm upon the analysis of the errors.",
+      "supporting_span": "Future work includes fine-tuning the algorithm upon the analysis of the errors",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Future work includes acquiring a translation lexicon for legal terminology by filtering out general terms.",
+      "supporting_span": "acquiring a translation lexicon for legal terminology by filtering out general terms",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

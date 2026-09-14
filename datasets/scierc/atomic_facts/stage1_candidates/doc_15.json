@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_15",
+  "facts": [
+    {
+      "fact": "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction.",
+      "supporting_span": "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The two main classes of approaches to perform monocular nonrigid 3D reconstruction are Template-based methods and Non-rigid Structure from Motion techniques.",
+      "supporting_span": "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction : Template-based methods and Non-rigid Structure from Motion techniques .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Template-based methods have been applied to reconstruct poorly-textured surfaces.",
+      "supporting_span": "the first ones have been applied to reconstruct poorly-textured surfaces",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Template-based methods assume the availability of a 3D shape model prior to reconstruction.",
+      "supporting_span": "they assume the availability of a 3D shape model prior to reconstruction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-rigid Structure from Motion techniques do not require a shape template.",
+      "supporting_span": "the second ones do not require such a shape template",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-rigid Structure from Motion techniques rely on points being tracked throughout a video sequence.",
+      "supporting_span": "rely on points being tracked throughout a video sequence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-rigid Structure from Motion techniques are ill-suited to handle poorly-textured surfaces.",
+      "supporting_span": "are thus ill-suited to handle poorly-textured surfaces",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces a template-free approach to reconstructing a poorly-textured, deformable surface.",
+      "supporting_span": "In this paper , we introduce a template-free approach to reconstructing a poorly-textured , deformable surface .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper's approach leverages surface isometry.",
+      "supporting_span": "we leverage surface isometry",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper formulates 3D reconstruction as the joint problem of non-rigid image registration and depth estimation.",
+      "supporting_span": "formulate 3D reconstruction as the joint problem of non-rigid image registration and depth estimation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper's approach yields much more accurate 3D reconstructions than state-of-the-art techniques.",
+      "supporting_span": "our approach yields much more accurate 3D reconstructions than state-of-the-art techniques",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Template-based methods have been studied to perform monocular nonrigid 3D reconstruction.",
+      "supporting_span": "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction : Template-based methods and Non-rigid Structure from Motion techniques .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-rigid Structure from Motion techniques have been studied to perform monocular nonrigid 3D reconstruction.",
+      "supporting_span": "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction : Template-based methods and Non-rigid Structure from Motion techniques .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Depth estimation is part of the joint problem of 3D reconstruction.",
+      "supporting_span": "formulate 3D reconstruction as the joint problem of non-rigid image registration and depth estimation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-rigid image registration is part of the joint problem of 3D reconstruction.",
+      "supporting_span": "formulate 3D reconstruction as the joint problem of non-rigid image registration and depth estimation",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

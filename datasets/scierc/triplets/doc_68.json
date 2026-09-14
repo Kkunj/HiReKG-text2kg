@@ -1,0 +1,17 @@
+[
+  {
+    "head": "nouns",
+    "relation": "conjunction",
+    "tail": "reflexive pronouns"
+  },
+  {
+    "head": "grammatical gender",
+    "relation": "feature of",
+    "tail": "languages"
+  },
+  {
+    "head": "French",
+    "relation": "hyponym of",
+    "tail": "languages"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_78",
+  "facts": [
+    {
+      "fact": "A framework for segmentation of complex scenes was previously presented.",
+      "supporting_span": "We previously presented a framework for segmentation of complex scenes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The previously presented framework uses multiple physical hypotheses.",
+      "supporting_span": "using multiple physical hypotheses",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multiple physical hypotheses are for simple image regions.",
+      "supporting_span": "using multiple physical hypotheses for simple image regions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A consequence of the previously presented framework was a proposal for a new approach.",
+      "supporting_span": "A consequence of that framework was a proposal for a new approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new approach is to the segmentation of complex scenes.",
+      "supporting_span": "a new approach to the segmentation of complex scenes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new approach segments complex scenes into regions corresponding to coherent surfaces.",
+      "supporting_span": "a new approach to the segmentation of complex scenes into regions corresponding to coherent surfaces",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new approach is contrasted with segmenting into regions of similar color.",
+      "supporting_span": "rather than merely regions of similar color",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An implementation of the new approach is presented.",
+      "supporting_span": "Herein we present an implementation of this new approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Example segmentations are shown for scenes containing multi-colored piece-wise uniform objects.",
+      "supporting_span": "show example segmentations for scenes containing multi-colored piece-wise uniform objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The scenes contain multi-colored piece-wise uniform objects.",
+      "supporting_span": "scenes containing multi-colored piece-wise uniform objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The piece-wise uniform objects are multi-colored.",
+      "supporting_span": "multi-colored piece-wise uniform objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new approach intelligently segments scenes with objects of greater complexity than previous physics-based segmentation algorithms.",
+      "supporting_span": "Using our approach we are able to intelligently segment scenes with objects of greater complexity than previous physics-based segmentation algorithms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Using general physical models yields segmentations that correspond more closely to coherent surfaces in the scene than segmentations found using only color.",
+      "supporting_span": "The results show that by using general physical models we obtain segmentations that correspond more closely to coherent surfaces in the scene than segmentations found using only color",
+      "span_mismatch": false
+    },
+    {
+      "fact": "General physical models are used to obtain segmentations.",
+      "supporting_span": "by using general physical models we obtain segmentations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Segmentations found using only color correspond less closely to coherent surfaces in the scene.",
+      "supporting_span": "than segmentations found using only color",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

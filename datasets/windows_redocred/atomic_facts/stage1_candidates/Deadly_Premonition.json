@@ -1,0 +1,82 @@
+{
+  "doc_id": "Deadly_Premonition",
+  "facts": [
+    {
+      "fact": "Deadly Premonition is a survival horror video game.",
+      "supporting_span": "Deadly Premonition is a survival horror video game",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition was developed by Access Games.",
+      "supporting_span": "developed by Access Games",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition is set in the fictional, rural American town of Greenvale, Washington.",
+      "supporting_span": "Set in the fictional , rural American town of Greenvale , Washington ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The story of Deadly Premonition follows FBI Special Agent Francis York Morgan.",
+      "supporting_span": "the story follows FBI Special Agent Francis York Morgan",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The story of Deadly Premonition involves investigating the murder of an eighteen-year-old woman.",
+      "supporting_span": "as he investigates the murder of an eighteen - year - old woman",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition was originally released in 2010 for Xbox 360 and PlayStation 3.",
+      "supporting_span": "Deadly Premonition was originally released in 2010 for Xbox 360 and PlayStation 3",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Xbox 360 version of Deadly Premonition was published by Ignition Entertainment in North America.",
+      "supporting_span": "the Xbox 360 version was published by Ignition Entertainment in North America",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Marvelous Entertainment released the PlayStation 3 version of Deadly Premonition exclusively in Japan.",
+      "supporting_span": "Marvelous Entertainment released the PlayStation 3 version exclusively in Japan .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A director's cut edition of Deadly Premonition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013.",
+      "supporting_span": "A director 's cut edition for PlayStation 3 and Microsoft Windows was released worldwide by Rising Star Games in 2013 .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition is a reboot of Access Games' earlier video game Rainy Woods.",
+      "supporting_span": "Deadly Premonition is a reboot of Access Games ' earlier video game Rainy Woods .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Rainy Woods was cancelled soon after its debut at the 2007 convention Tokyo Game Show due to technical issues.",
+      "supporting_span": "Rainy Woods was cancelled soon after its debut at the 2007 convention Tokyo Game Show due to technical issues .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Upon its release, Deadly Premonition received wildly varying critical reviews.",
+      "supporting_span": "Upon its release , Deadly Premonition received wildly varying critical reviews",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition eventually held the Guinness World Record for the most critically polarizing survival horror game.",
+      "supporting_span": "eventually holding the Guinness World Record for the most critically polarizing survival horror game .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition has since garnered a cult following.",
+      "supporting_span": "It has since garnered a cult following",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Deadly Premonition has been cited as an example of games as art.",
+      "supporting_span": "has been cited as an example of games as art .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

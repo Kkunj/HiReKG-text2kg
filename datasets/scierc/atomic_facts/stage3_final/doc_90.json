@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_90",
+  "facts": [
+    "The proposed approach associates objects across multiple PTZ cameras.",
+    "The proposed approach can be used to perform camera handoff in wide-area surveillance scenarios.",
+    "Previous approaches relied on geometric information for establishing correspondences between static cameras.",
+    "Previous approaches relied on correlation-based information for establishing correspondences between static cameras.",
+    "Previous approaches have well-known limitations.",
+    "Previous approaches are not extendable to wide-area settings with PTZ cameras.",
+    "In the proposed approach, the slave camera only passively follows the target.",
+    "The slave camera bootstraps itself from its own incoming imagery.",
+    "The proposed approach circumvents the problems faced by previous approaches.",
+    "The proposed approach avoids the need to perform any model transfer.",
+    "A novel Multiple Instance Learning (MIL) formulation for the problem is proposed.",
+    "The Multiple Instance Learning formulation is based on the logistic softmax function of covariance-based region features.",
+    "The Multiple Instance Learning formulation is within a MAP estimation framework.",
+    "The approach is demonstrated with multiple PTZ camera sequences in typical outdoor surveillance settings.",
+    "The approach is compared with state-of-the-art approaches."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    5,
+    13
+  ],
+  "ambiguous": [
+    4,
+    8,
+    14
+  ],
+  "entities": [
+    "PTZ cameras",
+    "camera handoff in wide-area surveillance scenarios",
+    "geometric , appearance , or correlation-based information",
+    "static cameras",
+    "wide-area settings",
+    "slave camera",
+    "model transfer",
+    "Multiple Instance Learning ( MIL ) formulation",
+    "logistic softmax function of covariance-based region features",
+    "MAP estimation framework",
+    "multiple PTZ camera sequences",
+    "outdoor surveillance settings"
+  ]
+}

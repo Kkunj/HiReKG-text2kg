@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_95",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A new part-of-speech tagger is presented.",
+      "generator_supporting_span": "We present a new part-of-speech tagger",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger",
+      "verifier_reasoning": "The source text opens with the sentence \"We present a new part-of-speech tagger...\", which directly states the information presented in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The part-of-speech tagger demonstrates explicit use of both preceding and following tag contexts.",
+      "generator_supporting_span": "(i) explicit use of both preceding and following tag contexts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas : (i) explicit use of both preceding and following tag contexts",
+      "verifier_reasoning": "The source text introduces a new part-of-speech tagger and explicitly lists the ideas it demonstrates. The first idea listed is the 'explicit use of both preceding and following tag contexts', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The part-of-speech tagger uses a dependency network representation.",
+      "generator_supporting_span": "via a dependency network representation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas : (i) explicit use of both preceding and following tag contexts via a dependency network representation",
+      "verifier_reasoning": "The source text introduces a new part-of-speech tagger and lists the ideas it demonstrates. The first idea listed is the use of tag contexts 'via a dependency network representation', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The part-of-speech tagger makes broad use of lexical features.",
+      "generator_supporting_span": "(ii) broad use of lexical features",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas : ... (ii) broad use of lexical features",
+      "verifier_reasoning": "The source text introduces a new part-of-speech tagger and explicitly lists the ideas it demonstrates, one of which is the 'broad use of lexical features'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The part-of-speech tagger jointly conditions on multiple consecutive words.",
+      "generator_supporting_span": "including jointly conditioning on multiple consecutive words",
+      "span_mismatch": false,
+      "verifier_supporting_span": "broad use of lexical features , including jointly conditioning on multiple consecutive words",
+      "verifier_reasoning": "The source text lists several ideas demonstrated by the new part-of-speech tagger. The second idea listed is the 'broad use of lexical features, including jointly conditioning on multiple consecutive words,' which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The part-of-speech tagger makes effective use of priors in conditional loglinear models.",
+      "generator_supporting_span": "(iii) effective use of priors in conditional loglinear models",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas : ... (iii) effective use of priors in conditional loglinear models",
+      "verifier_reasoning": "The source text introduces a new part-of-speech tagger and explicitly lists the ideas it demonstrates. The third idea listed is the 'effective use of priors in conditional loglinear models,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The part-of-speech tagger models unknown word features in a fine-grained way.",
+      "generator_supporting_span": "(iv) fine-grained modeling of unknown word features",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas : ... (iv) fine-grained modeling of unknown word features .",
+      "verifier_reasoning": "The source text explicitly lists the ideas demonstrated by the new part-of-speech tagger, and the fourth idea mentioned is the 'fine-grained modeling of unknown word features,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The resulting tagger gives a 97.24 % accuracy.",
+      "generator_supporting_span": "the resulting tagger gives a 97.24 % accuracy",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ",
+      "verifier_reasoning": "The source text explicitly states the accuracy of the tagger in the final sentence, matching the figure provided in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The 97.24 % accuracy is on the Penn Treebank WSJ.",
+      "generator_supporting_span": "on the Penn Treebank WSJ",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ",
+      "verifier_reasoning": "The source text explicitly states that the tagger's 97.24% accuracy was achieved on the Penn Treebank WSJ dataset.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The tagger achieves an error reduction of 4.4 %.",
+      "generator_supporting_span": "an error reduction of 4.4 %",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ , an error reduction of 4.4 % on the best previous single automatically learned tagging result .",
+      "verifier_reasoning": "The source text explicitly states the performance of the tagger, including that it resulted in \"an error reduction of 4.4 % on the best previous single automatically learned tagging result.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The error reduction is measured on the best previous single automatically learned tagging result.",
+      "generator_supporting_span": "on the best previous single automatically learned tagging result",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ , an error reduction of 4.4 % on the best previous single automatically learned tagging result .",
+      "verifier_reasoning": "The source text explicitly states that the tagger achieved an error reduction of 4.4% and specifies that this reduction was measured 'on the best previous single automatically learned tagging result'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The part-of-speech tagger explicitly uses preceding tag contexts.",
+      "generator_supporting_span": "explicit use of both preceding and following tag contexts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "explicit use of both preceding and following tag contexts",
+      "verifier_reasoning": "The source text lists the ideas demonstrated by the new part-of-speech tagger. The first idea mentioned is the 'explicit use of both preceding and following tag contexts', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The part-of-speech tagger explicitly uses following tag contexts.",
+      "generator_supporting_span": "explicit use of both preceding and following tag contexts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "explicit use of both preceding and following tag contexts",
+      "verifier_reasoning": "The source text lists the ideas demonstrated by the new part-of-speech tagger, the first of which is the 'explicit use of both preceding and following tag contexts'. This directly confirms that the tagger uses following tag contexts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The ideas are used together.",
+      "generator_supporting_span": "Using these ideas together",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Using these ideas together , the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ",
+      "verifier_reasoning": "The source text lists four distinct ideas and the subsequent sentence explicitly states, \"Using these ideas together,\" which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The part-of-speech tagger demonstrates the following ideas.",
+      "generator_supporting_span": "that demonstrates the following ideas",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a new part-of-speech tagger that demonstrates the following ideas :",
+      "verifier_reasoning": "The source text explicitly states that the authors are presenting 'a new part-of-speech tagger that demonstrates the following ideas', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

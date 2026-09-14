@@ -1,0 +1,56 @@
+{
+  "doc_id": "doc_52",
+  "facts": [
+    "A discrimination and robustness oriented adaptive learning procedure is proposed.",
+    "The proposed adaptive learning procedure deals with the task of syntactic ambiguity resolution.",
+    "Insufficient training data is a problem.",
+    "Approximation error is introduced by the language model.",
+    "Traditional statistical approaches resolve ambiguities by indirectly and implicitly using maximum likelihood method.",
+    "Traditional statistical approaches fail to achieve high performance in real applications.",
+    "The proposed method remedies problems by adjusting the parameters.",
+    "The proposed method maximizes the accuracy rate directly.",
+    "Possible variations between the training corpus and the real tasks are taken into consideration.",
+    "The separation margin between the correct candidate and its competing members is enlarged.",
+    "Enlarging the separation margin between the correct candidate and its competing members is intended to make the proposed algorithm robust.",
+    "Significant improvement has been observed in the test.",
+    "Using the novel approach raises the accuracy rate of syntactic disambiguation from 46.0% to 60.62%.",
+    "The accuracy rate before using the novel approach is 46.0%.",
+    "The accuracy rate after using the novel approach is 60.62%."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    2,
+    5,
+    7,
+    9,
+    10,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    1,
+    3,
+    4,
+    12
+  ],
+  "ambiguous": [
+    6,
+    8,
+    11
+  ],
+  "entities": [
+    "adaptive learning procedure",
+    "syntactic ambiguity resolution",
+    "insufficient training data",
+    "approximation error",
+    "language model",
+    "statistical approaches",
+    "ambiguities",
+    "maximum likelihood method",
+    "separation margin",
+    "accuracy rate",
+    "syntactic disambiguation"
+  ]
+}

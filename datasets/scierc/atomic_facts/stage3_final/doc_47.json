@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_47",
+  "facts": [
+    "Human action recognition from well-segmented 3D skeleton data has been intensively studied.",
+    "Online action detection is more challenging.",
+    "Online action detection identifies the action type on the fly from the untrimmed stream.",
+    "Online action detection localizes the action positions on the fly from the untrimmed stream.",
+    "The paper studies the problem of online action detection from the streaming skeleton data.",
+    "The paper proposes a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network.",
+    "The proposed network employs a joint classification and regression optimization objective.",
+    "The proposed network is capable of automatically localizing the start and end points of actions more accurately.",
+    "The proposed model leverages the merits of the deep Long Short-Term Memory (LSTM) subnetwork.",
+    "The proposed model automatically captures the complex long-range temporal dynamics.",
+    "The proposed model naturally avoids the typical sliding window design.",
+    "The proposed model ensures high computational efficiency.",
+    "The subtask of regression optimization provides the ability to forecast the action prior to its occurrence.",
+    "The authors build a large streaming video dataset with annotations.",
+    "Experimental results on the authors' dataset and the public G3D dataset both demonstrate very promising performance of the authors' scheme."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "ambiguous": [
+    7
+  ],
+  "entities": [
+    "Human action recognition",
+    "well-segmented 3D skeleton data",
+    "Online action detection",
+    "action type",
+    "action positions",
+    "untrimmed stream",
+    "online action detection",
+    "streaming skeleton data",
+    "multi-task end-to-end Joint Classification-Regression Recurrent Neural Network",
+    "temporal localiza-tion information",
+    "joint classification and regression optimization objective",
+    "deep Long Short-Term Memory ( LSTM ) subnetwork",
+    "long-range temporal dynamics",
+    "sliding window design",
+    "computational efficiency",
+    "regression optimization",
+    "streaming video dataset",
+    "G3D dataset"
+  ]
+}

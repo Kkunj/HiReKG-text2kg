@@ -1,0 +1,66 @@
+{
+  "doc_id": "Volume_boot_record",
+  "facts": [
+    "A volume boot record ( VBR ) is a type of boot sector introduced by the IBM Personal Computer.",
+    "A volume boot record ( VBR ) is also known as a volume boot sector.",
+    "A volume boot record ( VBR ) may be found on a partitioned data storage device or an unpartitioned device.",
+    "A volume boot record ( VBR ) contains machine code for bootstrapping programs stored in other parts of the device.",
+    "On non-partitioned storage devices, a volume boot record ( VBR ) is the first sector of the device.",
+    "On partitioned devices, a volume boot record ( VBR ) is the first sector of an individual partition on the device.",
+    "The code in volume boot records is invoked either directly by the machine's firmware or indirectly by code in the master boot record or a boot manager.",
+    "Invoking a VBR via a boot manager is known as chain loading.",
+    "Some dual-boot systems, such as NTLDR, take copies of the bootstrap code that individual operating systems install into a single partition's VBR.",
+    "Some dual-boot systems, such as NTLDR, load the relevant VBR content from file after the boot loader has asked the user which operating system to bootstrap.",
+    "NTLDR is the boot loader for all releases of Microsoft's Windows NT-derived operating systems up to and including Windows XP and Windows Server 2003.",
+    "In Windows Vista, Windows Server 2008 and newer versions, NTLDR was replaced.",
+    "In Windows Vista, Windows Server 2008 and newer versions, the boot-loader functionality is instead provided by two new components: WINLOAD.EXE and the Windows Boot Manager.",
+    "In file systems such as FAT12, FAT16, FAT32, HPFS and NTFS, the VBR also contains a BIOS Parameter Block ( BPB ) that specifies the location and layout of the principal on-disk data structures for the file system."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "ambiguous": [
+    6
+  ],
+  "entities": [
+    "VBR",
+    "volume boot sector",
+    "partition boot record",
+    "IBM",
+    "MBR",
+    "NTLDR",
+    "Microsoft",
+    "Windows NT",
+    "Windows XP",
+    "Windows Server 2003",
+    "Windows Vista",
+    "two",
+    "WINLOAD.EXE",
+    "Windows Boot Manager",
+    "FAT12",
+    "DOS 1.x",
+    "FAT16",
+    "FAT32",
+    "HPFS",
+    "NTFS",
+    "BIOS Parameter Block",
+    "FAT VBRs",
+    "FAT BPB"
+  ]
+}

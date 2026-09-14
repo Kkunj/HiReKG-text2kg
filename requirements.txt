@@ -1,0 +1,87 @@
+# HiReKG — Python dependencies
+#
+# Install:
+#   pip install -r requirements.txt
+#   python -m spacy download en_core_web_sm
+#   python our_approach/setup_nltk_models.py
+#
+# Tested on Python 3.10 (Windows 11 / Ubuntu 22.04).
+
+# ---------------------------------------------------------------- extraction
+# OpenAI API client for LLM interactions (also used for the OpenAI Batch API)
+openai>=1.40.0
+
+# HTTP client for the self-hosted vLLM endpoint
+requests>=2.32.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Google Gemini client — the verifier in fact_generation/
+google-genai>=1.0.0
+
+# Neo4j Python driver for optional graph database export
+neo4j>=5.20.0
+
+# Natural Language Toolkit — lemmatisation during entity refinement
+nltk>=3.8.1
+
+# spaCy — sentence segmentation (chunking) and NER
+# The en_core_web_sm model is a separate download; see the header above.
+spacy>=3.7.0
+
+# YAML config parsing (fact_generation/config.yaml)
+PyYAML>=6.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# ------------------------------------------------------------------ numerics
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Clustering for semantic entity grouping
+scikit-learn>=1.4.0
+hdbscan>=0.8.33
+
+# ----------------------------------------------------------------- embedding
+# Sentence embeddings: all-MiniLM-L6-v2 (MINE retrieval, faithfulness
+# retrieval, UIR) and BAAI/bge-m3 (semantic linking, RAKG retrieval).
+# Pulls in torch and transformers transitively.
+sentence-transformers>=3.0.0
+
+# BERTScore — pairwise triple similarity for UIR clustering
+bert-score>=0.3.13
+
+# Fuzzy string matching for entity redundancy metrics
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0
+
+# ---------------------------------------------------------------- evaluation
+# Graph construction and traversal for the MINE 2-hop retrieval
+networkx>=3.1
+
+# kg-gen — the canonical MINE retrieval routine, reused unchanged so that all
+# methods are scored identically. Not pinned here because the MINE evaluation
+# is run against the upstream release; install it separately with either:
+#   pip install kg-gen
+#   pip install git+https://github.com/stair-lab/kg-gen.git
+
+# DSPy — used by the upstream kg-gen MINE evaluation harness
+dspy-ai>=2.5.0
+
+# Hugging Face datasets / hub — loading the MINE benchmark splits
+datasets>=2.18.0
+huggingface-hub>=0.23.0
+
+# CLI entry points
+typer>=0.12.0
+
+# ------------------------------------------------------------------- plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Optional: the interactive results dashboard
+# (evaluation_pipeline/mine_score/_3_visualize.py)
+streamlit>=1.30.0

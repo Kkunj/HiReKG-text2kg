@@ -1,0 +1,49 @@
+{
+  "doc_id": "doc_36",
+  "facts": [
+    "This paper proposes a novel method of building polarity-tagged corpus from HTML documents.",
+    "The method of building polarity-tagged corpus from HTML documents is fully automatic.",
+    "The method of building polarity-tagged corpus from HTML documents can be applied to arbitrary HTML documents.",
+    "The idea behind the method of building polarity-tagged corpus from HTML documents is to utilize certain layout structures and linguistic pattern.",
+    "The method of building polarity-tagged corpus from HTML documents can automatically extract such sentences that express opinion.",
+    "In an experiment, the method of building polarity-tagged corpus from HTML documents could construct a corpus consisting of 126,610 sentences.",
+    "The paper proposes a novel method.",
+    "The polarity-tagged corpus is built from HTML documents.",
+    "A characteristic of the method of building polarity-tagged corpus from HTML documents is that it is fully automatic.",
+    "A characteristic of the method of building polarity-tagged corpus from HTML documents is that it can be applied to arbitrary HTML documents.",
+    "The method of building polarity-tagged corpus from HTML documents utilizes certain layout structures.",
+    "The method of building polarity-tagged corpus from HTML documents utilizes linguistic pattern.",
+    "The sentences extracted by the method of building polarity-tagged corpus from HTML documents express opinion.",
+    "The method of building polarity-tagged corpus from HTML documents automatically extracts sentences.",
+    "The corpus constructed in the experiment consisted of 126,610 sentences."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    7
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "ambiguous": [
+    6,
+    14
+  ],
+  "entities": [
+    "building polarity-tagged corpus",
+    "HTML documents",
+    "layout structures",
+    "linguistic pattern"
+  ]
+}

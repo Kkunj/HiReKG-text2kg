@@ -1,0 +1,157 @@
+{
+  "doc_id": "Embedded_Visual_Basic",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Embedded Visual Basic or eVB is an implementation of Microsoft Visual Basic.",
+      "generator_supporting_span": "Embedded Visual Basic or eVB , is an implementation of Microsoft Visual Basic",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic or eVB , is an implementation of Microsoft Visual Basic which is geared towards generating programmes for embedded systems",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that Embedded Visual Basic (eVB) is an implementation of Microsoft Visual Basic.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Embedded Visual Basic is geared towards generating programmes for embedded systems.",
+      "generator_supporting_span": "is geared towards generating programmes for embedded systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic or eVB , is an implementation of Microsoft Visual Basic which is geared towards generating programmes for embedded systems",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that Embedded Visual Basic (eVB) is an implementation of Visual Basic that is 'geared towards generating programmes for embedded systems'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Embedded Visual Basic is generally for use under Windows CE.",
+      "generator_supporting_span": "generally for use under Windows CE",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic or eVB , is an implementation of Microsoft Visual Basic which is geared towards generating programmes for embedded systems such as PDAs , cellular telephones , modern pocket computers and other programmable electronic systems and devices , generally for use under Windows CE .",
+      "verifier_reasoning": "The source text directly states that Embedded Visual Basic is an implementation of Visual Basic intended for generating programs for various embedded systems, specifying that it is \"generally for use under Windows CE\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The tools themselves run on desktop operating systems such as Windows 98, Windows NT, Windows XP and subsequent.",
+      "generator_supporting_span": "The tools themselves run on desktop operating systems such as Windows 98 , Windows NT , Windows XP and subsequent .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The tools themselves run on desktop operating systems such as Windows 98 , Windows NT , Windows XP and subsequent .",
+      "verifier_reasoning": "The source text explicitly states that the tools for Embedded Visual Basic run on several desktop operating systems, listing Windows 98, Windows NT, and Windows XP among them. The candidate fact is a direct quote of this sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The tools are capable of compiling executables for Windows NT Embedded.",
+      "generator_supporting_span": "The tools are also capable of compiling executables for Windows NT Embedded as well .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The tools are also capable of compiling executables for Windows NT Embedded as well .",
+      "verifier_reasoning": "The source text explicitly states that the tools discussed are capable of compiling executables for the Windows NT Embedded operating system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Embedded Visual Basic is available from Microsoft.",
+      "generator_supporting_span": "Embedded Visual Basic is available from Microsoft",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ )",
+      "verifier_reasoning": "The source text explicitly states that Embedded Visual Basic is a tool that is available from Microsoft.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Embedded Visual C++ ( eVC++ ) is available from Microsoft.",
+      "generator_supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ )",
+      "verifier_reasoning": "The source text explicitly states that Embedded Visual Basic is available from Microsoft, and then uses the phrase 'as are other such tools including Embedded Visual C++ ( eVC++ )' to indicate that eVC++ is also available from Microsoft.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Embedded Visual J++ ( eVJ++ ) is available from Microsoft.",
+      "generator_supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ ) , which is discussed in the Wikipedia article about Microsoft Visual C++ , and Embedded Visual J++ ( eVJ++ )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Embedded Visual Basic is available from Microsoft , as are other such tools including Embedded Visual C++ ( eVC++ ) , which is discussed in the Wikipedia article about Microsoft Visual C++ , and Embedded Visual J++ ( eVJ++ )",
+      "verifier_reasoning": "The source text states that Embedded Visual Basic is available from Microsoft, and then lists other tools that are also available from Microsoft, which explicitly includes Embedded Visual J++ (eVJ++).",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "ActiveSync is a centrally important Windows CE-related tool.",
+      "generator_supporting_span": "A centrally important Windows CE - related tool is ActiveSync",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A centrally important Windows CE - related tool is ActiveSync",
+      "verifier_reasoning": "The source text explicitly states that 'A centrally important Windows CE - related tool is ActiveSync', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "There is not an Embedded Visual InterDev version.",
+      "generator_supporting_span": "There is not an Embedded Visual InterDev version",
+      "span_mismatch": false,
+      "verifier_supporting_span": "There is not an Embedded Visual InterDev version, nor have MSDN or Visual Source Safe been ported to Windows CE.",
+      "verifier_reasoning": "The source text explicitly states that an Embedded Visual InterDev version does not exist.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "MSDN or Visual Source Safe have not been ported to Windows CE.",
+      "generator_supporting_span": "nor have MSDN or Visual Source Safe been ported to Windows CE .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "There is not an Embedded Visual InterDev version , nor have MSDN or Visual Source Safe been ported to Windows CE .",
+      "verifier_reasoning": "The source text explicitly lists tools that have not been ported to Windows CE, and directly includes MSDN and Visual Source Safe in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation.",
+      "generator_supporting_span": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation which is a non - default install available from the installation CD - Rom .",
+      "verifier_reasoning": "The source text makes this exact statement, specifying that installing the Windows Script Host implementation is another way to get Visual Basic functionality on Windows CE.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The Windows Script Host implementation is a non-default install.",
+      "generator_supporting_span": "which is a non - default install",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The other means of obtaining Visual Basic functionality under Windows CE is to install the Windows Script Host implementation which is a non - default install available from the installation CD - Rom .",
+      "verifier_reasoning": "The source text explicitly states that the Windows Script Host implementation is a non-default install that is available from the installation CD-Rom.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Version 3 of the embedded Visual Basic, Visual J++, and Visual C++ tools approximate the language and implementation of Visual Basic 6.0, Visual J++ 6.0, and Visual C++ 6.0.",
+      "generator_supporting_span": "Version 3 of the embedded Visual Basic , Visual J++ , and Visual C++ tools approximate the language and implementation of Visual Basic 6.0 , Visual J++ 6.0 , and Visual C++ 6.0 .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Version 3 of the embedded Visual Basic , Visual J++ , and Visual C++ tools approximate the language and implementation of Visual Basic 6.0 , Visual J++ 6.0 , and Visual C++ 6.0 .",
+      "verifier_reasoning": "The source text explicitly states that Version 3 of the specified embedded tools approximate the language and implementation of the corresponding 6.0 desktop versions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "One Basic development tool which can be run on board the Windows CE machines themselves is the third-party NS BASIC.",
+      "generator_supporting_span": "One Basic development tool which can be run on board the Windows CE machines themselves is the third - party NS BASIC",
+      "span_mismatch": false,
+      "verifier_supporting_span": "One Basic development tool which can be run on board the Windows CE machines themselves is the third - party NS BASIC",
+      "verifier_reasoning": "The source text explicitly states that NS BASIC is a third-party Basic development tool capable of running directly on Windows CE machines, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

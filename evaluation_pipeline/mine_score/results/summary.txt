@@ -1,0 +1,101 @@
+====================================================================================================
+KNOWLEDGE GRAPH EVALUATION - COMPREHENSIVE ANALYSIS SUMMARY
+====================================================================================================
+
+OVERALL STATISTICS
+----------------------------------------------------------------------------------------------------
+Experiment                                          Mean     Median        Std        Min        Max
+----------------------------------------------------------------------------------------------------
+KGGEN_MINE_batch_results                           65.88      66.67      18.83      13.33     100.00
+OURS_MINE_batch_results                            93.40      93.33       7.51      66.67     100.00
+RAKG_MINE_batch_results                            74.33      73.33      16.37      13.33     100.00
+----------------------------------------------------------------------------------------------------
+
+RANKING (by Mean Accuracy)
+----------------------------------------------------------------------------------------------------
+1. OURS_MINE_batch_results                                           93.40%
+2. RAKG_MINE_batch_results                                           74.33%
+3. KGGEN_MINE_batch_results                                          65.88%
+----------------------------------------------------------------------------------------------------
+
+PAIRWISE COMPARISONS
+====================================================================================================
+
+OURS_MINE_batch_results vs KGGEN_MINE_batch_results
+----------------------------------------------------------------------------------------------------
+  Mean difference: +27.74% (OURS_MINE_batch_results performs BETTER on average)
+  OURS_MINE_batch_results wins: 86/93 cases (92.5%)
+  KGGEN_MINE_batch_results wins: 2/93 cases (2.2%)
+  Ties: 5/93 cases (5.4%)
+
+  Largest advantage for OURS_MINE_batch_results: +86.67% (file index 24)
+  Largest advantage for KGGEN_MINE_batch_results: -13.33% (file index 59)
+
+RAKG_MINE_batch_results vs KGGEN_MINE_batch_results
+----------------------------------------------------------------------------------------------------
+  Mean difference: +7.89% (RAKG_MINE_batch_results performs BETTER on average)
+  RAKG_MINE_batch_results wins: 57/93 cases (61.3%)
+  KGGEN_MINE_batch_results wins: 30/93 cases (32.3%)
+  Ties: 6/93 cases (6.5%)
+
+  Largest advantage for RAKG_MINE_batch_results: +60.00% (file index 24)
+  Largest advantage for KGGEN_MINE_batch_results: -60.00% (file index 80)
+
+RAKG_MINE_batch_results vs OURS_MINE_batch_results
+----------------------------------------------------------------------------------------------------
+  Mean difference: -19.07% (OURS_MINE_batch_results performs BETTER on average)
+  RAKG_MINE_batch_results wins: 6/100 cases (6.0%)
+  OURS_MINE_batch_results wins: 86/100 cases (86.0%)
+  Ties: 8/100 cases (8.0%)
+
+  Largest advantage for RAKG_MINE_batch_results: +13.33% (file index 53)
+  Largest advantage for OURS_MINE_batch_results: -73.34% (file index 51)
+
+
+====================================================================================================
+PERFORMANCE ANALYSIS BY ACCURACY RANGES
+====================================================================================================
+
+Accuracy Range: 0% - 25%
+----------------------------------------------------------------------------------------------------
+  KGGEN_MINE_batch_results                                        1 cases (  1.1%)
+  OURS_MINE_batch_results                                         0 cases (  0.0%)
+  RAKG_MINE_batch_results                                         2 cases (  2.0%)
+
+Accuracy Range: 25% - 50%
+----------------------------------------------------------------------------------------------------
+  KGGEN_MINE_batch_results                                       19 cases ( 20.4%)
+  OURS_MINE_batch_results                                         0 cases (  0.0%)
+  RAKG_MINE_batch_results                                         3 cases (  3.0%)
+
+Accuracy Range: 50% - 75%
+----------------------------------------------------------------------------------------------------
+  KGGEN_MINE_batch_results                                       42 cases ( 45.2%)
+  OURS_MINE_batch_results                                         4 cases (  4.0%)
+  RAKG_MINE_batch_results                                        48 cases ( 48.0%)
+
+Accuracy Range: 75% - 100%
+----------------------------------------------------------------------------------------------------
+  KGGEN_MINE_batch_results                                       31 cases ( 33.3%)
+  OURS_MINE_batch_results                                        96 cases ( 96.0%)
+  RAKG_MINE_batch_results                                        47 cases ( 47.0%)
+
+====================================================================================================
+KEY INSIGHTS
+====================================================================================================
+
+1. BEST PERFORMER: OURS_MINE_batch_results
+   - Mean accuracy: 93.40%
+   - Outperforms others by 27.52% on average
+
+2. LOWEST PERFORMER: KGGEN_MINE_batch_results
+   - Mean accuracy: 65.88%
+
+4. CONSISTENCY ANALYSIS:
+   KGGEN_MINE_batch_results: Std Dev = 18.83% (Moderately consistent)
+   OURS_MINE_batch_results: Std Dev = 7.51% (Very consistent)
+   RAKG_MINE_batch_results: Std Dev = 16.37% (Moderately consistent)
+
+====================================================================================================
+End of Summary
+====================================================================================================

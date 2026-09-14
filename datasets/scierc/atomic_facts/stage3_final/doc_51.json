@@ -1,0 +1,50 @@
+{
+  "doc_id": "doc_51",
+  "facts": [
+    "The paper describes the pronominal anaphora resolution module of Lucy.",
+    "Lucy is a portable English understanding system.",
+    "The pronominal anaphora resolution module is part of Lucy.",
+    "The design of the pronominal anaphora resolution module of Lucy was motivated by the observation.",
+    "There exist many theories of anaphora resolution.",
+    "No theory of anaphora resolution is complete.",
+    "A blackboard-like architecture has been implemented.",
+    "Lucy is a system.",
+    "Individual partial theories can be encoded.",
+    "Individual partial theories can be encoded as separate modules.",
+    "Separate modules can interact.",
+    "The separate modules can interact to propose candidate antecedents.",
+    "Candidate antecedents can be proposed.",
+    "The observation that motivated the design of the pronominal anaphora resolution module of Lucy noted that there exist many theories of anaphora resolution.",
+    "The observation that motivated the design of the pronominal anaphora resolution module of Lucy stated that no theory of anaphora resolution is complete."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    13,
+    14
+  ],
+  "ambiguous": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "entities": [
+    "pronominal anaphora resolution module",
+    "Lucy",
+    "English understanding system",
+    "anaphora resolution",
+    "blackboard-like architecture"
+  ]
+}

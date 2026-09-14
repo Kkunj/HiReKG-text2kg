@@ -1,0 +1,52 @@
+[
+  {
+    "head": "labeled directed graph",
+    "relation": "used for",
+    "tail": "linguistic structures"
+  },
+  {
+    "head": "labeled directed graph",
+    "relation": "used for",
+    "tail": "NLP tasks"
+  },
+  {
+    "head": "this",
+    "relation": "used for",
+    "tail": "NLP tasks"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "transformations"
+  },
+  {
+    "head": "annotated corpus",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "applications"
+  },
+  {
+    "head": "identification of non-local depenencies",
+    "relation": "hyponym of",
+    "tail": "applications"
+  },
+  {
+    "head": "Penn Treebank data",
+    "relation": "used for",
+    "tail": "identification of non-local depenencies"
+  },
+  {
+    "head": "semantic role labeling",
+    "relation": "hyponym of",
+    "tail": "applications"
+  },
+  {
+    "head": "Proposition Bank data",
+    "relation": "used for",
+    "tail": "semantic role labeling"
+  }
+]

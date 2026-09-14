@@ -1,0 +1,82 @@
+{
+  "doc_id": "Skylake_microarchitecture",
+  "facts": [
+    {
+      "fact": "Skylake is the codename used by Intel for a processor microarchitecture.",
+      "supporting_span": "Skylake is the codename used by Intel for a processor microarchitecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake was launched in August 2015.",
+      "supporting_span": "was launched in August 2015",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake succeeded the Broadwell microarchitecture.",
+      "supporting_span": "succeeding the Broadwell microarchitecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake is a microarchitecture redesign.",
+      "supporting_span": "Skylake is a microarchitecture redesign",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake uses the same 14 nm manufacturing process technology as its predecessor.",
+      "supporting_span": "using the same 14   nm manufacturing process technology as its predecessor",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake serves as a \"tock\" in Intel's \"tick-tock\" manufacturing and design model.",
+      "supporting_span": "serving as a \" tock \" in Intel 's \" tick - tock \" manufacturing and design model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "According to Intel, the Skylake redesign brings greater CPU and GPU performance.",
+      "supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "According to Intel, the Skylake redesign brings reduced power consumption.",
+      "supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake CPUs share microarchitecture with Kaby Lake CPUs.",
+      "supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake CPUs share microarchitecture with Cannon Lake CPUs.",
+      "supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft.",
+      "supporting_span": "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Enthusiast-created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms.",
+      "supporting_span": "enthusiast - created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Some processors based on the Skylake microarchitecture are marketed as \"6th-generation Core\".",
+      "supporting_span": "Some of the processors based on the Skylake microarchitecture are marketed as \" 6th - generation Core \" .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "On October 8, 2018, Intel announced new 9th gen Core X 98xx/99xx series CPUs.",
+      "supporting_span": "On October 8 , 2018 , Intel announced new 9th gen Core X 98xx/99xx series CPUs ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Core i9-9980XE Extreme Edition led the launch.",
+      "supporting_span": "the Core i9 - 9980XE Extreme Edition leading the launch .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

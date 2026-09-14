@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_2",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Recent work has been done on the Lincoln CSR system.",
+      "generator_supporting_span": "recent work on the Lincoln CSR system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The following describes recent work on the Lincoln CSR system .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the document describes \"recent work on the Lincoln CSR system,\" which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "New variations in semiphone modeling have been tested.",
+      "generator_supporting_span": "Some new variations in semiphone modeling have been tested",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Some new variations in semiphone modeling have been tested .",
+      "verifier_reasoning": "The source text explicitly states that 'Some new variations in semiphone modeling have been tested,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The improved duration model is very simple.",
+      "generator_supporting_span": "A very simple improved duration model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A very simple improved duration model has reduced the error rate by about 10 % in both triphone and semiphone systems .",
+      "verifier_reasoning": "The source text explicitly describes the improved duration model as being 'very simple' in the sentence that introduces it.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The improved duration model has reduced the error rate by about 10%.",
+      "generator_supporting_span": "has reduced the error rate by about 10 %",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A very simple improved duration model has reduced the error rate by about 10 % in both triphone and semiphone systems .",
+      "verifier_reasoning": "The source text explicitly states that an improved duration model was implemented and that it successfully reduced the error rate by approximately 10%.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The error-rate reduction occurred in triphone systems.",
+      "generator_supporting_span": "in both triphone and semiphone systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A very simple improved duration model has reduced the error rate by about 10 % in both triphone and semiphone systems .",
+      "verifier_reasoning": "The source text explicitly states that an improved duration model reduced the error rate and specifies that this reduction occurred 'in both triphone and semiphone systems', which directly supports the fact that it occurred in triphone systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The error-rate reduction occurred in semiphone systems.",
+      "generator_supporting_span": "in both triphone and semiphone systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A very simple improved duration model has reduced the error rate by about 10 % in both triphone and semiphone systems .",
+      "verifier_reasoning": "The source text explicitly states that an improved duration model reduced the error rate 'in both triphone and semiphone systems', which directly confirms that the reduction occurred in semiphone systems.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "A new training strategy has been tested.",
+      "generator_supporting_span": "A new training strategy has been tested",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A new training strategy has been tested which , by itself , did not provide useful improvements but suggests that improvements can be obtained by a related rapid adaptation technique .",
+      "verifier_reasoning": "The source text explicitly states that a new training strategy was tested as part of the recent work on the Lincoln CSR system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The new training strategy by itself did not provide useful improvements.",
+      "generator_supporting_span": "A new training strategy has been tested which , by itself , did not provide useful improvements",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A new training strategy has been tested which , by itself , did not provide useful improvements but suggests that improvements can be obtained by a related rapid adaptation technique .",
+      "verifier_reasoning": "The source text explicitly states that a new training strategy was tested and that, 'by itself, did not provide useful improvements'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The new training strategy suggests that improvements can be obtained by a related rapid adaptation technique.",
+      "generator_supporting_span": "suggests that improvements can be obtained by a related rapid adaptation technique",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A new training strategy has been tested which , by itself , did not provide useful improvements but suggests that improvements can be obtained by a related rapid adaptation technique .",
+      "verifier_reasoning": "The source text explicitly states that a new training strategy was tested and that it \"suggests that improvements can be obtained by a related rapid adaptation technique,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The recognizer has been modified to use bigram back-off language models.",
+      "generator_supporting_span": "the recognizer has been modified to use bigram back-off language models",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Finally , the recognizer has been modified to use bigram back-off language models .",
+      "verifier_reasoning": "The source text explicitly states that the recognizer was modified to use bigram back-off language models, making the candidate fact a direct quote from the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The system was transferred from the RM task to the ATIS CSR task.",
+      "generator_supporting_span": "The system was then transferred from the RM task to the ATIS CSR task",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The system was then transferred from the RM task to the ATIS CSR task and a limited number of development tests performed .",
+      "verifier_reasoning": "The source text explicitly states that the system was transferred from the RM task to the ATIS CSR task, using nearly identical wording to the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "A limited number of development tests were performed.",
+      "generator_supporting_span": "a limited number of development tests performed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The system was then transferred from the RM task to the ATIS CSR task and a limited number of development tests performed .",
+      "verifier_reasoning": "The source text explicitly states that after the system was transferred to a new task, 'a limited number of development tests performed', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Evaluation test results are presented for both the RM and ATIS CSR tasks.",
+      "generator_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that evaluation results are presented for both the RM and ATIS CSR tasks, which directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Evaluation test results are presented for RM.",
+      "generator_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks .",
+      "verifier_reasoning": "The source text explicitly states that evaluation test results are presented for two tasks, one of which is the RM task.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Evaluation test results are presented for ATIS CSR tasks.",
+      "generator_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Evaluation test results are presented for both the RM and ATIS CSR tasks .",
+      "verifier_reasoning": "The source text explicitly states that evaluation test results are presented for two tasks, one of which is the ATIS CSR task.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

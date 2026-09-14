@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_56",
+  "facts": [
+    {
+      "fact": "Machine reading is a relatively new field.",
+      "supporting_span": "Machine reading is a relatively new field",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The computer programs are designed to read flowing text.",
+      "supporting_span": "designed to read flowing text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The computer programs extract fact assertions expressed by the narrative content.",
+      "supporting_span": "extract fact assertions expressed by the narrative content",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Machine reading involves two core technologies: natural language processing (NLP) and information extraction (IE).",
+      "supporting_span": "This task involves two core technologies : natural language processing (NLP) and information extraction (IE) .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A machine reading system has been developed within a cognitive architecture.",
+      "supporting_span": "a machine reading system that we have developed within a cognitive architecture .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework integrates several levels of knowledge for a particular domain.",
+      "supporting_span": "we have integrated into the framework several levels of knowledge for a particular domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework integrates ideas from cognitive semantics.",
+      "supporting_span": "ideas from cognitive semantics and construction grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework integrates ideas from construction grammar.",
+      "supporting_span": "ideas from cognitive semantics and construction grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The framework integrates tools from prior NLP and IE research.",
+      "supporting_span": "plus tools from prior NLP and IE research",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system is capable of reading complex and fairly idiosyncratic texts in the family history domain.",
+      "supporting_span": "capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The system is capable of interpreting complex and fairly idiosyncratic texts in the family history domain.",
+      "supporting_span": "capable of reading and interpreting complex and fairly idiosyncratic texts in the family history domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes the architecture of the system.",
+      "supporting_span": "We describe the architecture and performance of the system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper describes the performance of the system.",
+      "supporting_span": "We describe the architecture and performance of the system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents results from several evaluations.",
+      "supporting_span": "After presenting the results from several evaluations that we have carried out",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper summarizes possible future directions.",
+      "supporting_span": "we summarize possible future directions .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

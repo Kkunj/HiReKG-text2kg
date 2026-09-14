@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_75",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Probabilistic models have been previously shown to be efficient and effective for modeling and recognition of human motion.",
+      "generator_supporting_span": "Probabilistic models have been previously shown to be efficient and effective for modeling and recognition of human motion .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Probabilistic models have been previously shown to be efficient and effective for modeling and recognition of human motion .",
+      "verifier_reasoning": "The source text opens with the exact statement presented in the candidate fact, confirming that probabilistic models have been demonstrated to be efficient and effective for human motion modeling and recognition.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Methods represent the human motion model as a triangulated graph.",
+      "generator_supporting_span": "In particular we focus on methods which represent the human motion model as a triangulated graph .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In particular we focus on methods which represent the human motion model as a triangulated graph .",
+      "verifier_reasoning": "The source text explicitly states that the paper focuses on methods that represent the human motion model as a triangulated graph, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Previous approaches learned models based just on positions and velocities of the body parts while ignoring their appearance.",
+      "generator_supporting_span": "Previous approaches learned models based just on positions and velocities of the body parts while ignoring their appearance .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Previous approaches learned models based just on positions and velocities of the body parts while ignoring their appearance .",
+      "verifier_reasoning": "The source text contains a sentence that is a verbatim match for the candidate fact, explicitly stating what previous approaches based their models on and what they ignored.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "A heuristic approach was commonly used to obtain translation invariance.",
+      "generator_supporting_span": "Moreover , a heuristic approach was commonly used to obtain translation invariance .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Moreover , a heuristic approach was commonly used to obtain translation invariance .",
+      "verifier_reasoning": "The source text explicitly describes the characteristics of previous approaches to modeling human motion. It directly states that a heuristic method was commonly employed to achieve translation invariance.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The paper suggests an improved approach for learning such models and using them for human motion recognition.",
+      "generator_supporting_span": "In this paper we suggest an improved approach for learning such models and using them for human motion recognition .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we suggest an improved approach for learning such models and using them for human motion recognition .",
+      "verifier_reasoning": "The source text contains a sentence that is a verbatim match for the candidate fact, explicitly stating that the paper suggests an improved approach for learning models and using them for human motion recognition.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The suggested approach combines positions, velocities and appearance into both the learning and detection phases.",
+      "generator_supporting_span": "The suggested approach combines multiple cues , i.e. , positions , velocities and appearance into both the learning and detection phases .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The suggested approach combines multiple cues , i.e. , positions , velocities and appearance into both the learning and detection phases .",
+      "verifier_reasoning": "The source text explicitly states that the suggested approach combines positions, velocities, and appearance and that these cues are used in both the learning and detection phases, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Global variables are introduced in the model.",
+      "generator_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "verifier_reasoning": "The source text explicitly states that the authors' suggested approach involves introducing global variables into the model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Global variables in the model can represent translation.",
+      "generator_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "verifier_reasoning": "The source text explicitly states that the authors introduce global variables into their model and lists translation as one of the global properties these variables can represent.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Global variables in the model can represent scale.",
+      "generator_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "verifier_reasoning": "The source text explicitly lists 'scale' as one of the global properties that the introduced global variables are able to represent.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Global variables in the model can represent viewpoint.",
+      "generator_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "verifier_reasoning": "The source text explicitly lists 'viewpoint' as one of the global properties that the introduced global variables can represent.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The model is learned in an unsupervised manner from un-labelled data.",
+      "generator_supporting_span": "The model is learned in an unsupervised manner from un-labelled data .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The model is learned in an unsupervised manner from un-labelled data .",
+      "verifier_reasoning": "The source text explicitly states that the model is learned using an unsupervised method with un-labelled data, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The suggested hybrid probabilistic model combines global variables, like translation, with local variables, like relative positions and appearances of body parts.",
+      "generator_supporting_span": "the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "verifier_reasoning": "The source text explicitly describes the composition of the suggested model, stating that the hybrid probabilistic model combines global variables (like translation) with local variables (like relative positions and appearances of body parts).",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The suggested hybrid probabilistic model leads to faster convergence of the learning phase.",
+      "generator_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "verifier_reasoning": "The source text explicitly lists the outcomes of the suggested hybrid probabilistic model, and the first item in that list is 'faster convergence of learning phase'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The suggested hybrid probabilistic model leads to robustness to occlusions.",
+      "generator_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "verifier_reasoning": "The source text explicitly lists the benefits of the suggested hybrid probabilistic model, and one of the enumerated outcomes is 'robustness to occlusions'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The suggested hybrid probabilistic model leads to higher recognition rate.",
+      "generator_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "verifier_reasoning": "The source text explicitly lists the outcomes of the suggested hybrid probabilistic model, and the third item in this list is 'higher recognition rate'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

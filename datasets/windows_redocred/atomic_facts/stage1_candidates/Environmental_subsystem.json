@@ -1,0 +1,82 @@
+{
+  "doc_id": "Environmental_subsystem",
+  "facts": [
+    {
+      "fact": "Environmental subsystems are central components of operating systems of the Windows NT type.",
+      "supporting_span": "Environmental subsystems are central components of operating systems of the Windows NT type .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Environmental subsystems allow the operating system to run software developed for the platform in question.",
+      "supporting_span": "They allow the operating system to run software developed for the platform in question .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Windows NT 4.0 has four environmental subsystems.",
+      "supporting_span": "Windows NT 4.0 has four environmental subsystems , viz Win32 , DOS or Win16 , OS/2 , and POSIX , the latter of which is a Unix standard .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The environmental subsystems in Windows NT 4.0 include Win32, DOS or Win16, OS/2, and POSIX.",
+      "supporting_span": "Windows NT 4.0 has four environmental subsystems , viz Win32 , DOS or Win16 , OS/2 , and POSIX",
+      "span_mismatch": false
+    },
+    {
+      "fact": "POSIX is a Unix standard.",
+      "supporting_span": "the latter of which is a Unix standard .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The environmental subsystems are one part of the strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing.",
+      "supporting_span": "The environmental subsystems are one part of the strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi - platform computing",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing includes four Hardware Abstraction layers.",
+      "supporting_span": "Others include four Hardware Abstraction layers ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The strategy Microsoft developed for making the Windows NT stream of operating systems a hub for multi-platform computing includes a driver for the HPFS, the standard for OS/2.",
+      "supporting_span": "and a driver for the HPFS , the standard for OS/2 .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Since Windows 2000, the FAT32 file system first introduced with Windows 95 has also been present.",
+      "supporting_span": "Since Windows 2000 , the FAT32 file system first introduced with Windows 95 has also been present ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "HPFS was deprecated and then omitted in later systems.",
+      "supporting_span": "with HPFS deprecated then being omitted in later systems .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A third-party driver for FAT32 can be used on the earlier NT operating systems.",
+      "supporting_span": "A third - party driver for FAT32 can be used on the earlier NT operating systems .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Windows NT as of version 4.0 had a default of four file systems, NTFS, HPFS, FAT12, and FAT16.",
+      "supporting_span": "Therefore , Windows NT as of version 4.0 had a default of four file systems ( NTFS , HPFS , FAT12 , and FAT16 ) ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Installations of Windows NT with a driver allowing access to FAT32 are very common.",
+      "supporting_span": "and installations of the system with a driver allowing access to a fifth FAT32 ) are very common ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Tools allowing access to Unix file systems are also in existence.",
+      "supporting_span": "and tools allowing access to Unix file systems are also in existence .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interoperability with Novell Netware is generally implemented at the applications and systems programming level rather than at the kernel and data link layer and therefore further from the physical hardware.",
+      "supporting_span": "Interoperability with Novell Netware is generally implemented at the applications and systems programming level rather than at the kernel and data link layer and therefore further from the physical hardware .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

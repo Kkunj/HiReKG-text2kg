@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_77",
+  "facts": [
+    "Image composition has attracted a growing attention in recent years.",
+    "Image composition is one of the main elements in video analysis and representation.",
+    "The paper deals with the problem of global alignment.",
+    "The paper deals with the problem of super-resolution.",
+    "The quality of the resulting mosaic is proposed to be evaluated by measuring the amount of blurring.",
+    "The amount of blurring is used to evaluate the quality of the resulting mosaic.",
+    "Global registration is achieved by combining a graph-based technique with a bundle adjustment.",
+    "A graph-based technique exploits the topological structure of the sequence induced by the spatial overlap.",
+    "A bundle adjustment uses only the homographies computed in the previous steps.",
+    "Homographies are computed in the previous steps.",
+    "The sequence is induced by the spatial overlap.",
+    "Global registration is achieved.",
+    "A graph-based technique is combined with a bundle adjustment for global registration.",
+    "Mosaicing has attracted a growing attention in recent years.",
+    "A bundle adjustment is used for global registration."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    3,
+    9,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    14
+  ],
+  "ambiguous": [
+    0,
+    13
+  ],
+  "entities": [
+    "Image composition ( or mosaicing )",
+    "video analysis and representation",
+    "global alignment",
+    "super-resolution",
+    "mosaic",
+    "amount of blurring",
+    "Global registration",
+    "graph-based technique",
+    "topological structure",
+    "spatial overlap",
+    "bundle adjustment",
+    "homographies"
+  ]
+}

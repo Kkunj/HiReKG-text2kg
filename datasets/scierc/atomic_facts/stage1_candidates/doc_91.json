@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_91",
+  "facts": [
+    {
+      "fact": "A new model-based bundle adjustment algorithm is presented to recover the 3D model of a scene/object from a sequence of images with unknown motions.",
+      "supporting_span": "We present a new model-based bundle adjustment algorithm to recover the 3D model of a scene/object from a sequence of images with unknown motions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A sequence of images has unknown motions in the described setting.",
+      "supporting_span": "a sequence of images with unknown motions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new model-based bundle adjustment algorithm uses a surface controlled by a small set of parameters.",
+      "supporting_span": "our algorithm uses a surface controlled by a small set of parameters .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new model-based bundle adjustment algorithm does not represent a scene/object by a collection of isolated 3D features (usually points).",
+      "supporting_span": "Instead of representing scene/object by a collection of isolated 3D features (usually points) ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach has advantages compared with previous model-based approaches.",
+      "supporting_span": "Compared with previous model-based approaches , our approach has the following advantages .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach directly uses the model space as the search space instead of as a regularizer.",
+      "supporting_span": "instead of using the model space as a regular-izer , we directly use it as our search space",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Using the model space as the search space results in a more elegant formulation with fewer unknowns and fewer equations.",
+      "supporting_span": "thus resulting in a more elegant formulation with fewer unknowns and fewer equations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new model-based bundle adjustment algorithm automatically associates tracked points with their correct locations on the surfaces.",
+      "supporting_span": "our algorithm automatically associates tracked points with their correct locations on the surfaces",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new model-based bundle adjustment algorithm eliminates the need for a prior 2D-to-3D association.",
+      "supporting_span": "thereby eliminating the need for a prior 2D-to-3D association .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "For face modeling, the new model-based bundle adjustment algorithm uses a very small set of face metrics (meaningful deformations) to parameterize the face geometry.",
+      "supporting_span": "regarding face modeling , we use a very small set of face metrics (meaningful deformations) to parame-terize the face geometry",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Using a very small set of face metrics results in a smaller search space in face modeling.",
+      "supporting_span": "resulting in a smaller search space and a better posed system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Using a very small set of face metrics results in a better posed system in face modeling.",
+      "supporting_span": "resulting in a smaller search space and a better posed system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments with both synthetic and real data show that the new algorithm is faster than existing ones.",
+      "supporting_span": "Experiments with both synthetic and real data show that this new algorithm is faster , more accurate and more stable than existing ones .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments with both synthetic and real data show that the new algorithm is more accurate than existing ones.",
+      "supporting_span": "Experiments with both synthetic and real data show that this new algorithm is faster , more accurate and more stable than existing ones .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments with both synthetic and real data show that the new algorithm is more stable than existing ones.",
+      "supporting_span": "Experiments with both synthetic and real data show that this new algorithm is faster , more accurate and more stable than existing ones .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

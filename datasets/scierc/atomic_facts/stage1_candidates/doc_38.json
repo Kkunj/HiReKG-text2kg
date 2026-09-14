@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_38",
+  "facts": [
+    {
+      "fact": "The formalism of Category Cooccurrence Restrictions (CCRs) is summarized.",
+      "supporting_span": "summarizes the formalism of Category Cooccurrence Restrictions (CCRs)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Two parsing algorithms interpret Category Cooccurrence Restrictions (CCRs).",
+      "supporting_span": "describes two parsing algorithms that interpret it",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Category Cooccurrence Restrictions are abbreviated \"CCRs\".",
+      "supporting_span": "Category Cooccurrence Restrictions (CCRs)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Category Cooccurrence Restrictions (CCRs) are Boolean conditions.",
+      "supporting_span": "CCRs are Boolean conditions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Category Cooccurrence Restrictions (CCRs) are conditions on the cooccurrence of categories.",
+      "supporting_span": "conditions on the cooccurrence of categories",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The cooccurrence of categories is in local trees.",
+      "supporting_span": "cooccurrence of categories in local trees",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Category Cooccurrence Restrictions (CCRs) allow the statement of generalizations.",
+      "supporting_span": "which allow the statement of generalizations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Generalizations can not be captured in other current syntax formalisms.",
+      "supporting_span": "can not be captured in other current syntax formalisms",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of Category Cooccurrence Restrictions (CCRs) leads to syntactic descriptions.",
+      "supporting_span": "The use of CCRs leads to syntactic descriptions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Syntactic descriptions are formulated entirely with restrictive statements.",
+      "supporting_span": "syntactic descriptions formulated entirely with restrictive statements",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Conventional algorithms are for the analysis of context free languages.",
+      "supporting_span": "conventional algorithms for the analysis of context free languages",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Conventional algorithms can be adapted to the CCR formalism.",
+      "supporting_span": "can be adapted to the CCR formalism",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism.",
+      "supporting_span": "The paper shows how conventional algorithms for the analysis of context free languages can be adapted to the CCR formalism",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Special attention is given to the part of the parser.",
+      "supporting_span": "Special attention is given to the part of the parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part of the parser checks the fulfillment of logical well-formedness conditions on trees.",
+      "supporting_span": "the part of the parser that checks the fulfillment of logical well-formedness conditions on trees",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

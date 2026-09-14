@@ -1,0 +1,1 @@
+This paper describes a computational model of word segmentation and presents simulation results on realistic acquisition . In particular , we explore the capacity and limitations of statistical learning mechanisms that have recently gained prominence in cognitive psychology and linguistics .

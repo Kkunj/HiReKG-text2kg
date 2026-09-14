@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_41",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "We investigate the verbal and nonverbal means for grounding.",
+      "generator_supporting_span": "We investigate the verbal and nonverbal means for grounding",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction .",
+      "verifier_reasoning": "The candidate fact is a direct, verbatim quote from the first sentence of the source text, which explicitly states the focus of the investigation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "We propose a design for embodied conversational agents.",
+      "generator_supporting_span": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the authors \"propose a design for embodied conversational agents.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The design for embodied conversational agents relies on both kinds of signals to establish common ground in human-computer interaction.",
+      "generator_supporting_span": "that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "span_mismatch": false,
+      "verifier_supporting_span": "propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "verifier_reasoning": "The source text explicitly states that the authors propose a design for embodied conversational agents that uses both verbal and nonverbal signals to establish common ground, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "We analyzed eye gaze.",
+      "generator_supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task .",
+      "verifier_reasoning": "The source text explicitly lists the items that were analyzed, and 'eye gaze' is the first item mentioned in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "We analyzed head nods.",
+      "generator_supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task .",
+      "verifier_reasoning": "The source text explicitly lists the nonverbal behaviors that were analyzed, and 'head nods' is included in this list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "We analyzed attentional focus.",
+      "generator_supporting_span": "We analyzed eye gaze , head nods and attentional focus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task .",
+      "verifier_reasoning": "The source text explicitly lists the items that were analyzed, and 'attentional focus' is one of the items in that list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The analysis was conducted in the context of a direction-giving task.",
+      "generator_supporting_span": "in the context of a direction-giving task",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task .",
+      "verifier_reasoning": "The source text explicitly states that the analysis of various nonverbal cues was conducted 'in the context of a direction-giving task'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded.",
+      "generator_supporting_span": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded",
+      "verifier_reasoning": "The source text contains a sentence that is a verbatim match for the candidate fact, directly stating that the distribution of nonverbal behaviors was dependent on the dialogue move type.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The overall pattern reflected a monitoring of lack of negative feedback.",
+      "generator_supporting_span": "the overall pattern reflected a monitoring of lack of negative feedback",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded , and the overall pattern reflected a monitoring of lack of negative feedback .",
+      "verifier_reasoning": "The candidate fact is a direct, verbatim quote from a sentence within the source text, which describes the findings of the analysis.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Based on these results, we present an ECA.",
+      "generator_supporting_span": "Based on these results , we present an ECA",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the authors present an ECA based on the results of their analysis.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The ECA uses verbal and nonverbal grounding acts to update dialogue state.",
+      "generator_supporting_span": "that uses verbal and nonverbal grounding acts to update dialogue state",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that the authors present an ECA (Embodied Conversational Agent) which is designed to use both verbal and nonverbal grounding acts for the purpose of updating the dialogue state.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The ECA uses verbal grounding acts.",
+      "generator_supporting_span": "uses verbal and nonverbal grounding acts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+      "verifier_reasoning": "The source text explicitly states that the presented Embodied Conversational Agent (ECA) uses both verbal and nonverbal grounding acts, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The ECA uses nonverbal grounding acts.",
+      "generator_supporting_span": "uses verbal and nonverbal grounding acts",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+      "verifier_reasoning": "The source text explicitly states that the authors present an Embodied Conversational Agent (ECA) that utilizes both verbal and nonverbal grounding acts. This directly supports the claim that the ECA uses nonverbal grounding acts.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The ECA updates dialogue state.",
+      "generator_supporting_span": "to update dialogue state",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+      "verifier_reasoning": "The source text explicitly states that the authors present an ECA (embodied conversational agent) which uses specific acts to perform the function of updating the dialogue state.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The design for embodied conversational agents aims to establish common ground.",
+      "generator_supporting_span": "to establish common ground",
+      "span_mismatch": false,
+      "verifier_supporting_span": "propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "verifier_reasoning": "The source text explicitly states that the authors are proposing a design for embodied conversational agents, and that this design relies on signals specifically 'to establish common ground'. This directly supports the candidate fact that the design's aim is to establish common ground.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_36",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "This paper proposes a novel method of building polarity-tagged corpus from HTML documents.",
+      "generator_supporting_span": "This paper proposes a novel method of building polarity-tagged corpus from HTML documents .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper proposes a novel method of building polarity-tagged corpus from HTML documents .",
+      "verifier_reasoning": "The first sentence of the source text is an exact match for the candidate fact, explicitly stating what the paper proposes.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The method of building polarity-tagged corpus from HTML documents is fully automatic.",
+      "generator_supporting_span": "it is fully automatic",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The characteristics of this method is that it is fully automatic and can be applied to arbitrary HTML documents .",
+      "verifier_reasoning": "The source text introduces a method for building a polarity-tagged corpus and then explicitly states that one of its characteristics is that it is 'fully automatic'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The method of building polarity-tagged corpus from HTML documents can be applied to arbitrary HTML documents.",
+      "generator_supporting_span": "can be applied to arbitrary HTML documents .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The characteristics of this method is that it is fully automatic and can be applied to arbitrary HTML documents .",
+      "verifier_reasoning": "The source text explicitly lists the characteristics of the proposed method, one of which is that it can be applied to arbitrary HTML documents, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The idea behind the method of building polarity-tagged corpus from HTML documents is to utilize certain layout structures and linguistic pattern.",
+      "generator_supporting_span": "The idea behind our method is to utilize certain layout structures and linguistic pattern .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The idea behind our method is to utilize certain layout structures and linguistic pattern .",
+      "verifier_reasoning": "The source text first introduces a method for building a polarity-tagged corpus from HTML documents, and then a subsequent sentence explicitly states what the idea behind this method is, matching the candidate fact verbatim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The method of building polarity-tagged corpus from HTML documents can automatically extract such sentences that express opinion.",
+      "generator_supporting_span": "we can automatically extract such sentences that express opinion .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "By using them , we can automatically extract such sentences that express opinion .",
+      "verifier_reasoning": "The source text explicitly states that the method utilizes certain layout structures and linguistic patterns, and by using them, it is possible to 'automatically extract such sentences that express opinion.' This directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "In an experiment, the method of building polarity-tagged corpus from HTML documents could construct a corpus consisting of 126,610 sentences.",
+      "generator_supporting_span": "In our experiment , the method could construct a corpus consisting of 126,610 sentences .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In our experiment , the method could construct a corpus consisting of 126,610 sentences .",
+      "verifier_reasoning": "The source text explicitly states the result of an experiment where the described method was used, and it provides the exact number of sentences in the resulting corpus, which matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The paper proposes a novel method.",
+      "generator_supporting_span": "proposes a novel method",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper proposes a novel method of building polarity-tagged corpus from HTML documents .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper proposes a novel method, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The polarity-tagged corpus is built from HTML documents.",
+      "generator_supporting_span": "from HTML documents",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper proposes a novel method of building polarity-tagged corpus from HTML documents .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper's method involves 'building polarity-tagged corpus from HTML documents', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "A characteristic of the method of building polarity-tagged corpus from HTML documents is that it is fully automatic.",
+      "generator_supporting_span": "The characteristics of this method is that it is fully automatic",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The characteristics of this method is that it is fully automatic and can be applied to arbitrary HTML documents .",
+      "verifier_reasoning": "The source text explicitly lists the characteristics of the method, stating that one of them is that it is fully automatic.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "A characteristic of the method of building polarity-tagged corpus from HTML documents is that it can be applied to arbitrary HTML documents.",
+      "generator_supporting_span": "can be applied to arbitrary HTML documents .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The characteristics of this method is that it is fully automatic and can be applied to arbitrary HTML documents .",
+      "verifier_reasoning": "The source text explicitly lists the characteristics of the proposed method, stating that one of them is that it 'can be applied to arbitrary HTML documents'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The method of building polarity-tagged corpus from HTML documents utilizes certain layout structures.",
+      "generator_supporting_span": "to utilize certain layout structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The idea behind our method is to utilize certain layout structures and linguistic pattern .",
+      "verifier_reasoning": "The source text explicitly states that the idea behind the method is to use certain layout structures, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The method of building polarity-tagged corpus from HTML documents utilizes linguistic pattern.",
+      "generator_supporting_span": "linguistic pattern",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The idea behind our method is to utilize certain layout structures and linguistic pattern .",
+      "verifier_reasoning": "The source text explicitly states that the idea behind the method is to 'utilize certain layout structures and linguistic pattern,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The sentences extracted by the method of building polarity-tagged corpus from HTML documents express opinion.",
+      "generator_supporting_span": "such sentences that express opinion",
+      "span_mismatch": false,
+      "verifier_supporting_span": "By using them , we can automatically extract such sentences that express opinion .",
+      "verifier_reasoning": "The source text explicitly states that the method uses certain layout structures and linguistic patterns to automatically extract sentences that express opinion.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The method of building polarity-tagged corpus from HTML documents automatically extracts sentences.",
+      "generator_supporting_span": "automatically extract",
+      "span_mismatch": false,
+      "verifier_supporting_span": "By using them , we can automatically extract such sentences that express opinion .",
+      "verifier_reasoning": "The source text explicitly states that the method uses certain layout structures and linguistic patterns to 'automatically extract such sentences that express opinion,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The corpus constructed in the experiment consisted of 126,610 sentences.",
+      "generator_supporting_span": "consisting of 126,610 sentences .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In our experiment , the method could construct a corpus consisting of 126,610 sentences .",
+      "verifier_reasoning": "The source text explicitly states the size of the corpus that was constructed in the experiment, and this number matches the one provided in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

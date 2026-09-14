@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_95",
+  "facts": [
+    {
+      "fact": "A new part-of-speech tagger is presented.",
+      "supporting_span": "We present a new part-of-speech tagger",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger demonstrates explicit use of both preceding and following tag contexts.",
+      "supporting_span": "(i) explicit use of both preceding and following tag contexts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger uses a dependency network representation.",
+      "supporting_span": "via a dependency network representation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger makes broad use of lexical features.",
+      "supporting_span": "(ii) broad use of lexical features",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger jointly conditions on multiple consecutive words.",
+      "supporting_span": "including jointly conditioning on multiple consecutive words",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger makes effective use of priors in conditional loglinear models.",
+      "supporting_span": "(iii) effective use of priors in conditional loglinear models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger models unknown word features in a fine-grained way.",
+      "supporting_span": "(iv) fine-grained modeling of unknown word features",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The resulting tagger gives a 97.24 % accuracy.",
+      "supporting_span": "the resulting tagger gives a 97.24 % accuracy",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The 97.24 % accuracy is on the Penn Treebank WSJ.",
+      "supporting_span": "on the Penn Treebank WSJ",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The tagger achieves an error reduction of 4.4 %.",
+      "supporting_span": "an error reduction of 4.4 %",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The error reduction is measured on the best previous single automatically learned tagging result.",
+      "supporting_span": "on the best previous single automatically learned tagging result",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger explicitly uses preceding tag contexts.",
+      "supporting_span": "explicit use of both preceding and following tag contexts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger explicitly uses following tag contexts.",
+      "supporting_span": "explicit use of both preceding and following tag contexts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ideas are used together.",
+      "supporting_span": "Using these ideas together",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The part-of-speech tagger demonstrates the following ideas.",
+      "supporting_span": "that demonstrates the following ideas",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

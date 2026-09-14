@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_86",
+  "facts": [
+    {
+      "fact": "The use of a labeled directed graph to represent various types of linguistic structures is advocated.",
+      "supporting_span": "argue in favor of the the use of labeled directed graph to represent various types of linguistic structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A labeled directed graph can represent various types of linguistic structures.",
+      "supporting_span": "the use of labeled directed graph to represent various types of linguistic structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NLP tasks can be viewed as graph transformations.",
+      "supporting_span": "view NLP tasks as graph transformations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of a labeled directed graph enables viewing NLP tasks as graph transformations.",
+      "supporting_span": "illustrate how this allows one to view NLP tasks as graph transformations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A general method for learning transformations is presented.",
+      "supporting_span": "present a general method for learning such transformations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The transformations are learned from an annotated corpus.",
+      "supporting_span": "from an annotated corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments are described with applications of the method.",
+      "supporting_span": "describe experiments with two applications of the method",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method has two applications.",
+      "supporting_span": "two applications of the method",
+      "span_mismatch": false
+    },
+    {
+      "fact": "One application is identification of non-local depenencies.",
+      "supporting_span": "identification of non-local depenencies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Identification of non-local depenencies uses Penn Treebank data.",
+      "supporting_span": "identification of non-local depenencies (using Penn Treebank data)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Another application is semantic role labeling.",
+      "supporting_span": "semantic role labeling",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Semantic role labeling uses Proposition Bank data.",
+      "supporting_span": "semantic role labeling (using Proposition Bank data)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method learns graph transformations.",
+      "supporting_span": "learning such transformations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The linguistic structures are of various types.",
+      "supporting_span": "various types of linguistic structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The graph used for representation is directed.",
+      "supporting_span": "labeled directed graph",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_46",
+  "facts": [
+    {
+      "fact": "A model for an analog programmable array processor (APAP) is bio-inspired.",
+      "supporting_span": "A bio-inspired model for an analog programmable array processor (APAP)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bio-inspired model for an analog programmable array processor (APAP) is based on studies on the vertebrate retina.",
+      "supporting_span": "based on studies on the vertebrate retina",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bio-inspired model for an analog programmable array processor (APAP) has permitted the realization of complex programmable spatio-temporal dynamics in VLSI.",
+      "supporting_span": "has permitted the realization of complex programmable spatio-temporal dynamics in VLSI",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bio-inspired model for an analog programmable array processor (APAP) mimics the way in which images are processed in the visual pathway.",
+      "supporting_span": "This model mimics the way in which images are processed in the visual pathway",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A bio-inspired model for an analog programmable array processor (APAP) renders a feasible alternative for the implementation of early vision applications in standard technologies.",
+      "supporting_span": "rendering a feasible alternative for the implementation of early vision applications in standard technologies",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A prototype chip has been designed.",
+      "supporting_span": "A prototype chip has been designed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A prototype chip was fabricated in a 0.5 µm standard CMOS process.",
+      "supporting_span": "fabricated in a 0.5 µm standard CMOS process",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Images are processed in the visual pathway.",
+      "supporting_span": "images are processed in the visual pathway",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Computing power per area is amongst the highest reported for a single chip.",
+      "supporting_span": "Computing power per area and power consumption is amongst the highest reported for a single chip .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Power consumption is amongst the highest reported for a single chip.",
+      "supporting_span": "Computing power per area and power consumption is amongst the highest reported for a single chip .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents design challenges.",
+      "supporting_span": "Design challenges , trade-offs and some experimental results are presented in this paper .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents trade-offs.",
+      "supporting_span": "Design challenges , trade-offs and some experimental results are presented in this paper .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents some experimental results.",
+      "supporting_span": "Design challenges , trade-offs and some experimental results are presented in this paper .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is for an analog programmable array processor (APAP).",
+      "supporting_span": "model for an analog programmable array processor (APAP)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The array processor (APAP) is programmable.",
+      "supporting_span": "programmable array processor (APAP)",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

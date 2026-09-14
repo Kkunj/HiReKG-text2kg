@@ -1,0 +1,37 @@
+[
+  {
+    "head": "rich spatial-temporal structures",
+    "relation": "feature of",
+    "tail": "action videos"
+  },
+  {
+    "head": "dictionary learning methods",
+    "relation": "used for",
+    "tail": "data-driven attributes"
+  },
+  {
+    "head": "discriminative attributes",
+    "relation": "used for",
+    "tail": "discriminative and compact attribute-based representation"
+  },
+  {
+    "head": "submodular optimization problem",
+    "relation": "used for",
+    "tail": "attribute selection criteria"
+  },
+  {
+    "head": "Olympic Sports and UCF101 datasets",
+    "relation": "evaluate for",
+    "tail": "attribute-based representation"
+  },
+  {
+    "head": "attribute-based representation",
+    "relation": "used for",
+    "tail": "action recognition algorithms"
+  },
+  {
+    "head": "action recognition algorithms",
+    "relation": "compare",
+    "tail": "recognition approaches"
+  }
+]

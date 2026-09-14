@@ -1,0 +1,62 @@
+[
+  {
+    "head": "ensemble methods",
+    "relation": "used for",
+    "tail": "machine learning"
+  },
+  {
+    "head": "ensemble methods",
+    "relation": "used for",
+    "tail": "natural language processing"
+  },
+  {
+    "head": "multi-strategy and multi-source approach",
+    "relation": "used for",
+    "tail": "question answering"
+  },
+  {
+    "head": "strategies",
+    "relation": "used for",
+    "tail": "answering agents"
+  },
+  {
+    "head": "one",
+    "relation": "hyponym of",
+    "tail": "strategies"
+  },
+  {
+    "head": "knowledge-based mechanisms",
+    "relation": "used for",
+    "tail": "one"
+  },
+  {
+    "head": "other",
+    "relation": "hyponym of",
+    "tail": "strategies"
+  },
+  {
+    "head": "statistical techniques",
+    "relation": "used for",
+    "tail": "other"
+  },
+  {
+    "head": "answering agents",
+    "relation": "used for",
+    "tail": "multi-level answer resolution algorithm"
+  },
+  {
+    "head": "answer resolution algorithm",
+    "relation": "compare",
+    "tail": "baseline system"
+  },
+  {
+    "head": "average precision metric",
+    "relation": "evaluate for",
+    "tail": "answer resolution algorithm"
+  },
+  {
+    "head": "average precision metric",
+    "relation": "evaluate for",
+    "tail": "baseline system"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_26",
+  "facts": [
+    {
+      "fact": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision.",
+      "supporting_span": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Acquiring the necessary training data is typically a tedious and time consuming task.",
+      "supporting_span": "acquiring the necessary training data is typically a tedious and time consuming task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The acquisition of the necessary training data involves manual interaction.",
+      "supporting_span": "involves manual interaction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The acquisition of the necessary training data involves active sensing devices.",
+      "supporting_span": "active sensing devices",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The acquisition of the necessary training data involves synthetic scenes.",
+      "supporting_span": "synthetic scenes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input.",
+      "supporting_span": "we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed way for generating training data is flexible.",
+      "supporting_span": "a new , flexible , and scalable way",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed way for generating training data is scalable.",
+      "supporting_span": "a new , flexible , and scalable way",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed way for generating training data only requires a set of stereo images as input.",
+      "supporting_span": "only requires a set of stereo images as input",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The key idea of the approach is to use different view points.",
+      "supporting_span": "The key idea of our approach is to use different view points",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach reasons about contradictions and consistencies between multiple depth maps.",
+      "supporting_span": "contradictions and consistencies between multiple depth maps",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The multiple depth maps are generated with the same stereo algorithm.",
+      "supporting_span": "multiple depth maps generated with the same stereo algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach enables the generation of a huge amount of training data in a fully automated manner.",
+      "supporting_span": "This enables us to generate a huge amount of training data in a fully automated manner",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors demonstrate the potential of the approach.",
+      "supporting_span": "we demonstrate the potential of our approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The authors boost the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data.",
+      "supporting_span": "boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

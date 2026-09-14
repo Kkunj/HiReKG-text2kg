@@ -1,0 +1,22 @@
+[
+  {
+    "head": "Combinatory Categorial Grammar (CCG) lexicon",
+    "relation": "part of",
+    "tail": "Turkish dependency treebank"
+  },
+  {
+    "head": "Turkish",
+    "relation": "hyponym of",
+    "tail": "agglutinating free word order language"
+  },
+  {
+    "head": "compact lexicon",
+    "relation": "part of",
+    "tail": "treebank"
+  },
+  {
+    "head": "treebank",
+    "relation": "compare",
+    "tail": "Penn WSJ"
+  }
+]

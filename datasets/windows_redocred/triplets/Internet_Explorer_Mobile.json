@@ -1,0 +1,272 @@
+[
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Trident",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Trident",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone 7",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Phone 7",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone 7",
+    "relation": "followed by",
+    "tail": "Windows Mobile",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer Mobile",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "series",
+    "tail": "Windows CE",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "followed by",
+    "tail": "Windows 10 Mobile",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows CE",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows CE",
+    "relation": "follows",
+    "tail": "Windows Phone",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Mobile",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Mobile",
+    "relation": "follows",
+    "tail": "Windows Phone 7",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Mobile",
+    "relation": "followed by",
+    "tail": "Windows Phone",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "followed by",
+    "tail": "Microsoft Edge",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Internet Explorer 11",
+    "relation": "series",
+    "tail": "Internet Explorer",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Internet Explorer Mobile 11",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone 8.1",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Phone 8.1",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Phone 8.1",
+    "relation": "followed by",
+    "tail": "Windows 10 Mobile",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Microsoft Edge",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "publisher",
+    "tail": "Microsoft",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "series",
+    "tail": "Windows Phone",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "follows",
+    "tail": "Windows Phone 8.1",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Phone 8)",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Internet Explorer Mobile",
+    "relation": "platform",
+    "tail": "Windows Phone 7",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows Mobile",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows CE",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows Phone",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Phone 8.1",
+    "relation": "series",
+    "tail": "Windows Phone",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Internet Explorer Mobile",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Microsoft Edge",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Phone 7",
+    "relation": "followed by",
+    "tail": "Windows Phone 8.1",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows CE",
+    "relation": "has part",
+    "tail": "Windows Phone",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "follows",
+    "tail": "Windows Phone",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "followed by",
+    "tail": "Windows CE",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "follows",
+    "tail": "Windows Mobile",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Microsoft Edge",
+    "relation": "follows",
+    "tail": "Internet Explorer 11",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Internet Explorer",
+    "relation": "has part",
+    "tail": "Internet Explorer 11",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "has part",
+    "tail": "Windows 10 Mobile",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows Phone",
+    "relation": "has part",
+    "tail": "Windows Phone 8.1",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows Phone 8.1",
+    "relation": "follows",
+    "tail": "Windows Phone 7",
+    "relation_code": "P155"
+  }
+]

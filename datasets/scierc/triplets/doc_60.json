@@ -1,0 +1,72 @@
+[
+  {
+    "head": "head-driven statistical parsing model",
+    "relation": "used for",
+    "tail": "simultaneous language model"
+  },
+  {
+    "head": "head-driven statistical parsing model",
+    "relation": "used for",
+    "tail": "parser"
+  },
+  {
+    "head": "simultaneous language model",
+    "relation": "conjunction",
+    "tail": "parser"
+  },
+  {
+    "head": "simultaneous language model",
+    "relation": "used for",
+    "tail": "large-vocabulary speech recognition"
+  },
+  {
+    "head": "parser",
+    "relation": "used for",
+    "tail": "large-vocabulary speech recognition"
+  },
+  {
+    "head": "model",
+    "relation": "used for",
+    "tail": "online left to right chart-parser"
+  },
+  {
+    "head": "online left to right chart-parser",
+    "relation": "used for",
+    "tail": "word lattices"
+  },
+  {
+    "head": "acoustic , n-gram , and parser probabilities",
+    "relation": "part of",
+    "tail": "online left to right chart-parser"
+  },
+  {
+    "head": "structural and lexical dependencies",
+    "relation": "used for",
+    "tail": "parser"
+  },
+  {
+    "head": "Wall Street Journal treebank",
+    "relation": "conjunction",
+    "tail": "lattice corpora"
+  },
+  {
+    "head": "Wall Street Journal treebank",
+    "relation": "evaluate for",
+    "tail": "n-gram language model"
+  },
+  {
+    "head": "lattice corpora",
+    "relation": "evaluate for",
+    "tail": "n-gram language model"
+  },
+  {
+    "head": "word error rates",
+    "relation": "evaluate for",
+    "tail": "n-gram language model"
+  },
+  {
+    "head": "structural information",
+    "relation": "used for",
+    "tail": "speech understanding"
+  }
+]

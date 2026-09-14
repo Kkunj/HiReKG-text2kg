@@ -1,0 +1,12 @@
+[
+  {
+    "head": "medium-length speeches",
+    "relation": "part of",
+    "tail": "EUROPARL corpus"
+  },
+  {
+    "head": "accuracy",
+    "relation": "evaluate for",
+    "tail": "classification method"
+  }
+]

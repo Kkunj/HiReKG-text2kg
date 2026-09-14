@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_68",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "English is shown to be trans-context-free.",
+      "generator_supporting_span": "English is shown to be trans-context-free",
+      "span_mismatch": false,
+      "verifier_supporting_span": "English is shown to be trans-context-free on the basis of coordinations of the respectively type that involve strictly syntactic cross-serial agreement .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that \"English is shown to be trans-context-free\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "English is shown to be trans-context-free on the basis of coordinations of the respectively type.",
+      "generator_supporting_span": "on the basis of coordinations of the respectively type",
+      "span_mismatch": false,
+      "verifier_supporting_span": "English is shown to be trans-context-free on the basis of coordinations of the respectively type",
+      "verifier_reasoning": "The source text's opening sentence directly states that English is shown to be trans-context-free on the basis of the specific coordination type mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Coordinations of the respectively type involve strictly syntactic cross-serial agreement.",
+      "generator_supporting_span": "coordinations of the respectively type that involve strictly syntactic cross-serial agreement",
+      "span_mismatch": false,
+      "verifier_supporting_span": "English is shown to be trans-context-free on the basis of coordinations of the respectively type that involve strictly syntactic cross-serial agreement .",
+      "verifier_reasoning": "The source text explicitly states that the basis for its argument about English being trans-context-free is \"coordinations of the respectively type that involve strictly syntactic cross-serial agreement,\" directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Cross-serial agreement is strictly syntactic.",
+      "generator_supporting_span": "strictly syntactic cross-serial agreement",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text describes a specific type of coordination that involves \"strictly syntactic cross-serial agreement.\" It does not make the general claim that all cross-serial agreement is strictly syntactic, only that the specific agreement being discussed is.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The agreement in question involves number in nouns.",
+      "generator_supporting_span": "involves number in nouns and reflexive pronouns",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The agreement in question involves number in nouns and reflexive pronouns and is syntactic rather than semantic in nature because grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary .",
+      "verifier_reasoning": "The source text explicitly states that 'The agreement in question involves number in nouns and reflexive pronouns'. The candidate fact is a direct component of this statement.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The agreement in question involves number in reflexive pronouns.",
+      "generator_supporting_span": "involves number in nouns and reflexive pronouns",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The agreement in question involves number in nouns and reflexive pronouns",
+      "verifier_reasoning": "The source text explicitly states that the agreement being discussed involves number in both nouns and reflexive pronouns, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The agreement in question is syntactic rather than semantic in nature.",
+      "generator_supporting_span": "is syntactic rather than semantic in nature",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The agreement in question involves number in nouns and reflexive pronouns and is syntactic rather than semantic in nature because grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary .",
+      "verifier_reasoning": "The source text explicitly states that the agreement under discussion is syntactic rather than semantic in nature.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Grammatical number in English is partly arbitrary.",
+      "generator_supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary",
+      "span_mismatch": false,
+      "verifier_supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary .",
+      "verifier_reasoning": "The source text explicitly states that the agreement in question is syntactic rather than semantic, providing the reason that 'grammatical number in English... is partly arbitrary.'",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Grammatical gender in languages such as French is partly arbitrary.",
+      "generator_supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary",
+      "span_mismatch": false,
+      "verifier_supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary .",
+      "verifier_reasoning": "The source text makes a direct comparison, stating that grammatical number in English is partly arbitrary, just 'like grammatical gender in languages such as French', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The proof is formal.",
+      "generator_supporting_span": "The formal proof",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The formal proof , which makes crucial use of the Interchange Lemma of Ogden et al. , is so constructed as to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other",
+      "verifier_reasoning": "The source text explicitly refers to the proof being discussed as \"The formal proof,\" directly stating that the proof is formal.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The formal proof makes crucial use of the Interchange Lemma of Ogden et al.",
+      "generator_supporting_span": "The formal proof , which makes crucial use of the Interchange Lemma of Ogden et al. ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The formal proof , which makes crucial use of the Interchange Lemma of Ogden et al. , is so constructed as to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other",
+      "verifier_reasoning": "The source text contains a clause that directly states the candidate fact verbatim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The Interchange Lemma is of Ogden et al.",
+      "generator_supporting_span": "Interchange Lemma of Ogden et al.",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the Interchange Lemma of Ogden et al.",
+      "verifier_reasoning": "The source text explicitly mentions \"the Interchange Lemma of Ogden et al.\", directly stating the relationship described in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The formal proof is constructed to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other.",
+      "generator_supporting_span": "is so constructed as to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other ;",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The formal proof, which makes crucial use of the Interchange Lemma of Ogden et al. , is so constructed as to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other",
+      "verifier_reasoning": "The source text makes a direct statement that the formal proof is constructed to be valid under the exact conditions outlined in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The formal proof goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively.",
+      "generator_supporting_span": "it thus goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively",
+      "span_mismatch": false,
+      "verifier_supporting_span": "it thus goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively",
+      "verifier_reasoning": "The source text explicitly states that the formal proof 'goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively'. The pronoun 'it' in this clause clearly refers to 'The formal proof' mentioned at the beginning of the sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Other arguments have foundered on this problem.",
+      "generator_supporting_span": "other arguments have foundered on this problem",
+      "span_mismatch": false,
+      "verifier_supporting_span": "other arguments have foundered on this problem .",
+      "verifier_reasoning": "The source text explicitly states that the formal proof being discussed succeeds where others have failed, ending the sentence with the clause \"whereas other arguments have foundered on this problem.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_73",
+  "facts": [
+    {
+      "fact": "A central problem of word sense disambiguation is the lack of manually sense-tagged data required for supervised learning.",
+      "supporting_span": "A central problem of word sense disambiguation (WSD) is the lack of manually sense-tagged data required for supervised learning .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "WSD is an abbreviation for word sense disambiguation.",
+      "supporting_span": "word sense disambiguation (WSD)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper evaluates an approach to automatically acquire sense-tagged training data.",
+      "supporting_span": "we evaluate an approach to automatically acquire sense-tagged training data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach acquires sense-tagged training data from English-Chinese parallel corpora.",
+      "supporting_span": "automatically acquire sense-tagged training data from English-Chinese parallel corpora",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The English-Chinese parallel corpora are used for disambiguating the nouns in the SENSEVAL-2 English lexical sample task.",
+      "supporting_span": "which are then used for disambiguating the nouns in the SENSEVAL-2 English lexical sample task .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method of acquiring sense-tagged data is promising.",
+      "supporting_span": "this method of acquiring sense-tagged data is promising .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "On a subset of the most difficult SENSEVAL-2 nouns, the accuracy difference between the two approaches is 14.0%.",
+      "supporting_span": "On a subset of the most difficult SENSEVAL-2 nouns , the accuracy difference between the two approaches is only 14.0 % ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Two approaches are mentioned.",
+      "supporting_span": "the two approaches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The accuracy difference could narrow further to 6.5% if the advantage that manually sense-tagged data have in their sense coverage is disregarded.",
+      "supporting_span": "the difference could narrow further to 6.5 % if we disregard the advantage that manually sense-tagged data have in their sense coverage .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Manually sense-tagged data have an advantage in their sense coverage.",
+      "supporting_span": "the advantage that manually sense-tagged data have in their sense coverage",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Supervised learning requires manually sense-tagged data.",
+      "supporting_span": "manually sense-tagged data required for supervised learning",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Nouns in the SENSEVAL-2 English lexical sample task are disambiguated.",
+      "supporting_span": "disambiguating the nouns in the SENSEVAL-2 English lexical sample task",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The issue of domain dependence is important in evaluating WSD programs.",
+      "supporting_span": "the importance of the issue of domain dependence in evaluating WSD programs .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis highlights the importance of the issue of domain dependence in evaluating WSD programs.",
+      "supporting_span": "Our analysis also highlights the importance of the issue of domain dependence in evaluating WSD programs .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The SENSEVAL-2 English lexical sample task contains nouns.",
+      "supporting_span": "the nouns in the SENSEVAL-2 English lexical sample task",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

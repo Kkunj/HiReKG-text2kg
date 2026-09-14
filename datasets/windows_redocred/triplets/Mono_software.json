@@ -1,0 +1,128 @@
+[
+  {
+    "head": "Xamarin",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Xamarin",
+    "relation": "parent organization",
+    "tail": "Microsoft",
+    "relation_code": "P749"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "subsidiary",
+    "tail": "Xamarin",
+    "relation_code": "P355"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Microsoft Open Specification Promise",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft Open Specification Promise",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Mono",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Mono",
+    "relation": "developer",
+    "tail": "Xamarin",
+    "relation_code": "P178"
+  },
+  {
+    "head": "C #",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": ".NET Framework",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Mono",
+    "relation": "developer",
+    "tail": "Ximian",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Solaris",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Xbox 360",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Ximian",
+    "relation": "product or material produced",
+    "tail": "Mono",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": ".NET Framework",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Xbox 360",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Mono",
+    "relation": "platform",
+    "tail": "macOS",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Mono",
+    "relation": "owned by",
+    "tail": "Novell",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Mono",
+    "relation": "developer",
+    "tail": ".NET Foundation",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Mono",
+    "relation": "developer",
+    "tail": "Novell",
+    "relation_code": "P178"
+  }
+]

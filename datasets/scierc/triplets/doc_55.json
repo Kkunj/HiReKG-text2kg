@@ -1,0 +1,27 @@
+[
+  {
+    "head": "Automatic Speech Recognition technology",
+    "relation": "used for",
+    "tail": "dialog systems"
+  },
+  {
+    "head": "system response",
+    "relation": "part of",
+    "tail": "natural language generation community"
+  },
+  {
+    "head": "natural language generation community",
+    "relation": "compare",
+    "tail": "dialog systems"
+  },
+  {
+    "head": "generation",
+    "relation": "used for",
+    "tail": "dialog systems"
+  },
+  {
+    "head": "machine learning techniques",
+    "relation": "used for",
+    "tail": "hand-crafting knowledge-based generation systems"
+  }
+]

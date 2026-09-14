@@ -1,0 +1,59 @@
+{
+  "doc_id": "doc_33",
+  "facts": [
+    "Automated facial expression recognition has received increased attention over the past two decades.",
+    "Existing works usually do not encode the temporal evolution of the observed facial displays.",
+    "Existing works usually do not encode the intensity of the observed facial displays.",
+    "Existing works fail to jointly model multidimensional (multi-class) continuous facial behaviour data.",
+    "Existing works use binary classifiers, one for each target basic-emotion class.",
+    "The intrinsic topology of multidimensional continuous facial affect data is first modeled by an ordinal manifold.",
+    "The ordinal manifold topology is incorporated into the Hidden Conditional Ordinal Random Field (H-CORF) framework for dynamic ordinal regression.",
+    "The Hidden Conditional Ordinal Random Field (H-CORF) is a framework.",
+    "The Hidden Conditional Ordinal Random Field (H-CORF) framework is for dynamic ordinal regression.",
+    "H-CORF parameters are constrained to lie on the ordinal manifold.",
+    "The resulting model attains simultaneous dynamic recognition and intensity estimation of facial expressions of multiple emotions.",
+    "The proposed method is the first to achieve simultaneous dynamic recognition and intensity estimation on deliberate facial affect data.",
+    "The proposed method is the first to achieve simultaneous dynamic recognition and intensity estimation on spontaneous facial affect data.",
+    "Hidden Conditional Ordinal Random Field is abbreviated as H-CORF.",
+    "The resulting model addresses facial expressions of multiple emotions."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "multiple-entity": [
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ambiguous": [
+    4,
+    7,
+    13,
+    14
+  ],
+  "entities": [
+    "Automated facial expression recognition",
+    "temporal evolution",
+    "intensity of the observed facial displays",
+    "multidimensional ( multi-class ) continuous facial behaviour data",
+    "intrinsic topology of multidimensional continuous facial",
+    "ordinal man-ifold",
+    "Hidden Conditional Ordinal Random Field ( H-CORF ) framework",
+    "dynamic ordinal regression",
+    "H-CORF parameters",
+    "ordinal manifold",
+    "simultaneous dynamic recognition",
+    "intensity estimation of facial expressions",
+    "the proposed method",
+    "spontaneous facial affect data"
+  ]
+}

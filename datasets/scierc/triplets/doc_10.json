@@ -1,0 +1,67 @@
+[
+  {
+    "head": "Representing images with layers",
+    "relation": "used for",
+    "tail": "applications"
+  },
+  {
+    "head": "video compression",
+    "relation": "hyponym of",
+    "tail": "applications"
+  },
+  {
+    "head": "video compression",
+    "relation": "conjunction",
+    "tail": "motion analysis"
+  },
+  {
+    "head": "motion analysis",
+    "relation": "hyponym of",
+    "tail": "applications"
+  },
+  {
+    "head": "motion analysis",
+    "relation": "conjunction",
+    "tail": "3D scene analysis"
+  },
+  {
+    "head": "3D scene analysis",
+    "relation": "hyponym of",
+    "tail": "applications"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "layers"
+  },
+  {
+    "head": "layers",
+    "relation": "part of",
+    "tail": "images"
+  },
+  {
+    "head": "planar patches",
+    "relation": "part of",
+    "tail": "scene"
+  },
+  {
+    "head": "Layers",
+    "relation": "part of",
+    "tail": "images"
+  },
+  {
+    "head": "images",
+    "relation": "used for",
+    "tail": "clusters"
+  },
+  {
+    "head": "mean-shift based clustering algorithm",
+    "relation": "used for",
+    "tail": "clusters"
+  },
+  {
+    "head": "subspace constraint",
+    "relation": "used for",
+    "tail": "noise"
+  }
+]

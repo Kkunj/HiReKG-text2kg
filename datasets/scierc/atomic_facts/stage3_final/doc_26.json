@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_26",
+  "facts": [
+    "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision.",
+    "Acquiring the necessary training data is typically a tedious and time consuming task.",
+    "The acquisition of the necessary training data involves manual interaction.",
+    "The acquisition of the necessary training data involves active sensing devices.",
+    "The acquisition of the necessary training data involves synthetic scenes.",
+    "The authors propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input.",
+    "The proposed way for generating training data is flexible.",
+    "The proposed way for generating training data is scalable.",
+    "The proposed way for generating training data only requires a set of stereo images as input.",
+    "The key idea of the approach is to use different view points.",
+    "The approach reasons about contradictions and consistencies between multiple depth maps.",
+    "The multiple depth maps are generated with the same stereo algorithm.",
+    "The approach enables the generation of a huge amount of training data in a fully automated manner.",
+    "The authors demonstrate the potential of the approach.",
+    "The authors boost the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10
+  ],
+  "multiple-entity": [
+    0,
+    11,
+    14
+  ],
+  "ambiguous": [
+    1,
+    6,
+    7,
+    12,
+    13
+  ],
+  "entities": [
+    "Learned confidence measures",
+    "outlier removal",
+    "quality improvement",
+    "stereo vision",
+    "manual interaction",
+    "active sensing devices",
+    "synthetic scenes",
+    "stereo images",
+    "view points",
+    "multiple depth maps",
+    "stereo algorithm",
+    "learned confidence measures",
+    "KITTI2012 dataset",
+    "automatically generated training data",
+    "laser ground truth data"
+  ]
+}

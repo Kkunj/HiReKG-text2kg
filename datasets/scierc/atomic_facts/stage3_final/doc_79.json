@@ -1,0 +1,54 @@
+{
+  "doc_id": "doc_79",
+  "facts": [
+    "A novel method is presented for discovering parallel sentences in comparable, non-parallel corpora.",
+    "A maximum entropy classifier is trained.",
+    "The maximum entropy classifier is given a pair of sentences.",
+    "The maximum entropy classifier can reliably determine whether the sentences are translations of each other.",
+    "Parallel data is extracted from non-parallel newspaper corpora.",
+    "Parallel data is extracted from large Chinese non-parallel newspaper corpora.",
+    "Parallel data is extracted from large Arabic non-parallel newspaper corpora.",
+    "Parallel data is extracted from large English non-parallel newspaper corpora.",
+    "The quality of the extracted data is evaluated by showing improved performance of a state-of-the-art statistical machine translation system.",
+    "The extracted data improves the performance of a state-of-the-art statistical machine translation system.",
+    "A good-quality MT system can be built from scratch.",
+    "The good-quality MT system is built by starting with a very small parallel corpus of 100,000 words.",
+    "The good-quality MT system is built by exploiting a large non-parallel corpus.",
+    "The Chinese, Arabic, and English non-parallel newspaper corpora are large.",
+    "The method can be applied with great benefit to language pairs for which only scarce resources are available."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    11,
+    12
+  ],
+  "ambiguous": [],
+  "entities": [
+    "discovering parallel sentences",
+    "comparable , non-parallel corpora",
+    "maximum entropy classifier",
+    "parallel data",
+    "Chinese , Arabic , and English non-parallel newspaper corpora",
+    "statistical machine translation system",
+    "MT system",
+    "parallel corpus",
+    "non-parallel corpus",
+    "scarce resources"
+  ]
+}

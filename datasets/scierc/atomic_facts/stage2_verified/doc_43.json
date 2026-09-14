@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_43",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper studies how to make loss-aware predictions in image segmentation settings where the evaluation function is the Intersection-over-Union (IoU) measure.",
+      "generator_supporting_span": "We study the question of how to make loss-aware predictions in image segmentation settings where the evaluation function is the Intersection-over-Union (IoU) measure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We study the question of how to make loss-aware predictions in image segmentation settings where the evaluation function is the Intersection-over-Union (IoU) measure",
+      "verifier_reasoning": "The source text's opening sentence explicitly states the topic of the study, which is a direct match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The Intersection-over-Union (IoU) measure is used widely in evaluating image segmentation systems.",
+      "generator_supporting_span": "the Intersection-over-Union (IoU) measure that is used widely in evaluating image segmentation systems",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the evaluation function is the Intersection-over-Union (IoU) measure that is used widely in evaluating image segmentation systems",
+      "verifier_reasoning": "The source text explicitly states that the Intersection-over-Union (IoU) measure is an evaluation function \"that is used widely in evaluating image segmentation systems.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "There are two dominant approaches currently.",
+      "generator_supporting_span": "Currently , there are two dominant approaches",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Currently , there are two dominant approaches : the first approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU) ; and the second approach is to compute exact EIoU but only over a small set of high-quality candidate solutions .",
+      "verifier_reasoning": "The source text explicitly states that there are two dominant approaches and proceeds to describe them, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "One approach approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU).",
+      "generator_supporting_span": "the first approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Currently , there are two dominant approaches : the first approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU)",
+      "verifier_reasoning": "The source text explicitly describes two dominant approaches for making loss-aware predictions in image segmentation. It states that the first of these approaches approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU), which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Another approach computes exact EIoU but only over a small set of high-quality candidate solutions.",
+      "generator_supporting_span": "and the second approach is to compute exact EIoU but only over a small set of high-quality candidate solutions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the second approach is to compute exact EIoU but only over a small set of high-quality candidate solutions",
+      "verifier_reasoning": "The source text explicitly describes two dominant approaches for loss-aware predictions. The candidate fact accurately restates the description of the second approach mentioned in the text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The authors ask which approach should be favored for two typical image segmentation tasks.",
+      "generator_supporting_span": "We begin by asking which approach we should favor for two typical image seg-mentation tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We begin by asking which approach we should favor for two typical image seg-mentation tasks .",
+      "verifier_reasoning": "The source text explicitly states that the authors begin their study by posing the question of which of the two dominant approaches is better for two typical image segmentation tasks.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The study leads to two new methods.",
+      "generator_supporting_span": "Studying this question leads to two new methods",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Studying this question leads to two new methods that draw ideas from both existing approaches .",
+      "verifier_reasoning": "The source text explicitly states that the study being discussed resulted in the creation of two new methods.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The two new methods draw ideas from both existing approaches.",
+      "generator_supporting_span": "that draw ideas from both existing approaches",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Studying this question leads to two new methods that draw ideas from both existing approaches .",
+      "verifier_reasoning": "The source text explicitly states that the study led to the creation of two new methods which draw ideas from the two existing approaches previously described.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The new methods use the EIoEU approximation paired with high quality candidate solutions.",
+      "generator_supporting_span": "Our new methods use the EIoEU approximation paired with high quality candidate solutions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our new methods use the EIoEU approximation paired with high quality candidate solutions .",
+      "verifier_reasoning": "The source text explicitly describes the new methods developed, stating that they use the EIoEU approximation combined with high-quality candidate solutions, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Experiments show that the new approaches lead to improved performance on both image segmentation tasks.",
+      "generator_supporting_span": "Experimentally we show that our new approaches lead to improved performance on both image segmentation tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Experimentally we show that our new approaches lead to improved performance on both image segmentation tasks .",
+      "verifier_reasoning": "The source text explicitly states in its final sentence that experiments demonstrate that the new methods result in improved performance on the two image segmentation tasks being studied.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The first dominant approach approximates the Expected-IoU (EIoU) score.",
+      "generator_supporting_span": "the first approximates the Expected-IoU (EIoU) score",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Currently , there are two dominant approaches : the first approximates the Expected-IoU (EIoU) score as Expected-Intersection-over-Expected-Union (EIoEU)",
+      "verifier_reasoning": "The source text explicitly introduces two dominant approaches and states that the first one involves approximating the Expected-IoU (EIoU) score.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The second dominant approach is to compute exact EIoU.",
+      "generator_supporting_span": "the second approach is to compute exact EIoU",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the second approach is to compute exact EIoU but only over a small set of high-quality candidate solutions .",
+      "verifier_reasoning": "The source text explicitly describes two dominant approaches, stating that the second one involves computing the exact Expected-Intersection-over-Union (EIoU), albeit with a specific constraint.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "EIoU is an abbreviation of Expected-IoU.",
+      "generator_supporting_span": "Expected-IoU (EIoU)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the first approximates the Expected-IoU (EIoU) score",
+      "verifier_reasoning": "The source text explicitly defines the abbreviation EIoU by placing it in parentheses immediately after the full term, Expected-IoU.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "EIoEU is an abbreviation of Expected-Intersection-over-Expected-Union.",
+      "generator_supporting_span": "Expected-Intersection-over-Expected-Union (EIoEU)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Expected-Intersection-over-Expected-Union (EIoEU)",
+      "verifier_reasoning": "The source text explicitly introduces the term 'Expected-Intersection-over-Expected-Union' and immediately provides the abbreviation '(EIoEU)' in parentheses, directly confirming the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "In the studied settings, the evaluation function is the Intersection-over-Union (IoU) measure.",
+      "generator_supporting_span": "the evaluation function is the Intersection-over-Union (IoU) measure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We study the question of how to make loss-aware predictions in image segmentation settings where the evaluation function is the Intersection-over-Union (IoU) measure that is used widely in evaluating image segmentation systems .",
+      "verifier_reasoning": "The source text explicitly states that the study is conducted in settings where the evaluation function is the Intersection-over-Union (IoU) measure.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

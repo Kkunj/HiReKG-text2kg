@@ -1,0 +1,158 @@
+[
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "BitLocker",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Next-Generation Secure Computing Base",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Next-Generation Secure Computing Base",
+    "relation": "developer",
+    "tail": "Trusted Computing Group",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Hardware Engineering Conference",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "BitLocker",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Presentation Foundation",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Trustworthy Computing initiative",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": ".NET Framework",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Communication Foundation",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "followed by",
+    "tail": "Windows 8.1",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Next-Generation Secure Computing Base",
+    "relation": "inception",
+    "tail": "2002",
+    "relation_code": "P571"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": ".NET Framework",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "follows",
+    "tail": "Windows 8",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "follows",
+    "tail": "Windows 8.1",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Device Guard",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Nexus",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Measured Boot",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "WinFS",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "followed by",
+    "tail": "Windows 10",
+    "relation_code": "P156"
+  }
+]

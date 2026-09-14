@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_8",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper introduces the modal language LT.",
+      "generator_supporting_span": "In this paper we introduce a modal language LT",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we introduce a modal language LT for imposing constraints on trees",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the paper introduces a modal language named LT.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "LT is for imposing constraints on trees.",
+      "generator_supporting_span": "a modal language LT for imposing constraints on trees",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we introduce a modal language LT for imposing constraints on trees",
+      "verifier_reasoning": "The source text explicitly introduces a modal language named LT and directly states that its purpose is 'for imposing constraints on trees'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The paper introduces the extension LT (LF).",
+      "generator_supporting_span": "an extension LT (LF)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we introduce a modal language LT for imposing constraints on trees , and an extension LT (LF) for imposing constraints on trees decorated with feature structures .",
+      "verifier_reasoning": "The source text explicitly states that the paper introduces a modal language LT and, in the same clause, \"an extension LT (LF)\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "LT (LF) is for imposing constraints on trees decorated with feature structures.",
+      "generator_supporting_span": "an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "verifier_reasoning": "The source text explicitly introduces LT (LF) and defines its purpose as being 'for imposing constraints on trees decorated with feature structures,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "LT is a language.",
+      "generator_supporting_span": "a modal language LT",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we introduce a modal language LT for imposing constraints on trees",
+      "verifier_reasoning": "The source text explicitly introduces LT and identifies it as 'a modal language', which directly supports the candidate fact that LT is a language.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "LT (LF) is an extension.",
+      "generator_supporting_span": "an extension LT (LF)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we introduce a modal language LT for imposing constraints on trees , and an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "verifier_reasoning": "The source text explicitly introduces a modal language named LT and then immediately introduces 'an extension LT (LF)', directly stating that LT (LF) is an extension.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The motivation for introducing LT and LT (LF) is to provide tools for formalising grammatical frameworks perspicuously.",
+      "generator_supporting_span": "The motivation for introducing these languages is to provide tools for formalising grammatical frameworks perspicuously",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The motivation for introducing these languages is to provide tools for formalising grammatical frameworks perspicuously",
+      "verifier_reasoning": "The source text explicitly states the motivation for introducing 'these languages', which are identified in the preceding sentence as LT and LT (LF). The stated motivation directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The leading ideas of GPSG can be captured in LT (LF).",
+      "generator_supporting_span": "the leading ideas of GPSG can be captured in LT (LF)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the paper illustrates this by showing how the leading ideas of GPSG can be captured in LT (LF)",
+      "verifier_reasoning": "The source text explicitly states that the paper demonstrates its utility by 'showing how the leading ideas of GPSG can be captured in LT (LF)', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The paper shows how the leading ideas of GPSG can be captured in LT (LF).",
+      "generator_supporting_span": "the paper illustrates this by showing how the leading ideas of GPSG can be captured in LT (LF)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the paper illustrates this by showing how the leading ideas of GPSG can be captured in LT (LF)",
+      "verifier_reasoning": "The source text explicitly states that the paper provides an illustration by 'showing how the leading ideas of GPSG can be captured in LT (LF)', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Constraints are imposed on trees.",
+      "generator_supporting_span": "imposing constraints on trees",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper we introduce a modal language LT for imposing constraints on trees",
+      "verifier_reasoning": "The source text explicitly states that the paper introduces a modal language named LT, and its purpose is described as being 'for imposing constraints on trees'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Constraints are imposed on trees decorated with feature structures.",
+      "generator_supporting_span": "imposing constraints on trees decorated with feature structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "verifier_reasoning": "The source text introduces a language extension called LT (LF) specifically for the purpose of 'imposing constraints on trees decorated with feature structures', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The role of modal languages is discussed in some detail.",
+      "generator_supporting_span": "the role of modal languages and in particular , what we have called as constraint formalisms for linguistic theorising is discussed in some detail",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the role of modal languages and in particular , what we have called as constraint formalisms for linguistic theorising is discussed in some detail .",
+      "verifier_reasoning": "The source text explicitly states that the role of modal languages is discussed in some detail, which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Constraint formalisms for linguistic theorising are discussed in some detail.",
+      "generator_supporting_span": "what we have called as constraint formalisms for linguistic theorising is discussed in some detail",
+      "span_mismatch": false,
+      "verifier_supporting_span": "what we have called as constraint formalisms for linguistic theorising is discussed in some detail .",
+      "verifier_reasoning": "The source text explicitly states that 'what we have called as constraint formalisms for linguistic theorising is discussed in some detail,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Constraint formalisms are for linguistic theorising.",
+      "generator_supporting_span": "constraint formalisms for linguistic theorising",
+      "span_mismatch": false,
+      "verifier_supporting_span": "what we have called as constraint formalisms for linguistic theorising is discussed in some detail .",
+      "verifier_reasoning": "The source text explicitly states that the role of 'constraint formalisms for linguistic theorising' is discussed, directly linking the formalisms to the purpose of linguistic theorizing.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Trees are decorated with feature structures.",
+      "generator_supporting_span": "trees decorated with feature structures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an extension LT (LF) for imposing constraints on trees decorated with feature structures",
+      "verifier_reasoning": "The source text explicitly mentions an extension of a modal language designed for imposing constraints on \"trees decorated with feature structures,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

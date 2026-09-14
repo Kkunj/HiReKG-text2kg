@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_56",
+  "facts": [
+    "Machine reading is a relatively new field.",
+    "The computer programs are designed to read flowing text.",
+    "The computer programs extract fact assertions expressed by the narrative content.",
+    "Machine reading involves two core technologies: natural language processing (NLP) and information extraction (IE).",
+    "A machine reading system has been developed within a cognitive architecture.",
+    "The framework integrates several levels of knowledge for a particular domain.",
+    "The framework integrates ideas from cognitive semantics.",
+    "The framework integrates ideas from construction grammar.",
+    "The framework integrates tools from prior NLP and IE research.",
+    "The system is capable of reading complex and fairly idiosyncratic texts in the family history domain.",
+    "The system is capable of interpreting complex and fairly idiosyncratic texts in the family history domain.",
+    "The paper describes the architecture of the system.",
+    "The paper describes the performance of the system.",
+    "The paper presents results from several evaluations.",
+    "The paper summarizes possible future directions."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    6,
+    7
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10
+  ],
+  "ambiguous": [
+    5,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "Machine reading",
+    "computer programs",
+    "flowing text",
+    "fact assertions",
+    "narrative content",
+    "natural language processing ( NLP )",
+    "information extraction ( IE )",
+    "machine reading system",
+    "cognitive architecture",
+    "cognitive semantics",
+    "construction grammar",
+    "prior NLP",
+    "IE research",
+    "idiosyncratic texts",
+    "family history domain"
+  ]
+}

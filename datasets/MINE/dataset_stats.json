@@ -1,0 +1,11 @@
+{
+  "dataset": "MINE",
+  "n_documents": 100,
+  "total_facts": 1500,
+  "entity_classification": {
+    "single_entity": 344,
+    "multiple_entity": 112,
+    "ambiguous": 1044,
+    "total": 1500
+  }
+}

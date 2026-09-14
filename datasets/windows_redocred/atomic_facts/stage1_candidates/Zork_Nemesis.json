@@ -1,0 +1,82 @@
+{
+  "doc_id": "Zork_Nemesis",
+  "facts": [
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands is a 1996 graphic adventure game.",
+      "supporting_span": "Zork Nemesis : The Forbidden Lands is a 1996 graphic adventure game",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands was developed by Zombie LLC.",
+      "supporting_span": "developed by Zombie LLC",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands was published by Activision.",
+      "supporting_span": "published by Activision",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands is the eleventh game in the Zork series.",
+      "supporting_span": "It is the eleventh game in the Zork series",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands is the first title in the Zork series not to appear under the Infocom label.",
+      "supporting_span": "It is the eleventh game in the Zork series , and the first such title not to appear under the Infocom label .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands features a darker, less comical story within the Zork setting.",
+      "supporting_span": "It features a darker , less comical story within the Zork setting .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The story of Zork Nemesis : The Forbidden Lands focuses on players investigating the sudden disappearance of four prominent figures and their children.",
+      "supporting_span": "The story focuses on players investigating the sudden disappearance of four prominent figures and their children",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The disappearances in Zork Nemesis : The Forbidden Lands were at the hands of a mysterious being known as the \"Nemesis\".",
+      "supporting_span": "to the hands of a mysterious being known as the \" Nemesis \"",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The story of Zork Nemesis : The Forbidden Lands includes uncovering a sinister plot during the players' investigations.",
+      "supporting_span": "and uncovering a sinister plot during their investigations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Players in Zork Nemesis : The Forbidden Lands must thwart a sinister plot.",
+      "supporting_span": "a sinister plot during their investigations that they must thwart",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands was released for Windows 95.",
+      "supporting_span": "The game was released for Windows 95",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands was ported to MS - DOS by Quicksilver Software.",
+      "supporting_span": "ported to MS - DOS and Macintosh by Quicksilver Software .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Zork Nemesis : The Forbidden Lands was ported to Macintosh by Quicksilver Software.",
+      "supporting_span": "ported to MS - DOS and Macintosh by Quicksilver Software .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The MS - DOS version of Zork Nemesis : The Forbidden Lands has been released by GOG on their website.",
+      "supporting_span": "The MS - DOS version has since been released by GOG on their website",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GOG made the MS - DOS version of Zork Nemesis : The Forbidden Lands compatible for use with Windows XP, Windows Vista, Windows 7, Windows 8, and Windows 10.",
+      "supporting_span": "who made it compatible for use with Windows XP , Windows Vista , Windows 7 , Windows 8 , and Windows 10 .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

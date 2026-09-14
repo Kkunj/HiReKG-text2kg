@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_29",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper addresses the problem of populating object category detection datasets with dense, per-object 3D reconstructions.",
+      "generator_supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions , bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states the problem that the work addresses, which is a direct match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from class labels.",
+      "generator_supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions , bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations .",
+      "verifier_reasoning": "The source text explicitly states that the method populates datasets with 'dense, per-object 3D reconstructions, bootstrapped from class labels', directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from ground truth figure-ground segmentations.",
+      "generator_supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions , bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations .",
+      "verifier_reasoning": "The source text explicitly states that the 'dense, per-object 3D reconstructions' are 'bootstrapped from' a list of items which includes 'ground truth figure-ground segmentations'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from a small set of keypoint annotations.",
+      "generator_supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions , bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations .",
+      "verifier_reasoning": "The source text explicitly states that the dense, per-object 3D reconstructions are bootstrapped from a list of three items, one of which is 'a small set of keypoint annotations'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The proposed algorithm first estimates camera viewpoint using rigid structure-from-motion.",
+      "generator_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion , then reconstructs object shapes by optimizing over visual hull proposals guided by loose within-class shape similarity assumptions .",
+      "verifier_reasoning": "The source text explicitly outlines the steps of the proposed algorithm, stating that it \"first estimates camera viewpoint using rigid structure-from-motion\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The proposed algorithm reconstructs object shapes by optimizing over visual hull proposals.",
+      "generator_supporting_span": "then reconstructs object shapes by optimizing over visual hull proposals",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion , then reconstructs object shapes by optimizing over visual hull proposals guided by loose within-class shape similarity assumptions .",
+      "verifier_reasoning": "The source text explicitly describes the steps of the proposed algorithm, stating that it \"reconstructs object shapes by optimizing over visual hull proposals\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The optimization over visual hull proposals is guided by loose within-class shape similarity assumptions.",
+      "generator_supporting_span": "guided by loose within-class shape similarity assumptions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion , then reconstructs object shapes by optimizing over visual hull proposals guided by loose within-class shape similarity assumptions .",
+      "verifier_reasoning": "The source text explicitly describes the proposed algorithm, stating that it reconstructs object shapes by \"optimizing over visual hull proposals guided by loose within-class shape similarity assumptions.\" This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The visual hull sampling process attempts to intersect an object's projection cone with the cones of minimal subsets of other similar objects.",
+      "generator_supporting_span": "attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The visual hull sampling process attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects among those pictured from certain vantage points .",
+      "verifier_reasoning": "The source text explicitly describes the function of the visual hull sampling process, stating that it \"attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The similar objects considered by the visual hull sampling process are among those pictured from certain vantage points.",
+      "generator_supporting_span": "among those pictured from certain vantage points",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The visual hull sampling process attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects among those pictured from certain vantage points .",
+      "verifier_reasoning": "The source text explicitly states that the visual hull sampling process involves intersecting cones of 'other similar objects among those pictured from certain vantage points', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets, PASCAL VOC.",
+      "generator_supporting_span": "our method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets , PASCAL VOC",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show that our method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets , PASCAL VOC .",
+      "verifier_reasoning": "The source text makes a direct statement that is nearly identical to the candidate fact, confirming that the method produces convincing 3D reconstructions on the PASCAL VOC dataset, which it describes as one of the most challenging.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "PASCAL VOC is one of the most challenging existing object-category detection datasets.",
+      "generator_supporting_span": "one of the most challenging existing object-category detection datasets , PASCAL VOC",
+      "span_mismatch": false,
+      "verifier_supporting_span": "one of the most challenging existing object-category detection datasets , PASCAL VOC",
+      "verifier_reasoning": "The source text explicitly describes the PASCAL VOC dataset, directly referring to it as 'one of the most challenging existing object-category detection datasets'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The results may re-stimulate once popular geometry-oriented model-based recognition approaches.",
+      "generator_supporting_span": "Our results may re-stimulate once popular geometry-oriented model-based recognition approaches",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our results may re-stimulate once popular geometry-oriented model-based recognition approaches .",
+      "verifier_reasoning": "The source text makes this exact statement in its concluding sentence, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Camera viewpoint is estimated using rigid structure-from-motion.",
+      "generator_supporting_span": "estimates camera viewpoint using rigid structure-from-motion",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm estimates the camera viewpoint and specifies that it does so using rigid structure-from-motion.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The proposed algorithm estimates camera viewpoint.",
+      "generator_supporting_span": "first estimates camera viewpoint",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion",
+      "verifier_reasoning": "The source text explicitly describes the steps of the proposed algorithm, stating that the first step is to estimate the camera viewpoint.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The visual hull sampling process attempts to intersect an object's projection cone.",
+      "generator_supporting_span": "attempts to intersect an object 's projection cone",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The visual hull sampling process attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects among those pictured from certain vantage points .",
+      "verifier_reasoning": "The source text explicitly states that \"The visual hull sampling process attempts to intersect an object 's projection cone\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

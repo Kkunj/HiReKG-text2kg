@@ -1,0 +1,53 @@
+{
+  "doc_id": "doc_68",
+  "facts": [
+    "English is shown to be trans-context-free.",
+    "English is shown to be trans-context-free on the basis of coordinations of the respectively type.",
+    "Coordinations of the respectively type involve strictly syntactic cross-serial agreement.",
+    "The agreement in question involves number in nouns.",
+    "The agreement in question involves number in reflexive pronouns.",
+    "The agreement in question is syntactic rather than semantic in nature.",
+    "Grammatical number in English is partly arbitrary.",
+    "Grammatical gender in languages such as French is partly arbitrary.",
+    "The proof is formal.",
+    "The formal proof makes crucial use of the Interchange Lemma of Ogden et al.",
+    "The Interchange Lemma is of Ogden et al.",
+    "The formal proof is constructed to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other.",
+    "The formal proof goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively.",
+    "Other arguments have foundered on this problem."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    0,
+    3,
+    4,
+    9,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    6,
+    7
+  ],
+  "ambiguous": [
+    5,
+    8,
+    12,
+    13
+  ],
+  "entities": [
+    "English",
+    "coordinations",
+    "strictly syntactic cross-serial agreement",
+    "nouns",
+    "reflexive pronouns",
+    "grammatical number",
+    "grammatical gender",
+    "languages",
+    "French",
+    "Interchange Lemma"
+  ]
+}

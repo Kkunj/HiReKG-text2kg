@@ -1,0 +1,157 @@
+{
+  "doc_id": "Skylake_microarchitecture",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Skylake is the codename used by Intel for a processor microarchitecture.",
+      "generator_supporting_span": "Skylake is the codename used by Intel for a processor microarchitecture",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is the codename used by Intel for a processor microarchitecture that was launched in August 2015 succeeding the Broadwell microarchitecture .",
+      "verifier_reasoning": "The source text's first sentence explicitly states that Skylake is the codename used by Intel for a processor microarchitecture, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Skylake was launched in August 2015.",
+      "generator_supporting_span": "was launched in August 2015",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is the codename used by Intel for a processor microarchitecture that was launched in August 2015 succeeding the Broadwell microarchitecture .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that the Skylake microarchitecture was launched in August 2015.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Skylake succeeded the Broadwell microarchitecture.",
+      "generator_supporting_span": "succeeding the Broadwell microarchitecture",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is the codename used by Intel for a processor microarchitecture that was launched in August 2015 succeeding the Broadwell microarchitecture .",
+      "verifier_reasoning": "The source text explicitly states that the Skylake microarchitecture was launched in August 2015, directly \"succeeding the Broadwell microarchitecture\".",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Skylake is a microarchitecture redesign.",
+      "generator_supporting_span": "Skylake is a microarchitecture redesign",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is a microarchitecture redesign using the same 14 nm manufacturing process technology as its predecessor, serving as a \"tock\" in Intel's \"tick-tock\" manufacturing and design model.",
+      "verifier_reasoning": "The source text explicitly states that \"Skylake is a microarchitecture redesign\", directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Skylake uses the same 14 nm manufacturing process technology as its predecessor.",
+      "generator_supporting_span": "using the same 14   nm manufacturing process technology as its predecessor",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is a microarchitecture redesign using the same 14 nm manufacturing process technology as its predecessor",
+      "verifier_reasoning": "The source text explicitly states that Skylake is a redesign that uses the same 14 nm manufacturing process technology as the microarchitecture it succeeded.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Skylake serves as a \"tock\" in Intel's \"tick-tock\" manufacturing and design model.",
+      "generator_supporting_span": "serving as a \" tock \" in Intel 's \" tick - tock \" manufacturing and design model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is a microarchitecture redesign using the same 14   nm manufacturing process technology as its predecessor , serving as a \" tock \" in Intel 's \" tick - tock \" manufacturing and design model .",
+      "verifier_reasoning": "The source text explicitly states that Skylake serves as a \"tock\" in Intel's \"tick-tock\" manufacturing and design model.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "According to Intel, the Skylake redesign brings greater CPU and GPU performance.",
+      "generator_supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "verifier_reasoning": "The source text explicitly states that according to Intel, the Skylake redesign offers greater CPU and GPU performance.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "According to Intel, the Skylake redesign brings reduced power consumption.",
+      "generator_supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "According to Intel , the redesign brings greater CPU and GPU performance and reduced power consumption .",
+      "verifier_reasoning": "The source text explicitly states that, according to Intel, the Skylake redesign leads to reduced power consumption, directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Skylake CPUs share microarchitecture with Kaby Lake CPUs.",
+      "generator_supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "verifier_reasoning": "The source text explicitly lists the CPU microarchitectures that share a microarchitecture with Skylake, and Kaby Lake is included in this list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Skylake CPUs share microarchitecture with Cannon Lake CPUs.",
+      "generator_supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake CPUs share its microarchitecture with Kaby Lake , Coffee Lake and Cannon Lake CPUs .",
+      "verifier_reasoning": "The source text explicitly lists the CPU types that share a microarchitecture with Skylake, and Cannon Lake is included in this list.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft.",
+      "generator_supporting_span": "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Skylake is the last Intel platform on which Windows earlier than Windows 10 will be officially supported by Microsoft",
+      "verifier_reasoning": "The source text explicitly states that Skylake is the final Intel platform to receive official Microsoft support for versions of Windows released before Windows 10.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Enthusiast-created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms.",
+      "generator_supporting_span": "enthusiast - created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "enthusiast - created modifications exist that allow Windows 8.1 and earlier to continue to receive updates on later platforms .",
+      "verifier_reasoning": "The source text explicitly states that enthusiast-created modifications exist which allow older versions of Windows, specifically 8.1 and earlier, to continue receiving updates on platforms later than Skylake.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Some processors based on the Skylake microarchitecture are marketed as \"6th-generation Core\".",
+      "generator_supporting_span": "Some of the processors based on the Skylake microarchitecture are marketed as \" 6th - generation Core \" .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Some of the processors based on the Skylake microarchitecture are marketed as \" 6th - generation Core \" .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct, verbatim match for the candidate fact, explicitly stating how some Skylake-based processors are marketed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "On October 8, 2018, Intel announced new 9th gen Core X 98xx/99xx series CPUs.",
+      "generator_supporting_span": "On October 8 , 2018 , Intel announced new 9th gen Core X 98xx/99xx series CPUs ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "On October 8 , 2018 , Intel announced new 9th gen Core X 98xx/99xx series CPUs",
+      "verifier_reasoning": "The source text explicitly states the date, the company (Intel), and the specific CPU series that were announced, directly matching the information in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The Core i9-9980XE Extreme Edition led the launch.",
+      "generator_supporting_span": "the Core i9 - 9980XE Extreme Edition leading the launch .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "with the Core i9 - 9980XE Extreme Edition leading the launch .",
+      "verifier_reasoning": "The source text explicitly states that Intel announced new 9th gen Core X series CPUs, and that the Core i9-9980XE Extreme Edition was leading this launch.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

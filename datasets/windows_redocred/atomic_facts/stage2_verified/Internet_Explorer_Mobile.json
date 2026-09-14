@@ -1,0 +1,157 @@
+{
+  "doc_id": "Internet_Explorer_Mobile",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Internet Explorer Mobile is a discontinued mobile browser.",
+      "generator_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser developed by Microsoft",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that Internet Explorer Mobile is a discontinued mobile browser.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Internet Explorer Mobile was formerly named Pocket Internet Explorer.",
+      "generator_supporting_span": "formerly named Pocket Internet Explorer",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser developed by Microsoft",
+      "verifier_reasoning": "The first sentence of the source text explicitly states in a parenthetical that Internet Explorer Mobile was 'formerly named Pocket Internet Explorer'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Internet Explorer Mobile is commonly abbreviated to IE Mobile.",
+      "generator_supporting_span": "commonly abbreviated to IE Mobile",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser developed by Microsoft",
+      "verifier_reasoning": "The source text explicitly states in the first sentence, within a parenthetical, that Internet Explorer Mobile is 'commonly abbreviated to IE Mobile'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Internet Explorer Mobile was developed by Microsoft.",
+      "generator_supporting_span": "developed by Microsoft",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser developed by Microsoft , based on versions of the Trident layout engine .",
+      "verifier_reasoning": "The source text explicitly states that Internet Explorer Mobile is a mobile browser that was 'developed by Microsoft'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Internet Explorer Mobile is based on versions of the Trident layout engine.",
+      "generator_supporting_span": "based on versions of the Trident layout engine",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile ( formerly named Pocket Internet Explorer ; commonly abbreviated to IE Mobile ) is a discontinued mobile browser developed by Microsoft , based on versions of the Trident layout engine .",
+      "verifier_reasoning": "The source text directly states in the first sentence that Internet Explorer Mobile is a browser that is 'based on versions of the Trident layout engine'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "IE Mobile comes loaded by default with Windows Phone.",
+      "generator_supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "verifier_reasoning": "The source text explicitly states that IE Mobile is included by default on devices running Windows Phone.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "IE Mobile comes loaded by default with Windows CE.",
+      "generator_supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "IE Mobile comes loaded by default with Windows Phone and Windows CE .",
+      "verifier_reasoning": "The source text explicitly states that IE Mobile is loaded by default with both Windows Phone and Windows CE, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Later versions of Internet Explorer Mobile since Windows Phone 8 are based on the desktop version of Internet Explorer.",
+      "generator_supporting_span": "Later versions of Internet Explorer Mobile ( since Windows Phone 8) are based on the desktop version of Internet Explorer .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Later versions of Internet Explorer Mobile ( since Windows Phone 8) are based on the desktop version of Internet Explorer .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct and verbatim match for the candidate fact, explicitly stating that later versions of IE Mobile since Windows Phone 8 are based on the desktop version of Internet Explorer.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Older versions of Internet Explorer Mobile called Pocket Internet Explorer are not based on the same layout engine.",
+      "generator_supporting_span": "Older versions however , called Pocket Internet Explorer ( found on Windows Phone 7 and Windows Mobile ) , are not based on the same layout engine .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Older versions however , called Pocket Internet Explorer ( found on Windows Phone 7 and Windows Mobile ) , are not based on the same layout engine .",
+      "verifier_reasoning": "The source text explicitly contrasts later versions of Internet Explorer Mobile with older versions, stating that the older versions, called Pocket Internet Explorer, are not based on the same layout engine.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "Pocket Internet Explorer is found on Windows Phone 7.",
+      "generator_supporting_span": "( found on Windows Phone 7 and Windows Mobile )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Older versions however , called Pocket Internet Explorer ( found on Windows Phone 7 and Windows Mobile ) , are not based on the same layout engine .",
+      "verifier_reasoning": "The source text explicitly states that older versions of the browser, called Pocket Internet Explorer, are found on Windows Phone 7.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Pocket Internet Explorer is found on Windows Mobile.",
+      "generator_supporting_span": "( found on Windows Phone 7 and Windows Mobile )",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Older versions however , called Pocket Internet Explorer ( found on Windows Phone 7 and Windows Mobile ) , are not based on the same layout engine .",
+      "verifier_reasoning": "The source text explicitly states that older versions of the browser, which were called Pocket Internet Explorer, are found on Windows Mobile.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Internet Explorer Mobile 11 is the last version that was supported.",
+      "generator_supporting_span": "Internet Explorer Mobile 11 , the last version that was supported ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile 11 , the last version that was supported , is based on the desktop version of Internet Explorer 11 and came with Windows Phone 8.1 .",
+      "verifier_reasoning": "The source text explicitly states that Internet Explorer Mobile 11 was \"the last version that was supported.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Internet Explorer Mobile 11 is based on the desktop version of Internet Explorer 11.",
+      "generator_supporting_span": "is based on the desktop version of Internet Explorer 11",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile 11 , the last version that was supported , is based on the desktop version of Internet Explorer 11 and came with Windows Phone 8.1 .",
+      "verifier_reasoning": "The source text explicitly states that Internet Explorer Mobile 11 is based on the desktop version of Internet Explorer 11.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Internet Explorer Mobile 11 came with Windows Phone 8.1.",
+      "generator_supporting_span": "came with Windows Phone 8.1",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Internet Explorer Mobile 11 , the last version that was supported , is based on the desktop version of Internet Explorer 11 and came with Windows Phone 8.1 .",
+      "verifier_reasoning": "The source text explicitly states that Internet Explorer Mobile 11, the final supported version, was included with Windows Phone 8.1.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Microsoft Edge replaced Internet Explorer Mobile in Windows 10 Mobile.",
+      "generator_supporting_span": "Microsoft Edge replaced Internet Explorer Mobile in Windows 10 Mobile",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A new browser , Microsoft Edge replaced Internet Explorer Mobile in Windows 10 Mobile .",
+      "verifier_reasoning": "The source text explicitly states that Microsoft Edge replaced Internet Explorer Mobile in the Windows 10 Mobile operating system.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

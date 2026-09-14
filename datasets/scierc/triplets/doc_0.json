@@ -1,0 +1,87 @@
+[
+  {
+    "head": "direct waveform modification",
+    "relation": "used for",
+    "tail": "statistical singing voice conversion (SVC) technique"
+  },
+  {
+    "head": "spectrum differential",
+    "relation": "used for",
+    "tail": "direct waveform modification"
+  },
+  {
+    "head": "spectrum differential",
+    "relation": "used for",
+    "tail": "voice timbre"
+  },
+  {
+    "head": "vocoder",
+    "relation": "used for",
+    "tail": "converted singing voice waveforms"
+  },
+  {
+    "head": "SVC",
+    "relation": "used for",
+    "tail": "singing voice characteristics"
+  },
+  {
+    "head": "speech quality",
+    "relation": "evaluate for",
+    "tail": "converted singing voice"
+  },
+  {
+    "head": "speech quality",
+    "relation": "evaluate for",
+    "tail": "natural singing voice"
+  },
+  {
+    "head": "converted singing voice",
+    "relation": "compare",
+    "tail": "natural singing voice"
+  },
+  {
+    "head": "differential Gaussian mixture model (GMM)",
+    "relation": "used for",
+    "tail": "differential spectral feature"
+  },
+  {
+    "head": "GMM",
+    "relation": "used for",
+    "tail": "differential Gaussian mixture model (GMM)"
+  },
+  {
+    "head": "GMM",
+    "relation": "used for",
+    "tail": "conversion model"
+  },
+  {
+    "head": "conversion model",
+    "relation": "used for",
+    "tail": "SVC"
+  },
+  {
+    "head": "method",
+    "relation": "compare",
+    "tail": "SVC"
+  },
+  {
+    "head": "speech quality",
+    "relation": "evaluate for",
+    "tail": "method"
+  },
+  {
+    "head": "speech quality",
+    "relation": "evaluate for",
+    "tail": "SVC"
+  },
+  {
+    "head": "conversion accuracy of singer identity",
+    "relation": "evaluate for",
+    "tail": "method"
+  },
+  {
+    "head": "conversion accuracy of singer identity",
+    "relation": "used for",
+    "tail": "SVC"
+  }
+]

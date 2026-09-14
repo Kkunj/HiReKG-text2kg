@@ -1,0 +1,27 @@
+[
+  {
+    "head": "cognito-pragmatic nature",
+    "relation": "feature of",
+    "tail": "operable definition"
+  },
+  {
+    "head": "FDA",
+    "relation": "hyponym of",
+    "tail": "programmable algorithm"
+  },
+  {
+    "head": "FDA",
+    "relation": "used for",
+    "tail": "discourse-level construct"
+  },
+  {
+    "head": "discourse-level construct",
+    "relation": "part of",
+    "tail": "speech synthesis systems"
+  },
+  {
+    "head": "concept-to-speech systems",
+    "relation": "hyponym of",
+    "tail": "speech synthesis systems"
+  }
+]

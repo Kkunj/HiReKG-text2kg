@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_19",
+  "facts": [
+    {
+      "fact": "A new phrase-based translation model is proposed.",
+      "supporting_span": "We propose a new phrase-based translation model and decoding algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A decoding algorithm is proposed.",
+      "supporting_span": "We propose a new phrase-based translation model and decoding algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A new phrase-based translation model and decoding algorithm enables evaluation of several previously proposed phrase-based translation models.",
+      "supporting_span": "that enables us to evaluate and compare several , previously proposed phrase-based translation models .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A new phrase-based translation model and decoding algorithm enables comparison of several previously proposed phrase-based translation models.",
+      "supporting_span": "that enables us to evaluate and compare several , previously proposed phrase-based translation models .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A framework is used to carry out a large number of experiments.",
+      "supporting_span": "Within our framework , we carry out a large number of experiments",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The experiments are carried out to understand better and explain why phrase-based models outperform word-based models.",
+      "supporting_span": "to understand better and explain why phrase-based models outperform word-based models .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Phrase-based models outperform word-based models.",
+      "supporting_span": "phrase-based models outperform word-based models .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The empirical results hold for all examined language pairs.",
+      "supporting_span": "which hold for all examined language pairs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The empirical results suggest that the highest levels of performance can be obtained through relatively simple means.",
+      "supporting_span": "suggest that the highest levels of performance can be obtained through relatively simple means :",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Heuristic learning of phrase translations from word-based alignments is a means to obtain the highest levels of performance.",
+      "supporting_span": "heuristic learning of phrase translations from word-based alignments",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexical weighting of phrase translations is a means to obtain the highest levels of performance.",
+      "supporting_span": "and lexical weighting of phrase translations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Learning phrases longer than three words does not have a strong impact on performance.",
+      "supporting_span": "Surprisingly , learning phrases longer than three words and learning phrases from high-accuracy word-level alignment models does not have a strong impact on performance .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Learning phrases from high-accuracy word-level alignment models does not have a strong impact on performance.",
+      "supporting_span": "Surprisingly , learning phrases longer than three words and learning phrases from high-accuracy word-level alignment models does not have a strong impact on performance .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Learning only syntactically motivated phrases degrades system performance.",
+      "supporting_span": "Learning only syntactically motivated phrases degrades the performance of our systems .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The highest levels of performance can be obtained through heuristic learning of phrase translations from word-based alignments and lexical weighting of phrase translations.",
+      "supporting_span": "the highest levels of performance can be obtained through relatively simple means : heuristic learning of phrase translations from word-based alignments and lexical weighting of phrase translations .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

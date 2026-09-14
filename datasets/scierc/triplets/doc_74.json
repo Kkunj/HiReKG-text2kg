@@ -1,0 +1,62 @@
+[
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "automatically acquiring English topic signatures"
+  },
+  {
+    "head": "Topic signatures",
+    "relation": "used for",
+    "tail": "Natural Language Processing (NLP) applications"
+  },
+  {
+    "head": "Topic signatures",
+    "relation": "used for",
+    "tail": "Word Sense Disambiguation (WSD)"
+  },
+  {
+    "head": "Topic signatures",
+    "relation": "used for",
+    "tail": "Text Summarisation"
+  },
+  {
+    "head": "Word Sense Disambiguation (WSD)",
+    "relation": "hyponym of",
+    "tail": "Natural Language Processing (NLP) applications"
+  },
+  {
+    "head": "Word Sense Disambiguation (WSD)",
+    "relation": "conjunction",
+    "tail": "Text Summarisation"
+  },
+  {
+    "head": "Text Summarisation",
+    "relation": "hyponym of",
+    "tail": "Natural Language Processing (NLP) applications"
+  },
+  {
+    "head": "Chinese text",
+    "relation": "part of",
+    "tail": "corpora"
+  },
+  {
+    "head": "Chinese text",
+    "relation": "part of",
+    "tail": "Web"
+  },
+  {
+    "head": "corpora",
+    "relation": "conjunction",
+    "tail": "Web"
+  },
+  {
+    "head": "WSD task",
+    "relation": "evaluate for",
+    "tail": "topic signatures"
+  },
+  {
+    "head": "WSD datasets",
+    "relation": "used for",
+    "tail": "second-order vector cooccurrence algorithm"
+  }
+]

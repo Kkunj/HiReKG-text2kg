@@ -1,0 +1,32 @@
+{
+  "dataset": "scierc",
+  "n_documents": 100,
+  "total_candidates_generated": 1500,
+  "total_facts_after_filtering": 1484,
+  "filtering_rate": 0.0107,
+  "verification_rate_distribution": {
+    "mean": 0.9893,
+    "std": 0.028,
+    "min": 0.8667,
+    "max": 1.0
+  },
+  "drop_reasons": {
+    "span_not_in_text": 0,
+    "contradicted": 0,
+    "not_stated": 16,
+    "parse_error": 0,
+    "unknown_verdict": 0
+  },
+  "facts_per_document": {
+    "mean": 14.84,
+    "std": 0.4197,
+    "min": 13.0,
+    "max": 15.0
+  },
+  "entity_classification": {
+    "single_entity": 577,
+    "multiple_entity": 665,
+    "ambiguous": 242,
+    "total": 1484
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_81",
+  "facts": [
+    "The paper presents a novel representation for three-dimensional objects.",
+    "The novel representation uses affine-invariant image patches.",
+    "The novel representation uses spatial relationships of affine-invariant image patches.",
+    "Multi-view constraints are associated with groups of patches.",
+    "Multi-view constraints associated with groups of patches are combined with a normalized representation of appearance.",
+    "The combination of multi-view constraints and a normalized representation guides matching.",
+    "The combination of multi-view constraints and a normalized representation guides reconstruction.",
+    "The proposed approach allows the acquisition of true three-dimensional affine models from multiple images.",
+    "The proposed approach allows the acquisition of Euclidean models from multiple images.",
+    "The proposed approach allows recognition of true three-dimensional affine and Euclidean models in a single photograph.",
+    "The single photograph for recognition can be taken from an arbitrary viewpoint.",
+    "The proposed approach does not require a separate segmentation stage.",
+    "The proposed approach is applicable to cluttered scenes.",
+    "Preliminary modeling results are presented.",
+    "Preliminary recognition results are presented."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "multiple-entity": [
+    2,
+    4,
+    5,
+    6
+  ],
+  "ambiguous": [
+    13
+  ],
+  "entities": [
+    "three-dimensional objects",
+    "affine-invariant image patches",
+    "spatial relationships",
+    "Multi-view constraints",
+    "normalized representation",
+    "matching",
+    "reconstruction",
+    "acquisition of true three-dimensional affine and Euclidean models",
+    "images",
+    "segmentation stage",
+    "cluttered scenes",
+    "recognition"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "doc_id": "Lumia_imaging_apps",
+  "facts": [
+    "Lumia imaging apps are imaging applications by Microsoft Mobile and formerly by Nokia.",
+    "Lumia imaging apps are for Lumia devices.",
+    "Lumia imaging apps are built on the technology of Scalado.",
+    "Lumia Panorama was developed earlier by Nokia.",
+    "Lumia Panorama was originally for Symbian devices.",
+    "Lumia Panorama was originally for MeeGo devices.",
+    "The Lumia imaging applications were notably all branded with \"Nokia\" in front of their names.",
+    "After Microsoft acquired Nokia's devices and services business, the Nokia branding was superseded with \"Lumia\".",
+    "Updates often included nothing but name changes.",
+    "For the Lumia Camera, updates included a new wide range of feature additions.",
+    "Most of the imaging applications are developed by the Microsoft Lund division.",
+    "Some Lumia imaging applications stopped working in October 2015.",
+    "Lumia imaging features were integrated into the Windows Camera.",
+    "Lumia imaging features were integrated into Microsoft Photos applications.",
+    "Microsoft acquired Nokia's devices and services business."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    9,
+    10
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [
+    8
+  ],
+  "entities": [
+    "Lumia imaging apps",
+    "Microsoft Mobile",
+    "Nokia",
+    "Lumia",
+    "Scalado",
+    "Lumia Panorama",
+    "Symbian",
+    "MeeGo",
+    "Microsoft",
+    "Lumia Camera",
+    "Microsoft Lund division",
+    "Windows 10 Mobile",
+    "Windows Camera",
+    "Microsoft Photos",
+    "October 2015"
+  ]
+}

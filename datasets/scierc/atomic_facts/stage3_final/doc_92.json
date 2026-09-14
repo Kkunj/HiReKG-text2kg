@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_92",
+  "facts": [
+    "The paper presents an algorithm.",
+    "The algorithm is for learning the time-varying shape of a non-rigid 3D object.",
+    "The algorithm uses uncalibrated 2D tracking data.",
+    "The model of shape motion includes a rigid component.",
+    "The rigid component includes rotation and translation.",
+    "The model of shape motion combines a rigid component with a non-rigid deformation.",
+    "Reconstruction is ill-posed if arbitrary deformations are allowed.",
+    "The problem is constrained by assuming that the object shape at each time instant is drawn from a Gaussian distribution.",
+    "The object shape at each time instant is drawn from a Gaussian distribution.",
+    "The algorithm simultaneously estimates 3D shape and motion for each time frame.",
+    "The algorithm learns the parameters of the Gaussian.",
+    "The algorithm robustly fills-in missing data points.",
+    "The algorithm is extended to model temporal smoothness in object shape.",
+    "Modeling temporal smoothness in object shape allows the algorithm to handle severe cases of missing data.",
+    "The 3D object is non-rigid."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    9,
+    10,
+    11,
+    12
+  ],
+  "multiple-entity": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    13
+  ],
+  "ambiguous": [
+    0,
+    14
+  ],
+  "entities": [
+    "learning the time-varying shape of a non-rigid 3D object",
+    "uncalibrated 2D tracking data",
+    "shape motion",
+    "rigid component",
+    "rotation",
+    "translation",
+    "non-rigid deformation",
+    "Reconstruction",
+    "arbitrary deformations",
+    "object shape",
+    "Gaussian distribution",
+    "3D shape and motion",
+    "Gaussian",
+    "temporal smoothness in object shape",
+    "missing data"
+  ]
+}

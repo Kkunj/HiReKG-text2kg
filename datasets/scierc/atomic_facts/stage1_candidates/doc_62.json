@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_62",
+  "facts": [
+    {
+      "fact": "The paper presents an unsupervised learning approach to building a non-English (Arabic) stemmer.",
+      "supporting_span": "This paper presents an unsupervised learning approach to building a non-English (Arabic) stemmer .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The stemming model is based on statistical machine translation.",
+      "supporting_span": "The stemming model is based on statistical machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The stemming model uses an English stemmer and a small (10K sentences) parallel corpus as its sole training resources.",
+      "supporting_span": "The stemming model is based on statistical machine translation and it uses an English stemmer and a small (10K sentences) parallel corpus as its sole training resources .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "No parallel text is needed after the training phase.",
+      "supporting_span": "No parallel text is needed after the training phase .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Monolingual, unannotated text can be used to further improve the stemmer.",
+      "supporting_span": "Monolingual , unannotated text can be used to further improve the stemmer",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Monolingual, unannotated text can be used to allow the stemmer to adapt to a desired domain or genre.",
+      "supporting_span": "Monolingual , unannotated text can be used to further improve the stemmer by allowing it to adapt to a desired domain or genre .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Examples and results will be given for Arabic.",
+      "supporting_span": "Examples and results will be given for Arabic",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is applicable to any language that needs affix removal.",
+      "supporting_span": "the approach is applicable to any language that needs affix removal .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is resource-frugal.",
+      "supporting_span": "Our resource-frugal approach results in 87.5 % agreement with a state of the art , proprietary Arabic stemmer built using rules , affix lists , and human annotated text , in addition to an unsupervised component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach results in 87.5 % agreement with a state of the art, proprietary Arabic stemmer.",
+      "supporting_span": "Our resource-frugal approach results in 87.5 % agreement with a state of the art , proprietary Arabic stemmer",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proprietary Arabic stemmer is built using rules, affix lists, and human annotated text, in addition to an unsupervised component.",
+      "supporting_span": "proprietary Arabic stemmer built using rules , affix lists , and human annotated text , in addition to an unsupervised component .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Task-based evaluation using Arabic information retrieval indicates an improvement of 22-38 % in average precision over unstemmed text.",
+      "supporting_span": "Task-based evaluation using Arabic information retrieval indicates an improvement of 22-38 % in average precision over unstemmed text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Task-based evaluation using Arabic information retrieval indicates 96 % of the performance of the proprietary stemmer.",
+      "supporting_span": "Task-based evaluation using Arabic information retrieval indicates an improvement of 22-38 % in average precision over unstemmed text , and 96 % of the performance of the proprietary stemmer above .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The small parallel corpus used as a training resource contains 10K sentences.",
+      "supporting_span": "a small (10K sentences) parallel corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proprietary Arabic stemmer is state of the art.",
+      "supporting_span": "a state of the art , proprietary Arabic stemmer",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

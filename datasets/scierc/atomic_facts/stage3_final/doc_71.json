@@ -1,0 +1,60 @@
+{
+  "doc_id": "doc_71",
+  "facts": [
+    "IA is the abbreviation for Interval Algebra.",
+    "RCC is the abbreviation for Region Connection Calculus.",
+    "RCC-8 is a subset of the Region Connection Calculus (RCC).",
+    "Interval Algebra is a dominant Artificial Intelligence approach for representing and reasoning about qualitative temporal relations.",
+    "RCC-8 is a dominant Artificial Intelligence approach for representing and reasoning about qualitative topological relations.",
+    "Qualitative information can be formulated as a Qualitative Constraint Network.",
+    "QCN is the abbreviation for Qualitative Constraint Network.",
+    "The paper focuses on the minimal labeling problem.",
+    "MLP is the abbreviation for minimal labeling problem.",
+    "The paper proposes an algorithm to efficiently derive all the feasible base relations of a QCN.",
+    "The algorithm considers chordal QCNs.",
+    "◆ G-consistency is a new form of partial consistency.",
+    "The proposed algorithm uses tractable subclasses of relations.",
+    "The tractable subclasses of relations have a specific patchwork property."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    0,
+    4,
+    5,
+    6,
+    9,
+    10,
+    13
+  ],
+  "multiple-entity": [
+    2,
+    11
+  ],
+  "ambiguous": [
+    1,
+    3,
+    7,
+    8,
+    12
+  ],
+  "entities": [
+    "Interval Algebra ( IA )",
+    "Region Connection Calculus ( RCC )",
+    "RCC-8",
+    "Artificial Intelligence approaches",
+    "representing and reasoning about qualitative temporal and topological relations",
+    "qualitative temporal and topological relations",
+    "qualitative information",
+    "Qualitative Constraint Network ( QCN )",
+    "minimal labeling problem ( MLP )",
+    "QCN",
+    "chordal QCNs",
+    "partial consistency",
+    "◆ G-consistency",
+    "patchwork property",
+    "QCNs",
+    "QCNs of IA and RCC-8",
+    "IA"
+  ]
+}

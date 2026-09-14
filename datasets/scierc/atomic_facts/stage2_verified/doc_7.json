@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_7",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank.",
+      "generator_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "verifier_reasoning": "The candidate fact is a direct and verbatim quote of the first sentence of the source text.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The results are of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon.",
+      "generator_supporting_span": "the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the paper presents the results of the process mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "A Combinatory Categorial Grammar (CCG) lexicon was automatically induced.",
+      "generator_supporting_span": "automatically inducing a Combinatory Categorial Grammar (CCG) lexicon",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents the results of the action described in the candidate fact, which directly entails that the action occurred.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The Combinatory Categorial Grammar (CCG) lexicon is from a Turkish dependency treebank.",
+      "generator_supporting_span": "from a Turkish dependency treebank",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "verifier_reasoning": "The source text explicitly states that the paper is about the results of \"inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "A Turkish dependency treebank exists.",
+      "generator_supporting_span": "a Turkish dependency treebank",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank .",
+      "verifier_reasoning": "The source text states that the paper's results were derived 'from a Turkish dependency treebank', which directly implies the existence of such a treebank.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Turkish is an agglutinating free word order language.",
+      "generator_supporting_span": "Turkish is an agglutinating free word order language",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text explicitly states that it is a fact that Turkish is an agglutinating free word order language, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "Turkish is agglutinating.",
+      "generator_supporting_span": "an agglutinating free word order language",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text explicitly states that 'Turkish is an agglutinating free word order language', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "Turkish has free word order.",
+      "generator_supporting_span": "an agglutinating free word order language",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text explicitly describes Turkish as a 'free word order language', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Turkish is a language.",
+      "generator_supporting_span": "Turkish is an agglutinating free word order language",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text explicitly describes Turkish as an \"agglutinating free word order language\", which directly supports the fact that Turkish is a language.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories.",
+      "generator_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Language theories face a challenge.",
+      "generator_supporting_span": "presents a challenge for language theories",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories .",
+      "verifier_reasoning": "The source text explicitly states that a characteristic of the Turkish language 'presents a challenge for language theories,' which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Possible ways to obtain a compact lexicon were explored.",
+      "generator_supporting_span": "We explored possible ways to obtain a compact lexicon",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We explored possible ways to obtain a compact lexicon , consistent with CCG principles , from a treebank which is an order of magnitude smaller than Penn WSJ .",
+      "verifier_reasoning": "The source text explicitly states, \"We explored possible ways to obtain a compact lexicon...\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Possible ways were explored.",
+      "generator_supporting_span": "We explored possible ways",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We explored possible ways to obtain a compact lexicon , consistent with CCG principles , from a treebank which is an order of magnitude smaller than Penn WSJ .",
+      "verifier_reasoning": "The source text explicitly states, \"We explored possible ways to obtain a compact lexicon...\". This directly supports the candidate fact that possible ways were explored.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "A compact lexicon is consistent with CCG principles.",
+      "generator_supporting_span": "consistent with CCG principles",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that the authors explored ways to obtain a lexicon that was both \"compact\" and \"consistent with CCG principles\". This treats these as two separate, desired attributes, not as a statement that one implies the other.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "A treebank is an order of magnitude smaller than Penn WSJ.",
+      "generator_supporting_span": "an order of magnitude smaller than Penn WSJ",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that the specific Turkish dependency treebank used in the study is an order of magnitude smaller than the Penn WSJ. It does not make the general claim that any given treebank is smaller than the Penn WSJ.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    }
+  ]
+}

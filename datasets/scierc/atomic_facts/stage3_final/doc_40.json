@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_40",
+  "facts": [
+    "Statistical language modeling remains a challenging task, in particular for morphologically rich languages.",
+    "New approaches based on factored language models have been developed to address the problem of statistical language modeling.",
+    "Factored language models provide principled ways of including additional conditioning variables other than the preceding words.",
+    "Morphological features are additional conditioning variables other than the preceding words.",
+    "Syntactic features are additional conditioning variables other than the preceding words.",
+    "The number of possible choices for model parameters creates a large space of models.",
+    "A large space of models can not be searched exhaustively.",
+    "The paper presents an entirely data-driven model selection procedure.",
+    "An entirely data-driven model selection procedure is based on genetic search.",
+    "An entirely data-driven model selection procedure is shown to outperform knowledge-based selection procedures.",
+    "An entirely data-driven model selection procedure is shown to outperform random selection procedures.",
+    "An entirely data-driven model selection procedure is shown to outperform on two different language modeling tasks.",
+    "The two different language modeling tasks are Arabic and Turkish.",
+    "New approaches based on factored language models have been developed recently.",
+    "Factored language models provide principled ways of including morphological features as additional conditioning variables."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    4,
+    5,
+    7,
+    9,
+    10,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    8,
+    11,
+    12,
+    14
+  ],
+  "ambiguous": [
+    6
+  ],
+  "entities": [
+    "Statistical language modeling",
+    "morphologically rich languages",
+    "factored language models",
+    "conditioning variables",
+    "morphological or syntactic features",
+    "model parameters",
+    "entirely data-driven model selection procedure",
+    "genetic search",
+    "knowledge-based and random selection procedures",
+    "language modeling tasks",
+    "Arabic",
+    "Turkish"
+  ]
+}

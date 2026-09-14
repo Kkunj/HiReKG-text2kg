@@ -1,0 +1,218 @@
+[
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows NT",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Boot Manager",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Boot Manager",
+    "relation": "replaces",
+    "tail": "NTLDR",
+    "relation_code": "P1365"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "NTLDR",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "NTLDR",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "NTLDR",
+    "relation": "part of",
+    "tail": "Windows NT",
+    "relation_code": "P361"
+  },
+  {
+    "head": "NTLDR",
+    "relation": "replaced by",
+    "tail": "Windows Boot Manager",
+    "relation_code": "P1366"
+  },
+  {
+    "head": "NTLDR",
+    "relation": "replaced by",
+    "tail": "WINLOAD.EXE",
+    "relation_code": "P1366"
+  },
+  {
+    "head": "WINLOAD.EXE",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "WINLOAD.EXE",
+    "relation": "replaces",
+    "tail": "NTLDR",
+    "relation_code": "P1365"
+  },
+  {
+    "head": "FAT16",
+    "relation": "instance of",
+    "tail": "FAT VBRs",
+    "relation_code": "P31"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "follows",
+    "tail": "Windows XP",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows Server 2003",
+    "relation": "followed by",
+    "tail": "Windows Vista",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "follows",
+    "tail": "Windows XP",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "follows",
+    "tail": "Windows Server 2003",
+    "relation_code": "P155"
+  },
+  {
+    "head": "DOS 1.x",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "followed by",
+    "tail": "Windows Vista",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows Vista",
+    "relation": "part of",
+    "tail": "Windows NT",
+    "relation_code": "P361"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "NTLDR",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows XP",
+    "relation": "followed by",
+    "tail": "Windows Server 2003",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Server 2003",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows XP",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows Vista",
+    "relation_code": "P527"
+  }
+]

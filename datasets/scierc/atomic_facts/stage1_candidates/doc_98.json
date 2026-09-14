@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_98",
+  "facts": [
+    {
+      "fact": "A recognition scheme is presented.",
+      "supporting_span": "A recognition scheme that scales efficiently to a large number of objects is presented .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The recognition scheme scales efficiently to a large number of objects.",
+      "supporting_span": "A recognition scheme that scales efficiently to a large number of objects is presented .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The efficiency and quality is exhibited in a live demonstration.",
+      "supporting_span": "The efficiency and quality is exhibited in a live demonstration",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A live demonstration recognizes CD-covers from a database of 40000 images of popular music CD's.",
+      "supporting_span": "a live demonstration that recognizes CD-covers from a database of 40000 images of popular music CD 's .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The recognition scheme builds upon popular techniques of indexing descriptors extracted from local regions.",
+      "supporting_span": "The scheme builds upon popular techniques of indexing descriptors extracted from local regions ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The recognition scheme is robust to background clutter and occlusion.",
+      "supporting_span": "robust to background clutter and occlusion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The local region descriptors are hierarchically quantized in a vocabulary tree.",
+      "supporting_span": "The local region descriptors are hierarchically quantized in a vocabulary tree .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The vocabulary tree allows a larger and more discriminatory vocabulary to be used efficiently.",
+      "supporting_span": "The vocabulary tree allows a larger and more discriminatory vocabulary to be used efficiently ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Using a larger and more discriminatory vocabulary leads to a dramatic improvement in retrieval quality.",
+      "supporting_span": "which we show experimentally leads to a dramatic improvement in retrieval quality .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The most significant property of the recognition scheme is that the tree directly defines the quantization.",
+      "supporting_span": "The most significant property of the scheme is that the tree directly defines the quantization .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The quantization and the indexing are fully integrated.",
+      "supporting_span": "The quantization and the indexing are therefore fully integrated ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The quantization and the indexing are essentially one and the same.",
+      "supporting_span": "essentially being one and the same .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The recognition quality is evaluated through retrieval on a database with ground truth.",
+      "supporting_span": "The recognition quality is evaluated through retrieval on a database with ground truth ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The evaluation shows the power of the vocabulary tree approach.",
+      "supporting_span": "showing the power of the vocabulary tree approach ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The evaluation goes as high as 1 million images.",
+      "supporting_span": "going as high as 1 million images .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

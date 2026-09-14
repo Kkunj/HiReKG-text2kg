@@ -1,0 +1,17 @@
+[
+  {
+    "head": "concise , modular architecture",
+    "relation": "used for",
+    "tail": "understanding"
+  },
+  {
+    "head": "concise , modular architecture",
+    "relation": "used for",
+    "tail": "generation"
+  },
+  {
+    "head": "understanding",
+    "relation": "conjunction",
+    "tail": "generation"
+  }
+]

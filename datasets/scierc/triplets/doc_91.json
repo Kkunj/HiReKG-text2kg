@@ -1,0 +1,77 @@
+[
+  {
+    "head": "model-based bundle adjustment algorithm",
+    "relation": "used for",
+    "tail": "3D model"
+  },
+  {
+    "head": "images",
+    "relation": "used for",
+    "tail": "3D model"
+  },
+  {
+    "head": "unknown motions",
+    "relation": "part of",
+    "tail": "images"
+  },
+  {
+    "head": "surface",
+    "relation": "used for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "model-based approaches",
+    "relation": "compare",
+    "tail": "approach"
+  },
+  {
+    "head": "model space",
+    "relation": "used for",
+    "tail": "regular-izer"
+  },
+  {
+    "head": "regular-izer",
+    "relation": "compare",
+    "tail": "search space"
+  },
+  {
+    "head": "it",
+    "relation": "used for",
+    "tail": "search space"
+  },
+  {
+    "head": "face metrics",
+    "relation": "used for",
+    "tail": "face modeling"
+  },
+  {
+    "head": "face metrics",
+    "relation": "used for",
+    "tail": "face geometry"
+  },
+  {
+    "head": "face metrics",
+    "relation": "used for",
+    "tail": "search space"
+  },
+  {
+    "head": "face metrics",
+    "relation": "used for",
+    "tail": "posed system"
+  },
+  {
+    "head": "synthetic and real data",
+    "relation": "evaluate for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "synthetic and real data",
+    "relation": "evaluate for",
+    "tail": "ones"
+  },
+  {
+    "head": "algorithm",
+    "relation": "compare",
+    "tail": "ones"
+  }
+]

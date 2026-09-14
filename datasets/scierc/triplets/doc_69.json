@@ -1,0 +1,17 @@
+[
+  {
+    "head": "computational problems",
+    "relation": "feature of",
+    "tail": "probabilistic translation models"
+  },
+  {
+    "head": "probabilistic translation models",
+    "relation": "used for",
+    "tail": "machine translation"
+  },
+  {
+    "head": "probabilistic context-free grammars",
+    "relation": "feature of",
+    "tail": "models"
+  }
+]

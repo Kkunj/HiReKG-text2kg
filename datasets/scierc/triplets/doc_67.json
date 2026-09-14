@@ -1,0 +1,27 @@
+[
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "marine weather forecasts"
+  },
+  {
+    "head": "formatted weather data",
+    "relation": "used for",
+    "tail": "system"
+  },
+  {
+    "head": "natural sublanguages with stereotyped text structure",
+    "relation": "used for",
+    "tail": "synthesis"
+  },
+  {
+    "head": "linguistic and non-linguistic knowledge",
+    "relation": "used for",
+    "tail": "RAREAS"
+  },
+  {
+    "head": "bilingual or multi-lingual texts",
+    "relation": "used for",
+    "tail": "approach"
+  }
+]

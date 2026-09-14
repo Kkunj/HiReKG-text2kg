@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_58",
+  "facts": [
+    {
+      "fact": "GLOSSER is designed to support reading and learning to read in a foreign language.",
+      "supporting_span": "GLOSSER is designed to support reading and learning to read in a foreign language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GLOSSER is designed to support reading in a foreign language.",
+      "supporting_span": "GLOSSER is designed to support reading and learning to read in a foreign language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GLOSSER is designed to support learning to read in a foreign language.",
+      "supporting_span": "GLOSSER is designed to support reading and learning to read in a foreign language .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There are four language pairs currently supported by GLOSSER.",
+      "supporting_span": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English-Bulgarian is supported by GLOSSER.",
+      "supporting_span": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English-Estonian is supported by GLOSSER.",
+      "supporting_span": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English-Hungarian is supported by GLOSSER.",
+      "supporting_span": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "French-Dutch is supported by GLOSSER.",
+      "supporting_span": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GLOSSER is operational on UNIX platforms.",
+      "supporting_span": "The program is operational on UNIX and Windows '95 platforms , and has undergone a pilot user-study .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GLOSSER is operational on Windows '95 platforms.",
+      "supporting_span": "The program is operational on UNIX and Windows '95 platforms , and has undergone a pilot user-study .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "GLOSSER has undergone a pilot user-study.",
+      "supporting_span": "The program is operational on UNIX and Windows '95 platforms , and has undergone a pilot user-study .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A demonstration (in UNIX) for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis (ICALL).",
+      "supporting_span": "A demonstration (in UNIX) for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis (ICALL) , including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A demonstration (in UNIX) for Applied Natural Language Processing includes disambiguated morphological analysis.",
+      "supporting_span": "A demonstration (in UNIX) for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis (ICALL) , including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A demonstration (in UNIX) for Applied Natural Language Processing includes lemmatized indexing for an aligned bilingual corpus of word examples.",
+      "supporting_span": "A demonstration (in UNIX) for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis (ICALL) , including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lemmatized indexing is for an aligned bilingual corpus of word examples.",
+      "supporting_span": "lemmatized indexing for an aligned bilingual corpus of word examples .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

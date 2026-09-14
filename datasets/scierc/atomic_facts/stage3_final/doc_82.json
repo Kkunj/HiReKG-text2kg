@@ -1,0 +1,64 @@
+{
+  "doc_id": "doc_82",
+  "facts": [
+    "The study attempts to understand visual classification in humans using both psy-chophysical and machine learning techniques.",
+    "Frontal views of human faces were used for a gender classification task.",
+    "Human subjects classified the faces.",
+    "The gender judgment of the human subjects was recorded.",
+    "Reaction time was recorded.",
+    "Confidence rating was recorded.",
+    "Several hyperplane learning algorithms were used on the same classification task.",
+    "The hyperplane learning algorithms used the Principal Components of the texture and flowfield representation of the faces.",
+    "The classification performance of the learning algorithms was estimated.",
+    "The classification performance was estimated using the face database with the true gender of the faces as labels.",
+    "The classification performance was also estimated with the gender estimated by the subjects.",
+    "The study correlated human responses to the distance of the stimuli to the separating hyperplane of the learning algorithms.",
+    "The results suggest that human classification can be modeled by some hyperplane algorithms in the feature space used in the study.",
+    "For classification, the brain needs more processing for stimuli close to the separating hyperplane of the learning algorithms than for stimuli further away.",
+    "The faces had a flowfield representation."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13
+  ],
+  "ambiguous": [
+    2,
+    14
+  ],
+  "entities": [
+    "visual classification",
+    "psy-chophysical and machine learning techniques",
+    "Frontal views of human faces",
+    "gender classification task",
+    "gender judgment",
+    "reaction time",
+    "confidence rating",
+    "hyperplane learning algorithms",
+    "classification task",
+    "Principal Components of the texture",
+    "flowfield representation of the faces",
+    "classification",
+    "learning algorithms",
+    "face database",
+    "hyperplane of the learning algorithms",
+    "human classification",
+    "hyperplane algorithms",
+    "feature space",
+    "hyperplane"
+  ]
+}

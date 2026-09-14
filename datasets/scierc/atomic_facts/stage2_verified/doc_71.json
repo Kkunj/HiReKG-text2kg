@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_71",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "IA is the abbreviation for Interval Algebra.",
+      "generator_supporting_span": "The Interval Algebra (IA)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The Interval Algebra (IA)",
+      "verifier_reasoning": "The source text introduces the term 'The Interval Algebra' and immediately follows it with the parenthetical '(IA)', which is the standard convention for defining an abbreviation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "RCC is the abbreviation for Region Connection Calculus.",
+      "generator_supporting_span": "Region Connection Calculus (RCC)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Region Connection Calculus (RCC)",
+      "verifier_reasoning": "The source text introduces the full term 'Region Connection Calculus' and immediately follows it with the parenthetical '(RCC)', which is the standard convention for defining an abbreviation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "RCC-8 is a subset of the Region Connection Calculus (RCC).",
+      "generator_supporting_span": "a subset of the Region Connection Calculus (RCC) , namely RCC-8 ,",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a subset of the Region Connection Calculus (RCC) , namely RCC-8",
+      "verifier_reasoning": "The source text explicitly identifies a subset of the Region Connection Calculus (RCC) and then names that subset as RCC-8, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Interval Algebra is a dominant Artificial Intelligence approach for representing and reasoning about qualitative temporal relations.",
+      "generator_supporting_span": "The Interval Algebra (IA) and a subset of the Region Connection Calculus (RCC) , namely RCC-8 , are the dominant Artificial Intelligence approaches for representing and reasoning about qualitative temporal and topological relations respectively .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The Interval Algebra (IA) and a subset of the Region Connection Calculus (RCC) , namely RCC-8 , are the dominant Artificial Intelligence approaches for representing and reasoning about qualitative temporal and topological relations respectively .",
+      "verifier_reasoning": "The source text explicitly states that Interval Algebra (IA) is a dominant Artificial Intelligence approach. The word 'respectively' links Interval Algebra to the task of representing and reasoning about qualitative temporal relations.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "RCC-8 is a dominant Artificial Intelligence approach for representing and reasoning about qualitative topological relations.",
+      "generator_supporting_span": "The Interval Algebra (IA) and a subset of the Region Connection Calculus (RCC) , namely RCC-8 , are the dominant Artificial Intelligence approaches for representing and reasoning about qualitative temporal and topological relations respectively .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The Interval Algebra (IA) and a subset of the Region Connection Calculus (RCC) , namely RCC-8 , are the dominant Artificial Intelligence approaches for representing and reasoning about qualitative temporal and topological relations respectively .",
+      "verifier_reasoning": "The source text explicitly names RCC-8 as a dominant Artificial Intelligence approach. The use of the word 'respectively' directly links RCC-8 to the task of representing and reasoning about qualitative topological relations.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Qualitative information can be formulated as a Qualitative Constraint Network.",
+      "generator_supporting_span": "Such qualitative information can be formulated as a Qualitative Constraint Network (QCN) .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Such qualitative information can be formulated as a Qualitative Constraint Network (QCN) .",
+      "verifier_reasoning": "The source text explicitly states that qualitative information, referring to the qualitative temporal and topological relations mentioned in the previous sentence, can be formulated as a Qualitative Constraint Network.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "QCN is the abbreviation for Qualitative Constraint Network.",
+      "generator_supporting_span": "Qualitative Constraint Network (QCN)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Such qualitative information can be formulated as a Qualitative Constraint Network (QCN) .",
+      "verifier_reasoning": "The source text explicitly introduces the full term 'Qualitative Constraint Network' and immediately provides the abbreviation '(QCN)' in parentheses, directly supporting the fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The paper focuses on the minimal labeling problem.",
+      "generator_supporting_span": "In this paper , we focus on the minimal labeling problem (MLP)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we focus on the minimal labeling problem (MLP)",
+      "verifier_reasoning": "The source text explicitly states the focus of the paper, directly confirming that it is the minimal labeling problem.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "MLP is the abbreviation for minimal labeling problem.",
+      "generator_supporting_span": "minimal labeling problem (MLP)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we focus on the minimal labeling problem (MLP)",
+      "verifier_reasoning": "The source text introduces the full phrase \"minimal labeling problem\" and immediately follows it with the abbreviation \"(MLP)\" in parentheses, which is a standard convention for defining an acronym.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The paper proposes an algorithm to efficiently derive all the feasible base relations of a QCN.",
+      "generator_supporting_span": "we propose an algorithm to efficiently derive all the feasible base relations of a QCN .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we propose an algorithm to efficiently derive all the feasible base relations of a QCN .",
+      "verifier_reasoning": "The source text explicitly states that the authors \"propose an algorithm to efficiently derive all the feasible base relations of a QCN,\" which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The algorithm considers chordal QCNs.",
+      "generator_supporting_span": "Our algorithm considers chordal QCNs",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our algorithm considers chordal QCNs and a new form of partial consistency which we define as ◆ G-consistency .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm proposed in the paper considers chordal QCNs.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "◆ G-consistency is a new form of partial consistency.",
+      "generator_supporting_span": "a new form of partial consistency which we define as ◆ G-consistency .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our algorithm considers chordal QCNs and a new form of partial consistency which we define as ◆ G-consistency .",
+      "verifier_reasoning": "The source text explicitly states that the authors' algorithm considers 'a new form of partial consistency which we define as ◆ G-consistency', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The proposed algorithm uses tractable subclasses of relations.",
+      "generator_supporting_span": "the proposed algorithm uses tractable subclasses of relations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Further , the proposed algorithm uses tractable subclasses of relations having a specific patchwork property for which-consistency implies the consistency of the input QCN .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm being proposed uses tractable subclasses of relations, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The tractable subclasses of relations have a specific patchwork property.",
+      "generator_supporting_span": "having a specific patchwork property",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the proposed algorithm uses tractable subclasses of relations having a specific patchwork property",
+      "verifier_reasoning": "The source text explicitly states that the algorithm uses 'tractable subclasses of relations having a specific patchwork property', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "-consistency implies the consistency of the input QCN.",
+      "generator_supporting_span": "for which-consistency implies the consistency of the input QCN .",
+      "span_mismatch": false,
+      "verifier_supporting_span": null,
+      "verifier_reasoning": "The source text states that \"-consistency implies the consistency of the input QCN\" only for \"tractable subclasses of relations having a specific patchwork property\". The candidate fact presents this as a general statement without this crucial condition, which is not supported by the text.",
+      "verifier_verdict": "NOT_STATED",
+      "verifier_error": null
+    }
+  ]
+}

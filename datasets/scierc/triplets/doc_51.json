@@ -1,0 +1,12 @@
+[
+  {
+    "head": "pronominal anaphora resolution module",
+    "relation": "part of",
+    "tail": "Lucy"
+  },
+  {
+    "head": "Lucy",
+    "relation": "hyponym of",
+    "tail": "English understanding system"
+  }
+]

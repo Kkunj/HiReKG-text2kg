@@ -1,0 +1,432 @@
+2026-05-15 12:08:13 | INFO     | ======================================================================
+2026-05-15 12:08:13 | INFO     | UIR (Entity Redundancy) Evaluation
+2026-05-15 12:08:13 | INFO     |   Approach      : rakg
+2026-05-15 12:08:13 | INFO     |   Experiment dir: C:\<PROJECT_ROOT>\graph_rag\baselines\rakg\experiments\rakg_mine_qwen3_14b
+2026-05-15 12:08:13 | INFO     |   Output dir    : C:\<PROJECT_ROOT>\graph_rag\evaluation_pipeline\structural
+2026-05-15 12:08:13 | INFO     |   Model         : all-MiniLM-L6-v2
+2026-05-15 12:08:13 | INFO     |   Threshold     : 0.75
+2026-05-15 12:08:13 | INFO     | ======================================================================
+2026-05-15 12:08:13 | INFO     | Loading SentenceTransformer model 'all-MiniLM-L6-v2' ...
+2026-05-15 12:08:24 | INFO     | Model loaded.
+2026-05-15 12:08:24 | INFO     | Found 100 document folders.
+2026-05-15 12:08:24 | INFO     | [1/100] Processing doc_0 ...
+2026-05-15 12:08:24 | DEBUG    |   Loaded 49 entities, 49 descriptions
+2026-05-15 12:08:25 | INFO     |   entities= 49  redundancy=0.2921  redundant_pairs=19  max=0.9788
+2026-05-15 12:08:25 | DEBUG    |   Most redundant: 'female butterflies' <-> 'Female butterflies' = 0.9788
+2026-05-15 12:08:25 | INFO     | [2/100] Processing doc_1 ...
+2026-05-15 12:08:25 | DEBUG    |   Loaded 38 entities, 38 descriptions
+2026-05-15 12:08:25 | INFO     |   entities= 38  redundancy=0.2956  redundant_pairs=7  max=0.9752
+2026-05-15 12:08:25 | DEBUG    |   Most redundant: 'cursed objects' <-> 'Cursed objects' = 0.9752
+2026-05-15 12:08:25 | INFO     | [3/100] Processing doc_2 ...
+2026-05-15 12:08:25 | DEBUG    |   Loaded 52 entities, 52 descriptions
+2026-05-15 12:08:25 | INFO     |   entities= 52  redundancy=0.2425  redundant_pairs=12  max=0.9788
+2026-05-15 12:08:25 | DEBUG    |   Most redundant: 'ethical dilemmas' <-> 'Ethical dilemmas' = 0.9788
+2026-05-15 12:08:25 | INFO     | [4/100] Processing doc_3 ...
+2026-05-15 12:08:25 | DEBUG    |   Loaded 24 entities, 24 descriptions
+2026-05-15 12:08:26 | INFO     |   entities= 24  redundancy=0.3544  redundant_pairs=5  max=0.9752
+2026-05-15 12:08:26 | DEBUG    |   Most redundant: 'Paleontologists' <-> 'paleontologists' = 0.9752
+2026-05-15 12:08:26 | INFO     | [5/100] Processing doc_4 ...
+2026-05-15 12:08:26 | DEBUG    |   Loaded 93 entities, 93 descriptions
+2026-05-15 12:08:27 | INFO     |   entities= 93  redundancy=0.2643  redundant_pairs=14  max=0.9859
+2026-05-15 12:08:27 | DEBUG    |   Most redundant: 'Evolution Of Video Games' <-> 'Evolution of Video Games' = 0.9859
+2026-05-15 12:08:27 | INFO     | [6/100] Processing doc_5 ...
+2026-05-15 12:08:27 | DEBUG    |   Loaded 77 entities, 77 descriptions
+2026-05-15 12:08:28 | INFO     |   entities= 77  redundancy=0.3498  redundant_pairs=53  max=0.9824
+2026-05-15 12:08:28 | DEBUG    |   Most redundant: 'bee population decline' <-> 'Bee population decline' = 0.9824
+2026-05-15 12:08:28 | INFO     | [7/100] Processing doc_6 ...
+2026-05-15 12:08:28 | DEBUG    |   Loaded 42 entities, 42 descriptions
+2026-05-15 12:08:28 | INFO     |   entities= 42  redundancy=0.2696  redundant_pairs=12  max=0.9642
+2026-05-15 12:08:28 | DEBUG    |   Most redundant: 'electronic' <-> 'Electronic' = 0.9642
+2026-05-15 12:08:28 | INFO     | [8/100] Processing doc_7 ...
+2026-05-15 12:08:28 | DEBUG    |   Loaded 49 entities, 49 descriptions
+2026-05-15 12:08:28 | INFO     |   entities= 49  redundancy=0.2676  redundant_pairs=6  max=0.9788
+2026-05-15 12:08:28 | DEBUG    |   Most redundant: 'Apollo 11 mission' <-> 'Apollo 11 Mission' = 0.9788
+2026-05-15 12:08:28 | INFO     | [9/100] Processing doc_8 ...
+2026-05-15 12:08:28 | DEBUG    |   Loaded 44 entities, 44 descriptions
+2026-05-15 12:08:29 | INFO     |   entities= 44  redundancy=0.2730  redundant_pairs=3  max=0.9014
+2026-05-15 12:08:29 | DEBUG    |   Most redundant: 'Western culture' <-> 'Eastern culture' = 0.9014
+2026-05-15 12:08:29 | INFO     | [10/100] Processing doc_9 ...
+2026-05-15 12:08:29 | DEBUG    |   Loaded 41 entities, 41 descriptions
+2026-05-15 12:08:29 | INFO     |   entities= 41  redundancy=0.3189  redundant_pairs=12  max=0.9679
+2026-05-15 12:08:29 | DEBUG    |   Most redundant: 'Black holes' <-> 'black holes' = 0.9679
+2026-05-15 12:08:29 | INFO     | [11/100] Processing doc_10 ...
+2026-05-15 12:08:29 | DEBUG    |   Loaded 74 entities, 74 descriptions
+2026-05-15 12:08:30 | INFO     |   entities= 74  redundancy=0.3380  redundant_pairs=26  max=0.9752
+2026-05-15 12:08:30 | DEBUG    |   Most redundant: 'Wernicke's area' <-> 'Wernicke's Area' = 0.9752
+2026-05-15 12:08:30 | INFO     | [12/100] Processing doc_11 ...
+2026-05-15 12:08:30 | DEBUG    |   Loaded 48 entities, 48 descriptions
+2026-05-15 12:08:30 | INFO     |   entities= 48  redundancy=0.2630  redundant_pairs=11  max=0.9859
+2026-05-15 12:08:30 | DEBUG    |   Most redundant: 'Cutting-edge Technology' <-> 'Cutting-edge technology' = 0.9859
+2026-05-15 12:08:30 | INFO     | [13/100] Processing doc_12 ...
+2026-05-15 12:08:30 | DEBUG    |   Loaded 57 entities, 57 descriptions
+2026-05-15 12:08:31 | INFO     |   entities= 57  redundancy=0.3094  redundant_pairs=27  max=0.9788
+2026-05-15 12:08:31 | DEBUG    |   Most redundant: 'mechanical energy' <-> 'Mechanical energy' = 0.9788
+2026-05-15 12:08:31 | INFO     | [14/100] Processing doc_13 ...
+2026-05-15 12:08:31 | DEBUG    |   Loaded 26 entities, 26 descriptions
+2026-05-15 12:08:31 | INFO     |   entities= 26  redundancy=0.3333  redundant_pairs=1  max=0.9606
+2026-05-15 12:08:31 | DEBUG    |   Most redundant: 'Tattooing' <-> 'tattooing' = 0.9606
+2026-05-15 12:08:31 | INFO     | [15/100] Processing doc_14 ...
+2026-05-15 12:08:31 | DEBUG    |   Loaded 68 entities, 68 descriptions
+2026-05-15 12:08:32 | INFO     |   entities= 68  redundancy=0.3284  redundant_pairs=33  max=0.9788
+2026-05-15 12:08:32 | DEBUG    |   Most redundant: 'Burial Practices' <-> 'Burial practices' = 0.9788
+2026-05-15 12:08:32 | INFO     | [16/100] Processing doc_15 ...
+2026-05-15 12:08:32 | DEBUG    |   Loaded 74 entities, 74 descriptions
+2026-05-15 12:08:33 | INFO     |   entities= 74  redundancy=0.2678  redundant_pairs=18  max=0.9788
+2026-05-15 12:08:33 | DEBUG    |   Most redundant: 'Maillard reaction' <-> 'Maillard Reaction' = 0.9788
+2026-05-15 12:08:33 | INFO     | [17/100] Processing doc_16 ...
+2026-05-15 12:08:33 | DEBUG    |   Loaded 49 entities, 49 descriptions
+2026-05-15 12:08:34 | INFO     |   entities= 49  redundancy=0.2107  redundant_pairs=8  max=0.9824
+2026-05-15 12:08:34 | DEBUG    |   Most redundant: 'club-like appendage' <-> 'Club-like appendage' = 0.9824
+2026-05-15 12:08:34 | INFO     | [18/100] Processing doc_17 ...
+2026-05-15 12:08:34 | DEBUG    |   Loaded 53 entities, 53 descriptions
+2026-05-15 12:08:34 | INFO     |   entities= 53  redundancy=0.2896  redundant_pairs=9  max=0.9606
+2026-05-15 12:08:34 | DEBUG    |   Most redundant: 'REM sleep' <-> 'REM Sleep' = 0.9606
+2026-05-15 12:08:34 | INFO     | [19/100] Processing doc_18 ...
+2026-05-15 12:08:34 | DEBUG    |   Loaded 53 entities, 53 descriptions
+2026-05-15 12:08:35 | INFO     |   entities= 53  redundancy=0.2317  redundant_pairs=6  max=0.9895
+2026-05-15 12:08:35 | DEBUG    |   Most redundant: 'Mass production of board games' <-> 'mass production of board games' = 0.9895
+2026-05-15 12:08:35 | INFO     | [20/100] Processing doc_19 ...
+2026-05-15 12:08:35 | DEBUG    |   Loaded 46 entities, 46 descriptions
+2026-05-15 12:08:35 | INFO     |   entities= 46  redundancy=0.2829  redundant_pairs=8  max=0.9930
+2026-05-15 12:08:35 | DEBUG    |   Most redundant: 'negative effects on students' well-being and learning outcomes' <-> 'Negative effects on students' well-being and learning outcomes' = 0.993
+2026-05-15 12:08:35 | INFO     | [21/100] Processing doc_20 ...
+2026-05-15 12:08:35 | DEBUG    |   Loaded 50 entities, 50 descriptions
+2026-05-15 12:08:36 | INFO     |   entities= 50  redundancy=0.3481  redundant_pairs=18  max=0.9859
+2026-05-15 12:08:36 | DEBUG    |   Most redundant: 'Rhizosphere Communication' <-> 'Rhizosphere communication' = 0.9859
+2026-05-15 12:08:36 | INFO     | [22/100] Processing doc_21 ...
+2026-05-15 12:08:36 | DEBUG    |   Loaded 36 entities, 36 descriptions
+2026-05-15 12:08:36 | INFO     |   entities= 36  redundancy=0.2820  redundant_pairs=7  max=0.9788
+2026-05-15 12:08:36 | DEBUG    |   Most redundant: 'cryptocurrencies' <-> 'Cryptocurrencies' = 0.9788
+2026-05-15 12:08:36 | INFO     | [23/100] Processing doc_22 ...
+2026-05-15 12:08:36 | DEBUG    |   Loaded 39 entities, 39 descriptions
+2026-05-15 12:08:36 | INFO     |   entities= 39  redundancy=0.3139  redundant_pairs=8  max=0.9642
+2026-05-15 12:08:36 | DEBUG    |   Most redundant: 'Astronauts' <-> 'astronauts' = 0.9642
+2026-05-15 12:08:36 | INFO     | [24/100] Processing doc_23 ...
+2026-05-15 12:08:36 | DEBUG    |   Loaded 27 entities, 27 descriptions
+2026-05-15 12:08:37 | INFO     |   entities= 27  redundancy=0.3454  redundant_pairs=0  max=0.6929
+2026-05-15 12:08:37 | DEBUG    |   Most redundant: 'Communication' <-> 'Shallow Communication' = 0.6929
+2026-05-15 12:08:37 | INFO     | [25/100] Processing doc_24 ...
+2026-05-15 12:08:37 | DEBUG    |   Loaded 52 entities, 52 descriptions
+2026-05-15 12:08:37 | INFO     |   entities= 52  redundancy=0.2705  redundant_pairs=13  max=0.9752
+2026-05-15 12:08:37 | DEBUG    |   Most redundant: 'Environmental Sustainability' <-> 'environmental sustainability' = 0.9752
+2026-05-15 12:08:37 | INFO     | [26/100] Processing doc_25 ...
+2026-05-15 12:08:37 | DEBUG    |   Loaded 75 entities, 75 descriptions
+2026-05-15 12:08:38 | INFO     |   entities= 75  redundancy=0.2534  redundant_pairs=15  max=0.9715
+2026-05-15 12:08:38 | DEBUG    |   Most redundant: 'Aerodynamics' <-> 'aerodynamics' = 0.9715
+2026-05-15 12:08:38 | INFO     | [27/100] Processing doc_26 ...
+2026-05-15 12:08:38 | DEBUG    |   Loaded 38 entities, 38 descriptions
+2026-05-15 12:08:39 | INFO     |   entities= 38  redundancy=0.1709  redundant_pairs=7  max=0.9788
+2026-05-15 12:08:39 | DEBUG    |   Most redundant: 'War of the Worlds radio broadcast' <-> 'War of the Worlds Radio Broadcast' = 0.9788
+2026-05-15 12:08:39 | INFO     | [28/100] Processing doc_27 ...
+2026-05-15 12:08:39 | DEBUG    |   Loaded 59 entities, 59 descriptions
+2026-05-15 12:08:39 | INFO     |   entities= 59  redundancy=0.2859  redundant_pairs=18  max=0.9859
+2026-05-15 12:08:39 | DEBUG    |   Most redundant: 'Standardization of English' <-> 'standardization of English' = 0.9859
+2026-05-15 12:08:39 | INFO     | [29/100] Processing doc_28 ...
+2026-05-15 12:08:39 | DEBUG    |   Loaded 53 entities, 53 descriptions
+2026-05-15 12:08:40 | INFO     |   entities= 53  redundancy=0.2731  redundant_pairs=13  max=0.9679
+2026-05-15 12:08:40 | DEBUG    |   Most redundant: 'Antibiotics' <-> 'antibiotics' = 0.9679
+2026-05-15 12:08:40 | INFO     | [30/100] Processing doc_29 ...
+2026-05-15 12:08:40 | DEBUG    |   Loaded 55 entities, 55 descriptions
+2026-05-15 12:08:40 | INFO     |   entities= 55  redundancy=0.3101  redundant_pairs=14  max=0.9788
+2026-05-15 12:08:40 | DEBUG    |   Most redundant: 'traditional Japanese aesthetics' <-> 'Traditional Japanese Aesthetics' = 0.9788
+2026-05-15 12:08:40 | INFO     | [31/100] Processing doc_30 ...
+2026-05-15 12:08:40 | DEBUG    |   Loaded 45 entities, 45 descriptions
+2026-05-15 12:08:41 | INFO     |   entities= 45  redundancy=0.3263  redundant_pairs=9  max=0.9642
+2026-05-15 12:08:41 | DEBUG    |   Most redundant: 'Time zones' <-> 'Time Zones' = 0.9642
+2026-05-15 12:08:41 | INFO     | [32/100] Processing doc_31 ...
+2026-05-15 12:08:41 | DEBUG    |   Loaded 78 entities, 78 descriptions
+2026-05-15 12:08:43 | INFO     |   entities= 78  redundancy=0.2689  redundant_pairs=24  max=0.9824
+2026-05-15 12:08:43 | DEBUG    |   Most redundant: 'Enlightenment Period' <-> 'Enlightenment period' = 0.9824
+2026-05-15 12:08:43 | INFO     | [33/100] Processing doc_32 ...
+2026-05-15 12:08:43 | DEBUG    |   Loaded 15 entities, 15 descriptions
+2026-05-15 12:08:43 | INFO     |   entities= 15  redundancy=0.3301  redundant_pairs=1  max=0.7960
+2026-05-15 12:08:43 | DEBUG    |   Most redundant: 'Atlantis Debate' <-> 'Atlantis Theories' = 0.796
+2026-05-15 12:08:43 | INFO     | [34/100] Processing doc_33 ...
+2026-05-15 12:08:43 | DEBUG    |   Loaded 73 entities, 73 descriptions
+2026-05-15 12:08:45 | INFO     |   entities= 73  redundancy=0.2712  redundant_pairs=15  max=0.9824
+2026-05-15 12:08:45 | DEBUG    |   Most redundant: 'Pictographic Symbols' <-> 'Pictographic symbols' = 0.9824
+2026-05-15 12:08:45 | INFO     | [35/100] Processing doc_34 ...
+2026-05-15 12:08:45 | DEBUG    |   Loaded 45 entities, 45 descriptions
+2026-05-15 12:08:46 | INFO     |   entities= 45  redundancy=0.3098  redundant_pairs=11  max=0.9859
+2026-05-15 12:08:46 | DEBUG    |   Most redundant: 'Mathematical principles' <-> 'mathematical principles' = 0.9859
+2026-05-15 12:08:46 | INFO     | [36/100] Processing doc_35 ...
+2026-05-15 12:08:46 | DEBUG    |   Loaded 32 entities, 32 descriptions
+2026-05-15 12:08:47 | INFO     |   entities= 32  redundancy=0.3237  redundant_pairs=6  max=0.9965
+2026-05-15 12:08:47 | DEBUG    |   Most redundant: 'Brain areas associated with reward, emotion regulation, and social cognition' <-> 'brain areas associated with reward, emotion regulation, and social cognition' = 0.9965
+2026-05-15 12:08:47 | INFO     | [37/100] Processing doc_36 ...
+2026-05-15 12:08:47 | DEBUG    |   Loaded 37 entities, 37 descriptions
+2026-05-15 12:08:47 | INFO     |   entities= 37  redundancy=0.2881  redundant_pairs=4  max=0.9569
+2026-05-15 12:08:47 | DEBUG    |   Most redundant: 'Cultural Heritage' <-> 'cultural heritage' = 0.9569
+2026-05-15 12:08:47 | INFO     | [38/100] Processing doc_37 ...
+2026-05-15 12:08:47 | DEBUG    |   Loaded 96 entities, 96 descriptions
+2026-05-15 12:08:51 | INFO     |   entities= 96  redundancy=0.3019  redundant_pairs=36  max=0.9895
+2026-05-15 12:08:51 | DEBUG    |   Most redundant: 'policy support and incentives' <-> 'Policy support and incentives' = 0.9895
+2026-05-15 12:08:51 | INFO     | [39/100] Processing doc_38 ...
+2026-05-15 12:08:51 | DEBUG    |   Loaded 61 entities, 61 descriptions
+2026-05-15 12:08:53 | INFO     |   entities= 61  redundancy=0.3361  redundant_pairs=9  max=0.9385
+2026-05-15 12:08:53 | DEBUG    |   Most redundant: 'piracy' <-> 'Piracy' = 0.9385
+2026-05-15 12:08:53 | INFO     | [40/100] Processing doc_39 ...
+2026-05-15 12:08:53 | DEBUG    |   Loaded 56 entities, 56 descriptions
+2026-05-15 12:08:55 | INFO     |   entities= 56  redundancy=0.3020  redundant_pairs=10  max=0.9715
+2026-05-15 12:08:55 | DEBUG    |   Most redundant: 'Fermentation' <-> 'fermentation' = 0.9715
+2026-05-15 12:08:55 | INFO     | [41/100] Processing doc_40 ...
+2026-05-15 12:08:55 | DEBUG    |   Loaded 28 entities, 28 descriptions
+2026-05-15 12:08:55 | INFO     |   entities= 28  redundancy=0.3660  redundant_pairs=4  max=0.9752
+2026-05-15 12:08:55 | DEBUG    |   Most redundant: 'Psychoanalysis' <-> 'psychoanalysis' = 0.9752
+2026-05-15 12:08:55 | INFO     | [42/100] Processing doc_41 ...
+2026-05-15 12:08:55 | DEBUG    |   Loaded 49 entities, 49 descriptions
+2026-05-15 12:08:56 | INFO     |   entities= 49  redundancy=0.2116  redundant_pairs=4  max=0.9715
+2026-05-15 12:08:56 | DEBUG    |   Most redundant: 'adaptability' <-> 'Adaptability' = 0.9715
+2026-05-15 12:08:56 | INFO     | [43/100] Processing doc_42 ...
+2026-05-15 12:08:56 | DEBUG    |   Loaded 72 entities, 72 descriptions
+2026-05-15 12:08:58 | INFO     |   entities= 72  redundancy=0.2439  redundant_pairs=28  max=0.9859
+2026-05-15 12:08:58 | DEBUG    |   Most redundant: 'United States government' <-> 'United States Government' = 0.9859
+2026-05-15 12:08:58 | INFO     | [44/100] Processing doc_43 ...
+2026-05-15 12:08:58 | DEBUG    |   Loaded 61 entities, 61 descriptions
+2026-05-15 12:08:59 | INFO     |   entities= 61  redundancy=0.2781  redundant_pairs=17  max=0.9788
+2026-05-15 12:08:59 | DEBUG    |   Most redundant: 'telecommunications' <-> 'Telecommunications' = 0.9788
+2026-05-15 12:08:59 | INFO     | [45/100] Processing doc_44 ...
+2026-05-15 12:08:59 | DEBUG    |   Loaded 92 entities, 92 descriptions
+2026-05-15 12:09:02 | INFO     |   entities= 92  redundancy=0.2198  redundant_pairs=12  max=0.9715
+2026-05-15 12:09:02 | DEBUG    |   Most redundant: '20th century' <-> '20th Century' = 0.9715
+2026-05-15 12:09:02 | INFO     | [46/100] Processing doc_45 ...
+2026-05-15 12:09:02 | DEBUG    |   Loaded 47 entities, 47 descriptions
+2026-05-15 12:09:03 | INFO     |   entities= 47  redundancy=0.3339  redundant_pairs=9  max=0.9824
+2026-05-15 12:09:03 | DEBUG    |   Most redundant: 'Hieroglyphic script' <-> 'hieroglyphic script' = 0.9824
+2026-05-15 12:09:03 | INFO     | [47/100] Processing doc_46 ...
+2026-05-15 12:09:03 | DEBUG    |   Loaded 49 entities, 49 descriptions
+2026-05-15 12:09:03 | INFO     |   entities= 49  redundancy=0.3333  redundant_pairs=13  max=0.9715
+2026-05-15 12:09:03 | DEBUG    |   Most redundant: 'environmental conditions' <-> 'Environmental Conditions' = 0.9715
+2026-05-15 12:09:03 | INFO     | [48/100] Processing doc_47 ...
+2026-05-15 12:09:03 | DEBUG    |   Loaded 27 entities, 27 descriptions
+2026-05-15 12:09:04 | INFO     |   entities= 27  redundancy=0.2879  redundant_pairs=4  max=0.9642
+2026-05-15 12:09:04 | DEBUG    |   Most redundant: 'spinnerets' <-> 'Spinnerets' = 0.9642
+2026-05-15 12:09:04 | INFO     | [49/100] Processing doc_48 ...
+2026-05-15 12:09:04 | DEBUG    |   Loaded 11 entities, 11 descriptions
+2026-05-15 12:09:04 | INFO     |   entities= 11  redundancy=0.3449  redundant_pairs=1  max=0.9715
+2026-05-15 12:09:04 | DEBUG    |   Most redundant: 'Storytelling' <-> 'storytelling' = 0.9715
+2026-05-15 12:09:04 | INFO     | [50/100] Processing doc_49 ...
+2026-05-15 12:09:04 | DEBUG    |   Loaded 28 entities, 28 descriptions
+2026-05-15 12:09:04 | INFO     |   entities= 28  redundancy=0.3032  redundant_pairs=6  max=0.9824
+2026-05-15 12:09:04 | DEBUG    |   Most redundant: 'Autonomous vehicles' <-> 'autonomous vehicles' = 0.9824
+2026-05-15 12:09:04 | INFO     | [51/100] Processing doc_50 ...
+2026-05-15 12:09:04 | DEBUG    |   Loaded 73 entities, 73 descriptions
+2026-05-15 12:09:06 | INFO     |   entities= 73  redundancy=0.3289  redundant_pairs=29  max=0.9824
+2026-05-15 12:09:06 | DEBUG    |   Most redundant: 'Coastal Communities' <-> 'Coastal communities' = 0.9824
+2026-05-15 12:09:06 | INFO     | [52/100] Processing doc_51 ...
+2026-05-15 12:09:06 | DEBUG    |   Loaded 28 entities, 28 descriptions
+2026-05-15 12:09:06 | INFO     |   entities= 28  redundancy=0.3201  redundant_pairs=2  max=0.7749
+2026-05-15 12:09:06 | DEBUG    |   Most redundant: 'emotion' <-> 'emotions' = 0.7749
+2026-05-15 12:09:06 | INFO     | [53/100] Processing doc_52 ...
+2026-05-15 12:09:06 | DEBUG    |   Loaded 24 entities, 24 descriptions
+2026-05-15 12:09:06 | INFO     |   entities= 24  redundancy=0.3717  redundant_pairs=3  max=0.9532
+2026-05-15 12:09:06 | DEBUG    |   Most redundant: 'Sports Industry' <-> 'sports industry' = 0.9532
+2026-05-15 12:09:06 | INFO     | [54/100] Processing doc_53 ...
+2026-05-15 12:09:06 | DEBUG    |   Loaded 52 entities, 52 descriptions
+2026-05-15 12:09:07 | INFO     |   entities= 52  redundancy=0.3303  redundant_pairs=16  max=0.9859
+2026-05-15 12:09:07 | DEBUG    |   Most redundant: 'Enhanced Fujita (EF) scale' <-> 'Enhanced Fujita (EF) Scale' = 0.9859
+2026-05-15 12:09:07 | INFO     | [55/100] Processing doc_54 ...
+2026-05-15 12:09:07 | DEBUG    |   Loaded 41 entities, 41 descriptions
+2026-05-15 12:09:08 | INFO     |   entities= 41  redundancy=0.2843  redundant_pairs=10  max=0.9824
+2026-05-15 12:09:08 | DEBUG    |   Most redundant: 'Modern Olympic Games' <-> 'modern Olympic Games' = 0.9824
+2026-05-15 12:09:08 | INFO     | [56/100] Processing doc_55 ...
+2026-05-15 12:09:08 | DEBUG    |   Loaded 63 entities, 63 descriptions
+2026-05-15 12:09:09 | INFO     |   entities= 63  redundancy=0.3118  redundant_pairs=21  max=0.9824
+2026-05-15 12:09:09 | DEBUG    |   Most redundant: 'Bicycle manufacturing' <-> 'bicycle manufacturing' = 0.9824
+2026-05-15 12:09:09 | INFO     | [57/100] Processing doc_56 ...
+2026-05-15 12:09:09 | DEBUG    |   Loaded 41 entities, 41 descriptions
+2026-05-15 12:09:10 | INFO     |   entities= 41  redundancy=0.3803  redundant_pairs=12  max=0.9824
+2026-05-15 12:09:10 | DEBUG    |   Most redundant: 'Psychological Factors' <-> 'Psychological factors' = 0.9824
+2026-05-15 12:09:10 | INFO     | [58/100] Processing doc_57 ...
+2026-05-15 12:09:10 | DEBUG    |   Loaded 128 entities, 128 descriptions
+2026-05-15 12:09:13 | INFO     |   entities=128  redundancy=0.2229  redundant_pairs=25  max=0.9895
+2026-05-15 12:09:13 | DEBUG    |   Most redundant: 'Advancements in medical technology' <-> 'advancements in medical technology' = 0.9895
+2026-05-15 12:09:13 | INFO     | [59/100] Processing doc_58 ...
+2026-05-15 12:09:13 | DEBUG    |   Loaded 57 entities, 57 descriptions
+2026-05-15 12:09:13 | INFO     |   entities= 57  redundancy=0.3352  redundant_pairs=17  max=0.9859
+2026-05-15 12:09:13 | DEBUG    |   Most redundant: 'geostationary satellites' <-> 'Geostationary satellites' = 0.9859
+2026-05-15 12:09:13 | INFO     | [60/100] Processing doc_59 ...
+2026-05-15 12:09:13 | DEBUG    |   Loaded 64 entities, 64 descriptions
+2026-05-15 12:09:14 | INFO     |   entities= 64  redundancy=0.3136  redundant_pairs=13  max=0.9715
+2026-05-15 12:09:14 | DEBUG    |   Most redundant: 'Film editing' <-> 'Film Editing' = 0.9715
+2026-05-15 12:09:14 | INFO     | [61/100] Processing doc_60 ...
+2026-05-15 12:09:14 | DEBUG    |   Loaded 43 entities, 43 descriptions
+2026-05-15 12:09:14 | INFO     |   entities= 43  redundancy=0.3227  redundant_pairs=4  max=0.9752
+2026-05-15 12:09:14 | DEBUG    |   Most redundant: 'Language death' <-> 'language death' = 0.9752
+2026-05-15 12:09:14 | INFO     | [62/100] Processing doc_61 ...
+2026-05-15 12:09:14 | DEBUG    |   Loaded 30 entities, 30 descriptions
+2026-05-15 12:09:15 | INFO     |   entities= 30  redundancy=0.3979  redundant_pairs=13  max=0.9824
+2026-05-15 12:09:15 | DEBUG    |   Most redundant: 'Streaming platforms' <-> 'Streaming Platforms' = 0.9824
+2026-05-15 12:09:15 | INFO     | [63/100] Processing doc_62 ...
+2026-05-15 12:09:15 | DEBUG    |   Loaded 76 entities, 76 descriptions
+2026-05-15 12:09:16 | INFO     |   entities= 76  redundancy=0.2170  redundant_pairs=23  max=0.9788
+2026-05-15 12:09:16 | DEBUG    |   Most redundant: 'Internet Invention' <-> 'Internet invention' = 0.9788
+2026-05-15 12:09:16 | INFO     | [64/100] Processing doc_63 ...
+2026-05-15 12:09:16 | DEBUG    |   Loaded 95 entities, 95 descriptions
+2026-05-15 12:09:17 | INFO     |   entities= 95  redundancy=0.2385  redundant_pairs=21  max=0.9930
+2026-05-15 12:09:17 | DEBUG    |   Most redundant: 'national conversation on race and inequality' <-> 'National conversation on race and inequality' = 0.993
+2026-05-15 12:09:17 | INFO     | [65/100] Processing doc_64 ...
+2026-05-15 12:09:17 | DEBUG    |   Loaded 33 entities, 33 descriptions
+2026-05-15 12:09:17 | INFO     |   entities= 33  redundancy=0.2908  redundant_pairs=5  max=0.9606
+2026-05-15 12:09:17 | DEBUG    |   Most redundant: 'Lateral Line System' <-> 'Lateral line system' = 0.9606
+2026-05-15 12:09:17 | INFO     | [66/100] Processing doc_65 ...
+2026-05-15 12:09:17 | DEBUG    |   Loaded 6 entities, 6 descriptions
+2026-05-15 12:09:17 | INFO     |   entities=  6  redundancy=0.3868  redundant_pairs=0  max=0.5477
+2026-05-15 12:09:17 | DEBUG    |   Most redundant: 'libraries' <-> 'literacy initiatives' = 0.5477
+2026-05-15 12:09:17 | INFO     | [67/100] Processing doc_66 ...
+2026-05-15 12:09:17 | DEBUG    |   Loaded 53 entities, 53 descriptions
+2026-05-15 12:09:18 | INFO     |   entities= 53  redundancy=0.2587  redundant_pairs=7  max=0.9859
+2026-05-15 12:09:18 | DEBUG    |   Most redundant: 'Pygmalion and Galatea myth' <-> 'Pygmalion and Galatea Myth' = 0.9859
+2026-05-15 12:09:18 | INFO     | [68/100] Processing doc_67 ...
+2026-05-15 12:09:18 | DEBUG    |   Loaded 46 entities, 46 descriptions
+2026-05-15 12:09:18 | INFO     |   entities= 46  redundancy=0.3099  redundant_pairs=6  max=0.9824
+2026-05-15 12:09:18 | DEBUG    |   Most redundant: 'Harry Potter series' <-> 'Harry Potter Series' = 0.9824
+2026-05-15 12:09:18 | INFO     | [69/100] Processing doc_68 ...
+2026-05-15 12:09:18 | DEBUG    |   Loaded 72 entities, 72 descriptions
+2026-05-15 12:09:19 | INFO     |   entities= 72  redundancy=0.2354  redundant_pairs=15  max=0.9824
+2026-05-15 12:09:19 | DEBUG    |   Most redundant: 'Alzheimer's Disease' <-> 'Alzheimer's disease' = 0.9824
+2026-05-15 12:09:19 | INFO     | [70/100] Processing doc_69 ...
+2026-05-15 12:09:19 | DEBUG    |   Loaded 32 entities, 32 descriptions
+2026-05-15 12:09:20 | INFO     |   entities= 32  redundancy=0.2932  redundant_pairs=5  max=0.9824
+2026-05-15 12:09:20 | DEBUG    |   Most redundant: 'Standardized typefaces' <-> 'standardized typefaces' = 0.9824
+2026-05-15 12:09:20 | INFO     | [71/100] Processing doc_70 ...
+2026-05-15 12:09:20 | DEBUG    |   Loaded 76 entities, 76 descriptions
+2026-05-15 12:09:20 | INFO     |   entities= 76  redundancy=0.2582  redundant_pairs=21  max=0.9859
+2026-05-15 12:09:20 | DEBUG    |   Most redundant: 'Conservation organizations' <-> 'Conservation Organizations' = 0.9859
+2026-05-15 12:09:20 | INFO     | [72/100] Processing doc_71 ...
+2026-05-15 12:09:20 | DEBUG    |   Loaded 70 entities, 70 descriptions
+2026-05-15 12:09:21 | INFO     |   entities= 70  redundancy=0.2925  redundant_pairs=19  max=0.9824
+2026-05-15 12:09:21 | DEBUG    |   Most redundant: 'Chinese Calligraphy' <-> 'Chinese calligraphy' = 0.9824
+2026-05-15 12:09:21 | INFO     | [73/100] Processing doc_72 ...
+2026-05-15 12:09:21 | DEBUG    |   Loaded 28 entities, 28 descriptions
+2026-05-15 12:09:22 | INFO     |   entities= 28  redundancy=0.2277  redundant_pairs=2  max=0.9103
+2026-05-15 12:09:22 | DEBUG    |   Most redundant: 'Ship' <-> 'ship' = 0.9103
+2026-05-15 12:09:22 | INFO     | [74/100] Processing doc_73 ...
+2026-05-15 12:09:22 | DEBUG    |   Loaded 29 entities, 29 descriptions
+2026-05-15 12:09:22 | INFO     |   entities= 29  redundancy=0.2616  redundant_pairs=4  max=0.9606
+2026-05-15 12:09:22 | DEBUG    |   Most redundant: 'nostalgia' <-> 'Nostalgia' = 0.9606
+2026-05-15 12:09:22 | INFO     | [75/100] Processing doc_74 ...
+2026-05-15 12:09:22 | DEBUG    |   Loaded 85 entities, 85 descriptions
+2026-05-15 12:09:23 | INFO     |   entities= 85  redundancy=0.2319  redundant_pairs=26  max=0.9859
+2026-05-15 12:09:23 | DEBUG    |   Most redundant: 'Sustainable design practices' <-> 'sustainable design practices' = 0.9859
+2026-05-15 12:09:23 | INFO     | [76/100] Processing doc_75 ...
+2026-05-15 12:09:23 | DEBUG    |   Loaded 44 entities, 44 descriptions
+2026-05-15 12:09:24 | INFO     |   entities= 44  redundancy=0.2943  redundant_pairs=15  max=0.9788
+2026-05-15 12:09:24 | DEBUG    |   Most redundant: 'Air near surface' <-> 'air near surface' = 0.9788
+2026-05-15 12:09:24 | INFO     | [77/100] Processing doc_76 ...
+2026-05-15 12:09:24 | DEBUG    |   Loaded 44 entities, 44 descriptions
+2026-05-15 12:09:24 | INFO     |   entities= 44  redundancy=0.2863  redundant_pairs=5  max=0.8463
+2026-05-15 12:09:24 | DEBUG    |   Most redundant: 'The Calling of Saint Matthew' <-> 'The Calling of Saint Matthew (Event)' = 0.8463
+2026-05-15 12:09:24 | INFO     | [78/100] Processing doc_77 ...
+2026-05-15 12:09:24 | DEBUG    |   Loaded 46 entities, 46 descriptions
+2026-05-15 12:09:24 | INFO     |   entities= 46  redundancy=0.2585  redundant_pairs=6  max=0.9532
+2026-05-15 12:09:24 | DEBUG    |   Most redundant: 'cooking methods' <-> 'Cooking Methods' = 0.9532
+2026-05-15 12:09:24 | INFO     | [79/100] Processing doc_78 ...
+2026-05-15 12:09:24 | DEBUG    |   Loaded 10 entities, 10 descriptions
+2026-05-15 12:09:25 | INFO     |   entities= 10  redundancy=0.4111  redundant_pairs=0  max=0.6673
+2026-05-15 12:09:25 | DEBUG    |   Most redundant: 'stand-up comedy' <-> 'comedy movie' = 0.6673
+2026-05-15 12:09:25 | INFO     | [80/100] Processing doc_79 ...
+2026-05-15 12:09:25 | DEBUG    |   Loaded 40 entities, 40 descriptions
+2026-05-15 12:09:25 | INFO     |   entities= 40  redundancy=0.3750  redundant_pairs=21  max=0.9715
+2026-05-15 12:09:25 | DEBUG    |   Most redundant: 'Soldier Ants' <-> 'Soldier ants' = 0.9715
+2026-05-15 12:09:25 | INFO     | [81/100] Processing doc_80 ...
+2026-05-15 12:09:25 | DEBUG    |   Loaded 56 entities, 56 descriptions
+2026-05-15 12:09:25 | INFO     |   entities= 56  redundancy=0.2881  redundant_pairs=8  max=0.9041
+2026-05-15 12:09:25 | DEBUG    |   Most redundant: 'city_layout' <-> 'city layout' = 0.9041
+2026-05-15 12:09:25 | INFO     | [82/100] Processing doc_81 ...
+2026-05-15 12:09:25 | DEBUG    |   Loaded 27 entities, 27 descriptions
+2026-05-15 12:09:26 | INFO     |   entities= 27  redundancy=0.2987  redundant_pairs=8  max=0.9569
+2026-05-15 12:09:26 | DEBUG    |   Most redundant: 'Sleep Deprivation' <-> 'sleep deprivation' = 0.9569
+2026-05-15 12:09:26 | INFO     | [83/100] Processing doc_82 ...
+2026-05-15 12:09:26 | DEBUG    |   Loaded 74 entities, 74 descriptions
+2026-05-15 12:09:27 | INFO     |   entities= 74  redundancy=0.2964  redundant_pairs=29  max=0.9788
+2026-05-15 12:09:27 | DEBUG    |   Most redundant: 'physical barriers' <-> 'Physical barriers' = 0.9788
+2026-05-15 12:09:27 | INFO     | [84/100] Processing doc_83 ...
+2026-05-15 12:09:27 | DEBUG    |   Loaded 31 entities, 31 descriptions
+2026-05-15 12:09:28 | INFO     |   entities= 31  redundancy=0.4309  redundant_pairs=10  max=0.9824
+2026-05-15 12:09:28 | DEBUG    |   Most redundant: 'Extrinsic motivation' <-> 'Extrinsic Motivation' = 0.9824
+2026-05-15 12:09:28 | INFO     | [85/100] Processing doc_84 ...
+2026-05-15 12:09:28 | DEBUG    |   Loaded 41 entities, 41 descriptions
+2026-05-15 12:09:28 | INFO     |   entities= 41  redundancy=0.2382  redundant_pairs=2  max=0.9496
+2026-05-15 12:09:28 | DEBUG    |   Most redundant: 'Space Shuttle Program' <-> 'space shuttle program' = 0.9496
+2026-05-15 12:09:28 | INFO     | [86/100] Processing doc_85 ...
+2026-05-15 12:09:28 | DEBUG    |   Loaded 66 entities, 66 descriptions
+2026-05-15 12:09:30 | INFO     |   entities= 66  redundancy=0.2587  redundant_pairs=10  max=0.9752
+2026-05-15 12:09:30 | DEBUG    |   Most redundant: 'AI Technologies' <-> 'AI technologies' = 0.9752
+2026-05-15 12:09:30 | INFO     | [87/100] Processing doc_86 ...
+2026-05-15 12:09:30 | DEBUG    |   Loaded 94 entities, 94 descriptions
+2026-05-15 12:09:32 | INFO     |   entities= 94  redundancy=0.3103  redundant_pairs=39  max=0.9824
+2026-05-15 12:09:32 | DEBUG    |   Most redundant: 'Fast fashion brands' <-> 'fast fashion brands' = 0.9824
+2026-05-15 12:09:32 | INFO     | [88/100] Processing doc_87 ...
+2026-05-15 12:09:32 | DEBUG    |   Loaded 48 entities, 48 descriptions
+2026-05-15 12:09:33 | INFO     |   entities= 48  redundancy=0.3317  redundant_pairs=23  max=0.9788
+2026-05-15 12:09:33 | DEBUG    |   Most redundant: 'Forensic science' <-> 'forensic science' = 0.9788
+2026-05-15 12:09:33 | INFO     | [89/100] Processing doc_88 ...
+2026-05-15 12:09:33 | DEBUG    |   Loaded 63 entities, 63 descriptions
+2026-05-15 12:09:34 | INFO     |   entities= 63  redundancy=0.2876  redundant_pairs=10  max=0.9788
+2026-05-15 12:09:34 | DEBUG    |   Most redundant: 'Enlightenment era' <-> 'Enlightenment Era' = 0.9788
+2026-05-15 12:09:34 | INFO     | [90/100] Processing doc_89 ...
+2026-05-15 12:09:34 | DEBUG    |   Loaded 71 entities, 71 descriptions
+2026-05-15 12:09:35 | INFO     |   entities= 71  redundancy=0.3179  redundant_pairs=23  max=0.9859
+2026-05-15 12:09:35 | DEBUG    |   Most redundant: 'Electroencephalography (EEG)' <-> 'electroencephalography (EEG)' = 0.9859
+2026-05-15 12:09:35 | INFO     | [91/100] Processing doc_90 ...
+2026-05-15 12:09:35 | DEBUG    |   Loaded 29 entities, 29 descriptions
+2026-05-15 12:09:35 | INFO     |   entities= 29  redundancy=0.3102  redundant_pairs=6  max=0.9606
+2026-05-15 12:09:35 | DEBUG    |   Most redundant: 'consumer perception' <-> 'Consumer Perception' = 0.9606
+2026-05-15 12:09:35 | INFO     | [92/100] Processing doc_91 ...
+2026-05-15 12:09:35 | DEBUG    |   Loaded 155 entities, 155 descriptions
+2026-05-15 12:09:38 | INFO     |   entities=155  redundancy=0.2882  redundant_pairs=59  max=0.9895
+2026-05-15 12:09:38 | DEBUG    |   Most redundant: 'greenhouse gas emissions reduction' <-> 'Greenhouse gas emissions reduction' = 0.9895
+2026-05-15 12:09:38 | INFO     | [93/100] Processing doc_92 ...
+2026-05-15 12:09:38 | DEBUG    |   Loaded 38 entities, 38 descriptions
+2026-05-15 12:09:38 | INFO     |   entities= 38  redundancy=0.3525  redundant_pairs=8  max=0.9859
+2026-05-15 12:09:38 | DEBUG    |   Most redundant: 'Recreational activities' <-> 'recreational activities' = 0.9859
+2026-05-15 12:09:38 | INFO     | [94/100] Processing doc_93 ...
+2026-05-15 12:09:38 | DEBUG    |   Loaded 22 entities, 22 descriptions
+2026-05-15 12:09:38 | INFO     |   entities= 22  redundancy=0.3767  redundant_pairs=3  max=0.8791
+2026-05-15 12:09:38 | DEBUG    |   Most redundant: 'positive emotions' <-> 'positive emotion' = 0.8791
+2026-05-15 12:09:38 | INFO     | [95/100] Processing doc_94 ...
+2026-05-15 12:09:38 | DEBUG    |   Loaded 28 entities, 28 descriptions
+2026-05-15 12:09:39 | INFO     |   entities= 28  redundancy=0.3629  redundant_pairs=6  max=0.9642
+2026-05-15 12:09:39 | DEBUG    |   Most redundant: 'Empathy and Tolerance' <-> 'empathy and tolerance' = 0.9642
+2026-05-15 12:09:39 | INFO     | [96/100] Processing doc_95 ...
+2026-05-15 12:09:39 | DEBUG    |   Loaded 67 entities, 67 descriptions
+2026-05-15 12:09:40 | INFO     |   entities= 67  redundancy=0.2864  redundant_pairs=19  max=0.9679
+2026-05-15 12:09:40 | DEBUG    |   Most redundant: 'Regenerative Therapies' <-> 'regenerative therapies' = 0.9679
+2026-05-15 12:09:40 | INFO     | [97/100] Processing doc_96 ...
+2026-05-15 12:09:40 | DEBUG    |   Loaded 29 entities, 29 descriptions
+2026-05-15 12:09:40 | INFO     |   entities= 29  redundancy=0.3013  redundant_pairs=3  max=0.9788
+2026-05-15 12:09:40 | DEBUG    |   Most redundant: 'Competitive Gaming' <-> 'Competitive gaming' = 0.9788
+2026-05-15 12:09:40 | INFO     | [98/100] Processing doc_97 ...
+2026-05-15 12:09:40 | DEBUG    |   Loaded 84 entities, 84 descriptions
+2026-05-15 12:09:41 | INFO     |   entities= 84  redundancy=0.2718  redundant_pairs=17  max=0.9895
+2026-05-15 12:09:41 | DEBUG    |   Most redundant: 'Evolution of transportation systems' <-> 'evolution of transportation systems' = 0.9895
+2026-05-15 12:09:41 | INFO     | [99/100] Processing doc_98 ...
+2026-05-15 12:09:41 | DEBUG    |   Loaded 98 entities, 98 descriptions
+2026-05-15 12:09:42 | INFO     |   entities= 98  redundancy=0.3233  redundant_pairs=45  max=0.9895
+2026-05-15 12:09:42 | DEBUG    |   Most redundant: 'Sustainable water management practices' <-> 'sustainable water management practices' = 0.9895
+2026-05-15 12:09:42 | INFO     | [100/100] Processing doc_99 ...
+2026-05-15 12:09:42 | DEBUG    |   Loaded 114 entities, 114 descriptions
+2026-05-15 12:09:44 | INFO     |   entities=114  redundancy=0.2642  redundant_pairs=34  max=0.9859
+2026-05-15 12:09:44 | DEBUG    |   Most redundant: 'Artificial Intelligence' <-> 'Artificial intelligence' = 0.9859
+2026-05-15 12:09:44 | INFO     | 
+2026-05-15 12:09:44 | INFO     | ======================================================================
+2026-05-15 12:09:44 | INFO     | AGGREGATE RESULTS — rakg
+2026-05-15 12:09:44 | INFO     | ======================================================================
+2026-05-15 12:09:44 | INFO     |   docs_evaluated                     : 100
+2026-05-15 12:09:44 | INFO     |   docs_skipped                       : 0
+2026-05-15 12:09:44 | INFO     |   docs_failed                        : 0
+2026-05-15 12:09:44 | INFO     |   mean_redundancy                    : 0.298601
+2026-05-15 12:09:44 | INFO     |   median_redundancy                  : 0.294964
+2026-05-15 12:09:44 | INFO     |   std_redundancy                     : 0.046759
+2026-05-15 12:09:44 | INFO     |   min_redundancy                     : 0.170928
+2026-05-15 12:09:44 | INFO     |   max_redundancy                     : 0.43087
+2026-05-15 12:09:44 | INFO     |   total_redundant_pairs              : 1354
+2026-05-15 12:09:44 | INFO     |   mean_redundant_pairs_per_doc       : 13.54
+2026-05-15 12:09:44 | INFO     |   mean_entity_count                  : 53.07
+2026-05-15 12:09:44 | INFO     |   total_entities_evaluated           : 5307
+2026-05-15 12:09:44 | INFO     |   UIR_score                          : 0.701399
+2026-05-15 12:09:44 | INFO     |   wall_time_seconds              : 79.98
+2026-05-15 12:09:44 | INFO     | ======================================================================
+2026-05-15 12:09:44 | INFO     | Results saved to C:\<PROJECT_ROOT>\graph_rag\evaluation_pipeline\structural\rakg_uir_results.json
+2026-05-15 12:09:44 | INFO     | Log saved to     C:\<PROJECT_ROOT>\graph_rag\evaluation_pipeline\structural\rakg_uir.log

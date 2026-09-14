@@ -1,0 +1,55 @@
+{
+  "doc_id": "doc_88",
+  "facts": [
+    "Automatic evaluation metrics for Machine Translation (MT) systems are now well established.",
+    "BLEU is an automatic evaluation metric for Machine Translation (MT) systems.",
+    "NIST is an automatic evaluation metric for Machine Translation (MT) systems.",
+    "Automatic evaluation metrics for Machine Translation (MT) systems are scarcely used for the assessment of language pairs like English-Chinese.",
+    "Automatic evaluation metrics for Machine Translation (MT) systems are scarcely used for the assessment of language pairs like English-Japanese.",
+    "This study establishes the equivalence between the standard use of BLEU in word n-grams and BLEU's application at the character level.",
+    "The standard use of BLEU is in word n-grams.",
+    "BLEU has an application at the character level.",
+    "The use of BLEU at the character level eliminates the word segmentation problem.",
+    "The use of BLEU at the character level makes it possible to directly compare commercial systems outputting unsegmented texts with statistical MT systems.",
+    "Commercial systems output unsegmented texts.",
+    "Statistical MT systems usually segment their outputs.",
+    "English-Chinese is a language pair.",
+    "English-Japanese is a language pair."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ambiguous": [],
+  "entities": [
+    "Automatic evaluation metrics",
+    "Machine Translation ( MT ) systems",
+    "BLEU",
+    "NIST",
+    "assessment of language pairs",
+    "language pairs",
+    "English-Chinese",
+    "English-Japanese",
+    "word segmentation problem",
+    "word n-grams",
+    "character level",
+    "commercial systems",
+    "statistical MT systems"
+  ]
+}

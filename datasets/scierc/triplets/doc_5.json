@@ -1,0 +1,42 @@
+[
+  {
+    "head": "word list",
+    "relation": "used for",
+    "tail": "language model adaptation methods"
+  },
+  {
+    "head": "word list",
+    "relation": "conjunction",
+    "tail": "raw corpus"
+  },
+  {
+    "head": "raw corpus",
+    "relation": "used for",
+    "tail": "language model adaptation methods"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "raw corpus"
+  },
+  {
+    "head": "word list",
+    "relation": "used for",
+    "tail": "method"
+  },
+  {
+    "head": "segmented corpus",
+    "relation": "used for",
+    "tail": "model"
+  },
+  {
+    "head": "methods",
+    "relation": "used for",
+    "tail": "preparing a segmented corpus"
+  },
+  {
+    "head": "speech recognition accuracies",
+    "relation": "evaluate for",
+    "tail": "language models"
+  }
+]

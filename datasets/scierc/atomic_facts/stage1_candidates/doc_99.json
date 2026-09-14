@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_99",
+  "facts": [
+    {
+      "fact": "Some auction domains have uncertainty regarding the final availability of the goods being auctioned off.",
+      "supporting_span": "In some auction domains , there is uncertainty regarding the final availability of the goods being auctioned off .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A government may auction off spectrum from its public safety network.",
+      "supporting_span": "a government may auction off spectrum from its public safety network",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Spectrum may be needed back in times of emergency.",
+      "supporting_span": "may need this spectrum back in times of emergency",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, standard combinatorial auctions perform poorly.",
+      "supporting_span": "In such a domain , standard combinatorial auctions perform poorly",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Standard combinatorial auctions lead to violations of individual rationality (IR) even in expectation.",
+      "supporting_span": "they lead to violations of individual rationality (IR) , even in expectation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Standard combinatorial auctions lead to very low efficiency.",
+      "supporting_span": "very low efficiency",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper studies the design of core-selecting payment rules for auction domains with uncertainty regarding the final availability of the goods being auctioned off.",
+      "supporting_span": "In this paper , we study the design of core-selecting payment rules for such domains .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, there does not exist a payment rule guaranteed to be ex-post core-selecting.",
+      "supporting_span": "Surprisingly , we show that in this new domain , there does not exist a payment rule with is guaranteed to be ex-post core-selecting .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Execution-contingent rules can reduce violations of individual rationality (IR).",
+      "supporting_span": "by designing rules that are '' execution-contingent , '' i.e. , by charging payments that are conditioned on the realization of the availability of the goods , we can reduce IR violations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Execution-contingent rules charge payments that are conditioned on the realization of the availability of the goods.",
+      "supporting_span": "by charging payments that are conditioned on the realization of the availability of the goods",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper designs two core-selecting rules that always satisfy IR in expectation.",
+      "supporting_span": "We design two core-selecting rules that always satisfy IR in expectation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper performs a computational Bayes-Nash equilibrium analysis to study the performance of the rules.",
+      "supporting_span": "To study the performance of our rules we perform a computational Bayes-Nash equilibrium analysis .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have better incentives than standard core-selecting rules.",
+      "supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have higher efficiency than standard core-selecting rules.",
+      "supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "In equilibrium, the core-selecting rules designed in the paper have a lower rate of ex-post IR violations than standard core-selecting rules.",
+      "supporting_span": "We show that , in equilibrium , our new rules have better incentives , higher efficiency , and a lower rate of ex-post IR violations than standard core-selecting rules .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

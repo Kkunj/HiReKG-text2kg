@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_6",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications.",
+      "generator_supporting_span": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications .",
+      "verifier_reasoning": "The first sentence of the source text is a verbatim match for the candidate fact, explicitly stating the proposal of a new algorithm for the specified application.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Two cameras are placed on either side of a computer monitor.",
+      "generator_supporting_span": "two cameras placed on either side of a computer monitor",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Given the video streams acquired by two cameras placed on either side of a computer monitor , the proposed algorithm synthesises images from a virtual camera in arbitrary position (typically located within the monitor) to facilitate eye contact .",
+      "verifier_reasoning": "The source text explicitly describes the setup for the proposed algorithm, stating that it uses video streams acquired by 'two cameras placed on either side of a computer monitor'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The proposed algorithm synthesises images from a virtual camera in arbitrary position to facilitate eye contact.",
+      "generator_supporting_span": "the proposed algorithm synthesises images from a virtual camera in arbitrary position (typically located within the monitor) to facilitate eye contact .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the proposed algorithm synthesises images from a virtual camera in arbitrary position (typically located within the monitor) to facilitate eye contact .",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm synthesizes images from a virtual camera which can be placed in an arbitrary position, and that the purpose of this is to facilitate eye contact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The virtual camera is typically located within the monitor.",
+      "generator_supporting_span": "(typically located within the monitor)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the proposed algorithm synthesises images from a virtual camera in arbitrary position (typically located within the monitor) to facilitate eye contact",
+      "verifier_reasoning": "The source text explicitly states that the algorithm creates images from a virtual camera, and a parenthetical note specifies that this camera is '(typically located within the monitor)'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The technique is based on an improved, dynamic-programming, stereo algorithm for efficient novel-view generation.",
+      "generator_supporting_span": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct and verbatim match for the candidate fact, explicitly stating what the proposed technique is based on.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The paper contributes a new type of three-plane graph for dense-stereo dynamic-programming.",
+      "generator_supporting_span": "a new type of three-plane graph for dense-stereo dynamic-programming",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The two main contributions of this paper are : i) a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling",
+      "verifier_reasoning": "The source text explicitly lists the paper's two main contributions, the first of which is stated as 'a new type of three-plane graph for dense-stereo dynamic-programming', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "A new type of three-plane graph for dense-stereo dynamic-programming encourages correct occlusion labeling.",
+      "generator_supporting_span": "a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The two main contributions of this paper are : i) a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling",
+      "verifier_reasoning": "The source text explicitly lists the paper's main contributions, one of which is described as 'a new type of three-plane graph for dense-stereo dynamic-programming, that encourages correct occlusion labeling,' which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The paper contributes a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface.",
+      "generator_supporting_span": "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The two main contributions of this paper are : i) a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii) a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface .",
+      "verifier_reasoning": "The source text explicitly lists the two main contributions of the paper, the second of which is a direct and verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The paper presents a novel algorithm for the temporal maintenance of a background model.",
+      "generator_supporting_span": "this paper presents a novel algorithm for the temporal maintenance of a background model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts (flicker)",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel algorithm for the temporal maintenance of a background model as one of its contributions.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The novel algorithm for the temporal maintenance of a background model enhances the rendering of occlusions.",
+      "generator_supporting_span": "to enhance the rendering of occlusions",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts (flicker) ;",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel algorithm for the temporal maintenance of a background model, and that its purpose is 'to enhance the rendering of occlusions'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The novel algorithm for the temporal maintenance of a background model reduces temporal artefacts (flicker).",
+      "generator_supporting_span": "reduce temporal artefacts (flicker)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts (flicker)",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel algorithm for the temporal maintenance of a background model, and that one of its purposes is to reduce temporal artefacts, specifically mentioning flicker.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "A cost aggregation algorithm acts directly on three-dimensional matching cost space.",
+      "generator_supporting_span": "acts directly on our three-dimensional matching cost space",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a cost aggregation algorithm that acts directly on our three-dimensional matching cost space .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a cost aggregation algorithm and describes its function, matching the candidate fact verbatim.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams.",
+      "generator_supporting_span": "Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact, verbatim match for the candidate fact, confirming that examples are provided to demonstrate the algorithm's robustness.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Demonstrations include synthesis of cyclopean views of extended conversational sequences.",
+      "generator_supporting_span": "These include demonstrations of synthesis of cyclopean views of extended conversational sequences .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These include demonstrations of synthesis of cyclopean views of extended conversational sequences .",
+      "verifier_reasoning": "The source text explicitly lists the types of examples given to demonstrate the algorithm's robustness. The candidate fact is a direct quote from this list of demonstrations.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Synthesis from a freely translating virtual camera is demonstrated.",
+      "generator_supporting_span": "We further demonstrate synthesis from a freely translating virtual camera .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We further demonstrate synthesis from a freely translating virtual camera .",
+      "verifier_reasoning": "The source text explicitly states in its concluding sentence that a demonstration of synthesis from a freely translating virtual camera is provided.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

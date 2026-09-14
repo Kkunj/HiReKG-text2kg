@@ -1,0 +1,37 @@
+[
+  {
+    "head": "duration model",
+    "relation": "used for",
+    "tail": "triphone and semiphone systems"
+  },
+  {
+    "head": "error rate",
+    "relation": "evaluate for",
+    "tail": "triphone and semiphone systems"
+  },
+  {
+    "head": "rapid adaptation technique",
+    "relation": "used for",
+    "tail": "training strategy"
+  },
+  {
+    "head": "bigram back-off language models",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "RM task"
+  },
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "ATIS CSR task"
+  },
+  {
+    "head": "RM task",
+    "relation": "conjunction",
+    "tail": "ATIS CSR task"
+  }
+]

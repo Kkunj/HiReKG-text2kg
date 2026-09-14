@@ -1,0 +1,42 @@
+[
+  {
+    "head": "Structured-light methods",
+    "relation": "used for",
+    "tail": "geometric correspondence data"
+  },
+  {
+    "head": "geometric correspondence data",
+    "relation": "used for",
+    "tail": "robust 3D reconstruction"
+  },
+  {
+    "head": "structured light method",
+    "relation": "part of",
+    "tail": "Photogeometric Structured Light"
+  },
+  {
+    "head": "photometric methods",
+    "relation": "part of",
+    "tail": "Photogeometric Structured Light"
+  },
+  {
+    "head": "Photometric processing",
+    "relation": "used for",
+    "tail": "recovered surface detail"
+  },
+  {
+    "head": "Photometric processing",
+    "relation": "used for",
+    "tail": "structured-light setup"
+  },
+  {
+    "head": "photogeometric optimization",
+    "relation": "used for",
+    "tail": "framework"
+  },
+  {
+    "head": "photometric and geometric data",
+    "relation": "used for",
+    "tail": "multi-view 3D model"
+  }
+]

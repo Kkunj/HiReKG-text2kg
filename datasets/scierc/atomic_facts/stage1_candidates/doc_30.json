@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_30",
+  "facts": [
+    {
+      "fact": "The paper addresses the problem of optimal alignment of non-rigid surfaces from multi-view video observations to obtain a temporally consistent representation.",
+      "supporting_span": "This paper addresses the problem of optimal alignment of non-rigid surfaces from multi-view video observations to obtain a temporally consistent representation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Conventional non-rigid surface tracking performs frame-to-frame alignment.",
+      "supporting_span": "Conventional non-rigid surface tracking performs frame-to-frame alignment",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Frame-to-frame alignment is subject to the accumulation of errors resulting in a drift over time.",
+      "supporting_span": "which is subject to the accumulation of errors resulting in a drift over time .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-sequential tracking approaches have been introduced.",
+      "supporting_span": "Recently , non-sequential tracking approaches have been introduced",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-sequential tracking approaches reorder the input data based on a dissimilarity measure.",
+      "supporting_span": "which reorder the input data based on a dissimilarity measure .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Non-sequential tracking approaches demonstrate a reduced drift and increased robustness to large non-rigid deformations.",
+      "supporting_span": "They demonstrate a reduced drift and increased robustness to large non-rigid deformations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Jumps may occur in the aligned mesh sequence where branches of the tree meet due to different error accumulation along them.",
+      "supporting_span": "However , jumps may occur in the aligned mesh sequence where branches of the tree meet due to different error accumulation along them .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Optimisation of the tree for non-sequential tracking is proposed.",
+      "supporting_span": "Optimisation of the tree for non-sequential tracking , which minimises the errors in temporal consistency due to both the drift and the jumps , is proposed .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The optimisation minimises the errors in temporal consistency due to both the drift and the jumps.",
+      "supporting_span": "which minimises the errors in temporal consistency due to both the drift and the jumps",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A novel cluster tree enforces sequential tracking in local segments of the sequence.",
+      "supporting_span": "A novel cluster tree enforces sequential tracking in local segments of the sequence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The novel cluster tree allows global non-sequential traversal among these segments.",
+      "supporting_span": "while allowing global non-sequential traversal among these segments .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The cluster tree provides a mechanism to create a tree structure which reduces the number and size of jumps between branches.",
+      "supporting_span": "This provides a mechanism to create a tree structure which reduces the number and size of jumps between branches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Comprehensive evaluation is performed on a variety of challenging non-rigid surfaces including face, cloth and people.",
+      "supporting_span": "Comprehensive evaluation is performed on a variety of challenging non-rigid surfaces including face , cloth and people .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed cluster tree achieves better temporal consistency than the previous sequential and non-sequential tracking approaches.",
+      "supporting_span": "It demonstrates that the proposed cluster tree achieves better temporal consistency than the previous sequential and non-sequential tracking approaches .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Quantitative analysis on a created synthetic facial performance shows an improvement by the cluster tree.",
+      "supporting_span": "Quantitative analysis on a created synthetic facial performance also shows an improvement by the cluster tree .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

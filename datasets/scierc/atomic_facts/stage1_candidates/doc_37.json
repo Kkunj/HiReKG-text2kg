@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_37",
+  "facts": [
+    {
+      "fact": "The paper presents a corpus-based supervised word sense disambiguation system for Dutch.",
+      "supporting_span": "In this paper , we present a corpus-based supervised word sense disambiguation (WSD) system for Dutch",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system combines statistical classification with linguistic information.",
+      "supporting_span": "which combines statistical classification (maximum entropy) with linguistic information",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper introduces a lemma-based approach instead of building individual classifiers per ambiguous wordform.",
+      "supporting_span": "Instead of building individual classifiers per ambiguous wordform , we introduce a lemma-based approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The lemma-based method clusters all inflected forms of an ambiguous word in one classifier.",
+      "supporting_span": "it clusters all inflected forms of an ambiguous word in one classifier",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Clustering all inflected forms of an ambiguous word in one classifier augments the training material available to the algorithm.",
+      "supporting_span": "therefore augmenting the training material available to the algorithm",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Testing the lemma-based model on the Dutch Senseval-2 test data yields a significant increase in accuracy over the wordform model.",
+      "supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data , we achieve a significant increase in accuracy over the wordform model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system based on lemmas is smaller.",
+      "supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system based on lemmas is more robust.",
+      "supporting_span": "Also , the WSD system based on lemmas is smaller and more robust .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system is corpus-based.",
+      "supporting_span": "corpus-based supervised word sense disambiguation (WSD) system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system is supervised.",
+      "supporting_span": "corpus-based supervised word sense disambiguation (WSD) system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system is for Dutch.",
+      "supporting_span": "system for Dutch",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical classification in the system uses maximum entropy.",
+      "supporting_span": "statistical classification (maximum entropy)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The word sense disambiguation system uses linguistic information.",
+      "supporting_span": "with linguistic information",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The lemma-based approach is a novel method.",
+      "supporting_span": "this novel method",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The lemma-based model was tested on the Dutch Senseval-2 test data.",
+      "supporting_span": "Testing the lemma-based model on the Dutch Senseval-2 test data",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

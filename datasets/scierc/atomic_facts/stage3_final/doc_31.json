@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_31",
+  "facts": [
+    "Syntax-based statistical machine translation aims at applying statistical models to structured data.",
+    "MT stands for syntax-based statistical machine translation.",
+    "The paper presents a syntax-based statistical machine translation system.",
+    "The syntax-based statistical machine translation system is based on a probabilistic synchronous dependency insertion grammar.",
+    "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees.",
+    "The paper introduces an approach to inducing a grammar from parallel corpora.",
+    "The paper describes a graphical model for the machine translation task.",
+    "The graphical model can be viewed as a stochastic tree-to-tree transducer.",
+    "The paper introduces a polynomial time decoding algorithm.",
+    "The outputs of the machine translation system are evaluated using the NIST and Bleu automatic MT evaluation software.",
+    "The machine translation system is evaluated using the NIST automatic MT evaluation software.",
+    "The machine translation system is evaluated using the Bleu automatic MT evaluation software.",
+    "The syntax-based statistical machine translation system outperforms the baseline system based on the IBM models.",
+    "The syntax-based statistical machine translation system outperforms the baseline system in translation speed.",
+    "The syntax-based statistical machine translation system outperforms the baseline system in quality."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    8,
+    9,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    12
+  ],
+  "ambiguous": [
+    1,
+    10,
+    11
+  ],
+  "entities": [
+    "Syntax-based statistical machine translation ( MT )",
+    "statistical models",
+    "structured data",
+    "syntax-based statistical machine translation system",
+    "probabilistic synchronous dependency insertion grammar",
+    "Synchronous dependency insertion grammars",
+    "synchronous grammars",
+    "dependency trees",
+    "grammar",
+    "parallel corpora",
+    "graphical model",
+    "machine translation task",
+    "stochastic tree-to-tree transducer",
+    "polynomial time decoding algorithm",
+    "MT system",
+    "NIST and Bleu automatic MT evaluation software",
+    "IBM models",
+    "translation speed and quality"
+  ]
+}

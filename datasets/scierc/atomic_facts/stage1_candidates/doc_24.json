@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_24",
+  "facts": [
+    {
+      "fact": "A new approach for Interactive Machine Translation is proposed.",
+      "supporting_span": "A new approach for Interactive Machine Translation where the author interacts during the creation or the modification of the document is proposed .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The author interacts during the creation or the modification of the document.",
+      "supporting_span": "the author interacts during the creation or the modification of the document",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The explanation of an ambiguity or an error for the purposes of correction does not use any concepts of the underlying linguistic theory.",
+      "supporting_span": "The explanation of an ambiguity or an error for the purposes of correction does not use any concepts of the underlying linguistic theory",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The explanation of an ambiguity or an error is for the purposes of correction.",
+      "supporting_span": "The explanation of an ambiguity or an error for the purposes of correction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The explanation of an ambiguity or an error is a reformulation of the erroneous or ambiguous sentence.",
+      "supporting_span": "it is a reformulation of the erroneous or ambiguous sentence",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The interaction is limited to the analysis step of the translation process.",
+      "supporting_span": "The interaction is limited to the analysis step of the translation process .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A new interactive disambiguation scheme is presented.",
+      "supporting_span": "This paper presents a new interactive disambiguation scheme",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The interactive disambiguation scheme is based on the paraphrasing of a parser's multiple output.",
+      "supporting_span": "based on the paraphrasing of a parser 's multiple output .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Some examples of paraphrasing ambiguous sentences are presented.",
+      "supporting_span": "Some examples of paraphrasing ambiguous sentences are presented .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analysis step is part of the translation process.",
+      "supporting_span": "the analysis step of the translation process",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new approach for Interactive Machine Translation involves author interaction.",
+      "supporting_span": "where the author interacts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paraphrasing is of a parser's multiple output.",
+      "supporting_span": "the paraphrasing of a parser 's multiple output",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A parser has multiple output.",
+      "supporting_span": "a parser 's multiple output",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The disambiguation scheme is interactive.",
+      "supporting_span": "a new interactive disambiguation scheme",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach is for Interactive Machine Translation.",
+      "supporting_span": "A new approach for Interactive Machine Translation",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

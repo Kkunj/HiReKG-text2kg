@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_33",
+  "facts": [
+    {
+      "fact": "Automated facial expression recognition has received increased attention over the past two decades.",
+      "supporting_span": "Automated facial expression recognition has received increased attention over the past two decades .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Existing works usually do not encode the temporal evolution of the observed facial displays.",
+      "supporting_span": "Existing works in the field usually do not encode either the temporal evolution or the intensity of the observed facial displays .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Existing works usually do not encode the intensity of the observed facial displays.",
+      "supporting_span": "Existing works in the field usually do not encode either the temporal evolution or the intensity of the observed facial displays .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Existing works fail to jointly model multidimensional (multi-class) continuous facial behaviour data.",
+      "supporting_span": "They also fail to jointly model multidimensional (multi-class) continuous facial behaviour data ;",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Existing works use binary classifiers, one for each target basic-emotion class.",
+      "supporting_span": "binary classifiers-one for each target basic-emotion class-are used instead .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The intrinsic topology of multidimensional continuous facial affect data is first modeled by an ordinal manifold.",
+      "supporting_span": "intrinsic topology of multidimensional continuous facial affect data is first modeled by an ordinal man-ifold .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The ordinal manifold topology is incorporated into the Hidden Conditional Ordinal Random Field (H-CORF) framework for dynamic ordinal regression.",
+      "supporting_span": "This topology is then incorporated into the Hidden Conditional Ordinal Random Field (H-CORF) framework for dynamic ordinal regression",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Hidden Conditional Ordinal Random Field (H-CORF) is a framework.",
+      "supporting_span": "Hidden Conditional Ordinal Random Field (H-CORF) framework",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Hidden Conditional Ordinal Random Field (H-CORF) framework is for dynamic ordinal regression.",
+      "supporting_span": "Hidden Conditional Ordinal Random Field (H-CORF) framework for dynamic ordinal regression",
+      "span_mismatch": false
+    },
+    {
+      "fact": "H-CORF parameters are constrained to lie on the ordinal manifold.",
+      "supporting_span": "by constraining H-CORF parameters to lie on the ordinal manifold .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The resulting model attains simultaneous dynamic recognition and intensity estimation of facial expressions of multiple emotions.",
+      "supporting_span": "The resulting model attains simultaneous dynamic recognition and intensity estimation of facial expressions of multiple emotions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed method is the first to achieve simultaneous dynamic recognition and intensity estimation on deliberate facial affect data.",
+      "supporting_span": "To the best of our knowledge , the proposed method is the first one to achieve this on both deliberate as well as spontaneous facial affect data .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed method is the first to achieve simultaneous dynamic recognition and intensity estimation on spontaneous facial affect data.",
+      "supporting_span": "To the best of our knowledge , the proposed method is the first one to achieve this on both deliberate as well as spontaneous facial affect data .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Hidden Conditional Ordinal Random Field is abbreviated as H-CORF.",
+      "supporting_span": "Hidden Conditional Ordinal Random Field (H-CORF)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The resulting model addresses facial expressions of multiple emotions.",
+      "supporting_span": "facial expressions of multiple emotions",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

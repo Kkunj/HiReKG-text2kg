@@ -1,0 +1,47 @@
+[
+  {
+    "head": "framework",
+    "relation": "used for",
+    "tail": "segmentation of complex scenes"
+  },
+  {
+    "head": "physical hypotheses",
+    "relation": "used for",
+    "tail": "framework"
+  },
+  {
+    "head": "physical hypotheses",
+    "relation": "used for",
+    "tail": "simple image regions"
+  },
+  {
+    "head": "framework",
+    "relation": "used for",
+    "tail": "approach"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "segmentation of complex scenes"
+  },
+  {
+    "head": "coherent surfaces",
+    "relation": "compare",
+    "tail": "regions of similar color"
+  },
+  {
+    "head": "segmentations",
+    "relation": "used for",
+    "tail": "scenes"
+  },
+  {
+    "head": "multi-colored piece-wise uniform objects",
+    "relation": "feature of",
+    "tail": "scenes"
+  },
+  {
+    "head": "approach",
+    "relation": "compare",
+    "tail": "physics-based segmentation algorithms"
+  }
+]

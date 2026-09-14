@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_23",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "SABLE is an algorithm for translation lexicon acquisition.",
+      "generator_supporting_span": "an algorithm for translation lexicon acquisition (SABLE)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an algorithm for translation lexicon acquisition (SABLE)",
+      "verifier_reasoning": "The source text explicitly introduces 'an algorithm for translation lexicon acquisition' and immediately provides its name, 'SABLE', in parentheses, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The utility of an algorithm for translation lexicon acquisition is investigated.",
+      "generator_supporting_span": "We investigate the utility of an algorithm for translation lexicon acquisition",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate the utility of an algorithm for translation lexicon acquisition (SABLE)",
+      "verifier_reasoning": "The source text explicitly states in its opening clause that the authors are investigating the utility of an algorithm for translation lexicon acquisition. The candidate fact is a direct restatement of this information.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The algorithm for translation lexicon acquisition is named SABLE.",
+      "generator_supporting_span": "(SABLE)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an algorithm for translation lexicon acquisition (SABLE)",
+      "verifier_reasoning": "The source text introduces 'an algorithm for translation lexicon acquisition' and immediately follows this phrase with '(SABLE)' in parentheses, which is a standard convention for defining an acronym or name.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "SABLE was used previously on a very large corpus.",
+      "generator_supporting_span": "used previously on a very large corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an algorithm for translation lexicon acquisition (SABLE) , used previously on a very large corpus",
+      "verifier_reasoning": "The source text explicitly introduces an algorithm named SABLE and states that it was 'used previously on a very large corpus'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "SABLE was used previously to acquire general translation lexicons.",
+      "generator_supporting_span": "used previously on a very large corpus to acquire general translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "used previously on a very large corpus to acquire general translation lexicons",
+      "verifier_reasoning": "The source text explicitly states that the algorithm SABLE was 'used previously on a very large corpus to acquire general translation lexicons', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The purpose of the previous use was to acquire general translation lexicons.",
+      "generator_supporting_span": "to acquire general translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "used previously on a very large corpus to acquire general translation lexicons",
+      "verifier_reasoning": "The source text explicitly states that the SABLE algorithm was 'used previously... to acquire general translation lexicons', directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "A very large corpus was used previously.",
+      "generator_supporting_span": "used previously on a very large corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "used previously on a very large corpus to acquire general translation lexicons",
+      "verifier_reasoning": "The source text explicitly states that the SABLE algorithm was 'used previously on a very large corpus', which directly confirms the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "SABLE is applied to a much smaller corpus.",
+      "generator_supporting_span": "that algorithm is applied to a much smaller corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons",
+      "verifier_reasoning": "The source text first identifies an algorithm as SABLE and then describes an investigation where 'that algorithm is applied to a much smaller corpus'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "SABLE is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons.",
+      "generator_supporting_span": "that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate the utility of an algorithm for translation lexicon acquisition (SABLE) ... when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons .",
+      "verifier_reasoning": "The source text explicitly describes an investigation into the utility of the SABLE algorithm when it is applied to a smaller corpus to generate candidates for domain-specific translation lexicons, which directly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The purpose of the application is to produce candidates for domain-specific translation lexicons.",
+      "generator_supporting_span": "to produce candidates for domain-specific translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm is being applied to a smaller corpus for the purpose of producing candidates for domain-specific translation lexicons.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Candidates for domain-specific translation lexicons are produced.",
+      "generator_supporting_span": "candidates for domain-specific translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "produce candidates for domain-specific translation lexicons",
+      "verifier_reasoning": "The source text explicitly states that the algorithm is applied to a corpus for the purpose of producing candidates for domain-specific translation lexicons.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Domain-specific translation lexicons are considered as a target.",
+      "generator_supporting_span": "domain-specific translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "to produce candidates for domain-specific translation lexicons",
+      "verifier_reasoning": "The source text states that the algorithm is applied to a corpus with the explicit goal 'to produce candidates for domain-specific translation lexicons', which directly supports the fact that these lexicons are the target of the process.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The investigation examines the utility when an algorithm is applied to a much smaller corpus.",
+      "generator_supporting_span": "We investigate the utility of an algorithm for translation lexicon acquisition (SABLE) , used previously on a very large corpus to acquire general translation lexicons , when that algorithm is applied to a much smaller corpus",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We investigate the utility of an algorithm for translation lexicon acquisition (SABLE) , used previously on a very large corpus to acquire general translation lexicons , when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons .",
+      "verifier_reasoning": "The source text explicitly states that the authors are investigating the utility of an algorithm specifically in the context of its application to a much smaller corpus.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "Translation lexicon acquisition is the task addressed by SABLE.",
+      "generator_supporting_span": "an algorithm for translation lexicon acquisition (SABLE)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "an algorithm for translation lexicon acquisition (SABLE)",
+      "verifier_reasoning": "The source text explicitly introduces SABLE as 'an algorithm for translation lexicon acquisition', directly stating the task it is designed to perform.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "A much smaller corpus is involved in producing candidates for domain-specific translation lexicons.",
+      "generator_supporting_span": "a much smaller corpus to produce candidates for domain-specific translation lexicons",
+      "span_mismatch": false,
+      "verifier_supporting_span": "when that algorithm is applied to a much smaller corpus to produce candidates for domain-specific translation lexicons .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm is applied to a 'much smaller corpus' for the purpose of producing 'candidates for domain-specific translation lexicons'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

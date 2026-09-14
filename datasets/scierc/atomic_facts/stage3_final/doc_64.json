@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_64",
+  "facts": [
+    "The perception of transparent objects from images is a very hard problem in vision.",
+    "Given a single image, detecting the presence of transparent objects in the scene is difficult.",
+    "The paper explores what can be said about transparent objects by a moving observer.",
+    "Features that are imaged through a transparent object behave differently from features that are rigidly attached to the scene.",
+    "The paper presents a novel model-based approach.",
+    "The approach recovers the shapes of transparent objects from known motion.",
+    "The approach recovers the poses of transparent objects from known motion.",
+    "The approach uses known motion.",
+    "The objects can be complex.",
+    "The objects may be composed of multiple layers.",
+    "The multiple layers may have different refractive indices.",
+    "Numerous simulations have been conducted.",
+    "The simulations were to verify the practical feasibility of the algorithm.",
+    "The algorithm has been applied to real scenes that include transparent objects.",
+    "The shapes of the objects were recovered with high accuracy."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    2,
+    4,
+    7,
+    9
+  ],
+  "multiple-entity": [
+    0,
+    3,
+    5,
+    6,
+    10,
+    13,
+    14
+  ],
+  "ambiguous": [
+    8,
+    11,
+    12
+  ],
+  "entities": [
+    "perception of transparent objects",
+    "images",
+    "transparent objects",
+    "features",
+    "transparent object",
+    "model-based approach",
+    "shapes and the poses of transparent objects",
+    "known motion",
+    "multiple layers",
+    "refractive indices",
+    "real scenes",
+    "shapes of the objects",
+    "accuracy"
+  ]
+}

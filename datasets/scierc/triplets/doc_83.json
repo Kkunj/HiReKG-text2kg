@@ -1,0 +1,22 @@
+[
+  {
+    "head": "speech processing",
+    "relation": "conjunction",
+    "tail": "Human-Machine Communication"
+  },
+  {
+    "head": "Natural Language Processing",
+    "relation": "hyponym of",
+    "tail": "Human-Machine Communication"
+  },
+  {
+    "head": "Natural Language Processing",
+    "relation": "conjunction",
+    "tail": "Non Verbal and Multimodal Communication"
+  },
+  {
+    "head": "Non Verbal and Multimodal Communication",
+    "relation": "hyponym of",
+    "tail": "Human-Machine Communication"
+  }
+]

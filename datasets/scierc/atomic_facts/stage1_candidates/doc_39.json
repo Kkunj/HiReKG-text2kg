@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_39",
+  "facts": [
+    {
+      "fact": "An operable definition of focus is presented.",
+      "supporting_span": "We present an operable definition of focus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The presented definition of focus is argued to be of a cognito-pragmatic nature.",
+      "supporting_span": "an operable definition of focus which is argued to be of a cognito-pragmatic nature",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The determination of focus in discourse is explored.",
+      "supporting_span": "explore how it is determined in discourse",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The determination of focus is explored in a formalized manner.",
+      "supporting_span": "explore how it is determined in discourse in a formalized manner",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A file card model of discourse model and knowledge store is introduced.",
+      "supporting_span": "a file card model of discourse model and knowledge store is introduced",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The file card model enables the decomposition of the determination process as a programmable algorithm (FDA).",
+      "supporting_span": "enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The file card model enables the formal representation of the determination process as a programmable algorithm (FDA).",
+      "supporting_span": "enabling the decomposition and formal representation of its determination process as a programmable algorithm (FDA)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "FDA is a programmable algorithm.",
+      "supporting_span": "a programmable algorithm (FDA)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interdisciplinary evidence from social psychology is cited.",
+      "supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interdisciplinary evidence from cognitive psychology is cited.",
+      "supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems is briefly discussed.",
+      "supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The prospect of the integration of focus via FDA into concept-to-speech systems is briefly discussed.",
+      "supporting_span": "the prospect of the integration of focus via FDA as a discourse-level construct into speech synthesis systems , in particular , concept-to-speech systems , is also briefly discussed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Concept-to-speech systems are speech synthesis systems.",
+      "supporting_span": "into speech synthesis systems , in particular , concept-to-speech systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Focus via FDA is a discourse-level construct.",
+      "supporting_span": "focus via FDA as a discourse-level construct",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Interdisciplinary evidence from social and cognitive psychology is cited.",
+      "supporting_span": "Interdisciplinary evidence from social and cognitive psychology is cited",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

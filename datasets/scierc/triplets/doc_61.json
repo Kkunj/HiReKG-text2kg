@@ -1,0 +1,42 @@
+[
+  {
+    "head": "out-of-domain acoustic training data",
+    "relation": "used for",
+    "tail": "speech recognizer"
+  },
+  {
+    "head": "Wallstreet Journal (WSJ) data",
+    "relation": "used for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "Phonebook domain",
+    "relation": "evaluate for",
+    "tail": "recognizer"
+  },
+  {
+    "head": "WSJ-trained recognizer",
+    "relation": "used for",
+    "tail": "recognition"
+  },
+  {
+    "head": "adaptation data",
+    "relation": "used for",
+    "tail": "WSJ-trained recognizer"
+  },
+  {
+    "head": "adaptation data",
+    "relation": "part of",
+    "tail": "Phonebook training corpus"
+  },
+  {
+    "head": "Phonebook-trained baseline acoustic model",
+    "relation": "used for",
+    "tail": "recognition"
+  },
+  {
+    "head": "out-of-domain training data",
+    "relation": "used for",
+    "tail": "Phonebook-trained baseline acoustic model"
+  }
+]

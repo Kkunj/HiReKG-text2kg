@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_64",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "The perception of transparent objects from images is a very hard problem in vision.",
+      "generator_supporting_span": "The perception of transparent objects from images is known to be a very hard problem in vision .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The perception of transparent objects from images is known to be a very hard problem in vision .",
+      "verifier_reasoning": "The source text's first sentence directly states that the perception of transparent objects from images is a very hard problem in the field of vision, which exactly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Given a single image, detecting the presence of transparent objects in the scene is difficult.",
+      "generator_supporting_span": "Given a single image , it is difficult to even detect the presence of transparent objects in the scene .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Given a single image , it is difficult to even detect the presence of transparent objects in the scene .",
+      "verifier_reasoning": "The source text explicitly states that it is difficult to detect the presence of transparent objects in a scene when given a single image. The candidate fact is a direct restatement of this information.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The paper explores what can be said about transparent objects by a moving observer.",
+      "generator_supporting_span": "In this paper , we explore what can be said about transparent objects by a moving observer .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we explore what can be said about transparent objects by a moving observer .",
+      "verifier_reasoning": "The source text contains a sentence that is a verbatim match for the candidate fact, directly stating the paper's exploration topic.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Features that are imaged through a transparent object behave differently from features that are rigidly attached to the scene.",
+      "generator_supporting_span": "We show how features that are imaged through a transparent object behave differently from those that are rigidly attached to the scene .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We show how features that are imaged through a transparent object behave differently from those that are rigidly attached to the scene .",
+      "verifier_reasoning": "The source text contains a sentence that is a direct and near-verbatim statement of the candidate fact, explicitly mentioning that features imaged through a transparent object behave differently from those rigidly attached to the scene.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The paper presents a novel model-based approach.",
+      "generator_supporting_span": "We present a novel model-based approach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion.",
+      "verifier_reasoning": "The source text explicitly states that the paper introduces a new method, referring to it as 'a novel model-based approach'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The approach recovers the shapes of transparent objects from known motion.",
+      "generator_supporting_span": "to recover the shapes and the poses of transparent objects from known motion .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion.",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel approach with the purpose of recovering the shapes of transparent objects from known motion.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The approach recovers the poses of transparent objects from known motion.",
+      "generator_supporting_span": "to recover the shapes and the poses of transparent objects from known motion .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel model-based approach designed to recover both the shapes and the poses of transparent objects using known motion.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The approach uses known motion.",
+      "generator_supporting_span": "from known motion .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a novel approach to recover information about transparent objects 'from known motion', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The objects can be complex.",
+      "generator_supporting_span": "The objects can be complex",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The objects can be complex in that they may be composed of multiple layers with different refractive indices .",
+      "verifier_reasoning": "The source text explicitly states that the objects being studied can be complex, and provides an example of what makes them complex.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The objects may be composed of multiple layers.",
+      "generator_supporting_span": "they may be composed of multiple layers",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The objects can be complex in that they may be composed of multiple layers with different refractive indices.",
+      "verifier_reasoning": "The source text explicitly describes the types of objects the presented approach can handle, stating that they can be complex and 'may be composed of multiple layers'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The multiple layers may have different refractive indices.",
+      "generator_supporting_span": "with different refractive indices .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The objects can be complex in that they may be composed of multiple layers with different refractive indices.",
+      "verifier_reasoning": "The source text explicitly states that the objects under consideration can be complex, and specifies that this complexity can include being 'composed of multiple layers with different refractive indices.' This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Numerous simulations have been conducted.",
+      "generator_supporting_span": "We have conducted numerous simulations",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We have conducted numerous simulations to verify the practical feasibility of our algorithm.",
+      "verifier_reasoning": "The source text explicitly states that numerous simulations were conducted in order to verify the practical feasibility of the described algorithm.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The simulations were to verify the practical feasibility of the algorithm.",
+      "generator_supporting_span": "to verify the practical feasibility of our algorithm .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We have conducted numerous simulations to verify the practical feasibility of our algorithm .",
+      "verifier_reasoning": "The source text explicitly states that the purpose of the simulations was to verify the practical feasibility of the algorithm.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The algorithm has been applied to real scenes that include transparent objects.",
+      "generator_supporting_span": "We have applied it to real scenes that include transparent objects",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We have applied it to real scenes that include transparent objects and recovered the shapes of the objects with high accuracy .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm, referred to as 'it', has been applied to real scenes containing transparent objects.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The shapes of the objects were recovered with high accuracy.",
+      "generator_supporting_span": "recovered the shapes of the objects with high accuracy .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We have applied it to real scenes that include transparent objects and recovered the shapes of the objects with high accuracy .",
+      "verifier_reasoning": "The source text explicitly states that the algorithm was applied to real scenes and that this application resulted in the recovery of object shapes with high accuracy.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

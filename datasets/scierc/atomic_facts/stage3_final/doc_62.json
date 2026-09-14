@@ -1,0 +1,67 @@
+{
+  "doc_id": "doc_62",
+  "facts": [
+    "The paper presents an unsupervised learning approach to building a non-English (Arabic) stemmer.",
+    "The stemming model is based on statistical machine translation.",
+    "The stemming model uses an English stemmer and a small (10K sentences) parallel corpus as its sole training resources.",
+    "No parallel text is needed after the training phase.",
+    "Monolingual, unannotated text can be used to further improve the stemmer.",
+    "Monolingual, unannotated text can be used to allow the stemmer to adapt to a desired domain or genre.",
+    "Examples and results will be given for Arabic.",
+    "The approach is applicable to any language that needs affix removal.",
+    "The approach is resource-frugal.",
+    "The approach results in 87.5 % agreement with a state of the art, proprietary Arabic stemmer.",
+    "The proprietary Arabic stemmer is built using rules, affix lists, and human annotated text, in addition to an unsupervised component.",
+    "Task-based evaluation using Arabic information retrieval indicates an improvement of 22-38 % in average precision over unstemmed text.",
+    "Task-based evaluation using Arabic information retrieval indicates 96 % of the performance of the proprietary stemmer.",
+    "The small parallel corpus used as a training resource contains 10K sentences.",
+    "The proprietary Arabic stemmer is state of the art."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    6,
+    7,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ambiguous": [
+    8
+  ],
+  "entities": [
+    "unsupervised learning approach",
+    "non-English ( Arabic ) stemmer",
+    "stemming model",
+    "statistical machine translation",
+    "English stemmer",
+    "parallel corpus",
+    "parallel text",
+    "Monolingual , unannotated text",
+    "stemmer",
+    "Arabic",
+    "affix removal",
+    "resource-frugal approach",
+    "agreement",
+    "Arabic stemmer",
+    "rules",
+    "affix lists",
+    "human annotated text",
+    "unsupervised component",
+    "Task-based evaluation",
+    "Arabic information retrieval",
+    "average precision",
+    "unstemmed text"
+  ]
+}

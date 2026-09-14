@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_95",
+  "facts": [
+    "A new part-of-speech tagger is presented.",
+    "The part-of-speech tagger demonstrates explicit use of both preceding and following tag contexts.",
+    "The part-of-speech tagger uses a dependency network representation.",
+    "The part-of-speech tagger makes broad use of lexical features.",
+    "The part-of-speech tagger jointly conditions on multiple consecutive words.",
+    "The part-of-speech tagger makes effective use of priors in conditional loglinear models.",
+    "The part-of-speech tagger models unknown word features in a fine-grained way.",
+    "The resulting tagger gives a 97.24 % accuracy.",
+    "The 97.24 % accuracy is on the Penn Treebank WSJ.",
+    "The tagger achieves an error reduction of 4.4 %.",
+    "The error reduction is measured on the best previous single automatically learned tagging result.",
+    "The part-of-speech tagger explicitly uses preceding tag contexts.",
+    "The part-of-speech tagger explicitly uses following tag contexts.",
+    "The ideas are used together.",
+    "The part-of-speech tagger demonstrates the following ideas."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    6,
+    14
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ambiguous": [
+    13
+  ],
+  "entities": [
+    "part-of-speech tagger",
+    "tag contexts",
+    "dependency network representation",
+    "lexical features",
+    "multiple consecutive words",
+    "priors in conditional loglinear models",
+    "fine-grained modeling of unknown word features",
+    "tagger",
+    "accuracy",
+    "Penn Treebank WSJ",
+    "error",
+    "tagging"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_59",
+  "facts": [
+    {
+      "fact": "Appropriate user modeling is addressed to generate cooperative responses to each user in spoken dialogue systems.",
+      "supporting_span": "We address appropriate user modeling in order to generate cooperative responses to each user in spoken dialogue systems .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed user model is more comprehensive than previous studies.",
+      "supporting_span": "Unlike previous studies that focus on user 's knowledge or typical kinds of users , the user model we propose is more comprehensive .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous studies focus on user's knowledge.",
+      "supporting_span": "previous studies that focus on user 's knowledge or typical kinds of users",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous studies focus on typical kinds of users.",
+      "supporting_span": "previous studies that focus on user 's knowledge or typical kinds of users",
+      "span_mismatch": false
+    },
+    {
+      "fact": "User models have three dimensions.",
+      "supporting_span": "Specifically , we set up three dimensions of user models : skill level to the system , knowledge level on the target domain and the degree of hastiness .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Skill level to the system is a dimension of user models.",
+      "supporting_span": "three dimensions of user models : skill level to the system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Knowledge level on the target domain is a dimension of user models.",
+      "supporting_span": "knowledge level on the target domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The degree of hastiness is a dimension of user models.",
+      "supporting_span": "the degree of hastiness",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The models are automatically derived by decision tree learning.",
+      "supporting_span": "the models are automatically derived by decision tree learning",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The models are derived using real dialogue data collected by the system.",
+      "supporting_span": "using real dialogue data collected by the system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Classification accuracy is reasonable for all dimensions.",
+      "supporting_span": "We obtained reasonable classification accuracy for all dimensions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialogue strategies based on the user modeling are implemented in Kyoto city bus information system.",
+      "supporting_span": "Dialogue strategies based on the user modeling are implemented in Kyoto city bus information system that has been developed at our laboratory .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialogue strategies are based on the user modeling.",
+      "supporting_span": "Dialogue strategies based on the user modeling are implemented",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Cooperative responses adaptive to individual users serve as good guidance for novice users.",
+      "supporting_span": "Experimental evaluation shows that the cooperative responses adaptive to individual users serve as good guidance for novice users",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Cooperative responses adaptive to individual users do not increase the dialogue duration for skilled users.",
+      "supporting_span": "without increasing the dialogue duration for skilled users .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

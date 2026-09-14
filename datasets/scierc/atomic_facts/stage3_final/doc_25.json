@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_25",
+  "facts": [
+    "The paper presents a word segmentation system in France Telecom R&D Beijing.",
+    "The word segmentation system uses a unified approach to word breaking.",
+    "The word segmentation system uses a unified approach to OOV identification.",
+    "The output can be customized to meet different segmentation standards.",
+    "The output can be customized through the application of an ordered list of transformation.",
+    "The system participated in all the tracks of the segmentation bakeoff.",
+    "The system participated in PK-open.",
+    "The system participated in PK-closed.",
+    "The system participated in AS-open.",
+    "The system participated in AS-closed.",
+    "The system participated in HK-open.",
+    "The system achieved the state-of-the-art performance in MSR-open.",
+    "The system achieved the state-of-the-art performance in MSR-close.",
+    "The system achieved the state-of-the-art performance in PK-open.",
+    "Analysis of the results shows that each component of the system contributed to the scores."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "multiple-entity": [
+    1,
+    2
+  ],
+  "ambiguous": [
+    3,
+    4,
+    14
+  ],
+  "entities": [
+    "word segmentation system",
+    "word breaking",
+    "OOV identification",
+    "segmentation bakeoff",
+    "PK-open",
+    "PK-closed",
+    "AS-open",
+    "AS-closed",
+    "HK-open",
+    "HK-closed",
+    "MSR-open",
+    "MSR - closed",
+    "MSR-close"
+  ]
+}

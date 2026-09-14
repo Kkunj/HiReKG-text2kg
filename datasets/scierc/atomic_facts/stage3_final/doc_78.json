@@ -1,0 +1,56 @@
+{
+  "doc_id": "doc_78",
+  "facts": [
+    "A framework for segmentation of complex scenes was previously presented.",
+    "The previously presented framework uses multiple physical hypotheses.",
+    "The multiple physical hypotheses are for simple image regions.",
+    "A consequence of the previously presented framework was a proposal for a new approach.",
+    "The new approach is to the segmentation of complex scenes.",
+    "The new approach segments complex scenes into regions corresponding to coherent surfaces.",
+    "The new approach is contrasted with segmenting into regions of similar color.",
+    "An implementation of the new approach is presented.",
+    "Example segmentations are shown for scenes containing multi-colored piece-wise uniform objects.",
+    "The scenes contain multi-colored piece-wise uniform objects.",
+    "The piece-wise uniform objects are multi-colored.",
+    "The new approach intelligently segments scenes with objects of greater complexity than previous physics-based segmentation algorithms.",
+    "Using general physical models yields segmentations that correspond more closely to coherent surfaces in the scene than segmentations found using only color.",
+    "General physical models are used to obtain segmentations.",
+    "Segmentations found using only color correspond less closely to coherent surfaces in the scene."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    4,
+    6
+  ],
+  "multiple-entity": [
+    2,
+    5,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [
+    3,
+    7,
+    10
+  ],
+  "entities": [
+    "segmentation of complex scenes",
+    "physical hypotheses",
+    "simple image regions",
+    "coherent surfaces",
+    "regions of similar color",
+    "segmentations",
+    "scenes",
+    "multi-colored piece-wise uniform objects",
+    "complexity",
+    "physics-based segmentation algorithms",
+    "physical models"
+  ]
+}

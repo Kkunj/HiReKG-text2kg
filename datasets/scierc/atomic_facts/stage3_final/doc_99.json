@@ -1,0 +1,55 @@
+{
+  "doc_id": "doc_99",
+  "facts": [
+    "Some auction domains have uncertainty regarding the final availability of the goods being auctioned off.",
+    "A government may auction off spectrum from its public safety network.",
+    "Spectrum may be needed back in times of emergency.",
+    "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, standard combinatorial auctions perform poorly.",
+    "Standard combinatorial auctions lead to violations of individual rationality (IR) even in expectation.",
+    "The paper studies the design of core-selecting payment rules for auction domains with uncertainty regarding the final availability of the goods being auctioned off.",
+    "In auction domains with uncertainty regarding the final availability of the goods being auctioned off, there does not exist a payment rule guaranteed to be ex-post core-selecting.",
+    "Execution-contingent rules can reduce violations of individual rationality (IR).",
+    "Execution-contingent rules charge payments that are conditioned on the realization of the availability of the goods.",
+    "The paper designs two core-selecting rules that always satisfy IR in expectation.",
+    "The paper performs a computational Bayes-Nash equilibrium analysis to study the performance of the rules.",
+    "In equilibrium, the core-selecting rules designed in the paper have better incentives than standard core-selecting rules.",
+    "In equilibrium, the core-selecting rules designed in the paper have higher efficiency than standard core-selecting rules.",
+    "In equilibrium, the core-selecting rules designed in the paper have a lower rate of ex-post IR violations than standard core-selecting rules."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    0,
+    8
+  ],
+  "multiple-entity": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "ambiguous": [
+    1,
+    2
+  ],
+  "entities": [
+    "auction domains",
+    "combinatorial auctions",
+    "violations of individual rationality ( IR )",
+    "individual rationality ( IR )",
+    "design of core-selecting payment rules",
+    "payment rule",
+    "rules",
+    "IR violations",
+    "core-selecting rules",
+    "IR",
+    "computational Bayes-Nash equilibrium analysis",
+    "rate of ex-post IR violations"
+  ]
+}

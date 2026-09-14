@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_28",
+  "facts": [
+    {
+      "fact": "The paper presents a method for blind estimation of reverberation times in reverberant enclosures.",
+      "supporting_span": "This paper presents a method for blind estimation of reverberation times in reverberant enclosures .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm is based on a statistical model.",
+      "supporting_span": "The proposed algorithm is based on a statistical model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical model is of short-term log-energy sequences.",
+      "supporting_span": "a statistical model of short-term log-energy sequences",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The statistical model is for echo-free speech.",
+      "supporting_span": "for echo-free speech .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm computes a Maximum Likelihood estimate of the room full-band reverberation time.",
+      "supporting_span": "it computes a Maximum Likelihood estimate of the room full-band reverberation time .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm takes as input a speech utterance recorded in a reverberant room.",
+      "supporting_span": "Given a speech utterance recorded in a reverberant room , it computes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The estimation method is shown to require little data.",
+      "supporting_span": "The estimation method is shown to require little data",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The estimation method is shown to perform satisfactorily.",
+      "supporting_span": "The estimation method is shown to require little data and to perform satisfactorily .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method has been successfully applied to robust automatic speech recognition in reverberant environments by model selection.",
+      "supporting_span": "The method has been successfully applied to robust automatic speech recognition in reverberant environments by model selection .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "For the automatic speech recognition application, the reverberation time is first estimated from the reverberated speech utterance to be recognized.",
+      "supporting_span": "For this application , the reverberation time is first estimated from the reverberated speech utterance to be recognized .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The estimation is then used to select the best acoustic model.",
+      "supporting_span": "The estimation is then used to select the best acoustic model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The best acoustic model is selected out of a library of models trained in various artificial re-verberant conditions.",
+      "supporting_span": "out of a library of models trained in various artificial re-verberant conditions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The library of models is trained in various artificial re-verberant conditions.",
+      "supporting_span": "a library of models trained in various artificial re-verberant conditions .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Speech recognition experiments in simulated and real reverberant environments show the efficiency of the approach.",
+      "supporting_span": "Speech recognition experiments in simulated and real reverberant environments show the efficiency of our approach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The approach outperforms standard channel normalization techniques.",
+      "supporting_span": "outperforms standard channel normaliza-tion techniques .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

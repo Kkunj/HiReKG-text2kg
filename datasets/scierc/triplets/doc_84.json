@@ -1,0 +1,72 @@
+[
+  {
+    "head": "priori geometric constraints",
+    "relation": "part of",
+    "tail": "3 -- D stereo reconstruction scheme"
+  },
+  {
+    "head": "image information",
+    "relation": "used for",
+    "tail": "3 -- D shape"
+  },
+  {
+    "head": "iterative deformation of a 3 -- D surface mesh",
+    "relation": "used for",
+    "tail": "approach"
+  },
+  {
+    "head": "iterative deformation of a 3 -- D surface mesh",
+    "relation": "used for",
+    "tail": "objective function"
+  },
+  {
+    "head": "anisotropic meshing",
+    "relation": "conjunction",
+    "tail": "non-quadratic approach"
+  },
+  {
+    "head": "anisotropic meshing",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "non-quadratic approach",
+    "relation": "used for",
+    "tail": "regularization"
+  },
+  {
+    "head": "non-quadratic approach",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "triangulations",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "Structural or numerical constraints",
+    "relation": "used for",
+    "tail": "reconstruction process"
+  },
+  {
+    "head": "constrained optimization scheme",
+    "relation": "used for",
+    "tail": "Structural or numerical constraints"
+  },
+  {
+    "head": "They",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "object shape",
+    "relation": "feature of",
+    "tail": "priori knowledge"
+  },
+  {
+    "head": "them",
+    "relation": "used for",
+    "tail": "3 -- D reconstruction"
+  }
+]

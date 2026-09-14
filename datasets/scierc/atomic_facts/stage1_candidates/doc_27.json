@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_27",
+  "facts": [
+    {
+      "fact": "The article is devoted to the problem of quantifying noun groups in German.",
+      "supporting_span": "This article is devoted to the problem of quantifying noun groups in German .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The results of corpus-based investigations are described.",
+      "supporting_span": "the results of corpus-based investigations are described .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A thorough description of the phenomena is provided.",
+      "supporting_span": "After a thorough description of the phenomena ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Some examples are given.",
+      "supporting_span": "some examples are given",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The examples underline the necessity of integrating some kind of information other than grammar sensu stricto into the treebank.",
+      "supporting_span": "some examples are given that underline the necessity of integrating some kind of information other than grammar sensu stricto into the treebank .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on stochastic parsers trained on the tree-bank.",
+      "supporting_span": "a more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on stochastic parsers trained on the tree-bank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on grammars induced from the treebank.",
+      "supporting_span": "a more sophisticated and fine-grained annotation in the tree-bank would have very positve effects on stochastic parsers trained on the tree-bank and on grammars induced from the treebank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A more sophisticated and fine-grained annotation in the tree-bank would make the treebank more valuable as a source of data for theoretical linguistic investigations.",
+      "supporting_span": "it would make the treebank more valuable as a source of data for theoretical linguistic investigations .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Stochastic parsers are trained on the tree-bank.",
+      "supporting_span": "stochastic parsers trained on the tree-bank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Grammars are induced from the treebank.",
+      "supporting_span": "grammars induced from the treebank",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The treebank is a source of data for theoretical linguistic investigations.",
+      "supporting_span": "the treebank more valuable as a source of data for theoretical linguistic investigations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The information gained from corpus research are realized in the framework of SILVA.",
+      "supporting_span": "The information gained from corpus research and the analyses that are proposed are realized in the framework of SILVA , a parsing and extraction tool for German text corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The analyses that are proposed are realized in the framework of SILVA.",
+      "supporting_span": "the analyses that are proposed are realized in the framework of SILVA",
+      "span_mismatch": false
+    },
+    {
+      "fact": "SILVA is a parsing and extraction tool for German text corpora.",
+      "supporting_span": "SILVA , a parsing and extraction tool for German text corpora .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "SILVA is for German text corpora.",
+      "supporting_span": "a parsing and extraction tool for German text corpora",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

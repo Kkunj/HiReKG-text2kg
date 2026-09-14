@@ -1,0 +1,32 @@
+[
+  {
+    "head": "data-driven selection",
+    "relation": "used for",
+    "tail": "embodied conversational agent"
+  },
+  {
+    "head": "emphatic facial displays",
+    "relation": "used for",
+    "tail": "data-driven selection"
+  },
+  {
+    "head": "embodied conversational agent",
+    "relation": "part of",
+    "tail": "dialogue system"
+  },
+  {
+    "head": "data",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "models",
+    "relation": "used for",
+    "tail": "facial displays"
+  },
+  {
+    "head": "cross-validation",
+    "relation": "evaluate for",
+    "tail": "models"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "head": "representation",
+    "relation": "used for",
+    "tail": "three-dimensional objects"
+  },
+  {
+    "head": "affine-invariant image patches",
+    "relation": "feature of",
+    "tail": "three-dimensional objects"
+  },
+  {
+    "head": "spatial relationships",
+    "relation": "feature of",
+    "tail": "affine-invariant image patches"
+  },
+  {
+    "head": "Multi-view constraints",
+    "relation": "conjunction",
+    "tail": "normalized representation"
+  },
+  {
+    "head": "Multi-view constraints",
+    "relation": "used for",
+    "tail": "matching"
+  },
+  {
+    "head": "Multi-view constraints",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "normalized representation",
+    "relation": "used for",
+    "tail": "matching"
+  },
+  {
+    "head": "normalized representation",
+    "relation": "used for",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "matching",
+    "relation": "conjunction",
+    "tail": "reconstruction"
+  },
+  {
+    "head": "images",
+    "relation": "used for",
+    "tail": "acquisition of true three-dimensional affine and Euclidean models"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "cluttered scenes"
+  }
+]

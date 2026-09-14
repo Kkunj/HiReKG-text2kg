@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_72",
+  "facts": [
+    "Convolutional neural networks are computationally expensive.",
+    "Convolutional neural networks must examine all image locations.",
+    "Convolutional neural networks are successful.",
+    "Stochastic attention-based models have been shown to improve computational efficiency at test time.",
+    "Stochastic attention-based models remain difficult to train.",
+    "Stochastic attention-based models are difficult to train because of intractable posterior inference.",
+    "Stochastic attention-based models are difficult to train because of high variance in the stochastic gradient estimates.",
+    "Techniques from the literature on training deep generative models are borrowed.",
+    "The Wake-Sleep Recurrent Attention Model is presented.",
+    "The Wake-Sleep Recurrent Attention Model is a method for training stochastic attention networks.",
+    "The Wake-Sleep Recurrent Attention Model improves posterior inference.",
+    "The Wake-Sleep Recurrent Attention Model reduces the variability in the stochastic gradients.",
+    "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks.",
+    "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of image classification.",
+    "The Wake-Sleep Recurrent Attention Model can greatly speed up the training time for stochastic attention networks in the domain of caption generation."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8
+  ],
+  "multiple-entity": [
+    3,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [],
+  "entities": [
+    "convolutional neural networks",
+    "Stochastic attention-based models",
+    "computational efficiency",
+    "intractable posterior inference",
+    "stochastic gradient estimates",
+    "Borrowing techniques",
+    "deep generative models",
+    "Wake-Sleep Recurrent Attention Model",
+    "stochastic attention networks",
+    "posterior inference",
+    "stochastic gradients",
+    "training time",
+    "image classification",
+    "caption generation"
+  ]
+}

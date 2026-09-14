@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_42",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Automatic image annotation is a newly developed technique.",
+      "generator_supporting_span": "Automatic image annotation is a newly developed and promising technique",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Automatic image annotation is a newly developed and promising technique to provide semantic image retrieval via text descriptions .",
+      "verifier_reasoning": "The source text explicitly states in the first sentence that \"Automatic image annotation is a newly developed and promising technique\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "Automatic image annotation is a promising technique.",
+      "generator_supporting_span": "Automatic image annotation is a newly developed and promising technique",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Automatic image annotation is a newly developed and promising technique to provide semantic image retrieval via text descriptions .",
+      "verifier_reasoning": "The first sentence of the source text explicitly describes automatic image annotation as a 'promising technique', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Automatic image annotation provides semantic image retrieval via text descriptions.",
+      "generator_supporting_span": "to provide semantic image retrieval via text descriptions .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Automatic image annotation is a newly developed and promising technique to provide semantic image retrieval via text descriptions .",
+      "verifier_reasoning": "The first sentence of the source text explicitly defines automatic image annotation as a technique whose purpose is to provide semantic image retrieval through text descriptions, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The image contents are labeled with a pre-defined set of keywords.",
+      "generator_supporting_span": "automatically labeling the image contents with a pre-defined set of keywords",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It concerns a process of automatically labeling the image contents with a pre-defined set of keywords which are exploited to represent the image semantics .",
+      "verifier_reasoning": "The source text explicitly defines automatic image annotation as a process that involves labeling image contents with a pre-defined set of keywords. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "The pre-defined set of keywords is exploited to represent the image semantics.",
+      "generator_supporting_span": "which are exploited to represent the image semantics .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "It concerns a process of automatically labeling the image contents with a pre-defined set of keywords which are exploited to represent the image semantics .",
+      "verifier_reasoning": "The source text explicitly states that automatic image annotation involves using a pre-defined set of keywords, and that these keywords 'are exploited to represent the image semantics'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "A Maximum Entropy Model-based approach to automatic image annotation is proposed.",
+      "generator_supporting_span": "A Maximum Entropy Model-based approach to the task of automatic image annotation is proposed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "A Maximum Entropy Model-based approach to the task of automatic image annotation is proposed in this paper .",
+      "verifier_reasoning": "The source text explicitly states that a Maximum Entropy Model-based approach for automatic image annotation is being proposed within the paper.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "In the training phase, a basic visual vocabulary is generated at first.",
+      "generator_supporting_span": "In the phase of training , a basic visual vocabulary consisting of blob-tokens to describe the image content is generated at first ;",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the phase of training , a basic visual vocabulary consisting of blob-tokens to describe the image content is generated at first",
+      "verifier_reasoning": "The source text explicitly describes the process during the training phase, stating that the first step is the generation of a basic visual vocabulary.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The basic visual vocabulary consists of blob-tokens.",
+      "generator_supporting_span": "a basic visual vocabulary consisting of blob-tokens",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the phase of training , a basic visual vocabulary consisting of blob-tokens to describe the image content is generated at first",
+      "verifier_reasoning": "The source text explicitly states that during the training phase, a 'basic visual vocabulary consisting of blob-tokens' is generated. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The statistical relationship between the blob-tokens and keywords is modeled by a Maximum Entropy Model.",
+      "generator_supporting_span": "then the statistical relationship is modeled between the blob-tokens and keywords by a Maximum Entropy Model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "then the statistical relationship is modeled between the blob-tokens and keywords by a Maximum Entropy Model constructed from the training set of labeled images",
+      "verifier_reasoning": "The source text explicitly states that during the training phase, a Maximum Entropy Model is used to model the statistical relationship between blob-tokens and keywords.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The Maximum Entropy Model is constructed from the training set of labeled images.",
+      "generator_supporting_span": "constructed from the training set of labeled images .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the statistical relationship is modeled between the blob-tokens and keywords by a Maximum Entropy Model constructed from the training set of labeled images .",
+      "verifier_reasoning": "The source text explicitly states that during the training phase, a Maximum Entropy Model is constructed from the training set of labeled images to model the relationship between visual tokens and keywords.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "In the annotation phase, for an unlabeled image, the most likely associated keywords are predicted.",
+      "generator_supporting_span": "In the phase of annotation , for an unlabeled image , the most likely associated keywords are predicted",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the phase of annotation , for an unlabeled image , the most likely associated keywords are predicted in terms of the blob-token set extracted from the given image .",
+      "verifier_reasoning": "The source text explicitly describes the two phases of the process, training and annotation. It directly states that during the annotation phase, for an unlabeled image, the most likely associated keywords are predicted.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The prediction of associated keywords is made in terms of the blob-token set extracted from the given image.",
+      "generator_supporting_span": "in terms of the blob-token set extracted from the given image .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In the phase of annotation , for an unlabeled image , the most likely associated keywords are predicted in terms of the blob-token set extracted from the given image .",
+      "verifier_reasoning": "The source text explicitly describes the annotation phase, stating that for a new, unlabeled image, the associated keywords are predicted based on the blob-token set extracted from that image. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Experiments were carried out on a medium-sized image collection with about 5000 images from Corel Photo CDs.",
+      "generator_supporting_span": "We carried out experiments on a medium-sized image collection with about 5000 images from Corel Photo CDs .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We carried out experiments on a medium-sized image collection with about 5000 images from Corel Photo CDs .",
+      "verifier_reasoning": "The source text explicitly states the size, number of images, and origin of the image collection used for the experiments, directly matching the information presented in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The annotation performance of the Maximum Entropy Model-based approach outperforms some traditional annotation methods by about 8% in mean precision.",
+      "generator_supporting_span": "the annotation performance of this method outperforms some traditional annotation methods by about 8 % in mean precision",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The experimental results demonstrated that the annotation performance of this method outperforms some traditional annotation methods by about 8 % in mean precision, showing a potential of the Maximum Entropy Model in the task of automatic image annotation .",
+      "verifier_reasoning": "The source text explicitly states that the experimental results showed the annotation performance of the proposed method outperformed traditional methods by the exact percentage and metric mentioned in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The experimental results show a potential of the Maximum Entropy Model in the task of automatic image annotation.",
+      "generator_supporting_span": "showing a potential of the Maximum Entropy Model in the task of automatic image annotation .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The experimental results demonstrated that the annotation performance of this method outperforms some traditional annotation methods by about 8 % in mean precision , showing a potential of the Maximum Entropy Model in the task of automatic image annotation .",
+      "verifier_reasoning": "The source text explicitly states that the experimental results demonstrated the method's superior performance, and concludes the sentence by stating this shows 'a potential of the Maximum Entropy Model in the task of automatic image annotation'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "Mono_software",
+  "facts": [
+    {
+      "fact": "Mono is a free and open - source project.",
+      "supporting_span": "Mono is a free and open - source project",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono is a project to create an Ecma standard - compliant .NET Framework - compatible software framework.",
+      "supporting_span": "to create an Ecma standard - compliant .NET Framework - compatible software framework",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono includes a C # compiler.",
+      "supporting_span": "including a C # compiler",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono includes a Common Language Runtime.",
+      "supporting_span": "and a Common Language Runtime",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono was originally by Ximian.",
+      "supporting_span": "Originally by Ximian",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono was later acquired by Novell.",
+      "supporting_span": "was later acquired by Novell",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono is now being led by Xamarin.",
+      "supporting_span": "is now being led by Xamarin",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The stated purpose of Mono is to be able to run Microsoft .NET applications cross - platform.",
+      "supporting_span": "The stated purpose of Mono is not only to be able to run Microsoft .NET applications cross - platform",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The stated purpose of Mono is to bring better development tools to Linux developers.",
+      "supporting_span": "but also to bring better development tools to Linux developers",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono can be run on many software systems.",
+      "supporting_span": "Mono can be run on many software systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Mono project has been controversial within the open - source community.",
+      "supporting_span": "The Mono project has been controversial within the open - source community",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Mono implements portions of .NET Framework that may be covered by Microsoft patents.",
+      "supporting_span": "it implements portions of .NET Framework that may be covered by Microsoft patents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Standardized portions of .NET Framework are covered under Microsoft Open Specification Promise.",
+      "supporting_span": "standardized portions of .NET Framework are covered under Microsoft Open Specification Promise",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Other portions of .NET Framework are not covered under Microsoft Open Specification Promise.",
+      "supporting_span": "Although standardized portions of .NET Framework are covered under Microsoft Open Specification Promise — a covenant stating that Microsoft will not assert its patents against implementations of its specifications under certain conditions — other portions are not , which led to concerns that the Mono project could become the target of patent infringement lawsuits .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An updated patent promise has been issued for the Mono project.",
+      "supporting_span": "an updated patent promise has been issued for the Mono project ( ) .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

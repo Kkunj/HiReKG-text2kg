@@ -1,0 +1,63 @@
+{
+  "doc_id": "doc_18",
+  "facts": [
+    "Video provides rich visual cues such as motion and appearance.",
+    "Video provides long-range temporal interactions among objects.",
+    "The authors aim to capture long-range temporal interactions among objects.",
+    "The authors aim to construct a powerful intermediate-level video representation for subsequent recognition.",
+    "The authors seek to obtain spatio-temporal over-segmentation of a video into regions that respect object boundaries.",
+    "The authors seek to associate object pixels over many video frames.",
+    "The contributions of the paper are twofold.",
+    "The authors develop an efficient spatio-temporal video segmentation algorithm.",
+    "The spatio-temporal video segmentation algorithm incorporates long-range motion cues from the past frames.",
+    "The spatio-temporal video segmentation algorithm incorporates long-range motion cues from the future frames.",
+    "The long-range motion cues are in the form of clusters of point tracks with coherent motion.",
+    "The authors devise a new track clustering cost function.",
+    "The track clustering cost function includes occlusion reasoning in the form of depth ordering constraints.",
+    "The track clustering cost function includes motion similarity along the tracks.",
+    "The authors evaluate the proposed approach on a challenging set of video sequences of office scenes from feature length movies."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    2,
+    5,
+    7,
+    11
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14
+  ],
+  "ambiguous": [
+    6
+  ],
+  "entities": [
+    "Video",
+    "visual cues",
+    "motion",
+    "appearance",
+    "long-range temporal interactions",
+    "intermediate-level video representation",
+    "recognition",
+    "spatio-temporal over-segmentation",
+    "object boundaries",
+    "spatio-temporal video segmentation algorithm",
+    "long-range motion cues",
+    "clusters of point tracks",
+    "track clustering cost function",
+    "occlusion reasoning",
+    "depth ordering constraints",
+    "motion similarity",
+    "video sequences of office scenes",
+    "movies"
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "head": "components",
+    "relation": "part of",
+    "tail": "discourse structure"
+  },
+  {
+    "head": "linguistic structure",
+    "relation": "part of",
+    "tail": "components"
+  },
+  {
+    "head": "linguistic structure",
+    "relation": "conjunction",
+    "tail": "intentional structure"
+  },
+  {
+    "head": "intentional structure",
+    "relation": "part of",
+    "tail": "components"
+  },
+  {
+    "head": "intentional structure",
+    "relation": "conjunction",
+    "tail": "attentional state"
+  },
+  {
+    "head": "attentional state",
+    "relation": "part of",
+    "tail": "components"
+  },
+  {
+    "head": "intentional structure",
+    "relation": "used for",
+    "tail": "discourse-relevant purposes"
+  },
+  {
+    "head": "cue phrases",
+    "relation": "hyponym of",
+    "tail": "discourse phenomena"
+  },
+  {
+    "head": "cue phrases",
+    "relation": "conjunction",
+    "tail": "referring expressions"
+  },
+  {
+    "head": "referring expressions",
+    "relation": "hyponym of",
+    "tail": "discourse phenomena"
+  },
+  {
+    "head": "referring expressions",
+    "relation": "conjunction",
+    "tail": "interruptions"
+  },
+  {
+    "head": "interruptions",
+    "relation": "hyponym of",
+    "tail": "discourse phenomena"
+  }
+]

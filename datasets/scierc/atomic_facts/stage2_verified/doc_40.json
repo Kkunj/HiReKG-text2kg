@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_40",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Statistical language modeling remains a challenging task, in particular for morphologically rich languages.",
+      "generator_supporting_span": "Statistical language modeling remains a challenging task , in particular for morphologically rich languages .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Statistical language modeling remains a challenging task , in particular for morphologically rich languages .",
+      "verifier_reasoning": "The source text opens with the exact statement presented in the candidate fact, making this a direct and verbatim entailment.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "New approaches based on factored language models have been developed to address the problem of statistical language modeling.",
+      "generator_supporting_span": "Recently , new approaches based on factored language models have been developed to address this problem .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Statistical language modeling remains a challenging task , in particular for morphologically rich languages . Recently , new approaches based on factored language models have been developed to address this problem .",
+      "verifier_reasoning": "The source text first identifies statistical language modeling as a 'challenging task' (a problem). It then directly states that 'new approaches based on factored language models have been developed to address this problem'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Factored language models provide principled ways of including additional conditioning variables other than the preceding words.",
+      "generator_supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "verifier_reasoning": "The source text introduces factored language models and then, in the following sentence, explicitly states that 'These models provide principled ways of including additional conditioning variables other than the preceding words'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Morphological features are additional conditioning variables other than the preceding words.",
+      "generator_supporting_span": "additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "verifier_reasoning": "The source text explicitly lists 'morphological or syntactic features' as examples ('such as') of 'additional conditioning variables other than the preceding words', directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Syntactic features are additional conditioning variables other than the preceding words.",
+      "generator_supporting_span": "additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "verifier_reasoning": "The source text explicitly lists examples of 'additional conditioning variables other than the preceding words', and one of those examples is 'syntactic features'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The number of possible choices for model parameters creates a large space of models.",
+      "generator_supporting_span": "the number of possible choices for model parameters creates a large space of models",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the number of possible choices for model parameters creates a large space of models that can not be searched exhaustively",
+      "verifier_reasoning": "The source text explicitly states that the number of possible choices for model parameters is what creates a large space of models.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "A large space of models can not be searched exhaustively.",
+      "generator_supporting_span": "a large space of models that can not be searched exhaustively .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "the number of possible choices for model parameters creates a large space of models that can not be searched exhaustively",
+      "verifier_reasoning": "The source text explicitly states that the number of possible choices for model parameters leads to the creation of 'a large space of models that can not be searched exhaustively', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The paper presents an entirely data-driven model selection procedure.",
+      "generator_supporting_span": "This paper presents an entirely data-driven model selection procedure",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents an entirely data-driven model selection procedure based on genetic search",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a model selection procedure that is entirely data-driven.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "An entirely data-driven model selection procedure is based on genetic search.",
+      "generator_supporting_span": "based on genetic search",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents an entirely data-driven model selection procedure based on genetic search",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a procedure that is both an 'entirely data-driven model selection procedure' and is 'based on genetic search', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "An entirely data-driven model selection procedure is shown to outperform knowledge-based selection procedures.",
+      "generator_supporting_span": "which is shown to outperform both knowledge-based and random selection procedures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents an entirely data-driven model selection procedure based on genetic search, which is shown to outperform both knowledge-based and random selection procedures on two different language modeling tasks (Arabic and Turkish) .",
+      "verifier_reasoning": "The source text explicitly states that the presented data-driven model selection procedure \"is shown to outperform both knowledge-based and random selection procedures\", which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "An entirely data-driven model selection procedure is shown to outperform random selection procedures.",
+      "generator_supporting_span": "which is shown to outperform both knowledge-based and random selection procedures",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents an entirely data-driven model selection procedure based on genetic search, which is shown to outperform both knowledge-based and random selection procedures on two different language modeling tasks (Arabic and Turkish) .",
+      "verifier_reasoning": "The source text explicitly states that the presented 'entirely data-driven model selection procedure' has been 'shown to outperform both knowledge-based and random selection procedures'. This directly supports the candidate fact that it outperforms random selection procedures.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "An entirely data-driven model selection procedure is shown to outperform on two different language modeling tasks.",
+      "generator_supporting_span": "which is shown to outperform both knowledge-based and random selection procedures on two different language modeling tasks",
+      "span_mismatch": false,
+      "verifier_supporting_span": "This paper presents an entirely data-driven model selection procedure based on genetic search, which is shown to outperform both knowledge-based and random selection procedures on two different language modeling tasks (Arabic and Turkish) .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents an \"entirely data-driven model selection procedure\" and that this procedure \"is shown to outperform\" other methods on \"two different language modeling tasks\". This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The two different language modeling tasks are Arabic and Turkish.",
+      "generator_supporting_span": "on two different language modeling tasks (Arabic and Turkish) .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "on two different language modeling tasks (Arabic and Turkish)",
+      "verifier_reasoning": "The source text explicitly lists the two language modeling tasks on which the described procedure was tested, naming them as Arabic and Turkish.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "New approaches based on factored language models have been developed recently.",
+      "generator_supporting_span": "Recently , new approaches based on factored language models have been developed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Recently , new approaches based on factored language models have been developed to address this problem .",
+      "verifier_reasoning": "The source text directly states that new approaches based on factored language models have been developed recently, which is a verbatim match for the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "Factored language models provide principled ways of including morphological features as additional conditioning variables.",
+      "generator_supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "verifier_reasoning": "The source text explicitly states that factored language models ('These models') offer principled methods for including additional conditioning variables, and then gives 'morphological or syntactic features' as a direct example of such variables.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

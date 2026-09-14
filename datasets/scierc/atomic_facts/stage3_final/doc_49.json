@@ -1,0 +1,56 @@
+{
+  "doc_id": "doc_49",
+  "facts": [
+    "The paper considers the problem of automatic assessment of local coherence.",
+    "A novel entity-based representation of discourse is presented.",
+    "The discourse representation is inspired by Centering Theory.",
+    "The discourse representation can be computed automatically.",
+    "The discourse representation can be computed from raw text.",
+    "Coherence assessment is viewed as a ranking learning problem.",
+    "The proposed discourse representation supports the effective learning of a ranking function.",
+    "The learning of a ranking function is supported.",
+    "Experiments demonstrate that the induced model achieves significantly higher accuracy than a state-of-the-art coherence model.",
+    "The induced model achieves significantly higher accuracy than a state-of-the-art coherence model.",
+    "The model is induced.",
+    "A state-of-the-art coherence model is used for comparison.",
+    "The representation is entity-based.",
+    "The assessment is automatic.",
+    "The coherence is local."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    3,
+    7,
+    11
+  ],
+  "multiple-entity": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "ambiguous": [
+    10,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "automatic assessment of local coherence",
+    "entity-based representation of discourse",
+    "Centering Theory",
+    "raw text",
+    "coherence assessment",
+    "ranking learning problem",
+    "discourse representation",
+    "ranking function",
+    "induced model",
+    "accuracy",
+    "coherence model"
+  ]
+}

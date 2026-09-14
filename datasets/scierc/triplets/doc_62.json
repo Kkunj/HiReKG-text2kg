@@ -1,0 +1,92 @@
+[
+  {
+    "head": "unsupervised learning approach",
+    "relation": "used for",
+    "tail": "non-English (Arabic) stemmer"
+  },
+  {
+    "head": "statistical machine translation",
+    "relation": "used for",
+    "tail": "stemming model"
+  },
+  {
+    "head": "English stemmer",
+    "relation": "used for",
+    "tail": "it"
+  },
+  {
+    "head": "parallel corpus",
+    "relation": "used for",
+    "tail": "it"
+  },
+  {
+    "head": "Monolingual , unannotated text",
+    "relation": "used for",
+    "tail": "stemmer"
+  },
+  {
+    "head": "resource-frugal approach",
+    "relation": "compare",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "agreement",
+    "relation": "evaluate for",
+    "tail": "resource-frugal approach"
+  },
+  {
+    "head": "agreement",
+    "relation": "evaluate for",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "rules",
+    "relation": "used for",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "rules",
+    "relation": "conjunction",
+    "tail": "affix lists"
+  },
+  {
+    "head": "affix lists",
+    "relation": "used for",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "affix lists",
+    "relation": "conjunction",
+    "tail": "human annotated text"
+  },
+  {
+    "head": "human annotated text",
+    "relation": "used for",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "human annotated text",
+    "relation": "conjunction",
+    "tail": "unsupervised component"
+  },
+  {
+    "head": "unsupervised component",
+    "relation": "used for",
+    "tail": "Arabic stemmer"
+  },
+  {
+    "head": "Arabic information retrieval",
+    "relation": "used for",
+    "tail": "Task-based evaluation"
+  },
+  {
+    "head": "average precision",
+    "relation": "evaluate for",
+    "tail": "Task-based evaluation"
+  },
+  {
+    "head": "average precision",
+    "relation": "evaluate for",
+    "tail": "unstemmed text"
+  }
+]

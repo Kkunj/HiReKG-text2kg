@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_49",
+  "facts": [
+    {
+      "fact": "The paper considers the problem of automatic assessment of local coherence.",
+      "supporting_span": "This paper considers the problem of automatic assessment of local coherence .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A novel entity-based representation of discourse is presented.",
+      "supporting_span": "We present a novel entity-based representation of discourse",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The discourse representation is inspired by Centering Theory.",
+      "supporting_span": "inspired by Centering Theory",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The discourse representation can be computed automatically.",
+      "supporting_span": "can be computed automatically from raw text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The discourse representation can be computed from raw text.",
+      "supporting_span": "can be computed automatically from raw text",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Coherence assessment is viewed as a ranking learning problem.",
+      "supporting_span": "We view coherence assessment as a ranking learning problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed discourse representation supports the effective learning of a ranking function.",
+      "supporting_span": "the proposed discourse representation supports the effective learning of a ranking function",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The learning of a ranking function is supported.",
+      "supporting_span": "supports the effective learning of a ranking function",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experiments demonstrate that the induced model achieves significantly higher accuracy than a state-of-the-art coherence model.",
+      "supporting_span": "Our experiments demonstrate that the induced model achieves significantly higher accuracy than a state-of-the-art coherence model .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The induced model achieves significantly higher accuracy than a state-of-the-art coherence model.",
+      "supporting_span": "the induced model achieves significantly higher accuracy than a state-of-the-art coherence model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is induced.",
+      "supporting_span": "the induced model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A state-of-the-art coherence model is used for comparison.",
+      "supporting_span": "than a state-of-the-art coherence model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The representation is entity-based.",
+      "supporting_span": "entity-based representation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The assessment is automatic.",
+      "supporting_span": "automatic assessment",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The coherence is local.",
+      "supporting_span": "local coherence",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

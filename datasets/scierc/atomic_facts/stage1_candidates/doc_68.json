@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_68",
+  "facts": [
+    {
+      "fact": "English is shown to be trans-context-free.",
+      "supporting_span": "English is shown to be trans-context-free",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English is shown to be trans-context-free on the basis of coordinations of the respectively type.",
+      "supporting_span": "on the basis of coordinations of the respectively type",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Coordinations of the respectively type involve strictly syntactic cross-serial agreement.",
+      "supporting_span": "coordinations of the respectively type that involve strictly syntactic cross-serial agreement",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Cross-serial agreement is strictly syntactic.",
+      "supporting_span": "strictly syntactic cross-serial agreement",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The agreement in question involves number in nouns.",
+      "supporting_span": "involves number in nouns and reflexive pronouns",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The agreement in question involves number in reflexive pronouns.",
+      "supporting_span": "involves number in nouns and reflexive pronouns",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The agreement in question is syntactic rather than semantic in nature.",
+      "supporting_span": "is syntactic rather than semantic in nature",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Grammatical number in English is partly arbitrary.",
+      "supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Grammatical gender in languages such as French is partly arbitrary.",
+      "supporting_span": "grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proof is formal.",
+      "supporting_span": "The formal proof",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The formal proof makes crucial use of the Interchange Lemma of Ogden et al.",
+      "supporting_span": "The formal proof , which makes crucial use of the Interchange Lemma of Ogden et al. ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The Interchange Lemma is of Ogden et al.",
+      "supporting_span": "Interchange Lemma of Ogden et al.",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The formal proof is constructed to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other.",
+      "supporting_span": "is so constructed as to be valid even if English is presumed to contain grammatical sentences in which respectively operates across a pair of coordinate phrases one of whose members has fewer conjuncts than the other ;",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The formal proof goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively.",
+      "supporting_span": "it thus goes through whatever the facts may be regarding constructions with unequal numbers of conjuncts in the scope of respectively",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Other arguments have foundered on this problem.",
+      "supporting_span": "other arguments have foundered on this problem",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

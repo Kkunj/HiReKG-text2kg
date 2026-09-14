@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_31",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "Syntax-based statistical machine translation aims at applying statistical models to structured data.",
+      "generator_supporting_span": "Syntax-based statistical machine translation (MT) aims at applying statistical models to structured data .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Syntax-based statistical machine translation (MT) aims at applying statistical models to structured data .",
+      "verifier_reasoning": "The first sentence of the source text directly and explicitly states the information presented in the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "MT stands for syntax-based statistical machine translation.",
+      "generator_supporting_span": "Syntax-based statistical machine translation (MT)",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Syntax-based statistical machine translation (MT)",
+      "verifier_reasoning": "The source text introduces the full phrase 'Syntax-based statistical machine translation' and immediately follows it with the parenthetical '(MT)'. This is the standard convention for defining an acronym, directly supporting the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "The paper presents a syntax-based statistical machine translation system.",
+      "generator_supporting_span": "In this paper , we present a syntax-based statistical machine translation system",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a syntax-based statistical machine translation system based on a probabilistic synchronous dependency insertion grammar .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a syntax-based statistical machine translation system in its second sentence.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "The syntax-based statistical machine translation system is based on a probabilistic synchronous dependency insertion grammar.",
+      "generator_supporting_span": "a syntax-based statistical machine translation system based on a probabilistic synchronous dependency insertion grammar",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , we present a syntax-based statistical machine translation system based on a probabilistic synchronous dependency insertion grammar .",
+      "verifier_reasoning": "The source text explicitly states that the paper presents a syntax-based statistical machine translation system that is based on a probabilistic synchronous dependency insertion grammar, which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees.",
+      "generator_supporting_span": "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Synchronous dependency insertion grammars are a version of synchronous grammars defined on dependency trees .",
+      "verifier_reasoning": "The source text contains a sentence that is an exact, verbatim match for the candidate fact, directly stating the definition of synchronous dependency insertion grammars.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "The paper introduces an approach to inducing a grammar from parallel corpora.",
+      "generator_supporting_span": "We first introduce our approach to inducing such a grammar from parallel corpora .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We first introduce our approach to inducing such a grammar from parallel corpora .",
+      "verifier_reasoning": "The source text explicitly states that the authors will introduce their approach to inducing a grammar from parallel corpora. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The paper describes a graphical model for the machine translation task.",
+      "generator_supporting_span": "we describe the graphical model for the machine translation task",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Second , we describe the graphical model for the machine translation task , which can also be viewed as a stochastic tree-to-tree transducer .",
+      "verifier_reasoning": "The source text explicitly states that the authors \"describe the graphical model for the machine translation task\" as the second part of their paper's presentation.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The graphical model can be viewed as a stochastic tree-to-tree transducer.",
+      "generator_supporting_span": "which can also be viewed as a stochastic tree-to-tree transducer .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "we describe the graphical model for the machine translation task, which can also be viewed as a stochastic tree-to-tree transducer .",
+      "verifier_reasoning": "The source text explicitly states that the graphical model for the machine translation task can be viewed as a stochastic tree-to-tree transducer.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "The paper introduces a polynomial time decoding algorithm.",
+      "generator_supporting_span": "We introduce a polynomial time decoding algorithm",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We introduce a polynomial time decoding algorithm for the model .",
+      "verifier_reasoning": "The source text explicitly states that the authors, referred to as 'We', introduce a polynomial time decoding algorithm for their model. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The outputs of the machine translation system are evaluated using the NIST and Bleu automatic MT evaluation software.",
+      "generator_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "verifier_reasoning": "The source text explicitly states that the outputs of the machine translation system are evaluated using the specified software.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "The machine translation system is evaluated using the NIST automatic MT evaluation software.",
+      "generator_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "verifier_reasoning": "The source text explicitly states that the outputs of the described machine translation system are evaluated using two types of software, one of which is the NIST automatic MT evaluation software.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "The machine translation system is evaluated using the Bleu automatic MT evaluation software.",
+      "generator_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "We evaluate the outputs of our MT system using the NIST and Bleu automatic MT evaluation software .",
+      "verifier_reasoning": "The source text explicitly lists the software used to assess the machine translation system's outputs, and Bleu is one of the two mentioned.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system based on the IBM models.",
+      "generator_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "verifier_reasoning": "The source text explicitly states that the results of an evaluation show that the system described in the paper outperforms the baseline system, which is identified as being based on the IBM models.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system in translation speed.",
+      "generator_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "verifier_reasoning": "The source text explicitly states that the evaluation results show the system outperforms the baseline system in two areas, one of which is translation speed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The syntax-based statistical machine translation system outperforms the baseline system in quality.",
+      "generator_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The result shows that our system outperforms the baseline system based on the IBM models in both translation speed and quality .",
+      "verifier_reasoning": "The source text explicitly states that the results of the evaluation show that the system described in the paper outperforms the baseline system in terms of quality.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

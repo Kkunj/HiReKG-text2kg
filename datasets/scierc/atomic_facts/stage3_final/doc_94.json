@@ -1,0 +1,52 @@
+{
+  "doc_id": "doc_94",
+  "facts": [
+    "The research used machine learning techniques.",
+    "The research involved building a comma checker.",
+    "The comma checker is to be integrated in a grammar checker for Basque.",
+    "The system was trained with a little corpus of 100,000 words.",
+    "In the task of not placing commas, the system achieved a precision of 96%.",
+    "In the task of not placing commas, the system achieved a recall of 98%.",
+    "In the task of placing commas, the system achieved a precision of 70%.",
+    "In the task of placing commas, the system achieved a recall of 49%.",
+    "These results can be improved using a bigger and a more homogeneous corpus to train.",
+    "A bigger and more homogeneous corpus is a bigger corpus written by one unique author.",
+    "The paper describes the research.",
+    "There were several experiments.",
+    "The grammar checker is for Basque.",
+    "The system guesses correctly not placing commas.",
+    "The training corpus contained 100,000 words."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    13
+  ],
+  "multiple-entity": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    12
+  ],
+  "ambiguous": [
+    3,
+    8,
+    9,
+    10,
+    11,
+    14
+  ],
+  "entities": [
+    "machine learning techniques",
+    "comma checker",
+    "grammar checker",
+    "Basque",
+    "precision",
+    "recall",
+    "placing commas"
+  ]
+}

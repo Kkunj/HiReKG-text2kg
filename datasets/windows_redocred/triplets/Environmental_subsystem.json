@@ -1,0 +1,242 @@
+[
+  {
+    "head": "Windows NT",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "platform",
+    "tail": "DEC Alpha",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "platform",
+    "tail": "PowerPC",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "platform",
+    "tail": "Mips",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Win16",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "OS/2",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "POSIX",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "DOS",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Hardware Abstraction",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "NT operating systems",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Win32",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "OS/2",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "series",
+    "tail": "Windows NT",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "platform",
+    "tail": "DEC Alpha",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "platform",
+    "tail": "PowerPC",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Windows 95",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 95",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "DEC Alpha",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "PowerPC",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Mips",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows NT",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "HPFS",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "FAT32",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "NTFS",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Dynamic Link Library",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "platform",
+    "tail": "RISC",
+    "relation_code": "P400"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "instance of",
+    "tail": "NT operating systems",
+    "relation_code": "P31"
+  },
+  {
+    "head": "Win32",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Win16",
+    "relation": "subclass of",
+    "tail": "Windows NT",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Win32",
+    "relation": "part of",
+    "tail": "Windows NT",
+    "relation_code": "P361"
+  },
+  {
+    "head": "FAT16",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 95",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "FAT12",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 2000",
+    "relation": "follows",
+    "tail": "Windows 95",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Windows 2000",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows NT",
+    "relation": "has part",
+    "tail": "Win32",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows 95",
+    "relation": "followed by",
+    "tail": "Windows 2000",
+    "relation_code": "P156"
+  }
+]

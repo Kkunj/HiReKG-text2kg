@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_97",
+  "facts": [
+    {
+      "fact": "Systemic grammar has been used for AI text generation work.",
+      "supporting_span": "Systemic grammar has been used for AI text generation work",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Systemic grammar has been used in the past.",
+      "supporting_span": "in the past",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The implementations have tended be ad hoc or inefficient.",
+      "supporting_span": "the implementations have tended be ad hoc or inefficient",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A paper presents an approach to systemic text generation.",
+      "supporting_span": "This paper presents an approach to systemic text generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "AI problem solving techniques are applied directly to an unadulterated systemic grammar.",
+      "supporting_span": "AI problem solving techniques are applied directly to an unadulterated systemic grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "AI problem solving techniques are applied to an unadulterated systemic grammar.",
+      "supporting_span": "AI problem solving techniques are applied directly to an unadulterated systemic grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A systemic grammar is unadulterated.",
+      "supporting_span": "an unadulterated systemic grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An approach is made possible by a special relationship between systemic grammar and problem solving.",
+      "supporting_span": "This approach is made possible by a special relationship between systemic grammar and problem solving",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There is a special relationship between systemic grammar and problem solving.",
+      "supporting_span": "a special relationship between systemic grammar and problem solving",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Systemic grammar is organized primarily as choosing from alternatives.",
+      "supporting_span": "both are organized primarily as choosing from alternatives",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Problem solving is organized primarily as choosing from alternatives.",
+      "supporting_span": "both are organized primarily as choosing from alternatives",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Systemic grammar and problem solving are organized primarily as choosing from alternatives.",
+      "supporting_span": "both are organized primarily as choosing from alternatives",
+      "span_mismatch": false
+    },
+    {
+      "fact": "AI problem solving techniques are applied directly.",
+      "supporting_span": "AI problem solving techniques are applied directly to an unadulterated systemic grammar",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Simple , efficient text generation is firmly based in a linguistic theory.",
+      "supporting_span": "simple , efficient text generation firmly based in a linguistic theory",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Simple , efficient text generation exists.",
+      "supporting_span": "simple , efficient text generation",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "head": "Windows 8",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "followed by",
+    "tail": "Windows 8.1",
+    "relation_code": "P156"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "follows",
+    "tail": "Windows 8",
+    "relation_code": "P155"
+  },
+  {
+    "head": "VivoTab Smart",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Vivo",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Vivo",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT LTE",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab Smart",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "subclass of",
+    "tail": "Microsoft Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Asus WebStorage",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "follows",
+    "tail": "VivoTab RT",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Transformer",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab Note 8",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab Note 8",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "series",
+    "tail": "VivoTab",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "followed by",
+    "tail": "VivoTab RT 3 G",
+    "relation_code": "P156"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "follows",
+    "tail": "VivoTab",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Microsoft Windows",
+    "relation": "product or material produced",
+    "tail": "Windows",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "VivoTab Smart",
+    "relation": "series",
+    "tail": "VivoTab",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab RT LTE",
+    "relation": "manufacturer",
+    "tail": "Asus",
+    "relation_code": "P176"
+  },
+  {
+    "head": "VivoTab Smart",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "follows",
+    "tail": "VivoTab",
+    "relation_code": "P155"
+  },
+  {
+    "head": "VivoTab RT LTE",
+    "relation": "series",
+    "tail": "VivoTab",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "series",
+    "tail": "VivoTab",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "subclass of",
+    "tail": "Microsoft Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Transformer",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "subclass of",
+    "tail": "Vivo",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Microsoft Surface",
+    "relation": "subclass of",
+    "tail": "Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "Windows 8",
+    "relation": "series",
+    "tail": "Windows",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "series",
+    "tail": "Microsoft Windows",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Windows 8.1",
+    "relation": "series",
+    "tail": "Windows",
+    "relation_code": "P179"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "series",
+    "tail": "Vivo",
+    "relation_code": "P179"
+  },
+  {
+    "head": "Microsoft Surface",
+    "relation": "subclass of",
+    "tail": "Microsoft Windows",
+    "relation_code": "P279"
+  },
+  {
+    "head": "VivoTab RT LTE",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab RT 3 G",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab Note 8",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "VivoTab RT",
+    "relation": "developer",
+    "tail": "Asus",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab RT 3 G",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab RT LTE",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab Note 8",
+    "relation_code": "P527"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "has part",
+    "tail": "VivoTab RT",
+    "relation_code": "P527"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "followed by",
+    "tail": "VivoTab RT 3 G",
+    "relation_code": "P156"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "has part",
+    "tail": "VivoTab Smart",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab Smart",
+    "relation_code": "P527"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "followed by",
+    "tail": "VivoTab RT",
+    "relation_code": "P156"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "has part",
+    "tail": "VivoTab RT LTE",
+    "relation_code": "P527"
+  },
+  {
+    "head": "VivoTab",
+    "relation": "has part",
+    "tail": "VivoTab RT 3 G",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows",
+    "relation": "has part",
+    "tail": "Windows 8",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Microsoft Windows",
+    "relation": "has part",
+    "tail": "Windows 8.1",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab RT",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Windows",
+    "relation": "has part",
+    "tail": "Windows 8.1",
+    "relation_code": "P527"
+  },
+  {
+    "head": "Vivo",
+    "relation": "has part",
+    "tail": "VivoTab",
+    "relation_code": "P527"
+  }
+]

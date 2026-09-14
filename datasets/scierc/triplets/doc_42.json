@@ -1,0 +1,77 @@
+[
+  {
+    "head": "Automatic image annotation",
+    "relation": "used for",
+    "tail": "semantic image retrieval"
+  },
+  {
+    "head": "text descriptions",
+    "relation": "used for",
+    "tail": "semantic image retrieval"
+  },
+  {
+    "head": "keywords",
+    "relation": "used for",
+    "tail": "automatically labeling the image contents"
+  },
+  {
+    "head": "keywords",
+    "relation": "used for",
+    "tail": "image semantics"
+  },
+  {
+    "head": "Maximum Entropy Model-based approach",
+    "relation": "used for",
+    "tail": "automatic image annotation"
+  },
+  {
+    "head": "visual vocabulary",
+    "relation": "used for",
+    "tail": "image content"
+  },
+  {
+    "head": "blob-tokens",
+    "relation": "part of",
+    "tail": "visual vocabulary"
+  },
+  {
+    "head": "Maximum Entropy Model",
+    "relation": "used for",
+    "tail": "statistical relationship"
+  },
+  {
+    "head": "blob-token set",
+    "relation": "used for",
+    "tail": "keywords"
+  },
+  {
+    "head": "Corel Photo CDs",
+    "relation": "used for",
+    "tail": "medium-sized image collection"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "annotation"
+  },
+  {
+    "head": "method",
+    "relation": "compare",
+    "tail": "annotation methods"
+  },
+  {
+    "head": "annotation methods",
+    "relation": "used for",
+    "tail": "annotation"
+  },
+  {
+    "head": "mean precision",
+    "relation": "evaluate for",
+    "tail": "annotation methods"
+  },
+  {
+    "head": "Maximum Entropy Model",
+    "relation": "used for",
+    "tail": "automatic image annotation"
+  }
+]

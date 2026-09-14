@@ -1,0 +1,278 @@
+[
+  {
+    "head": "Microsoft Mobile",
+    "relation": "product or material produced",
+    "tail": "Lumia",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Nokia",
+    "relation": "subsidiary",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P355"
+  },
+  {
+    "head": "Nokia",
+    "relation": "product or material produced",
+    "tail": "Lumia",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Nokia",
+    "relation": "product or material produced",
+    "tail": "Symbian",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Nokia",
+    "relation": "product or material produced",
+    "tail": "MeeGo",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Windows Camera",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia Camera",
+    "relation": "developer",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia Camera",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "publisher",
+    "tail": "Microsoft",
+    "relation_code": "P123"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft Photos",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia imaging apps",
+    "relation": "developer",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia",
+    "relation": "developer",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia",
+    "relation": "manufacturer",
+    "tail": "Nokia",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Lumia",
+    "relation": "manufacturer",
+    "tail": "Microsoft",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Lumia",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Symbian",
+    "relation": "owned by",
+    "tail": "Nokia",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Symbian",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "MeeGo",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Symbian",
+    "relation": "followed by",
+    "tail": "MeeGo",
+    "relation_code": "P156"
+  },
+  {
+    "head": "MeeGo",
+    "relation": "follows",
+    "tail": "Symbian",
+    "relation_code": "P155"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Windows Camera",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft Lund division",
+    "relation": "parent organization",
+    "tail": "Microsoft",
+    "relation_code": "P749"
+  },
+  {
+    "head": "Microsoft Photos",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Lumia Panorama",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "subsidiary",
+    "tail": "Microsoft Lund division",
+    "relation_code": "P355"
+  },
+  {
+    "head": "Microsoft Mobile",
+    "relation": "parent organization",
+    "tail": "Microsoft",
+    "relation_code": "P749"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "subsidiary",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P355"
+  },
+  {
+    "head": "Microsoft Mobile",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "MeeGo",
+    "relation": "manufacturer",
+    "tail": "Nokia",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Lumia imaging apps",
+    "relation": "developer",
+    "tail": "Microsoft",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Symbian",
+    "relation": "manufacturer",
+    "tail": "Nokia",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Windows 10 Mobile",
+    "relation": "developer",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft",
+    "relation": "product or material produced",
+    "tail": "Microsoft Photos",
+    "relation_code": "P1056"
+  },
+  {
+    "head": "Microsoft Lund division",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Lumia",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Microsoft Lund division",
+    "relation": "part of",
+    "tail": "Microsoft Mobile",
+    "relation_code": "P361"
+  },
+  {
+    "head": "Lumia Camera",
+    "relation": "owned by",
+    "tail": "Nokia",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Lumia",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Lumia Panorama",
+    "relation": "manufacturer",
+    "tail": "Nokia",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Lumia Camera",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Nokia",
+    "relation": "owned by",
+    "tail": "Microsoft",
+    "relation_code": "P127"
+  },
+  {
+    "head": "Lumia Camera",
+    "relation": "manufacturer",
+    "tail": "Nokia",
+    "relation_code": "P176"
+  },
+  {
+    "head": "Lumia imaging apps",
+    "relation": "developer",
+    "tail": "Nokia",
+    "relation_code": "P178"
+  },
+  {
+    "head": "Microsoft Mobile",
+    "relation": "parent organization",
+    "tail": "Nokia",
+    "relation_code": "P749"
+  },
+  {
+    "head": "Microsoft Mobile",
+    "relation": "has part",
+    "tail": "Microsoft Lund division",
+    "relation_code": "P527"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "head": "pan-tilt-zoom (PTZ) cameras",
+    "relation": "used for",
+    "tail": "panoramic area"
+  },
+  {
+    "head": "pan-tilt-zoom (PTZ) cameras",
+    "relation": "used for",
+    "tail": "high resolution imagery"
+  },
+  {
+    "head": "PTZ cameras",
+    "relation": "feature of",
+    "tail": "automated surveillance systems"
+  },
+  {
+    "head": "algorithms",
+    "relation": "used for",
+    "tail": "relative positioning"
+  },
+  {
+    "head": "algorithms",
+    "relation": "used for",
+    "tail": "orientation"
+  },
+  {
+    "head": "prior knowledge of intrinsic parameters of the PTZ camera",
+    "relation": "used for",
+    "tail": "algorithms"
+  },
+  {
+    "head": "relative positioning",
+    "relation": "conjunction",
+    "tail": "orientation"
+  },
+  {
+    "head": "relative positioning",
+    "relation": "feature of",
+    "tail": "PTZ cameras"
+  },
+  {
+    "head": "orientation",
+    "relation": "feature of",
+    "tail": "PTZ cameras"
+  },
+  {
+    "head": "mapping algorithm",
+    "relation": "used for",
+    "tail": "relative positioning"
+  },
+  {
+    "head": "mapping algorithm",
+    "relation": "used for",
+    "tail": "orientation"
+  },
+  {
+    "head": "relative positioning",
+    "relation": "conjunction",
+    "tail": "orientation"
+  },
+  {
+    "head": "relative positioning",
+    "relation": "feature of",
+    "tail": "PTZ cameras"
+  },
+  {
+    "head": "orientation",
+    "relation": "feature of",
+    "tail": "PTZ cameras"
+  },
+  {
+    "head": "unified polynomial model",
+    "relation": "used for",
+    "tail": "mapping algorithm"
+  },
+  {
+    "head": "computational complexity",
+    "relation": "evaluate for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "flexibility",
+    "relation": "evaluate for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "pixel accuracy",
+    "relation": "evaluate for",
+    "tail": "algorithm"
+  },
+  {
+    "head": "consistent labeling approaches",
+    "relation": "used for",
+    "tail": "pixel accuracy"
+  }
+]

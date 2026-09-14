@@ -1,0 +1,61 @@
+{
+  "doc_id": "doc_91",
+  "facts": [
+    "A new model-based bundle adjustment algorithm is presented to recover the 3D model of a scene/object from a sequence of images with unknown motions.",
+    "A sequence of images has unknown motions in the described setting.",
+    "The new model-based bundle adjustment algorithm uses a surface controlled by a small set of parameters.",
+    "The new model-based bundle adjustment algorithm does not represent a scene/object by a collection of isolated 3D features (usually points).",
+    "The approach has advantages compared with previous model-based approaches.",
+    "The approach directly uses the model space as the search space instead of as a regularizer.",
+    "Using the model space as the search space results in a more elegant formulation with fewer unknowns and fewer equations.",
+    "The new model-based bundle adjustment algorithm automatically associates tracked points with their correct locations on the surfaces.",
+    "The new model-based bundle adjustment algorithm eliminates the need for a prior 2D-to-3D association.",
+    "For face modeling, the new model-based bundle adjustment algorithm uses a very small set of face metrics (meaningful deformations) to parameterize the face geometry.",
+    "Using a very small set of face metrics results in a smaller search space in face modeling.",
+    "Using a very small set of face metrics results in a better posed system in face modeling.",
+    "Experiments with both synthetic and real data show that the new algorithm is faster than existing ones.",
+    "Experiments with both synthetic and real data show that the new algorithm is more accurate than existing ones.",
+    "Experiments with both synthetic and real data show that the new algorithm is more stable than existing ones."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    12,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "ambiguous": [
+    4
+  ],
+  "entities": [
+    "model-based bundle adjustment algorithm",
+    "3D model",
+    "images",
+    "unknown motions",
+    "isolated 3D features",
+    "surface",
+    "model space",
+    "regular-izer",
+    "search space",
+    "surfaces",
+    "prior 2D-to-3D association",
+    "face modeling",
+    "face metrics",
+    "face geometry",
+    "posed system",
+    "synthetic and real data"
+  ]
+}

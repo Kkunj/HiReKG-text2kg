@@ -1,0 +1,32 @@
+{
+  "dataset": "windows_redocred",
+  "n_documents": 15,
+  "total_candidates_generated": 225,
+  "total_facts_after_filtering": 223,
+  "filtering_rate": 0.0089,
+  "verification_rate_distribution": {
+    "mean": 0.9911,
+    "std": 0.0235,
+    "min": 0.9333,
+    "max": 1.0
+  },
+  "drop_reasons": {
+    "span_not_in_text": 0,
+    "contradicted": 1,
+    "not_stated": 1,
+    "parse_error": 0,
+    "unknown_verdict": 0
+  },
+  "facts_per_document": {
+    "mean": 14.8667,
+    "std": 0.3519,
+    "min": 14.0,
+    "max": 15.0
+  },
+  "entity_classification": {
+    "single_entity": 56,
+    "multiple_entity": 155,
+    "ambiguous": 12,
+    "total": 223
+  }
+}

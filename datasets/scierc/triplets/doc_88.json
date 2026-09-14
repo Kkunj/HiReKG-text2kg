@@ -1,0 +1,82 @@
+[
+  {
+    "head": "Automatic evaluation metrics",
+    "relation": "evaluate for",
+    "tail": "Machine Translation (MT) systems"
+  },
+  {
+    "head": "BLEU",
+    "relation": "hyponym of",
+    "tail": "Automatic evaluation metrics"
+  },
+  {
+    "head": "BLEU",
+    "relation": "conjunction",
+    "tail": "NIST"
+  },
+  {
+    "head": "NIST",
+    "relation": "hyponym of",
+    "tail": "Automatic evaluation metrics"
+  },
+  {
+    "head": "they",
+    "relation": "used for",
+    "tail": "assessment of language pairs"
+  },
+  {
+    "head": "English-Chinese",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "English-Chinese",
+    "relation": "conjunction",
+    "tail": "English-Japanese"
+  },
+  {
+    "head": "English-Japanese",
+    "relation": "hyponym of",
+    "tail": "language pairs"
+  },
+  {
+    "head": "BLEU",
+    "relation": "used for",
+    "tail": "word n-grams"
+  },
+  {
+    "head": "BLEU",
+    "relation": "used for",
+    "tail": "character level"
+  },
+  {
+    "head": "word n-grams",
+    "relation": "conjunction",
+    "tail": "character level"
+  },
+  {
+    "head": "BLEU",
+    "relation": "used for",
+    "tail": "character level"
+  },
+  {
+    "head": "BLEU",
+    "relation": "used for",
+    "tail": "word segmentation problem"
+  },
+  {
+    "head": "it",
+    "relation": "evaluate for",
+    "tail": "commercial systems"
+  },
+  {
+    "head": "it",
+    "relation": "evaluate for",
+    "tail": "statistical MT systems"
+  },
+  {
+    "head": "commercial systems",
+    "relation": "compare",
+    "tail": "statistical MT systems"
+  }
+]

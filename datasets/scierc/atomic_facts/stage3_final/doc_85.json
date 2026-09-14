@@ -1,0 +1,57 @@
+{
+  "doc_id": "doc_85",
+  "facts": [
+    "The development of the approach to question answering was motivated by the success of ensemble methods in machine learning and other areas of natural language processing.",
+    "A multi-strategy and multi-source approach to question answering was developed.",
+    "The approach to question answering is based on combining the results from different answering agents.",
+    "Different answering agents search for answers in multiple corpora.",
+    "The answering agents adopt fundamentally different strategies.",
+    "An answering agent utilizes primarily knowledge-based mechanisms.",
+    "An answering agent adopts statistical techniques.",
+    "A multi-level answer resolution algorithm was presented.",
+    "The answer resolution algorithm combines results from the answering agents.",
+    "The answer resolution algorithm combines results at the question level.",
+    "The answer resolution algorithm combines results at the passage level.",
+    "The answer resolution algorithm combines results at the answer level.",
+    "Experiments evaluate the effectiveness of the answer resolution algorithm.",
+    "Experiments show a 35.0 % relative improvement over the baseline system in the number of questions correctly answered.",
+    "Experiments show a 32.8 % improvement according to the average precision metric."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    8
+  ],
+  "ambiguous": [
+    13
+  ],
+  "entities": [
+    "ensemble methods",
+    "machine learning",
+    "natural language processing",
+    "multi-strategy and multi-source approach",
+    "question answering",
+    "answering agents",
+    "knowledge-based mechanisms",
+    "statistical techniques",
+    "multi-level answer resolution algorithm",
+    "question , passage , and/or answer levels",
+    "answer resolution algorithm",
+    "average precision metric"
+  ]
+}

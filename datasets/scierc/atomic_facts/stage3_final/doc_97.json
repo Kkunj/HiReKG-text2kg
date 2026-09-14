@@ -1,0 +1,50 @@
+{
+  "doc_id": "doc_97",
+  "facts": [
+    "Systemic grammar has been used for AI text generation work.",
+    "Systemic grammar has been used in the past.",
+    "The implementations have tended be ad hoc or inefficient.",
+    "A paper presents an approach to systemic text generation.",
+    "AI problem solving techniques are applied directly to an unadulterated systemic grammar.",
+    "AI problem solving techniques are applied to an unadulterated systemic grammar.",
+    "An approach is made possible by a special relationship between systemic grammar and problem solving.",
+    "There is a special relationship between systemic grammar and problem solving.",
+    "Systemic grammar is organized primarily as choosing from alternatives.",
+    "Problem solving is organized primarily as choosing from alternatives.",
+    "Systemic grammar and problem solving are organized primarily as choosing from alternatives.",
+    "AI problem solving techniques are applied directly.",
+    "Simple , efficient text generation is firmly based in a linguistic theory.",
+    "Simple , efficient text generation exists."
+  ],
+  "n_candidates": 15,
+  "n_kept": 14,
+  "single-entity": [
+    1,
+    3,
+    8,
+    9,
+    11,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    10,
+    12
+  ],
+  "ambiguous": [
+    2
+  ],
+  "entities": [
+    "Systemic grammar",
+    "AI text generation",
+    "text generation",
+    "AI problem solving techniques",
+    "systemic grammar",
+    "problem solving",
+    "linguistic theory"
+  ]
+}

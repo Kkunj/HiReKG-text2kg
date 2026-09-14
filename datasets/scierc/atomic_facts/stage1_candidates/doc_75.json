@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_75",
+  "facts": [
+    {
+      "fact": "Probabilistic models have been previously shown to be efficient and effective for modeling and recognition of human motion.",
+      "supporting_span": "Probabilistic models have been previously shown to be efficient and effective for modeling and recognition of human motion .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Methods represent the human motion model as a triangulated graph.",
+      "supporting_span": "In particular we focus on methods which represent the human motion model as a triangulated graph .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous approaches learned models based just on positions and velocities of the body parts while ignoring their appearance.",
+      "supporting_span": "Previous approaches learned models based just on positions and velocities of the body parts while ignoring their appearance .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A heuristic approach was commonly used to obtain translation invariance.",
+      "supporting_span": "Moreover , a heuristic approach was commonly used to obtain translation invariance .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper suggests an improved approach for learning such models and using them for human motion recognition.",
+      "supporting_span": "In this paper we suggest an improved approach for learning such models and using them for human motion recognition .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The suggested approach combines positions, velocities and appearance into both the learning and detection phases.",
+      "supporting_span": "The suggested approach combines multiple cues , i.e. , positions , velocities and appearance into both the learning and detection phases .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global variables are introduced in the model.",
+      "supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global variables in the model can represent translation.",
+      "supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global variables in the model can represent scale.",
+      "supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Global variables in the model can represent viewpoint.",
+      "supporting_span": "Furthermore , we introduce global variables in the model , which can represent global properties such as translation , scale or viewpoint .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is learned in an unsupervised manner from un-labelled data.",
+      "supporting_span": "The model is learned in an unsupervised manner from un-labelled data .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The suggested hybrid probabilistic model combines global variables, like translation, with local variables, like relative positions and appearances of body parts.",
+      "supporting_span": "the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts)",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The suggested hybrid probabilistic model leads to faster convergence of the learning phase.",
+      "supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The suggested hybrid probabilistic model leads to robustness to occlusions.",
+      "supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The suggested hybrid probabilistic model leads to higher recognition rate.",
+      "supporting_span": "We show that the suggested hybrid proba-bilistic model (which combines global variables , like translation , with local variables , like relative positions and appearances of body parts) , leads to : (i) faster convergence of learning phase , (ii) robustness to occlusions , and , (iii) higher recognition rate .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

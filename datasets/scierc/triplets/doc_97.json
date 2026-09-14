@@ -1,0 +1,27 @@
+[
+  {
+    "head": "Systemic grammar",
+    "relation": "used for",
+    "tail": "AI text generation"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "text generation"
+  },
+  {
+    "head": "AI problem solving techniques",
+    "relation": "used for",
+    "tail": "systemic grammar"
+  },
+  {
+    "head": "systemic grammar",
+    "relation": "conjunction",
+    "tail": "problem solving"
+  },
+  {
+    "head": "linguistic theory",
+    "relation": "used for",
+    "tail": "text generation"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_55",
+  "facts": [
+    {
+      "fact": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach.",
+      "supporting_span": "Recent advances in Automatic Speech Recognition technology have put the goal of naturally sounding dialog systems within reach .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The goal of naturally sounding dialog systems is within reach.",
+      "supporting_span": "have put the goal of naturally sounding dialog systems within reach",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Speech recognition has improved.",
+      "supporting_span": "the improved speech recognition",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Improved speech recognition has brought to light a new problem.",
+      "supporting_span": "the improved speech recognition has brought to light a new problem",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialog systems understand more of what the user tells dialog systems.",
+      "supporting_span": "dialog systems understand more of what the user tells them",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialog systems need to be more sophisticated at responding to the user.",
+      "supporting_span": "they need to be more sophisticated at responding to the user",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The issue of system response to users has been extensively studied by the natural language generation community.",
+      "supporting_span": "The issue of system response to users has been extensively studied by the natural language generation community ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The issue of system response to users has been rarely studied in the context of dialog systems.",
+      "supporting_span": "though rarely in the context of dialog systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Research in generation can be adapted to dialog systems.",
+      "supporting_span": "research in generation can be adapted to dialog systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques.",
+      "supporting_span": "the high cost of hand-crafting knowledge-based generation systems can be overcome by employing machine learning techniques",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Hand-crafting knowledge-based generation systems has a high cost.",
+      "supporting_span": "the high cost of hand-crafting knowledge-based generation systems",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Users tell dialog systems information.",
+      "supporting_span": "what the user tells them",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialog systems respond to the user.",
+      "supporting_span": "responding to the user",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A natural language generation community exists.",
+      "supporting_span": "the natural language generation community",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Dialog systems are a context for studying system response to users.",
+      "supporting_span": "in the context of dialog systems",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

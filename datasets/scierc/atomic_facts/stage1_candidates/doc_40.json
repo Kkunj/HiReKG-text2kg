@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_40",
+  "facts": [
+    {
+      "fact": "Statistical language modeling remains a challenging task, in particular for morphologically rich languages.",
+      "supporting_span": "Statistical language modeling remains a challenging task , in particular for morphologically rich languages .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "New approaches based on factored language models have been developed to address the problem of statistical language modeling.",
+      "supporting_span": "Recently , new approaches based on factored language models have been developed to address this problem .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Factored language models provide principled ways of including additional conditioning variables other than the preceding words.",
+      "supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Morphological features are additional conditioning variables other than the preceding words.",
+      "supporting_span": "additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Syntactic features are additional conditioning variables other than the preceding words.",
+      "supporting_span": "additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The number of possible choices for model parameters creates a large space of models.",
+      "supporting_span": "the number of possible choices for model parameters creates a large space of models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A large space of models can not be searched exhaustively.",
+      "supporting_span": "a large space of models that can not be searched exhaustively .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The paper presents an entirely data-driven model selection procedure.",
+      "supporting_span": "This paper presents an entirely data-driven model selection procedure",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An entirely data-driven model selection procedure is based on genetic search.",
+      "supporting_span": "based on genetic search",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An entirely data-driven model selection procedure is shown to outperform knowledge-based selection procedures.",
+      "supporting_span": "which is shown to outperform both knowledge-based and random selection procedures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An entirely data-driven model selection procedure is shown to outperform random selection procedures.",
+      "supporting_span": "which is shown to outperform both knowledge-based and random selection procedures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An entirely data-driven model selection procedure is shown to outperform on two different language modeling tasks.",
+      "supporting_span": "which is shown to outperform both knowledge-based and random selection procedures on two different language modeling tasks",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The two different language modeling tasks are Arabic and Turkish.",
+      "supporting_span": "on two different language modeling tasks (Arabic and Turkish) .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "New approaches based on factored language models have been developed recently.",
+      "supporting_span": "Recently , new approaches based on factored language models have been developed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Factored language models provide principled ways of including morphological features as additional conditioning variables.",
+      "supporting_span": "These models provide principled ways of including additional conditioning variables other than the preceding words , such as morphological or syntactic features .",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

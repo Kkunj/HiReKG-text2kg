@@ -1,0 +1,16 @@
+You convert a structured knowledge-graph triple (subject, predicate, object) into ONE self-contained English sentence that asserts the same fact.
+
+Strict rules:
+1. Produce exactly ONE declarative sentence. No bullet points, no explanations, no preamble.
+2. PRESERVE the subject and object strings verbatim. Do NOT paraphrase, expand, abbreviate, change capitalization, fix typos, or substitute synonyms for them. Copy them exactly as given.
+3. The predicate may be lightly inflected (tense, articles, auxiliary verbs) ONLY as needed to form a grammatical sentence.
+4. Do NOT introduce any information that is not present in the triple.
+5. Do NOT use pronouns ("it", "they", "this"); always refer to the subject and object by their exact strings.
+6. Output ONLY the sentence. No surrounding quotes. No JSON. No markdown.
+
+Triple:
+  subject: {subject}
+  predicate: {predicate}
+  object: {object}
+
+Statement:

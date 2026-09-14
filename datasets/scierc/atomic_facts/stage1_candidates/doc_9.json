@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_9",
+  "facts": [
+    {
+      "fact": "The work proposes a new research direction.",
+      "supporting_span": "This work proposes a new research direction",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The new research direction addresses the lack of structures in traditional n-gram models.",
+      "supporting_span": "to address the lack of structures in traditional n-gram models",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The work is based on a weakly supervised dependency parser.",
+      "supporting_span": "It is based on a weakly supervised dependency parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The weakly supervised dependency parser can model speech syntax.",
+      "supporting_span": "that can model speech syntax",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The weakly supervised dependency parser does not rely on any annotated training corpus.",
+      "supporting_span": "without relying on any annotated training corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Labeled data is replaced by a few hand-crafted rules.",
+      "supporting_span": "Labeled data is replaced by a few hand-crafted rules",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The hand-crafted rules encode basic syntactic knowledge.",
+      "supporting_span": "that encode basic syntactic knowledge",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Bayesian inference samples the rules.",
+      "supporting_span": "Bayesian inference then samples the rules",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Bayesian inference combines the rules to create complex tree structures.",
+      "supporting_span": "combining them to create complex tree structures",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The complex tree structures maximize a discriminative model's posterior.",
+      "supporting_span": "that maximize a discriminative model 's posterior",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The posterior is on a target unlabeled corpus.",
+      "supporting_span": "on a target unlabeled corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The posterior encodes sparse selectional preferences between a head word and its dependents.",
+      "supporting_span": "This posterior encodes sparse se-lectional preferences between a head word and its dependents",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is evaluated on English newspaper texts.",
+      "supporting_span": "The model is evaluated on English and Czech newspaper texts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is evaluated on Czech newspaper texts.",
+      "supporting_span": "The model is evaluated on English and Czech newspaper texts",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model is validated on French broadcast news transcriptions.",
+      "supporting_span": "and is then validated on French broadcast news transcriptions",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

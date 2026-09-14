@@ -1,0 +1,58 @@
+{
+  "doc_id": "doc_15",
+  "facts": [
+    "Two main classes of approaches have been studied to perform monocular nonrigid 3D reconstruction.",
+    "The two main classes of approaches to perform monocular nonrigid 3D reconstruction are Template-based methods and Non-rigid Structure from Motion techniques.",
+    "Template-based methods have been applied to reconstruct poorly-textured surfaces.",
+    "Template-based methods assume the availability of a 3D shape model prior to reconstruction.",
+    "Non-rigid Structure from Motion techniques do not require a shape template.",
+    "Non-rigid Structure from Motion techniques rely on points being tracked throughout a video sequence.",
+    "Non-rigid Structure from Motion techniques are ill-suited to handle poorly-textured surfaces.",
+    "The paper introduces a template-free approach to reconstructing a poorly-textured, deformable surface.",
+    "The paper's approach leverages surface isometry.",
+    "The paper formulates 3D reconstruction as the joint problem of non-rigid image registration and depth estimation.",
+    "The paper's approach yields much more accurate 3D reconstructions than state-of-the-art techniques.",
+    "Template-based methods have been studied to perform monocular nonrigid 3D reconstruction.",
+    "Non-rigid Structure from Motion techniques have been studied to perform monocular nonrigid 3D reconstruction.",
+    "Depth estimation is part of the joint problem of 3D reconstruction.",
+    "Non-rigid image registration is part of the joint problem of 3D reconstruction."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    8,
+    10,
+    13,
+    14
+  ],
+  "multiple-entity": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12
+  ],
+  "ambiguous": [],
+  "entities": [
+    "monocular nonrigid 3D reconstruction",
+    "Template-based methods",
+    "Non-rigid Structure from Motion techniques",
+    "poorly-textured surfaces",
+    "3D shape model",
+    "reconstruction",
+    "shape template",
+    "video sequence",
+    "template-free approach",
+    "poorly-textured , deformable surface",
+    "surface isometry",
+    "3D reconstruction",
+    "joint problem of non-rigid image registration and depth estimation",
+    "3D reconstructions"
+  ]
+}

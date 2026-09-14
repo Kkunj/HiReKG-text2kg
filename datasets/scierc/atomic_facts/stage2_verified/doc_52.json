@@ -1,0 +1,157 @@
+{
+  "doc_id": "doc_52",
+  "generator_model": "gpt-5",
+  "verifier_model": "gemini-2.5-pro",
+  "verified_facts": [
+    {
+      "fact_idx": 0,
+      "fact": "A discrimination and robustness oriented adaptive learning procedure is proposed.",
+      "generator_supporting_span": "a discrimination and robustness oriented adaptive learning procedure is proposed",
+      "span_mismatch": false,
+      "verifier_supporting_span": "a discrimination and robustness oriented adaptive learning procedure is proposed to deal with the task of syntactic ambiguity resolution",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that 'a discrimination and robustness oriented adaptive learning procedure is proposed', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 1,
+      "fact": "The proposed adaptive learning procedure deals with the task of syntactic ambiguity resolution.",
+      "generator_supporting_span": "to deal with the task of syntactic ambiguity resolution",
+      "span_mismatch": false,
+      "verifier_supporting_span": "In this paper , a discrimination and robustness oriented adaptive learning procedure is proposed to deal with the task of syntactic ambiguity resolution .",
+      "verifier_reasoning": "The first sentence of the source text explicitly states that the proposed adaptive learning procedure is intended to address the task of syntactic ambiguity resolution.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 2,
+      "fact": "Insufficient training data is a problem.",
+      "generator_supporting_span": "problem of insufficient training data",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Owing to the problem of insufficient training data and approximation error introduced by the language model , traditional statistical approaches , which resolve ambiguities by indirectly and implicitly using maximum likelihood method , fail to achieve high performance in real applications .",
+      "verifier_reasoning": "The source text explicitly states that traditional statistical approaches fail to achieve high performance due to 'the problem of insufficient training data'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 3,
+      "fact": "Approximation error is introduced by the language model.",
+      "generator_supporting_span": "approximation error introduced by the language model",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Owing to the problem of insufficient training data and approximation error introduced by the language model , traditional statistical approaches , which resolve ambiguities by indirectly and implicitly using maximum likelihood method , fail to achieve high performance in real applications .",
+      "verifier_reasoning": "The source text explicitly states that one of the problems with traditional statistical approaches is the \"approximation error introduced by the language model.\"",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 4,
+      "fact": "Traditional statistical approaches resolve ambiguities by indirectly and implicitly using maximum likelihood method.",
+      "generator_supporting_span": "traditional statistical approaches , which resolve ambiguities by indirectly and implicitly using maximum likelihood method",
+      "span_mismatch": false,
+      "verifier_supporting_span": "traditional statistical approaches , which resolve ambiguities by indirectly and implicitly using maximum likelihood method , fail to achieve high performance in real applications .",
+      "verifier_reasoning": "The source text contains a clause that directly describes the method used by traditional statistical approaches to resolve ambiguities, which perfectly matches the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 5,
+      "fact": "Traditional statistical approaches fail to achieve high performance in real applications.",
+      "generator_supporting_span": "fail to achieve high performance in real applications",
+      "span_mismatch": false,
+      "verifier_supporting_span": "traditional statistical approaches , which resolve ambiguities by indirectly and implicitly using maximum likelihood method , fail to achieve high performance in real applications .",
+      "verifier_reasoning": "The source text explicitly states that due to issues like insufficient training data and approximation errors, traditional statistical approaches do not achieve high performance in real-world scenarios.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 6,
+      "fact": "The proposed method remedies problems by adjusting the parameters.",
+      "generator_supporting_span": "The proposed method remedies these problems by adjusting the parameters",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The proposed method remedies these problems by adjusting the parameters to maximize the accuracy rate directly .",
+      "verifier_reasoning": "The source text explicitly states that the proposed method addresses the previously mentioned problems and specifies that it does so 'by adjusting the parameters'. The candidate fact is a direct summary of this statement.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 7,
+      "fact": "The proposed method maximizes the accuracy rate directly.",
+      "generator_supporting_span": "maximize the accuracy rate directly",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The proposed method remedies these problems by adjusting the parameters to maximize the accuracy rate directly .",
+      "verifier_reasoning": "The source text explicitly states that the proposed method works by 'adjusting the parameters to maximize the accuracy rate directly', which directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 8,
+      "fact": "Possible variations between the training corpus and the real tasks are taken into consideration.",
+      "generator_supporting_span": "the possible variations between the training corpus and the real tasks are also taken into consideration",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To make the proposed algorithm robust , the possible variations between the training corpus and the real tasks are also taken into consideration by enlarging the separation margin between the correct candidate and its competing members .",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm takes into consideration the possible variations between the training corpus and real tasks in order to make it more robust.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 9,
+      "fact": "The separation margin between the correct candidate and its competing members is enlarged.",
+      "generator_supporting_span": "enlarging the separation margin between the correct candidate and its competing members",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To make the proposed algorithm robust , the possible variations between the training corpus and the real tasks are also taken into consideration by enlarging the separation margin between the correct candidate and its competing members .",
+      "verifier_reasoning": "The source text explicitly states that the proposed algorithm's robustness is achieved by 'enlarging the separation margin between the correct candidate and its competing members'. This directly supports the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 10,
+      "fact": "Enlarging the separation margin between the correct candidate and its competing members is intended to make the proposed algorithm robust.",
+      "generator_supporting_span": "To make the proposed algorithm robust , the possible variations between the training corpus and the real tasks are also taken into consideration by enlarging the separation margin between the correct candidate and its competing members .",
+      "span_mismatch": false,
+      "verifier_supporting_span": "To make the proposed algorithm robust , the possible variations between the training corpus and the real tasks are also taken into consideration by enlarging the separation margin between the correct candidate and its competing members .",
+      "verifier_reasoning": "The source text explicitly states that the action of enlarging the separation margin is done for the purpose of making the proposed algorithm robust.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 11,
+      "fact": "Significant improvement has been observed in the test.",
+      "generator_supporting_span": "Significant improvement has been observed in the test",
+      "span_mismatch": false,
+      "verifier_supporting_span": "Significant improvement has been observed in the test .",
+      "verifier_reasoning": "The source text contains the exact sentence presented in the candidate fact, directly stating that a significant improvement was observed.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 12,
+      "fact": "Using the novel approach raises the accuracy rate of syntactic disambiguation from 46.0% to 60.62%.",
+      "generator_supporting_span": "The accuracy rate of syntactic disambiguation is raised from 46.0 % to 60.62 % by using this novel approach",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The accuracy rate of syntactic disambiguation is raised from 46.0 % to 60.62 % by using this novel approach .",
+      "verifier_reasoning": "The source text explicitly states the exact figures mentioned in the candidate fact. The final sentence directly attributes the rise in the accuracy rate of syntactic disambiguation from 46.0% to 60.62% to the use of the 'novel approach'.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 13,
+      "fact": "The accuracy rate before using the novel approach is 46.0%.",
+      "generator_supporting_span": "from 46.0 %",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The accuracy rate of syntactic disambiguation is raised from 46.0 % to 60.62 % by using this novel approach .",
+      "verifier_reasoning": "The source text explicitly states that the accuracy rate was 'raised from 46.0 %', directly confirming that the rate before the implementation of the novel approach was 46.0%.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    },
+    {
+      "fact_idx": 14,
+      "fact": "The accuracy rate after using the novel approach is 60.62%.",
+      "generator_supporting_span": "to 60.62 %",
+      "span_mismatch": false,
+      "verifier_supporting_span": "The accuracy rate of syntactic disambiguation is raised from 46.0 % to 60.62 % by using this novel approach .",
+      "verifier_reasoning": "The source text explicitly states that the accuracy rate was raised 'from 46.0 % to 60.62 % by using this novel approach', directly confirming the candidate fact.",
+      "verifier_verdict": "SUPPORTED",
+      "verifier_error": null
+    }
+  ]
+}

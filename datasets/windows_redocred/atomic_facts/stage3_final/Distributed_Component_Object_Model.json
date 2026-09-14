@@ -1,0 +1,72 @@
+{
+  "doc_id": "Distributed_Component_Object_Model",
+  "facts": [
+    "Distributed Component Object Model (DCOM) is a proprietary Microsoft technology for communication between software components on networked computers.",
+    "DCOM was originally called \"Network OLE.\"",
+    "DCOM extends Microsoft's COM.",
+    "DCOM provides the communication substrate under Microsoft's COM+ application server infrastructure.",
+    "The addition of the \"D\" to COM was due to extensive use of DCE/RPC.",
+    "DCOM had to solve the problems of marshalling.",
+    "Marshalling serializes and deserializes the arguments and return values of method calls over the wire.",
+    "Distributed garbage collection ensures that references held by clients of interfaces are released when the client process crashed or the network connection was lost.",
+    "DCOM had to combine hundreds or tens of thousands of objects held in the client's browser with a single transmission to minimize bandwidth utilization.",
+    "The use of DCE/RPC as the underlying RPC mechanism behind DCOM is a key factor in solving these problems.",
+    "DCE/RPC has strictly defined rules regarding marshalling and who is responsible for freeing memory.",
+    "DCOM was a major competitor to CORBA.",
+    "Normal HTTP requests in combination with web browsers won out over both DCOM and CORBA because of difficulties in getting these technologies to work over Internet firewalls and on unknown and insecure machines.",
+    "Microsoft attempted and failed to head this off by adding an extra http transport to DCE/RPC called ncacn_http.",
+    "DCOM is supported natively in Windows NT 4.0, Windows 2000, Windows XP, Windows Server 2003, Windows 7, Windows 8, Windows 10, Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2, and Windows Server 2016."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    5,
+    8,
+    10
+  ],
+  "multiple-entity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9,
+    11,
+    12,
+    13,
+    14
+  ],
+  "entities": [
+    "DCOM",
+    "Microsoft",
+    "Network OLE",
+    "COM",
+    "COM+",
+    "DCE/RPC",
+    "MSRPC",
+    "Hundreds / Tens of Thousands",
+    "RPC",
+    "CORBA",
+    "HTTP",
+    "http",
+    "ncacn_http",
+    "Network Computing Architecture connection - oriented protocol",
+    "Microsoft Exchange 2003",
+    "Windows NT",
+    "Windows 2000",
+    "Windows XP",
+    "Windows Server 2003",
+    "Windows 7",
+    "Windows 8",
+    "Windows 10",
+    "Windows Server 2008",
+    "Windows Server 2008 R2",
+    "Windows Server 2012",
+    "Windows Server 2012 R2",
+    "Windows Server 2016"
+  ],
+  "ambiguous": [
+    6,
+    7
+  ]
+}

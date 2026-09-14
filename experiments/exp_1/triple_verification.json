@@ -1,0 +1,322 @@
+{
+  "total_triples_processed": 26,
+  "statistics": {
+    "valid_triples": 26,
+    "fixed_triples": 0,
+    "discarded_triples": 0
+  },
+  "verification_details": [
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "is a series of",
+        "object": "microsoft windows hybrid tablet computers",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "is designed by",
+        "object": "asus",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "asus",
+        "relation": "designs",
+        "object": "microsoft windows hybrid tablet computers",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "hybrid tablet computers",
+        "relation": "are designed by",
+        "object": "asus",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "is a sub-series of",
+        "object": "the vivo series",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivo series",
+        "relation": "is created by",
+        "object": "asus",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "derives name from",
+        "object": "the latin word \" to live \"",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "is a primary competitor to",
+        "object": "the microsoft surface",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "transformer series",
+        "relation": "is a primary competitor to",
+        "object": "the microsoft surface",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "transformer series",
+        "relation": "consists of",
+        "object": "convertible devices running windows",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "convertible devices",
+        "relation": "run",
+        "object": "windows",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "microsoft surface",
+        "relation": "competes with",
+        "object": "vivotab and asus's transformer series",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab",
+        "relation": "includes",
+        "object": "vivotab rt , vivotab rt 3 g , vivotab rt lte , vivotab smart , and later on the vivotab note 8",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab rt",
+        "relation": "is part of",
+        "object": "the family",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab rt lte",
+        "relation": "is part of",
+        "object": "the family",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab smart",
+        "relation": "is part of",
+        "object": "the family",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 1,
+      "original": {
+        "subject": "vivotab note 8",
+        "relation": "is part of",
+        "object": "the family",
+        "evidence": "VivoTab is a series of Microsoft Windows hybrid tablet computers designed by Asus . It is a sub - series of the Vivo series by Asus . The name is derived from the Latin word \" to live \" and , along with Asus 's Transformer series of convertible devices running Windows , is a primary competitor to the Microsoft Surface . The family is made up of the VivoTab , VivoTab RT , VivoTab RT 3 G , VivoTab RT LTE , VivoTab Smart , and later on the VivoTab Note 8 .",
+        "chunk_id": 1
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "come with",
+        "object": "windows 8",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "note 8",
+        "relation": "comes with",
+        "object": "windows 8.1",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "include",
+        "object": "a 3-year subscription to asus webstorage",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "have",
+        "object": "high definition screens",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "advertise",
+        "object": "ultra - portability",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "advertise",
+        "object": "extended battery life",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "tablets",
+        "relation": "have the ability to be",
+        "object": "detachable tablets",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "vivotab rt",
+        "relation": "has an msrp of",
+        "object": "$ 599 usd for the 32 gb model",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    },
+    {
+      "chunk_id": 2,
+      "original": {
+        "subject": "vivotab rt",
+        "relation": "has an msrp of",
+        "object": "$ 699 for the 64 gb model",
+        "evidence": "All of the tablets come with Windows 8 ( or Windows 8.1 on the Note 8) , a 3-year subscription to Asus WebStorage . They have high definition screens advertise ultra - portability and extended battery life , and the ability detachable tablets . VivoTab RT has an MSRP of $ 599 USD ( 32 GB ) and $ 699 ( 64 GB )",
+        "chunk_id": 2
+      },
+      "status": "valid",
+      "fixed": null
+    }
+  ]
+}

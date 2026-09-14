@@ -1,0 +1,57 @@
+[
+  {
+    "head": "weak duration constraints",
+    "relation": "feature of",
+    "tail": "HMMs"
+  },
+  {
+    "head": "clean speech",
+    "relation": "used for",
+    "tail": "models"
+  },
+  {
+    "head": "decoder",
+    "relation": "used for",
+    "tail": "word matches"
+  },
+  {
+    "head": "unrealistic durations",
+    "relation": "feature of",
+    "tail": "word matches"
+  },
+  {
+    "head": "unrolling HMMs",
+    "relation": "used for",
+    "tail": "word duration constraints"
+  },
+  {
+    "head": "unrolling HMMs",
+    "relation": "used for",
+    "tail": "lattice"
+  },
+  {
+    "head": "word duration probabilities",
+    "relation": "used for",
+    "tail": "state transitions"
+  },
+  {
+    "head": "Viterbi decoding",
+    "relation": "conjunction",
+    "tail": "HMMs"
+  },
+  {
+    "head": "connected-digit recognition",
+    "relation": "used for",
+    "tail": "decoder"
+  },
+  {
+    "head": "duration constraints",
+    "relation": "used for",
+    "tail": "decoder"
+  },
+  {
+    "head": "decoder",
+    "relation": "used for",
+    "tail": "word matches"
+  }
+]

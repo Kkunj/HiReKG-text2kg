@@ -1,0 +1,42 @@
+[
+  {
+    "head": "manually sense-tagged data",
+    "relation": "used for",
+    "tail": "supervised learning"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "sense-tagged training data"
+  },
+  {
+    "head": "approach",
+    "relation": "used for",
+    "tail": "nouns"
+  },
+  {
+    "head": "English-Chinese parallel corpora",
+    "relation": "used for",
+    "tail": "sense-tagged training data"
+  },
+  {
+    "head": "nouns",
+    "relation": "part of",
+    "tail": "SENSEVAL-2 English lexical sample task"
+  },
+  {
+    "head": "method",
+    "relation": "used for",
+    "tail": "acquiring sense-tagged data"
+  },
+  {
+    "head": "sense coverage",
+    "relation": "feature of",
+    "tail": "manually sense-tagged data"
+  },
+  {
+    "head": "domain dependence",
+    "relation": "feature of",
+    "tail": "evaluating WSD programs"
+  }
+]

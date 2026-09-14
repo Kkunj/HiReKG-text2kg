@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_50",
+  "facts": [
+    {
+      "fact": "A process model for hierarchical perceptual sound organization is proposed.",
+      "supporting_span": "We propose a process model for hierarchical perceptual sound organization",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The process model recognizes perceptual sounds included in incoming sound signals.",
+      "supporting_span": "which recognizes perceptual sounds included in incoming sound signals",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Perceptual sound organization is considered as a scene analysis problem in the auditory domain.",
+      "supporting_span": "We consider perceptual sound organization as a scene analysis problem in the auditory domain",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model consists of multiple processing modules.",
+      "supporting_span": "Our model consists of multiple processing modules",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model consists of a hypothesis network for quantitative integration of multiple sources of information.",
+      "supporting_span": "and a hypothesis network for quantitative integration of multiple sources of information",
+      "span_mismatch": false
+    },
+    {
+      "fact": "When input information for each processing module is available, the module rises to process it.",
+      "supporting_span": "When input information for each processing module is available , the module rises to process it",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Output information is asynchronously written to the hypothesis network.",
+      "supporting_span": "and asynchronously writes output information to the hypothesis network",
+      "span_mismatch": false
+    },
+    {
+      "fact": "On the hypothesis network, individual information is integrated.",
+      "supporting_span": "On the hypothesis network , individual information is integrated",
+      "span_mismatch": false
+    },
+    {
+      "fact": "On the hypothesis network, an optimal internal model of perceptual sounds is automatically constructed.",
+      "supporting_span": "and an optimal internal model of perceptual sounds is automatically constructed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A music scene analysis system has been developed based on the model.",
+      "supporting_span": "Based on the model , a music scene analysis system has been developed",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The music scene analysis system is for acoustic signals of ensemble music.",
+      "supporting_span": "for acoustic signals of ensemble music",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The music scene analysis system recognizes rhythm.",
+      "supporting_span": "which recognizes rhythm , chords , and source-separated musical notes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The music scene analysis system recognizes chords.",
+      "supporting_span": "which recognizes rhythm , chords , and source-separated musical notes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The music scene analysis system recognizes source-separated musical notes.",
+      "supporting_span": "which recognizes rhythm , chords , and source-separated musical notes",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Experimental results show that a method has permitted autonomous, stable and effective information integration to construct the internal model of hierarchical perceptual sounds.",
+      "supporting_span": "Experimental results show that our method has permitted autonomous , stable and effective information integration to construct the internal model of hierarchical perceptual sounds",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_1",
+  "facts": [
+    {
+      "fact": "The paper presents an unlexicalized parser for German.",
+      "supporting_span": "we present an unlexicalized parser for German",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The unlexicalized parser employs smoothing.",
+      "supporting_span": "employs smoothing",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The unlexicalized parser employs suffix analysis.",
+      "supporting_span": "employs smoothing and suffix analysis",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The unlexicalized parser achieves a labelled bracket F-score of 76.2.",
+      "supporting_span": "to achieve a labelled bracket F-score of 76.2",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The labelled bracket F-score of 76.2 is higher than previously reported results on the NEGRA corpus.",
+      "supporting_span": "higher than previously reported results on the NEGRA corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The model has high accuracy.",
+      "supporting_span": "the high accuracy of the model",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The use of smoothing in an unlexicalized parser allows better examination of the interplay between smoothing and parsing results.",
+      "supporting_span": "the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "There is an interplay between smoothing and parsing results.",
+      "supporting_span": "the interplay between smoothing and parsing results",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The parser is unlexicalized.",
+      "supporting_span": "an unlexicalized parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The parser is for German.",
+      "supporting_span": "parser for German",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Smoothing and suffix analysis are employed to achieve a labelled bracket F-score of 76.2.",
+      "supporting_span": "employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previously reported results were on the NEGRA corpus.",
+      "supporting_span": "previously reported results on the NEGRA corpus",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Smoothing is used in an unlexicalized parser.",
+      "supporting_span": "the use of smoothing in an unlexicalized parser",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The F-score mentioned is a labelled bracket F-score.",
+      "supporting_span": "a labelled bracket F-score",
+      "span_mismatch": false
+    },
+    {
+      "fact": "NEGRA is a corpus.",
+      "supporting_span": "the NEGRA corpus",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_22",
+  "facts": [
+    {
+      "fact": "An implementation of data-driven selection of emphatic facial displays for an embodied conversational agent in a dialogue system is described.",
+      "supporting_span": "We describe an implementation of data-driven selection of emphatic facial displays for an embodied conversational agent in a dialogue system .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A corpus of sentences in the domain of the target dialogue system was recorded.",
+      "supporting_span": "A corpus of sentences in the domain of the target dialogue system was recorded ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The facial displays used by the speaker were annotated.",
+      "supporting_span": "the facial displays used by the speaker were annotated .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The data from those recordings was used in a range of models for generating facial displays.",
+      "supporting_span": "The data from those recordings was used in a range of models for generating facial displays ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Each model made use of a different amount of context or chose displays differently within a context.",
+      "supporting_span": "each model making use of a different amount of context or choosing displays differently within a context .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The models were evaluated in two ways.",
+      "supporting_span": "The models were evaluated in two ways :",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The models were evaluated by cross-validation against the corpus.",
+      "supporting_span": "by cross-validation against the corpus ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The models were evaluated by asking users to rate the output.",
+      "supporting_span": "and by asking users to rate the output .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The predictions of the cross-validation study differed from the actual user ratings.",
+      "supporting_span": "The predictions of the cross-validation study differed from the actual user ratings .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The cross-validation gave the highest scores to models making a majority choice within a context.",
+      "supporting_span": "the cross-validation gave the highest scores to models making a majority choice within a context ,",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The user study showed a significant preference for models that produced more variation.",
+      "supporting_span": "the user study showed a significant preference for models that produced more variation .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The preference for models that produced more variation was especially strong among the female subjects.",
+      "supporting_span": "This preference was especially strong among the female subjects .",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The cross-validation study made predictions.",
+      "supporting_span": "The predictions of the cross-validation study",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Some models produced more variation.",
+      "supporting_span": "models that produced more variation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The speaker used facial displays.",
+      "supporting_span": "the facial displays used by the speaker",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

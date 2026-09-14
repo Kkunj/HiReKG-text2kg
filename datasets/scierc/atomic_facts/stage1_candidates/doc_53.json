@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_53",
+  "facts": [
+    {
+      "fact": "A dialogue system is described.",
+      "supporting_span": "We describe a dialogue system",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The dialogue system works with its interlocutor.",
+      "supporting_span": "works with its interlocutor",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The dialogue system works to identify objects.",
+      "supporting_span": "to identify objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include a concise, modular architecture with reversible processes of understanding and generation.",
+      "supporting_span": "Our contributions include a concise , modular architecture with reversible processes of understanding and generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include a concise architecture.",
+      "supporting_span": "Our contributions include a concise , modular architecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include a modular architecture.",
+      "supporting_span": "Our contributions include a concise , modular architecture",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include an architecture with reversible processes of understanding.",
+      "supporting_span": "Our contributions include a concise , modular architecture with reversible processes of understanding and generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include an architecture with reversible processes of generation.",
+      "supporting_span": "Our contributions include a concise , modular architecture with reversible processes of understanding and generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include an information-state model of reference.",
+      "supporting_span": "Our contributions include a concise , modular architecture with reversible processes of understanding and generation , an information-state model of reference",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The contributions include flexible links between semantics and collaborative problem solving.",
+      "supporting_span": "an information-state model of reference , and flexible links between semantics and collaborative problem solving",
+      "span_mismatch": false
+    },
+    {
+      "fact": "An information-state model of reference is one of the contributions.",
+      "supporting_span": "Our contributions include a concise , modular architecture with reversible processes of understanding and generation , an information-state model of reference",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Processes of understanding are reversible.",
+      "supporting_span": "reversible processes of understanding and generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Processes of generation are reversible.",
+      "supporting_span": "reversible processes of understanding and generation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The links are flexible.",
+      "supporting_span": "flexible links",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The links are between semantics and collaborative problem solving.",
+      "supporting_span": "between semantics and collaborative problem solving",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

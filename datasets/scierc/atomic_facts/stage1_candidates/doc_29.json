@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_29",
+  "facts": [
+    {
+      "fact": "The paper addresses the problem of populating object category detection datasets with dense, per-object 3D reconstructions.",
+      "supporting_span": "We address the problem of populating object category detection datasets with dense , per-object 3D reconstructions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from class labels.",
+      "supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from ground truth figure-ground segmentations.",
+      "supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The dense, per-object 3D reconstructions are bootstrapped from a small set of keypoint annotations.",
+      "supporting_span": "bootstrapped from class labels , ground truth figure-ground segmentations and a small set of keypoint annotations",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm first estimates camera viewpoint using rigid structure-from-motion.",
+      "supporting_span": "Our proposed algorithm first estimates camera viewpoint using rigid structure-from-motion",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm reconstructs object shapes by optimizing over visual hull proposals.",
+      "supporting_span": "then reconstructs object shapes by optimizing over visual hull proposals",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The optimization over visual hull proposals is guided by loose within-class shape similarity assumptions.",
+      "supporting_span": "guided by loose within-class shape similarity assumptions",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The visual hull sampling process attempts to intersect an object's projection cone with the cones of minimal subsets of other similar objects.",
+      "supporting_span": "attempts to intersect an object 's projection cone with the cones of minimal subsets of other similar objects",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The similar objects considered by the visual hull sampling process are among those pictured from certain vantage points.",
+      "supporting_span": "among those pictured from certain vantage points",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets, PASCAL VOC.",
+      "supporting_span": "our method is able to produce convincing per-object 3D reconstructions on one of the most challenging existing object-category detection datasets , PASCAL VOC",
+      "span_mismatch": false
+    },
+    {
+      "fact": "PASCAL VOC is one of the most challenging existing object-category detection datasets.",
+      "supporting_span": "one of the most challenging existing object-category detection datasets , PASCAL VOC",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The results may re-stimulate once popular geometry-oriented model-based recognition approaches.",
+      "supporting_span": "Our results may re-stimulate once popular geometry-oriented model-based recognition approaches",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Camera viewpoint is estimated using rigid structure-from-motion.",
+      "supporting_span": "estimates camera viewpoint using rigid structure-from-motion",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The proposed algorithm estimates camera viewpoint.",
+      "supporting_span": "first estimates camera viewpoint",
+      "span_mismatch": false
+    },
+    {
+      "fact": "The visual hull sampling process attempts to intersect an object's projection cone.",
+      "supporting_span": "attempts to intersect an object 's projection cone",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

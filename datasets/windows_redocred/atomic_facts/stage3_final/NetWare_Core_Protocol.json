@@ -1,0 +1,59 @@
+{
+  "doc_id": "NetWare_Core_Protocol",
+  "facts": [
+    "The NetWare Core Protocol (NCP) is a network protocol.",
+    "The NetWare Core Protocol is used in some products from Novell, Inc.",
+    "The NetWare Core Protocol is usually associated with the client-server operating system Novell NetWare.",
+    "Novell NetWare originally supported primarily MS-DOS client stations.",
+    "Support for Microsoft Windows was added to Novell NetWare.",
+    "Support for the classic Mac OS was added to Novell NetWare.",
+    "Support for Linux was added to Novell NetWare.",
+    "Support for Windows NT was added to Novell NetWare.",
+    "Support for various flavors of Unix was added to Novell NetWare.",
+    "The NetWare Core Protocol is used to access remote command execution.",
+    "The NetWare Core Protocol is used to access clock synchronization.",
+    "The NetWare Core Protocol is used to access messaging.",
+    "The NetWare Core Protocol originally took advantage of an easy network configuration of the IPX/SPX protocol stack.",
+    "Since mid-1990s the TCP/IP implementation is available.",
+    "Novell eDirectory uses NCP for synchronizing data changes between the servers in a directory service tree."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    0,
+    1,
+    2,
+    12
+  ],
+  "multiple-entity": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    13,
+    14
+  ],
+  "entities": [
+    "NCP",
+    "Novell, Inc.",
+    "Novell NetWare",
+    "MS - DOS",
+    "Microsoft Windows",
+    "Mac OS",
+    "Linux",
+    "Windows NT",
+    "Mac OS X",
+    "Unix",
+    "IPX/SPX",
+    "mid-1990s",
+    "TCP/IP",
+    "Novell eDirectory"
+  ],
+  "ambiguous": [
+    9,
+    10,
+    11
+  ]
+}

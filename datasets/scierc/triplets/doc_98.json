@@ -1,0 +1,62 @@
+[
+  {
+    "head": "efficiency",
+    "relation": "conjunction",
+    "tail": "quality"
+  },
+  {
+    "head": "images of popular music CD 's",
+    "relation": "feature of",
+    "tail": "database"
+  },
+  {
+    "head": "scheme",
+    "relation": "used for",
+    "tail": "background clutter"
+  },
+  {
+    "head": "scheme",
+    "relation": "used for",
+    "tail": "occlusion"
+  },
+  {
+    "head": "indexing descriptors",
+    "relation": "used for",
+    "tail": "scheme"
+  },
+  {
+    "head": "local regions",
+    "relation": "used for",
+    "tail": "indexing descriptors"
+  },
+  {
+    "head": "background clutter",
+    "relation": "conjunction",
+    "tail": "occlusion"
+  },
+  {
+    "head": "vocabulary tree",
+    "relation": "used for",
+    "tail": "local region descriptors"
+  },
+  {
+    "head": "quantization",
+    "relation": "conjunction",
+    "tail": "indexing"
+  },
+  {
+    "head": "recognition quality",
+    "relation": "evaluate for",
+    "tail": "vocabulary tree approach"
+  },
+  {
+    "head": "retrieval",
+    "relation": "evaluate for",
+    "tail": "recognition quality"
+  },
+  {
+    "head": "database with ground truth",
+    "relation": "used for",
+    "tail": "retrieval"
+  }
+]

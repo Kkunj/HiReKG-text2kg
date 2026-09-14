@@ -1,0 +1,32 @@
+[
+  {
+    "head": "bio-inspired model",
+    "relation": "used for",
+    "tail": "analog programmable array processor (APAP)"
+  },
+  {
+    "head": "bio-inspired model",
+    "relation": "used for",
+    "tail": "complex programmable spatio-temporal dynamics"
+  },
+  {
+    "head": "vertebrate retina",
+    "relation": "used for",
+    "tail": "bio-inspired model"
+  },
+  {
+    "head": "complex programmable spatio-temporal dynamics",
+    "relation": "feature of",
+    "tail": "VLSI"
+  },
+  {
+    "head": "visual pathway",
+    "relation": "used for",
+    "tail": "images"
+  },
+  {
+    "head": "Computing power per area",
+    "relation": "conjunction",
+    "tail": "power consumption"
+  }
+]

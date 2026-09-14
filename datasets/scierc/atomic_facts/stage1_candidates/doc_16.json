@@ -1,0 +1,82 @@
+{
+  "doc_id": "doc_16",
+  "facts": [
+    {
+      "fact": "The focus is the problem of building large repositories of lexical conceptual structure (LCS) representations for verbs in multiple languages.",
+      "supporting_span": "the problem of building large repositories of lexical conceptual structure (LCS) representations for verbs in multiple languages",
+      "span_mismatch": false
+    },
+    {
+      "fact": "A main result is the definition of a relation between broad semantic classes and LCS meaning components.",
+      "supporting_span": "One of the main results of this work is the definition of a relation between broad semantic classes and LCS meaning components",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LEXICALL is an acquisition program.",
+      "supporting_span": "Our acquisition program - LEXICALL -",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LEXICALL takes as input the result of previous work on verb classification and thematic grid tagging.",
+      "supporting_span": "takes , as input , the result of previous work on verb classification and thematic grid tagging",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LEXICALL outputs LCS representations for different languages.",
+      "supporting_span": "and outputs LCS representations for different languages",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LCS representations have been ported into English lexicons.",
+      "supporting_span": "These representations have been ported into English , Arabic and Spanish lexicons",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LCS representations have been ported into Arabic lexicons.",
+      "supporting_span": "These representations have been ported into English , Arabic and Spanish lexicons",
+      "span_mismatch": false
+    },
+    {
+      "fact": "LCS representations have been ported into Spanish lexicons.",
+      "supporting_span": "These representations have been ported into English , Arabic and Spanish lexicons",
+      "span_mismatch": false
+    },
+    {
+      "fact": "English lexicons contain approximately 9000 verbs.",
+      "supporting_span": "English , Arabic and Spanish lexicons , each containing approximately 9000 verbs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Arabic lexicons contain approximately 9000 verbs.",
+      "supporting_span": "English , Arabic and Spanish lexicons , each containing approximately 9000 verbs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Spanish lexicons contain approximately 9000 verbs.",
+      "supporting_span": "English , Arabic and Spanish lexicons , each containing approximately 9000 verbs",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexicons are currently used in operational foreign language tutoring.",
+      "supporting_span": "We are currently using these lexicons in an operational foreign language tutoring and machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Lexicons are currently used in machine translation.",
+      "supporting_span": "We are currently using these lexicons in an operational foreign language tutoring and machine translation",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous work is on verb classification.",
+      "supporting_span": "previous work on verb classification and thematic grid tagging",
+      "span_mismatch": false
+    },
+    {
+      "fact": "Previous work is on thematic grid tagging.",
+      "supporting_span": "previous work on verb classification and thematic grid tagging",
+      "span_mismatch": false
+    }
+  ],
+  "generator_model": "gpt-5",
+  "error": null
+}

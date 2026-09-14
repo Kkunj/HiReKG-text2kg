@@ -1,0 +1,12 @@
+[
+  {
+    "head": "ontology",
+    "relation": "used for",
+    "tail": "system"
+  },
+  {
+    "head": "system",
+    "relation": "used for",
+    "tail": "speech recognition hypotheses (SRH)"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "doc_id": "doc_59",
+  "facts": [
+    "Appropriate user modeling is addressed to generate cooperative responses to each user in spoken dialogue systems.",
+    "The proposed user model is more comprehensive than previous studies.",
+    "Previous studies focus on user's knowledge.",
+    "Previous studies focus on typical kinds of users.",
+    "User models have three dimensions.",
+    "Skill level to the system is a dimension of user models.",
+    "Knowledge level on the target domain is a dimension of user models.",
+    "The degree of hastiness is a dimension of user models.",
+    "The models are automatically derived by decision tree learning.",
+    "The models are derived using real dialogue data collected by the system.",
+    "Classification accuracy is reasonable for all dimensions.",
+    "Dialogue strategies based on the user modeling are implemented in Kyoto city bus information system.",
+    "Dialogue strategies are based on the user modeling.",
+    "Cooperative responses adaptive to individual users serve as good guidance for novice users.",
+    "Cooperative responses adaptive to individual users do not increase the dialogue duration for skilled users."
+  ],
+  "n_candidates": 15,
+  "n_kept": 15,
+  "single-entity": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13
+  ],
+  "multiple-entity": [
+    0,
+    11,
+    12,
+    14
+  ],
+  "ambiguous": [
+    2,
+    3
+  ],
+  "entities": [
+    "user modeling",
+    "cooperative responses",
+    "spoken dialogue systems",
+    "user model",
+    "user models",
+    "decision tree learning",
+    "real dialogue data",
+    "classification accuracy",
+    "Dialogue strategies",
+    "Kyoto city bus information system",
+    "dialogue duration"
+  ]
+}

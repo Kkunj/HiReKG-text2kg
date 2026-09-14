@@ -1,0 +1,72 @@
+[
+  {
+    "head": "speaker DOA estimation accuracy",
+    "relation": "feature of",
+    "tail": "mobile speech application"
+  },
+  {
+    "head": "speaker DOA estimation accuracy",
+    "relation": "conjunction",
+    "tail": "interference robustness"
+  },
+  {
+    "head": "interference robustness",
+    "relation": "feature of",
+    "tail": "mobile speech application"
+  },
+  {
+    "head": "interference robustness",
+    "relation": "conjunction",
+    "tail": "compact physical size"
+  },
+  {
+    "head": "compact physical size",
+    "relation": "feature of",
+    "tail": "mobile speech application"
+  },
+  {
+    "head": "It",
+    "relation": "used for",
+    "tail": "favorable properties"
+  },
+  {
+    "head": "inter-sensor data ratio model",
+    "relation": "used for",
+    "tail": "AVS"
+  },
+  {
+    "head": "bispectrum domain (BISDR)",
+    "relation": "used for",
+    "tail": "AVS"
+  },
+  {
+    "head": "zero value of Gaussian process",
+    "relation": "hyponym of",
+    "tail": "favorable properties"
+  },
+  {
+    "head": "zero value of Gaussian process",
+    "relation": "conjunction",
+    "tail": "distribution of speech and NSI"
+  },
+  {
+    "head": "distribution of speech and NSI",
+    "relation": "hyponym of",
+    "tail": "favorable properties"
+  },
+  {
+    "head": "bispectrum mask",
+    "relation": "used for",
+    "tail": "speaker DOA cues"
+  },
+  {
+    "head": "BISDR",
+    "relation": "used for",
+    "tail": "speaker DOA cues"
+  },
+  {
+    "head": "algorithm",
+    "relation": "used for",
+    "tail": "NSI conditions"
+  }
+]
